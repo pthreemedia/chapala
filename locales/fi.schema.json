@@ -606,6 +606,10 @@
           "options__2": {
             "label": "2 saraketta"
           }
+        },
+        "enable_quick_buy": {
+          "label": "Ota pikalisäyspainike käyttöön",
+          "info": "Ihanteellinen ponnahdusikkuna- tai laatikkotyyppisten ostokorien kanssa."
         }
       },
       "presets": {
@@ -1253,6 +1257,10 @@
           "options__2": {
             "label": "2 saraketta"
           }
+        },
+        "enable_quick_buy": {
+          "label": "Ota pikalisäyspainike käyttöön",
+          "info": "Ihanteellinen ponnahdusikkuna- tai laatikkotyyppisten ostokorien kanssa."
         }
       }
     },

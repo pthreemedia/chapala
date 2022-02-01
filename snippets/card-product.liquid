@@ -9,6 +9,8 @@
     - show_rating: {Boolean} Show the product rating. Default: false
     - extend_height: {Boolean} Card height extends to available container space. Default: true (optional)
     - lazy_load: {Boolean} Image should be lazy loaded. Default: true (optional)
+    - show_quick_buy: {Boolean} Show the quick add button.
+    - section_id: {String} The ID of the section that contains this card.
 
     Usage:
     {% render 'card-product', show_vendor: section.settings.show_vendor %}
@@ -81,7 +83,7 @@
         {%- endif -%}
         <div class="card__content">
           <div class="card__information">
-            <h3 class="card__heading">
+            <h3 {% if card_product.featured_media == nil and settings.card_style == 'standard' %}id="title-{{ section_id }}-{{ card_product.id }}"{% endif %} class="card__heading">
               <a href="{{ card_product.url }}" class="full-unstyled-link">
                 {{ card_product.title | escape }}
               </a>
@@ -98,7 +100,7 @@
       </div>
       <div class="card__content">
         <div class="card__information">
-          <h3 class="card__heading{% if card_product.featured_media or settings.card_style == 'standard' %} h5{% endif %}">
+          <h3 {% if card_product.featured_media or settings.card_style == 'card' %}id="title-{{ section_id }}-{{ card_product.id }}"{% endif %} class="card__heading{% if card_product.featured_media or settings.card_style == 'standard' %} h5{% endif %}">
             <a href="{{ card_product.url }}" class="full-unstyled-link">
               {{ card_product.title | escape }}
             </a>
@@ -134,6 +136,71 @@
             {%- endif -%}
 
             {% render 'price', product: card_product, price_class: '' %}
+            {%- if show_quick_buy -%}
+              <div class="quick-buy">
+                {%- assign product_form_id = 'quick-add-' | append: section_id | append: card_product.id -%}
+                {%- if card_product.has_only_default_variant -%}
+                  <product-form>
+                    {%- form 'product', card_product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
+                      <input type="hidden" name="id" value="{{ card_product.selected_or_first_available_variant.id }}" disabled>
+                      <button
+                        id="{{ product_form_id }}-submit"
+                        type="submit"
+                        name="add"
+                        class="quick-buy__submit button button--full-width button--secondary"
+                        aria-haspopup="dialog"
+                        aria-labelledby="{{ product_form_id }}-submit title-{{ section_id }}-{{ card_product.id }}"
+                        aria-live="polite"
+                        data-sold-out-message="true"
+                      {% if card_product.selected_or_first_available_variant.available == false %}disabled{% endif %}
+                      >
+                          <span>
+                            {%- if card_product.selected_or_first_available_variant.available -%}
+                              {{ 'products.product.add_to_cart' | t }}
+                            {%- else -%}
+                              {{ 'products.product.sold_out' | t }}
+                            {%- endif -%}
+                          </span>
+                          <span class="sold-out-message hidden">
+                            {{ 'products.product.sold_out' | t }}
+                          </span>
+                          <div class="loading-overlay__spinner hidden">
+                            <svg aria-hidden="true" focusable="false" role="presentation" class="spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+                              <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                            </svg>
+                          </div>
+                      </button>
+                    {%- endform -%}
+                  </product-form>
+                {%- else -%}
+                  <modal-opener data-modal="#QuickBuy-{{ card_product.id }}">
+                    <button
+                      id="{{ product_form_id }}-submit"
+                      type="submit"
+                      name="add"
+                      class="quick-buy__submit button button--full-width button--secondary"
+                      aria-haspopup="dialog"
+                      aria-labelledby="{{ product_form_id }}-submit title-{{ section_id }}-{{ card_product.id }}"
+                      data-product-url="{{ card_product.url }}"
+                    >
+                      {{ 'products.product.choose_options' | t }}
+                      <div class="loading-overlay__spinner hidden">
+                        <svg aria-hidden="true" focusable="false" role="presentation" class="spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+                          <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                        </svg>
+                      </div>
+                    </button>
+                  </modal-opener>
+                  <quickbuy-modal id="QuickBuy-{{ card_product.id }}" class="quick-buy-modal">
+                    <div role="dialog" aria-label="{{ 'products.product.choose_product_options' | t: product_name: card_product.title | escape }}" aria-modal="true" class="quick-buy-modal__content" tabindex="-1">
+                      <button id="ModalClose-{{ card_product.id }}" type="button" class="quick-buy-modal__toggle" aria-label="{{ 'accessibility.close' | t }}">{% render 'icon-close' %}</button>
+                      <div id="QuickBuyInfo-{{ card_product.id }}" class="quick-buy-modal__content-info">
+                      </div>
+                    </div>          
+                  </quickbuy-modal>
+                {%- endif -%}
+              </div>
+            {%- endif -%}
           </div>
         </div>
         <div class="card__badge {{ settings.badge_position }}">

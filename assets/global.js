@@ -466,6 +466,7 @@ class ModalDialog extends HTMLElement {
 
   hide() {
     document.body.classList.remove('overflow-hidden');
+    document.body.dispatchEvent(new CustomEvent('modalClosed'));
     this.removeAttribute('open');
     removeTrapFocus(this.openedBy);
     window.pauseAllMedia();
@@ -791,7 +792,7 @@ class VariantSelects extends HTMLElement {
 
   updateShareUrl() {
     const shareButton = document.getElementById(`Share-${this.dataset.section}`);
-    if (!shareButton) return;
+    if (!shareButton || !shareButton.updateUrl) return;
     shareButton.updateUrl(`${window.shopUrl}${this.dataset.url}?variant=${this.currentVariant.id}`);
   }
 
@@ -847,7 +848,6 @@ class VariantSelects extends HTMLElement {
     if (!productForm) return;
     const addButton = productForm.querySelector('[name="add"]');
     const addButtonText = productForm.querySelector('[name="add"] > span');
-
     if (!addButton) return;
 
     if (disable) {
@@ -855,6 +855,7 @@ class VariantSelects extends HTMLElement {
       if (text) addButtonText.textContent = text;
     } else {
       addButton.removeAttribute('disabled');
+      addButton.removeAttribute('aria-disabled');
       addButtonText.textContent = window.variantStrings.addToCart;
     }
 
