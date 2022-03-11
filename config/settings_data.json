@@ -99,19 +99,6 @@
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
-        "blocks": {
-          "announcement-bar-0": {
-            "type": "announcement",
-            "settings": {
-              "text": "Welcome to our store",
-              "color_scheme": "background-1",
-              "link": ""
-            }
-          }
-        },
-        "block_order": [
-          "announcement-bar-0"
-        ],
         "settings": {
         }
       },
@@ -119,7 +106,8 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo_width": 90,
+          "logo": "shopify:\/\/shop_images\/seavees-website-logo-navy_f847c3ff-f1ad-41ec-8806-5d68fe4b5a7f.png",
+          "logo_width": 150,
           "logo_position": "middle-left",
           "menu": "header-menu",
           "menu_type_desktop": "dropdown",
@@ -134,40 +122,40 @@
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
-              "menu": "footer"
+              "heading": "About",
+              "menu": "footer-about"
             }
           },
           "footer-1": {
             "type": "link_list",
             "settings": {
-              "heading": "Info",
-              "menu": "footer"
+              "heading": "Connect",
+              "menu": "footer-connect"
             }
           },
-          "footer-2": {
-            "type": "text",
+          "d2e7ec3c-3bfb-4819-bd97-0418ff520f74": {
+            "type": "link_list",
             "settings": {
-              "heading": "Our mission",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+              "heading": "Help",
+              "menu": "footer-help"
             }
           }
         },
         "block_order": [
           "footer-0",
           "footer-1",
-          "footer-2"
+          "d2e7ec3c-3bfb-4819-bd97-0418ff520f74"
         ],
         "settings": {
-          "color_scheme": "background-1",
+          "color_scheme": "inverse",
           "newsletter_enable": true,
-          "newsletter_heading": "Subscribe to our emails",
-          "show_social": true,
+          "newsletter_heading": "Join The Crew",
+          "show_social": false,
           "enable_country_selector": false,
           "enable_language_selector": false,
-          "payment_enable": true,
-          "margin_top": 48,
-          "padding_top": 36,
+          "payment_enable": false,
+          "margin_top": 40,
+          "padding_top": 60,
           "padding_bottom": 36
         }
       },

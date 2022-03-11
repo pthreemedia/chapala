@@ -6,25 +6,25 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "The Classics",
             "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "Comfortable, built to last and perfect for any occasion, our classics are the timeless footwear choice.",
             "text_style": "body"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
+            "button_label_1": "Shop Mens",
+            "button_link_1": "shopify:\/\/pages\/mens-classics",
+            "button_style_secondary_1": false,
+            "button_label_2": "Shop Womens",
+            "button_link_2": "shopify:\/\/pages\/womens-classics",
             "button_style_secondary_2": false
           }
         }
@@ -35,115 +35,17 @@
         "button"
       ],
       "settings": {
-        "image_overlay_opacity": 40,
+        "image": "shopify:\/\/shop_images\/seavees_desktop_hero_sixty_six.jpg",
+        "image_overlay_opacity": 60,
         "image_height": "large",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "bottom-center",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "color_scheme": "background-1",
-        "show_view_all": false,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "columns_mobile": "2",
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "heading_size": "h1",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "show_text_below": true
       }
     },
     "multicolumn": {
@@ -152,49 +54,130 @@
         "column1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/seavees_womens_featured_020911_2b77c119-5668-4265-b60b-a9e8b93a9d80.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Mens Shoes",
+            "link": "shopify:\/\/collections\/mens-all"
           }
         },
         "column2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/seavees_legend_cordies_mobile_211111_00b5cbc0-e34c-43f8-b1b1-22f2d084dcb6.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Womens Shoes",
+            "link": "shopify:\/\/collections\/womens-all"
           }
         }
       },
       "block_order": [
         "column1",
-        "column2",
-        "column3"
+        "column2"
       ],
       "settings": {
         "title": "",
         "heading_size": "h1",
-        "image_width": "third",
+        "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 2,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "swipe_on_mobile": false,
         "color_scheme": "background-1",
         "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1647017703be777e67": {
+      "type": "image-with-text",
+      "blocks": {
+        "1647017703b0c6df95-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "You Got This.",
+            "heading_size": "h1"
+          }
+        },
+        "1647017703b0c6df95-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A limited edition Baja Slip On, designed in collaboration with<em>People I’ve Loved<\/em>, to bring awareness to the importance of mental health. We commit to fighting the stigma, providing support, educating, and advocating for policies that support mental health in our communities.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1647017703b0c6df95-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "shopify:\/\/pages\/mental-health-awareness-baja-slip-on"
+          }
+        }
+      },
+      "block_order": [
+        "1647017703b0c6df95-0",
+        "1647017703b0c6df95-1",
+        "1647017703b0c6df95-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/MHA_SeaVees_Baja_Mobile_Header_121111.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16470178216c89dbf8": {
+      "type": "multicolumn",
+      "blocks": {
+        "1647017821b513cad8-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/seavees_newport_beach_square_111211_2b955e9c-c308-46e9-ba68-595bbe338450.jpg",
+            "title": "Our Stores",
+            "text": "<p>SeaVees stores are a sunbeamed passage into a 1960s California dream. Community clubhouses that lovingly celebrate the Golden State in its golden age. Each shop is a unique immersive experience inspired by the salt-washed origins of the particular locale.<\/p>",
+            "link_label": "Hours & Information",
+            "link": "shopify:\/\/pages\/stores"
+          }
+        },
+        "1647017821b513cad8-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/about_seavees_133211.jpg",
+            "title": "Column",
+            "text": "<p>With a groundbreaking advertising campaign throughout the 1960s, SeaVees pioneered the transformation of the sneaker from gym shoe to casual shoe.<\/p>",
+            "link_label": "Learn More",
+            "link": "shopify:\/\/pages\/about-seavees"
+          }
+        }
+      },
+      "block_order": [
+        "1647017821b513cad8-0",
+        "1647017821b513cad8-1"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -202,10 +185,8 @@
   },
   "order": [
     "image_banner",
-    "rich_text",
-    "featured_collection",
-    "collage",
-    "video",
-    "multicolumn"
+    "multicolumn",
+    "1647017703be777e67",
+    "16470178216c89dbf8"
   ]
 }
