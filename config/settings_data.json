@@ -150,11 +150,15 @@
           "color_scheme": "inverse",
           "newsletter_enable": true,
           "newsletter_heading": "Join The Crew",
+          "newsletter_subheading": "Sign up to our newsletter and save 15% off your first order.",
           "show_social": false,
+          "social_heading": "Follow",
           "enable_country_selector": false,
           "enable_language_selector": false,
           "payment_enable": false,
           "margin_top": 40,
+          "logo_1": "shopify:\/\/shop_images\/CA64_grey.png",
+          "logo_2": "shopify:\/\/shop_images\/1Planet.png",
           "padding_top": 60,
           "padding_bottom": 36
         }
