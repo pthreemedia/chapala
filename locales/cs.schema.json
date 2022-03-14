@@ -642,6 +642,10 @@
         },
         "swipe_on_mobile": {
           "label": "Povolit potažení prstem na mobilním zařízení"
+        },
+        "enable_quick_buy": {
+          "label": "Povolit tlačítko Rychlé přidání",
+          "info": "Je optimální pro košík typu vyskakovací okno nebo výsuvný košík."
         }
       },
       "presets": {
