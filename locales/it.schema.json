@@ -644,7 +644,7 @@
             "label": "2 colonne"
           }
         },
-        "enable_mobile_slider": {
+        "swipe_on_mobile": {
           "label": "Abilita scorrimento su dispositivo mobile"
         }
       },

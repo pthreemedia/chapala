@@ -644,7 +644,7 @@
             "label": "2列"
           }
         },
-        "enable_mobile_slider": {
+        "swipe_on_mobile": {
           "label": "モバイルでスワイプを有効にする"
         }
       },
