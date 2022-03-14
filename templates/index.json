@@ -1,51 +1,54 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "1647293351d0ce45c1": {
+      "type": "hero-banner",
       "blocks": {
-        "heading": {
+        "164729335111f3cd4e-0": {
           "type": "heading",
           "settings": {
-            "heading": "The Classics",
-            "heading_size": "h0"
+            "heading": "Casual Since 1964.",
+            "hide_block_on_mobile": false,
+            "hide_block_on_desktop": false
           }
         },
-        "text": {
+        "164729335111f3cd4e-1": {
           "type": "text",
           "settings": {
-            "text": "Comfortable, built to last and perfect for any occasion, our classics are the timeless footwear choice.",
-            "text_style": "body"
+            "text": "Both classic and contemporary with a reverence for 1960s California cool, SeaVees are the timeless footwear choice.",
+            "hide_block_on_mobile": false,
+            "hide_block_on_desktop": false
           }
         },
-        "button": {
+        "164729335111f3cd4e-2": {
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Mens",
-            "button_link_1": "shopify:\/\/pages\/mens-classics",
+            "button_link_1": "shopify:\/\/collections\/mens-best-sellers",
             "button_style_secondary_1": false,
             "button_label_2": "Shop Womens",
-            "button_link_2": "shopify:\/\/pages\/womens-classics",
-            "button_style_secondary_2": false
+            "button_link_2": "shopify:\/\/collections\/womens-best-sellers",
+            "button_style_secondary_2": false,
+            "hide_block_on_mobile": false,
+            "hide_block_on_desktop": false
           }
         }
       },
       "block_order": [
-        "heading",
-        "text",
-        "button"
+        "164729335111f3cd4e-0",
+        "164729335111f3cd4e-1",
+        "164729335111f3cd4e-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/seavees_desktop_hero_sixty_six.jpg",
-        "image_overlay_opacity": 60,
-        "image_height": "large",
-        "adapt_height_first_image": true,
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": true
+        "use_video_background": false,
+        "hero_video_desktop": "",
+        "hero_video_mobile": "",
+        "image_desktop": "shopify:\/\/shop_images\/seavees_desktop_hero_sixty_six_2_2fdeef68-a7b0-4d84-b4e5-8a1b5450f15d.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/mens_sixty_six_featured_seavees_1331311.jpg",
+        "desktop_text_box_vertical_position": "center",
+        "desktop_text_box_horizontal_position": "center",
+        "desktop_text_alignment": "center",
+        "adapt_height_first_image": false,
+        "text_image_separate": true
       }
     },
     "multicolumn": {
@@ -106,7 +109,7 @@
         "1647017703b0c6df95-1": {
           "type": "text",
           "settings": {
-            "text": "<p>A limited edition Baja Slip On, designed in collaboration with<em>People I’ve Loved<\/em>, to bring awareness to the importance of mental health. We commit to fighting the stigma, providing support, educating, and advocating for policies that support mental health in our communities.<\/p>",
+            "text": "<p>A limited edition Baja Slip On, designed in collaboration with <em>People I’ve Loved<\/em>, to bring awareness to the importance of mental health. We commit to fighting the stigma, providing support, educating, and advocating for policies that support mental health in our communities.<\/p>",
             "text_style": "body"
           }
         },
@@ -154,7 +157,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/about_seavees_133211.jpg",
-            "title": "Column",
+            "title": "About SeaVees",
             "text": "<p>With a groundbreaking advertising campaign throughout the 1960s, SeaVees pioneered the transformation of the sneaker from gym shoe to casual shoe.<\/p>",
             "link_label": "Learn More",
             "link": "shopify:\/\/pages\/about-seavees"
@@ -167,24 +170,24 @@
       ],
       "settings": {
         "title": "",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 2,
         "column_alignment": "left",
-        "background_style": "primary",
+        "background_style": "none",
         "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
     }
   },
   "order": [
-    "image_banner",
+    "1647293351d0ce45c1",
     "multicolumn",
     "1647017703be777e67",
     "16470178216c89dbf8"

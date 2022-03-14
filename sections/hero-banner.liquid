@@ -1,0 +1,370 @@
+{{ 'section-hero-banner.css' | asset_url | stylesheet_tag }}
+
+{%- if section.settings.adapt_height_first_image and section.settings.image_desktop != blank -%}
+    {%- style -%}
+    @media screen and (max-width: 749px) {
+        #Hero-Banner-{{ section.id }}::before,
+        #Hero-Banner-{{ section.id }} .hero-banner__media::before,
+        #Hero-Banner-{{ section.id }}:not(.hero-banner--mobile-bottom) .hero-banner__content::before {
+        padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;
+        content: '';
+        display: block;
+        }
+    }
+
+    @media screen and (min-width: 750px) {
+        #Hero-Banner-{{ section.id }}::before,
+        #Hero-Banner-{{ section.id }} .hero-banner__media::before {
+        padding-bottom: {{ 1 | divided_by: section.settings.image_desktop.aspect_ratio | times: 100 }}%;
+        content: '';
+        display: block;
+        }
+    }
+    {%- endstyle -%}
+{%- endif -%}
+
+{% if section.settings.text_image_separate == true and section.settings.adapt_height_first_image == false %}
+    {%- style -%}
+        @media screen and (min-width: 750px) {
+            .hero-banner .media img {
+                position: relative !important;
+            }
+        }
+    {%- endstyle -%}
+{%- endif -%}
+
+{% if section.settings.use_video_background %}
+
+  <div class="hero-video">  
+    <div class="hero-video-container hero-video-container-desktop">
+    
+      <video autoplay loop muted playsinline>
+        <source src="{{ section.settings.hero_video_desktop }}" type="video/mp4">
+      </video>
+    </div>
+
+    <div class="hero-video-container hero-video-container-mobile">
+    
+    <video autoplay loop muted playsinline>
+      <source src="{{ section.settings.hero_video_mobile }}" type="video/mp4">
+    </video>
+  </div>
+
+    <div class="hero-banner__content page-width" style="align-items: {{ section.settings.desktop_text_box_vertical_position }}; justify-content: {{ section.settings.desktop_text_box_horizontal_position }}; text-align: {{ section.settings.desktop_text_alignment }};">
+      <div class="hero-banner__box">
+        {%- for block in section.blocks -%}
+          {%- case block.type -%}
+            {%- when 'heading' -%}
+              <h2 class="hero-banner__heading h1 {% if block.settings.hide_block_on_mobile %}small-hide{% elsif block.settings.hide_block_on_desktop %}medium-hide large-up-hide{% endif %}" {{ block.shopify_attributes }}>
+                <span>{{ block.settings.heading | escape }}</span>
+              </h2>
+            {%- when 'text' -%}
+              <div class="hero-banner__text {% if block.settings.hide_block_on_mobile %}small-hide{% elsif block.settings.hide_block_on_desktop %}medium-hide large-up-hide{% endif %}" {{ block.shopify_attributes }}>
+                <span>{{ block.settings.text | escape }}</span>
+              </div>
+            {%- when 'buttons' -%}
+              <div class="hero-banner__buttons {% if block.settings.button_label_1 != blank and block.settings.button_link_1 != blank and block.settings.button_label_2 != blank and block.settings.button_link_2 != blank %} hero-banner__buttons--multiple{% endif %} hero-banner__buttons-{{ section.settings.desktop_text_alignment }} {% if block.settings.hide_block_on_mobile %}small-hide{% elsif block.settings.hide_block_on_desktop %}medium-hide large-up-hide{% endif %}" {{ block.shopify_attributes }}>
+                {%- if block.settings.button_label_1 != blank -%}
+                  <a href="{{ block.settings.button_link_1 }}" class="button{% if block.settings.button_style_secondary_1 %} button--primary{% else %} hero-banner__button{% endif %}"{% if block.settings.button_link_1 == blank %} aria-disabled="true"{% endif %}>{{ block.settings.button_label_1 | escape }}</a>
+                {%- endif -%}
+                {%- if block.settings.button_label_2 != blank -%}
+                  <a href="{{ block.settings.button_link_2 }}" class="button{% if block.settings.button_style_secondary_2 %} button--primary]{% else %} hero-banner__button{% endif %}"{% if block.settings.button_link_2 == blank %} aria-disabled="true"{% endif %}>{{ block.settings.button_label_2 | escape }}</a>
+                {%- endif -%}
+              </div>
+          {%- endcase -%}
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+
+{% else %}
+
+  <div id="Hero-Banner-{{ section.id }}" class="hero-banner{% if section.settings.text_image_separate %} hero-banner-separate{% endif %}{% if section.settings.adapt_height_first_image and section.settings.image_desktop != blank %} hero-banner--adapt{% endif %}">
+    {%- if section.settings.image_desktop != blank -%}
+      <div class="hero-banner__media media hero-banner-desktop"> 
+        <img srcset="{%- if section.settings.image.width >= 375 -%}{{ section.settings.image_desktop | img_url: '375x' }} 375w,{%- endif -%}
+          {%- if section.settings.image_desktop.width >= 750 -%}{{ section.settings.image_desktop | img_url: '750x' }} 750w,{%- endif -%}
+          {%- if section.settings.image_desktop.width >= 1100 -%}{{ section.settings.image_desktop | img_url: '1100x' }} 1100w,{%- endif -%}
+          {%- if section.settings.image_desktop.width >= 1500 -%}{{ section.settings.image_desktop | img_url: '1500x' }} 1500w,{%- endif -%}
+          {%- if section.settings.image_desktop.width >= 1780 -%}{{ section.settings.image_desktop | img_url: '1780x' }} 1780w,{%- endif -%}
+          {%- if section.settings.image_desktop.width >= 2000 -%}{{ section.settings.image_desktop | img_url: '2000x' }} 2000w,{%- endif -%}
+          {%- if section.settings.image_desktop.width >= 3000 -%}{{ section.settings.image_desktop | img_url: '3000x' }} 3000w,{%- endif -%}
+          {%- if section.settings.image_desktop.width >= 3840 -%}{{ section.settings.image_desktop | img_url: '3840x' }} 3840w{%- endif -%}"
+          src="{{ section.settings.image_desktop | img_url: '1500x' }}"
+          loading="lazy"
+          alt="{{ section.settings.image_desktop.alt | escape }}"
+          width="{{ section.settings.image_desktop.width }}"
+          height="{{ section.settings.image_desktop.width | divided_by: section.settings.image_desktop.aspect_ratio }}"
+        >
+      </div>
+    {%- endif -%}
+    {%- if section.settings.image_mobile != blank -%}
+      <div class="hero-banner__media media hero-banner-mobile">
+        <img srcset="{%- if section.settings.image_mobile.width >= 375 -%}{{ section.settings.image_mobile | img_url: '375x' }} 375w,{%- endif -%}
+          {%- if section.settings.image_mobile.width >= 750 -%}{{ section.settings.image_mobile | img_url: '750x' }} 750w,{%- endif -%}
+          {%- if section.settings.image_mobile.width >= 1100 -%}{{ section.settings.image_mobile | img_url: '1100x' }} 1100w,{%- endif -%}
+          {%- if section.settings.image_mobile.width >= 1500 -%}{{ section.settings.image_mobile | img_url: '1500x' }} 1500w,{%- endif -%}""
+          src="{{ section.settings.image_mobile | img_url: '750x' }}"
+          loading="lazy"
+          alt="{{ section.settings.image_mobile.alt | escape }}"
+          width="{{ section.settings.image_mobile.width }}"
+          height="{{ section.settings.image_mobile.width | divided_by: section.settings.image_mobile.aspect_ratio }}"
+        >
+      </div>
+    {%- endif -%}
+    <div class="hero-banner__content page-width" style="align-items: {{ section.settings.desktop_text_box_vertical_position }}; justify-content: {{ section.settings.desktop_text_box_horizontal_position }}; text-align: {{ section.settings.desktop_text_alignment }};">
+      <div class="hero-banner__box">
+        {%- for block in section.blocks -%}
+          {%- case block.type -%}
+            {%- when 'heading' -%}
+              <h2 class="hero-banner__heading h1" {{ block.shopify_attributes }}>
+                <span>{{ block.settings.heading | escape }}</span>
+              </h2>
+            {%- when 'text' -%}
+              <div class="hero-banner__text" {{ block.shopify_attributes }}>
+                <span>{{ block.settings.text | escape }}</span>
+              </div>
+            {%- when 'buttons' -%}
+              <div class="hero-banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_link_1 != blank and block.settings.button_label_2 != blank and block.settings.button_link_2 != blank %} hero-banner__buttons--multiple{% endif %} hero-banner__buttons-{{ section.settings.desktop_text_alignment }}" {{ block.shopify_attributes }}>
+                {%- if block.settings.button_label_1 != blank -%}
+                  <a href="{{ block.settings.button_link_1 }}" class="button{% if block.settings.button_style_secondary_1 %} button--primary{% else %} hero-banner__button{% endif %}"{% if block.settings.button_link_1 == blank %} aria-disabled="true"{% endif %}>{{ block.settings.button_label_1 | escape }}</a>
+                {%- endif -%}
+                {%- if block.settings.button_label_2 != blank -%}
+                  <a href="{{ block.settings.button_link_2 }}" class="button{% if block.settings.button_style_secondary_2 %} button--primary]{% else %} hero-banner__button{% endif %}"{% if block.settings.button_link_2 == blank %} aria-disabled="true"{% endif %}>{{ block.settings.button_label_2 | escape }}</a>
+                {%- endif -%}
+              </div>
+          {%- endcase -%}
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+
+{% endif %}
+
+
+
+{% schema %}
+{
+  "name": "Hero banner",
+  "tag": "section",
+  "class": "spaced-section spaced-section--full-width",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "use_video_background",
+      "default": false,
+      "label": "Use video background?"
+    },
+    {
+      "type": "url",
+      "id": "hero_video_desktop",
+      "label": "Desktop video url"
+    },
+    {
+      "type": "url",
+      "id": "hero_video_mobile",
+      "label": "Mobile video url"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_desktop",
+      "label": "Desktop image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_mobile",
+      "label": "mobile image"
+    },
+    {
+      "type": "select",
+      "id": "desktop_text_box_vertical_position",
+      "options": [
+        {
+          "value": "flex-start",
+          "label": "Top"
+        },
+        {
+          "value": "center",
+          "label": "Middle"
+        },
+        {
+          "value": "flex-end",
+          "label": "Bottom"
+        }
+      ],
+      "default": "center",
+      "label": "Content vertical position"
+    },
+    {
+      "type": "select",
+      "id": "desktop_text_box_horizontal_position",
+      "options": [
+        {
+          "value": "flex-start",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "flex-end",
+          "label": "Right"
+        }
+      ],
+      "default": "flex-start",
+      "label": "Content horizontal position"
+    },
+    {
+      "type": "select",
+      "id": "desktop_text_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "left",
+      "label": "Content alignment"
+    },
+    {
+      "type": "checkbox",
+      "id": "adapt_height_first_image",
+      "default": false,
+      "label": "Adapt height of section to match image height"
+    },
+    {
+      "type": "checkbox",
+      "id": "text_image_separate",
+      "default": false,
+      "label": "Separate image and content on desktop"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "name": "Heading",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "default": "Image banner",
+          "label": "Heading"
+        },
+        {
+          "type": "checkbox",
+          "id": "hide_block_on_mobile",
+          "default": false,
+          "label": "Hide on mobile"
+        },
+        {
+          "type": "checkbox",
+          "id": "hide_block_on_desktop",
+          "default": false,
+          "label": "Hide on desktop"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "Text",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "default": "We make great shoes.",
+          "label": "Text"
+        },
+        {
+          "type": "checkbox",
+          "id": "hide_block_on_mobile",
+          "default": false,
+          "label": "Hide on mobile"
+        },
+        {
+          "type": "checkbox",
+          "id": "hide_block_on_desktop",
+          "default": false,
+          "label": "Hide on desktop"
+        }
+      ]
+    },
+    {
+      "type": "buttons",
+      "name": "Buttons",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "button_label_1",
+          "label": "Button 1 text"
+        },
+        {
+          "type": "url",
+          "id": "button_link_1",
+          "label": "Button 1 link"
+        },
+        {
+          "type": "checkbox",
+          "id": "button_style_secondary_1",
+          "default": false,
+          "label": "Use secondary button style"
+        },
+        {
+          "type": "text",
+          "id": "button_label_2",
+          "label": "Button 2 text"        },
+        {
+          "type": "url",
+          "id": "button_link_2",
+          "label": "Button 2 link"
+        },
+        {
+          "type": "checkbox",
+          "id": "button_style_secondary_2",
+          "default": false,
+          "label": "Use secondary button style"
+        },
+        {
+          "type": "checkbox",
+          "id": "hide_block_on_mobile",
+          "default": false,
+          "label": "Hide on mobile"
+        },
+        {
+          "type": "checkbox",
+          "id": "hide_block_on_desktop",
+          "default": false,
+          "label": "Hide on desktop"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hero Banner",
+      "blocks": [
+        {
+          "type": "heading"
+        },
+        {
+          "type": "text"
+        },
+        {
+          "type": "buttons"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

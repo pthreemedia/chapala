@@ -1,0 +1,323 @@
+.hero-banner {
+    display: flex;
+    position: relative;
+    min-height: initial;
+    flex-direction: column;
+  }
+  
+  @media screen and (min-width: 750px) {
+    .hero-banner {
+      min-height: 60rem;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  }
+  
+  @media screen and (max-width: 749px) {
+    .hero-banner-desktop {
+      display: none;
+    }
+  }
+  
+  @media screen and (min-width: 750px) {
+    .hero-banner-mobile {
+      display: none;
+    }
+  }
+  
+  .hero-banner__media {
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    position: relative;
+  }
+  
+  @media screen and (min-width: 750px) {
+    .hero-banner__media {
+      position: absolute;
+      height: 100%;
+    }
+    .hero-banner-separate .hero-banner__media {
+        position: relative;
+    }
+  }
+  
+  @media screen and (max-width: 749px) {
+    .hero-banner__media {
+      position: relative;
+      height: 60vh;
+    }
+  }
+  
+  .hero-banner--adapt {
+    height: auto;
+  }
+  
+  @media screen and (max-width: 749px) {
+    .hero-banner--stacked:not(.hero-banner--adapt) .hero-banner__media {
+      height: 39rem;
+    }
+  
+    .hero-banner::before {
+      display: none !important;
+    }
+  }
+  
+  .hero-banner__media .placeholder-svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .hero-banner__content {
+    padding: 0;
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  @media screen and (min-width: 750px) {
+    .hero-banner__content {
+      padding-bottom: 5rem;
+      padding-top: 5rem;
+    }
+    .hero-banner-separate .hero-banner__content {
+      padding-bottom: 0;
+      padding-top: 0;
+    }
+  }
+  
+  .hero-banner__box {
+    border: 0;
+    padding: 4rem 3.5rem;
+    position: relative;
+    height: fit-content;
+    align-items: center;
+    width: 100%;
+    background: none;
+  }
+  
+  @media screen and (max-width: 749px) {
+    .hero-banner__box {
+      padding: 2rem 2rem 0;
+      text-align: center;
+    }
+  }
+  
+  .hero-banner__heading {
+    margin-bottom: 0;
+    line-height: 1.1;
+  }
+  
+  @media screen and (min-width: 750px) {
+    .hero-banner__heading {
+      color: #ffffff;
+      font-size: 7rem;
+    }
+    .hero-banner-separate .hero-banner__heading {
+      color: rgb(var(--color-foreground));
+    }
+  }
+  
+  @media screen and (max-width: 749px) {
+    .hero-banner__heading {
+      color: rgb(var(--color-foreground));
+    }
+  }
+  
+  .hero-banner__box > * + .hero-banner__text {
+    margin-top: 1rem;
+    text-transform: none;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-left: 0.3rem;
+  }
+  
+  @media screen and (min-width: 750px) {
+    .hero-banner__box > * + .hero-banner__text {
+      margin-top: 1rem;
+      font-size: 2.2rem;
+    }
+    .hero-banner__text {
+      color: #ffffff;
+    }
+    .hero-banner-separate .hero-banner__text {
+      color: rgb(var(--color-foreground));
+    }
+  }
+  
+  .hero-banner__button {
+    font-weight: 500;
+    flex-grow: initial;
+  }
+  
+  .hero-banner__box > * + .hero-banner__buttons {
+    transform: none;
+    margin: 1rem 0;
+  }
+  
+  .hero-banner__box > * + .hero-banner__buttons--multiple {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: baseline;
+  }
+  
+  .hero-banner__buttons {
+    justify-content: center;
+  }
+  
+  @media screen and (min-width: 750px) {
+    .hero-banner__box > * + .hero-banner__buttons {
+      margin-top: 1rem;
+    }
+    .hero-banner__button {
+      background-color: #ffffff;
+      color: rgb(var(--color-foreground));
+    }
+    .hero-banner__buttons {
+      justify-content: center;
+    }
+    .hero-banner__buttons-left {
+      justify-content: flex-start;
+    }
+    .hero-banner__buttons-right {
+      justify-content: flex-end;
+    }
+  }
+  
+  @media screen and (max-width: 749px) {
+    .hero-banner__button {
+      color: #ffffff;
+      background-color: rgb(var(--color-foreground));
+    }
+  }
+  
+  .hero-banner-separate .hero-banner__button {
+    color: #ffffff;
+    background-color: rgb(var(--color-foreground));
+  }
+
+  .hero-banner__content .button {
+    margin-top: 1.5rem;
+  }
+  
+  .hero-banner__content .button {
+    height: auto;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+  }
+  
+  .hero-banner__content .button:first-of-type {
+    margin-left: 0;
+  }
+  
+  .hero-banner__content .button:last-of-type {
+    margin-right: 0;
+  }
+  
+  .hero-banner__box > * + * {
+    margin-top: 1rem;
+  }
+  
+  .hero-banner__box > *:first-child {
+    margin-top: 0;
+  }
+  
+  @media screen and (max-width: 749px) {
+    .hero-banner--stacked .hero-banner__box {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (min-width: 750px) {
+    .hero-banner__box {
+      padding: 4rem;
+      width: 70rem;
+    }
+  
+    .hero-banner__box > .hero-banner__buttons:only-child .button {
+      margin-top: 0;
+    }
+  }
+  
+  .hero-banner__heading > *,
+  .hero-banner__text > * {
+    word-wrap: break-word;
+  }
+  
+  .hero-video {
+    position: relative;
+  }
+  
+  @media screen and (min-width: 750px) {
+    .hero-video {
+      display: flex;
+      height: 95vh;
+      margin-top: -5rem;
+    }
+  }
+  
+  .hero-video-container-desktop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+  }
+  
+  @media screen and (max-width: 749px) {
+    .hero-video-container-desktop {
+      display: none;
+    }
+    .hero-video-container-mobile {
+      display: block;
+    }
+  }
+  
+  @media screen and (min-width: 750px) {
+    .hero-video-container-desktop {
+      display: block;
+    }
+    .hero-video-container-mobile {
+      display: none;
+    }
+  }
+  
+  .hero-video-container-mobile {
+    position: relative;
+  }
+  
+  .hero-video-container video {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    z-index: 0
+  }
+  
+  .hero-video .hero-banner__content {
+    z-index: 1;
+  }
+  
+  @media screen and (min-width: 750px) {
+    .hero-video .hero-banner__buttons {
+      -webkit-animation: 5s ease 0s normal forwards 1 fadein;
+      animation: 5s ease 0s normal forwards 1 fadein;
+    }
+  
+    @keyframes fadein{
+      0% { opacity:0; }
+      66% { opacity:0; }
+      100% { opacity:1; }
+    }
+  
+    @-webkit-keyframes fadein{
+      0% { opacity:0; }
+      66% { opacity:0; }
+      100% { opacity:1; }
+    }
+  }
