@@ -562,10 +562,7 @@
           "label": "จำนวนสินค้าสูงสุดที่จะแสดง"
         },
         "show_view_all": {
-          "label": "เปิดใช้งานปุ่ม \"ดูทั้งหมด\" หากคอลเลกชันมีสินค้ามากกว่าที่แสดงไว้"
-        },
-        "swipe_on_mobile": {
-          "label": "เปิดใช้งานการรูดบนมือถือ"
+          "label": "เปิดใช้งาน \"ดูทั้งหมด\" หากคอลเลกชันมีสินค้ามากกว่าที่แสดงไว้"
         },
         "header": {
           "content": "บัตรสินค้า"
@@ -599,6 +596,42 @@
         "columns_desktop": {
           "label": "จำนวนของคอลัมน์บนเดสก์ท็อป"
         },
+        "description": {
+          "label": "คำอธิบาย"
+        },
+        "show_description": {
+          "label": "แสดงคำอธิบายคอลเลกชันจากส่วน admin"
+        },
+        "description_style": {
+          "label": "รูปแบบคำอธิบาย",
+          "options__1": {
+            "label": "เนื้อหา"
+          },
+          "options__2": {
+            "label": "คำบรรยาย"
+          },
+          "options__3": {
+            "label": "ตัวพิมพ์ใหญ่"
+          }
+        },
+        "view_all_style": {
+          "options__1": {
+            "label": "ลิงก์"
+          },
+          "options__2": {
+            "label": "ปุ่มแบบเค้าโครง"
+          },
+          "options__3": {
+            "label": "ปุ่มทึบ"
+          },
+          "label": "รูปแบบ \"ดูทั้งหมด\""
+        },
+        "enable_desktop_slider": {
+          "label": "เปิดใช้ภาพสไลด์บนเดสก์ท็อป"
+        },
+        "full_width": {
+          "label": "ทำให้สินค้าเต็มความกว้าง"
+        },
         "header_mobile": {
           "content": "เลย์เอาต์สำหรับมือถือ"
         },
@@ -610,6 +643,9 @@
           "options__2": {
             "label": "2 คอลัมน์"
           }
+        },
+        "enable_mobile_slider": {
+          "label": "เปิดใช้งานการปัดบนมือถือ"
         }
       },
       "presets": {
@@ -1303,6 +1339,21 @@
             "label": "สี่เหลี่ยมจัตุรัส"
           },
           "info": "เพิ่มรูปภาพโดยการแก้ไขคอลเลกชันของคุณ [ดูข้อมูลเพิ่มเติม](https://help.shopify.com/en/manual/products/collections)"
+        },
+        "columns_desktop": {
+          "label": "จำนวนของคอลัมน์บนเดสก์ท็อป"
+        },
+        "header_mobile": {
+          "content": "เลย์เอาต์สำหรับมือถือ"
+        },
+        "columns_mobile": {
+          "label": "จำนวนคอลัมน์บนมือถือ",
+          "options__1": {
+            "label": "1 คอลัมน์"
+          },
+          "options__2": {
+            "label": "2 คอลัมน์"
+          }
         }
       }
     },

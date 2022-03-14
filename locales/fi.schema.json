@@ -562,10 +562,7 @@
           "label": "Näytettävien tuotteiden enimmäismäärä"
         },
         "show_view_all": {
-          "label": "Ota Näytä kaikki ‑painike käyttöön, jos kokoelma sisältää useampia tuotteita kuin mitä on näkyvissä"
-        },
-        "swipe_on_mobile": {
-          "label": "Ota pyyhkäisy käyttöön mobiililaitteessa"
+          "label": "Ota ”Katso kaikki” käyttöön, jos kokoelma sisältää enemmän kuin näkyvissä olevat tuotteet"
         },
         "header": {
           "content": "Tuotekortti"
@@ -595,6 +592,42 @@
         "columns_desktop": {
           "label": "Sarakkeiden määrä työpöydällä"
         },
+        "description": {
+          "label": "Kuvaus"
+        },
+        "show_description": {
+          "label": "Näytä kokoelman kuvaus adminissa"
+        },
+        "description_style": {
+          "label": "Kuvauksen tyyli",
+          "options__1": {
+            "label": "Leipäteksti"
+          },
+          "options__2": {
+            "label": "Alaotsikko"
+          },
+          "options__3": {
+            "label": "Isot kirjaimet"
+          }
+        },
+        "view_all_style": {
+          "label": "”Katso kaikki” tyylit",
+          "options__1": {
+            "label": "Linkki"
+          },
+          "options__2": {
+            "label": "Kehyspainike"
+          },
+          "options__3": {
+            "label": "Peittävä painike"
+          }
+        },
+        "enable_desktop_slider": {
+          "label": "Ota karuselli käyttöön työpöydällä"
+        },
+        "full_width": {
+          "label": "Tee tuotteista täysleveitä"
+        },
         "header_mobile": {
           "content": "Mobiilipohja"
         },
@@ -607,9 +640,8 @@
             "label": "2 saraketta"
           }
         },
-        "enable_quick_buy": {
-          "label": "Ota pikalisäyspainike käyttöön",
-          "info": "Ihanteellinen ponnahdusikkuna- tai laatikkotyyppisten ostokorien kanssa."
+        "enable_mobile_slider": {
+          "label": "Ota pyyhkäisy käyttöön mobiililaitteessa"
         }
       },
       "presets": {
@@ -1303,6 +1335,21 @@
             "label": "Neliö"
           },
           "info": "Lisää kuvia kokoelmiasi muokkaamalla. [Lisätietoja](https://help.shopify.com/en/manual/products/collections)"
+        },
+        "columns_desktop": {
+          "label": "Sarakkeiden määrä työpöydällä"
+        },
+        "header_mobile": {
+          "content": "Mobiilipohja"
+        },
+        "columns_mobile": {
+          "label": "Sarakkeiden määrä mobiililaitteessa",
+          "options__1": {
+            "label": "1 sarake"
+          },
+          "options__2": {
+            "label": "2 saraketta"
+          }
         }
       }
     },
