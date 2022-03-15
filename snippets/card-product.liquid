@@ -6,11 +6,14 @@
     - media_aspect_ratio: {String} Size of the product image card. Values are "square" and "portrait". Default is "square" (optional)
     - show_secondary_image: {Boolean} Show the secondary image on hover. Default: false (optional)
     - show_vendor: {Boolean} Show the product vendor. Default: false
+    - show_gender: {Boolean} Show the product gender. Default: false
+    - show_material: {Boolean} Show the product material. Default: false
     - show_rating: {Boolean} Show the product rating. Default: false
     - extend_height: {Boolean} Card height extends to available container space. Default: true (optional)
     - lazy_load: {Boolean} Image should be lazy loaded. Default: true (optional)
     - show_quick_buy: {Boolean} Show the quick add button.
     - section_id: {String} The ID of the section that contains this card.
+    - show_condensed_title: {Boolean} Shows the Silhouette metafield as the title instead of the main product title. Default: False
 
     Usage:
     {% render 'card-product', show_vendor: section.settings.show_vendor %}
@@ -101,10 +104,24 @@
       <div class="card__content">
         <div class="card__information">
           <h3 {% if card_product.featured_media or settings.card_style == 'card' %}id="title-{{ section_id }}-{{ card_product.id }}"{% endif %} class="card__heading{% if card_product.featured_media or settings.card_style == 'standard' %} h5{% endif %}">
-            <a href="{{ card_product.url }}" class="full-unstyled-link">
-              {{ card_product.title | escape }}
-            </a>
+            {%- if show_condensed_title and card_product.metafields.seavees.online_title != blank -%}
+              <a href="{{ card_product.url }}" class="full-unstyled-link">
+                {{ card_product.metafields.seavees.online_title | escape }}
+              </a>
+            {%- else -%}
+              <a href="{{ card_product.url }}" class="full-unstyled-link">
+                {{ card_product.title | escape }}
+              </a>
+            {%- endif -%}
           </h3>
+
+          {%- if show_gender or show_material -%}
+            <div class="card-information">
+              <span class="visually-hidden">{{ 'accessibility.gender' | t }} / {{ 'accessibility.material' | t }}</span>
+              <div class="h5 light">{%- if show_gender %}{{ card_product.metafields.seavees.gender }}{% endif %}{%- if show_material and show_gender %} / {% endif %}{% if show_material %}{{ card_product.metafields.seavees.material }}{% endif %}</div>
+            </div>
+          {%- endif -%}
+
           <div class="card-information">
             {%- if show_vendor -%}
               <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
