@@ -5,6 +5,10 @@
 
 <link rel="preload" href="{{ 'component-rte.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
+{%- if section.settings.grouped_collection == true -%}
+  <noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
+{%- endif -%}
+
 {%- if section.settings.enable_quick_buy -%}
   <link rel="stylesheet" href="{{ 'quick-buy.css' | asset_url }}" media="print" onload="this.media='all'">
   <script src="{{ 'quick-buy.js' | asset_url }}" defer="defer"></script>
