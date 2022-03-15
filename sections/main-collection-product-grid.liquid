@@ -36,53 +36,154 @@
     </div>
   {%- endif -%}
   
-  <div id="ProductGridContainer">
-    {%- paginate collection.products by section.settings.products_per_page -%}
-      {%- if collection.products.size == 0 -%}
-        <div class="collection collection--empty page-width" id="product-grid" data-id="{{ section.id }}">
-          <div class="loading-overlay gradient"></div>
-          <div class="title-wrapper center">
-            <h2 class="title title--primary">
-              {{ 'sections.collection_template.empty' | t }}<br>
-              {{ 'sections.collection_template.use_fewer_filters_html' | t: link: collection.url, class: "underlined-link link" }}
-            </h2>
-          </div>
-        </div>
-      {%- else -%}
-        <div class="collection page-width">
-          <div class="loading-overlay gradient"></div>
-  
-          <ul id="product-grid" data-id="{{ section.id }}" class="
-            grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
-            grid--{{ section.settings.columns_desktop }}-col-desktop">
-            {%- for product in collection.products -%}
-              {% assign lazy_load = false %}
-              {%- if forloop.index > 2 -%}
-                {%- assign lazy_load = true -%}
-              {%- endif -%}
+  {% if section.settings.grouped_collection == true %}
+    <div id="grouped_collection_view">
+      {%- paginate collection.products by 1000 -%}
+    
+        {%- capture silhouettes_list -%}
+          {%- for product in collection.products -%}
+              {{- product.metafields.seavees.silhouette -}}
+              {%- if forloop.last == false %}|{% endif -%}
+          {%- endfor -%}
+        {%- endcapture -%}
+        {%- assign silhouettes_array = silhouettes_list | split: '|' | uniq -%}
 
-              <li class="grid__item">
-                {% render 'card-product',
-                  card_product: product,
-                  media_aspect_ratio: section.settings.image_ratio,
-                  show_secondary_image: section.settings.show_secondary_image,
-                  show_vendor: section.settings.show_vendor,
-                  show_rating: section.settings.show_rating,
-                  lazy_load: lazy_load,
-                  show_quick_buy: section.settings.enable_quick_buy,
-                  section_id: section.id
-                %}
-              </li>
-            {%- endfor -%}
-          </ul>
-  
-          {%- if paginate.pages > 1 -%}
-            {% render 'pagination', paginate: paginate, anchor: '' %}
+        <div id="ProductGridContainer">
+          {%- if collection.products.size == 0 -%}
+            <div class="collection collection--empty page-width" id="product-grid" data-id="{{ section.id }}">
+              <div class="loading-overlay gradient"></div>
+              <div class="title-wrapper center">
+                <h2 class="title title--primary">
+                  {{ 'sections.collection_template.empty' | t }}<br>
+                  {{ 'sections.collection_template.use_fewer_filters_html' | t: link: collection.url, class: "underlined-link link" }}
+                </h2>
+              </div>
+            </div>
+          {%- else -%}
+            <div class="collection page-width">
+              <div class="loading-overlay gradient"></div>
+              {% for silhouette in silhouettes_array %}
+                {% assign silhouette_count = 0 %}
+                {% for product in collection.products %}
+                    {% if silhouette == product.metafields.seavees.silhouette and product.metafields.seavees.hide_product != true %}
+                      {% assign silhouette_count = silhouette_count | plus: 1 %}
+                    {% endif %}
+                {% endfor %}
+                
+                {% unless silhouette_count == 0 %}
+      
+                  <div class="grouped-collection-container page-width">
+                    <div class="grouped-collection-header">
+                      <h2>{{ silhouette }}</h2>
+                      {% if silhouette_count == 1 %}
+                        <p class="collection-product-count light">{{ silhouette_count }} Style</p>
+                      {% else %}
+                      <p class="collection-product-count light">{{ silhouette_count }} Styles</p>
+                      {% endif %}
+                    </div>
+      
+                    <slider-component class="slider-mobile-gutter slider-desktop-gutter">
+                      {% comment %}{% if section.settings.show_swatches %}{% render 'swatch-background-data', collection: collection %}{% endif %}{% endcomment %}
+                      <ul id="product-grid" data-id="{{ section.id }}" class="
+                        grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
+                        grid--{{ section.settings.columns_desktop }}-col-desktop">
+                        {%- for product in collection.products -%}
+                          {% assign lazy_load = false %}
+                          {%- if forloop.index > 2 -%}
+                            {%- assign lazy_load = true -%}
+                          {%- endif -%}
+                          {% for product in collection.products %}
+                            {% unless product.metafields.seavees.hide_product == true %}
+                              {% if silhouette == product.metafields.seavees.silhouette %}
+                                <li class="grid__item">
+                                  {% render 'card-product',
+                                    card_product: product,
+                                    media_aspect_ratio: section.settings.image_ratio,
+                                    show_secondary_image: section.settings.show_secondary_image,
+                                    show_vendor: section.settings.show_vendor,
+                                    show_rating: section.settings.show_rating,
+                                    lazy_load: lazy_load,
+                                    show_quick_buy: section.settings.enable_quick_buy,
+                                    section_id: section.id
+                                  %}
+                                </li>
+                              {% endif %}
+                            {% endunless %}
+                          {% endfor %}
+                        {%- endfor -%}
+                      </ul>
+      
+                      <div class="slider-buttons no-js-hidden">
+                        <button type="button" class="slider-button slider-button--prev" name="previous" aria-label="{{ 'general.slider.previous_slide' | t }}" aria-controls="Slider-{{ section.id }}">{% render 'icon-caret' %}</button>
+                        <div class="slider-counter caption">
+                          <span class="slider-counter--current">1</span>
+                          <span aria-hidden="true"> / </span>
+                          <span class="visually-hidden">{{ 'general.slider.of' | t }}</span>
+                          <span class="slider-counter--total">{{ product.media.size }}</span>
+                        </div>
+                        <button type="button" class="slider-button slider-button--next" name="next" aria-label="{{ 'general.slider.next_slide' | t }}" aria-controls="Slider-{{ section.id }}">{% render 'icon-caret' %}</button>
+                      </div>
+      
+                    </slider-component>
+                  </div>
+      
+                {% endunless %}
+      
+              {% endfor %}
+            </div>
           {%- endif -%}
         </div>
-      {%- endif -%}
-    {%- endpaginate -%}
-  </div>
+      {%- endpaginate -%}
+    </div>
+  {%- else -%}
+    <div id="ProductGridContainer">
+      {%- paginate collection.products by section.settings.products_per_page -%}
+        {%- if collection.products.size == 0 -%}
+          <div class="collection collection--empty page-width" id="product-grid" data-id="{{ section.id }}">
+            <div class="loading-overlay gradient"></div>
+            <div class="title-wrapper center">
+              <h2 class="title title--primary">
+                {{ 'sections.collection_template.empty' | t }}<br>
+                {{ 'sections.collection_template.use_fewer_filters_html' | t: link: collection.url, class: "underlined-link link" }}
+              </h2>
+            </div>
+          </div>
+        {%- else -%}
+          <div class="collection page-width">
+            <div class="loading-overlay gradient"></div>
+    
+            <ul id="product-grid" data-id="{{ section.id }}" class="
+              grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
+              grid--{{ section.settings.columns_desktop }}-col-desktop">
+              {%- for product in collection.products -%}
+                {% assign lazy_load = false %}
+                {%- if forloop.index > 2 -%}
+                  {%- assign lazy_load = true -%}
+                {%- endif -%}
+
+                <li class="grid__item">
+                  {% render 'card-product',
+                    card_product: product,
+                    media_aspect_ratio: section.settings.image_ratio,
+                    show_secondary_image: section.settings.show_secondary_image,
+                    show_vendor: section.settings.show_vendor,
+                    show_rating: section.settings.show_rating,
+                    lazy_load: lazy_load,
+                    show_quick_buy: section.settings.enable_quick_buy,
+                    section_id: section.id
+                  %}
+                </li>
+              {%- endfor -%}
+            </ul>
+    
+            {%- if paginate.pages > 1 -%}
+              {% render 'pagination', paginate: paginate, anchor: '' %}
+            {%- endif -%}
+          </div>
+        {%- endif -%}
+      {%- endpaginate -%}
+    </div>
+  {%- endif -%}
 </div>
 
 {% schema %}
@@ -107,6 +208,13 @@
       "step": 1,
       "default": 4,
       "label": "t:sections.main-collection-product-grid.settings.columns_desktop.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "grouped_collection",
+      "default": false,
+      "label": "Show grouped view",
+      "info": "If checked, products will be grouped by silhouette (defined in product metafields)"
     },
     {
       "type": "header",
