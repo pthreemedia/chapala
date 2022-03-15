@@ -208,9 +208,8 @@ slider-component.slider-component-full-width {
 }
 
 .slider::-webkit-scrollbar {
-  height: 0.4rem;
-  width: 0.4rem;
-  display: none;
+  height: 0.5rem;
+  width: 0.5rem;
 }
 
 .no-js .slider {
@@ -223,7 +222,7 @@ slider-component.slider-component-full-width {
 }
 
 .slider::-webkit-scrollbar-thumb {
-  background-color: rgb(var(--color-foreground));
+  background-color: rgb(var(--color-foreground),0.3);
   border-radius: 0.4rem;
   border: 0;
 }
@@ -231,7 +230,25 @@ slider-component.slider-component-full-width {
 .slider::-webkit-scrollbar-track {
   background: rgba(var(--color-foreground), 0.04);
   border-radius: 0.4rem;
+  margin-left: 15vw;
+  margin-right: 15vw;
 }
+
+@media screen and (min-width: 750px) {
+  .slider::-webkit-scrollbar {
+      height: 1rem;
+  }
+  .slider::-webkit-scrollbar-track {
+      margin-left: calc((100vw - 140rem)/ 2);
+      margin-right: calc((100vw - 140rem)/ 2);
+  }
+  .slider::-webkit-scrollbar-thumb {
+      background-color: rgb(var(--color-foreground),.1);
+      border-radius: 1rem;
+  }
+}
+
+/* Counter */
 
 .slider-counter {
   display: flex;
