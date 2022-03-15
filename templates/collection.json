@@ -13,11 +13,12 @@
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 4,
+        "grouped_collection": true,
         "image_ratio": "adapt",
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
-        "enable_quick_buy": true,
+        "enable_quick_buy": false,
         "enable_filtering": true,
         "enable_sorting": true,
         "collapse_on_larger_devices": false,
