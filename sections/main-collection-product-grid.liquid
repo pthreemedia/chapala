@@ -163,7 +163,8 @@
                     show_rating: section.settings.show_rating,
                     lazy_load: lazy_load,
                     show_quick_buy: section.settings.enable_quick_buy,
-                    section_id: section.id
+                    section_id: section.id,
+                    show_condensed_title: section.settings.show_condensed_title
                   %}
                 </li>
               {%- endfor -%}
@@ -238,7 +239,7 @@
       "id": "show_condensed_title",
       "default": false,
       "label": "Use the 'Online store title' metafield as the product title",
-      "info": "Will default to product.title if the 'Online store' metafield is blank"
+      "info": "Will default to product.title if the 'Online store title' metafield is blank"
     },
     {
       "type": "checkbox",

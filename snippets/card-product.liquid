@@ -102,7 +102,7 @@
       <div class="card__content">
         <div class="card__information">
           <h3 {% if card_product.featured_media or settings.card_style == 'card' %}id="title-{{ section_id }}-{{ card_product.id }}"{% endif %} class="card__heading{% if card_product.featured_media or settings.card_style == 'standard' %} h5{% endif %}">
-            {%- if show_condensed_title and product_card_product.metafields.seavees.online_title != blank -%}
+            {%- if show_condensed_title and card_product.metafields.seavees.online_title != blank -%}
               <a href="{{ card_product.url }}" class="full-unstyled-link">
                 {{ card_product.metafields.seavees.online_title | escape }}
               </a>
