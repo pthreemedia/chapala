@@ -65,6 +65,8 @@
     "close": "Close",
     "unit_price_separator": "per",
     "vendor": "Vendor:",
+    "gender": "Gender",
+    "material": "Material",
     "error": "Error",
     "refresh_page": "Choosing a selection results in a full page refresh.",
     "link_messages": {

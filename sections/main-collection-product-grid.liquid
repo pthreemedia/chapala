@@ -105,6 +105,8 @@
                                   media_aspect_ratio: section.settings.image_ratio,
                                   show_secondary_image: section.settings.show_secondary_image,
                                   show_vendor: section.settings.show_vendor,
+                                  show_gender: section.settings.show_gender,
+                                  show_material: section.settings.show_material,
                                   show_rating: section.settings.show_rating,
                                   lazy_load: lazy_load,
                                   show_quick_buy: section.settings.enable_quick_buy,
@@ -160,6 +162,8 @@
                     media_aspect_ratio: section.settings.image_ratio,
                     show_secondary_image: section.settings.show_secondary_image,
                     show_vendor: section.settings.show_vendor,
+                    show_gender: section.settings.show_gender,
+                    show_material: section.settings.show_material,
                     show_rating: section.settings.show_rating,
                     lazy_load: lazy_load,
                     show_quick_buy: section.settings.enable_quick_buy,
@@ -247,6 +251,18 @@
       "default": false,
       "label": "t:sections.main-collection-product-grid.settings.show_secondary_image.label"
     },
+    {
+      "type": "checkbox",
+      "id": "show_gender",
+      "default": false,
+      "label": "Show gender"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_material",
+      "default": false,
+      "label": "Show material"
+    },    
     {
       "type": "checkbox",
       "id": "show_vendor",
