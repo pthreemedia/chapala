@@ -86,7 +86,7 @@
 
 .grouped-collection-header {
   display: block;
-  padding: 0 5rem;
+  padding: 0;
 }
 
 .grouped-collection-header h2, .grouped-collection-header p {
@@ -100,7 +100,6 @@
   .grouped-collection-header {
     text-align: center;
     margin: 0 auto;
-    padding: 0;
   }
 }
 

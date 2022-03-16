@@ -118,7 +118,7 @@
           {%- if show_gender or show_material -%}
             <div class="card-information">
               <span class="visually-hidden">{{ 'accessibility.gender' | t }} / {{ 'accessibility.material' | t }}</span>
-              <div class="caption-with-letter-spacing light">{%- if show_gender %}{{ card_product.metafields.seavees.gender }}{% endif %}{%- if show_material and show_gender %} / {% endif %}{% if show_material %}{{ card_product.metafields.seavees.material }}{% endif %}</div>
+              <div class="h5 light">{%- if show_gender %}{{ card_product.metafields.seavees.gender }}{% endif %}{%- if show_material and show_gender %} / {% endif %}{% if show_material %}{{ card_product.metafields.seavees.material }}{% endif %}</div>
             </div>
           {%- endif -%}
 
