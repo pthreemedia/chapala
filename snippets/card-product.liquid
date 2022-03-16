@@ -11,6 +11,7 @@
     - lazy_load: {Boolean} Image should be lazy loaded. Default: true (optional)
     - show_quick_buy: {Boolean} Show the quick add button.
     - section_id: {String} The ID of the section that contains this card.
+    - show_condensed_title: {Boolean} Shows the Silhouette metafield as the title instead of the main product title. Default: False
 
     Usage:
     {% render 'card-product', show_vendor: section.settings.show_vendor %}
@@ -101,9 +102,15 @@
       <div class="card__content">
         <div class="card__information">
           <h3 {% if card_product.featured_media or settings.card_style == 'card' %}id="title-{{ section_id }}-{{ card_product.id }}"{% endif %} class="card__heading{% if card_product.featured_media or settings.card_style == 'standard' %} h5{% endif %}">
-            <a href="{{ card_product.url }}" class="full-unstyled-link">
-              {{ card_product.title | escape }}
-            </a>
+            {%- if show_condensed_title and product_card_product.metafields.seavees.online_title != blank -%}
+              <a href="{{ card_product.url }}" class="full-unstyled-link">
+                {{ card_product.metafields.seavees.online_title | escape }}
+              </a>
+            {%- else -%}
+              <a href="{{ card_product.url }}" class="full-unstyled-link">
+                {{ card_product.title | escape }}
+              </a>
+            {%- endif -%}
           </h3>
           <div class="card-information">
             {%- if show_vendor -%}
