@@ -263,7 +263,7 @@
 }
 
 .card-information > * + * {
-  margin-top: 0.5rem;
+  margin-top: 0.25rem;
 }
 
 .card-information {
@@ -286,7 +286,7 @@
 .card-information
   > *:not(.visually-hidden:first-child)
   + *:not(.rating) {
-  margin-top: 0.7rem;
+  margin-top: 0.4rem;
 }
 
 .card-information .caption {

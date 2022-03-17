@@ -22,6 +22,7 @@
 
 .collection-hero__text-wrapper {
   flex-basis: 100%;
+  margin: 2.5rem 0;
 }
 
 @media screen and (min-width: 750px) {
@@ -37,7 +38,7 @@
 }
 
 .collection-hero__title {
-  margin: 2.5rem 0;
+  margin: 0;
 }
 
 .collection-hero__title + .collection-hero__description {
@@ -61,14 +62,14 @@
   .collection-hero--with-image .collection-hero__description {
     max-width: 100%;
   }
+  
+  .collection-hero .center-desktop .collection-hero__description {
+    max-width: 100%;
+  }
 }
 
 .collection-hero--with-image .collection-hero__title {
   margin: 0;
-}
-
-.collection-hero--with-image .collection-hero__text-wrapper {
-  padding: 5rem 0 4rem;
 }
 
 .collection-hero__image-container {

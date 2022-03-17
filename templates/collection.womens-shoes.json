@@ -4,8 +4,58 @@
       "type": "main-collection-banner",
       "settings": {
         "show_collection_description": true,
+        "show_breadcrumbs": true,
+        "center_banner_text_desktop": true,
+        "center_banner_text_mobile": true,
         "show_collection_image": false,
+        "hide_collection_image-on-mobile": true,
         "color_scheme": "background-1"
+      }
+    },
+    "164754004825f80ed2": {
+      "type": "page-menu",
+      "blocks": {
+        "1647540048d1a1866c-0": {
+          "type": "page_menu_link",
+          "settings": {
+            "link_text": "Sneakers",
+            "link_url": "shopify:\/\/collections\/womens-sneakers"
+          }
+        },
+        "772076c4-177e-4d96-a733-706639b552ab": {
+          "type": "page_menu_link",
+          "settings": {
+            "link_text": "Boots",
+            "link_url": "shopify:\/\/collections\/womens-boots"
+          }
+        },
+        "5d7ba906-5528-463a-afca-5da7d5419bfb": {
+          "type": "page_menu_link",
+          "settings": {
+            "link_text": "Sandals & Slippers",
+            "link_url": "shopify:\/\/collections\/womens-sandals-slippers"
+          }
+        },
+        "be63b938-cca4-4235-b726-237c919d0e56": {
+          "type": "page_menu_link",
+          "settings": {
+            "link_text": "Casuals",
+            "link_url": "shopify:\/\/collections\/womens-casuals"
+          }
+        }
+      },
+      "block_order": [
+        "1647540048d1a1866c-0",
+        "772076c4-177e-4d96-a733-706639b552ab",
+        "5d7ba906-5528-463a-afca-5da7d5419bfb",
+        "be63b938-cca4-4235-b726-237c919d0e56"
+      ],
+      "settings": {
+        "stack_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     },
     "product-grid": {
@@ -24,8 +74,8 @@
         "enable_quick_buy": false,
         "enable_filtering": true,
         "enable_sorting": true,
-        "collapse_on_larger_devices": false,
-        "columns_mobile": "1",
+        "collapse_on_larger_devices": true,
+        "columns_mobile": "2",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -33,6 +83,7 @@
   },
   "order": [
     "banner",
+    "164754004825f80ed2",
     "product-grid"
   ]
 }

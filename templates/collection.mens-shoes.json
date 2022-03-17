@@ -4,8 +4,58 @@
       "type": "main-collection-banner",
       "settings": {
         "show_collection_description": true,
+        "show_breadcrumbs": true,
+        "center_banner_text_desktop": true,
+        "center_banner_text_mobile": true,
         "show_collection_image": false,
+        "hide_collection_image-on-mobile": true,
         "color_scheme": "background-1"
+      }
+    },
+    "16475403686a2f3eb6": {
+      "type": "page-menu",
+      "blocks": {
+        "1647540368872c6daf-0": {
+          "type": "page_menu_link",
+          "settings": {
+            "link_text": "Sneakers",
+            "link_url": "shopify:\/\/collections\/mens-sneakers"
+          }
+        },
+        "de062f57-b2c7-4771-8f3b-a6229576d9bc": {
+          "type": "page_menu_link",
+          "settings": {
+            "link_text": "Boots",
+            "link_url": "shopify:\/\/collections\/mens-boots"
+          }
+        },
+        "d462bddf-5835-4b27-af85-f7bc2dd775b3": {
+          "type": "page_menu_link",
+          "settings": {
+            "link_text": "Sandals & Slippers",
+            "link_url": "shopify:\/\/collections\/mens-sandals-slippers"
+          }
+        },
+        "52e0ec5d-fc54-4a0e-a5ef-089e0b3846e3": {
+          "type": "page_menu_link",
+          "settings": {
+            "link_text": "Casuals",
+            "link_url": "shopify:\/\/collections\/mens-casuals"
+          }
+        }
+      },
+      "block_order": [
+        "1647540368872c6daf-0",
+        "de062f57-b2c7-4771-8f3b-a6229576d9bc",
+        "d462bddf-5835-4b27-af85-f7bc2dd775b3",
+        "52e0ec5d-fc54-4a0e-a5ef-089e0b3846e3"
+      ],
+      "settings": {
+        "stack_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     },
     "product-grid": {
@@ -24,8 +74,8 @@
         "enable_quick_buy": false,
         "enable_filtering": true,
         "enable_sorting": true,
-        "collapse_on_larger_devices": false,
-        "columns_mobile": "1",
+        "collapse_on_larger_devices": true,
+        "columns_mobile": "2",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -33,6 +83,7 @@
   },
   "order": [
     "banner",
+    "16475403686a2f3eb6",
     "product-grid"
   ]
 }
