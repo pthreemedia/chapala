@@ -31,6 +31,41 @@
   }
 {%- endstyle -%}
 
+{% if section.settings.show_swatches == true %}
+  <script>
+    window.theme = {
+      template: {{ template.name | json }},
+      shop: {
+        url: {{ shop.url | json }}
+      },
+      swatch_prod: {
+      }
+    };
+  </script>
+
+  {%- liquid
+    if collection.all_vendors contains "SeaVees Footwear"
+      assign search_collection = collections["all-shoes"]
+    else
+      assign search_collection = collections["goods"]
+    endif
+  -%}
+  
+  {% unless search_collection == blank %}
+    {% paginate search_collection.products by 1000 %}
+      {% for product in search_collection.products %}
+      <script>
+        window.theme.swatch_prod["{{ product.handle }}"] = {
+          swatch_color: "{{ product.metafields.seavees.swatch }}",
+          swatch_image: "{{ product.metafields.seavees.swatch_image }}",
+          product_info: {{ product | json }}
+        }
+      </script>
+      {% endfor %}
+    {% endpaginate %}
+  {% endunless %}
+{% endif %}
+
 <div class="section-{{ section.id }}-padding">
   {%- if section.settings.enable_filtering or section.settings.enable_sorting -%}
     {{ 'component-facets.css' | asset_url | stylesheet_tag }}
@@ -111,6 +146,7 @@
                                   lazy_load: lazy_load,
                                   show_quick_buy: section.settings.enable_quick_buy,
                                   section_id: section.id,
+                                  show_swatches: section.settings.show_swatches,
                                   show_condensed_title: section.settings.show_condensed_title
                                 %}
                               </li>
@@ -168,6 +204,7 @@
                     lazy_load: lazy_load,
                     show_quick_buy: section.settings.enable_quick_buy,
                     section_id: section.id,
+                    show_swatches: section.settings.show_swatches,
                     show_condensed_title: section.settings.show_condensed_title
                   %}
                 </li>
@@ -244,6 +281,12 @@
       "default": false,
       "label": "Use the 'Online store title' metafield as the product title",
       "info": "Will default to product.title if the 'Online store title' metafield is blank"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_swatches",
+      "default": false,
+      "label": "Show swatches"
     },
     {
       "type": "checkbox",

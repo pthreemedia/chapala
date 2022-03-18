@@ -296,3 +296,38 @@
 .card-article-info {
   margin-top: 1rem;
 }
+
+/* Swatch */
+.card-swatch .card-swatch__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-right: 1.2rem;
+  margin-bottom: 10px;
+}
+.card-swatch .card-swatch--color {
+  padding: 0.5rem;
+}
+.card-swatch .card-swatch--color a {
+  cursor: pointer;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: block;
+  border-radius: 50%;
+  border: 2px solid transparent;
+}
+.card-swatch .card-swatch--color a.swatch-active {
+  border: 3px solid #dc4b28 !important;
+}
+
+@media screen and (max-width: 750px) {
+  .card-swatch .card-swatch--color a {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .card-swatch .card-swatch--color a.swatch-active {
+    border: 2px solid #dc4b28 !important;
+  }
+}
+/* End of swatch */

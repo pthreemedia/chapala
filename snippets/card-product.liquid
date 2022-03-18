@@ -14,6 +14,7 @@
     - show_quick_buy: {Boolean} Show the quick add button.
     - section_id: {String} The ID of the section that contains this card.
     - show_condensed_title: {Boolean} Shows the Silhouette metafield as the title instead of the main product title. Default: False
+    - show_swatches: {Boolean} Shows card swatches. Default: false
 
     Usage:
     {% render 'card-product', show_vendor: section.settings.show_vendor %}
@@ -58,7 +59,7 @@
                 src="{{ card_product.featured_media | image_url: width: 533 }}"
                 sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 130 | divided_by: 4 }}px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
                 alt="{{ card_product.featured_media.alt | escape }}"
-                class="motion-reduce"
+                class="mainImg motion-reduce"
                 {% unless lazy_load == false %}loading="lazy"{% endunless %}
                 width="{{ card_product.featured_media.width }}"
                 height="{{ card_product.featured_media.height }}"
@@ -89,7 +90,7 @@
         <div class="card__content">
           <div class="card__information">
             <h3 {% if card_product.featured_media == nil and settings.card_style == 'standard' %}id="title-{{ section_id }}-{{ card_product.id }}"{% endif %} class="card__heading">
-              <a href="{{ card_product.url }}" class="full-unstyled-link">
+              <a href="{{ card_product.url }}" class="full-unstyled-link product-card-link">
                 {{ card_product.title | escape }}
               </a>
             </h3>
@@ -103,15 +104,21 @@
           </div>
         </div>
       </div>
+
+      {% if show_swatches %}
+        {% render 'card-swatches', card_product: card_product %}
+        <script src="{{ 'card-swatches.js' | asset_url }}" defer="defer"></script>
+      {% endif %}
+
       <div class="card__content">
         <div class="card__information">
           <h3 {% if card_product.featured_media or settings.card_style == 'card' %}id="title-{{ section_id }}-{{ card_product.id }}"{% endif %} class="card__heading{% if card_product.featured_media or settings.card_style == 'standard' %} h5{% endif %}">
             {%- if show_condensed_title and card_product.metafields.seavees.online_title != blank -%}
-              <a href="{{ card_product.url }}" class="full-unstyled-link">
+              <a href="{{ card_product.url }}" class="full-unstyled-link product-card-link">
                 {{ card_product.metafields.seavees.online_title | escape }}
               </a>
             {%- else -%}
-              <a href="{{ card_product.url }}" class="full-unstyled-link">
+              <a href="{{ card_product.url }}" class="full-unstyled-link product-card-link">
                 {{ card_product.title | escape }}
               </a>
             {%- endif -%}

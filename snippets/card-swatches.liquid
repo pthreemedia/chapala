@@ -1,0 +1,31 @@
+{% comment %}
+    Renders product card swatches
+
+    Accepts:
+    - card_product: {Object} Product Liquid object (required)
+
+    Usage:
+    {% render 'card-swatches', card_product: product %}
+{% endcomment %}
+
+
+<collection-swatch>
+<div class="card-swatch">
+  <div class="card-swatch__wrapper">
+    {% for tag in card_product.tags %}
+      {% if tag contains "related_" %}
+        {% assign handle = tag | split: 'related_' | last %}
+          <div class="card-swatch--color">
+            <a
+               {% if card_product.handle == handle %}class="swatch-active"{% endif %}
+               data-var-handle="{{ handle }}"
+               data-prod-handle="{{ card_product.handle }}"
+               data-swatch-img=""
+               data-swatch-url=""
+               name="{{ card_product.url }}"></a>
+          </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+</collection-swatch>
