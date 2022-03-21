@@ -26,8 +26,8 @@
     "buttons_shadow_horizontal_offset": 0,
     "buttons_shadow_vertical_offset": 4,
     "buttons_shadow_blur": 5,
-    "variant_pills_border_thickness": 1,
-    "variant_pills_border_opacity": 55,
+    "variant_pills_border_thickness": 2,
+    "variant_pills_border_opacity": 70,
     "variant_pills_radius": 40,
     "variant_pills_shadow_opacity": 0,
     "variant_pills_shadow_horizontal_offset": 0,
@@ -96,6 +96,11 @@
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
     "currency_code_enabled": true,
+    "checkout_logo_image": "shopify:\/\/shop_images\/seavees-website-logo-navy_f847c3ff-f1ad-41ec-8806-5d68fe4b5a7f.png",
+    "checkout_logo_position": "center",
+    "checkout_accent_color": "#193859",
+    "checkout_button_color": "#193859",
+    "checkout_error_color": "#dc4b28",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",

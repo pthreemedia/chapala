@@ -3,28 +3,28 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.seavees.gender.value }}",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
+            "text": "{{ product.metafields.seavees.online_title.value }}"
           }
         },
         "caption": {
           "type": "text",
           "settings": {
-            "text": "",
-            "text_style": "subtitle"
+            "text": "{{ product.metafields.seavees.gender.value }} \/ {{ product.metafields.seavees.color_name.value }} \/ {{ product.metafields.seavees.material.value }}",
+            "text_style": "uppercase"
           }
         },
         "price": {
           "type": "price",
           "settings": {
+          }
+        },
+        "42a82d44-4510-48f4-944a-b6fa676826af": {
+          "type": "product_swatches",
+          "settings": {
+            "hide_sale_product_swatches": false
           }
         },
         "variant_picker": {
@@ -42,12 +42,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
+            "show_dynamic_checkout": false
           }
         },
         "collapsible-row-0": {
@@ -79,14 +74,13 @@
         }
       },
       "block_order": [
-        "vendor",
         "title",
         "caption",
         "price",
+        "42a82d44-4510-48f4-944a-b6fa676826af",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description",
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2"
