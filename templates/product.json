@@ -3,28 +3,29 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.seavees.gender.value }}",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
+            "text": "{{ product.metafields.seavees.online_title.value }}"
           }
         },
         "caption": {
           "type": "text",
           "settings": {
-            "text": "",
-            "text_style": "subtitle"
+            "text": "{{ product.metafields.seavees.gender.value }} \/ {{ product.metafields.seavees.color_name.value }} \/ {{ product.metafields.seavees.material.value }}",
+            "text_style": "uppercase"
           }
         },
         "price": {
           "type": "price",
           "settings": {
+            "show_installment_option": false
+          }
+        },
+        "42a82d44-4510-48f4-944a-b6fa676826af": {
+          "type": "product_swatches",
+          "settings": {
+            "hide_sale_product_swatches": false
           }
         },
         "variant_picker": {
@@ -42,12 +43,18 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true
+            "show_dynamic_checkout": false
           }
         },
-        "description": {
-          "type": "description",
+        "467af105-8b5d-4c64-9143-fc32cfdb1c35": {
+          "type": "collapsible_tab",
           "settings": {
+            "heading": "The Details",
+            "icon": "none",
+            "content": "",
+            "page": "",
+            "show-description": true,
+            "liquid": ""
           }
         },
         "collapsible-row-0": {
@@ -56,7 +63,9 @@
             "heading": "Size & Fit Information",
             "icon": "none",
             "content": "<p>{{ product.metafields.seavees.size_and_fit | metafield_tag }}<\/p>",
-            "page": ""
+            "page": "",
+            "show-description": false,
+            "liquid": ""
           }
         },
         "collapsible-row-1": {
@@ -65,7 +74,9 @@
             "heading": "Shipping & Returns",
             "icon": "none",
             "content": "<p>Free shipping on all orders over $100.<\/p><p>$5 shipping for orders under $100.<\/p><p>It's important to us that you are happy with your SeaVees so returns and exchanges are free, fast and easy. If you choose to exchange for a different size or color, we will ship your replacement immediately.<\/p>",
-            "page": ""
+            "page": "",
+            "show-description": false,
+            "liquid": ""
           }
         },
         "collapsible-row-2": {
@@ -74,22 +85,31 @@
             "heading": "Origin",
             "icon": "none",
             "content": "<p>{{ product.metafields.seavees.origin.value }}<\/p>",
-            "page": ""
+            "page": "",
+            "show-description": false,
+            "liquid": ""
+          }
+        },
+        "d45af598-2236-4f27-9df7-84e8aa0cb053": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
           }
         }
       },
       "block_order": [
-        "vendor",
         "title",
         "caption",
         "price",
+        "42a82d44-4510-48f4-944a-b6fa676826af",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description",
+        "467af105-8b5d-4c64-9143-fc32cfdb1c35",
         "collapsible-row-0",
         "collapsible-row-1",
-        "collapsible-row-2"
+        "collapsible-row-2",
+        "d45af598-2236-4f27-9df7-84e8aa0cb053"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -119,10 +139,55 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "164792745482b7fb61": {
+      "type": "featured-collection-alt",
+      "settings": {
+        "title": "Related Products",
+        "heading_size": "h1",
+        "description": "",
+        "description_style": "body",
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "collection_1": "featured-socks",
+        "tab_id_1": "1",
+        "featured_collection_title_1": "Socks",
+        "products_to_show_1": 3,
+        "collection_2": "sneaker-care",
+        "tab_id_2": "2",
+        "featured_collection_title_2": "Sneaker Care",
+        "products_to_show_2": 2,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_condensed_title": true,
+        "show_vendor": false,
+        "show_gender": true,
+        "show_material": false,
+        "show_rating": false,
+        "enable_quick_buy": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "product-reviews": {
+      "type": "product-reviews",
+      "settings": {
+        "heading": "See why people love the {{ product.metafields.seavees.silhouette.value }}."
+      }
     }
   },
   "order": [
     "main",
-    "product-recommendations"
+    "product-recommendations",
+    "product-reviews",
+    "164792745482b7fb61"
   ]
 }

@@ -1,5 +1,4 @@
 {% comment %}theme-check-disable TemplateLength{% endcomment %}
-{{ 'section-main-product.css' | asset_url | stylesheet_tag }}
 {{ 'component-accordion.css' | asset_url | stylesheet_tag }}
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
 {{ 'component-rte.css' | asset_url | stylesheet_tag }}
@@ -7,10 +6,11 @@
 {{ 'component-rating.css' | asset_url | stylesheet_tag }}
 {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
 {{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
+{{ 'section-main-product.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
   .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-top: 1rem;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
@@ -65,7 +65,7 @@
             {%- endif -%}
             {%- for media in product.media -%}
               {%- unless media.id == product.selected_or_first_available_variant.featured_media.id -%}
-                <li id="Slide-{{ section.id }}-{{ media.id }}" class="product__media-item grid__item slider__slide{% if product.selected_or_first_available_variant.featured_media == null and forloop.index == 1 %} is-active{% endif %}{% if media.media_type != 'image' %} product__media-item--full{% endif %}{% if section.settings.hide_variants and variant_images contains media.src %} product__media-item--variant{% endif %}" data-media-id="{{ section.id }}-{{ media.id }}">
+                <li id="Slide-{{ section.id }}-{{ media.id }}" class="product__media-item grid__item slider__slide{% if product.selected_or_first_available_variant.featured_media == null and forloop.index == 1 %} is-active{% endif %}{% if media.media_type != 'image' %} product__media-item--full{% endif %}{% if section.settings.hide_variants and variant_images contains media.src %} product__media-item--variant{% endif %}{% if media.alt contains 'full' %} product-image-full-width{% endif %}{% if media.alt contains 'lifestyle' or media.alt contains 'Lifestyle' %} lifestyle-photo{% else %} product-photo{% endif %}" data-media-id="{{ section.id }}-{{ media.id }}">
                   {%- assign media_position = media_position | default: 0 | plus: 1 -%}
                   {% render 'product-thumbnail', media: media, position: media_position, loop: section.settings.enable_video_looping, modal_id: section.id, xr_button: true, media_width: media_width, lazy_load: true %}
                 </li>
@@ -207,7 +207,11 @@
             </p>
           {%- when 'title' -%}
             <h1 class="product__title" {{ block.shopify_attributes }}>
-              {{ product.title | escape }}
+              {% if block.settings.text != blank %}
+                {{ block.settings.text }}
+              {% else %}
+                {{ product.title | escape }}
+              {% endif %}
             </h1>
           {%- when 'price' -%}
             <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
@@ -223,12 +227,14 @@
                 {%- endif -%}
               </div>
             {%- endif -%}
-            <div {{ block.shopify_attributes }}>
-              {%- form 'product', product, id: 'product-form-installment', class: 'installment caption-large' -%}
-                <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
-                {{ form | payment_terms }}
-              {%- endform -%}
-            </div>
+            {% if block.settings.show_installment_option == true %}
+              <div {{ block.shopify_attributes }}>
+                {%- form 'product', product, id: 'product-form-installment', class: 'installment caption-large' -%}
+                  <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+                  {{ form | payment_terms }}
+                {%- endform -%}
+              </div>
+            {% endif %}
           {%- when 'description' -%}
             {%- if product.description != blank -%}
               <div class="product__description rte">
@@ -238,23 +244,29 @@
           {%- when 'custom_liquid' -%}
             {{ block.settings.custom_liquid }}
           {%- when 'collapsible_tab' -%}
-            <div class="product__accordion accordion" {{ block.shopify_attributes }}>
-              <details id="Details-{{ block.id }}-{{ section.id }}">
-                <summary>
-                  <div class="summary__title">
-                    {% render 'icon-accordion', icon: block.settings.icon %}
-                    <h2 class="h4 accordion__title">
-                      {{ block.settings.heading | default: block.settings.page.title }}
-                    </h2>
+            {%- if block.settings.page.content or block.settings.content != blank or block.settings.liquid or block.settings.show-description -%}
+              <div class="product__accordion accordion" {{ block.shopify_attributes }}>
+                <details id="Details-{{ block.id }}-{{ section.id }}">
+                  <summary>
+                    <div class="summary__title">
+                      {% render 'icon-accordion', icon: block.settings.icon %}
+                      <h2 class="h4 accordion__title">
+                        {{ block.settings.heading | default: block.settings.page.title }}
+                      </h2>
+                    </div>
+                    {% render 'icon-caret' %}
+                  </summary>
+                  <div class="accordion__content rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
+                    {{ block.settings.content }}
+                    {{ block.settings.page.content }}
+                    {{ block.settings.liquid }}
+                    {%- if block.settings.show-description == true -%}
+                      {{ product.description }}
+                    {%- endif -%}
                   </div>
-                  {% render 'icon-caret' %}
-                </summary>
-                <div class="accordion__content rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
-                  {{ block.settings.content }}
-                  {{ block.settings.page.content }}
-                </div>
-              </details>
-            </div>
+                </details>
+              </div>
+            {%- endif -%}
           {%- when 'quantity_selector' -%}
             <div class="product-form__input product-form__quantity{% if settings.inputs_shadow_vertical_offset != 0 and settings.inputs_shadow_vertical_offset < 0 %} product-form__quantity-top{% endif %}" {{ block.shopify_attributes }}>
               <label class="form__label" for="Quantity-{{ section.id }}">
@@ -322,13 +334,15 @@
               </details>
             </share-button>
             <script src="{{ 'share.js' | asset_url }}" defer="defer"></script>
+          {%- when 'product_swatches' -%}
+            {% render 'product-swatches', hide_sale_swatches: block.settings.hide_sale_product_swatches %}
           {%- when 'variant_picker' -%}
             {%- unless product.has_only_default_variant -%}
               {%- if block.settings.picker_type == 'button' -%}
                 <variant-radios class="no-js-hidden" data-section="{{ section.id }}" data-url="{{ product.url }}" {{ block.shopify_attributes }}>
                   {%- for option in product.options_with_values -%}
-                      <fieldset class="js product-form__input">
-                        <legend class="form__label">{{ option.name }}</legend>
+                      <fieldset class="js product-form__input product-form-{{option.name}}">
+                        <legend class="form__label product__text caption-with-letter-spacing">Select {{ option.name }}</legend>
                         {%- for value in option.values -%}
                           <input type="radio" id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
                                 name="{{ option.name }}"
@@ -337,7 +351,7 @@
                                 {% if option.selected_value == value %}checked{% endif %}
                           >
                           <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
-                            {{ value }}
+                            {{ value | remove:'Mens ' | remove:'Womens ' | remove:'Mens' | remove:'Womens' | remove:'Little Kid ' | remove:'Little Kids ' | remove:'Big Kid ' | remove:'Big Kids ' | remove:'Kids ' }}
                           </label>
                         {%- endfor -%}
                       </fieldset>
@@ -691,17 +705,44 @@
     {
       "type": "title",
       "name": "t:sections.main-product.blocks.title.name",
-      "limit": 1
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Custom title",
+          "info": "Will use default if field is empty"
+        }
+      ]
     },
     {
       "type": "price",
       "name": "t:sections.main-product.blocks.price.name",
-      "limit": 1
+      "limit": 1,
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "show_installment_option",
+          "label": "Show installments option"        }
+      ]
     },
     {
       "type": "quantity_selector",
       "name": "t:sections.main-product.blocks.quantity_selector.name",
       "limit": 1
+    },
+    {
+      "type": "product_swatches",
+      "name": "Product swatches",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "hide_sale_product_swatches",
+          "default": false,
+          "label": "Hide sale swatches"
+        }
+      ]
     },
     {
       "type": "variant_picker",
@@ -982,6 +1023,16 @@
           "type": "page",
           "id": "page",
           "label": "t:sections.main-product.blocks.collapsible_tab.settings.page.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "show-description",
+          "label": "Show product description"
+        },
+        {
+          "type": "liquid",
+          "id": "liquid",
+          "label": "Custom liquid"
         }
       ]
     },

@@ -2192,6 +2192,14 @@
         }
       }
     },
+    "product-reviews": {
+      "name": "Product reviews",
+      "settings": {
+        "heading": {
+          "label": "Heading"
+        }
+      }
+    },
     "rich-text": {
       "name": "Rich text",
       "settings": {
