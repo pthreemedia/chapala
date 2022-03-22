@@ -52,6 +52,11 @@
   .product__media-container .slider-buttons {
     display: none;
   }
+
+  .product:not(.product--no-media) .product__media-wrapper .product-image-full-width {
+    width: calc(100% - 1rem);
+    max-width: none;
+  }
 }
 
 @media screen and (min-width: 990px) {
@@ -663,6 +668,7 @@ a.product__text {
   .product--stacked .product-photo {
     padding: 4.4rem 0;
     background: white;
+    width: calc((100% - 4rem)/4);
   }
 }
 

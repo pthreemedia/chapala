@@ -220,7 +220,7 @@
             </h1>
           {%- when 'price' -%}
             <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
-              {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
+              {%- render 'price', product: product, use_variant: true, show_badges: false, price_class: 'price--large' -%}
             </div>
             {%- if shop.taxes_included or shop.shipping_policy.body != blank -%}
               <div class="product__tax caption rte">
@@ -346,8 +346,8 @@
               {%- if block.settings.picker_type == 'button' -%}
                 <variant-radios class="no-js-hidden" data-section="{{ section.id }}" data-url="{{ product.url }}" {{ block.shopify_attributes }}>
                   {%- for option in product.options_with_values -%}
-                    <fieldset class="js product-form__input">
-                      <legend class="form__label">{{ option.name }}</legend>
+                    <fieldset class="js product-form__input product-form-{{option.name}}">
+                      <legend class="form__label product__text caption-with-letter-spacing">Select {{ option.name }}</legend>
                       {%- for value in option.values -%}
                         {%- assign option_disabled = true -%}
                         {% for option1_name in variants_option1_arr %}
@@ -374,7 +374,7 @@
                               {% if option_disabled %}class="disabled"{% endif %}
                         >
                         <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
-                          {{ value }}
+                          {{ value | remove:'Mens ' | remove:'Womens ' | remove:'Mens' | remove:'Womens' | remove:'Little Kid ' | remove:'Little Kids ' | remove:'Big Kid ' | remove:'Big Kids ' | remove:'Kids ' }}
                         </label>
                       {%- endfor -%}
                     </fieldset>
