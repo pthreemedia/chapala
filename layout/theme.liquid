@@ -258,5 +258,14 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+
+    {% if template contains 'product' %}
+      <script type="text/javascript" defer="defer" async="true" src="https://scripts.juniphq.com/v1/junip_shopify.js"></script>
+      <span class="junip-store-key" data-store-key="EXFxb6qQmDgtQavMHpRJv8jL"></span>
+    {% endif %}
+
+    <!--Gorgias Chat Widget Start-->
+    <script async id="gorgias-chat-widget-install-v2" src="https://config.gorgias.chat/gorgias-chat-bundle-loader.js?applicationId=11528"></script>
+    <!--Gorgias Chat Widget End-->
   </body>
 </html>

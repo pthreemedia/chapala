@@ -1,0 +1,41 @@
+<div class="product-reviews page-width no-reviews">
+    <h2 class="product-reviews__title">{{ section.settings.heading | escape }}</h2>
+    <span class="junip-product-review" data-product-id="{{ product.id }}"></span>
+</div>
+
+<script>
+  function waitForReviews(elemQuery, callback, timeout = 0) {
+    // if loading takes more than 10 seconds, it stops the function, considering operation as a timeout
+    if(timeout < 100) {
+      window.setTimeout(function() {
+        const element = document.querySelector(elemQuery);
+        if(element) {
+          callback();
+        } else {
+          waitForReviews(elemQuery, callback, timeout+1);
+        }
+      }, 100);
+    } else {
+      return;
+    }
+  }
+  waitForReviews(".junip-product-review-container", () => {
+    document.querySelector(".product-reviews").classList.remove("no-reviews");
+  });
+  </script>
+
+{% schema %}
+{
+  "name": "Product Reviews",
+  "tag": "section",
+  "class": "product-reviews-container",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "default": "Reviews",
+      "label": "t:sections.product-reviews.settings.heading.label"
+    }
+  ]
+}
+{% endschema %}
