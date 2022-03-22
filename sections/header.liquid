@@ -140,6 +140,7 @@
                                   {{ link.title | escape }}
                                 </button>
                                 <ul class="menu-drawer__menu list-menu" role="list" tabindex="-1">
+                                  <h3 class="menu-drawer--header">{% if link.title contains "Discover" %}About Us{% else %}Shop By{% endif %}</h3>
                                   {%- for childlink in link.links -%}
                                     {%- unless childlink.title contains "Featured_" or childlink.title contains "Collection_" -%}
                                       <li>
@@ -177,6 +178,7 @@
                                 </ul>
                                 {% if is_collection %}
                                   <ul class="menu-drawer__menu list-menu" role="list" tabindex="-1">
+                                    <h3 class="menu-drawer--header">{% if link.title contains "Discover" %}Collections{% else %}Collections{% endif %}</h3>
                                     {%- for childlink in link.links -%}
                                       {%- if childlink.title contains "Collection_" -%}
                                         <li>
