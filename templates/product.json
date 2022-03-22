@@ -168,7 +168,7 @@
         "show_gender": true,
         "show_material": false,
         "show_rating": false,
-        "enable_quick_buy": true,
+        "enable_quick_buy": false,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 36,

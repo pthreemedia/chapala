@@ -66,6 +66,7 @@
         "grouped_collection": true,
         "image_ratio": "adapt",
         "show_condensed_title": true,
+        "show_swatches": false,
         "show_secondary_image": false,
         "show_gender": true,
         "show_material": true,
