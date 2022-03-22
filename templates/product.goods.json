@@ -12,7 +12,7 @@
         "caption": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.seavees.gender.value }} \/ {{ product.metafields.seavees.color_name.value }} \/ {{ product.metafields.seavees.material.value }}",
+            "text": "{{ product.metafields.seavees.gender.value }} \/ {{ product.metafields.seavees.color_name.value }}",
             "text_style": "uppercase"
           }
         },
@@ -24,6 +24,7 @@
         },
         "42a82d44-4510-48f4-944a-b6fa676826af": {
           "type": "product_swatches",
+          "disabled": true,
           "settings": {
             "hide_sale_product_swatches": false
           }
@@ -149,6 +150,7 @@
     },
     "164792745482b7fb61": {
       "type": "featured-collection-alt",
+      "disabled": true,
       "settings": {
         "title": "Related Products",
         "heading_size": "h2",
@@ -187,7 +189,7 @@
     "product-reviews": {
       "type": "product-reviews",
       "settings": {
-        "heading": "See why people love the {{ product.metafields.seavees.silhouette.value }}."
+        "heading": "Product Reviews"
       }
     }
   },
