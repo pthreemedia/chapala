@@ -1259,15 +1259,21 @@ a.product__text {
 
 @media screen and (max-width: 749px) {
   .product-swatches {
-    justify-content: center;
     flex-wrap: nowrap;
     overflow-x: auto;
   }
-  
 }
 
 .product-swatches a:empty {
   display: flex;
+}
+
+.product-swatchs > *:first-child {
+  margin-left: auto;
+}
+
+.product-swatchs > *:last-child {
+  margin-right: auto;
 }
 
 .product-swatch {
