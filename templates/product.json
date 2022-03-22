@@ -89,6 +89,12 @@
             "show-description": false,
             "liquid": ""
           }
+        },
+        "d45af598-2236-4f27-9df7-84e8aa0cb053": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
         }
       },
       "block_order": [
@@ -102,7 +108,8 @@
         "467af105-8b5d-4c64-9143-fc32cfdb1c35",
         "collapsible-row-0",
         "collapsible-row-1",
-        "collapsible-row-2"
+        "collapsible-row-2",
+        "d45af598-2236-4f27-9df7-84e8aa0cb053"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -132,10 +139,48 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "164792745482b7fb61": {
+      "type": "featured-collection-alt",
+      "settings": {
+        "title": "Related Products",
+        "heading_size": "h1",
+        "description": "",
+        "description_style": "body",
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "collection_1": "featured-socks",
+        "tab_id_1": "1",
+        "featured_collection_title_1": "Socks",
+        "products_to_show_1": 3,
+        "collection_2": "sneaker-care",
+        "tab_id_2": "2",
+        "featured_collection_title_2": "Sneaker Care",
+        "products_to_show_2": 2,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_condensed_title": true,
+        "show_vendor": false,
+        "show_gender": true,
+        "show_material": false,
+        "show_rating": false,
+        "enable_quick_buy": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
     "main",
-    "product-recommendations"
+    "product-recommendations",
+    "164792745482b7fb61"
   ]
 }
