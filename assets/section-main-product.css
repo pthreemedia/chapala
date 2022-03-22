@@ -1259,7 +1259,7 @@ a.product__text {
 
 @media screen and (max-width: 749px) {
   .product-swatches {
-    justify-content: flex-start;
+    justify-content: center;
     flex-wrap: nowrap;
     overflow-x: auto;
   }
