@@ -161,7 +161,7 @@
           "enable_country_selector": false,
           "enable_language_selector": false,
           "payment_enable": false,
-          "margin_top": 0,
+          "margin_top": 36,
           "logo_1": "shopify:\/\/shop_images\/CA64_grey.png",
           "logo_2": "shopify:\/\/shop_images\/1Planet.png",
           "padding_top": 36,
