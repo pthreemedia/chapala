@@ -191,6 +191,13 @@
       "settings": {
         "heading": "See why people love the {{ product.metafields.seavees.silhouette.value }}."
       }
+    },
+    "product-ugc-gallery": {
+      "type": "product-ugc-gallery",
+      "settings": {
+        "heading": "As Seen On You",
+        "subheading": "We love seeing how you show up in SeaVees. Tag @seavees on Instagram to be featured."
+      }
     }
   },
   "order": [
