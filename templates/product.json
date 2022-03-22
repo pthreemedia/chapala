@@ -140,13 +140,11 @@
         "padding_bottom": 28
       }
     },
-    "164795836054c1e18b": {
-      "type": "custom-liquid",
+    "product-ugc-gallery": {
+      "type": "product-ugc-gallery",
       "settings": {
-        "custom_liquid": "<div id=\"foursixty-hideable-container\" style=\"display:none\"><script src=\"\/\/foursixty.com\/media\/scripts\/fs.slider.v2.5.js\" data-feed-id=\"seavees_1\" data-theme=\"slider_v2_5\" data-open-links-in-same-page=\"true\" data-connector-filter=\"45833,45834\" data-cell-size=\"25%\" data-has-posts-selector=\"#foursixty-hideable-container\" data-for-url=\"true\"><\/script><\/div>\n<style>.fs-has-links { display:none; } .fs-wrapper { height:auto; } .fs-slider_v2_5  .fs-entry-container { height:0 !important;width:25%!important;padding-top:25%!important; } .fs-wrapper div.fs-text-container .fs-entry-title, div.fs-detail-title { font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;font-style:normal;font-weight:normal;font-size:1.5rem; } div.fs-text-container .fs-entry-date, div.fs-detail-container .fs-post-info, div.fs-wrapper div.fs-has-links::after, .fs-text-product, .fs-overlink-text { font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;font-style:normal;font-weight:normal;font-size:1.5rem; } .fs-slider-next-button, .fs-slider-prev-button { opacity:1; } .fs-wrapper div.fs-text-container * { color:#ffffff; } .fs-wrapper div.fs-text-container { background-color:rgba(255,258,258,0.0);margin:0px; } div.fs-entry-date { display:none; } div.fs-service-icon { display:none; } div.fs-entry-title { display:none; } .fs-slider_v2_5 .fs-wrapper div.fs-timeline-entry { margin:2px; } <\/style>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "heading": "As Seen On You",
+        "subheading": "We love seeing how you show up in SeaVees. Tag @seavees on Instagram to be featured."
       }
     },
     "164792745482b7fb61": {
@@ -191,21 +189,13 @@
       "settings": {
         "heading": "See why people love the {{ product.metafields.seavees.silhouette.value }}."
       }
-    },
-    "product-ugc-gallery": {
-      "type": "product-ugc-gallery",
-      "settings": {
-        "heading": "As Seen On You",
-        "subheading": "We love seeing how you show up in SeaVees. Tag @seavees on Instagram to be featured."
-      }
     }
   },
   "order": [
     "main",
     "product-recommendations",
-    "164795836054c1e18b",
+    "product-ugc-gallery",
     "164792745482b7fb61",
-    "product-reviews",
-    "product-ugc-gallery"
+    "product-reviews"
   ]
 }
