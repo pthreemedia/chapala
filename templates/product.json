@@ -19,6 +19,7 @@
         "price": {
           "type": "price",
           "settings": {
+            "show_installment_option": false
           }
         },
         "42a82d44-4510-48f4-944a-b6fa676826af": {
@@ -45,13 +46,26 @@
             "show_dynamic_checkout": false
           }
         },
+        "467af105-8b5d-4c64-9143-fc32cfdb1c35": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "The Details",
+            "icon": "none",
+            "content": "",
+            "page": "",
+            "show-description": true,
+            "liquid": ""
+          }
+        },
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Size & Fit Information",
             "icon": "none",
             "content": "<p>{{ product.metafields.seavees.size_and_fit | metafield_tag }}<\/p>",
-            "page": ""
+            "page": "",
+            "show-description": false,
+            "liquid": ""
           }
         },
         "collapsible-row-1": {
@@ -60,7 +74,9 @@
             "heading": "Shipping & Returns",
             "icon": "none",
             "content": "<p>Free shipping on all orders over $100.<\/p><p>$5 shipping for orders under $100.<\/p><p>It's important to us that you are happy with your SeaVees so returns and exchanges are free, fast and easy. If you choose to exchange for a different size or color, we will ship your replacement immediately.<\/p>",
-            "page": ""
+            "page": "",
+            "show-description": false,
+            "liquid": ""
           }
         },
         "collapsible-row-2": {
@@ -69,7 +85,9 @@
             "heading": "Origin",
             "icon": "none",
             "content": "<p>{{ product.metafields.seavees.origin.value }}<\/p>",
-            "page": ""
+            "page": "",
+            "show-description": false,
+            "liquid": ""
           }
         }
       },
@@ -81,6 +99,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "467af105-8b5d-4c64-9143-fc32cfdb1c35",
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2"
