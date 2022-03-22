@@ -151,7 +151,7 @@
       "type": "featured-collection-alt",
       "settings": {
         "title": "Related Products",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "description": "",
         "description_style": "body",
         "columns_desktop": 3,
