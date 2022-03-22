@@ -176,11 +176,18 @@
         "margin_top": 0,
         "margin_bottom": 0
       }
+    },
+    "product-reviews": {
+      "type": "product-reviews",
+      "settings": {
+        "heading": "See why people love the {{ product.metafields.seavees.silhouette.value }}."
+      }
     }
   },
   "order": [
     "main",
     "product-recommendations",
+    "product-reviews",
     "164792745482b7fb61"
   ]
 }
