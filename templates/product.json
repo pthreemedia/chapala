@@ -90,17 +90,6 @@
             "liquid": ""
           }
         },
-        "099c32e4-7c44-45bc-afe4-f5b46a1b90fc": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "As seen on you",
-            "icon": "none",
-            "content": "",
-            "page": "",
-            "show-description": false,
-            "liquid": "<script src=\"\/\/foursixty.com\/media\/scripts\/fs.embed.v2.5.js\" data-feed-id=\"seavees_1\" data-theme=\"lookbook_v2_5\" data-open-links-in-same-page=\"true\" data-connector-filter=\"45833,45834\"><\/script>\n<style>.fs-has-links { display:none; } .fs-wrapper div.fs-text-container .fs-entry-title, div.fs-detail-title { font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;font-style:normal;font-weight:normal;font-size:15px; } div.fs-text-container .fs-entry-date, div.fs-detail-container .fs-post-info, div.fs-wrapper div.fs-has-links::after, .fs-text-product, .fs-overlink-text { font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;font-style:normal;font-weight:normal;font-size:15px; } .fs-wrapper div.fs-text-container * { color:#ffffff; } .fs-wrapper div.fs-text-container { background-color:rgba(0,0,0,0.0);margin:0px; } div.fs-entry-date { display:none; } div.fs-service-icon { display:none; } div.fs-entry-title { display:none; } .fs-lookbook_v2_5.fs-wrapper div.fs-timeline-entry { margin:2px; } <\/style>"
-          }
-        },
         "d45af598-2236-4f27-9df7-84e8aa0cb053": {
           "type": "share",
           "settings": {
@@ -120,7 +109,6 @@
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
-        "099c32e4-7c44-45bc-afe4-f5b46a1b90fc",
         "d45af598-2236-4f27-9df7-84e8aa0cb053"
       ],
       "settings": {
@@ -150,6 +138,15 @@
         "columns_mobile": "2",
         "padding_top": 36,
         "padding_bottom": 28
+      }
+    },
+    "164795836054c1e18b": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"foursixty-hideable-container\" style=\"display:none\"><script src=\"\/\/foursixty.com\/media\/scripts\/fs.slider.v2.5.js\" data-feed-id=\"seavees_1\" data-theme=\"slider_v2_5\" data-open-links-in-same-page=\"true\" data-connector-filter=\"45833,45834\" data-cell-size=\"25%\" data-has-posts-selector=\"#foursixty-hideable-container\" data-for-url=\"true\"><\/script><\/div>\n<style>.fs-has-links { display:none; } .fs-wrapper { height:auto; } .fs-slider_v2_5  .fs-entry-container { height:0 !important;width:25%!important;padding-top:25%!important; } .fs-wrapper div.fs-text-container .fs-entry-title, div.fs-detail-title { font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;font-style:normal;font-weight:normal;font-size:15px; } div.fs-text-container .fs-entry-date, div.fs-detail-container .fs-post-info, div.fs-wrapper div.fs-has-links::after, .fs-text-product, .fs-overlink-text { font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;font-style:normal;font-weight:normal;font-size:15px; } .fs-wrapper { margin:auto;width:calc(100% - 20px); } .fs-wrapper div.fs-text-container * { color:#ffffff; } .fs-wrapper div.fs-text-container { background-color:rgba(0,0,0,0.0);margin:0px; } div.fs-entry-date { display:none; } div.fs-service-icon { display:none; } div.fs-entry-title { display:none; } .fs-slider_v2_5 .fs-wrapper div.fs-timeline-entry { margin:2px; } <\/style>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "164792745482b7fb61": {
@@ -189,15 +186,6 @@
         "margin_bottom": 0
       }
     },
-    "164795836054c1e18b": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div id=\"foursixty-hideable-container\" style=\"display:none\"><script src=\"\/\/foursixty.com\/media\/scripts\/fs.slider.v2.5.js\" data-feed-id=\"seavees_1\" data-theme=\"slider_v2_5\" data-open-links-in-same-page=\"true\" data-connector-filter=\"45833,45834\" data-cell-size=\"25%\" data-has-posts-selector=\"#foursixty-hideable-container\" data-for-url=\"true\"><\/script><\/div>\n<style>.fs-has-links { display:none; } .fs-wrapper { height:auto; } .fs-slider_v2_5  .fs-entry-container { height:0 !important;width:25%!important;padding-top:25%!important; } .fs-wrapper div.fs-text-container .fs-entry-title, div.fs-detail-title { font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;font-style:normal;font-weight:normal;font-size:15px; } div.fs-text-container .fs-entry-date, div.fs-detail-container .fs-post-info, div.fs-wrapper div.fs-has-links::after, .fs-text-product, .fs-overlink-text { font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;font-style:normal;font-weight:normal;font-size:15px; } .fs-wrapper { margin:auto;width:calc(100% - 120px); } .fs-wrapper div.fs-text-container * { color:#ffffff; } .fs-wrapper div.fs-text-container { background-color:rgba(0,0,0,0.0);margin:0px; } div.fs-entry-date { display:none; } div.fs-service-icon { display:none; } div.fs-entry-title { display:none; } .fs-slider_v2_5 .fs-wrapper div.fs-timeline-entry { margin:2px; } <\/style>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "product-reviews": {
       "type": "product-reviews",
       "settings": {
@@ -208,8 +196,8 @@
   "order": [
     "main",
     "product-recommendations",
-    "164792745482b7fb61",
     "164795836054c1e18b",
+    "164792745482b7fb61",
     "product-reviews"
   ]
 }
