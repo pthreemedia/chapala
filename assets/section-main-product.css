@@ -510,7 +510,7 @@ a.product__text {
 @media screen and (max-width: 749px) {
   .product__media-list {
     margin-left: -2.5rem;
-    padding-bottom: 2rem;
+    padding-bottom: 0;
     margin-bottom: 3rem;
     width: calc(100% + 4rem);
   }
@@ -1259,15 +1259,23 @@ a.product__text {
 
 @media screen and (max-width: 749px) {
   .product-swatches {
-    justify-content: center;
     flex-wrap: nowrap;
     overflow-x: auto;
   }
-  
 }
 
 .product-swatches a:empty {
   display: flex;
+}
+
+@media screen and (max-width: 749px) {
+  .product-swatches > div:first-child {
+    margin-left: auto;
+  }
+
+  .product-swatches > div:last-child {
+    margin-right: auto;
+  }
 }
 
 .product-swatch {

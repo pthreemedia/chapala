@@ -12,7 +12,7 @@
         "caption": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.seavees.gender.value }} \/ {{ product.metafields.seavees.color_name.value }} \/ {{ product.metafields.seavees.material.value }}",
+            "text": "{{ product.metafields.seavees.gender.value }} \/ {{ product.metafields.seavees.color_name.value }}",
             "text_style": "uppercase"
           }
         },
@@ -24,6 +24,7 @@
         },
         "42a82d44-4510-48f4-944a-b6fa676826af": {
           "type": "product_swatches",
+          "disabled": true,
           "settings": {
             "hide_sale_product_swatches": false
           }
@@ -70,6 +71,7 @@
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Shipping & Returns",
             "icon": "none",
@@ -147,27 +149,33 @@
         "subheading": "We love seeing how you show up in SeaVees. Tag @seavees on Instagram to be featured."
       }
     },
+    "product-reviews": {
+      "type": "product-reviews",
+      "settings": {
+        "heading": "Product Reviews"
+      }
+    },
     "164792745482b7fb61": {
       "type": "featured-collection-alt",
       "settings": {
-        "title": "Related Products",
-        "heading_size": "h2",
-        "description": "",
-        "description_style": "body",
-        "columns_desktop": 3,
+        "title": "Featured Collection",
+        "heading_size": "h1",
+        "description": "<p>New Arrivals<\/p>",
+        "description_style": "uppercase",
+        "columns_desktop": 4,
         "full_width": false,
-        "show_view_all": false,
+        "show_view_all": true,
         "view_all_style": "solid",
-        "enable_desktop_slider": false,
+        "enable_desktop_slider": true,
         "color_scheme": "background-1",
-        "collection_1": "featured-socks",
+        "collection_1": "mens-new-arrivals",
         "tab_id_1": "1",
-        "featured_collection_title_1": "Socks",
-        "products_to_show_1": 3,
-        "collection_2": "sneaker-care",
+        "featured_collection_title_1": "Mens",
+        "products_to_show_1": 6,
+        "collection_2": "womens-new-arrivals",
         "tab_id_2": "2",
-        "featured_collection_title_2": "Sneaker Care",
-        "products_to_show_2": 2,
+        "featured_collection_title_2": "Womens",
+        "products_to_show_2": 6,
         "image_ratio": "adapt",
         "show_secondary_image": false,
         "show_condensed_title": true,
@@ -180,14 +188,8 @@
         "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "product-reviews": {
-      "type": "product-reviews",
-      "settings": {
-        "heading": "See why people love the {{ product.metafields.seavees.silhouette.value }}."
+        "margin_top": 36,
+        "margin_bottom": 36
       }
     }
   },
@@ -195,7 +197,7 @@
     "main",
     "product-recommendations",
     "product-ugc-gallery",
-    "164792745482b7fb61",
-    "product-reviews"
+    "product-reviews",
+    "164792745482b7fb61"
   ]
 }
