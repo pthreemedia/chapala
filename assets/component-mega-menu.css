@@ -42,7 +42,7 @@
 .mega-menu__list {
   display: grid;
   gap: 2.4rem 4rem;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-columns: 1fr 1fr 60%;
   list-style: none;
 }
 
@@ -84,4 +84,49 @@
 
 .mega-menu__list--condensed .mega-menu__link {
   font-weight: normal;
+}
+
+/* Featured Sections */
+
+.featured-menu-desktop-container {
+  grid-column: 3 / 3;
+  grid-row: 1 / 3
+}
+
+.header-featured-desktop-image {
+  width: 100%;
+  height: auto;
+  padding: 0 0.5rem;
+}
+
+.header-featured-mobile-image {
+  width: 100%;
+  height: auto;
+}
+
+.featured-menu-desktop {
+  display: flex;
+  width: 100%;
+}
+
+.featured-menu-mobile {
+  display: flex;
+  flex-direction: column;
+}
+
+.featured-menu-desktop-link {
+  text-align: center;
+}
+
+.featured-menu-mobile-link {
+  justify-content: center;
+}
+
+.featured-menu-desktop-header {
+  cursor: auto;
+}
+
+.featured-menu-desktop-header:hover {
+  text-decoration: none;
+  color: rgba(var(--color-foreground),.75)
 }

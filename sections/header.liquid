@@ -159,6 +159,74 @@
                                       {%- endif -%}
                                     </li>
                                   {%- endfor -%}
+                                  {% liquid
+                                    if link.title == "Mens" and section.settings.mens_featured_content_title != blank
+                                      assign has_content = "Mens"
+                                    elsif link.title == "Womens" and section.settings.womens_featured_content_title != blank
+                                        assign has_content = "Womens"
+                                    elsif link.title == "Kids" and section.settings.kids_featured_content_title != blank
+                                        assign has_content = "Kids"
+                                    elsif link.title == "Discover" and section.settings.discover_featured_content_title != blank
+                                        assign has_content = "Discover"
+                                    endif
+                                  %}
+                                    
+                                  {% if has_content == link.title %}
+                                    <li>
+                                      <details id="Details-menu-drawer-submenu-featured">
+                                        <summary class="menu-drawer__menu-item link link--text list-menu__item focus-inset">
+                                          {% if link.title == "Mens" and section.settings.mens_featured_content_title != blank %}
+                                            {{ section.settings.mens_featured_content_title }}
+                                          {% elsif link.title == "Womens" and section.settings.womens_featured_content_title != blank %}
+                                            {{ section.settings.womens_featured_content_title }}
+                                          {% elsif link.title == "Kids" and section.settings.kids_featured_content_title != blank %}
+                                            {{ section.settings.kids_featured_content_title }}
+                                          {% elsif link.title == "Discover" and section.settings.discover_featured_content_title != blank %}
+                                            {{ section.settings.discover_featured_content_title }}
+                                          {% endif %}
+                                          {% render 'icon-arrow' %}
+                                          {% render 'icon-caret' %}
+                                        </summary>
+                                        <div id="childlink-{{ childlink.title | escape }}" class="menu-drawer__submenu gradient motion-reduce">
+                                          <button class="menu-drawer__close-button link link--text focus-inset" aria-expanded="true">
+                                            {% render 'icon-arrow' %}
+                                            {% if link.title == "Mens" and section.settings.mens_featured_content_title != blank %}
+                                              {{ section.settings.mens_featured_content_title }}
+                                            {% elsif link.title == "Womens" and section.settings.womens_featured_content_title != blank %}
+                                              {{ section.settings.wommens_featured_content_title }}
+                                            {% elsif link.title == "Kids" and section.settings.kids_featured_content_title != blank %}
+                                              {{ section.settings.kids_featured_content_title }}
+                                            {% elsif link.title == "Discover" and section.settings.discover_featured_content_title != blank %}
+                                              {{ section.settings.discover_featured_content_title }}
+                                            {% endif %}
+                                          </button>
+                                          <ul class="menu-drawer__menu list-menu featured-menu-mobile" role="list" tabindex="-1">
+                                            {%- for block in section.blocks -%}
+                                                {% if block.settings.category == link.title %}
+                                                  <li>
+                                                    {% if block.settings.image_mobile != blank %}
+                                                      <div class="header-menu-mobile-image">
+                                                        <img
+                                                        src="{{ block.settings.image_mobile | image_url: width: 300 }}"
+                                                        alt="{{ block.settings.text | escape }}"
+                                                        loading="lazy"
+                                                        width="{{ block.settings.image_mobile.width }}"
+                                                        height="{{ block.settings.image_mobile.height }}"
+                                                        class="header-featured-mobile-image"
+                                                        >
+                                                      </div>
+                                                    {% endif %}
+                                                    <a href="{{ block.settings.link }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset featured-menu-mobile-link">
+                                                      {{ block.settings.text | escape }}
+                                                    </a>
+                                                  </li>
+                                                {% endif %}
+                                            {%- endfor -%}
+                                          </ul>
+                                        </div>
+                                      </details>
+                                    </li>
+                                  {% endif %}
                                 </ul>
                               </div>
                             </div>
@@ -447,6 +515,54 @@
                               {%- endif -%}
                             </li>
                           {%- endfor -%}
+                          {% liquid
+                            if link.title == "Mens" and section.settings.mens_featured_content_title != blank
+                              assign has_content = "Mens"
+                            elsif link.title == "Womens" and section.settings.womens_featured_content_title != blank
+                                assign has_content = "Womens"
+                            elsif link.title == "Kids" and section.settings.kids_featured_content_title != blank
+                                assign has_content = "Kids"
+                            elsif link.title == "Discover" and section.settings.discover_featured_content_title != blank
+                                assign has_content = "Discover"
+                            endif
+                          %}
+                            
+                          {% if has_content == link.title %}
+                            <li class="featured-menu-desktop-container">
+                              <div class="mega-menu__link link font-body-bold featured-menu-desktop-header">
+                                {% if link.title == "Mens" and section.settings.mens_featured_content_title != blank %}
+                                  {{ section.settings.mens_featured_content_title }}
+                                {% elsif link.title == "Womens" and section.settings.womens_featured_content_title != blank %}
+                                  {{ section.settings.womens_featured_content_title }}
+                                {% elsif link.title == "Kids" and section.settings.kids_featured_content_title != blank %}
+                                  {{ section.settings.kids_featured_content_title }}
+                                {% elsif link.title == "Discover" and section.settings.discover_featured_content_title != blank %}
+                                  {{ section.settings.discover_featured_content_title }}
+                                {% endif %}
+                              </div>
+                              <ul class="menu-drawer__menu list-menu featured-menu-desktop" role="list" tabindex="-1">
+                                {%- for block in section.blocks -%}
+                                  {% if block.settings.category == link.title %}
+                                    <li>
+                                      <div class="header-menu-desktop-image">
+                                        <img
+                                        src="{{ block.settings.image_desktop | image_url: width: 300 }}"
+                                        alt="{{ block.settings.text | escape }}"
+                                        loading="lazy"
+                                        width="{{ block.settings.image_desktop.width }}"
+                                        height="{{ block.settings.image_desktop.height }}"
+                                        class="header-featured-desktop-image"
+                                        >
+                                      </div>
+                                      <a href="{{ block.settings.link }}" class="mega-menu__link link featured-menu-desktop-link">
+                                        {{ block.settings.text | escape }}
+                                      </a>
+                                    </li>
+                                  {% endif %}
+                                {%- endfor -%}
+                              </ul>
+                            </li>
+                          {% endif %}
                         </ul>
                       </div>
                     </details>
@@ -712,6 +828,42 @@
 {
   "name": "t:sections.header.name",
   "class": "section-header",
+  "blocks": [
+    {
+      "type": "featured_content",
+      "name": "Featured content",
+      "settings": [
+        {
+          "type": "text",
+          "id": "category",
+          "label": "Nest content under category",
+          "info": "Options: Mens, Womens, Kids, Discover (Case Sensitive)"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Anchor text"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_desktop",
+          "label": "Desktop image",
+          "info": "Suggested dimensions: 500px X 600px"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_mobile",
+          "label": "Mobile image",
+          "info": "Suggested dimensions: 500px X 300px"
+        }
+      ]
+    }
+  ],
   "settings": [
     {
       "type": "select",
@@ -812,6 +964,30 @@
       "default": true,
       "label": "t:sections.header.settings.enable_sticky_header.label",
       "info": "t:sections.header.settings.enable_sticky_header.info"
+    },
+    {
+      "type": "header",
+      "content": "Featured content titles"
+    },
+    {
+      "type": "text",
+      "id": "womens_featured_content_title",
+      "label": "Womens featured content title"
+    },
+    {
+      "type": "text",
+      "id": "mens_featured_content_title",
+      "label": "Mens featured content title"
+    },
+    {
+      "type": "text",
+      "id": "kids_featured_content_title",
+      "label": "Kids featured content title"
+    },
+    {
+      "type": "text",
+      "id": "discover_featured_content_title",
+      "label": "Discover featured content title"
     },
     {
       "type": "header",
