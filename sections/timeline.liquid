@@ -1,0 +1,84 @@
+{{ 'section-timeline.css' | asset_url | stylesheet_tag }}
+
+<div class="Timeline page-width">
+  {%- for block in section.blocks -%}
+    {%- if block.type == 'timeline_block' -%}
+      <div class="Timeline__item {% if block.settings.text_placement == 'right' %}place-right{% else %}place-left{% endif %}">
+        {% capture image %}
+          <div class="Timeline__image">
+            <img
+              srcset="
+              {%- if block.settings.image.width >= 730 -%}{{ block.settings.image | image_url: width: 730 }} 730w,{%- endif -%}
+              {%- if block.settings.image.width >= 990 -%}{{ block.settings.image | image_url: width: 990 }} 990w,{%- endif -%}
+              {%- if block.settings.image.width >= 1440 -%}{{ block.settings.image | image_url: width: 1440 }} 1440w,{%- endif -%}"
+              src="{{ block.settings.image | image_url: width: 533 }}"
+              sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+              alt="{{ block.settings.image.alt }}"
+              loading="lazy"
+              width="{{ block.settings.image.width }}"
+              height="{{ block.settings.image.height }}"
+            >
+          </div>
+        {% endcapture %}
+        {% capture content %}
+          <div class="Timeline__content">
+            <h3 class="h2">{{ block.settings.heading }}</h3>
+            <div class="content-body">{{ block.settings.body }}</div>
+          </div>
+        {% endcapture %}
+        {%- if block.settings.text_placement == 'right' -%}
+          {{ image }}
+          {{ content }}
+        {%- else -%}
+          {{ content }}
+          {{ image }}
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+  {%- endfor -%}
+</div>
+
+{% schema %}
+{
+  "name": "Responsive Timeline",
+  "tag": "section",
+  "class": "section",
+  "blocks": [
+    {
+      "type": "timeline_block",
+      "name": "Timeline Block",
+      "settings": [
+        {
+          "type": "radio",
+          "id": "text_placement",
+          "label": "Text placement",
+          "options": [
+            { "value": "left", "label": "Left" },
+            { "value": "right", "label": "Right" }
+          ]
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "body",
+          "label": "Body"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Responsive Timeline"
+    }
+  ]
+}
+{% endschema %}

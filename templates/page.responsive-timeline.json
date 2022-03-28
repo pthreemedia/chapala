@@ -1,0 +1,162 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "16484982601b30b73a": {
+      "type": "rich-text",
+      "blocks": {
+        "16484982604c779ae4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Legacy",
+            "heading_size": "h1"
+          }
+        },
+        "bb484baa-1e53-41bb-872e-018d2ab5f694": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A brief history of a brand that lay dormant for nearly 40 years.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16484982604c779ae4-0",
+        "bb484baa-1e53-41bb-872e-018d2ab5f694"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "is_page_header": true,
+        "padding_top": 68,
+        "padding_bottom": 52
+      }
+    },
+    "1648498124cfde6a62": {
+      "type": "page-menu",
+      "blocks": {
+        "164849812419f1a6c3-0": {
+          "type": "page_menu_link",
+          "settings": {
+            "link_text": "About SeaVees",
+            "link_url": "shopify:\/\/pages\/about-seavees"
+          }
+        },
+        "bf80c113-02d0-49f6-b0a4-e0f03cd9a605": {
+          "type": "page_menu_link",
+          "settings": {
+            "link_text": "Our Legacy",
+            "link_url": "shopify:\/\/pages\/our-legacy"
+          }
+        },
+        "30fde8e0-066c-4317-9e2f-a77619ac3870": {
+          "type": "page_menu_link",
+          "settings": {
+            "link_text": "Our Shoes",
+            "link_url": "shopify:\/\/pages\/what-makes-a-seavees"
+          }
+        },
+        "ba5be8c3-0623-4bdf-b54d-09e15b9e0336": {
+          "type": "page_menu_link",
+          "settings": {
+            "link_text": "Our Values",
+            "link_url": "shopify:\/\/pages\/preserve-the-dream"
+          }
+        }
+      },
+      "block_order": [
+        "164849812419f1a6c3-0",
+        "bf80c113-02d0-49f6-b0a4-e0f03cd9a605",
+        "30fde8e0-066c-4317-9e2f-a77619ac3870",
+        "ba5be8c3-0623-4bdf-b54d-09e15b9e0336"
+      ],
+      "settings": {
+        "stack_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 36
+      }
+    },
+    "1648503299913e2b22": {
+      "type": "timeline",
+      "blocks": {
+        "305a859f-33fb-40f0-9c3d-641add64cd99": {
+          "type": "timeline_block",
+          "settings": {
+            "text_placement": "left",
+            "image": "shopify:\/\/shop_images\/SeaVees_OurLegacyLP_Tile1-Deskto.jpg",
+            "heading": "1960s",
+            "body": "<p><strong>1964: <\/strong>Sneakers as the everyday staple we know today, don't exist. Instead, sneakers are thought of as either gym shoes or kids shoes. In June, BF Goodrich decides to launch SeaVees as the start of a complete rethinking of casual footwear. With a groundbreaking advertising campaign in some of the most widely read publications of the day, SeaVees is positioned as \"the new way to go casual\". A shoe with all the comfort of a sneaker but the sophistication of a dress shoe. The sneaker to show up in for any occasion.<\/p>"
+          }
+        },
+        "f589a368-7aa5-4ce4-9c1e-69dab85f260c": {
+          "type": "timeline_block",
+          "settings": {
+            "text_placement": "right",
+            "image": "shopify:\/\/shop_images\/SP19WebRedesign_OurLegacyLP_Tile.jpg",
+            "heading": "1970s",
+            "body": "<p><strong>1969:<\/strong> In an effort to streamline their portfolio, BF Goodrich decides to focus on tire production. SeaVees, along with Jack Purcell and PF Flyers, are sold by BF Goodrich to Converse Rubber Company.<br\/><br\/><strong>1971:<\/strong> Only two years later, Converse is forced to close SeaVees in response to a US Department of Justice complaint for having a monopoly on the American sneaker market.<\/p>"
+          }
+        },
+        "650ea4ae-13f9-4d69-9892-0c86341eaa75": {
+          "type": "timeline_block",
+          "settings": {
+            "text_placement": "left",
+            "image": "shopify:\/\/shop_images\/SeaVees_OurLegacyLP_Tile3-Deskto.jpg",
+            "heading": "1970 - 2000",
+            "body": "<p>The SeaVees brand remains dormant for the next 40 years.<\/p>"
+          }
+        },
+        "d7717bc9-619e-4ea5-aac2-5c208b44ddf1": {
+          "type": "timeline_block",
+          "settings": {
+            "text_placement": "right",
+            "image": "shopify:\/\/shop_images\/SeaVees_OurLegacyLP_Tile4-Deskto.jpg",
+            "heading": "2000s",
+            "body": "<p><strong>2005:<\/strong> A vintage SeaVees sneaker is found in a Tokyo second-hand store by shoe designer and entrepreneur Steven Tiller.<br\/><br\/><strong>2008:<\/strong> A small selection of product is offered and the first SeaVees website is launched.<\/p>"
+          }
+        },
+        "ca084d30-d341-4a98-95e3-e371148c352e": {
+          "type": "timeline_block",
+          "settings": {
+            "text_placement": "left",
+            "image": "shopify:\/\/shop_images\/SeaVees_OurLegacyLP_Tile5-Deskto.jpg",
+            "heading": "2010s",
+            "body": "<p><strong>2010:<\/strong> After gaining traction in the U.S. marketplace, SeaVees is returned to its rightful birthplace in California and the first official SeaVees office is opened in Santa Barbara.<br\/><br\/><strong>2014:<\/strong> SeaVees debuts its first women’s collection upon establishing success in the men’s market, further positioning itself as the original way to go casual. <br\/><br\/><strong>2017:<\/strong> SeaVees partners with Pentland Brands in anticipation of launching the brand globally and establishing its mark as the original casual sneaker overseas. <br\/><br\/><strong>2018:<\/strong> SeaVees turns 10 or 54? The brand was started in 1964, but was reborn in 2008. 10 years in and we’re still living our California Dream. Our passion for making the best sneakers around is stronger than ever. <br\/><br\/><strong>2019:<\/strong> SeaVees flagship store? It was a dream of ours for a long time and we finally found the perfect location, <a href=\"https:\/\/www.seavees.com\/pages\/stores\">24 Mason St. <\/a> in Santa Barbara's Funk Zone.<\/p>"
+          }
+        },
+        "ba22d48e-8bcd-4c35-aa71-d428f7b796f7": {
+          "type": "timeline_block",
+          "settings": {
+            "text_placement": "left",
+            "image": "shopify:\/\/shop_images\/timeline-20202s-desktop_12ce90cc.jpg",
+            "heading": "2020s",
+            "body": "<p><strong>2020:<\/strong> SeaVees launches SeaChange: our first collection of (almost completely) recycled shoes.<br\/><br\/><strong>2021:<\/strong> SeaVees opens the 'Lido Lodge', our second retail store in  Newport Beach, CA. The store is a reclaimed 1940s-era cottage and  anchors the historic Lido Marina on the Balboa Peninsula side of Newport Bay.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "305a859f-33fb-40f0-9c3d-641add64cd99",
+        "f589a368-7aa5-4ce4-9c1e-69dab85f260c",
+        "650ea4ae-13f9-4d69-9892-0c86341eaa75",
+        "d7717bc9-619e-4ea5-aac2-5c208b44ddf1",
+        "ca084d30-d341-4a98-95e3-e371148c352e",
+        "ba22d48e-8bcd-4c35-aa71-d428f7b796f7"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16484982601b30b73a",
+    "1648498124cfde6a62",
+    "1648503299913e2b22"
+  ]
+}

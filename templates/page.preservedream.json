@@ -1,0 +1,211 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "16484982601b30b73a": {
+      "type": "rich-text",
+      "blocks": {
+        "16484982604c779ae4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Preserving The Dream",
+            "heading_size": "h1"
+          }
+        },
+        "bb484baa-1e53-41bb-872e-018d2ab5f694": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our commitment to better our shoes, our people and our environment.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16484982604c779ae4-0",
+        "bb484baa-1e53-41bb-872e-018d2ab5f694"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "is_page_header": true,
+        "padding_top": 68,
+        "padding_bottom": 52
+      }
+    },
+    "1648498124cfde6a62": {
+      "type": "page-menu",
+      "blocks": {
+        "164849812419f1a6c3-0": {
+          "type": "page_menu_link",
+          "settings": {
+            "link_text": "About SeaVees",
+            "link_url": "shopify:\/\/pages\/about-seavees"
+          }
+        },
+        "bf80c113-02d0-49f6-b0a4-e0f03cd9a605": {
+          "type": "page_menu_link",
+          "settings": {
+            "link_text": "Our Legacy",
+            "link_url": "shopify:\/\/pages\/our-legacy"
+          }
+        },
+        "30fde8e0-066c-4317-9e2f-a77619ac3870": {
+          "type": "page_menu_link",
+          "settings": {
+            "link_text": "Our Shoes",
+            "link_url": "shopify:\/\/pages\/what-makes-a-seavees"
+          }
+        },
+        "ba5be8c3-0623-4bdf-b54d-09e15b9e0336": {
+          "type": "page_menu_link",
+          "settings": {
+            "link_text": "Our Values",
+            "link_url": "shopify:\/\/pages\/preserve-the-dream"
+          }
+        }
+      },
+      "block_order": [
+        "164849812419f1a6c3-0",
+        "bf80c113-02d0-49f6-b0a4-e0f03cd9a605",
+        "30fde8e0-066c-4317-9e2f-a77619ac3870",
+        "ba5be8c3-0623-4bdf-b54d-09e15b9e0336"
+      ],
+      "settings": {
+        "stack_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "1648498699d572e81a": {
+      "type": "image-with-text",
+      "blocks": {
+        "1648498699075380ea-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Shoes",
+            "heading_size": "h1"
+          }
+        },
+        "1648498699075380ea-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We require adherence to strict ethical standards in the family owned factories that we work with. This commitment includes paying best-practice living wages, providing safe and hygienic working conditions and demanding a zero tolerance policy on child labor. Whenever possible we source materials and components to improve our environmental impact and achieve a more sustainable business practice. We recognize we are all a work-in-progress but are committed to constantly decreasing our carbon footprint.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "1648498699075380ea-0",
+        "1648498699075380ea-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/SeaVees_Heritage_Ad_111111_df25924e-6cbc-480e-bb2c-2cbfc72f85e5.jpg",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1648499956ecd2c500": {
+      "type": "image-with-text",
+      "blocks": {
+        "164849995609e3e0f1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our People",
+            "heading_size": "h1"
+          }
+        },
+        "164849995609e3e0f1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At SeaVees, we live by the ideals that inspire our brand. We're <br\/>committed to bettering our shoes, our people, and our environment. Everything we do is deeply rooted in quality, precision, and authenticity. <\/p>",
+            "text_style": "body"
+          }
+        },
+        "164849995609e3e0f1-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "View Careers",
+            "button_link": "https:\/\/www.seavees.com\/pages\/careers"
+          }
+        }
+      },
+      "block_order": [
+        "164849995609e3e0f1-0",
+        "164849995609e3e0f1-1",
+        "164849995609e3e0f1-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/groupday1-_420-of-510_80448b31-d150-49a1-8251-dcdd6998cbc0.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16485020534da6c713": {
+      "type": "image-with-text",
+      "blocks": {
+        "16485020534ca08e34-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Environment",
+            "heading_size": "h1"
+          }
+        },
+        "16485020534ca08e34-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Together we can make a difference. All of us here at SeaVees believe in giving back. Every year we give one percent of our revenue to environmental causes by partnering with organizations like Gaviota Coast Conservancy, Environmental Defense Center, Los Padres National Forest Watch, Channel Keepers, and more. With your support we'll continue to <br\/>grow these efforts in order to preserve our planet for generations to come.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "16485020534ca08e34-0",
+        "16485020534ca08e34-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/PTDLP_Tile2_Desktop_cc664cb3-810.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16484982601b30b73a",
+    "1648498124cfde6a62",
+    "1648498699d572e81a",
+    "1648499956ecd2c500",
+    "16485020534da6c713"
+  ]
+}

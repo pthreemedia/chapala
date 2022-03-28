@@ -1,0 +1,197 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "16484982601b30b73a": {
+      "type": "rich-text",
+      "blocks": {
+        "16484982604c779ae4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "About SeaVees",
+            "heading_size": "h1"
+          }
+        },
+        "cf4f549e-f35a-46ab-9683-830041643f19": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The original way to go casual since 1964.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16484982604c779ae4-0",
+        "cf4f549e-f35a-46ab-9683-830041643f19"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "is_page_header": true,
+        "padding_top": 68,
+        "padding_bottom": 52
+      }
+    },
+    "1648498124cfde6a62": {
+      "type": "page-menu",
+      "blocks": {
+        "164849812419f1a6c3-0": {
+          "type": "page_menu_link",
+          "settings": {
+            "link_text": "About SeaVees",
+            "link_url": "shopify:\/\/pages\/about-seavees"
+          }
+        },
+        "bf80c113-02d0-49f6-b0a4-e0f03cd9a605": {
+          "type": "page_menu_link",
+          "settings": {
+            "link_text": "Our Legacy",
+            "link_url": "shopify:\/\/pages\/our-legacy"
+          }
+        },
+        "30fde8e0-066c-4317-9e2f-a77619ac3870": {
+          "type": "page_menu_link",
+          "settings": {
+            "link_text": "Our Shoes",
+            "link_url": "shopify:\/\/pages\/what-makes-a-seavees"
+          }
+        },
+        "ba5be8c3-0623-4bdf-b54d-09e15b9e0336": {
+          "type": "page_menu_link",
+          "settings": {
+            "link_text": "Our Values",
+            "link_url": "shopify:\/\/pages\/preserve-the-dream"
+          }
+        }
+      },
+      "block_order": [
+        "164849812419f1a6c3-0",
+        "bf80c113-02d0-49f6-b0a4-e0f03cd9a605",
+        "30fde8e0-066c-4317-9e2f-a77619ac3870",
+        "ba5be8c3-0623-4bdf-b54d-09e15b9e0336"
+      ],
+      "settings": {
+        "stack_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "1648498531a60804d2": {
+      "type": "video",
+      "settings": {
+        "heading": "Our Story",
+        "heading_size": "h2",
+        "cover_image": "shopify:\/\/shop_images\/SeaVees_Heritage_Banner_V3_cdabc.jpg",
+        "video_url": "https:\/\/vimeo.com\/85883521",
+        "description": "SeaVees Legend",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1648498699d572e81a": {
+      "type": "image-with-text",
+      "blocks": {
+        "1648498699075380ea-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Heritage",
+            "heading_size": "h1"
+          }
+        },
+        "1648498699075380ea-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With a groundbreaking advertising campaign throughout the 1960s, SeaVees pioneered the transformation of the sneaker from gym shoe to casual shoe.<\/p><p>For any social affair, one could show up in SeaVees; a comfortable sneaker with the sophistication of a dressier shoe.<\/p><p>SeaVees then lay dormant for the next 40 years until it was discovered on the other side of the Pacific in a second hand store in Tokyo and restored to it's rightful birthplace in Santa Barbara, California.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1648498699075380ea-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "See Our Legacy",
+            "button_link": "shopify:\/\/pages\/our-legacy"
+          }
+        }
+      },
+      "block_order": [
+        "1648498699075380ea-0",
+        "1648498699075380ea-1",
+        "1648498699075380ea-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/SeaVees_Heritage_Ad_111111_df25924e-6cbc-480e-bb2c-2cbfc72f85e5.jpg",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1648499956ecd2c500": {
+      "type": "image-with-text",
+      "blocks": {
+        "164849995609e3e0f1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Founder & CEO",
+            "heading_size": "h1"
+          }
+        },
+        "164849995609e3e0f1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Steven Tiller brings over 25 years of brand building success to SeaVees. His vision has influenced the creative direction of many of the top names in the footwear industry. Today, the native of Norman, OK is  pursuing his lifelong California dream with his family in Santa Barbara, CA.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "164849995609e3e0f1-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read Steven's Story",
+            "button_link": "shopify:\/\/pages\/the-seavees-legend-1"
+          }
+        }
+      },
+      "block_order": [
+        "164849995609e3e0f1-0",
+        "164849995609e3e0f1-1",
+        "164849995609e3e0f1-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Steven_Tiller_SeaVees_131131_b5ee837d-1e92-41b3-8d19-5bb3427e7938.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16484982601b30b73a",
+    "1648498124cfde6a62",
+    "1648498531a60804d2",
+    "1648498699d572e81a",
+    "1648499956ecd2c500"
+  ]
+}
