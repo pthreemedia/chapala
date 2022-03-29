@@ -54,30 +54,30 @@
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/seavees_womens_featured_020911_2b77c119-5668-4265-b60b-a9e8b93a9d80.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "Mens Shoes",
-            "link": "shopify:\/\/collections\/mens-all"
-          }
-        },
         "column2": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/seavees_legend_cordies_mobile_211111_00b5cbc0-e34c-43f8-b1b1-22f2d084dcb6.jpg",
-            "title": "",
+            "title": "Womens Shoes",
             "text": "",
-            "link_label": "Womens Shoes",
+            "link_label": "Shop",
             "link": "shopify:\/\/collections\/womens-all"
+          }
+        },
+        "column1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/seavees_womens_featured_020911_2b77c119-5668-4265-b60b-a9e8b93a9d80.jpg",
+            "title": "Mens Shoes",
+            "text": "",
+            "link_label": "Shop",
+            "link": "shopify:\/\/collections\/mens-all"
           }
         }
       },
       "block_order": [
-        "column1",
-        "column2"
+        "column2",
+        "column1"
       ],
       "settings": {
         "title": "",

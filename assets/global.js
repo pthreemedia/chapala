@@ -831,8 +831,8 @@ class VariantSelects extends HTMLElement {
       .then((response) => response.text())
       .then((responseText) => {
         const html = new DOMParser().parseFromString(responseText, 'text/html')
-        const destination = document.getElementById(id);
-        const source = html.getElementById(id);
+        const destination = document.getElementById(`price-${this.dataset.section}`);
+        const source = html.getElementById(`price-${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`);
         const variantPickerDestination = document.querySelector('variant-radios') || document.querySelector('variant-selects');
         const variantPickerSource = html.querySelector('variant-radios') || html.querySelector('variant-selects');
 
