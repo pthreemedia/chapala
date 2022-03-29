@@ -118,7 +118,7 @@
           {%- case block.type -%}
             {%- when 'heading' -%}
               <h2 class="hero-banner__heading h1" {{ block.shopify_attributes }}>
-                <span>{{ block.settings.heading | escape }}</span>
+                <span>{{ block.settings.heading | escape }}{% if block.settings.heading_2 != blank %}<br>{{ block.settings.heading_2 }}{% endif %}</span>
               </h2>
             {%- when 'text' -%}
               <div class="hero-banner__text" {{ block.shopify_attributes }}>
@@ -261,6 +261,11 @@
           "label": "Heading"
         },
         {
+          "type": "text",
+          "id": "heading_2",
+          "label": "Heading line 2"
+        },
+        {
           "type": "checkbox",
           "id": "hide_block_on_mobile",
           "default": false,
@@ -280,7 +285,7 @@
       "limit": 1,
       "settings": [
         {
-          "type": "text",
+          "type": "textarea",
           "id": "text",
           "default": "We make great shoes.",
           "label": "Text"

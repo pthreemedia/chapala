@@ -226,3 +226,16 @@
     display: list-item;
   }
 }
+
+.multicolumn-card__info-absolute {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  text-align: center;
+}
+
+.multicolumn-card__info-absolute > * {
+  color: rgb(var(--color-background));
+}

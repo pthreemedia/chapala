@@ -1,12 +1,80 @@
 {
   "sections": {
+    "1648587509be8cc4f4": {
+      "type": "rich-text",
+      "blocks": {
+        "1648587509ab6c5b12-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Journal",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "1648587509ab6c5b12-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "is_page_header": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1648587500acdac22c": {
+      "type": "page-menu",
+      "blocks": {
+        "164858750062f1de1a-0": {
+          "type": "page_menu_link",
+          "settings": {
+            "link_text": "All",
+            "link_url": "https:\/\/www.seavees.com\/blogs\/journal"
+          }
+        },
+        "66243d04-03fc-447d-83c1-e9b2119d74bf": {
+          "type": "page_menu_link",
+          "settings": {
+            "link_text": "SeaVees News",
+            "link_url": "https:\/\/www.seavees.com\/blogs\/journal\/tagged\/news"
+          }
+        },
+        "9fb08344-f74a-4ebc-8576-fc030264b0b9": {
+          "type": "page_menu_link",
+          "settings": {
+            "link_text": "Collaborations",
+            "link_url": "https:\/\/www.seavees.com\/blogs\/journal\/tagged\/collaborations"
+          }
+        },
+        "156cbff8-fbdd-4321-b843-ff2a409a2290": {
+          "type": "page_menu_link",
+          "settings": {
+            "link_text": "Casual Types",
+            "link_url": "https:\/\/www.seavees.com\/blogs\/journal\/tagged\/casual-types"
+          }
+        }
+      },
+      "block_order": [
+        "164858750062f1de1a-0",
+        "66243d04-03fc-447d-83c1-e9b2119d74bf",
+        "9fb08344-f74a-4ebc-8576-fc030264b0b9",
+        "156cbff8-fbdd-4321-b843-ff2a409a2290"
+      ],
+      "settings": {
+        "stack_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "main": {
       "type": "main-blog",
       "settings": {
-        "layout": "collage",
+        "layout": "grid",
         "show_image": true,
-        "image_height": "medium",
-        "show_date": true,
+        "image_height": "large",
+        "show_date": false,
         "show_author": false,
         "padding_top": 36,
         "padding_bottom": 36
@@ -14,6 +82,8 @@
     }
   },
   "order": [
+    "1648587509be8cc4f4",
+    "1648587500acdac22c",
     "main"
   ]
 }

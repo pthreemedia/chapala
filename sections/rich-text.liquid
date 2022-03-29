@@ -19,7 +19,7 @@
 {%- endstyle -%}
 
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
-  <div class="rich-text content-container color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
+  <div class="rich-text content-container color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding {{ section.settings.mobile_content_align }}-mobile {{ section.settings.desktop_content_align }}-desktop">
     <div class="rich-text__blocks">
       {%- for block in section.blocks -%}
         {%- case block.type -%}
@@ -87,6 +87,38 @@
       "default": false,
       "label": "This section is the page header",
       "info": "Adds relevant h1 tags to the title"
+    },
+    {
+      "type": "select",
+      "id": "mobile_content_align",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        }
+      ],
+      "default": "center",
+      "label": "Mobile content alignment"
+    },
+    {
+      "type": "select",
+      "id": "desktop_content_align",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        }
+      ],
+      "default": "center",
+      "label": "Desktop content alignment"
     },
     {
       "type": "header",

@@ -1,0 +1,274 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "1648594560c08fd909": {
+      "type": "hero-banner",
+      "settings": {
+        "use_video_background": false,
+        "hero_video_desktop": "",
+        "hero_video_mobile": "",
+        "image_desktop": "shopify:\/\/shop_images\/seatrees_desktop_header_111111.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/seatrees_mobile_header_111111_93b023b2-c8e5-4866-8a99-1b34e7fd8733.jpg",
+        "desktop_text_box_vertical_position": "center",
+        "desktop_text_box_horizontal_position": "center",
+        "desktop_text_alignment": "center",
+        "adapt_height_first_image": true,
+        "text_image_separate": false
+      }
+    },
+    "164867432347fd0485": {
+      "type": "rich-text",
+      "blocks": {
+        "1b43459d-8309-49ff-9f26-ce8af5ae6632": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our planet is 2\/3 Blue",
+            "heading_size": "h1"
+          }
+        },
+        "1648674323b814d2b2-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The ocean has the power reverse climate change. <\/p><p>Just like you, we know that caring for the Earth is a year-round commitment and Earth Month is merely a reminder that we can always do more. We put the “Sea” in SeaVees because we’re committed to protecting it. <\/p><p>Since 2020, we’ve supported SeaTrees, an organization dedicated to restoring kelp forests that have the power to reverse climate change. For the entire month of April, we’re quintupling our support of SeaTrees by donating $5 from every purchase you make to support the work they do.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1b43459d-8309-49ff-9f26-ce8af5ae6632",
+        "1648674323b814d2b2-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "is_page_header": false,
+        "mobile_content_align": "left",
+        "desktop_content_align": "center",
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "1648595199e930fe4f": {
+      "type": "image-with-text",
+      "blocks": {
+        "16485951998e93f2b7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why kelp?",
+            "heading_size": "h1"
+          }
+        },
+        "16485951998e93f2b7-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Kelp forests provide healthy habitats for over 700 species of marine life and sequester carbon at a rate 20 times more carbon per acre than land forests. <em>(Hurlimann and Zucker, 2019)<\/em><\/p><p>In the last decade, these ecosystems have been in a state of crisis. According to our partners at SeaTrees, more than 90% of kelp forests along our California coast have disappeared in the last 10 years.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "16485951998e93f2b7-0",
+        "16485951998e93f2b7-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/seatrees_featured_211111.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 68,
+        "padding_bottom": 68
+      }
+    },
+    "16485957292dc375e2": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/seatrees_featured_311111.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "16485958635793de07": {
+      "type": "rich-text",
+      "blocks": {
+        "08f5eac4-2151-431e-99d7-136219613225": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why is the kelp dissapearing?",
+            "heading_size": "h1"
+          }
+        },
+        "164859586384399bed-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The notorious purple sea urchin, a tiny palm-sized creature with an insatiable appetite for kelp has proliferated after its predators (like some species of fish and lobsters) have disappeared because of human impacts. <\/p><p>Our partners at SeaTrees send divers out to identify purple urchin barrens and clear these areas so kelp can regrow. This allows urchin predators to have a chance to move in and keep the population under control. After 5 years, the site is considered restored if the kelp forest is healthy and urchins are in balance and when that happens, kelp forests can work their magic as the sequoias of the sea and do their part to help solve the climate crisis.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "08f5eac4-2151-431e-99d7-136219613225",
+        "164859586384399bed-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "is_page_header": false,
+        "mobile_content_align": "left",
+        "desktop_content_align": "center",
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
+    "1648662389ceac1348": {
+      "type": "image-with-text",
+      "blocks": {
+        "164866238944751989-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "So how exactly does kelp sequester carbon?",
+            "heading_size": "h1"
+          }
+        },
+        "164866238944751989-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>1. Kelp takes <strong>CO2 <\/strong>via photosynthesis - storing it in the structure of the kelp itself.<\/p><p>2. <strong>Plant debris<\/strong> floats out to sea as the kelp grows.<\/p><p>3. <strong>Plant debris<\/strong> sinks to the ocean floor.<\/p><p>4. Carbon is sequestered in the deep sea.<\/p><p>5. Additional exported <strong>dissolved carbon<\/strong> travels to the deep sea.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "164866238944751989-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "164866238944751989-0",
+        "164866238944751989-1",
+        "164866238944751989-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/seatrees_featured_511111.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16486625605033c200": {
+      "type": "rich-text",
+      "blocks": {
+        "16486625607114ebd2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "We are donating $5 from every purchase to SeaTrees during the month of April.",
+            "heading_size": "h0"
+          }
+        },
+        "16486625607114ebd2-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Help us reach our goal to restore 13,500 square feet of kelp forest.<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16486625607114ebd2-0",
+        "16486625607114ebd2-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "is_page_header": false,
+        "mobile_content_align": "center",
+        "desktop_content_align": "center",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "1648672607c7bf90a3": {
+      "type": "multicolumn",
+      "blocks": {
+        "1648672607d8bd7211-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/seatrees_featured_711111.jpg",
+            "title": "Womens Shoes",
+            "text": "",
+            "link_label": "Shop",
+            "link": "shopify:\/\/collections\/womens-all",
+            "info_on_image": true
+          }
+        },
+        "1648672607d8bd7211-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/seatrees_featured_611111.jpg",
+            "title": "Mens Shoes",
+            "text": "",
+            "link_label": "Shop",
+            "link": "shopify:\/\/collections\/mens-all",
+            "info_on_image": true
+          }
+        }
+      },
+      "block_order": [
+        "1648672607d8bd7211-1",
+        "1648672607d8bd7211-0"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1648594560c08fd909",
+    "164867432347fd0485",
+    "1648595199e930fe4f",
+    "16485957292dc375e2",
+    "16485958635793de07",
+    "1648662389ceac1348",
+    "16486625605033c200",
+    "1648672607c7bf90a3"
+  ]
+}

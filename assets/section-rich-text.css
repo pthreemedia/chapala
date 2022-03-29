@@ -1,7 +1,6 @@
 .rich-text {
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
   z-index: 1;
 }
 
@@ -22,7 +21,7 @@
 
 .rich-text--full-width .rich-text__blocks {
   /* 4rem (1.5rem + 2.5rem) margin on left & right */
-  width: calc(100% - 8rem / var(--font-body-scale));
+  width: calc(100% - 6rem / var(--font-body-scale));
 }
 
 @media screen and (min-width: 750px) {

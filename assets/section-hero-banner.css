@@ -46,7 +46,7 @@
   @media screen and (max-width: 749px) {
     .hero-banner__media {
       position: relative;
-      height: 60vh;
+      height: 50vh;
     }
   }
   
@@ -103,7 +103,7 @@
   
   @media screen and (max-width: 749px) {
     .hero-banner__box {
-      padding: 2rem 2rem 0;
+      padding: 3rem 2rem 0;
       text-align: center;
     }
   }
@@ -235,7 +235,7 @@
   
   @media screen and (min-width: 750px) {
     .hero-banner__box {
-      padding: 4rem;
+      padding: 6rem 4rem 4rem;
       width: 70rem;
     }
   

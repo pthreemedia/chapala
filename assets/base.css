@@ -598,15 +598,25 @@ table:not([class]) th {
   text-align: center;
 }
 
+.left {
+  text-align: left;
+}
+
 @media screen and (max-width: 749px) {
   .center-mobile {
     text-align: center;
+  }
+  .left-mobile {
+    text-align: left;
   }
 }
 
 @media screen and (min-width: 750px) {
   .center-desktop {
     text-align: center;
+  }
+  .left-desktop {
+    text-align: left;
   }
 }
 
