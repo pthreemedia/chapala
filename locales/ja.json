@@ -140,14 +140,13 @@
         "play_video": "ビデオを再生",
         "gallery_viewer": "ギャラリービュー",
         "load_image": "ギャラリービューに画像 ({{ index }}) を読み込む",
-        "load_model": "ギャラリービューに3Dモデル ({{ index }}) を読み込む",
+        "load_model": "ギャラリービューに3次元モデル ({{ index }}) を読み込む",
         "load_video": "ギャラリービューでビデオ ({{ index }}) を再生する",
         "image_available": "ギャラリービューで画像 ({{ index }}) が利用できるようになりました"
       },
       "view_full_details": "詳細を表示する",
       "include_taxes": "税込み。",
       "shipping_policy_html": "<a href=\"{{ link }}\">配送料</a>はチェックアウト時に計算されます。",
-      "added_to_cart": "カートに追加済み",
       "choose_options": "オプションを選択",
       "choose_product_options": "{{ product_name }}のオプションを選択する"
     },
@@ -209,7 +208,8 @@
         "comment": "コメント",
         "send": "送信する",
         "post_success": "お問い合わせいただきありがとうございます。早急に返信いたします。",
-        "error_heading": "以下を確認してください。"
+        "error_heading": "以下を確認してください。",
+        "title": "お問い合わせフォーム"
       }
     },
     "404": {

@@ -432,7 +432,7 @@ class ModalDialog extends HTMLElement {
     super();
     this.querySelector('[id^="ModalClose-"]').addEventListener(
       'click',
-      this.hide.bind(this)
+      this.hide.bind(this, false)
     );
     this.addEventListener('keyup', (event) => {
       if (event.code.toUpperCase() === 'ESCAPE') this.hide();
@@ -443,7 +443,7 @@ class ModalDialog extends HTMLElement {
       });
     } else {
       this.addEventListener('click', (event) => {
-        if (event.target.nodeName === 'MODAL-DIALOG') this.hide();
+        if (event.target === this) this.hide();
       });
     }
   }
@@ -781,6 +781,7 @@ class VariantSelects extends HTMLElement {
     mediaGallery.setActiveMedia(`${this.dataset.section}-${this.currentVariant.featured_media.id}`, true);
 
     const modalContent = document.querySelector(`#ProductModal-${this.dataset.section} .product-media-modal__content`);
+    if (!modalContent) return;
     const newMediaModal = modalContent.querySelector( `[data-media-id="${this.currentVariant.featured_media.id}"]`);
     modalContent.prepend(newMediaModal);
   }
@@ -797,7 +798,7 @@ class VariantSelects extends HTMLElement {
   }
 
   updateVariantInput() {
-    const productForms = document.querySelectorAll(`#product-form-${this.dataset.section}, #product-form-installment`);
+    const productForms = document.querySelectorAll(`#product-form-${this.dataset.section}, #product-form-installment-${this.dataset.section}`);
     productForms.forEach((productForm) => {
       const input = productForm.querySelector('input[name="id"]');
       input.value = this.currentVariant.id;
@@ -826,10 +827,9 @@ class VariantSelects extends HTMLElement {
   }
 
   renderProductInfo() {
-    fetch(`${this.dataset.url}?variant=${this.currentVariant.id}&section_id=${this.dataset.section}`)
+    fetch(`${this.dataset.url}?variant=${this.currentVariant.id}&section_id=${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`)
       .then((response) => response.text())
       .then((responseText) => {
-        const id = `price-${this.dataset.section}`;
         const html = new DOMParser().parseFromString(responseText, 'text/html')
         const destination = document.getElementById(id);
         const source = html.getElementById(id);

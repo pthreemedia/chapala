@@ -147,7 +147,6 @@
       "view_full_details": "Ver informações completas",
       "include_taxes": "Tributo incluído.",
       "shipping_policy_html": "<a href=\"{{ link }}\">Frete</a> calculado no checkout.",
-      "added_to_cart": "Adicionado ao carrinho",
       "choose_options": "Escolher opções",
       "choose_product_options": "Escolha opções para {{ product_name }}"
     },
@@ -209,7 +208,8 @@
         "comment": "Comentário",
         "send": "Enviar",
         "post_success": "Agradecemos seu contato. Retornaremos o mais rápido possível.",
-        "error_heading": "Ajuste o seguinte:"
+        "error_heading": "Ajuste o seguinte:",
+        "title": "Formulário de contato"
       }
     },
     "404": {

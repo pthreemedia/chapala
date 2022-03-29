@@ -46,15 +46,14 @@ if (!customElements.get('product-form')) {
           }
 
           this.error = false;
-          const quickBuyModal = this.closest('quickbuy-modal');
-          if (quickBuyModal) quickBuyModal.hide(true);
-
-          if (!document.body.classList.contains('overflow-hidden')) {
-            this.cartNotification.renderContents(response);
-          } else {
+          const quickAddModal = this.closest('quick-add-modal');
+          if (quickAddModal) {
             document.body.addEventListener('modalClosed', () => {
               setTimeout(() => { this.cartNotification.renderContents(response) });
             }, { once: true });
+            quickAddModal.hide(true);
+          } else {
+            this.cartNotification.renderContents(response);
           }
         })
         .catch((e) => {

@@ -147,7 +147,6 @@
       "view_full_details": "查看完整資訊",
       "include_taxes": "內含稅金。",
       "shipping_policy_html": "結帳時計算<a href=\"{{ link }}\">運費</a>。",
-      "added_to_cart": "已放入購物車",
       "choose_options": "選擇選項",
       "choose_product_options": "選擇 {{ product_name }} 的選項"
     },
@@ -209,7 +208,8 @@
         "comment": "留言",
         "send": "傳送",
         "post_success": "感謝您聯絡我們。我們會盡快回覆您。",
-        "error_heading": "請調整以下內容："
+        "error_heading": "請調整以下內容：",
+        "title": "聯絡表單"
       }
     },
     "404": {

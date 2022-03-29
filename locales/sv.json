@@ -147,7 +147,6 @@
       "view_full_details": "Visa alla uppgifter",
       "include_taxes": "Skatt ingår.",
       "shipping_policy_html": "<a href=\"{{ link }}\">Frakt</a> beräknas i kassan.",
-      "added_to_cart": "Tillagd i varukorgen",
       "choose_options": "Välj alternativ",
       "choose_product_options": "Välj alternativ för {{ product_name }}"
     },
@@ -209,7 +208,8 @@
         "comment": "Kommentar",
         "send": "Skicka",
         "post_success": "Tack för att du kontaktar oss. Vi återkommer till dig så snart som möjligt.",
-        "error_heading": "Justera följande:"
+        "error_heading": "Justera följande:",
+        "title": "Kontaktformulär"
       }
     },
     "404": {

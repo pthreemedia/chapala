@@ -148,7 +148,6 @@
       "view_full_details": "Prikaži sve pojedinosti",
       "include_taxes": "Porez je uključen.",
       "shipping_policy_html": "<a href=\"{{ link }}\">Poštarina </a> se obračunava prilikom završetka kupnje.",
-      "added_to_cart": "Dodano u košaricu",
       "choose_options": "Odaberite opcije",
       "choose_product_options": "Odaberite željene opcije za {{ product_name }}"
     },
@@ -215,7 +214,8 @@
         "comment": "Komentar",
         "send": "Pošalji",
         "post_success": "Hvala vam na javljanju. Odgovorit ćemo vam u najkraćem mogućem roku.",
-        "error_heading": "Prilagodite sljedeće:"
+        "error_heading": "Prilagodite sljedeće:",
+        "title": "Obrazac za kontakt"
       }
     },
     "404": {

@@ -10,9 +10,9 @@
   <noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
 {%- endif -%}
 
-{%- if section.settings.enable_quick_buy -%}
-  <link rel="stylesheet" href="{{ 'quick-buy.css' | asset_url }}" media="print" onload="this.media='all'">
-  <script src="{{ 'quick-buy.js' | asset_url }}" defer="defer"></script>
+{%- if section.settings.enable_quick_add -%}
+  <link rel="stylesheet" href="{{ 'quick-add.css' | asset_url }}" media="print" onload="this.media='all'">
+  <script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
@@ -144,7 +144,7 @@
                                   show_material: section.settings.show_material,
                                   show_rating: section.settings.show_rating,
                                   lazy_load: lazy_load,
-                                  show_quick_buy: section.settings.enable_quick_buy,
+                                  show_quick_add: section.settings.enable_quick_add,
                                   section_id: section.id,
                                   show_swatches: section.settings.show_swatches,
                                   show_condensed_title: section.settings.show_condensed_title
@@ -202,7 +202,7 @@
                     show_material: section.settings.show_material,
                     show_rating: section.settings.show_rating,
                     lazy_load: lazy_load,
-                    show_quick_buy: section.settings.enable_quick_buy,
+                    show_quick_add: section.settings.enable_quick_add,
                     section_id: section.id,
                     show_swatches: section.settings.show_swatches,
                     show_condensed_title: section.settings.show_condensed_title
@@ -321,7 +321,7 @@
     },
     {
       "type": "checkbox",
-      "id": "enable_quick_buy",
+      "id": "enable_quick_add",
       "default": false,
       "label": "t:sections.main-collection-product-grid.settings.enable_quick_buy.label"
     },

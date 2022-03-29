@@ -147,7 +147,6 @@
       "view_full_details": "Vis alle detaljer",
       "include_taxes": "Avgift inkludert.",
       "shipping_policy_html": "<a href=\"{{ link }}\">Frakt</a> beregnes ved kassen.",
-      "added_to_cart": "Lagt til i handlekurv",
       "choose_options": "Velg alternativer",
       "choose_product_options": "Velg alternativer for {{ product_name }}"
     },
@@ -209,7 +208,8 @@
         "comment": "Kommentar",
         "send": "Send",
         "post_success": "Takk for at du kontaktet oss. Vi vil svare deg så snart som mulig.",
-        "error_heading": "Juster følgende:"
+        "error_heading": "Juster følgende:",
+        "title": "Kontaktskjema"
       }
     },
     "404": {

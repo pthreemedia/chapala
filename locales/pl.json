@@ -149,7 +149,6 @@
       "view_full_details": "Pokaż kompletne dane",
       "include_taxes": "Z wliczonym podatkiem.",
       "shipping_policy_html": "<a href=\"{{ link }}\">Koszt wysyłki</a> obliczony przy realizacji zakupu.",
-      "added_to_cart": "Dodano do koszyka",
       "choose_options": "Wybierz opcje",
       "choose_product_options": "Wybierz opcje dla {{ product_name }}"
     },
@@ -221,7 +220,8 @@
         "comment": "Komentarz",
         "send": "Wyślij",
         "post_success": "Dziękujemy za skontaktowanie się z nami. Skontaktujemy się z Tobą tak szybko, jak to możliwe.",
-        "error_heading": "Dostosuj następujące dane:"
+        "error_heading": "Dostosuj następujące dane:",
+        "title": "Formularz kontaktowy"
       }
     },
     "404": {

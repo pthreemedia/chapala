@@ -147,7 +147,6 @@
       "view_full_details": "전체 세부 정보 보기",
       "include_taxes": "세금이 포함됩니다.",
       "shipping_policy_html": "<a href=\"{{ link }}\">배송료</a>는 결제 시 계산됩니다.",
-      "added_to_cart": "카트에 추가됨",
       "choose_options": "옵션 선택하기",
       "choose_product_options": "{{ product_name }}의 옵션 선택"
     },
@@ -209,7 +208,8 @@
         "comment": "댓글",
         "send": "보내기",
         "post_success": "문의해 주셔서 감사드립니다. 최대한 빨리 답변드리겠습니다.",
-        "error_heading": "다음을 조정하십시오."
+        "error_heading": "다음을 조정하십시오.",
+        "title": "연락처 양식"
       }
     },
     "404": {

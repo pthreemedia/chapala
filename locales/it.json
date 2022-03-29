@@ -104,7 +104,7 @@
     "product": {
       "add_to_cart": "Aggiungi al carrello",
       "description": "Descrizione",
-      "on_sale": "Vendita",
+      "on_sale": "In offerta",
       "product_variants": "Varianti di prodotto",
       "quantity": {
         "label": "Quantità",
@@ -115,7 +115,7 @@
       "price": {
         "from_price_html": "Da {{ price }}",
         "regular_price": "Prezzo di listino",
-        "sale_price": "Prezzo di vendita",
+        "sale_price": "Prezzo scontato",
         "unit_price": "Prezzo unitario"
       },
       "share": "Condividi questo prodotto",
@@ -147,7 +147,6 @@
       "view_full_details": "Visualizza dettagli completi",
       "include_taxes": "Imposte incluse.",
       "shipping_policy_html": "<a href=\"{{ link }}\">Spese di spedizione</a> calcolate al check-out.",
-      "added_to_cart": "Aggiunto al carrello",
       "choose_options": "Scegli opzioni",
       "choose_product_options": "Scegli opzioni per {{ product_name }}"
     },
@@ -209,7 +208,8 @@
         "comment": "Commenta",
         "send": "Invia",
         "post_success": "Grazie per averci contattato. Risponderemo il prima possibile.",
-        "error_heading": "Correggi gli errori seguenti:"
+        "error_heading": "Correggi gli errori seguenti:",
+        "title": "Modulo di contatto"
       }
     },
     "404": {
