@@ -41,7 +41,7 @@
 
 .mega-menu__list {
   display: grid;
-  gap: 2.4rem 4rem;
+  gap: 2rem 3rem;
   grid-template-columns: 1fr 1fr 60%;
   list-style: none;
 }
@@ -109,9 +109,17 @@
   width: 100%;
 }
 
+.featured-menu-desktop li {
+  padding: 0;
+}
+
 .featured-menu-mobile {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.featured-menu-mobile li {
+  padding: 0.5rem;
 }
 
 .featured-menu-desktop-link {
@@ -120,6 +128,9 @@
 
 .featured-menu-mobile-link {
   justify-content: center;
+  font-size: 1.4rem;
+  padding: 1rem;
+  text-align: center;
 }
 
 .featured-menu-desktop-header {

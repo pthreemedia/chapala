@@ -203,23 +203,25 @@
                                           <ul class="menu-drawer__menu list-menu featured-menu-mobile" role="list" tabindex="-1">
                                             {%- for block in section.blocks -%}
                                                 {% if block.settings.category == link.title %}
-                                                  <li>
-                                                    {% if block.settings.image_mobile != blank %}
-                                                      <div class="header-menu-mobile-image">
-                                                        <img
-                                                        src="{{ block.settings.image_mobile | image_url: width: 300 }}"
-                                                        alt="{{ block.settings.text | escape }}"
-                                                        loading="lazy"
-                                                        width="{{ block.settings.image_mobile.width }}"
-                                                        height="{{ block.settings.image_mobile.height }}"
-                                                        class="header-featured-mobile-image"
-                                                        >
-                                                      </div>
-                                                    {% endif %}
-                                                    <a href="{{ block.settings.link }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset featured-menu-mobile-link">
-                                                      {{ block.settings.text | escape }}
-                                                    </a>
-                                                  </li>
+                                                  {% unless block.settings.image_mobile == blank %}
+                                                    <li>
+                                                      {% if block.settings.image_mobile != blank %}
+                                                        <div class="header-menu-mobile-image">
+                                                          <img
+                                                          src="{{ block.settings.image_mobile | image_url: width: 300 }}"
+                                                          alt="{{ block.settings.text | escape }}"
+                                                          loading="lazy"
+                                                          width="{{ block.settings.image_mobile.width }}"
+                                                          height="{{ block.settings.image_mobile.height }}"
+                                                          class="header-featured-mobile-image"
+                                                          >
+                                                        </div>
+                                                      {% endif %}
+                                                      <a href="{{ block.settings.link }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset featured-menu-mobile-link">
+                                                        {{ block.settings.text | escape }}
+                                                      </a>
+                                                    </li>
+                                                  {% endunless %}
                                                 {% endif %}
                                             {%- endfor -%}
                                           </ul>
@@ -859,7 +861,7 @@
           "type": "image_picker",
           "id": "image_mobile",
           "label": "Mobile image",
-          "info": "Suggested dimensions: 500px X 300px"
+          "info": "Suggested dimensions: 500px X 300px | If left blank, link will be hidden on mobile menu"
         }
       ]
     }
