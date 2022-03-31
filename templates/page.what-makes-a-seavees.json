@@ -14,14 +14,15 @@
         "16484982604c779ae4-0": {
           "type": "heading",
           "settings": {
-            "heading": "What makes a sneaker a SeaVees?",
+            "heading": "About Seavees",
             "heading_size": "h1"
           }
         },
         "4ea7b303-f451-408d-8971-3479d2a5186c": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "<p>Our shoes are carefully crafted in small batches to control quality and consistency using a time-honored footwear construction called vulcanization. We are extremely passionate about the multiple benefits of an authentic vulcanized sneaker, from the obvious greater durability to the magical little nuances that happen in the oven. Both classic and contemporary with a reverence for 1960s California cool, SeaVees are the timeless footwear choice.<\/p>"
+            "text": "<p>Born in 1964. Rediscovered in 2008.<\/p>"
           }
         }
       },
@@ -30,9 +31,11 @@
         "4ea7b303-f451-408d-8971-3479d2a5186c"
       ],
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "inverse",
         "full_width": true,
         "is_page_header": true,
+        "mobile_content_align": "center",
+        "desktop_content_align": "center",
         "padding_top": 68,
         "padding_bottom": 52
       }
@@ -67,13 +70,21 @@
             "link_text": "Our Values",
             "link_url": "shopify:\/\/pages\/preserve-the-dream"
           }
+        },
+        "48cd5c32-b04a-425a-b288-c7a05c5ee664": {
+          "type": "page_menu_link",
+          "settings": {
+            "link_text": "Causes We Support",
+            "link_url": "shopify:\/\/pages\/causes"
+          }
         }
       },
       "block_order": [
         "164849812419f1a6c3-0",
         "bf80c113-02d0-49f6-b0a4-e0f03cd9a605",
         "30fde8e0-066c-4317-9e2f-a77619ac3870",
-        "ba5be8c3-0623-4bdf-b54d-09e15b9e0336"
+        "ba5be8c3-0623-4bdf-b54d-09e15b9e0336",
+        "48cd5c32-b04a-425a-b288-c7a05c5ee664"
       ],
       "settings": {
         "stack_on_mobile": true,
@@ -83,8 +94,152 @@
         "margin_bottom": 0
       }
     },
+    "1648747255834e101c": {
+      "type": "rich-text",
+      "blocks": {
+        "164874725588091e64-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our shoes are carefully crafted in small batches to control quality and consistency using a time-honored footwear construction called vulcanization. We are extremely passionate about the multiple benefits of an authentic vulcanized sneaker, from the obvious greater durability to the magical little nuances that happen in the oven. Both classic and contemporary with a reverence for 1960s California cool, SeaVees are the timeless footwear choice.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "164874725588091e64-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "is_page_header": false,
+        "mobile_content_align": "center",
+        "desktop_content_align": "left",
+        "padding_top": 56,
+        "padding_bottom": 64
+      }
+    },
+    "164850095457c0d11a": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "16485009545bcd26fd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "More Bounce, Longer Wear.",
+            "heading_size": "h1"
+          }
+        },
+        "16485009545bcd26fd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We demand critical time-honored methods others have compromised through the years, like the use of natural rubber, no synthetics, which gives our shoes a soft step, flexibility and exceptional durability.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "16485009545bcd26fd-0",
+        "16485009545bcd26fd-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/WhatMakesaSeaveesLP_Tile5_Deskto.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1648747311ce33ac55": {
+      "type": "multicolumn",
+      "blocks": {
+        "16487473115ab40dc6-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WhatMakesaSeaveesLP_Tile5_Deskto.jpg",
+            "title": "More Bounce, Longer Wear.",
+            "text": "<p>We demand critical time-honored methods others have compromised through the years, like the use of natural rubber, no synthetics, which gives our shoes a soft step, flexibility and exceptional durability.<\/p>",
+            "link_label": "",
+            "link": "",
+            "info_on_image": false
+          }
+        },
+        "16487473115ab40dc6-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WhatMakesaSeaveesLP_Tile3_Deskto.jpg",
+            "title": "A Lasting Impression",
+            "text": "<p>The proprietary SeaVees last, the foundational aluminum form, gives our sneakers their renowned finessed look and ensures consistent fit from style to style.<\/p>",
+            "link_label": "",
+            "link": "",
+            "info_on_image": false
+          }
+        },
+        "16487473115ab40dc6-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WhatMakesaSeaveesLP_Tile2_Deskto.jpg",
+            "title": "Material Matters",
+            "text": "<p>We develop premium textiles, select the finest leathers, and utilize finishing techniques exclusive to SeaVees.<\/p>",
+            "link_label": "",
+            "link": "",
+            "info_on_image": false
+          }
+        },
+        "ce22afc6-34c6-4621-8ae1-c0328f588116": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WhatMakesaSeaveesLP_Tile4_Mobile_fcf090c5-fb77-42ad-a4a8-4d86f9fa935a.jpg",
+            "title": "Underfoot. Top Of Mind.",
+            "text": "<p>In every shoe lives the SeaVees secret weapon. Our contoured cushy memory foam footbed is built to make SeaVees the most comfortable sneaker you’ve ever worn.<\/p>",
+            "link_label": "",
+            "link": "",
+            "info_on_image": false
+          }
+        },
+        "7e6a9fea-9d22-4ea3-a9f9-91eb53396a2b": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WhatMakesaSeaveesLP_Tile8_Deskto.jpg",
+            "title": "Cool Comfort",
+            "text": "<p>With perforations, airflow channels, and washed cotton lining, our<br\/>exclusive footbed is designed to keep your feet cool for all-day<br\/>comfort.<\/p>",
+            "link_label": "",
+            "link": "",
+            "info_on_image": false
+          }
+        }
+      },
+      "block_order": [
+        "16487473115ab40dc6-2",
+        "16487473115ab40dc6-1",
+        "16487473115ab40dc6-0",
+        "ce22afc6-34c6-4621-8ae1-c0328f588116",
+        "7e6a9fea-9d22-4ea3-a9f9-91eb53396a2b"
+      ],
+      "settings": {
+        "title": "What makes our shoes special?",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
     "1648498699d572e81a": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "1648498699075380ea-0": {
           "type": "heading",
@@ -121,6 +276,7 @@
     },
     "1648499956ecd2c500": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "164849995609e3e0f1-0": {
           "type": "heading",
@@ -155,44 +311,9 @@
         "padding_bottom": 0
       }
     },
-    "164850095457c0d11a": {
-      "type": "image-with-text",
-      "blocks": {
-        "16485009545bcd26fd-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "More Bounce, Longer Wear.",
-            "heading_size": "h1"
-          }
-        },
-        "16485009545bcd26fd-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We demand critical time-honored methods others have compromised through the years, like the use of natural rubber, no synthetics, which gives our shoes a soft step, flexibility and exceptional durability.<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "16485009545bcd26fd-0",
-        "16485009545bcd26fd-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/WhatMakesaSeaveesLP_Tile5_Deskto.jpg",
-        "height": "adapt",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "1648501130c5bc0891": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "16485011304ea258c4-0": {
           "type": "heading",
@@ -229,6 +350,7 @@
     },
     "16485014529fa658a4": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "16485014526d79da61-0": {
           "type": "heading",
@@ -268,9 +390,11 @@
     "main",
     "16484982601b30b73a",
     "1648498124cfde6a62",
+    "1648747255834e101c",
+    "164850095457c0d11a",
+    "1648747311ce33ac55",
     "1648498699d572e81a",
     "1648499956ecd2c500",
-    "164850095457c0d11a",
     "1648501130c5bc0891",
     "16485014529fa658a4"
   ]

@@ -14,14 +14,15 @@
         "16484982604c779ae4-0": {
           "type": "heading",
           "settings": {
-            "heading": "Preserving The Dream",
+            "heading": "About SeaVees",
             "heading_size": "h1"
           }
         },
         "bb484baa-1e53-41bb-872e-018d2ab5f694": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "<p>Our commitment to better our shoes, our people and our environment.<\/p>"
+            "text": "<p>Born in 1964. Rediscovered in 2008.<\/p>"
           }
         }
       },
@@ -30,9 +31,11 @@
         "bb484baa-1e53-41bb-872e-018d2ab5f694"
       ],
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "inverse",
         "full_width": true,
         "is_page_header": true,
+        "mobile_content_align": "center",
+        "desktop_content_align": "center",
         "padding_top": 68,
         "padding_bottom": 52
       }
@@ -67,13 +70,21 @@
             "link_text": "Our Values",
             "link_url": "shopify:\/\/pages\/preserve-the-dream"
           }
+        },
+        "5e8abdf9-6c46-439b-acd4-a9c43e035040": {
+          "type": "page_menu_link",
+          "settings": {
+            "link_text": "Causes We Support",
+            "link_url": "shopify:\/\/pages\/causes"
+          }
         }
       },
       "block_order": [
         "164849812419f1a6c3-0",
         "bf80c113-02d0-49f6-b0a4-e0f03cd9a605",
         "30fde8e0-066c-4317-9e2f-a77619ac3870",
-        "ba5be8c3-0623-4bdf-b54d-09e15b9e0336"
+        "ba5be8c3-0623-4bdf-b54d-09e15b9e0336",
+        "5e8abdf9-6c46-439b-acd4-a9c43e035040"
       ],
       "settings": {
         "stack_on_mobile": true,
@@ -81,6 +92,37 @@
         "padding_bottom": 0,
         "margin_top": 0,
         "margin_bottom": 0
+      }
+    },
+    "1648749490a5fbf30c": {
+      "type": "rich-text",
+      "blocks": {
+        "08ac66b3-44e6-452f-8019-61f863b62925": {
+          "type": "heading",
+          "settings": {
+            "heading": "\"Preserving the dream is our commitment to better our shoes, our people, our environment.\"",
+            "heading_size": "h2"
+          }
+        },
+        "16487494904075deed-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Steven Tiller, CEO & <\/em>Chief<em> Designer.<\/em><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "08ac66b3-44e6-452f-8019-61f863b62925",
+        "16487494904075deed-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "is_page_header": false,
+        "mobile_content_align": "center",
+        "desktop_content_align": "center",
+        "padding_top": 60,
+        "padding_bottom": 52
       }
     },
     "1648498699d572e81a": {
@@ -176,14 +218,22 @@
         "16485020534ca08e34-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Together we can make a difference. All of us here at SeaVees believe in giving back. Every year we give one percent of our revenue to environmental causes by partnering with organizations like Gaviota Coast Conservancy, Environmental Defense Center, Los Padres National Forest Watch, Channel Keepers, and more. With your support we'll continue to <br\/>grow these efforts in order to preserve our planet for generations to come.<\/p>",
+            "text": "<p>Together we can make a difference. All of us here at SeaVees believe in giving back.  We put the “Sea” in SeaVees because we’re committed to protecting it. Since 2020, we’ve supported SeaTrees, an organization dedicated to restoring kelp forests that have the power to reverse climate change. <\/p><p>As a member of <em>1% For The Planet, we<\/em> give one percent of our revenue to environmental causes by partnering with organizations like Gaviota Coast Conservancy, Environmental Defense Center, Los Padres National Forest Watch, Channel Keepers, and more. With your support we'll continue to <br\/>grow these efforts in order to preserve our planet for generations to come.<\/p>",
             "text_style": "body"
+          }
+        },
+        "ccf9b373-c565-4c1b-9498-7b4d2f7a32f0": {
+          "type": "button",
+          "settings": {
+            "button_label": "Causes We Support",
+            "button_link": "shopify:\/\/pages\/causes"
           }
         }
       },
       "block_order": [
         "16485020534ca08e34-0",
-        "16485020534ca08e34-1"
+        "16485020534ca08e34-1",
+        "ccf9b373-c565-4c1b-9498-7b4d2f7a32f0"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/PTDLP_Tile2_Desktop_cc664cb3-810.jpg",
@@ -204,6 +254,7 @@
     "main",
     "16484982601b30b73a",
     "1648498124cfde6a62",
+    "1648749490a5fbf30c",
     "1648498699d572e81a",
     "1648499956ecd2c500",
     "16485020534da6c713"

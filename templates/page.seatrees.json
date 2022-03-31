@@ -23,31 +23,31 @@
         "text_image_separate": false
       }
     },
-    "164867432347fd0485": {
+    "1648754377267fd7cf": {
       "type": "rich-text",
       "blocks": {
-        "1b43459d-8309-49ff-9f26-ce8af5ae6632": {
+        "16487543778e673e3c-0": {
           "type": "heading",
           "settings": {
-            "heading": "Our planet is 2\/3 Blue",
-            "heading_size": "h1"
+            "heading": "Our planet is 2\/3 blue. We put the \"Sea\" in SeaVees because we’re committed to protecting it.",
+            "heading_size": "h2"
           }
         },
-        "1648674323b814d2b2-1": {
+        "16487543778e673e3c-1": {
           "type": "text",
           "settings": {
-            "text": "<p>The ocean has the power reverse climate change. <\/p><p>Just like you, we know that caring for the Earth is a year-round commitment and Earth Month is merely a reminder that we can always do more. We put the “Sea” in SeaVees because we’re committed to protecting it. <\/p><p>Since 2020, we’ve supported SeaTrees, an organization dedicated to restoring kelp forests that have the power to reverse climate change. For the entire month of April, we’re quintupling our support of SeaTrees by donating $5 from every purchase you make to support the work they do.<\/p>"
+            "text": "<p>Since 2020, you've helped us support SeaTrees, an organization dedicated to protecting and restoring kelp forests that have the power to reverse climate change. <\/p><p>Just like you, we know that caring for the Earth is a year-round commitment and Earth Month is only a reminder that we can always do more. For the entire month of April, we’re quintupling our support of SeaTrees by <strong>donating $5 from every shoe purchase<\/strong> you make to support the work they do.<\/p>"
           }
         }
       },
       "block_order": [
-        "1b43459d-8309-49ff-9f26-ce8af5ae6632",
-        "1648674323b814d2b2-1"
+        "16487543778e673e3c-0",
+        "16487543778e673e3c-1"
       ],
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
-        "is_page_header": false,
+        "is_page_header": true,
         "mobile_content_align": "left",
         "desktop_content_align": "center",
         "padding_top": 52,
@@ -60,8 +60,8 @@
         "16485951998e93f2b7-0": {
           "type": "heading",
           "settings": {
-            "heading": "Why kelp?",
-            "heading_size": "h1"
+            "heading": "The ocean has the power to reverse climate change.",
+            "heading_size": "h2"
           }
         },
         "16485951998e93f2b7-1": {
@@ -103,7 +103,9 @@
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
-        "show_text_below": true
+        "show_text_below": true,
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     },
     "16485958635793de07": {
@@ -112,14 +114,14 @@
         "08f5eac4-2151-431e-99d7-136219613225": {
           "type": "heading",
           "settings": {
-            "heading": "Why is the kelp dissapearing?",
+            "heading": "About SeaTrees",
             "heading_size": "h1"
           }
         },
         "164859586384399bed-1": {
           "type": "text",
           "settings": {
-            "text": "<p>The notorious purple sea urchin, a tiny palm-sized creature with an insatiable appetite for kelp has proliferated after its predators (like some species of fish and lobsters) have disappeared because of human impacts. <\/p><p>Our partners at SeaTrees send divers out to identify purple urchin barrens and clear these areas so kelp can regrow. This allows urchin predators to have a chance to move in and keep the population under control. After 5 years, the site is considered restored if the kelp forest is healthy and urchins are in balance and when that happens, kelp forests can work their magic as the sequoias of the sea and do their part to help solve the climate crisis.<\/p>"
+            "text": "<p>The notorious purple sea urchin, a tiny palm-sized creature with an insatiable appetite for kelp has proliferated after its predators (like some species of fish and lobsters) have disappeared because of human impacts. <\/p><p>Our partners at SeaTrees send divers out to identify purple urchin barrens and clear these areas so kelp can regrow. This allows urchin predators to have a chance to move back in and keep the population under control. After 5 years, the site is considered restored if the kelp forest is healthy and urchins are in balance and when that happens, kelp forests can work their magic as the sequoias of the sea and do their part to help solve the climate crisis.<\/p>"
           }
         }
       },
@@ -143,19 +145,20 @@
         "164866238944751989-0": {
           "type": "heading",
           "settings": {
-            "heading": "So how exactly does kelp sequester carbon?",
+            "heading": "How does kelp sequester carbon?",
             "heading_size": "h1"
           }
         },
         "164866238944751989-1": {
           "type": "text",
           "settings": {
-            "text": "<p>1. Kelp takes <strong>CO2 <\/strong>via photosynthesis - storing it in the structure of the kelp itself.<\/p><p>2. <strong>Plant debris<\/strong> floats out to sea as the kelp grows.<\/p><p>3. <strong>Plant debris<\/strong> sinks to the ocean floor.<\/p><p>4. Carbon is sequestered in the deep sea.<\/p><p>5. Additional exported <strong>dissolved carbon<\/strong> travels to the deep sea.<\/p>",
+            "text": "<p>1. Kelp draws down carbon dioxide via photosynthesis — storing it in the structure of the kelp itself.<\/p><p>2. Plant debris floats out to sea as the kelp grows then sinks to the ocean floor.<\/p><p>3. Carbon is sequestered in the deep sea.<\/p><p>4. Dissolved carbon travels to the deep sea.<\/p>",
             "text_style": "body"
           }
         },
         "164866238944751989-2": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Learn More",
             "button_link": ""
@@ -178,7 +181,7 @@
         "color_scheme": "background-1",
         "mobile_content_alignment": "left",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 20
       }
     },
     "16486625605033c200": {
@@ -187,7 +190,7 @@
         "16486625607114ebd2-0": {
           "type": "heading",
           "settings": {
-            "heading": "We are donating $5 from every purchase to SeaTrees during the month of April.",
+            "heading": "For every shoe purchase you make, SeaVees will donate $5 to SeaTrees for Earth Month.",
             "heading_size": "h0"
           }
         },
@@ -208,7 +211,7 @@
         "is_page_header": false,
         "mobile_content_align": "center",
         "desktop_content_align": "center",
-        "padding_top": 100,
+        "padding_top": 48,
         "padding_bottom": 100
       }
     },
@@ -263,7 +266,7 @@
   "order": [
     "main",
     "1648594560c08fd909",
-    "164867432347fd0485",
+    "1648754377267fd7cf",
     "1648595199e930fe4f",
     "16485957292dc375e2",
     "16485958635793de07",

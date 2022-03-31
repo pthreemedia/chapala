@@ -1,0 +1,346 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "16484982601b30b73a": {
+      "type": "rich-text",
+      "blocks": {
+        "16484982604c779ae4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "About SeaVees",
+            "heading_size": "h1"
+          }
+        },
+        "cf4f549e-f35a-46ab-9683-830041643f19": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Born in 1964.  Rediscovered in 2008.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16484982604c779ae4-0",
+        "cf4f549e-f35a-46ab-9683-830041643f19"
+      ],
+      "settings": {
+        "color_scheme": "inverse",
+        "full_width": true,
+        "is_page_header": true,
+        "mobile_content_align": "center",
+        "desktop_content_align": "center",
+        "padding_top": 68,
+        "padding_bottom": 52
+      }
+    },
+    "1648498124cfde6a62": {
+      "type": "page-menu",
+      "blocks": {
+        "164849812419f1a6c3-0": {
+          "type": "page_menu_link",
+          "settings": {
+            "link_text": "About SeaVees",
+            "link_url": "shopify:\/\/pages\/about-seavees"
+          }
+        },
+        "bf80c113-02d0-49f6-b0a4-e0f03cd9a605": {
+          "type": "page_menu_link",
+          "settings": {
+            "link_text": "Our Legacy",
+            "link_url": "shopify:\/\/pages\/our-legacy"
+          }
+        },
+        "30fde8e0-066c-4317-9e2f-a77619ac3870": {
+          "type": "page_menu_link",
+          "settings": {
+            "link_text": "Our Shoes",
+            "link_url": "shopify:\/\/pages\/what-makes-a-seavees"
+          }
+        },
+        "ba5be8c3-0623-4bdf-b54d-09e15b9e0336": {
+          "type": "page_menu_link",
+          "settings": {
+            "link_text": "Our Values",
+            "link_url": "shopify:\/\/pages\/preserve-the-dream"
+          }
+        },
+        "65061b5d-7686-4d94-95b5-4394129b5c52": {
+          "type": "page_menu_link",
+          "settings": {
+            "link_text": "Causes We Support",
+            "link_url": "shopify:\/\/pages\/causes"
+          }
+        }
+      },
+      "block_order": [
+        "164849812419f1a6c3-0",
+        "bf80c113-02d0-49f6-b0a4-e0f03cd9a605",
+        "30fde8e0-066c-4317-9e2f-a77619ac3870",
+        "ba5be8c3-0623-4bdf-b54d-09e15b9e0336",
+        "65061b5d-7686-4d94-95b5-4394129b5c52"
+      ],
+      "settings": {
+        "stack_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "164874993233586e86": {
+      "type": "image-banner",
+      "blocks": {
+        "16487499327706caf5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "SeaTrees",
+            "heading_size": "h1"
+          }
+        },
+        "16487499327706caf5-1": {
+          "type": "text",
+          "settings": {
+            "text": "Since 2020, we’ve supported SeaTrees, an organization dedicated to restoring kelp forests that have the power to reverse climate change. For the entire month of April, we’re quintupling our support of SeaTrees by donating $5 from every purchase you make to support the work they do.",
+            "text_style": "body"
+          }
+        },
+        "16487499327706caf5-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Learn More",
+            "button_link_1": "shopify:\/\/pages\/seatrees",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16487499327706caf5-0",
+        "16487499327706caf5-1",
+        "16487499327706caf5-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/seatrees_desktop_header_211111.jpg",
+        "image_overlay_opacity": 60,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "margin_top": 0,
+        "margin_bottom": 10
+      }
+    },
+    "1648750089ddebfd56": {
+      "type": "image-banner",
+      "blocks": {
+        "1648750089e6919edb-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "1% For The Planet",
+            "heading_size": "h1"
+          }
+        },
+        "1648750089e6919edb-1": {
+          "type": "text",
+          "settings": {
+            "text": "We recently received our 5 Years of Giving award from 1% for the Planet. That’s five years of donating 1% of our annual revenue back to eco-focused efforts while working alongside a number of truly forward-thinking and environmentally-friendly companies.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "1648750089e6919edb-0",
+        "1648750089e6919edb-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1percent_banner.jpg",
+        "image_overlay_opacity": 50,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "margin_top": 10,
+        "margin_bottom": 10
+      }
+    },
+    "1648750221206c8821": {
+      "type": "image-banner",
+      "blocks": {
+        "1648750221c2349489-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Mental Health Awareness",
+            "heading_size": "h1"
+          }
+        },
+        "1648750221c2349489-1": {
+          "type": "text",
+          "settings": {
+            "text": "Designed in collaboration with Carissa Potter Carlson of People I’ve Loved, this limited edition Baja Slip On helps to bring awareness to the importance of mental health. We commit to fighting the stigma, providing support, educating, and advocating for policies that support mental health in our communities.",
+            "text_style": "body"
+          }
+        },
+        "1648750221c2349489-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Womens",
+            "button_link_1": "shopify:\/\/products\/womens-baja-slip-on-mha-herringbone-twill-white",
+            "button_style_secondary_1": false,
+            "button_label_2": "Shop Mens",
+            "button_link_2": "shopify:\/\/products\/mens-baja-slip-on-mha-herringbone-twill-white",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1648750221c2349489-0",
+        "1648750221c2349489-1",
+        "1648750221c2349489-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/mha_banner_111111.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "margin_top": 10,
+        "margin_bottom": 10
+      }
+    },
+    "16487503301dfdf25f": {
+      "type": "image-banner",
+      "blocks": {
+        "1648750330f6858ce2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Un Mar De Colores",
+            "heading_size": "h1"
+          }
+        },
+        "1648750330f6858ce2-1": {
+          "type": "text",
+          "settings": {
+            "text": "Un Mar De Colores is an organization that works to bridge the socio-economic gap in the surf space for the future generation of historically marginalized youth, fostering the next generation of BIPOC surfers, watermen\/women, and ocean-stewards through education, mentorship, & media representation.",
+            "text_style": "body"
+          }
+        },
+        "1648750330f6858ce2-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Learn More",
+            "button_link_1": "shopify:\/\/blogs\/journal\/bolinas-boot-field-report-4-un-mar-de-colores",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1648750330f6858ce2-0",
+        "1648750330f6858ce2-1",
+        "1648750330f6858ce2-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/un_mar_banner_211111.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "margin_top": 10,
+        "margin_bottom": 10
+      }
+    },
+    "1648750593880c362d": {
+      "type": "image-banner",
+      "blocks": {
+        "1648750593b1be2949-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Gaviota Coast Conservancy",
+            "heading_size": "h1"
+          }
+        },
+        "1648750593b1be2949-1": {
+          "type": "text",
+          "settings": {
+            "text": "A collaboration with Arvin Goods, these limited edition socks have one foot in the past, and one foot in the future. 10% of all sales are donated to the Gaviota Coast Conservancy, a local organization in Santa Barbara dedicated to protecting the rural character and environmental integrity of the Gaviota Coast for present and future generations.",
+            "text_style": "body"
+          }
+        },
+        "1648750593b1be2949-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "View Socks",
+            "button_link_1": "shopify:\/\/products\/arvin-x-seavees-casual-twisted-sock-sand-blue",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1648750593b1be2949-0",
+        "1648750593b1be2949-1",
+        "1648750593b1be2949-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/gaviota_banner_111111.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "margin_top": 10,
+        "margin_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16484982601b30b73a",
+    "1648498124cfde6a62",
+    "164874993233586e86",
+    "1648750089ddebfd56",
+    "1648750221206c8821",
+    "16487503301dfdf25f",
+    "1648750593880c362d"
+  ]
+}

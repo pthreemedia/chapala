@@ -20,8 +20,9 @@
         },
         "cf4f549e-f35a-46ab-9683-830041643f19": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "<p>The original way to go casual since 1964.<\/p>"
+            "text": "<p>Born in 1964. Rediscovered in 2008.<\/p>"
           }
         }
       },
@@ -30,9 +31,11 @@
         "cf4f549e-f35a-46ab-9683-830041643f19"
       ],
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "inverse",
         "full_width": true,
         "is_page_header": true,
+        "mobile_content_align": "center",
+        "desktop_content_align": "center",
         "padding_top": 68,
         "padding_bottom": 52
       }
@@ -67,13 +70,21 @@
             "link_text": "Our Values",
             "link_url": "shopify:\/\/pages\/preserve-the-dream"
           }
+        },
+        "25259826-fd02-4d54-bda6-b3b195c96ac5": {
+          "type": "page_menu_link",
+          "settings": {
+            "link_text": "Causes We Support",
+            "link_url": "shopify:\/\/pages\/causes"
+          }
         }
       },
       "block_order": [
         "164849812419f1a6c3-0",
         "bf80c113-02d0-49f6-b0a4-e0f03cd9a605",
         "30fde8e0-066c-4317-9e2f-a77619ac3870",
-        "ba5be8c3-0623-4bdf-b54d-09e15b9e0336"
+        "ba5be8c3-0623-4bdf-b54d-09e15b9e0336",
+        "25259826-fd02-4d54-bda6-b3b195c96ac5"
       ],
       "settings": {
         "stack_on_mobile": true,
@@ -83,10 +94,34 @@
         "margin_bottom": 0
       }
     },
+    "1648746974af47142e": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "1648746974708341bd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We all have dreams. We tell ourselves we’re too young, old, busy, or just not good enough. And that’s when they end up on a shelf.<br\/><br\/>Our brand was quite literally put on a shelf for nearly 40 years before our founder discovered a pair at a second hand shop in Tokyo and brought it back to life in its original home in California—the state where dreams come true, or in our case, have a second chance.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1648746974708341bd-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "is_page_header": false,
+        "mobile_content_align": "left",
+        "desktop_content_align": "left",
+        "padding_top": 60,
+        "padding_bottom": 36
+      }
+    },
     "1648498531a60804d2": {
       "type": "video",
       "settings": {
-        "heading": "Our Story",
+        "heading": "",
         "heading_size": "h2",
         "cover_image": "shopify:\/\/shop_images\/SeaVees_Heritage_Banner_V3_cdabc.jpg",
         "video_url": "https:\/\/vimeo.com\/85883521",
@@ -95,6 +130,30 @@
         "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "1648747115a10701ad": {
+      "type": "rich-text",
+      "blocks": {
+        "1648747115c1bd999e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "At SeaVees, we believe there’s a sea of possibilities. In rediscovering who we are and what we can be.",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "1648747115c1bd999e-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "is_page_header": false,
+        "mobile_content_align": "center",
+        "desktop_content_align": "center",
+        "padding_top": 56,
+        "padding_bottom": 68
       }
     },
     "1648498699d572e81a": {
@@ -190,7 +249,9 @@
     "main",
     "16484982601b30b73a",
     "1648498124cfde6a62",
+    "1648746974af47142e",
     "1648498531a60804d2",
+    "1648747115a10701ad",
     "1648498699d572e81a",
     "1648499956ecd2c500"
   ]
