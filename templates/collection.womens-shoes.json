@@ -3,7 +3,7 @@
     "banner": {
       "type": "main-collection-banner",
       "settings": {
-        "show_collection_description": true,
+        "show_collection_description": false,
         "show_breadcrumbs": true,
         "center_banner_text_desktop": true,
         "center_banner_text_mobile": true,
@@ -66,12 +66,13 @@
         "grouped_collection": true,
         "image_ratio": "adapt",
         "show_condensed_title": true,
+        "show_swatches": false,
         "show_secondary_image": false,
         "show_gender": true,
         "show_material": true,
         "show_vendor": false,
         "show_rating": false,
-        "enable_quick_buy": false,
+        "enable_quick_add": false,
         "enable_filtering": true,
         "enable_sorting": true,
         "collapse_on_larger_devices": true,

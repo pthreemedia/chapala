@@ -313,6 +313,11 @@
 }
 
 /* Swatch */
+
+collection-swatch {
+  z-index: 2;
+}
+
 .card-swatch .card-swatch__wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -320,6 +325,7 @@
   align-items: center;
   padding-right: 1.2rem;
   margin-bottom: 10px;
+  z-index: 2;
 }
 .card-swatch .card-swatch--color {
   padding: 0.5rem;

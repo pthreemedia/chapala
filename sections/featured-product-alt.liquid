@@ -1,0 +1,130 @@
+{{ 'section-featured-product-alt.css' | asset_url | stylesheet_tag }}
+{{ 'section-main-product.css' | asset_url | stylesheet_tag }}
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+
+<div class="featured-product-alt page-width">
+  <div class="featured-product-alt-container{% if section.settings.reverse == true %} featured-product-alt-container-reverse{% endif %}">
+    <div class="featured-product-alt-lifestyle-image">
+        <img src="{{ section.settings.image | img_url: 'master'}}">
+    </div>
+
+    <div class="featured-product-alt-details card-wrapper">
+      <div class="featured-product-alt-product-image">
+          {% for block in section.blocks %}
+            {% if forloop.first %}
+              <a class="featured-product-alt-imagelink featured-prod-link" href="{{ block.settings.product.url }}">
+                {% if section.settings.show_secondary_image == true %}
+                  <img src="{{block.settings.product.images[1] | img_url: 'master'}}">
+                {% else %}
+                  <img src="{{block.settings.product.images[0] | img_url: 'master'}}">
+                {% endif %}
+              </a>
+            {% break %}
+            {% endif %}
+          {% endfor %}
+      </div>
+      <div class="featured-product-alt-info">
+        <h2 class="featured-product-alt-title">{{ section.settings.title }}</h2>
+        {% if section.settings.description %}<p class="featured-product-alt-description">{{ section.settings.description }}</p>{% endif %}
+        {% assign product_card_product = block.settings.product %}
+        {% if section.settings.show_swatches == true %}
+          <featured-swatch class="product-swatches">
+            {% for block in section.blocks %}
+              <div>
+                <a
+                    href="{{ block.settings.product.url }}"
+                    class="product-swatch {% if forloop.first == true %}active{% endif %}"
+                    {%- if block.settings.product.metafields.seavees.swatch_image != blank -%}
+                        style="background-image: url({{ block.settings.product.metafields.seavees.swatch_image }}); background-size: cover;"
+                    {%- elsif block.settings.product.metafields.seavees.swatch != blank -%}
+                        style="background-color: {{ block.settings.product.metafields.seavees.swatch }}"
+                    {%- else -%}
+                        style="background-color: #f9f9f9; border-color: #e1e1e1;"
+                    {%- endif -%}
+                    data-var-handle='{{ handle }}'
+                    data-prod-handle='{{ block.settings.product.handle }}'
+                    title="{{ block.settings.product.metafields.seavees.color_name }}"
+                    data-prod-img="{{ block.settings.product.images[0] | img_url: 'master' }}"
+                    data-prod-url="{{ block.settings.product.url }}"
+                >
+                </a>
+              </div>
+            {% endfor %}
+          </featured-swatch>
+        {% endif %}
+        {% for block in section.blocks %}
+          <a class="button button--primary featured-prod-link {% if forloop.first == false %} hidden{% endif %}" href="{{ block.settings.product.url }}">
+            {{ section.settings.link_text }}
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Featured Product Alt",
+    "tag": "section",
+    "class": "spaced-section",
+    "settings": [
+      {
+        "type":"checkbox",
+        "id":"reverse",
+        "label":"Reverse Layout",
+        "info":"If checked, image will be on the right for desktop",
+        "default": false
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Lifestyle Image"
+      },
+      {
+        "type":"checkbox",
+        "id":"show_secondary_image",
+        "label":"Show secondary image",
+        "default": true
+      },
+      {
+        "type":"checkbox",
+        "id":"show_swatches",
+        "label":"Show swatches",
+        "default": true
+      },
+      {
+        "type":"text",
+        "id":"title",
+        "label":"Title"
+      },
+      {
+        "type":"text",
+        "id":"description",
+        "label":"Description"
+      },
+      {
+        "type":"text",
+        "id":"link_text",
+        "label":"Link text"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "Block",
+        "type":"style",
+        "settings": [
+          {
+            "type": "product",
+            "id": "product",
+            "label": "Product"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Featured Product Alt"
+      }
+    ]
+  }
+{% endschema %}
