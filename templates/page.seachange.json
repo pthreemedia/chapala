@@ -2,13 +2,144 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "1648833854783c6018": {
+      "type": "rich-text",
+      "blocks": {
+        "1648833853e4eafee4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "SeaChange Collection",
+            "heading_size": "h0"
+          }
+        },
+        "1648833853e4eafee4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>SeaChange is our first almost completely recycled collection. These conscious, eco-friendly shoes also help support marine ecosystems through our partnership with SeaTrees.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1648833853e4eafee4-0",
+        "1648833853e4eafee4-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "is_page_header": true,
+        "mobile_content_align": "center",
+        "desktop_content_align": "center",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "164883385720bc56f6": {
+      "type": "featured-collection-alt",
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "description": "",
+        "description_style": "body",
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "collection_1": "womens-seachange",
+        "tab_id_1": "1",
+        "featured_collection_title_1": "Womens",
+        "products_to_show_1": 12,
+        "collection_2": "mens-seachange",
+        "tab_id_2": "2",
+        "featured_collection_title_2": "Mens",
+        "products_to_show_2": 12,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_condensed_title": true,
+        "show_vendor": false,
+        "show_gender": true,
+        "show_material": true,
+        "show_rating": false,
+        "enable_quick_buy": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 36,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "16488340185b1f3cc8": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "cover_image": "shopify:\/\/shop_images\/SeaVees_Inertia_Cover_Photo_3e8c474b-8cae-46c4-a9a0-fe4484602c55.jpg",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=z1L0i0QcQZk",
+        "description": "SeaTrees and SeaVees Video",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 12,
+        "padding_bottom": 24
+      }
+    },
+    "1648834181268fa0bf": {
+      "type": "image-with-text",
+      "blocks": {
+        "164883418143aa5478-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "About Seatrees",
+            "heading_size": "h1"
+          }
+        },
+        "164883418143aa5478-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Kelp forests provide healthy habitats for over 700 species of marine life and sequester carbon at a rate 20 times more carbon per acre than land forests. <em>(Hurlimann and Zucker, 2019)<\/em><\/p><p>In the last decade, these ecosystems have been in a state of crisis. According to our partners at SeaTrees, more than 90% of kelp forests along our California coast have disappeared in the last 10 years.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "164883418143aa5478-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "shopify:\/\/pages\/seatrees"
+          }
+        }
+      },
+      "block_order": [
+        "164883418143aa5478-0",
+        "164883418143aa5478-1",
+        "164883418143aa5478-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/seatrees_mobile_header_111111_v2.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 48,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1648833854783c6018",
+    "164883385720bc56f6",
+    "16488340185b1f3cc8",
+    "1648834181268fa0bf"
   ]
 }
