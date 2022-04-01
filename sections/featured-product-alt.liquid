@@ -5,7 +5,7 @@
 <div class="featured-product-alt page-width">
   <div class="featured-product-alt-container{% if section.settings.reverse == true %} featured-product-alt-container-reverse{% endif %}">
     <div class="featured-product-alt-lifestyle-image">
-        <img src="{{ section.settings.image | img_url: 'master'}}">
+        <img src="{{ section.settings.image | image_url: 'master' }}" height="{{ section.settings.image.height }}" width="{{ section.settings.image.image.width }}" loading="lazy">
     </div>
 
     <div class="featured-product-alt-details card-wrapper">
@@ -14,9 +14,9 @@
             {% if forloop.first %}
               <a class="featured-product-alt-imagelink featured-prod-link" href="{{ block.settings.product.url }}">
                 {% if section.settings.show_secondary_image == true %}
-                  <img src="{{block.settings.product.images[1] | img_url: 'master'}}">
+                  <img src="{{ block.settings.product.images[1] | image_url: 'master' }}" height="{{ block.settings.product.images[1].height }}" width="{{ block.settings.product.images[1].width }}" loading="lazy">
                 {% else %}
-                  <img src="{{block.settings.product.images[0] | img_url: 'master'}}">
+                  <img src="{{ block.settings.product.images[0] | image_url: 'master' }}" height="{{ block.settings.product.images[0].height }}" width="{{ block.settings.product.images[0].width }}" loading="lazy">
                 {% endif %}
               </a>
             {% break %}
@@ -44,7 +44,7 @@
                     data-var-handle='{{ handle }}'
                     data-prod-handle='{{ block.settings.product.handle }}'
                     title="{{ block.settings.product.metafields.seavees.color_name }}"
-                    data-prod-img="{{ block.settings.product.images[0] | img_url: 'master' }}"
+                    data-prod-img="{{ block.settings.product.images[0] | image_url: 'master' }}"
                     data-prod-url="{{ block.settings.product.url }}"
                 >
                 </a>

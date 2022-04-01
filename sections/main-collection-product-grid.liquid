@@ -133,24 +133,26 @@
                             {%- assign lazy_load = true -%}
                           {%- endif -%}
                           {% unless product.metafields.seavees.hide_product == true %}
-                            {% if silhouette == product.metafields.seavees.silhouette %}
-                              <li class="grid__item slider__slide">
-                                {% render 'card-product',
-                                  card_product: product,
-                                  media_aspect_ratio: section.settings.image_ratio,
-                                  show_secondary_image: section.settings.show_secondary_image,
-                                  show_vendor: section.settings.show_vendor,
-                                  show_gender: section.settings.show_gender,
-                                  show_material: section.settings.show_material,
-                                  show_rating: section.settings.show_rating,
-                                  lazy_load: lazy_load,
-                                  show_quick_add: section.settings.enable_quick_add,
-                                  section_id: section.id,
-                                  show_swatches: section.settings.show_swatches,
-                                  show_condensed_title: section.settings.show_condensed_title
-                                %}
-                              </li>
-                            {% endif %}
+                            {% unless section.settings.hide_sale_products == true and product.metafields.seavees.is_on_sale == true %}
+                              {% if silhouette == product.metafields.seavees.silhouette %}
+                                <li class="grid__item slider__slide">
+                                  {% render 'card-product',
+                                    card_product: product,
+                                    media_aspect_ratio: section.settings.image_ratio,
+                                    show_secondary_image: section.settings.show_secondary_image,
+                                    show_vendor: section.settings.show_vendor,
+                                    show_gender: section.settings.show_gender,
+                                    show_material: section.settings.show_material,
+                                    show_rating: section.settings.show_rating,
+                                    lazy_load: lazy_load,
+                                    show_quick_add: section.settings.enable_quick_add,
+                                    section_id: section.id,
+                                    show_swatches: section.settings.show_swatches,
+                                    show_condensed_title: section.settings.show_condensed_title
+                                  %}
+                                </li>
+                              {% endif %}
+                            {% endunless %}  
                           {% endunless %}
                         {%- endfor -%}
                       </ul>
@@ -192,22 +194,26 @@
                   {%- assign lazy_load = true -%}
                 {%- endif -%}
 
-                <li class="grid__item">
-                  {% render 'card-product',
-                    card_product: product,
-                    media_aspect_ratio: section.settings.image_ratio,
-                    show_secondary_image: section.settings.show_secondary_image,
-                    show_vendor: section.settings.show_vendor,
-                    show_gender: section.settings.show_gender,
-                    show_material: section.settings.show_material,
-                    show_rating: section.settings.show_rating,
-                    lazy_load: lazy_load,
-                    show_quick_add: section.settings.enable_quick_add,
-                    section_id: section.id,
-                    show_swatches: section.settings.show_swatches,
-                    show_condensed_title: section.settings.show_condensed_title
-                  %}
-                </li>
+                {% unless product.metafields.seavees.hide_product == true %}
+                  {% unless section.settings.hide_sale_products == true and product.metafields.seavees.is_on_sale == true %}
+                    <li class="grid__item">
+                      {% render 'card-product',
+                        card_product: product,
+                        media_aspect_ratio: section.settings.image_ratio,
+                        show_secondary_image: section.settings.show_secondary_image,
+                        show_vendor: section.settings.show_vendor,
+                        show_gender: section.settings.show_gender,
+                        show_material: section.settings.show_material,
+                        show_rating: section.settings.show_rating,
+                        lazy_load: lazy_load,
+                        show_quick_add: section.settings.enable_quick_add,
+                        section_id: section.id,
+                        show_swatches: section.settings.show_swatches,
+                        show_condensed_title: section.settings.show_condensed_title
+                      %}
+                    </li>
+                  {% endunless %}
+                {% endunless %}
               {%- endfor -%}
             </ul>
     
@@ -250,6 +256,13 @@
       "default": false,
       "label": "Show grouped view",
       "info": "If checked, products will be grouped by silhouette (defined in product metafields)"
+    },
+    {
+      "type": "checkbox",
+      "id": "hide_sale_products",
+      "default": false,
+      "label": "Hide sale products from collection",
+      "info": "Linked to is_on_sale metafield"
     },
     {
       "type": "header",
