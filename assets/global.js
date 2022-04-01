@@ -897,3 +897,118 @@ class VariantRadios extends VariantSelects {
 }
 
 customElements.define('variant-radios', VariantRadios);
+
+// Featured product section swatch functionality
+
+class FeaturedSwatch extends HTMLElement {
+  constructor() {
+    super();
+    this.urlContainer = this.closest(".featured-product-alt").querySelectorAll(".featured-prod-link");
+    this.imgContainer = this.closest(".featured-product-alt").querySelector(".featured-product-alt-imagelink img");
+    this.imgDiv = this.closest(".featured-product-alt").querySelector(".featured-product-alt-product-image");
+    this.swatchBtns = this.querySelectorAll(".product-swatch");
+    this.isAnimating = false;
+
+    // Used to clear timeouts
+    this.fadeImageInTimeout = null;
+
+    this.classes = {
+      activeSwatch: "ClassicsPage__color-swatch--active",
+      fadeImage: "ClassicsPage__product-image--fade",
+      animateImage: "ClassicsPage__product-image--animating",
+      pauseImage: "ClassicsPage__product-image--paused"
+    }
+
+    this.swatchBtns.forEach((swatch) => {
+      swatch.addEventListener("click", this.swatchClick.bind(this));
+    });
+  }
+
+  swatchClick(event) {
+    event.preventDefault();
+
+    const clickedSwatch = event.target;
+    const activeSwatch = this.querySelector(".product-swatch.active");
+
+    if(Object.is(clickedSwatch, activeSwatch)) {
+      return;
+    }
+    else {
+      this.switchBtn(activeSwatch, clickedSwatch);
+
+      const imgUrl = clickedSwatch.dataset.prodImg;
+      const prodUrl = clickedSwatch.dataset.prodUrl;
+
+      if(imgUrl && prodUrl) this.switchImg(imgUrl, prodUrl);
+    }
+  }
+
+  switchBtn(activeSwatch, clickedSwatch) {
+    activeSwatch.classList.remove("active");
+    clickedSwatch.classList.add("active");
+  }
+
+  switchImg(imgUrl, prodUrl) {
+    const imgContainer = this.imgContainer;
+    const urlContainer = this.urlContainer;
+    const imgDiv = this.imgDiv;
+
+    // imgContainer.classList.add("switching");
+    urlContainer.forEach((urlCont) => {
+      urlCont.setAttribute("href", prodUrl);
+    });
+
+    // animate image sliding effect
+    if(!this.isAnimating) {
+      this.animateAndChangeImage(imgDiv, imgUrl);
+    } else {
+      // In the case where we're still animating, don't interrupt the animation,
+      // but fade out the entire image,
+      imgDiv.classList.add(this.classes.fadeImage);
+
+      // And then wait 400ms before updating the src and fading the image back in
+      // so the src change isn't so poppy.
+      if(this.fadeImageInTimeout) {
+        clearTimeout(this.fadeImageInTimeout);
+      }
+      this.fadeImageInTimeout = setTimeout(() => {
+        imgContainer.src = imgUrl;
+        imgDiv.classList.remove(this.classes.fadeImage);
+      }, 400);
+    }
+  }
+
+  animateAndChangeImage(imgDiv, imgUrl) {
+    const imgContainer = this.imgContainer;
+    this.isAnimating = true;
+
+    // Set up the event handler that will run when the animation is complete.
+    const finishAnimationAndCleanUp = () => {
+      imgDiv.removeEventListener("animationend", finishAnimationAndCleanUp);
+      imgDiv.classList.remove(this.classes.animateImage);
+      this.isAnimating = false;
+    }
+    imgDiv.addEventListener("animationend", finishAnimationAndCleanUp);
+
+    // start animation
+    imgDiv.classList.add(this.classes.animateImage);
+
+    // Wait a moment to pause the animation, change the image, and then resume
+    // when the image loads.
+    this.changeImageDuringAnimationTimeout = setTimeout(() => {
+      // pause the animation
+      imgDiv.classList.add(this.classes.pauseImage);
+
+      // Add event listener to unpause the animation after image load
+      imgContainer.addEventListener("load", function unpauseAnimationAfterLoad() {
+        imgContainer.removeEventListener("load", unpauseAnimationAfterLoad);
+        imgDiv.classList.remove("ClassicsPage__product-image--paused");
+      });
+
+      // change the image
+      imgContainer.src = imgUrl;
+    }, 272);
+  }
+}
+
+customElements.define("featured-swatch", FeaturedSwatch);

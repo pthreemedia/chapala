@@ -13,6 +13,7 @@ class CollectionSwatch extends HTMLElement {
     }
   
     initSwatch() {
+      const imgContainer = this.imgContainer;
       this.querySelectorAll(".card-swatch--color a").forEach((swatch) => {
         const swatchProd = swatch.dataset.varHandle;
         const productInfo = window.theme.swatch_prod[swatchProd];

@@ -221,7 +221,7 @@
           "type": "button",
           "settings": {
             "button_label": "Read Steven's Story",
-            "button_link": "shopify:\/\/pages\/the-seavees-legend-1"
+            "button_link": "shopify:\/\/pages\/the-seavees-legend"
           }
         }
       },

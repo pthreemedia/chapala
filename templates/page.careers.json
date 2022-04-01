@@ -1,0 +1,119 @@
+{
+  "sections": {
+    "16488310261a494101": {
+      "type": "hero-banner",
+      "settings": {
+        "use_video_background": false,
+        "hero_video_desktop": "",
+        "hero_video_mobile": "",
+        "image_desktop": "shopify:\/\/shop_images\/Classcs_Sale_Home_Desktop_-_Copy.jpg",
+        "desktop_text_box_vertical_position": "center",
+        "desktop_text_box_horizontal_position": "center",
+        "desktop_text_alignment": "center",
+        "adapt_height_first_image": false,
+        "text_image_separate": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "1648831247a1e4c263": {
+      "type": "rich-text",
+      "blocks": {
+        "6014d416-e7c6-44e8-86e2-70f620651a4a": {
+          "type": "heading",
+          "settings": {
+            "heading": "Careers at SeaVees.",
+            "heading_size": "h0"
+          }
+        },
+        "16488312478cd1b1a5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>SeaVees is growing and we need some help keeping up. Immediate positions are currently available. If you don't see your California dream job below, check back soon for updated opportunities.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "6014d416-e7c6-44e8-86e2-70f620651a4a",
+        "16488312478cd1b1a5-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "is_page_header": false,
+        "mobile_content_align": "center",
+        "desktop_content_align": "center",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "164883077644a5d7e4": {
+      "type": "multicolumn",
+      "blocks": {
+        "16488307761b149624-0": {
+          "type": "column",
+          "settings": {
+            "title": "Retail Sales Associate",
+            "text": "<p>Newport Beach , CA.<\/p>",
+            "link_label": "View Details",
+            "link": "shopify:\/\/pages\/careers-retail-sales-associate-newport-beach",
+            "info_on_image": false
+          }
+        },
+        "16488307761b149624-1": {
+          "type": "column",
+          "settings": {
+            "title": "Retail Sales Associate",
+            "text": "<p>Santa Barbara, CA<\/p>",
+            "link_label": "View Details",
+            "link": "shopify:\/\/pages\/careers-retail-sales-associate-santa-barbara",
+            "info_on_image": false
+          }
+        },
+        "9d2288f3-ce8c-4967-82ff-696fbceb0690": {
+          "type": "column",
+          "settings": {
+            "title": "Open Application",
+            "text": "<p>Don't see something for you? Tell us your dream job at SeaVees here:<\/p>",
+            "link_label": "Contact Us",
+            "link": "mailto:careers@seavees.com",
+            "info_on_image": false
+          }
+        }
+      },
+      "block_order": [
+        "16488307761b149624-0",
+        "16488307761b149624-1",
+        "9d2288f3-ce8c-4967-82ff-696fbceb0690"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "16488310261a494101",
+    "main",
+    "1648831247a1e4c263",
+    "164883077644a5d7e4"
+  ]
+}
