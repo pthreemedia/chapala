@@ -2,13 +2,114 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "16488334578b9d7bbe": {
+      "type": "rich-text",
+      "blocks": {
+        "164883345796f3508e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "SeaVees Promotions & Sales",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "164883345796f3508e-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "is_page_header": false,
+        "mobile_content_align": "center",
+        "desktop_content_align": "center",
+        "padding_top": 40,
+        "padding_bottom": 12
+      }
+    },
+    "16488334618d2b243c": {
+      "type": "newsletter",
+      "blocks": {
+        "1648833461d5592eb3-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about upcoming promotions by signing up for our email newsletter. You can also visit our sale collections for special pricing on archival styles.<\/p>"
+          }
+        },
+        "1648833461d5592eb3-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1648833461d5592eb3-1",
+        "1648833461d5592eb3-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 4,
+        "padding_bottom": 52
+      }
+    },
+    "16488335049aa4eb7b": {
+      "type": "multicolumn",
+      "blocks": {
+        "164883350433462e3a-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/M_exposneaker_steel-17_40acf76f-c5c2-451c-8eb7-a697fc3a4466.jpg",
+            "title": "Mens Last Call",
+            "text": "",
+            "link_label": "Shop",
+            "link": "shopify:\/\/collections\/mens-sale",
+            "info_on_image": true
+          }
+        },
+        "164883350433462e3a-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/W_hawthorneslipon_blackrancho-14_16d749eb-3cff-45b2-b85c-36ca3ba8e080.jpg",
+            "title": "Womens Last Call",
+            "text": "",
+            "link_label": "Shop",
+            "link": "shopify:\/\/collections\/womens-sale",
+            "info_on_image": true
+          }
+        }
+      },
+      "block_order": [
+        "164883350433462e3a-0",
+        "164883350433462e3a-1"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16488334578b9d7bbe",
+    "16488334618d2b243c",
+    "16488335049aa4eb7b"
   ]
 }
