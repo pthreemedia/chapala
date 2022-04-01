@@ -26,7 +26,7 @@
           "type": "page_menu_link",
           "settings": {
             "link_text": "Slip Ons",
-            "link_url": "shopify:\/\/collections\/mens-slip-on-sneakers"
+            "link_url": "shopify:\/\/collections\/mens-slip-ons"
           }
         },
         "de062f57-b2c7-4771-8f3b-a6229576d9bc": {
@@ -80,6 +80,7 @@
         "products_per_page": 16,
         "columns_desktop": 4,
         "grouped_collection": true,
+        "hide_sale_products": true,
         "image_ratio": "adapt",
         "show_condensed_title": true,
         "show_swatches": false,

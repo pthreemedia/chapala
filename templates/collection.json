@@ -15,9 +15,10 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
-        "products_per_page": 16,
+        "products_per_page": 48,
         "columns_desktop": 4,
         "grouped_collection": false,
+        "hide_sale_products": false,
         "image_ratio": "adapt",
         "show_condensed_title": false,
         "show_swatches": false,
