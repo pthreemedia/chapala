@@ -2233,7 +2233,7 @@ input[type='checkbox'] {
   text-align: center;
   padding: 1rem 2rem;
   margin: 0;
-  letter-spacing: 0.1rem;
+  font-size: 1.4rem;
 }
 
 /* section-header */

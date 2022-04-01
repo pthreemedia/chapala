@@ -44,7 +44,8 @@
 .page-menu li::after { 
     transition: width .5s;
     position: absolute;
-    left: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
     bottom: 0.75rem;
     content: '';
     display: inline-block;
@@ -66,10 +67,10 @@
 }
 
 .page-menu li a {
-    text-transform: uppercase;
+    text-transform: Capitalize;
     color: rgb(var(--color-foreground));
     text-decoration: none; 
-    font-weight: 500;
+    font-size: 1.6rem;
 }
 
 .page-menu li:hover::after {

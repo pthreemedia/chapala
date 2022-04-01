@@ -1,6 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
+  {% render 'elevar-head' %}
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -213,6 +214,7 @@
   </head>
 
   <body class="gradient">
+  {% render 'elevar-body-end' %}
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
     </a>
@@ -266,8 +268,21 @@
       <span class="junip-store-key" data-store-key="EXFxb6qQmDgtQavMHpRJv8jL"></span>
     {% endif %}
 
+    <!-- ReSci start (Inserted on: 2022-03-10 20:47:47 UTC) -->
+      {% render 'resci-main.v1' %}
+    <!-- ReSci end -->  
+        
+    <!--Retention Science / Digioh Lightbox Script-->
+      <script async type='text/javascript' src='https://www.lightboxcdn.com/vendor/8b755fba-3f04-4d36-ab1d-7b841aef4a13/lightbox_speed.js'></script>
+    <!--End Lightbox Javascript-->
+
     <!--Gorgias Chat Widget Start-->
-    <script async id="gorgias-chat-widget-install-v2" src="https://config.gorgias.chat/gorgias-chat-bundle-loader.js?applicationId=11528"></script>
+      <script async id="gorgias-chat-widget-install-v2" src="https://config.gorgias.chat/gorgias-chat-bundle-loader.js?applicationId=11528"></script>
     <!--Gorgias Chat Widget End-->
+
+    <!-- Postscript Start -->
+      <script async src="https://sdk.postscript.io/sdk.bundle.js?shopId=52332"></script>
+    <!-- Postscript End -->
+
   </body>
 </html>
