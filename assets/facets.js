@@ -28,6 +28,20 @@ class FacetFiltersForm extends HTMLElement {
     });
   }
 
+  searchParametersColor(event, searchParams) {
+    // size filter selected, but availability missing
+    if(searchParams.includes("filter.v.option.size") && !searchParams.includes("filter.v.availability")) {
+      // sets default availability filter to "In Stock" elements
+      const instockInput = event.target.closest('form').querySelector("input[name='filter.v.availability'][value='1']");
+      if(instockInput) instockInput.checked = true;
+      const formData = new FormData(event.target.closest('form'));
+      const searchParams = new URLSearchParams(formData).toString();
+      return searchParams;
+    }
+    // returns default searchParam
+    else return searchParams
+  }
+
   static renderPage(searchParams, event, updateURLHash = true) {
     FacetFiltersForm.searchParamsPrev = searchParams;
     const sections = FacetFiltersForm.getSections();
