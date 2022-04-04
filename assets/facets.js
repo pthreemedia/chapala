@@ -28,7 +28,12 @@ class FacetFiltersForm extends HTMLElement {
     });
   }
 
-  searchParametersColor(event, searchParams) {
+  onSubmitHandler(event) {
+    event.preventDefault();
+    const formData = new FormData(event.target.closest('form'));
+  }
+
+  static searchParametersColor(event, searchParams) {
     // size filter selected, but availability missing
     if(searchParams.includes("filter.v.option.size") && !searchParams.includes("filter.v.availability")) {
       // sets default availability filter to "In Stock" elements
