@@ -206,16 +206,18 @@
                                                   {% unless block.settings.image_mobile == blank %}
                                                     <li>
                                                       {% if block.settings.image_mobile != blank %}
-                                                        <div class="header-menu-mobile-image">
-                                                          <img
-                                                          src="{{ block.settings.image_mobile | image_url: width: 300 }}"
-                                                          alt="{{ block.settings.text | escape }}"
-                                                          loading="lazy"
-                                                          width="{{ block.settings.image_mobile.width }}"
-                                                          height="{{ block.settings.image_mobile.height }}"
-                                                          class="header-featured-mobile-image"
-                                                          >
-                                                        </div>
+                                                        <a href="{{ block.settings.link }}">
+                                                          <div class="header-menu-mobile-image">
+                                                            <img
+                                                            src="{{ block.settings.image_mobile | image_url: width: 300 }}"
+                                                            alt="{{ block.settings.text | escape }}"
+                                                            loading="lazy"
+                                                            width="{{ block.settings.image_mobile.width }}"
+                                                            height="{{ block.settings.image_mobile.height }}"
+                                                            class="header-featured-mobile-image"
+                                                            >
+                                                          </div>
+                                                        </a>
                                                       {% endif %}
                                                       <a href="{{ block.settings.link }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset featured-menu-mobile-link">
                                                         {{ block.settings.text | escape }}
@@ -546,16 +548,18 @@
                                 {%- for block in section.blocks -%}
                                   {% if block.settings.category == link.title %}
                                     <li>
-                                      <div class="header-menu-desktop-image">
-                                        <img
-                                        src="{{ block.settings.image_desktop | image_url: width: 300 }}"
-                                        alt="{{ block.settings.text | escape }}"
-                                        loading="lazy"
-                                        width="{{ block.settings.image_desktop.width }}"
-                                        height="{{ block.settings.image_desktop.height }}"
-                                        class="header-featured-desktop-image"
-                                        >
-                                      </div>
+                                      <a href="{{ block.settings.link }}">
+                                        <div class="header-menu-desktop-image">
+                                          <img
+                                          src="{{ block.settings.image_desktop | image_url: width: 300 }}"
+                                          alt="{{ block.settings.text | escape }}"
+                                          loading="lazy"
+                                          width="{{ block.settings.image_desktop.width }}"
+                                          height="{{ block.settings.image_desktop.height }}"
+                                          class="header-featured-desktop-image"
+                                          >
+                                        </div>
+                                      </a>
                                       <a href="{{ block.settings.link }}" class="mega-menu__link link featured-menu-desktop-link">
                                         {{ block.settings.text | escape }}
                                       </a>
