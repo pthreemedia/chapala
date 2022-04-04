@@ -294,6 +294,17 @@
   </form>
 </cart-items>
 
+{% for item in cart.items %}
+  {% if item.vendor == 'SeaVees Footwear' %}
+    <div id="shopify-section-announcement-bar" class="shopify-section">
+      <div class="color-background-2 gradient">
+        <p class="announcement-bar__message">To celebrate Earth Month, <strong>$5 from your purchase today</strong> will be donated to SeaTrees to protect and restore pacific kelp forests. {% comment %}<a class="link animate-arrow" href="http://seavees.com/pages/seatrees">Learn more<span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span>{% endcomment %}</a>
+      </div>
+    </div>
+  {% break %}
+  {% endif %}
+{% endfor %}
+
 {% schema %}
 {
   "name": "t:sections.main-cart-items.name",
