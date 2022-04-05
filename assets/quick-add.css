@@ -196,8 +196,6 @@ quick-add-modal .product-form__buttons {
 
 .quick-add__submit {
   padding: 0 1rem;
-  min-width: 80%;
-  width: 80%;
-  margin: calc(100% - 4rem);
-  margin: 0 2rem;
+  min-width: 100%;
+  box-sizing: border-box;
 }
