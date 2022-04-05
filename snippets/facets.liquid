@@ -27,7 +27,7 @@
 <div class="facets-container{% if filter_type == 'drawer' %} facets-container-drawer{% endif %}">
   {%- if filter_type == 'vertical' or filter_type == 'horizontal' -%}
     <facet-filters-form class="facets small-hide">
-      <form id="FacetFiltersForm" class="{% if filter_type == 'horizontal' %}facets__form{% else %}facets__form-vertical{% endif %}">
+      <form id="FacetFiltersForm" class="{% if filter_type == 'horizontal' or filter_type == 'drawer' %}facets__form{% else %}facets__form-vertical{% endif %}">
         {%- if results.terms -%}
           <input type="hidden" name="q" value="{{ results.terms | escape }}">
           <input name="options[prefix]" type="hidden" value="last">
@@ -556,7 +556,7 @@
               {%- endfor -%}
 
               {%- if enable_sorting -%}
-                <div class="mobile-facets__details js-filter{% if filter_type == 'drawer' %} medium-hide large-up-hide{% endif %}" data-index="mobile-{{ forloop.index }}">
+                <div class="mobile-facets__details js-filter{% if filter_type == 'drawer' %} large-up-hide{% endif %}" data-index="mobile-{{ forloop.index }}">
                   <div class="mobile-facets__summary">
                     <div class="mobile-facets__sort">
                       <label for="SortBy-mobile">{{ 'products.facets.sort_by_label' | t }}</label>
@@ -632,7 +632,7 @@
   </div>
   {% comment %} Sort, product count and filter pills at the end when filter is type of Drawer for the correct tabbing order {% endcomment %}
   {%- if enable_sorting and filter_type == 'drawer' -%}
-    <facet-filters-form class="facets small-hide">
+    <facet-filters-form class="facets small-hide medium-hide">
       <form id="FacetSortDrawerForm" class="facets__form">
         <div class="facet-filters sorting caption small-hide">
           <div class="facet-filters__field">

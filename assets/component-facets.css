@@ -1052,7 +1052,7 @@ input.mobile-facets__checkbox {
   .facets__disclosure-vertical[open] .facets__summary .icon-caret {
     transform: rotate(180deg);
   }
-  
+
   .facets-container-drawer {
     display: flex;;
     flex-flow: row wrap;
@@ -1071,16 +1071,16 @@ input.mobile-facets__checkbox {
     width: calc(40% - 2rem);
   }
 
+  .facets-container-drawer .facets__form {
+    display: block;
+  }
+
   .facets-container-drawer .facets {
-    width: 40%;
+    width: 50%;
   }
 
   .facets-container-drawer .product-count {
-    width: 20%;
-  }
-
-  .facets-container-drawer .facets__form {
-    display: block;
+    width: 10%;
   }
 
   .no-js .facets-container-drawer .mobile-facets__wrapper  {
@@ -1105,5 +1105,9 @@ input.mobile-facets__checkbox {
 
   .facets-vertical .active-facets__button-remove {
     padding: 1rem;
+  }
+
+  .facets-container-drawer {
+    display: grid;;
   }
 }
