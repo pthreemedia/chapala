@@ -56,6 +56,7 @@
 
 .mega-menu__link--level-2 {
   font-size: 1.4rem;
+  font-weight: var(--font-body-weight-bold);
 }
 
 .mega-menu__link--level-2:not(:only-child) {
