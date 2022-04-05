@@ -5,7 +5,7 @@
       "settings": {
         "show_vendor": false,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "cart-footer": {
@@ -30,38 +30,47 @@
         "show_cart_note": false
       }
     },
-    "featured-collection": {
-      "type": "featured-collection",
-      "disabled": true,
+    "164911222318086ea0": {
+      "type": "featured-collection-alt",
       "settings": {
-        "title": "Featured collection",
+        "title": "You Might Also Like",
         "heading_size": "h2",
         "description": "",
-        "show_description": false,
         "description_style": "body",
-        "collection": "clothing-accessories",
-        "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
-        "image_ratio": "square",
+        "collection_1": "womens-socks",
+        "tab_id_1": "1",
+        "featured_collection_title_1": "Womens Socks",
+        "products_to_show_1": 5,
+        "collection_2": "mens-socks",
+        "tab_id_2": "2",
+        "featured_collection_title_2": "Mens Socks",
+        "products_to_show_2": 4,
+        "image_ratio": "adapt",
         "show_secondary_image": false,
+        "show_condensed_title": true,
         "show_vendor": false,
+        "show_gender": true,
+        "show_material": false,
         "show_rating": false,
-        "enable_quick_buy": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "enable_quick_add": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "margin_top": 44,
+        "margin_bottom": 0
       }
     }
   },
   "order": [
     "cart-items",
     "cart-footer",
-    "featured-collection"
+    "164911222318086ea0"
   ]
 }
