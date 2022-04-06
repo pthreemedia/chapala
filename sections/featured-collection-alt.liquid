@@ -3,13 +3,15 @@
 
 <link rel="stylesheet" href="{{ 'component-slider.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'template-collection.css' | asset_url }}" media="print" onload="this.media='all'">
-{%- if section.settings.enable_quick_buy -%}
-  <link rel="stylesheet" href="{{ 'quick-buy.css' | asset_url }}" media="print" onload="this.media='all'">
-  <script src="{{ 'quick-buy.js' | asset_url }}" defer="defer"></script>
-  <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
-{%- endif -%}
+
 <noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'template-collection.css' | asset_url | stylesheet_tag }}</noscript>
+
+{%- if section.settings.enable_quick_add -%}
+  <link rel="stylesheet" href="{{ 'quick-add.css' | asset_url }}" media="print" onload="this.media='all'">
+  <script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
+  <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
+{%- endif -%}
 
 {%- style -%}
   .section-{{ section.id }}-padding {
@@ -67,15 +69,15 @@
     </div>
       
     <div class="featured-collection-container tab-container">
-      <input class="radio" type="radio" name="{{ section.settings.title | downcase | remove: " " }}" id="tab{{ section.settings.tab_id_1 }}" checked >
-      <input class="radio" type="radio" name="{{ section.settings.title | downcase | remove: " " }}" id="tab{{ section.settings.tab_id_2 }}">
+      <input class="radio" type="radio" name="{{ section.settings.title | downcase | remove: " " }}" id="tab{{ section.settings.tab_id_1 }}" aria-labelledby="tab{{ section.settings.tab_id_1 }}-label" aria-roledescription="tab" checked >
+      <input class="radio" type="radio" name="{{ section.settings.title | downcase | remove: " " }}" id="tab{{ section.settings.tab_id_2 }}" aria-labelledby="tab{{ section.settings.tab_id_2 }}-label" aria-roledescription="tab" >
 
       <div class="tabs">
-        <label class="tab" id="tab{{ section.settings.tab_id_1 }}-label" for="tab{{ section.settings.tab_id_1 }}">
-          <h5>{{ section.settings.featured_collection_title_1 | escape }}</h5>
+        <label class="tab" id="tab{{ section.settings.tab_id_1 }}-label" for="tab{{ section.settings.tab_id_1 }}" aria-hidden="true">
+          <h3 class="h5">{{ section.settings.featured_collection_title_1 | escape }}</h3>
         </label>
-        <label class="tab" id="tab{{ section.settings.tab_id_2 }}-label" for="tab{{ section.settings.tab_id_2 }}">
-          <h5>{{ section.settings.featured_collection_title_2 | escape }}</h5>
+        <label class="tab" id="tab{{ section.settings.tab_id_2 }}-label" for="tab{{ section.settings.tab_id_2 }}" aria-hidden="true">
+          <h3 class="h5">{{ section.settings.featured_collection_title_2 | escape }}</h3>
         </label>
       </div>
 

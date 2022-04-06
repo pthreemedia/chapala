@@ -24,7 +24,6 @@
         },
         "42a82d44-4510-48f4-944a-b6fa676826af": {
           "type": "product_swatches",
-          "disabled": true,
           "settings": {
             "hide_sale_product_swatches": false
           }
@@ -32,7 +31,8 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "button"
+            "picker_type": "button",
+            "select_soldout_type": "none"
           }
         },
         "quantity_selector": {
@@ -163,7 +163,7 @@
         "description": "<p>New Arrivals<\/p>",
         "description_style": "uppercase",
         "columns_desktop": 4,
-        "full_width": false,
+        "full_width": true,
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": true,
@@ -183,7 +183,7 @@
         "show_gender": true,
         "show_material": false,
         "show_rating": false,
-        "enable_quick_buy": false,
+        "enable_quick_add": false,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 36,

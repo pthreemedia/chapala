@@ -2955,7 +2955,7 @@ details-disclosure > details {
   background: rgba(var(--color-foreground),0.03);
 }
 
-.tabs h5 {
+.tabs h3 {
   position: relative;
   margin: 2rem 0;
 }
@@ -2996,7 +2996,8 @@ details-disclosure > details {
 }
 
 .radio{
-  display: none;
+  opacity: 0;
+  position: absolute;
 }
 
 #tab1:checked ~ .tab-content-container #tab1-content,
@@ -3021,34 +3022,35 @@ details-disclosure > details {
 #tab8:checked ~ .tabs #tab8-label,
 #tab9:checked ~ .tabs #tab9-label,
 #tab10:checked ~ .tabs #tab10-label,
-#tab1:checked ~ .tabs #tab1-label h5,
-#tab2:checked ~ .tabs #tab2-label h5,
-#tab3:checked ~ .tabs #tab3-label h5,
-#tab4:checked ~ .tabs #tab4-label h5,
-#tab5:checked ~ .tabs #tab5-label h5,
-#tab6:checked ~ .tabs #tab6-label h5,
-#tab7:checked ~ .tabs #tab7-label h5,
-#tab8:checked ~ .tabs #tab8-label h5,
-#tab9:checked ~ .tabs #tab9-label h5,
-#tab10:checked ~ .tabs #tab10-label h5{
+#tab1:checked ~ .tabs #tab1-label h3,
+#tab2:checked ~ .tabs #tab2-label h3,
+#tab3:checked ~ .tabs #tab3-label h3,
+#tab4:checked ~ .tabs #tab4-label h3,
+#tab5:checked ~ .tabs #tab5-label h3,
+#tab6:checked ~ .tabs #tab6-label h3,
+#tab7:checked ~ .tabs #tab7-label h3,
+#tab8:checked ~ .tabs #tab8-label h3,
+#tab9:checked ~ .tabs #tab9-label h3,
+#tab10:checked ~ .tabs #tab10-label h3{
   opacity: 1;
-  color: rgba(var(--color-link), 1);
+  color: #dc4b28;
 }
 
-#tab1:checked ~ .tabs #tab1-label h5::after,
-#tab2:checked ~ .tabs #tab2-label h5::after,
-#tab3:checked ~ .tabs #tab3-label h5::after,
-#tab4:checked ~ .tabs #tab4-label h5::after,
-#tab5:checked ~ .tabs #tab5-label h5::after,
-#tab6:checked ~ .tabs #tab6-label h5::after,
-#tab7:checked ~ .tabs #tab7-label h5::after,
-#tab8:checked ~ .tabs #tab8-label h5::after,
-#tab9:checked ~ .tabs #tab9-label h5::after,
-#tab10:checked ~ .tabs #tab10-label h5::after {
+#tab1:checked ~ .tabs #tab1-label h3::after,
+#tab2:checked ~ .tabs #tab2-label h3::after,
+#tab3:checked ~ .tabs #tab3-label h3::after,
+#tab4:checked ~ .tabs #tab4-label h3::after,
+#tab5:checked ~ .tabs #tab5-label h3::after,
+#tab6:checked ~ .tabs #tab6-label h3::after,
+#tab7:checked ~ .tabs #tab7-label h3::after,
+#tab8:checked ~ .tabs #tab8-label h3::after,
+#tab9:checked ~ .tabs #tab9-label h3::after,
+#tab10:checked ~ .tabs #tab10-label h3::after {
   -webkit-transition: width .5s;
   transition: width .5s;
   position: absolute;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
   bottom: -0.3rem;
   content: '';
   display: inline-block;
@@ -3124,4 +3126,8 @@ details-disclosure > details {
   .featured-collection-description {
     width: 90%;
   }
+}
+
+.featured-collection-tabs {
+  border: none;
 }

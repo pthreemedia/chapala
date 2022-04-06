@@ -12,61 +12,85 @@
 <script src="{{ 'product-swatch.js' | asset_url }}" defer="defer"></script>
 
 {% if product.vendor == 'SeaVees Footwear' %}
-{% paginate collections.all-shoes.products by 1000 %}
-    
-    {% capture classic_list %}
-        {% for related_product in collections.all-shoes.products %}
-            {% unless related_product.metafields.seavees.is_on_sale == true and hide_sale_swatches == true %}
-                {% if related_product.metafields.seavees.gender == product.metafields.seavees.gender and related_product.metafields.seavees.silhouette == product.metafields.seavees.silhouette %}
-                    {% if related_product.metafields.seavees.product_group == 'Classic' or related_product.metafields.seavees.product_group == 'classic' %}
-                        {% unless related_product.metafields.seavees.hide_product == true and related_product.handle != product.handle %}
-                            {{ related_product.handle }}|{{ related_product.url }}|{{ related_product.metafields.seavees.swatch }}|{{ related_product.metafields.seavees.swatch_image }}|{{ related_product.metafields.seavees.color_name }}
-                            ::
-                        {% endunless %}
+    {% paginate collections.all-shoes.products by 1000 %}
+        
+        {% capture classic_list %}
+            {% for related_product in collections.all-shoes.products %}
+                {% unless related_product.metafields.seavees.is_on_sale == true and hide_sale_swatches == true %}
+                    {% if related_product.metafields.seavees.gender == product.metafields.seavees.gender and related_product.metafields.seavees.silhouette == product.metafields.seavees.silhouette %}
+                        {% if related_product.metafields.seavees.product_group == 'Classic' or related_product.metafields.seavees.product_group == 'classic' %}
+                            {% unless related_product.metafields.seavees.hide_product == true and related_product.handle != product.handle %}
+                                {{ related_product.handle }}|{{ related_product.url }}|{{ related_product.metafields.seavees.swatch }}|{{ related_product.metafields.seavees.swatch_image }}|{{ related_product.metafields.seavees.color_name }}
+                                ::
+                            {% endunless %}
+                        {% endif %}
                     {% endif %}
-                {% endif %}
-            {% endunless %}
-        {% endfor %}
-    {% endcapture %}
-    {% assign classic_array = classic_list | split: '::' %}
+                {% endunless %}
+            {% endfor %}
+        {% endcapture %}
+        {% assign classic_array = classic_list | split: '::' %}
 
-    {% capture collection_list %}
-        {% for related_product in collections.all-shoes.products %}
-            {% unless related_product.metafields.seavees.is_on_sale == true and hide_sale_swatches == true %}
-                {% if related_product.metafields.seavees.gender == product.metafields.seavees.gender and related_product.metafields.seavees.silhouette == product.metafields.seavees.silhouette %}
-                    {% if related_product.metafields.seavees.product_group == 'Collection' or related_product.metafields.seavees.product_group == 'collection' %}
-                        {% unless related_product.metafields.seavees.hide_product == true and related_product.handle != product.handle %}
-                            {{ related_product.handle }}|{{ related_product.url }}|{{ related_product.metafields.seavees.swatch }}|{{ related_product.metafields.seavees.swatch_image }}|{{ related_product.metafields.seavees.color_name }}
-                            ::
-                        {% endunless %}
+        {% capture collection_list %}
+            {% for related_product in collections.all-shoes.products %}
+                {% unless related_product.metafields.seavees.is_on_sale == true and hide_sale_swatches == true %}
+                    {% if related_product.metafields.seavees.gender == product.metafields.seavees.gender and related_product.metafields.seavees.silhouette == product.metafields.seavees.silhouette %}
+                        {% if related_product.metafields.seavees.product_group == 'Collection' or related_product.metafields.seavees.product_group == 'collection' %}
+                            {% unless related_product.metafields.seavees.hide_product == true and related_product.handle != product.handle %}
+                                {{ related_product.handle }}|{{ related_product.url }}|{{ related_product.metafields.seavees.swatch }}|{{ related_product.metafields.seavees.swatch_image }}|{{ related_product.metafields.seavees.color_name }}
+                                ::
+                            {% endunless %}
+                        {% endif %}
                     {% endif %}
-                {% endif %}
-            {% endunless %}
-        {% endfor %}
-    {% endcapture %}
-    {% assign collection_array = collection_list | split: '::' %}
+                {% endunless %}
+            {% endfor %}
+        {% endcapture %}
+        {% assign collection_array = collection_list | split: '::' %}
 
-    {% capture collaboration_list %}
-        {% for related_product in collections.all-shoes.products %}
-            {% unless related_product.metafields.seavees.is_on_sale == true and hide_sale_swatches == true %}
-                {% if related_product.metafields.seavees.gender == product.metafields.seavees.gender and related_product.metafields.seavees.silhouette == product.metafields.seavees.silhouette %}
-                    {% if related_product.metafields.seavees.product_group == 'Collaboration' or related_product.metafields.seavees.product_group == 'collaboration' %}
-                        {% unless related_product.metafields.seavees.hide_product == true and related_product.handle != product.handle %}
-                            {{ related_product.handle }}|{{ related_product.url }}|{{ related_product.metafields.seavees.swatch }}|{{ related_product.metafields.seavees.swatch_image }}|{{ related_product.metafields.seavees.color_name }}
-                            ::
-                        {% endunless %}
+        {% capture collaboration_list %}
+            {% for related_product in collections.all-shoes.products %}
+                {% unless related_product.metafields.seavees.is_on_sale == true and hide_sale_swatches == true %}
+                    {% if related_product.metafields.seavees.gender == product.metafields.seavees.gender and related_product.metafields.seavees.silhouette == product.metafields.seavees.silhouette %}
+                        {% if related_product.metafields.seavees.product_group == 'Collaboration' or related_product.metafields.seavees.product_group == 'collaboration' %}
+                            {% unless related_product.metafields.seavees.hide_product == true and related_product.handle != product.handle %}
+                                {{ related_product.handle }}|{{ related_product.url }}|{{ related_product.metafields.seavees.swatch }}|{{ related_product.metafields.seavees.swatch_image }}|{{ related_product.metafields.seavees.color_name }}
+                                ::
+                            {% endunless %}
+                        {% endif %}
                     {% endif %}
-                {% endif %}
+                {% endunless %}
+            {% endfor %}
+        {% endcapture %}
+        {% assign collaboration_array = collaboration_list | split: '::' %}
+
+    {% endpaginate %}
+
+    <product-swatch class="product-swatches">
+            {% unless classic_array.size == 1 %}
+                    {% for related_product in classic_array %}
+                        {% unless forloop.last == true %}
+                        {% assign related_product_vals = related_product | split: '|' %}
+                        <div>
+                            <a
+                                href="{{ related_product_vals[1] }}"
+                                class="product-swatch {{ product.url }} {{ related_product_vals[1] }} {% if product.url == related_product_vals[1] %}active{% endif %}"
+                                {%- if related_product_vals[3] != blank -%}
+                                    style="background-image: url({{ related_product_vals[3] }}); background-size: cover;"
+                                {%- elsif related_product_vals[2] != blank -%}
+                                    style="background-color: {{ related_product_vals[2] }}"
+                                {%- else -%}
+                                    style="background-color: #f9f9f9; border-color: #e1e1e1;"
+                                {%- endif -%}
+                                data-var-handle='{{ handle }}'
+                                data-related_product-handle='{{ related_product_vals[0] }}'
+                                title="{{ related_product_vals[4] }}"
+                            >
+                            </a>
+                        </div>
+                        {% endunless %}
+                    {% endfor %}
             {% endunless %}
-        {% endfor %}
-    {% endcapture %}
-    {% assign collaboration_array = collaboration_list | split: '::' %}
-
-{% endpaginate %}
-
-<product-swatch class="product-swatches">
-        {% unless classic_array.size == 1 %}
-                {% for related_product in classic_array %}
+            {% unless collection_array.size == 1 %}
+                {% for related_product in collection_array %}
                     {% unless forloop.last == true %}
                     {% assign related_product_vals = related_product | split: '|' %}
                     <div>
@@ -88,56 +112,32 @@
                     </div>
                     {% endunless %}
                 {% endfor %}
-        {% endunless %}
-        {% unless collection_array.size == 1 %}
-            {% for related_product in collection_array %}
-                {% unless forloop.last == true %}
-                {% assign related_product_vals = related_product | split: '|' %}
-                <div>
-                    <a
-                        href="{{ related_product_vals[1] }}"
-                        class="product-swatch {{ product.url }} {{ related_product_vals[1] }} {% if product.url == related_product_vals[1] %}active{% endif %}"
-                        {%- if related_product_vals[3] != blank -%}
-                            style="background-image: url({{ related_product_vals[3] }}); background-size: cover;"
-                        {%- elsif related_product_vals[2] != blank -%}
-                            style="background-color: {{ related_product_vals[2] }}"
-                        {%- else -%}
-                            style="background-color: #f9f9f9; border-color: #e1e1e1;"
-                        {%- endif -%}
-                        data-var-handle='{{ handle }}'
-                        data-related_product-handle='{{ related_product_vals[0] }}'
-                        title="{{ related_product_vals[4] }}"
-                    >
-                    </a>
-                </div>
-                {% endunless %}
-            {% endfor %}
-        {% endunless %}
-        {% unless collaboration_array.size == 1 %}
-            {% for related_product in collaboration_array %}
-                {% unless forloop.last == true %}
-                {% assign related_product_vals = related_product | split: '|' %}
-                <div>
-                    <a
-                        href="{{ related_product_vals[1] }}"
-                        class="product-swatch {{ product.url }} {{ related_product_vals[1] }} {% if product.url == related_product_vals[1] %}active{% endif %}"
-                        {%- if related_product_vals[3] != blank -%}
-                            style="background-image: url({{ related_product_vals[3] }}); background-size: cover;"
-                        {%- elsif related_product_vals[2] != blank -%}
-                            style="background-color: {{ related_product_vals[2] }}"
-                        {%- else -%}
-                            style="background-color: #f9f9f9; border-color: #e1e1e1;"
-                        {%- endif -%}
-                        data-var-handle='{{ handle }}'
-                        data-related_product-handle='{{ related_product_vals[0] }}'
-                        title="{{ related_product_vals[4] }}"
-                    >
-                    </a>
-                </div>
-                {% endunless %}
-            {% endfor %}
-        {% endunless %}
-</product-swatch>
+            {% endunless %}
+            {% unless collaboration_array.size == 1 %}
+                {% for related_product in collaboration_array %}
+                    {% unless forloop.last == true %}
+                    {% assign related_product_vals = related_product | split: '|' %}
+                    <div>
+                        <a
+                            href="{{ related_product_vals[1] }}"
+                            class="product-swatch {{ product.url }} {{ related_product_vals[1] }} {% if product.url == related_product_vals[1] %}active{% endif %}"
+                            {%- if related_product_vals[3] != blank -%}
+                                style="background-image: url({{ related_product_vals[3] }}); background-size: cover;"
+                            {%- elsif related_product_vals[2] != blank -%}
+                                style="background-color: {{ related_product_vals[2] }}"
+                            {%- else -%}
+                                style="background-color: #f9f9f9; border-color: #e1e1e1;"
+                            {%- endif -%}
+                            data-var-handle='{{ handle }}'
+                            data-related_product-handle='{{ related_product_vals[0] }}'
+                            title="{{ related_product_vals[4] }}"
+                        >
+                        </a>
+                    </div>
+                    {% endunless %}
+                {% endfor %}
+            {% endunless %}
+    </product-swatch>
 
 {% else %}
     <product-swatch class="product-swatches">
