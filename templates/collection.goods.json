@@ -17,7 +17,7 @@
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 4,
-        "grouped_collection": false,
+        "grouped_collection": true,
         "hide_sale_products": false,
         "image_ratio": "adapt",
         "show_condensed_title": true,
