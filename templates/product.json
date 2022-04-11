@@ -35,6 +35,12 @@
             "select_soldout_type": "none"
           }
         },
+        "6cb779ce-787f-4653-aca4-8ba527bdb49a": {
+          "type": "back_in_stock",
+          "settings": {
+            "enable_back_in_stock": true
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "disabled": true,
@@ -104,6 +110,7 @@
         "price",
         "42a82d44-4510-48f4-944a-b6fa676826af",
         "variant_picker",
+        "6cb779ce-787f-4653-aca4-8ba527bdb49a",
         "quantity_selector",
         "buy_buttons",
         "467af105-8b5d-4c64-9143-fc32cfdb1c35",
