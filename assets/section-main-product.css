@@ -1523,3 +1523,20 @@ a.product__text {
   width: 70%;
   line-height: 1.5;
 }
+
+/* Back In Stock Tool */
+
+.product-back-in-stock {
+  font-size: 1.5rem;
+  letter-spacing: -0.04rem;
+  cursor: pointer;
+  margin-top: 1.5rem;
+}
+
+.product-back-in-stock span {
+  text-decoration: underline;
+}
+
+.product-back-in-stock:before {
+  content: "* ";
+}

@@ -343,6 +343,16 @@
             <script src="{{ 'share.js' | asset_url }}" defer="defer"></script>
           {%- when 'product_swatches' -%}
             {% render 'product-swatches', hide_sale_swatches: block.settings.hide_sale_product_swatches %}
+          {%- when 'back_in_stock' -%}
+            {% assign all_variants_in_stock = true -%}
+            {%- for variant in product.variants -%}
+              {%- if variant.available == false -%}
+                {% assign all_variants_in_stock = false %}
+              {%- endif -%}
+            {%- endfor -%}
+            {%- if block.settings.enable_back_in_stock == true and all_variants_in_stock == false and product.metafields.seavees.show_back_in_stock_tool == true -%}
+              <div id="BIS_trigger" class="product-back-in-stock" {{ block.shopify_attributes }}>Size out of stock? <span>Sign up for a restock notification.</span></div>
+            {%- endif -%}
           {%- when 'variant_picker' -%}
             {%- unless product.has_only_default_variant -%}
               {%- if block.settings.picker_type == 'button' -%}
@@ -742,6 +752,20 @@
       "type": "quantity_selector",
       "name": "t:sections.main-product.blocks.quantity_selector.name",
       "limit": 1
+    },
+    {
+      "type": "back_in_stock",
+      "name": "Back In Stock Tool",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "enable_back_in_stock",
+          "default": false,
+          "label": "Show Back In Stock tool",
+          "info": "Product must also have the back in stock metafield value set as true"
+        }
+      ]
     },
     {
       "type": "product_swatches",
