@@ -187,6 +187,9 @@
     .hero-banner__buttons-right {
       justify-content: flex-end;
     }
+    .hero-banner-together .link-with-arrow, .hero-banner-together .link-with-arrow::after {
+      color: rgba(var(--color-background),1);
+    }
   }
   
   @media screen and (max-width: 749px) {
