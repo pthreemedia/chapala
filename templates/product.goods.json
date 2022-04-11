@@ -41,6 +41,12 @@
           "settings": {
           }
         },
+        "234350e1-33b6-4ac7-8d14-9d073fd73aba": {
+          "type": "back_in_stock",
+          "settings": {
+            "enable_back_in_stock": true
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -106,6 +112,7 @@
         "42a82d44-4510-48f4-944a-b6fa676826af",
         "variant_picker",
         "quantity_selector",
+        "234350e1-33b6-4ac7-8d14-9d073fd73aba",
         "buy_buttons",
         "467af105-8b5d-4c64-9143-fc32cfdb1c35",
         "collapsible-row-0",
