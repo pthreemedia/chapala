@@ -2,7 +2,6 @@
   "sections": {
     "1647293351d0ce45c1": {
       "type": "hero-banner",
-      "disabled": true,
       "blocks": {
         "164729335111f3cd4e-0": {
           "type": "heading",
@@ -44,8 +43,8 @@
         "use_video_background": false,
         "hero_video_desktop": "",
         "hero_video_mobile": "",
-        "image_desktop": "shopify:\/\/shop_images\/seavees_desktop_hero_sixty_six_2_2fdeef68-a7b0-4d84-b4e5-8a1b5450f15d.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/mens_sixty_six_featured_seavees_1331311.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/seavees_desktop_header_311111_b7b92e5d-7532-452c-922a-53d017fdcc73.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/seavees_mobile_header_311111.jpg",
         "desktop_text_box_vertical_position": "center",
         "desktop_text_box_horizontal_position": "center",
         "desktop_text_alignment": "center",
@@ -55,6 +54,7 @@
     },
     "164867367120e1947e": {
       "type": "hero-banner",
+      "disabled": true,
       "blocks": {
         "1648673671d11f3268-0": {
           "type": "heading",
@@ -180,7 +180,7 @@
         "show_gender": true,
         "show_material": true,
         "show_rating": false,
-        "enable_quick_buy": false,
+        "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 36,
