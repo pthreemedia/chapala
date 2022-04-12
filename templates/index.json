@@ -26,10 +26,10 @@
           "settings": {
             "button_label_1": "Shop Mens",
             "button_link_1": "shopify:\/\/collections\/mens-best-sellers",
-            "button_style_secondary_1": false,
             "button_label_2": "Shop Womens",
             "button_link_2": "shopify:\/\/collections\/womens-best-sellers",
-            "button_style_secondary_2": false,
+            "button_style_secondary": false,
+            "use_arrow_link": false,
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
           }
@@ -78,10 +78,10 @@
           "settings": {
             "button_label_1": "Learn More",
             "button_link_1": "shopify:\/\/pages\/seatrees",
-            "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
-            "button_style_secondary_2": false,
+            "button_style_secondary": false,
+            "use_arrow_link": false,
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
           }
@@ -156,7 +156,7 @@
       "type": "featured-collection-alt",
       "settings": {
         "title": "Shop Crowd Favorites",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "description": "",
         "description_style": "body",
         "columns_desktop": 3,
@@ -180,13 +180,51 @@
         "show_gender": true,
         "show_material": true,
         "show_rating": false,
-        "enable_quick_buy": false,
-        "columns_mobile": "2",
+        "enable_quick_add": false,
+        "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36,
         "margin_top": 0,
         "margin_bottom": 0
+      }
+    },
+    "1649740012c626c04c": {
+      "type": "rich-text",
+      "blocks": {
+        "1649740012e29d09f7-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We all have dreams. And sometimes they end up on a shelf.<br\/><\/p><p>Our brand was quite literally put on a shelf for nearly 40 years before it was rediscovered at a second hand shop in Tokyo and brought back to life in California— the state where dreams come true, or in our case, have a second chance.<\/p><p>SeaVees. Rediscover the dream.<\/p>",
+            "use_heading_font": true,
+            "font_color": "#3d93e1"
+          }
+        },
+        "1649740012e29d09f7-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "shopify:\/\/pages\/about-seavees",
+            "button_style_secondary": true,
+            "use_arrow_link": false,
+            "link_color": "#3d93e1"
+          }
+        }
+      },
+      "block_order": [
+        "1649740012e29d09f7-1",
+        "1649740012e29d09f7-2"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true,
+        "is_page_header": false,
+        "mobile_content_align": "left",
+        "desktop_content_align": "left",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "margin_top": 76,
+        "margin_bottom": 76
       }
     },
     "1647017703be777e67": {
@@ -210,7 +248,9 @@
           "type": "button",
           "settings": {
             "button_label": "Learn More",
-            "button_link": "shopify:\/\/pages\/mental-health-awareness-baja-slip-on"
+            "button_link": "shopify:\/\/pages\/mental-health-awareness-baja-slip-on",
+            "use_arrow_link": true,
+            "button_style_secondary": false
           }
         }
       },
@@ -222,19 +262,22 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/MHA_SeaVees_Baja_Mobile_Header_121111.jpg",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "large",
         "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "overlap",
-        "color_scheme": "background-2",
+        "color_scheme": "background-1",
         "mobile_content_alignment": "left",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     },
     "16470178216c89dbf8": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "1647017821b513cad8-0": {
           "type": "column",
@@ -286,6 +329,7 @@
     "164867367120e1947e",
     "multicolumn",
     "164755189301d4a216",
+    "1649740012c626c04c",
     "1647017703be777e67",
     "16470178216c89dbf8"
   ]

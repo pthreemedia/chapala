@@ -8,12 +8,16 @@
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    margin-top: {{ section.settings.margin_top | times: 0.75 | round: 0 }}px;
+    margin-bottom: {{ section.settings.margin_bottom | times: 0.75 | round: 0 }}px;
   }
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
+      margin-top: {{ section.settings.margin_top }}px;
+      margin-bottom: {{ section.settings.margin_bottom }}px;
     }
   }
 {%- endstyle -%}
@@ -25,16 +29,20 @@
         {%- case block.type -%}
           {%- when 'heading' -%}
             {% if section.settings.is_page_header == true %}
-              <h1 class="{{ block.settings.heading_size }}" {{ block.shopify_attributes }}>{{ block.settings.heading | escape }}</h1>
+              <h1 class="{{ block.settings.heading_size }}" {% unless block.settings.font_color == blank %}style="color: {{block.settings.font_color }}"{% endunless %} {{ block.shopify_attributes }}>{{ block.settings.heading | escape }}</h1>
             {% else %}
-              <h2 class="{{ block.settings.heading_size }}" {{ block.shopify_attributes }}>{{ block.settings.heading | escape }}</h2>
+              <h2 class="{{ block.settings.heading_size }}" {% unless block.settings.font_color == blank %}style="color: {{block.settings.font_color }}"{% endunless %} {{ block.shopify_attributes }}>{{ block.settings.heading | escape }}</h2>
             {% endif %}
           {%- when 'text' -%}
-            <div class="rich-text__text rte" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
+            <div class="rich-text__text rte {% if block.settings.use_heading_font %}h3{% endif %}" {% unless block.settings.font_color == blank %}style="color: {{block.settings.font_color }}"{% endunless %} {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
           {%- when 'button' -%}
-            <a{% if block.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link }}"{% endif %} class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}" {{ block.shopify_attributes }}>
-              {{ block.settings.button_label | escape }}
-            </a>
+            {% if block.settings.use_arrow_link %}
+              <a class="link animate-arrow" {% if block.settings.button_link == blank %}role="link" aria-disabled="true"{% else %}href="{{ block.settings.button_link }}"{% endif %} {% if block.settings.link_color != blank %} style="color: {{ block.settings.link_color }}"{% endif %}>{{ block.settings.button_label | escape }}<span class="icon-wrap">&nbsp;{% render 'icon-arrow-long' %}</span></a>
+            {% else %}
+              <a {% if block.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link }}"{% endif %} class="button {% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}" {{ block.shopify_attributes }}>
+                {{ block.settings.button_label | escape }}
+              </a>
+            {% endif %}
         {%- endcase -%}
       {%- endfor -%}
     </div>
@@ -143,6 +151,26 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 52
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.margin_top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.margin_bottom",
+      "default": 0
     }
   ],
   "blocks": [
@@ -176,6 +204,11 @@
           ],
           "default": "h1",
           "label": "t:sections.all.heading_size.label"
+        },
+        {
+          "type": "color",
+          "id": "font_color",
+          "label": "Color (Optional)"
         }
       ]
     },
@@ -189,6 +222,17 @@
           "id": "text",
           "default": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
           "label": "t:sections.rich-text.blocks.text.settings.text.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "use_heading_font",
+          "default": false,
+          "label": "Use heading font (h3)"
+        },
+        {
+          "type": "color",
+          "id": "font_color",
+          "label": "Color (Optional)"
         }
       ]
     },
@@ -213,6 +257,17 @@
           "id": "button_style_secondary",
           "default": false,
           "label": "t:sections.rich-text.blocks.button.settings.button_style_secondary.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "use_arrow_link",
+          "default": false,
+          "label": "Use arrow link"
+        },
+        {
+          "type": "color",
+          "id": "link_color",
+          "label": "Arrow link color (Optional)"
         }
       ]
     }

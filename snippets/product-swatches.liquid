@@ -145,7 +145,6 @@
             {%- if tag contains 'related_' -%}
                 {% assign handle = tag | split: 'related_' | last %}
                 {% assign prod = all_products[handle] %}
-                {%- if prod.available == true -%}
                     <div>
                         <a
                             href="{{prod.url}}"
@@ -163,7 +162,6 @@
                         >
                         </a>
                     </div>
-                {%- endif -%}
             {% endif %}
         {%- endfor -%}
     </product-swatch>
