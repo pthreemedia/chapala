@@ -41,7 +41,6 @@ slideshow-component .slideshow.banner {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 54.5rem;
 }
 
 .slideshow__text > * {
@@ -203,4 +202,20 @@ slideshow-component:not(.page-width) .slider-buttons {
   visibility: hidden;
   opacity: 0;
   transform: scale(.8)
+}
+
+.slideshow .link {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 749px) {
+  .slideshow-banner-desktop {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .slideshow-banner-mobile {
+    display: none;
+  }
 }

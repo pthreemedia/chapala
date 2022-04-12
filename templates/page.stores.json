@@ -8,6 +8,54 @@
         "padding_bottom": 28
       }
     },
+    "1649888814f8c69be4": {
+      "type": "page-menu",
+      "disabled": true,
+      "blocks": {
+        "1649888814fd12297e-0": {
+          "type": "page_menu_link",
+          "settings": {
+            "link_text": "About SeaVees",
+            "link_url": "shopify:\/\/pages\/about-seavees"
+          }
+        },
+        "63e0d0e6-c5de-49d8-b9f1-c685cbec1017": {
+          "type": "page_menu_link",
+          "settings": {
+            "link_text": "Stores",
+            "link_url": "shopify:\/\/pages\/stores"
+          }
+        },
+        "063c3539-2734-44fd-8f5a-dd969d8cae3a": {
+          "type": "page_menu_link",
+          "settings": {
+            "link_text": "Journal",
+            "link_url": "shopify:\/\/blogs\/journal"
+          }
+        },
+        "a27f6070-4357-409b-b720-8a1d75834ae3": {
+          "type": "page_menu_link",
+          "settings": {
+            "link_text": "Causes We Support",
+            "link_url": "shopify:\/\/pages\/causes"
+          }
+        }
+      },
+      "block_order": [
+        "1649888814fd12297e-0",
+        "63e0d0e6-c5de-49d8-b9f1-c685cbec1017",
+        "063c3539-2734-44fd-8f5a-dd969d8cae3a",
+        "a27f6070-4357-409b-b720-8a1d75834ae3"
+      ],
+      "settings": {
+        "stack_on_mobile": false,
+        "show_background": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "16485042489e831590": {
       "type": "rich-text",
       "blocks": {
@@ -15,13 +63,16 @@
           "type": "heading",
           "settings": {
             "heading": "Our Stores",
-            "heading_size": "h0"
+            "heading_size": "h0",
+            "font_color": ""
           }
         },
         "1648504248f2609f47-1": {
           "type": "text",
           "settings": {
-            "text": "<p>SeaVees stores are a sunbeamed passage into a 1960s California dream. Community clubhouses that lovingly celebrate the Golden State in its golden age. Each shop is a unique immersive experience inspired by the salt-washed origins of the particular locale.<\/p>"
+            "text": "<p>Our SeaVees stores are a window into the beginnings of our brand—our first and second life—in sunny California. They’re a celebration of SeaVees unique path across the Pacific and back to its original home in California—the state where dreams come true, or in our case, have a second chance. <\/p><p>Our community hubs lovingly celebrate the Golden State in its golden age, and today. Each shop is a unique immersive experience with a selection of carefully curated gifts from local makers, and of course what got it all started—our consciously crafted, once-forgotten classic casual sneakers.<\/p>",
+            "use_heading_font": false,
+            "font_color": ""
           }
         }
       },
@@ -33,8 +84,12 @@
         "color_scheme": "background-1",
         "full_width": true,
         "is_page_header": true,
+        "mobile_content_align": "center",
+        "desktop_content_align": "center",
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 52,
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     },
     "1648504301a2713980": {
@@ -44,21 +99,21 @@
           "type": "page_menu_link",
           "settings": {
             "link_text": "Santa Barbara, CA",
-            "link_url": "#shopify-section-template--14403668213834__1648504495195c5808"
+            "link_url": "#shopify-section-template--14420237025354__1648504495195c5808"
           }
         },
         "2f903b98-fa8a-4af9-a78f-3f774b1abae5": {
           "type": "page_menu_link",
           "settings": {
             "link_text": "Newport Beach, CA",
-            "link_url": "#shopify-section-template--14403668213834__164850470447a9518b"
+            "link_url": "#shopify-section-template--14420237025354__164850470447a9518b"
           }
         },
         "f05ddb92-f13f-416e-9fe8-5fb1d1f6538e": {
           "type": "page_menu_link",
           "settings": {
             "link_text": "Store Locator",
-            "link_url": "#shopify-section-template--14403668213834__164850477675de8e86"
+            "link_url": "#shopify-section-template--14420237025354__164850477675de8e86"
           }
         }
       },
@@ -69,10 +124,11 @@
       ],
       "settings": {
         "stack_on_mobile": true,
+        "show_background": true,
         "padding_top": 0,
         "padding_bottom": 0,
         "margin_top": 0,
-        "margin_bottom": 40
+        "margin_bottom": 0
       }
     },
     "164850430462729df7": {
@@ -111,8 +167,8 @@
         "desktop_layout": "left",
         "mobile_layout": "collage",
         "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 68,
+        "padding_bottom": 0
       }
     },
     "1648504495195c5808": {
@@ -122,13 +178,16 @@
           "type": "heading",
           "settings": {
             "heading": "Santa Barbara, CA",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "font_color": ""
           }
         },
         "16485044958d783f3f-1": {
           "type": "text",
           "settings": {
-            "text": "<p>The original California Clubhouse, our hometown flagship is the physical manifestation of our vision. Located in the heart of Santa Barbara’s Funk Zone at the intersection of the sea and downtown.<br\/><\/p><p><strong>Phone: <\/strong><a href=\"tel:+18054569798\" title=\"tel:+18054569798\">(805) 456-9798<\/a><\/p><p><strong>Address: <\/strong><a href=\"https:\/\/g.page\/SeaVees?share\">24 E MASON ST, SANTA BARBARA, CA 93101<\/a><\/p><p><strong>Sunday: <\/strong>10am – 6pm<strong><br\/>Monday: <\/strong>10am – 6pm<strong><br\/>Tuesday: <\/strong>Closed<strong><br\/>Wednesday: <\/strong>10am – 6pm<strong><br\/>Thursday: <\/strong>10am – 6pm<strong><br\/>Friday: <\/strong>10am – 7pm<strong><br\/>Saturday: <\/strong>10am – 7pm<br\/><\/p><p><strong>More information on Instagram: <\/strong><a href=\"https:\/\/www.instagram.com\/seavees_santabarbara\/\">@seavees_santabarbara<\/a><\/p>"
+            "text": "<p>The original California Clubhouse, our hometown flagship is the physical manifestation of our vision. Located in the heart of Santa Barbara’s Funk Zone at the intersection of the sea and downtown.<br\/><\/p><p><strong>Phone: <\/strong><a href=\"tel:+18054569798\" title=\"tel:+18054569798\">(805) 456-9798<\/a><\/p><p><strong>Address: <\/strong><a href=\"https:\/\/g.page\/SeaVees?share\">24 E MASON ST, SANTA BARBARA, CA 93101<\/a><\/p><p><strong>Sunday: <\/strong>10am – 6pm<strong><br\/>Monday: <\/strong>10am – 6pm<strong><br\/>Tuesday: <\/strong>Closed<strong><br\/>Wednesday: <\/strong>10am – 6pm<strong><br\/>Thursday: <\/strong>10am – 6pm<strong><br\/>Friday: <\/strong>10am – 7pm<strong><br\/>Saturday: <\/strong>10am – 7pm<br\/><\/p><p><strong>More information on Instagram: <\/strong><a href=\"https:\/\/www.instagram.com\/seavees_santabarbara\/\">@seavees_santabarbara<\/a><\/p>",
+            "use_heading_font": false,
+            "font_color": ""
           }
         },
         "16485044958d783f3f-2": {
@@ -136,7 +195,9 @@
           "settings": {
             "button_label": "View On Map",
             "button_link": "https:\/\/g.page\/SeaVees?share",
-            "button_style_secondary": true
+            "button_style_secondary": true,
+            "use_arrow_link": true,
+            "link_color": ""
           }
         }
       },
@@ -149,8 +210,12 @@
         "color_scheme": "background-1",
         "full_width": true,
         "is_page_header": false,
+        "mobile_content_align": "left",
+        "desktop_content_align": "left",
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 52,
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     },
     "16485044981072997d": {
@@ -189,8 +254,8 @@
         "desktop_layout": "right",
         "mobile_layout": "collage",
         "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 68,
+        "padding_bottom": 0
       }
     },
     "164850470447a9518b": {
@@ -200,13 +265,16 @@
           "type": "heading",
           "settings": {
             "heading": "Newport Beach, CA",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "font_color": ""
           }
         },
         "164850470431da64af-1": {
           "type": "text",
           "settings": {
-            "text": "<p>A reclaimed 1940s-era cottage that anchors the historic Lido Marina on the Balboa Peninsula side of Newport Bay.<\/p><p><strong>Phone<\/strong>: <a href=\"tel:+19494238077\" title=\"tel:+19494238077\">(949) 423-8077<\/a><\/p><p><strong>Address:<\/strong> <a href=\"https:\/\/goo.gl\/maps\/GkqSp9xRwGdDNn5Y7\">3377 VIA LIDO, NEWPORT BEACH, CA 92663<\/a><\/p><p><strong>Sunday: <\/strong>10am – 6pm<strong><br\/>Monday: <\/strong>10am – 6pm<strong><br\/>Tuesday: <\/strong>Closed<strong><br\/>Wednesday: <\/strong>10am – 6pm<strong><br\/>Thursday:<\/strong> 10am – 6pm<strong><br\/>Friday: <\/strong>10am – 7pm<strong><br\/>Saturday: <\/strong>10am – 7pm<\/p><p><strong>More information on Instagram: <\/strong><a href=\"https:\/\/www.instagram.com\/seavees_newportbeach\/\">@seavees_newportbeach<\/a><\/p>"
+            "text": "<p>A reclaimed 1940s-era cottage that anchors the historic Lido Marina on the Balboa Peninsula side of Newport Bay.<\/p><p><strong>Phone<\/strong>: <a href=\"tel:+19494238077\" title=\"tel:+19494238077\">(949) 423-8077<\/a><\/p><p><strong>Address:<\/strong> <a href=\"https:\/\/goo.gl\/maps\/GkqSp9xRwGdDNn5Y7\">3377 VIA LIDO, NEWPORT BEACH, CA 92663<\/a><\/p><p><strong>Sunday: <\/strong>10am – 6pm<strong><br\/>Monday: <\/strong>10am – 6pm<strong><br\/>Tuesday: <\/strong>Closed<strong><br\/>Wednesday: <\/strong>10am – 6pm<strong><br\/>Thursday:<\/strong> 10am – 6pm<strong><br\/>Friday: <\/strong>10am – 7pm<strong><br\/>Saturday: <\/strong>10am – 7pm<\/p><p><strong>More information on Instagram: <\/strong><a href=\"https:\/\/www.instagram.com\/seavees_newportbeach\/\">@seavees_newportbeach<\/a><\/p>",
+            "use_heading_font": false,
+            "font_color": ""
           }
         },
         "164850470431da64af-2": {
@@ -214,7 +282,9 @@
           "settings": {
             "button_label": "View On Map",
             "button_link": "https:\/\/goo.gl\/maps\/GkqSp9xRwGdDNn5Y7",
-            "button_style_secondary": true
+            "button_style_secondary": true,
+            "use_arrow_link": true,
+            "link_color": ""
           }
         }
       },
@@ -227,8 +297,12 @@
         "color_scheme": "background-1",
         "full_width": true,
         "is_page_header": false,
+        "mobile_content_align": "left",
+        "desktop_content_align": "left",
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 52,
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     },
     "164850477675de8e86": {
@@ -238,13 +312,16 @@
           "type": "heading",
           "settings": {
             "heading": "Other Retail Stores",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "font_color": ""
           }
         },
         "1648504776f160d1fb-1": {
           "type": "text",
           "settings": {
-            "text": "<p>You can also find SeaVees at select retailers nationwide. Please use the store locator below to find a store near you.<\/p>"
+            "text": "<p>You can also find SeaVees at select retailers nationwide. Please use the store locator below to find a store near you.<\/p>",
+            "use_heading_font": false,
+            "font_color": ""
           }
         }
       },
@@ -253,11 +330,15 @@
         "1648504776f160d1fb-1"
       ],
       "settings": {
-        "color_scheme": "background-2",
+        "color_scheme": "inverse",
         "full_width": true,
         "is_page_header": false,
+        "mobile_content_align": "center",
+        "desktop_content_align": "center",
         "padding_top": 52,
-        "padding_bottom": 52
+        "padding_bottom": 52,
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     },
     "1648504708f57208c2": {
@@ -272,6 +353,7 @@
   },
   "order": [
     "main",
+    "1649888814f8c69be4",
     "16485042489e831590",
     "1648504301a2713980",
     "164850430462729df7",

@@ -115,3 +115,67 @@
     }
   }
 }
+
+/* Collapsible Content Alt */
+
+.collapsible-content-alt {
+  display: flex;
+}
+
+.collapsible-content-alt-media {
+  width: 50%;
+  padding: 0 3rem;
+}
+
+.collapsible-content-alt-text {
+  width: 50%;
+  padding: 0 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 749px) {
+  .collapsible-content-alt {
+    flex-wrap: wrap;
+  }
+
+  .collapsible-content-alt-media {
+    width: 100%;
+    padding: 0;
+  }
+
+  .collapsible-content-alt-text {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .collapsible-content-alt-text {
+    padding-left: 0;
+  }
+
+  .collapsible-content-alt-media {
+    padding-right: 0;
+  }
+}
+
+.collapsible-content-alt-container .accordion summary {
+  padding: 3rem 0.6rem;
+}
+
+.collapsible-content-alt-container .accordion details[open] summary {
+  padding-bottom: 0;
+} 
+
+.collapsible-content-alt-container summary:hover {
+  background: none;
+}
+
+.collapsible-content-alt-container .accordion details[open]>summary .icon-caret {
+  transform: rotate(180deg) translateY(-1.8rem);
+}
+
+.collapsible-content-alt-container .accordion__content {
+  margin-bottom: 3rem;
+}

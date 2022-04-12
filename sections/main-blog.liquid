@@ -16,9 +16,41 @@
   }
 {%- endstyle -%}
 
-{%- paginate blog.articles by 6 -%}
+{% comment %}
+{% liquid
+  if current_tags contains "news"
+    assign blog_type = "news"
+  elsif current_tags contains "collaborations"
+    assign blog_type = "collaborations"
+  elsif current_tags contains "casual-types"
+    assign blog_type = "casual"
+  else
+    assign blog_type = "view all"
+  endif
+%}
+
+<div class="page-menu page-menu-background section-margin-bottom-md">
+  <ul class="page-menu-stacked">
+    <li {% if blog_type == 'view all' %}class="active"{% endif %}>
+      <a href="/blogs/journal">All</a>
+    </li>
+    <li {% if blog_type == 'news' %}class="active"{% endif %}>
+      <a href="/blogs/journal/tagged/news">SeaVees News</a>
+    </li>
+    <li {% if blog_type == 'collaborations' %} class="active"{% endif %}>
+      <a href="/blogs/journal/tagged/collaborations">Collaborations</a>
+    </li>
+    <li {% if blog_type == 'casual' %}class="active"{% endif %}>
+      <a href="/blogs/journal/tagged/casual-types">Casual Types</a>
+    </li>
+  </ul>
+</div>
+
+{% endcomment %}
+
+{%- paginate blog.articles by 18 -%}
   <div class="main-blog page-width section-{{ section.id }}-padding">
-    <h1 class="title--primary">{{ blog.title | escape }}</h1>
+    {% comment %}<h1 class="title--primary">{{ blog.title | escape }}</h1>{% endcomment %}
 
     <div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
       {%- for article in blog.articles -%}

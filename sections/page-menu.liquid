@@ -18,10 +18,10 @@
   }
 {%- endstyle -%}
 
-<div class="page-menu section-{{ section.id }}-padding">
+<div class="page-menu {% if section.settings.show_background %} page-menu-background {% endif %}section-{{ section.id }}-padding">
     <ul class="page-width {% if section.settings.stack_on_mobile == true %} page-menu-stacked{% endif %}">
         {%- for block in section.blocks -%}
-            <li {% if block.settings.link_url contains page.url or block.settings.link_url contains collection.url or block.settings.link_url contains product.url %} class="active"{% endif %}>
+            <li {% if block.settings.link_url contains page.url or block.settings.link_url contains collection.url or block.settings.link_url contains product.url or block.settings.link_url contains blog.url %} class="active"{% endif %}>
                 <a href="{{ block.settings.link_url }}">{{ block.settings.link_text }}</a>
             </li>
         {%- endfor -%}
@@ -38,6 +38,13 @@
       "default": false,
       "label": "Stack menu on mobile"
     },
+    {
+      "type": "checkbox",
+      "id": "show_background",
+      "default": true,
+      "label": "Use grey background"
+    },
+
     {
         "type": "header",
         "content": "t:sections.all.padding.section_padding_heading"

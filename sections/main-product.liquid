@@ -208,11 +208,11 @@
           {%- when '@app' -%}
             {% render block %}
           {%- when 'text' -%}
-            <p class="product__text{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}" {{ block.shopify_attributes }}>
+            <p class="product__text{% if block.settings.text_style == 'uppercase' %} h6{% elsif block.settings.text_style == 'subtitle' %} h4{% endif %}" {{ block.shopify_attributes }}>
               {{- block.settings.text -}}
             </p>
           {%- when 'title' -%}
-            <h1 class="product__title" {{ block.shopify_attributes }}>
+            <h1 class="product__title h2" {{ block.shopify_attributes }}>
               {% if block.settings.text != blank %}
                 {{ block.settings.text }}
               {% else %}
@@ -359,7 +359,7 @@
                 <variant-radios class="no-js-hidden" data-section="{{ section.id }}" data-url="{{ product.url }}" {{ block.shopify_attributes }}>
                   {%- for option in product.options_with_values -%}
                     <fieldset class="js product-form__input product-form-{{ option.name }}">
-                      <legend class="form__label product__text caption-with-letter-spacing">Select {{ option.name }}</legend>
+                      <legend class="form__label product__text h6">Select {{ option.name }}</legend>
                       {%- for value in option.values -%}
                         {%- assign option_disabled = true -%}
                         {% for option1_name in variants_option1_arr %}

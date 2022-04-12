@@ -8,38 +8,6 @@
         "padding_bottom": 28
       }
     },
-    "16484982601b30b73a": {
-      "type": "rich-text",
-      "blocks": {
-        "16484982604c779ae4-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "About SeaVees",
-            "heading_size": "h1"
-          }
-        },
-        "cf4f549e-f35a-46ab-9683-830041643f19": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Born in 1964.  Rediscovered in 2008.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "16484982604c779ae4-0",
-        "cf4f549e-f35a-46ab-9683-830041643f19"
-      ],
-      "settings": {
-        "color_scheme": "inverse",
-        "full_width": true,
-        "is_page_header": true,
-        "mobile_content_align": "center",
-        "desktop_content_align": "center",
-        "padding_top": 68,
-        "padding_bottom": 52
-      }
-    },
     "1648498124cfde6a62": {
       "type": "page-menu",
       "blocks": {
@@ -53,22 +21,15 @@
         "bf80c113-02d0-49f6-b0a4-e0f03cd9a605": {
           "type": "page_menu_link",
           "settings": {
-            "link_text": "Our Legacy",
-            "link_url": "shopify:\/\/pages\/our-legacy"
+            "link_text": "Stores",
+            "link_url": "shopify:\/\/pages\/stores"
           }
         },
-        "30fde8e0-066c-4317-9e2f-a77619ac3870": {
+        "de61c223-dc0a-487d-96c5-98dc40783126": {
           "type": "page_menu_link",
           "settings": {
-            "link_text": "Our Shoes",
-            "link_url": "shopify:\/\/pages\/what-makes-a-seavees"
-          }
-        },
-        "ba5be8c3-0623-4bdf-b54d-09e15b9e0336": {
-          "type": "page_menu_link",
-          "settings": {
-            "link_text": "Our Values",
-            "link_url": "shopify:\/\/pages\/preserve-the-dream"
+            "link_text": "Journal",
+            "link_url": "shopify:\/\/blogs\/journal"
           }
         },
         "65061b5d-7686-4d94-95b5-4394129b5c52": {
@@ -82,14 +43,52 @@
       "block_order": [
         "164849812419f1a6c3-0",
         "bf80c113-02d0-49f6-b0a4-e0f03cd9a605",
-        "30fde8e0-066c-4317-9e2f-a77619ac3870",
-        "ba5be8c3-0623-4bdf-b54d-09e15b9e0336",
+        "de61c223-dc0a-487d-96c5-98dc40783126",
         "65061b5d-7686-4d94-95b5-4394129b5c52"
       ],
       "settings": {
-        "stack_on_mobile": true,
+        "stack_on_mobile": false,
+        "show_background": false,
         "padding_top": 0,
         "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "16484982601b30b73a": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "16484982604c779ae4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Causes We Support",
+            "heading_size": "h1",
+            "font_color": ""
+          }
+        },
+        "cf4f549e-f35a-46ab-9683-830041643f19": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Born in 1964.  Rediscovered in 2008.<\/p>",
+            "use_heading_font": false,
+            "font_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "16484982604c779ae4-0",
+        "cf4f549e-f35a-46ab-9683-830041643f19"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "is_page_header": true,
+        "mobile_content_align": "center",
+        "desktop_content_align": "center",
+        "padding_top": 68,
+        "padding_bottom": 52,
         "margin_top": 0,
         "margin_bottom": 0
       }
@@ -100,7 +99,8 @@
         "16487499327706caf5-0": {
           "type": "heading",
           "settings": {
-            "heading": "SeaTrees",
+            "heading_line_1": "SeaTrees",
+            "heading_line_2": "",
             "heading_size": "h1"
           }
         },
@@ -150,7 +150,8 @@
         "1648750089e6919edb-0": {
           "type": "heading",
           "settings": {
-            "heading": "1% For The Planet",
+            "heading_line_1": "1% For The Planet",
+            "heading_line_2": "",
             "heading_size": "h1"
           }
         },
@@ -188,7 +189,8 @@
         "1648750221c2349489-0": {
           "type": "heading",
           "settings": {
-            "heading": "Mental Health Awareness",
+            "heading_line_1": "Mental Health",
+            "heading_line_2": "Awareness",
             "heading_size": "h1"
           }
         },
@@ -238,7 +240,8 @@
         "1648750330f6858ce2-0": {
           "type": "heading",
           "settings": {
-            "heading": "Un Mar De Colores",
+            "heading_line_1": "Un Mar De Colores",
+            "heading_line_2": "",
             "heading_size": "h1"
           }
         },
@@ -288,7 +291,8 @@
         "1648750593b1be2949-0": {
           "type": "heading",
           "settings": {
-            "heading": "Gaviota Coast Conservancy",
+            "heading_line_1": "Gaviota Coast Conservancy",
+            "heading_line_2": "",
             "heading_size": "h1"
           }
         },
@@ -335,8 +339,8 @@
   },
   "order": [
     "main",
-    "16484982601b30b73a",
     "1648498124cfde6a62",
+    "16484982601b30b73a",
     "164874993233586e86",
     "1648750089ddebfd56",
     "1648750221206c8821",

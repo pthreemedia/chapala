@@ -34,7 +34,7 @@
               <h2 class="{{ block.settings.heading_size }}" {% unless block.settings.font_color == blank %}style="color: {{block.settings.font_color }}"{% endunless %} {{ block.shopify_attributes }}>{{ block.settings.heading | escape }}</h2>
             {% endif %}
           {%- when 'text' -%}
-            <div class="rich-text__text rte {% if block.settings.use_heading_font %}h3{% endif %}" {% unless block.settings.font_color == blank %}style="color: {{block.settings.font_color }}"{% endunless %} {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
+            <div class="rich-text__text rte {% if block.settings.use_heading_font %}h2{% endif %}" {% unless block.settings.font_color == blank %}style="color: {{block.settings.font_color }}"{% endunless %} {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
           {%- when 'button' -%}
             {% if block.settings.use_arrow_link %}
               <a class="link animate-arrow" {% if block.settings.button_link == blank %}role="link" aria-disabled="true"{% else %}href="{{ block.settings.button_link }}"{% endif %} {% if block.settings.link_color != blank %} style="color: {{ block.settings.link_color }}"{% endif %}>{{ block.settings.button_label | escape }}<span class="icon-wrap">&nbsp;{% render 'icon-arrow-long' %}</span></a>

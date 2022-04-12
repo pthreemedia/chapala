@@ -1,69 +1,85 @@
 {
   "sections": {
+    "1649889485943b7335": {
+      "type": "page-menu",
+      "disabled": true,
+      "blocks": {
+        "1649889485934173b5-0": {
+          "type": "page_menu_link",
+          "settings": {
+            "link_text": "About SeaVees",
+            "link_url": "shopify:\/\/pages\/about-seavees"
+          }
+        },
+        "a624668c-3d42-42a3-bf66-29b4531ba8f9": {
+          "type": "page_menu_link",
+          "settings": {
+            "link_text": "Stores",
+            "link_url": "shopify:\/\/pages\/stores"
+          }
+        },
+        "b327c64e-ff9a-4ea6-8132-f9b76ccf2657": {
+          "type": "page_menu_link",
+          "settings": {
+            "link_text": "Journal",
+            "link_url": "shopify:\/\/blogs\/journal"
+          }
+        },
+        "9248db8a-59ea-49fe-93ce-5edd7af086cc": {
+          "type": "page_menu_link",
+          "settings": {
+            "link_text": "Causes We Support",
+            "link_url": "shopify:\/\/pages\/causes"
+          }
+        }
+      },
+      "block_order": [
+        "1649889485934173b5-0",
+        "a624668c-3d42-42a3-bf66-29b4531ba8f9",
+        "b327c64e-ff9a-4ea6-8132-f9b76ccf2657",
+        "9248db8a-59ea-49fe-93ce-5edd7af086cc"
+      ],
+      "settings": {
+        "stack_on_mobile": false,
+        "show_background": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "1648587509be8cc4f4": {
       "type": "rich-text",
       "blocks": {
         "1648587509ab6c5b12-0": {
           "type": "heading",
           "settings": {
-            "heading": "Journal",
-            "heading_size": "h0"
+            "heading": "The Journal",
+            "heading_size": "h0",
+            "font_color": ""
+          }
+        },
+        "8c28528d-3b7d-4fd8-83ad-d6f79677629c": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Journals are where dreams begin as thoughts that pop into our heads in the middle of the night and transform into barely legible scribbles we aim to decipher in the morning. But when they do eventually leave the pages on our bedside table, they can become bigger than we’d ever imagined. It happened for our brand, and it can happen for you, too. The stories here are dedicated to the underdog. Those of us who have dreams bigger than ourselves, and the determination to see them through. Read on, and dream on.<\/p>",
+            "use_heading_font": false,
+            "font_color": ""
           }
         }
       },
       "block_order": [
-        "1648587509ab6c5b12-0"
+        "1648587509ab6c5b12-0",
+        "8c28528d-3b7d-4fd8-83ad-d6f79677629c"
       ],
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
         "is_page_header": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "1648587500acdac22c": {
-      "type": "page-menu",
-      "blocks": {
-        "164858750062f1de1a-0": {
-          "type": "page_menu_link",
-          "settings": {
-            "link_text": "All",
-            "link_url": "https:\/\/www.seavees.com\/blogs\/journal"
-          }
-        },
-        "66243d04-03fc-447d-83c1-e9b2119d74bf": {
-          "type": "page_menu_link",
-          "settings": {
-            "link_text": "SeaVees News",
-            "link_url": "https:\/\/www.seavees.com\/blogs\/journal\/tagged\/news"
-          }
-        },
-        "9fb08344-f74a-4ebc-8576-fc030264b0b9": {
-          "type": "page_menu_link",
-          "settings": {
-            "link_text": "Collaborations",
-            "link_url": "https:\/\/www.seavees.com\/blogs\/journal\/tagged\/collaborations"
-          }
-        },
-        "156cbff8-fbdd-4321-b843-ff2a409a2290": {
-          "type": "page_menu_link",
-          "settings": {
-            "link_text": "Casual Types",
-            "link_url": "https:\/\/www.seavees.com\/blogs\/journal\/tagged\/casual-types"
-          }
-        }
-      },
-      "block_order": [
-        "164858750062f1de1a-0",
-        "66243d04-03fc-447d-83c1-e9b2119d74bf",
-        "9fb08344-f74a-4ebc-8576-fc030264b0b9",
-        "156cbff8-fbdd-4321-b843-ff2a409a2290"
-      ],
-      "settings": {
-        "stack_on_mobile": true,
-        "padding_top": 0,
-        "padding_bottom": 0,
+        "mobile_content_align": "center",
+        "desktop_content_align": "center",
+        "padding_top": 36,
+        "padding_bottom": 36,
         "margin_top": 0,
         "margin_bottom": 0
       }
@@ -71,9 +87,9 @@
     "main": {
       "type": "main-blog",
       "settings": {
-        "layout": "grid",
+        "layout": "collage",
         "show_image": true,
-        "image_height": "large",
+        "image_height": "medium",
         "show_date": false,
         "show_author": false,
         "padding_top": 36,
@@ -82,8 +98,8 @@
     }
   },
   "order": [
+    "1649889485943b7335",
     "1648587509be8cc4f4",
-    "1648587500acdac22c",
     "main"
   ]
 }
