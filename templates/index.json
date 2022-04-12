@@ -249,8 +249,8 @@
           "settings": {
             "button_label": "Learn More",
             "button_link": "shopify:\/\/pages\/mental-health-awareness-baja-slip-on",
-            "use_arrow_link": true,
-            "button_style_secondary": false
+            "use_arrow_link": false,
+            "button_style_secondary": true
           }
         }
       },
