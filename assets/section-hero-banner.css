@@ -100,7 +100,20 @@
     width: 100%;
     background: none;
   }
-  
+
+  .hero-banner__buttons .link {
+   text-decoration: none;
+  }
+
+  @media screen and (min-width: 750px) {
+    .hero-banner__buttons .link {
+      color: rgba(var(--color-background),1);
+    }
+    .hero-banner-separate .hero-banner__buttons .link {
+      color: rgba(var(--color-foreground),1);
+    }
+  }
+
   @media screen and (max-width: 749px) {
     .hero-banner__box {
       padding: 3rem 2rem 0;
@@ -186,9 +199,6 @@
     }
     .hero-banner__buttons-right {
       justify-content: flex-end;
-    }
-    .hero-banner-together .link-with-arrow, .hero-banner-together .link-with-arrow::after {
-      color: rgba(var(--color-background),1);
     }
   }
   
