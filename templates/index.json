@@ -141,7 +141,7 @@
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 2,
-        "column_alignment": "center",
+        "column_alignment": "left",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
@@ -150,6 +150,50 @@
         "swipe_on_mobile": true,
         "padding_top": 60,
         "padding_bottom": 36
+      }
+    },
+    "16498083081f9f26ae": {
+      "type": "image-with-text",
+      "blocks": {
+        "16498083081347e1fe-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Kelp Us, Kelp The Planet.",
+            "heading_size": "h1"
+          }
+        },
+        "16498083081347e1fe-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For every shoe purchase you make, SeaVees will donate $5 to SeaTrees for Earth Month.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "16498083081347e1fe-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "shopify:\/\/pages\/seatrees"
+          }
+        }
+      },
+      "block_order": [
+        "16498083081347e1fe-0",
+        "16498083081347e1fe-1",
+        "16498083081347e1fe-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/seatrees_mobile_header_111111_v2.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 48,
+        "padding_bottom": 48
       }
     },
     "164755189301d4a216": {
@@ -226,8 +270,8 @@
         "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
-        "content_layout": "overlap",
-        "color_scheme": "background-2",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
@@ -285,6 +329,7 @@
     "1647293351d0ce45c1",
     "164867367120e1947e",
     "multicolumn",
+    "16498083081f9f26ae",
     "164755189301d4a216",
     "1647017703be777e67",
     "16470178216c89dbf8"
