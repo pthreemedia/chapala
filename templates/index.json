@@ -6,7 +6,7 @@
         "164729335111f3cd4e-0": {
           "type": "heading",
           "settings": {
-            "heading": "Casual Since 1964.",
+            "heading": "The Classics",
             "heading_2": "",
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
@@ -15,7 +15,7 @@
         "164729335111f3cd4e-1": {
           "type": "text",
           "settings": {
-            "text": "Both classic and contemporary with a reverence for 1960s California cool, SeaVees are the timeless footwear choice.",
+            "text": "Our Classics embody who we are at our core. Season after season, these are the shoes we keep coming back for.",
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
           }
@@ -24,10 +24,10 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Mens",
-            "button_link_1": "shopify:\/\/collections\/mens-best-sellers",
+            "button_link_1": "shopify:\/\/collections\/mens-classics",
             "button_style_secondary_1": false,
             "button_label_2": "Shop Womens",
-            "button_link_2": "shopify:\/\/collections\/womens-best-sellers",
+            "button_link_2": "shopify:\/\/collections\/womens-classics",
             "button_style_secondary_2": false,
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
@@ -43,13 +43,13 @@
         "use_video_background": false,
         "hero_video_desktop": "",
         "hero_video_mobile": "",
-        "image_desktop": "shopify:\/\/shop_images\/seavees_desktop_header_311111_b7b92e5d-7532-452c-922a-53d017fdcc73.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/seavees_mobile_header_311111.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/seavees_desktop_header_311111_8beb088b-892a-45fc-9696-c91cc409ca12.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/seavees_mobile_header_611111.jpg",
         "desktop_text_box_vertical_position": "center",
         "desktop_text_box_horizontal_position": "center",
         "desktop_text_alignment": "center",
-        "adapt_height_first_image": false,
-        "text_image_separate": true
+        "adapt_height_first_image": true,
+        "text_image_separate": false
       }
     },
     "164867367120e1947e": {
