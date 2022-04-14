@@ -1,6 +1,8 @@
 {{ 'component-article-card.css' | asset_url | stylesheet_tag }}
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
 {{ 'section-main-blog.css' | asset_url | stylesheet_tag }}
+{{ 'section-page-menu.css' | asset_url | stylesheet_tag }}
+
 
 {%- style -%}
   .section-{{ section.id }}-padding {
@@ -16,9 +18,35 @@
   }
 {%- endstyle -%}
 
+
+
 {%- paginate blog.articles by 6 -%}
   <div class="main-blog page-width section-{{ section.id }}-padding">
-    <h1 class="title--primary">{{ blog.title | escape }}</h1>
+    {% comment %}<h1 class="title--primary">{{ blog.title | escape }}</h1>{% endcomment %}
+
+    <div class="blog-header page-width">
+      <h1>
+        {% if current_tags contains "news" %}
+          {% assign blog_type = "news" %}
+          Journal | News
+        {% elsif current_tags contains "collaborations" %}
+          {% assign blog_type = "collaborations" %}
+          Journal | Collaborations
+        {% elsif current_tags contains "casual-types" %}
+          {% assign blog_type = "casual" %}
+          Journal | Casual Types
+        {% else %}
+          {% assign blog_type = "view all" %}
+          Journal | All Posts
+        {% endif %}
+      </h1>
+      
+      {% if blog_type == 'casual' %}
+      <div class="JournalPage__intro">
+        <p>These individuals truly embody that casual spirit and provide some much needed inspiration to slow down, breathe deep and do the things that make us feel most like us.</p>
+      </div>
+      {% endif %}
+    </div>  
 
     <div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
       {%- for article in blog.articles -%}
