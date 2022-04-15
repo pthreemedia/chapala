@@ -34,7 +34,7 @@
 
         {%- when 'title'-%}
           <header class="page-width page-width--narrow" {{ block.shopify_attributes }}>
-            <h1 class="article-template__title" itemprop="headline">{{ article.title | escape }}</h1>
+            <h1 class="article-template__title h2" itemprop="headline">{{ article.title | escape }}</h1>
             {%- if block.settings.blog_show_date -%}
               <span class="circle-divider caption-with-letter-spacing" itemprop="dateCreated pubdate datePublished">{{ article.published_at | time_tag: format: 'date' }}</span>
             {%- endif -%}
@@ -45,9 +45,14 @@
             {%- endif -%}
           </header>
 
-        {%- when 'content'-%}
-          <div class="article-template__content page-width page-width--narrow rte" itemprop="articleBody" {{ block.shopify_attributes }}>
-              {{ article.content }}
+        {%- when 'content' -%}
+          <div class="article-template__content rte" itemprop="articleBody" {{ block.shopify_attributes }}>
+            {{ article.content }}
+          </div>
+
+        {%- when 'excerpt' -%}
+          <div class="article-template__excerpt rte" itemprop="articleExcerpt" {{ block.shopify_attributes }}>
+            <h4>{{ article.excerpt }}</h4>
           </div>
 
         {%- when 'share' -%}
@@ -284,7 +289,41 @@
       "name": {{ shop.name | json }}
     }
   }
-  </script>
+</script>
+
+{% javascript %}
+  // Find the article content container, and the images within it:
+  const articleContent = document.querySelector('.article-template__content');
+  const images = articleContent.getElementsByTagName('img');
+
+  // Loop through the image containers:
+  for (let image of images) {
+
+      // Create a wrapper container to hold the img
+      let wrapper = document.createElement('div');
+
+      // Add some css to the div
+      wrapper.classList.add('article-image-container')
+
+      // insert wrapper before el in the DOM tree
+      image.parentNode.insertBefore(wrapper, image);
+
+      // move el into wrapper
+      wrapper.appendChild(image);
+
+      // Create a span element - we'll use this to house our caption:
+      let caption = document.createElement('span');
+      
+      // Stick the alt tag from the image we found above into the caption <span>:
+      caption.innerHTML = image.alt;
+
+      // Add a css class to the caption:
+      caption.classList.add('article-image-caption')
+      
+      // Insert the caption <span> into the image container:
+      image.after(caption);
+  }
+{% endjavascript %}
 
 
 {% schema %}
@@ -350,6 +389,11 @@
     {
       "type": "content",
       "name": "t:sections.main-article.blocks.content.name",
+      "limit": 1
+    },
+    {
+      "type": "excerpt",
+      "name": "Excerpt",
       "limit": 1
     },
     {

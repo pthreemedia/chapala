@@ -10,6 +10,7 @@
     },
     "1648498124cfde6a62": {
       "type": "page-menu",
+      "disabled": true,
       "blocks": {
         "164849812419f1a6c3-0": {
           "type": "page_menu_link",
@@ -18,25 +19,25 @@
             "link_url": "shopify:\/\/pages\/about-seavees"
           }
         },
-        "bf80c113-02d0-49f6-b0a4-e0f03cd9a605": {
-          "type": "page_menu_link",
-          "settings": {
-            "link_text": "Stores",
-            "link_url": "shopify:\/\/pages\/stores"
-          }
-        },
         "30fde8e0-066c-4317-9e2f-a77619ac3870": {
           "type": "page_menu_link",
           "settings": {
             "link_text": "Journal",
             "link_url": "shopify:\/\/blogs\/journal"
           }
+        },
+        "bf80c113-02d0-49f6-b0a4-e0f03cd9a605": {
+          "type": "page_menu_link",
+          "settings": {
+            "link_text": "Stores",
+            "link_url": "shopify:\/\/pages\/stores"
+          }
         }
       },
       "block_order": [
         "164849812419f1a6c3-0",
-        "bf80c113-02d0-49f6-b0a4-e0f03cd9a605",
-        "30fde8e0-066c-4317-9e2f-a77619ac3870"
+        "30fde8e0-066c-4317-9e2f-a77619ac3870",
+        "bf80c113-02d0-49f6-b0a4-e0f03cd9a605"
       ],
       "settings": {
         "stack_on_mobile": false,
@@ -64,7 +65,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/desktop_header_211111_badd416e-26c5-4e9d-b689-59f7f18cd4a5.jpg",
-        "image_overlay_opacity": 10,
+        "image_overlay_opacity": 40,
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-center",

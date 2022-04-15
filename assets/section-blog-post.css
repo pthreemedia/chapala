@@ -69,6 +69,11 @@
   margin: 0;
 }
 
+.article-template header, .article-template__excerpt {
+  text-align: center;
+  padding: 0 2rem;
+}
+
 .article-template__title:not(:only-child) {
   margin-bottom: 1rem;
 }
@@ -173,3 +178,105 @@
 .article-template__back:last-child {
   margin-bottom: 3.2rem;
 }
+
+/* Custom blog styles */
+
+.article-template__content p, .article-template__excerpt {
+  max-width: var(--page-width);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.article-template__content h1, 
+.article-template__content h4,
+.article-template__content h5,
+.article-template__content h6 {
+  max-width: var(--page-width);
+  margin: 0 auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.article-template__content h2,
+.article-template__content h3 {
+  padding: 3rem 1.5rem;
+  margin: 0 auto;
+}
+
+.article-image-container {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  padding: 1rem 1.5rem;
+}
+
+.article-image-container img, .article-image-container span {
+  max-width: var(--page-width) !important;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.article-image-container span {
+  text-transform: none;
+  font-size: 1.4rem;
+  opacity: 0.9;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 750px) {
+  .article-template__content p, .article-template__excerpt  {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .article-template__content h1, 
+  .article-template__content h4,
+  .article-template__content h5,
+  .article-template__content h6 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .article-template__content h2,
+  .article-template__content h3 {
+    padding: 4rem 2rem;
+  }
+  .article-image-container {
+    padding: 1rem 5rem;
+  }
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 5rem;
+  }
+  .article-image-container {
+    padding: 1rem 5rem;
+  }
+  .gallery .article-image-container {
+    width: 50%;
+    padding: 1rem 0.25rem;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .article-template__content p, .article-template__excerpt  {
+    max-width: 72.6rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .article-template__content h1, 
+  .article-template__content h4,
+  .article-template__content h5,
+  .article-template__content h6 {
+    max-width: 72.6rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .article-template__content h2,
+  .article-template__content h3 {
+    max-width: 100rem;
+    padding: 5rem 0;
+  }
+}
+

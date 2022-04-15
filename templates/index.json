@@ -1,61 +1,7 @@
 {
   "sections": {
-    "1647293351d0ce45c1": {
-      "type": "hero-banner",
-      "disabled": true,
-      "blocks": {
-        "164729335111f3cd4e-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Casual Since 1964.",
-            "heading_2": "",
-            "hide_block_on_mobile": false,
-            "hide_block_on_desktop": false
-          }
-        },
-        "164729335111f3cd4e-1": {
-          "type": "text",
-          "settings": {
-            "text": "Both classic and contemporary with a reverence for 1960s California cool, SeaVees are the timeless footwear choice.",
-            "hide_block_on_mobile": false,
-            "hide_block_on_desktop": false
-          }
-        },
-        "164729335111f3cd4e-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop Mens",
-            "button_link_1": "shopify:\/\/collections\/mens-best-sellers",
-            "button_label_2": "Shop Womens",
-            "button_link_2": "shopify:\/\/collections\/womens-best-sellers",
-            "button_style_secondary": false,
-            "use_arrow_link": false,
-            "hide_block_on_mobile": false,
-            "hide_block_on_desktop": false
-          }
-        }
-      },
-      "block_order": [
-        "164729335111f3cd4e-0",
-        "164729335111f3cd4e-1",
-        "164729335111f3cd4e-2"
-      ],
-      "settings": {
-        "use_video_background": false,
-        "hero_video_desktop": "",
-        "hero_video_mobile": "",
-        "image_desktop": "shopify:\/\/shop_images\/seavees_desktop_hero_sixty_six_2_2fdeef68-a7b0-4d84-b4e5-8a1b5450f15d.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/mens_sixty_six_featured_seavees_1331311.jpg",
-        "desktop_text_box_vertical_position": "center",
-        "desktop_text_box_horizontal_position": "center",
-        "desktop_text_alignment": "center",
-        "adapt_height_first_image": false,
-        "text_image_separate": true
-      }
-    },
     "164867367120e1947e": {
       "type": "hero-banner",
-      "disabled": true,
       "blocks": {
         "1648673671d11f3268-0": {
           "type": "heading",
@@ -77,12 +23,12 @@
         "1648673671d11f3268-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Womens",
+            "button_label_1": "Shop Best Sellers",
             "button_link_1": "shopify:\/\/collections\/womens-best-sellers",
-            "button_label_2": "Shop Mens",
-            "button_link_2": "shopify:\/\/collections\/mens-best-sellers",
+            "button_label_2": "",
+            "button_link_2": "",
             "button_style_secondary": false,
-            "use_arrow_link": false,
+            "use_arrow_link": true,
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
           }
@@ -97,9 +43,9 @@
         "use_video_background": false,
         "hero_video_desktop": "",
         "hero_video_mobile": "",
-        "image_desktop": "shopify:\/\/shop_images\/seavees_desktop_header_611111.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/seavees_desktop_header_811111.jpg",
         "image_mobile": "shopify:\/\/shop_images\/seavees_mobile_header_411111.jpg",
-        "desktop_text_box_vertical_position": "center",
+        "desktop_text_box_vertical_position": "flex-end",
         "desktop_text_box_horizontal_position": "center",
         "desktop_text_alignment": "center",
         "adapt_height_first_image": true,
@@ -108,6 +54,7 @@
     },
     "1649806229c9386eb6": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "16498062295f24c743-1": {
           "type": "slide",
@@ -157,7 +104,7 @@
         "04688f63-0415-4571-b9c8-2d6b75c97e05": {
           "type": "slide",
           "settings": {
-            "desktop_image": "shopify:\/\/shop_images\/seavees_desktop_header_611111.jpg",
+            "desktop_image": "shopify:\/\/shop_images\/seavees_desktop_header_411111_ddeb5cbb-3783-4157-ba54-cb9220987e3e.jpg",
             "mobile_image": "shopify:\/\/shop_images\/SS21_HP_Full_Width_044e219f-462e-4df0-a852-ea460c3ea7ca.jpg",
             "heading": "Fresh for Spring",
             "heading_size": "h1",
@@ -536,7 +483,6 @@
     }
   },
   "order": [
-    "1647293351d0ce45c1",
     "164867367120e1947e",
     "1649806229c9386eb6",
     "multicolumn",

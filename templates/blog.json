@@ -11,13 +11,6 @@
             "link_url": "shopify:\/\/pages\/about-seavees"
           }
         },
-        "a624668c-3d42-42a3-bf66-29b4531ba8f9": {
-          "type": "page_menu_link",
-          "settings": {
-            "link_text": "Stores",
-            "link_url": "shopify:\/\/pages\/stores"
-          }
-        },
         "b327c64e-ff9a-4ea6-8132-f9b76ccf2657": {
           "type": "page_menu_link",
           "settings": {
@@ -25,19 +18,18 @@
             "link_url": "shopify:\/\/blogs\/journal"
           }
         },
-        "9248db8a-59ea-49fe-93ce-5edd7af086cc": {
+        "a624668c-3d42-42a3-bf66-29b4531ba8f9": {
           "type": "page_menu_link",
           "settings": {
-            "link_text": "Causes We Support",
-            "link_url": "shopify:\/\/pages\/causes"
+            "link_text": "Stores",
+            "link_url": "shopify:\/\/pages\/stores"
           }
         }
       },
       "block_order": [
         "1649889485934173b5-0",
-        "a624668c-3d42-42a3-bf66-29b4531ba8f9",
         "b327c64e-ff9a-4ea6-8132-f9b76ccf2657",
-        "9248db8a-59ea-49fe-93ce-5edd7af086cc"
+        "a624668c-3d42-42a3-bf66-29b4531ba8f9"
       ],
       "settings": {
         "stack_on_mobile": false,
