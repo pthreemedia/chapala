@@ -1319,7 +1319,7 @@ a.product__text {
 }
 
 .product-swatches .active {
-  border: 3px solid rgb(var(--color-base-accent-2)) !important;
+  border: 3px solid #dc4b28 !important;
 }
 
 .price-container .shopify-installments {

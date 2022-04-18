@@ -35,9 +35,9 @@
               <details class="page-width" id="Details-{{ block.id }}-{{ section.id }}"{% if section.settings.open_first_collapsible_row and forloop.first %} open{% endif %}>
                   <summary id="Summary-{{ block.id }}-{{ section.id }}">
                       {% render 'icon-accordion', icon: block.settings.icon %}
-                      <h3 class="accordion__title">
+                      <h4 class="accordion__title">
                       {{ block.settings.heading | default: block.settings.page.title }}
-                      </h3>
+                      </h4>
                       {% render 'icon-caret' %}
                   </summary>
                   <div class="accordion__content rte collapsible-content-alt" id="CollapsibleAccordion-{{ block.id }}-{{ section.id }}" role="region" aria-labelledby="Summary-{{ block.id }}-{{ section.id }}">

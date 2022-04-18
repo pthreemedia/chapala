@@ -181,7 +181,10 @@
 
 /* Custom blog styles */
 
-.article-template__content p, .article-template__excerpt {
+.article-template__content p, 
+.article-template__excerpt,
+.article-template__content ul,
+.article-template__content ol {
   max-width: var(--page-width);
   margin-left: auto;
   margin-right: auto;
@@ -227,7 +230,10 @@
 }
 
 @media screen and (min-width: 750px) {
-  .article-template__content p, .article-template__excerpt  {
+  .article-template__content p, 
+  .article-template__excerpt,
+  .article-template__content ul,
+  .article-template__content ol {
     padding-left: 5rem;
     padding-right: 5rem;
   }
@@ -260,7 +266,10 @@
 }
 
 @media screen and (min-width: 990px) {
-  .article-template__content p, .article-template__excerpt  {
+  .article-template__content p, 
+  .article-template__excerpt,
+  .article-template__content ul,
+  .article-template__content ol {
     max-width: 72.6rem;
     padding-left: 0;
     padding-right: 0;

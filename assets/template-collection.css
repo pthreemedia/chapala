@@ -92,9 +92,10 @@
 .grouped-collection-header {
   display: block;
   padding: 0;
+  text-align: center;
 }
 
-.grouped-collection-header h2, .grouped-collection-header p {
+.grouped-collection-header h2, .grouped-collection-header h3, .grouped-collection-header p {
   margin: 0;
 }
 

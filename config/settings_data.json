@@ -9,7 +9,7 @@
     "colors_outline_button_labels": "#193859",
     "colors_background_1": "#ffffff",
     "gradient_background_1": "",
-    "colors_background_2": "#fdf6e3",
+    "colors_background_2": "#fff3d4",
     "gradient_background_2": "",
     "type_header_font": "old_standard_tt_n4",
     "heading_scale": 100,
@@ -229,7 +229,7 @@
         "settings": {
           "color_scheme": "background-1",
           "logo": "shopify:\/\/shop_images\/seavees-website-logo-navy_f847c3ff-f1ad-41ec-8806-5d68fe4b5a7f.png",
-          "logo_width": 150,
+          "logo_width": 140,
           "logo_position": "middle-left",
           "menu": "main-menu",
           "menu_type_desktop": "mega",
