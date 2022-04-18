@@ -10,6 +10,7 @@
     },
     "1648498124cfde6a62": {
       "type": "page-menu",
+      "disabled": true,
       "blocks": {
         "164849812419f1a6c3-0": {
           "type": "page_menu_link",
@@ -130,11 +131,11 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/seatrees_desktop_header_211111.jpg",
-        "image_overlay_opacity": 60,
+        "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-center",
-        "show_text_box": false,
+        "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
@@ -169,11 +170,11 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/1percent_banner.jpg",
-        "image_overlay_opacity": 50,
+        "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-center",
-        "show_text_box": false,
+        "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",

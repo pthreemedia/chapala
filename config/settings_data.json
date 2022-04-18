@@ -9,17 +9,17 @@
     "colors_outline_button_labels": "#193859",
     "colors_background_1": "#ffffff",
     "gradient_background_1": "",
-    "colors_background_2": "#fdf6e3",
+    "colors_background_2": "#fff3d4",
     "gradient_background_2": "",
     "type_header_font": "old_standard_tt_n4",
     "heading_scale": 100,
-    "type_body_font": "roboto_n4",
+    "type_body_font": "lato_n4",
     "body_scale": 100,
     "page_width": 1400,
     "spacing_sections": 0,
     "spacing_grid_horizontal": 8,
     "spacing_grid_vertical": 8,
-    "buttons_border_thickness": 0,
+    "buttons_border_thickness": 1,
     "buttons_border_opacity": 100,
     "buttons_radius": 40,
     "buttons_shadow_opacity": 0,
@@ -229,7 +229,7 @@
         "settings": {
           "color_scheme": "background-1",
           "logo": "shopify:\/\/shop_images\/seavees-website-logo-navy_f847c3ff-f1ad-41ec-8806-5d68fe4b5a7f.png",
-          "logo_width": 150,
+          "logo_width": 140,
           "logo_position": "middle-left",
           "menu": "main-menu",
           "menu_type_desktop": "mega",
@@ -305,7 +305,15 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
   },
   "presets": {
     "Default": {

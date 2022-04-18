@@ -65,7 +65,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/desktop_header_211111_badd416e-26c5-4e9d-b689-59f7f18cd4a5.jpg",
-        "image_overlay_opacity": 40,
+        "image_overlay_opacity": 20,
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-center",
@@ -79,39 +79,51 @@
         "margin_bottom": 0
       }
     },
-    "16484982601b30b73a": {
+    "1650319857001b7706": {
       "type": "rich-text",
       "disabled": true,
       "blocks": {
-        "16484982604c779ae4-0": {
+        "1650319857e3e0249a-0": {
           "type": "heading",
           "settings": {
-            "heading": "About SeaVees",
-            "heading_size": "h1",
+            "heading": "Born in 1964. Rediscovered in 2008.       We all have dreams. They begin as a ripple on the surface, build and swell with the tides, come crashing down or even fade away. Sometimes we tell ourselves we’re too young, old, big, small, or just not good enough to pursue them. And that’s when they end up on a shelf.                  Our brand was quite literally put on a shelf for nearly 40 years before our founder discovered a pair at a secondhand shop in Tokyo. He brought the brand back to life and across the Pacific to its original home in California—the state where dreams come true, or in our case, have a second chance.  We believe there’s a sea of possibilities. In rediscovering who we are and what we can be.  SeaVees®. Rediscover the dream.",
+            "heading_size": "h2",
             "font_color": ""
           }
         },
-        "cf4f549e-f35a-46ab-9683-830041643f19": {
+        "1650319857e3e0249a-1": {
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Born in 1964. Rediscovered in 2008.<\/p>",
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
             "use_heading_font": false,
             "font_color": ""
+          }
+        },
+        "1650319857e3e0249a-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "use_arrow_link": false,
+            "link_color": ""
           }
         }
       },
       "block_order": [
-        "16484982604c779ae4-0",
-        "cf4f549e-f35a-46ab-9683-830041643f19"
+        "1650319857e3e0249a-0",
+        "1650319857e3e0249a-1",
+        "1650319857e3e0249a-2"
       ],
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "accent-2",
         "full_width": true,
-        "is_page_header": true,
+        "is_page_header": false,
         "mobile_content_align": "center",
         "desktop_content_align": "center",
-        "padding_top": 68,
+        "padding_top": 40,
         "padding_bottom": 52,
         "margin_top": 0,
         "margin_bottom": 0
@@ -133,7 +145,7 @@
           "settings": {
             "text": "<p>Born in 1964. Rediscovered in 2008.      <\/p><p>We all have dreams. They begin as a ripple on the surface, build and swell with the tides, come crashing down or even fade away. Sometimes we tell ourselves we’re too young, old, big, small, or just not good enough to pursue them. And that’s when they end up on a shelf.                 <\/p><p>Our brand was quite literally put on a shelf for nearly 40 years before our founder discovered a pair at a secondhand shop in Tokyo. He brought the brand back to life and across the Pacific to its original home in California—the state where dreams come true, or in our case, have a second chance.<\/p><p>We believe there’s a sea of possibilities. In rediscovering who we are and what we can be. <\/p><p>SeaVees®. Rediscover the dream. <\/p>",
             "use_heading_font": false,
-            "font_color": ""
+            "font_color": "#193859"
           }
         }
       },
@@ -142,11 +154,11 @@
         "16498659419d5ad2eb-1"
       ],
       "settings": {
-        "color_scheme": "accent-2",
+        "color_scheme": "background-2",
         "full_width": true,
         "is_page_header": false,
         "mobile_content_align": "left",
-        "desktop_content_align": "left",
+        "desktop_content_align": "center",
         "padding_top": 100,
         "padding_bottom": 100,
         "margin_top": 0,
@@ -196,8 +208,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/People-About_Us.jpg",
-            "title": "People",
-            "text": "<p>We’re people people. From endless summer Fridays to flexible work-from-home policies to team volunteer days, we’re committed to creating a culture that reflects our core values. We’re a thoughtful, optimistic and curious group of underdogs who care a lot about our impact. And above all else, we believe in dreaming big.<\/p>",
+            "title": "We're people people.",
+            "text": "<p>From endless Summer Fridays to flexible work-from-home policies to team volunteer days, we’re committed to creating a culture that reflects our core values. We’re a thoughtful, optimistic and curious group of underdogs who care a lot about our impact. And above all else, we believe in dreaming big.<\/p>",
             "link_label": "View Careers",
             "link": "shopify:\/\/pages\/careers",
             "info_on_image": false
@@ -206,9 +218,9 @@
         "1649866091527c8ec3-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/seatrees_featured_211111.jpg",
-            "title": "Planet",
-            "text": "<p>We live on blue planet. We put the “Sea” in SeaVees® because we’re committed to protecting it. Since 2016, we’ve been members of 1% For The Planet, donating one percent of our revenue to environmental causes. In 2020, to take it even further,<strong> <\/strong>we unveiled our first sneaker collection made with recycled components and partnered with SeaTrees, an organization dedicated to restoring kelp forests that have the power to reverse climate change. <\/p><p>By 2025, Sea Change will become our guiding principle. We will use recycled materials in every shoe we make and for every shoe purchased, a portion of the proceeds will be donated to organizations working to restore ocean ecosystems and preserve our coasts. The dream is on. <\/p>",
+            "image": "shopify:\/\/shop_images\/seatrees_featured_211112.jpg",
+            "title": "We live on a blue planet.",
+            "text": "<p>We put the “Sea” in SeaVees® because we’re committed to protecting it. Since 2016, we’ve been members of 1% For The Planet, donating one percent of our revenue to environmental causes. In 2020, to take it even further,we unveiled our first sneaker collection made with recycled components and partnered with organizations working to restore ocean ecosystems and preserve our coasts. By 2025, we will use recycled materials in every shoe we make.<\/p>",
             "link_label": "Causes We Support",
             "link": "shopify:\/\/pages\/causes",
             "info_on_image": false
@@ -233,7 +245,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 92
       }
     },
     "1648498531a60804d2": {
@@ -251,11 +263,125 @@
         "padding_bottom": 36
       }
     },
+    "16503238351443d3a0": {
+      "type": "hero-banner",
+      "blocks": {
+        "1650323835167c4004-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_2": "",
+            "hide_block_on_mobile": false,
+            "hide_block_on_desktop": false
+          }
+        },
+        "1650323835167c4004-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "We make great shoes.",
+            "hide_block_on_mobile": false,
+            "hide_block_on_desktop": false
+          }
+        },
+        "1650323835167c4004-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary": false,
+            "use_arrow_link": false,
+            "hide_block_on_mobile": false,
+            "hide_block_on_desktop": false
+          }
+        }
+      },
+      "block_order": [
+        "1650323835167c4004-0",
+        "1650323835167c4004-1",
+        "1650323835167c4004-2"
+      ],
+      "settings": {
+        "use_video_background": false,
+        "hero_video_desktop": "",
+        "hero_video_mobile": "",
+        "image_desktop": "shopify:\/\/shop_images\/seavees_desktop_header_611111.jpg",
+        "desktop_text_box_vertical_position": "center",
+        "desktop_text_box_horizontal_position": "flex-start",
+        "desktop_text_alignment": "left",
+        "adapt_height_first_image": false,
+        "text_image_separate": false
+      }
+    },
+    "165032579124bb43b2": {
+      "type": "rich-text",
+      "blocks": {
+        "16503257913d918728-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The SeaVees Difference",
+            "heading_size": "h1",
+            "font_color": ""
+          }
+        },
+        "16503257913d918728-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our shoes are consciously crafted in small batches to control quality and consistency using a time-honored footwear construction called vulcanization. To put it plainly, our shoes are “baked” with all of this goodness.<\/p>",
+            "use_heading_font": false,
+            "font_color": ""
+          }
+        },
+        "16503257913d918728-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "use_arrow_link": false,
+            "link_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "16503257913d918728-0",
+        "16503257913d918728-1",
+        "16503257913d918728-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "is_page_header": false,
+        "mobile_content_align": "center",
+        "desktop_content_align": "center",
+        "padding_top": 96,
+        "padding_bottom": 16,
+        "margin_top": 20,
+        "margin_bottom": 0
+      }
+    },
     "1649889721e0923be4": {
       "type": "multicolumn",
       "blocks": {
+        "1649889721aee36064-2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Materials_0000_pexels-artem-podrez-7232397_a591d190-c786-4c5f-9e80-1f6213041c90.jpg",
+            "title": "Materials Matter",
+            "text": "<p>We use textiles made from recycled materials, premium natural fibers and leathers.<\/p>",
+            "link_label": "",
+            "link": "",
+            "info_on_image": false
+          }
+        },
         "8af60f21-02b3-4611-a61f-aa2979256074": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "Small Batches.",
             "text": "<p>Our shoes are consciously crafted in small batches to control quality and consistency using a time-honored footwear construction called vulcanization.<\/p>",
@@ -267,8 +393,9 @@
         "1649889721aee36064-0": {
           "type": "column",
           "settings": {
-            "title": "More Bounce, Longer Wear.",
-            "text": "<p>Time-honored natural rubber gives our shoes a soft step, flexibility and durability.<\/p>",
+            "image": "shopify:\/\/shop_images\/Bounce.jpg",
+            "title": "More Bounce, Longer Wear",
+            "text": "<p>Natural rubber baked in a time-honored process gives our shoes a soft step, flexibility and durability.<\/p>",
             "link_label": "",
             "link": "",
             "info_on_image": false
@@ -277,18 +404,9 @@
         "1649889721aee36064-1": {
           "type": "column",
           "settings": {
-            "title": "Underfoot. Top Of Mind.",
+            "image": "shopify:\/\/shop_images\/SeaVees_Comfort_Insole.jpg",
+            "title": "Cool Comfort",
             "text": "<p>Our exclusive memory foam footbed with perforations and airflow channels makes our shoes the most comfortable sneakers you’ll ever wear.<\/p>",
-            "link_label": "",
-            "link": "",
-            "info_on_image": false
-          }
-        },
-        "1649889721aee36064-2": {
-          "type": "column",
-          "settings": {
-            "title": "Materials Matter",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": "",
             "info_on_image": false
@@ -297,8 +415,9 @@
         "70390f77-a6fb-46dc-9fae-d9b9e3e266e5": {
           "type": "column",
           "settings": {
-            "title": "A Lasting Impression.",
-            "text": "<p>Our shoes are made on our propreity last, a custom foundational aluminum form that provides a consistent fit for all our shoes.<\/p>",
+            "image": "shopify:\/\/shop_images\/PTDLP_Tile5_Desktop_5b4ee2b1-2851-43b1-93fd-ea9b00aff9b1.jpg",
+            "title": "High Standards",
+            "text": "<p>We are committed to strict ethical standards in the family-owned factories we work with, including paying best-practice living wages, providing safe and hygienic working conditions and a zero-tolerance policy on child labor.<\/p>",
             "link_label": "",
             "link": "",
             "info_on_image": false
@@ -306,6 +425,7 @@
         },
         "68417e2e-d910-4452-9305-f11203505d69": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "Strict Ethical Standards",
             "text": "<p>Our commitment to our family owned factories includes paying best-practice living wages, providing safe and hygienic working conditions and a zero-tolerance policy on child labor.<\/p>",
@@ -316,15 +436,15 @@
         }
       },
       "block_order": [
+        "1649889721aee36064-2",
         "8af60f21-02b3-4611-a61f-aa2979256074",
         "1649889721aee36064-0",
         "1649889721aee36064-1",
-        "1649889721aee36064-2",
         "70390f77-a6fb-46dc-9fae-d9b9e3e266e5",
         "68417e2e-d910-4452-9305-f11203505d69"
       ],
       "settings": {
-        "title": "Our Shoes",
+        "title": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -336,12 +456,72 @@
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 40,
+        "padding_bottom": 92
+      }
+    },
+    "165032263787f03437": {
+      "type": "multicolumn",
+      "blocks": {
+        "1650322637917ac8ae-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Materials_Square_0002_pexels-balA_zs-benjamin-872483.jpg",
+            "title": "Waste Not",
+            "text": "<p>We’re putting waste to work with materials like vegan corn leather (a waxed canvas coated with resin made from corn waste) and pineapple yarn (a natural fiber made from pineapple leaves). Most of our shoes have recycled polyester laces and recycled cotton liners.<\/p>",
+            "link_label": "",
+            "link": "",
+            "info_on_image": false
+          }
+        },
+        "1650322637917ac8ae-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Materials_Square_0000_pexels-magda-ehlers-1301410.jpg",
+            "title": "Reduce, Reuse, Recycle",
+            "text": "<p>We are working toward recycled materials in every shoe we make—including repurposing recycled rubber scraps that end up on the factory floor into the outsoles of our shoes.<\/p>",
+            "link_label": "",
+            "link": "",
+            "info_on_image": false
+          }
+        },
+        "1650322637917ac8ae-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LWG_2.jpg",
+            "title": "Better Leather",
+            "text": "<p>We source premium leather from the Leather Working Group, a not-for-profit organization leading environmental certification for the leather manufacturing industry. <\/p>",
+            "link_label": "",
+            "link": "",
+            "info_on_image": false
+          }
+        }
+      },
+      "block_order": [
+        "1650322637917ac8ae-0",
+        "1650322637917ac8ae-1",
+        "1650322637917ac8ae-2"
+      ],
+      "settings": {
+        "title": "Materials Matter",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 68,
+        "padding_bottom": 60
       }
     },
     "1648498699d572e81a": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "1648498699075380ea-0": {
           "type": "heading",
@@ -382,7 +562,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "color_scheme": "background-2",
+        "color_scheme": "background-1",
         "mobile_content_alignment": "left",
         "padding_top": 60,
         "padding_bottom": 60,
@@ -392,12 +572,11 @@
     },
     "16498901141da55405": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "16498901147c613536-0": {
           "type": "heading",
           "settings": {
-            "heading": "The SeaVees Timeline",
+            "heading": "Our Story",
             "heading_size": "h1",
             "font_color": ""
           }
@@ -412,7 +591,7 @@
         "is_page_header": false,
         "mobile_content_align": "center",
         "desktop_content_align": "center",
-        "padding_top": 40,
+        "padding_top": 84,
         "padding_bottom": 52,
         "margin_top": 0,
         "margin_bottom": 0
@@ -483,14 +662,14 @@
         "164849995609e3e0f1-0": {
           "type": "heading",
           "settings": {
-            "heading": "Founder & CEO",
-            "heading_size": "h1"
+            "heading": "Our Founder",
+            "heading_size": "h2"
           }
         },
         "164849995609e3e0f1-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Steven Tiller brings over 25 years of brand building success to SeaVees. His vision has influenced the creative direction of many of the top names in the footwear industry. Today, the native of Norman, OK is  pursuing his lifelong California dream with his family in Santa Barbara, CA.<\/p>",
+            "text": "<p>“I’ve always been a little restless. I was close to my 40th birthday and while I had a great career, I knew I was meant for something more. When I found that shoe, I found myself.<\/p><p><br\/><\/p><p>I always wanted to start a shoe company of my own and do things the right way—treat people the way I’d like to be treated and design shoes I’d feel good about wearing. I didn’t know how it would work, or if it even would, but I knew I had to try. I think it takes a bit of dumb luck and blind faith for dreams to come true, and I guess I had enough of both.\"<\/p>",
             "text_style": "body"
           }
         },
@@ -511,7 +690,7 @@
         "164849995609e3e0f1-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Tiller-About_Us.jpg",
+        "image": "shopify:\/\/shop_images\/SeaVees_OurLegacyLP_Tile5-Desktop_726097f3-a58d-4ec9-9005-8cba43ecc9af.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "full_width": true,
@@ -526,21 +705,73 @@
         "margin_top": 48,
         "margin_bottom": 0
       }
+    },
+    "1650319531d50d9ceb": {
+      "type": "rich-text",
+      "blocks": {
+        "165031953146862943-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "\"We’re not just here to sell shoes. We want to inspire people to follow their dreams. It's our whole reason for doing this.”",
+            "heading_size": "h2",
+            "font_color": ""
+          }
+        },
+        "165031953146862943-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>- STEVEN TILLER<\/p>",
+            "use_heading_font": false,
+            "font_color": "#193859"
+          }
+        },
+        "165031953146862943-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "use_arrow_link": false,
+            "link_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "165031953146862943-0",
+        "165031953146862943-1",
+        "165031953146862943-2"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true,
+        "is_page_header": false,
+        "mobile_content_align": "center",
+        "desktop_content_align": "center",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
     "main",
     "1648498124cfde6a62",
     "16498892676c08e749",
-    "16484982601b30b73a",
+    "1650319857001b7706",
     "164986594101e5fa94",
     "164986625441559363",
     "1649866091dc0cf60f",
     "1648498531a60804d2",
+    "16503238351443d3a0",
+    "165032579124bb43b2",
     "1649889721e0923be4",
+    "165032263787f03437",
     "1648498699d572e81a",
     "16498901141da55405",
     "164988894653acfc8e",
-    "1648499956ecd2c500"
+    "1648499956ecd2c500",
+    "1650319531d50d9ceb"
   ]
 }

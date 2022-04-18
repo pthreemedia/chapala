@@ -292,9 +292,9 @@ body,
 .color-inverse,
 .color-accent-1,
 .color-accent-2 {
-  color: rgba(var(--color-foreground), 0.95);
+  color: rgba(var(--color-foreground), 1);
   background-color: rgb(var(--color-background));
-  letter-spacing: 0;
+  letter-spacing: 0.02rem;
   line-height: 2.8rem;
   font-size: 1.6rem;
 }
@@ -1525,6 +1525,8 @@ button.shopify-payment-button__button--unbranded {
 .share-button__button {
   font-size: 1.4rem;
   display: flex;
+  width: 100%;
+  justify-content: center;
   min-height: 2.4rem;
   align-items: center;
   color: rgb(var(--color-link));
@@ -2659,28 +2661,32 @@ details[open] > .header__submenu {
 .header__menu-item {
   padding: 1.2rem;
   text-decoration: none;
-  color: rgba(var(--color-foreground), 0.75);
+  color: rgba(var(--color-foreground), 1);
+}
+
+.header__menu-item::after, .header__active-menu-item::after {
+    transition: width .5s;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0.75rem;
+    content: '';
+    display: inline-block;
+    width: 0%;
+    height: 1px;
+    background-color: #dc4b28;
 }
 
 .header__menu-item:hover {
-  color: rgb(var(--color-foreground));
+  color: #dc4b28;
 }
 
-.header__menu-item span {
-  transition: text-decoration var(--duration-short) ease;
+.header__menu-item:hover::after {
+  width: 60%;
 }
 
-.header__menu-item:hover span {
-  text-decoration: underline;
-  text-underline-offset: 0.3rem;
-}
-
-details[open] > .header__menu-item {
-  text-decoration: underline;
-}
-
-details[open]:hover > .header__menu-item {
-  text-decoration-thickness: 0.2rem;
+details[open] > .header__menu-item::after {
+  width: 60%;
 }
 
 details[open] > .header__menu-item .icon-caret {
@@ -2688,14 +2694,11 @@ details[open] > .header__menu-item .icon-caret {
 }
 
 .header__active-menu-item {
-  transition: text-decoration-thickness var(--duration-short) ease;
-  color: rgb(var(--color-foreground));
-  text-decoration: underline;
-  text-underline-offset: 0.3rem;
+  color: #dc4b28;
 }
 
-.header__menu-item:hover .header__active-menu-item {
-  text-decoration-thickness: 0.2rem;
+.header__active-menu-item::after {
+  width: 60%
 }
 
 .header__submenu {
