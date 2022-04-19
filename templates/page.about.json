@@ -65,7 +65,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/desktop_header_211111_badd416e-26c5-4e9d-b689-59f7f18cd4a5.jpg",
-        "image_overlay_opacity": 40,
+        "image_overlay_opacity": 20,
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-center",
