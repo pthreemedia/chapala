@@ -180,7 +180,7 @@
   margin-bottom: 3rem;
 }
 
-.collapsible-content-alt summary .accordion__title::after {
+.collapsible-content-alt-container summary .accordion__title::after {
   transition: width .5s;
   position: absolute;
   left: 50%;
@@ -193,6 +193,6 @@
   background-color: #dc4b28;
 }
 
-.collapsible-content-alt summary:hover .accordion__title::after {
+.collapsible-content-alt-container summary:hover .accordion__title::after {
   width: 60%;
 }
