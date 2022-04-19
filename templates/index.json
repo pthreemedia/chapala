@@ -409,6 +409,42 @@
         "padding_bottom": 36
       }
     },
+    "16503939747598204d": {
+      "type": "rich-text",
+      "blocks": {
+        "1650393974c5f0d78e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Stores",
+            "heading_size": "h2",
+            "font_color": ""
+          }
+        },
+        "1650393974c5f0d78e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our SeaVees stores are a window into the beginnings of our brand—our first and second life—in sunny California. They’re a celebration of SeaVees unique path across the Pacific and back to its original home in California—the state where dreams come true, or in our case, have a second chance.<\/p>",
+            "use_heading_font": false,
+            "font_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "1650393974c5f0d78e-0",
+        "1650393974c5f0d78e-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "is_page_header": false,
+        "mobile_content_align": "center",
+        "desktop_content_align": "center",
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "margin_top": 76,
+        "margin_bottom": 0
+      }
+    },
     "164981923618e4f011": {
       "type": "collapsible-content-alt",
       "blocks": {
@@ -433,22 +469,34 @@
             "row_content": "<p>A reclaimed 1940s-era cottage that anchors the historic Lido Marina on the Balboa Peninsula side of Newport Bay.<\/p><p><strong>Phone<\/strong>: <a href=\"tel:+19494238077\" title=\"tel:+19494238077\">(949) 423-8077<\/a><\/p><p><strong>Address:<\/strong> <a href=\"https:\/\/goo.gl\/maps\/GkqSp9xRwGdDNn5Y7\">3377 Via Lido, Newport Beach, CA 92663<\/a><\/p><p><a href=\"\/pages\/stores\" title=\"Stores\">View Hours & Information<\/a><\/p>",
             "page": ""
           }
+        },
+        "fbd89d45-25db-4d13-b163-4495e9103151": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Mill Valley",
+            "image_ratio": "adapt",
+            "icon": "none",
+            "row_content": "<p>Opening Summer 2022.<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "1649819235f82c2aea-0",
-        "1649819235f82c2aea-1"
+        "1649819235f82c2aea-1",
+        "fbd89d45-25db-4d13-b163-4495e9103151"
       ],
       "settings": {
         "caption": "",
-        "heading": "Our Stores",
+        "heading": "",
         "heading_size": "h2",
         "heading_alignment": "center",
         "layout": "none",
         "color_scheme": "background-1",
         "container_color_scheme": "background-2",
         "open_first_collapsible_row": false,
-        "padding_top": 68,
+        "padding_top": 36,
         "padding_bottom": 0
       }
     }
@@ -463,6 +511,7 @@
     "1649740012c626c04c",
     "16497990090566f2cc",
     "16470178216c89dbf8",
+    "16503939747598204d",
     "164981923618e4f011"
   ]
 }
