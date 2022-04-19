@@ -1432,12 +1432,12 @@ a.product__text {
   padding-top: 0;
 }
 
-.product-reviews .junip-product-review-summary-container {
-  justify-content: center; }
-
-.product-reviews .junip-container-sm .junip-product-review-summary-container {
+.product-reviews .junip-traits-container {
   display: none;
 }
+
+.product-reviews .junip-product-review-summary-container {
+  justify-content: center; }
 
 .product-reviews .junip-btn.junip-btn-sm {
   font-size: 1.4rem;
