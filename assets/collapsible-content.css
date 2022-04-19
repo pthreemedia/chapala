@@ -179,20 +179,3 @@
 .collapsible-content-alt-container .accordion__content {
   margin-bottom: 3rem;
 }
-
-.collapsible-content-alt-container summary .accordion__title::after {
-  transition: width .5s;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 0.75rem;
-  content: '';
-  display: inline-block;
-  width: 0%;
-  height: 1px;
-  background-color: #dc4b28;
-}
-
-.collapsible-content-alt-container summary:hover .accordion__title::after {
-  width: 60%;
-}
