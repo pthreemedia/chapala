@@ -1435,7 +1435,7 @@ a.product__text {
 .product-reviews .junip-product-review-summary-container {
   justify-content: center; }
 
-.product-reviews .junip-container-sm .junip-product-review-summary-container {
+.product-reviews .junip-traits-container {
   display: none;
 }
 
