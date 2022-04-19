@@ -292,9 +292,9 @@ body,
 .color-inverse,
 .color-accent-1,
 .color-accent-2 {
-  color: rgba(var(--color-foreground), 0.95);
+  color: rgba(var(--color-foreground), 1);
   background-color: rgb(var(--color-background));
-  letter-spacing: 0;
+  letter-spacing: 0.02rem;
   line-height: 2.8rem;
   font-size: 1.6rem;
 }

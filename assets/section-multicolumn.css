@@ -82,7 +82,7 @@
 }
 
 .multicolumn-card__info > :nth-child(2) {
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .multicolumn-list__item.center .media--adapt,
@@ -210,7 +210,7 @@
 .multicolumn-card__info .link {
   text-decoration: none;
   font-size: inherit;
-  margin-top: 1.5rem;
+  margin-top: 2rem;
 }
 
 .multicolumn-card__info .icon-wrap {
