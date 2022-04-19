@@ -15,7 +15,7 @@
         "1648673671d11f3268-1": {
           "type": "text",
           "settings": {
-            "text": "Born in 1964. Rediscovered in 2008.",
+            "text": "A consciously-crafted, once-forgotten classic.",
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
           }
@@ -23,12 +23,12 @@
         "1648673671d11f3268-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Best Sellers",
+            "button_label_1": "Shop Womens",
             "button_link_1": "shopify:\/\/collections\/womens-best-sellers",
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary": false,
-            "use_arrow_link": true,
+            "button_label_2": "Shop Mens",
+            "button_link_2": "shopify:\/\/collections\/mens-best-sellers",
+            "button_style_secondary": true,
+            "use_arrow_link": false,
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
           }
@@ -46,8 +46,8 @@
         "image_desktop": "shopify:\/\/shop_images\/HP_Hero-Desktop.png",
         "image_mobile": "shopify:\/\/shop_images\/seavees_mobile_header_411111.jpg",
         "desktop_text_box_vertical_position": "center",
-        "desktop_text_box_horizontal_position": "flex-start",
-        "desktop_text_alignment": "left",
+        "desktop_text_box_horizontal_position": "center",
+        "desktop_text_alignment": "center",
         "adapt_height_first_image": true,
         "text_image_separate": false
       }
