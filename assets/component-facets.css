@@ -1067,7 +1067,7 @@ input.mobile-facets__checkbox {
   }
 
   .facets-container-drawer .mobile-facets__wrapper {
-    width: calc(40% - 2rem);
+    width: calc(50% - 2rem);
   }
 
   .facets-container-drawer .facets__form {
