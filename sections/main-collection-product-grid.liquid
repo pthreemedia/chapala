@@ -194,7 +194,8 @@
                                       show_quick_add: section.settings.enable_quick_add,
                                       section_id: section.id,
                                       show_swatches: section.settings.show_swatches,
-                                      show_condensed_title: section.settings.show_condensed_title
+                                      show_condensed_title: section.settings.show_condensed_title,
+                                      show_availability: section.settings.show_availability
                                     %}
                                   </li>
                                 {% endif %}
@@ -255,7 +256,8 @@
                           show_quick_add: section.settings.enable_quick_add,
                           section_id: section.id,
                           show_swatches: section.settings.show_swatches,
-                          show_condensed_title: section.settings.show_condensed_title
+                          show_condensed_title: section.settings.show_condensed_title,
+                          show_availability: section.settings.show_availability
                         %}
                       </li>
                     {% endunless %}
@@ -348,6 +350,12 @@
       "id": "show_swatches",
       "default": false,
       "label": "Show swatches"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_availability",
+      "default": false,
+      "label": "Show availability"
     },
     {
       "type": "checkbox",
