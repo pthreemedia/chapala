@@ -16,6 +16,7 @@
     - show_swatches: {Boolean} Shows card swatches. Default: false
     - show_quick_add: {Boolean} Show the quick add button.
     - section_id: {String} The ID of the section that contains this card.
+    - show_availability: {Boolean} Shows size availabilty on the collection page.
 
     Usage:
     {% render 'card-product', show_vendor: section.settings.show_vendor %}
@@ -237,6 +238,54 @@
           {%- endif -%}
         </div>
       </div>
+      {% if show_availability %}
+        {% for option in card_product.options_with_values %}
+          {% if option.name contains 'Size' %}
+            <div class="product-card-availability">
+    
+              {% for value in option.values %}
+                {% assign optionDisabled = true %}
+                  {% for v in card_product.variants %}
+                    {% if v.option1 == value and v.available %}
+                      {% assign optionDisabled = false %}
+                      {% break %}
+                    {% endif %}
+                {% if v.option2 == value and v.available %}
+                  {% assign optionDisabled = false %}
+                  {% break %}
+                {% endif %}
+                {% if v.option3 == value and v.available %}
+                  {% assign optionDisabled = false %}
+                  {% break %}
+                {% endif %}
+              {% endfor %}
+    
+                <a
+                  class="product-card-availability-option {% if optionDisabled %} product-card-availability-option-disabled{% endif %}"
+                  type="button"
+                  value="{{value}}"
+                  data-size="{{ value | remove: 'Mens' | remove: 'Womens' | remove: 'Kids' | remove: 'Little' | remove: 'Big' | replace: ' ', '' }}"
+                  href=" {{ product_card_product.url }}"
+                >
+                  {% if value == 'X-Small' %}
+                  XS
+                  {% elsif value == 'Small' %}
+                  S
+                  {% elsif value == 'Medium' %}
+                  M
+                  {% elsif value == 'Large' %}
+                  L
+                  {% elsif value == 'X-Large' %}
+                  XL
+                  {% else %}
+                  {{ value | remove: 'Mens ' | remove: 'Womens ' | remove: 'Kids ' | remove: 'Little ' | remove: 'Big ' }}
+                  {% endif %}
+                </a>
+              {% endfor %}
+            </div>    
+          {% endif %}
+        {% endfor %}
+      {% endif %}
     </div>
   </div>
 {%- else -%}

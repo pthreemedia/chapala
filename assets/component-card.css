@@ -13,7 +13,6 @@
 .card:not(.ratio) {
   display: flex;
   flex-direction: column;
-  height: 100%;
 }
 
 .card--card {
@@ -352,3 +351,41 @@ collection-swatch {
   }
 }
 /* End of swatch */
+
+/* Availablity */
+.product-card-availability {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem 10% 0;
+}
+
+.product-card-availability-option {
+  border: 0.1rem solid rgba(var(--color-foreground), 1);
+  border-radius: 50%;
+  background-color: rgb(var(--color-background));
+  color: rgb(var(--color-foreground));
+  display: inline-flex;
+  height: 3.5rem;
+  width: 3.5rem;
+  align-items: center;
+  justify-content: center;
+  margin: 0.7rem 0.5rem 0.2rem 0;
+  font-size: 1.2rem;
+  line-height: 1.4;
+  transition: border var(--duration-short) ease;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+.product-card-availability-option:hover, 
+.underline-links-hover:hover .product-card-availability-option {
+  text-decoration: none;
+}
+
+.product-card-availability-option-disabled  {
+  border: 0.1rem solid #aaa;
+  color: #aaa;
+  text-decoration: line-through;
+}
