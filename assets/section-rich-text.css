@@ -48,6 +48,9 @@
   .rich-text__blocks {
     max-width: 120rem;
   }
+  .rich-text--narrow .rich-text__blocks {
+    max-width: 75rem;
+  }
 }
 
 /* Blocks */

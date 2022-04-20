@@ -120,6 +120,7 @@
       "settings": {
         "color_scheme": "accent-2",
         "full_width": true,
+        "narrow": false,
         "is_page_header": false,
         "mobile_content_align": "center",
         "desktop_content_align": "center",
@@ -156,6 +157,7 @@
       "settings": {
         "color_scheme": "background-2",
         "full_width": true,
+        "narrow": true,
         "is_page_header": false,
         "mobile_content_align": "left",
         "desktop_content_align": "center",
@@ -192,6 +194,7 @@
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
+        "narrow": false,
         "is_page_header": false,
         "mobile_content_align": "center",
         "desktop_content_align": "center",
@@ -355,6 +358,7 @@
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
+        "narrow": true,
         "is_page_header": false,
         "mobile_content_align": "center",
         "desktop_content_align": "center",
@@ -588,6 +592,7 @@
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
+        "narrow": false,
         "is_page_header": false,
         "mobile_content_align": "center",
         "desktop_content_align": "center",
@@ -745,6 +750,7 @@
       "settings": {
         "color_scheme": "background-2",
         "full_width": true,
+        "narrow": false,
         "is_page_header": false,
         "mobile_content_align": "center",
         "desktop_content_align": "center",

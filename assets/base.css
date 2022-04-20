@@ -23,6 +23,12 @@
   --gradient-background: var(--gradient-base-background-2);
 }
 
+.color-background-3 {
+  --color-foreground: var(--color-base-text);
+  --color-background: var(--color-base-background-3);
+  --gradient-background: var(--gradient-base-background-3);
+}
+
 .color-inverse {
   --color-foreground: var(--color-base-background-1);
   --color-background: var(--color-base-text);
@@ -41,6 +47,12 @@
   --gradient-background: var(--gradient-base-accent-2);
 }
 
+.color-accent-3 {
+  --color-foreground: var(--color-base-solid-button-labels);
+  --color-background: var(--color-base-accent-3);
+  --gradient-background: var(--gradient-base-accent-3);
+}
+
 .color-foreground-outline-button {
   --color-foreground: var(--color-base-outline-button-labels);
 }
@@ -53,6 +65,10 @@
   --color-foreground: var(--color-base-accent-2);
 }
 
+.color-foreground-accent-3 {
+  --color-foreground: var(--color-base-accent-3);
+}
+
 :root,
 .color-background-1 {
   --color-link: var(--color-base-outline-button-labels);
@@ -62,7 +78,8 @@
 .color-background-2,
 .color-inverse,
 .color-accent-1,
-.color-accent-2 {
+.color-accent-2,
+.color-accent-3 {
   --color-link: var(--color-foreground);
   --alpha-link: 0.7;
 }
@@ -76,9 +93,11 @@
 }
 
 .color-background-2,
+.color-background-3
 .color-inverse,
 .color-accent-1,
-.color-accent-2 {
+.color-accent-2,
+.color-accent-3 {
   --color-button: var(--color-foreground);
   --color-button-text: var(--color-background);
 }
@@ -92,7 +111,8 @@
 
 .color-background-2 .button--secondary,
 .color-accent-1 .button--secondary,
-.color-accent-2 .button--secondary {
+.color-accent-2 .button--secondary,
+.color-accent-3 .button--secondary {
   --color-button: var(--color-background);
   --color-button-text: var(--color-foreground);
 }
@@ -112,7 +132,8 @@
 .color-background-2 .button--tertiary,
 .color-inverse .button--tertiary,
 .color-accent-1 .button--tertiary,
-.color-accent-2 .button--tertiary {
+.color-accent-2 .button--tertiary,
+.color-accent-3 .button--tertiary {
   --color-button: var(--color-foreground);
   --color-button-text: var(--color-foreground);
 }
@@ -125,9 +146,11 @@
 }
 
 .color-background-2,
+.color-background-3,
 .color-inverse,
 .color-accent-1,
-.color-accent-2 {
+.color-accent-2,
+.color-accent-3 {
   --color-badge-background: var(--color-background);
   --color-badge-border: var(--color-background);
   --alpha-badge-border: 1;
@@ -159,6 +182,10 @@
 
 .color-icon-accent-2 {
   --color-icon: rgb(var(--color-base-accent-2));
+}
+
+.color-icon-accent-3 {
+  --color-icon: rgb(var(--color-base-accent-3));
 }
 
 .color-icon-outline-button {
@@ -289,9 +316,11 @@ html.no-js .no-js-hidden {
 body,
 .color-background-1,
 .color-background-2,
+.color-background-3,
 .color-inverse,
 .color-accent-1,
-.color-accent-2 {
+.color-accent-2,
+.color-accent-3 {
   color: rgba(var(--color-foreground), 1);
   background-color: rgb(var(--color-background));
   letter-spacing: 0.02rem;
@@ -306,7 +335,8 @@ body,
   .color-background-3,
   .color-inverse,
   .color-accent-1,
-  .color-accent-2 {
+  .color-accent-2,
+  .color-accent-3 {
     font-size: 1.6rem;
   }
 }

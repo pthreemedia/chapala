@@ -23,7 +23,7 @@
 {%- endstyle -%}
 
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
-  <div class="rich-text content-container color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding {{ section.settings.mobile_content_align }}-mobile {{ section.settings.desktop_content_align }}-desktop">
+  <div class="rich-text content-container color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} rich-text--full-width content-container--full-width{% endif %}{% if section.settings.narrow %} rich-text--narrow{% endif %} section-{{ section.id }}-padding {{ section.settings.mobile_content_align }}-mobile {{ section.settings.desktop_content_align }}-desktop">
     <div class="rich-text__blocks">
       {%- for block in section.blocks -%}
         {%- case block.type -%}
@@ -96,6 +96,12 @@
       "id": "full_width",
       "default": true,
       "label": "t:sections.rich-text.settings.full_width.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "narrow",
+      "default": false,
+      "label": "Set max with of content to 75rem on desktop"
     },
     {
       "type": "checkbox",
