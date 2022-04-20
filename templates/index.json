@@ -174,7 +174,7 @@
         "column2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HP-Womens_Tile_800x1000_37c4e3d0-0fd5-4abe-93be-ba63057bad59.jpg",
+            "image": "shopify:\/\/shop_images\/HP-Womens_Tile_800x1000_610cc070-bb97-404e-a602-1cb03c3cd9ba.jpg",
             "title": "Womens Shoes",
             "text": "",
             "link_label": "Shop Now",
@@ -185,7 +185,7 @@
         "column1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HP-Mens_Tile_800x1000_eb4447ac-2530-4793-8885-1e0d3db7d947.jpg",
+            "image": "shopify:\/\/shop_images\/HP-Socks_Tile_800x1000_0010_M_Hawthorneslipon_Ecru_64_of_108.jpg",
             "title": "Mens Shoes",
             "text": "",
             "link_label": "Shop Now",
@@ -321,7 +321,7 @@
         "1649740012e29d09f7-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We all have dreams. And sometimes they end up on a shelf.<br\/><\/p><p>Our brand was quite literally put on a shelf for nearly 40 years before it was rediscovered at a second hand shop in Tokyo and brought back to life in California—the state where dreams come true, or in our case, have a second chance.<\/p><p>SeaVees. Rediscover the dream.<\/p>",
+            "text": "<p>We all have dreams. And sometimes they end up on a shelf.<br\/><\/p><p>Our brand was quite literally put on a shelf for nearly 40 years before it was rediscovered at a second hand shop in Tokyo and brought back to life in California—the state where dreams come true, or in our case, have a second chance.<\/p><p>SeaVees®. Rediscover the dream.<\/p>",
             "use_heading_font": true,
             "font_color": "#3d93e1"
           }

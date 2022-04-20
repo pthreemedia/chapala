@@ -62,7 +62,7 @@
         "1648504248f2609f47-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Our SeaVees stores are a window into the beginnings of our brand—our first and second life—in sunny California. They’re a celebration of SeaVees unique path across the Pacific and back to its original home in California—the state where dreams come true, or in our case, have a second chance. <\/p><p>Our community hubs lovingly celebrate the Golden State in its golden age, and today. Each shop is a unique immersive experience with a selection of carefully curated gifts from local makers, and of course what got it all started—our consciously crafted, once-forgotten classic casual sneakers.<\/p>",
+            "text": "<p>Our SeaVees stores are a window into the beginnings of our brand—our first and second life—in sunny California. They’re a celebration of SeaVees unique path across the Pacific and back to its original home in California—the state where dreams come true, or in our case, have a second chance.<\/p><p>Our community hubs are each uniquely their own—with a selection of carefully curated items from local makers, and of course what got it all started—our consciously crafted, once-forgotten classic casual sneakers.<\/p>",
             "use_heading_font": false,
             "font_color": ""
           }
@@ -75,6 +75,7 @@
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
+        "narrow": true,
         "is_page_header": true,
         "mobile_content_align": "center",
         "desktop_content_align": "center",
@@ -201,6 +202,7 @@
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
+        "narrow": false,
         "is_page_header": false,
         "mobile_content_align": "left",
         "desktop_content_align": "left",
@@ -288,6 +290,7 @@
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
+        "narrow": false,
         "is_page_header": false,
         "mobile_content_align": "left",
         "desktop_content_align": "left",
@@ -322,8 +325,9 @@
         "1648504776f160d1fb-1"
       ],
       "settings": {
-        "color_scheme": "inverse",
+        "color_scheme": "accent-3",
         "full_width": true,
+        "narrow": true,
         "is_page_header": false,
         "mobile_content_align": "center",
         "desktop_content_align": "center",

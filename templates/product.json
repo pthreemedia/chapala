@@ -35,6 +35,12 @@
             "select_soldout_type": "none"
           }
         },
+        "0096abdf-d412-4354-8603-72bf837de1d2": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.metafields.seavees.note != blank %}\n<p class=\"product-back-in-stock\">{{ product.metafields.seavees.note }}\n{% endif %}"
+          }
+        },
         "6cb779ce-787f-4653-aca4-8ba527bdb49a": {
           "type": "back_in_stock",
           "settings": {
@@ -110,6 +116,7 @@
         "price",
         "42a82d44-4510-48f4-944a-b6fa676826af",
         "variant_picker",
+        "0096abdf-d412-4354-8603-72bf837de1d2",
         "6cb779ce-787f-4653-aca4-8ba527bdb49a",
         "quantity_selector",
         "buy_buttons",
