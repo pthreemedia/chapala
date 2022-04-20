@@ -210,7 +210,6 @@ slider-component.slider-component-full-width {
 .slider::-webkit-scrollbar {
   height: 0.5rem;
   width: 0.5rem;
-  display: none;
 }
 
 .no-js .slider {

@@ -86,7 +86,7 @@
 /* Grouped collection */
 
 .grouped-collection-container {
-  padding: 3rem 0 7rem;
+  padding: 7rem 0 7rem;
 }
 
 .grouped-collection-header {
@@ -100,6 +100,9 @@
 }
 
 @media screen and (max-width: 749px) {
+  .grouped-collection-container {
+    padding: 5rem 0 1rem;
+  }
   .grouped-collection-header h2 {
     margin-bottom: 0;
   }
