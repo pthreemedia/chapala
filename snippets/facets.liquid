@@ -436,7 +436,7 @@
               {%- for filter in results.filters -%}
                 {% case filter.type %}
                 {% when 'boolean' or 'list' %}
-                  <details id="Details-Mobile-{{ forloop.index }}-{{ section.id }}" class="mobile-facets__details js-filter" data-index="mobile-{{ forloop.index }}">
+                  <details id="Details-Mobile-{{ forloop.index }}-{{ section.id }}" class="mobile-facets__details js-filter {% if filter.label == 'Availability' %} hidden{% endif %}" data-index="mobile-{{ forloop.index }}">
                     <summary class="mobile-facets__summary focus-inset">
                       <div>
                         <span>{{ filter.label | escape }}</span>
@@ -450,30 +450,87 @@
                         {{ filter.label | escape }}
                       </button>
                       <ul class="mobile-facets__list list-unstyled" role="list">
-                        {%- for value in filter.values -%}
-                          <li class="mobile-facets__item list-menu__item">
-                            <label for="Filter-{{ filter.label | escape }}-mobile-{{ forloop.index }}" class="mobile-facets__label{% if value.count == 0 and value.active == false %} mobile-facets__label--disabled{% endif %}">
-                              <input class="mobile-facets__checkbox" type="checkbox" name="{{ value.param_name }}" value="{{ value.value }}" id="Filter-{{ filter.label | escape }}-mobile-{{ forloop.index }}"
-                                {% if value.active %}checked{% endif %}
-                                {% if value.count == 0 and value.active == false %}disabled{% endif %}
-                              >
 
-                              <span class="mobile-facets__highlight"></span>
+                        {% comment %}
+                          Filter logic exclusize for size
+                          Sorts the size values in {{ ordered_size_list }}
+                          Then, for each {{ ordered_size_list }} value, it compares itself with the original {{ filter.values }} elements
+                          If it finds a match (values are equal), then renders on the filter component, and breaks the loop
+                        {% endcomment %}
+                        {% if filter.param_name contains "size" %}
+                          {% assign ordered_size_list = "" %}
+                          {% for value in filter.values %}
+                            {% assign current_val = value.value | split: " " | last | plus: 0 %}
+                            {% if current_val < 10 %}
+                              {% assign current_val = current_val | prepend: "0" %}
+                            {% endif %}
 
-                              <svg width="1.6rem" height="1.6rem" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
-                                <rect width="16" height="16" stroke="currentColor" fill="none" stroke-width="1"></rect>
-                              </svg>
+                            {% assign ordered_size_list = ordered_size_list | append: current_val | append: ", " %}
+                          {% endfor %}
+                          {% assign ordered_size_list = ordered_size_list | split: ", " | sort %}
 
-                              <svg class="icon icon-checkmark" width="1.1rem" height="0.7rem" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1.5 3.5L2.83333 4.75L4.16667 6L9.5 1" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" />
-                              </svg>
+                          {%- for pivot in ordered_size_list -%}
+                            {%- for value in filter.values -%}
+                              {% assign filterVal = value.value | split: " " | last | plus: 0 %}
+                              {% assign pivotVal = pivot | plus: 0 %}
+                              {% if filterVal == pivotVal %}
+                                <li class="mobile-facets__item list-menu__item">
+                                  <label for="Filter-{{ filter.label | escape }}-mobile-{{ forloop.index }}" class="mobile-facets__label{% if value.count == 0 and value.active == false %} mobile-facets__label--disabled{% endif %}">
+                                    <input class="mobile-facets__checkbox" type="checkbox" name="{{ value.param_name }}" value="{{ value.value }}" id="Filter-{{ filter.label | escape }}-mobile-{{ forloop.index }}"
+                                      {% if value.active %}checked{% endif %}
+                                      {% if value.count == 0 and value.active == false %}disabled{% endif %}
+                                    >
 
-                              
-                              <span aria-hidden="true">{{ value.label | escape }} ({{ value.count }})</span>
-                              <span class="visually-hidden">{{ value.label | escape }} ({% if value.count == '1' %}{{ 'products.facets.product_count_simple.one' | t: count: value.count }}{% else %}{{ 'products.facets.product_count_simple.other' | t: count: value.count }}{% endif %})</span>
-                            </label>
-                          </li>
-                        {%- endfor -%}
+                                    <span class="mobile-facets__highlight"></span>
+
+                                    <svg width="1.6rem" height="1.6rem" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+                                      <rect width="16" height="16" stroke="currentColor" fill="none" stroke-width="1"></rect>
+                                    </svg>
+
+                                    <svg class="icon icon-checkmark" width="1.1rem" height="0.7rem" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M1.5 3.5L2.83333 4.75L4.16667 6L9.5 1" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+
+                                    <span aria-hidden="true">{{ value.label | escape }}{% unless filter.label == 'Size' %} ({{ value.count }}){% endunless %}</span>
+                                    {% unless filter.label == 'Size' %}
+                                      <span class="visually-hidden">{{ value.label | escape }} ({% if value.count == '1' %}{{ 'products.facets.product_count_simple.one' | t: count: value.count }}{% else %}{{ 'products.facets.product_count_simple.other' | t: count: value.count }}{% endif %})</span>
+                                    {% endunless %}
+                                  </label>
+                                </li>
+                                {% break %}
+                              {% endif %}
+                            {%- endfor -%}
+                          {%- endfor -%}
+                        {% comment %}Rest of the case (other than 'size' filter){% endcomment %}
+                        {% else %}
+                          {%- for value in filter.values -%}
+                            <li class="mobile-facets__item list-menu__item">
+                              <label for="Filter-{{ filter.label | escape }}-mobile-{{ forloop.index }}" class="mobile-facets__label{% if value.count == 0 and value.active == false %} mobile-facets__label--disabled{% endif %}">
+                                <input class="mobile-facets__checkbox" type="checkbox" name="{{ value.param_name }}" value="{{ value.value }}" id="Filter-{{ filter.label | escape }}-mobile-{{ forloop.index }}"
+                                  {% if value.active %}checked{% endif %}
+                                  {% if value.count == 0 and value.active == false %}disabled{% endif %}
+                                >
+
+                                <span class="mobile-facets__highlight"></span>
+
+                                <svg width="1.6rem" height="1.6rem" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+                                  <rect width="16" height="16" stroke="currentColor" fill="none" stroke-width="1"></rect>
+                                </svg>
+
+                                <svg class="icon icon-checkmark" width="1.1rem" height="0.7rem" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M1.5 3.5L2.83333 4.75L4.16667 6L9.5 1" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+
+                                
+                                  <span aria-hidden="true">{{ value.label | escape }}{% unless filter.label == 'Size' %} ({{ value.count }}){% endunless %}</span>
+                                  {% unless filter.label == 'Size' %}
+                                    <span class="visually-hidden">{{ value.label | escape }} ({% if value.count == '1' %}{{ 'products.facets.product_count_simple.one' | t: count: value.count }}{% else %}{{ 'products.facets.product_count_simple.other' | t: count: value.count }}{% endif %})</span>
+                                  {% endunless %}
+                                
+                              </label>
+                            </li>
+                          {%- endfor -%}
+                        {% endif %}
                       </ul>
 
                       <div class="no-js-hidden mobile-facets__footer gradient">
