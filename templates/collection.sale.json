@@ -20,16 +20,13 @@
           "type": "heading",
           "settings": {
             "heading": "Last Call Sale",
-            "heading_size": "h1",
-            "font_color": ""
+            "heading_size": "h1"
           }
         },
         "16488357932f2433e4-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Our Last Call Sale is an opportunity to find styles from previous seasons that are available at a discount in limited quantities.<\/p>",
-            "use_heading_font": false,
-            "font_color": ""
+            "text": "<p>Our Last Call Sale is an opportunity to find styles from previous seasons that are available at a discount in limited quantities.<\/p>"
           }
         }
       },
@@ -40,14 +37,11 @@
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
-        "narrow": false,
         "is_page_header": false,
         "mobile_content_align": "center",
         "desktop_content_align": "center",
         "padding_top": 40,
-        "padding_bottom": 32,
-        "margin_top": 0,
-        "margin_bottom": 0
+        "padding_bottom": 32
       }
     },
     "1648835822b09e3964": {
@@ -82,7 +76,6 @@
       ],
       "settings": {
         "stack_on_mobile": false,
-        "show_background": true,
         "padding_top": 0,
         "padding_bottom": 0,
         "margin_top": 0,
@@ -92,7 +85,7 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
-        "products_per_page": 48,
+        "products_per_page": 60,
         "columns_desktop": 4,
         "grouped_collection": false,
         "hide_sale_products": false,
