@@ -269,6 +269,16 @@
       <span class="junip-store-key" data-store-key="EXFxb6qQmDgtQavMHpRJv8jL"></span>
     {% endif %}
 
+    <!-- Klaviyo Add To Cart Snippet -->
+    {% if template contains 'product' %}
+      <script type="text/javascript">
+        var _learnq = _learnq || [];
+          document.getElementById("AddToCart").addEventListener('click',function (){
+             _learnq.push(['track', 'Added to Cart', item]);
+          });
+      </script>
+    {% endif %}
+
     <!-- ReSci start (Inserted on: 2022-03-10 20:47:47 UTC) -->
       {% render 'resci-main.v1' %}
     <!-- ReSci end -->  
