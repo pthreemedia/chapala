@@ -414,12 +414,13 @@ body,
 }
 
 .text-body {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   letter-spacing: 0.06rem;
   line-height: calc(1 + 0.8 / var(--font-body-scale));
   font-family: var(--font-body-family);
   font-style: var(--font-body-style);
   font-weight: var(--font-body-weight);
+  text-transform: none;
 }
 
 h1,
@@ -467,6 +468,7 @@ h6,
 h1,
 .h1 {
   font-size: calc(var(--font-heading-scale) * 4.8rem);
+  text-transform: none;
 }
 
 @media only screen and (min-width: 750px) {
@@ -479,6 +481,7 @@ h1,
 h2,
 .h2 {
   font-size: calc(var(--font-heading-scale) * 3.2rem);
+  text-transform: none;
 }
 
 @media only screen and (min-width: 750px) {
@@ -491,6 +494,7 @@ h2,
 h3,
 .h3 {
   font-size: calc(var(--font-heading-scale) * 2.8rem);
+  text-transform: none;
 }
 
 @media only screen and (min-width: 750px) {
@@ -504,6 +508,8 @@ h4,
 .h4 {
   font-size: calc(var(--font-heading-scale) * 2rem);
   letter-spacing: calc(var(--font-heading-scale) * 0.03rem );
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 @media only screen and (min-width: 750px) {
@@ -515,13 +521,14 @@ h4,
 
 h5,
 .h5 {
-  font-size: calc(var(--font-heading-scale) * 1.6rem);
+  font-size: calc(var(--font-heading-scale) * 2.2rem);
+  text-transform: none;
 }
 
 @media only screen and (min-width: 750px) {
   h5,
   .h5 {
-    font-size: calc(var(--font-heading-scale) * 1.6rem);
+    font-size: calc(var(--font-heading-scale) * 2.2rem);
   }
 }
 
@@ -667,7 +674,7 @@ table:not([class]) th {
 }
 
 .light {
-  opacity: 0.75;
+  opacity: 0.85;
   font-weight: 400;
 }
 

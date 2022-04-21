@@ -289,3 +289,6 @@
   }
 }
 
+.article-card .card__content {
+  padding: 1rem 3rem 3rem;
+}

@@ -89,7 +89,7 @@
               {%- endif -%}
               <div class="multicolumn-card__info {% if block.settings.info_on_image == true %} multicolumn-card__info-absolute{% endif %}">
                 {%- if block.settings.title != blank -%}
-                  <h3>{{ block.settings.title | escape }}</h3>
+                  <h3 class="{{ block.settings.font_style }}">{{ block.settings.title | escape }}</h3>
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
                   <div class="rte">{{ block.settings.text }}</div>
@@ -356,6 +356,22 @@
           "id": "title",
           "default": "Column",
           "label": "t:sections.multicolumn.blocks.column.settings.title.label"
+        },
+        {
+          "type": "select",
+          "id": "font_style",
+          "options": [
+            {
+              "value": "h3",
+              "label": "H3"
+            },
+            {
+              "value": "h4",
+              "label": "H4"
+            }
+          ],
+          "default": "h3",
+          "label": "Title font style"
         },
         {
           "type": "richtext",

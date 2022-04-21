@@ -166,8 +166,8 @@
                                         assign has_content = "Womens"
                                     elsif link.title == "Kids" and section.settings.kids_featured_content_title != blank
                                         assign has_content = "Kids"
-                                    elsif link.title == "Discover" and section.settings.discover_featured_content_title != blank
-                                        assign has_content = "Discover"
+                                    elsif link.title == "Rediscover the Dream" and section.settings.discover_featured_content_title != blank
+                                        assign has_content = "Rediscover the Dream"
                                     endif
                                   %}
                                     
@@ -181,7 +181,7 @@
                                             {{ section.settings.womens_featured_content_title }}
                                           {% elsif link.title == "Kids" and section.settings.kids_featured_content_title != blank %}
                                             {{ section.settings.kids_featured_content_title }}
-                                          {% elsif link.title == "Discover" and section.settings.discover_featured_content_title != blank %}
+                                          {% elsif link.title == "Rediscover the Dream" and section.settings.discover_featured_content_title != blank %}
                                             {{ section.settings.discover_featured_content_title }}
                                           {% endif %}
                                           {% render 'icon-arrow' %}
@@ -196,7 +196,7 @@
                                               {{ section.settings.wommens_featured_content_title }}
                                             {% elsif link.title == "Kids" and section.settings.kids_featured_content_title != blank %}
                                               {{ section.settings.kids_featured_content_title }}
-                                            {% elsif link.title == "Discover" and section.settings.discover_featured_content_title != blank %}
+                                            {% elsif link.title == "Rediscover the Dream" and section.settings.discover_featured_content_title != blank %}
                                               {{ section.settings.discover_featured_content_title }}
                                             {% endif %}
                                           </button>
@@ -525,21 +525,21 @@
                                 assign has_content = "Womens"
                             elsif link.title == "Kids" and section.settings.kids_featured_content_title != blank
                                 assign has_content = "Kids"
-                            elsif link.title == "Discover" and section.settings.discover_featured_content_title != blank
-                                assign has_content = "Discover"
+                            elsif link.title == "Rediscover the Dream" and section.settings.discover_featured_content_title != blank
+                                assign has_content = "Rediscover the Dream"
                             endif
                           %}
                             
                           {% if has_content == link.title %}
                             <li class="featured-menu-desktop-container">
-                              <div class="mega-menu__link link font-body-bold featured-menu-desktop-header">
+                              <div class="mega-menu__link link font-body-bold featured-menu-desktop-header smega-menu__link--level-2">
                                 {% if link.title == "Mens" and section.settings.mens_featured_content_title != blank %}
                                   {{ section.settings.mens_featured_content_title }}
                                 {% elsif link.title == "Womens" and section.settings.womens_featured_content_title != blank %}
                                   {{ section.settings.womens_featured_content_title }}
                                 {% elsif link.title == "Kids" and section.settings.kids_featured_content_title != blank %}
                                   {{ section.settings.kids_featured_content_title }}
-                                {% elsif link.title == "Discover" and section.settings.discover_featured_content_title != blank %}
+                                {% elsif link.title == "Rediscover the Dream" and section.settings.discover_featured_content_title != blank %}
                                   {{ section.settings.discover_featured_content_title }}
                                 {% endif %}
                               </div>
@@ -842,7 +842,7 @@
           "type": "text",
           "id": "category",
           "label": "Nest content under category",
-          "info": "Options: Mens, Womens, Kids, Discover (Case Sensitive)"
+          "info": "Options: Mens, Womens, Kids, Rediscover the Dream (Case Sensitive)"
         },
         {
           "type": "text",

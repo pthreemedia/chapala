@@ -13,7 +13,7 @@
           "type": "text",
           "settings": {
             "text": "{{ product.metafields.seavees.gender.value }} \/ {{ product.metafields.seavees.color_name.value }} \/ {{ product.metafields.seavees.material.value }}",
-            "text_style": "uppercase"
+            "text_style": "h5"
           }
         },
         "price": {

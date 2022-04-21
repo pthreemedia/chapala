@@ -35,7 +35,7 @@
               <details class="page-width" id="Details-{{ block.id }}-{{ section.id }}"{% if section.settings.open_first_collapsible_row and forloop.first %} open{% endif %}>
                   <summary id="Summary-{{ block.id }}-{{ section.id }}">
                       {% render 'icon-accordion', icon: block.settings.icon %}
-                      <h4 class="accordion__title h5">
+                      <h4 class="accordion__title h6">
                       {{ block.settings.heading | default: block.settings.page.title }}
                       </h4>
                       {% render 'icon-caret' %}

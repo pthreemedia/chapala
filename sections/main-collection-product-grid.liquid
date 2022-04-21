@@ -146,7 +146,7 @@
                 </div>
               </div>
             {%- else -%}
-            <div class="collection{% if section.settings.filter_type != 'vertical' %} page-width{% endif %}">
+            <div class="collection{% if section.settings.filter_type != 'vertical' %} page-width page-width-desktop{% endif %}">
               <div class="loading-overlay gradient"></div>
                 {% for silhouette in silhouettes_array %}
                   {% assign silhouette_count = 0 %}
@@ -170,7 +170,7 @@
         
                       <slider-component class="slider-mobile-gutter slider-desktop-gutter">
                         {% comment %}{% if section.settings.show_swatches %}{% render 'swatch-background-data', collection: collection %}{% endif %}{% endcomment %}
-                        <ul id="product-grid" data-id="{{ section.id }}" class="
+                        <ul id="Slider-{{ silhouette }}" data-id="{{ section.id }}" class="
                           grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
                           grid--{{ section.settings.columns_desktop }}-col-desktop grid--quarter-max slider slider--mobile grid--peek">
                           {%- for product in collection.products -%}
@@ -181,7 +181,7 @@
                             {% unless product.metafields.seavees.hide_product == true %}
                               {% unless section.settings.hide_sale_products == true and product.metafields.seavees.is_on_sale == true %}
                                 {% if silhouette == product.metafields.seavees.silhouette %}
-                                  <li class="grid__item slider__slide">
+                                  <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="grid__item slider__slide">
                                     {% render 'card-product',
                                       card_product: product,
                                       media_aspect_ratio: section.settings.image_ratio,
@@ -203,7 +203,18 @@
                             {% endunless %}
                           {%- endfor -%}
                         </ul>
-        
+
+                        <div class="slider-buttons no-js-hidden medium-hide">
+                          <button type="button" class="slider-button slider-button--prev" name="previous" aria-label="{{ 'general.slider.previous_slide' | t }}">{% render 'icon-caret' %}</button>
+                          <div class="slider-counter caption">
+                            <span class="slider-counter--current">1</span>
+                            <span aria-hidden="true"> / </span>
+                            <span class="visually-hidden">{{ 'general.slider.of' | t }}</span>
+                            <span class="slider-counter--total">{{ silhouette_count }}</span>
+                          </div>
+                          <button type="button" class="slider-button slider-button--next" name="next" aria-label="{{ 'general.slider.next_slide' | t }}">{% render 'icon-caret' %}</button>
+                        </div>
+
                       </slider-component>
                     </div>
         

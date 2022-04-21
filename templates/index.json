@@ -6,8 +6,8 @@
         "1648673671d11f3268-0": {
           "type": "heading",
           "settings": {
-            "heading": "Rediscover the dream",
-            "heading_2": "",
+            "heading": "A consciously crafted,",
+            "heading_2": "once-forgotten classic.",
             "hide_block_on_mobile": true,
             "hide_block_on_desktop": false
           }
@@ -15,7 +15,7 @@
         "1648673671d11f3268-1": {
           "type": "text",
           "settings": {
-            "text": "A consciously crafted, once-forgotten classic.",
+            "text": "Born in 1964. Rediscovered in 2008.",
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
           }
@@ -43,8 +43,8 @@
         "use_video_background": false,
         "hero_video_desktop": "",
         "hero_video_mobile": "",
-        "image_desktop": "shopify:\/\/shop_images\/HP_Hero-Desktop.png",
-        "image_mobile": "shopify:\/\/shop_images\/seavees_mobile_header_411111.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/desktop_header_211111_25_copy.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/HP-Hero.jpg",
         "desktop_text_box_vertical_position": "center",
         "desktop_text_box_horizontal_position": "center",
         "desktop_text_alignment": "center",
@@ -174,8 +174,9 @@
         "column2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HP-Womens_Tile_800x1000_610cc070-bb97-404e-a602-1cb03c3cd9ba.jpg",
+            "image": "shopify:\/\/shop_images\/HP-Womens_Tile_800x1000_7.jpg",
             "title": "Womens Shoes",
+            "font_style": "h3",
             "text": "",
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/womens-all",
@@ -187,6 +188,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/HP-Socks_Tile_800x1000_0010_M_Hawthorneslipon_Ecru_64_of_108.jpg",
             "title": "Mens Shoes",
+            "font_style": "h3",
             "text": "",
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/mens-all",
@@ -198,6 +200,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/HP-Socks_Tile_800x1000_f5cc64f2-00d3-4285-99c5-606eecfb8e77.jpg",
             "title": "Socks",
+            "font_style": "h3",
             "text": "",
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/socks",
@@ -224,7 +227,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 76,
-        "padding_bottom": 64
+        "padding_bottom": 52
       }
     },
     "164755189301d4a216": {
@@ -372,6 +375,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/seavees_newport_beach_square_111211_2b955e9c-c308-46e9-ba68-595bbe338450.jpg",
             "title": "Our Stores",
+            "font_style": "h3",
             "text": "<p>SeaVees stores are a sunbeamed passage into a 1960s California dream. Community clubhouses that lovingly celebrate the Golden State in its golden age. Each shop is a unique immersive experience inspired by the salt-washed origins of the particular locale.<\/p>",
             "link_label": "Hours & Information",
             "link": "shopify:\/\/pages\/stores",
@@ -383,6 +387,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/about_seavees_133211.jpg",
             "title": "About SeaVees",
+            "font_style": "h3",
             "text": "<p>With a groundbreaking advertising campaign throughout the 1960s, SeaVees pioneered the transformation of the sneaker from gym shoe to casual shoe.<\/p>",
             "link_label": "Learn More",
             "link": "shopify:\/\/pages\/about-seavees",
@@ -425,7 +430,7 @@
         "1650393974c5f0d78e-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Our SeaVees stores are a window into the beginnings of our brand—our first and second life—in sunny California. They’re a celebration of SeaVees unique path across the Pacific and back to its original home in California—the state where dreams come true, or in our case, have a second chance.<\/p>",
+            "text": "<p>Our SeaVees stores are a window into the beginnings of our brand—our first and second life—in sunny California.<\/p>",
             "use_heading_font": false,
             "font_color": ""
           }
@@ -438,7 +443,7 @@
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
-        "narrow": true,
+        "narrow": false,
         "is_page_header": false,
         "mobile_content_align": "center",
         "desktop_content_align": "center",
