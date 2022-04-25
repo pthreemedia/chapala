@@ -37,7 +37,7 @@
         "heading_size": "h2",
         "description": "",
         "description_style": "body",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "outline",
