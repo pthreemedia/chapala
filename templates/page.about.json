@@ -210,8 +210,8 @@
             "title": "Seatrees",
             "font_style": "h4",
             "text": "<p>Since 2020, we’ve supported SeaTrees, an organization dedicated to restoring kelp forests that have the power to reverse climate change. <\/p>",
-            "link_label": "Learn More",
-            "link": "shopify:\/\/pages\/seatrees",
+            "link_label": "",
+            "link": "",
             "info_on_image": false
           }
         },
@@ -222,8 +222,8 @@
             "title": "Mental Wellness center",
             "font_style": "h4",
             "text": "<p>We commit to fighting the stigma, providing support, educating, and advocating for policies that support mental health in our communities.<\/p>",
-            "link_label": "Learn More",
-            "link": "shopify:\/\/pages\/mental-health-awareness-baja-slip-on",
+            "link_label": "",
+            "link": "",
             "info_on_image": false
           }
         },
@@ -233,9 +233,9 @@
             "image": "shopify:\/\/shop_images\/Un_Mar_de_Colores_ffabda2a-92b7-4443-9d47-5c7881824cbc.jpg",
             "title": "Un mar de colores",
             "font_style": "h4",
-            "text": "<p>Un Mar De Colores is an organization that works to bridge the socio-economic gap in surfing for future generation of historically marginalized youth.<\/p>",
-            "link_label": "Learn More",
-            "link": "shopify:\/\/blogs\/journal\/bolinas-boot-field-report-4-un-mar-de-colores",
+            "text": "<p>Un Mar De Colores is an organization that works to bridge the socio-economic gap in surfing for future generations of historically marginalized youth.<\/p>",
+            "link_label": "",
+            "link": "",
             "info_on_image": false
           }
         },
