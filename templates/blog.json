@@ -1,11 +1,88 @@
 {
   "sections": {
+    "1649889485943b7335": {
+      "type": "page-menu",
+      "disabled": true,
+      "blocks": {
+        "1649889485934173b5-0": {
+          "type": "page_menu_link",
+          "settings": {
+            "link_text": "About SeaVees",
+            "link_url": "shopify:\/\/pages\/about-seavees"
+          }
+        },
+        "b327c64e-ff9a-4ea6-8132-f9b76ccf2657": {
+          "type": "page_menu_link",
+          "settings": {
+            "link_text": "Journal",
+            "link_url": "shopify:\/\/blogs\/journal"
+          }
+        },
+        "a624668c-3d42-42a3-bf66-29b4531ba8f9": {
+          "type": "page_menu_link",
+          "settings": {
+            "link_text": "Stores",
+            "link_url": "shopify:\/\/pages\/stores"
+          }
+        }
+      },
+      "block_order": [
+        "1649889485934173b5-0",
+        "b327c64e-ff9a-4ea6-8132-f9b76ccf2657",
+        "a624668c-3d42-42a3-bf66-29b4531ba8f9"
+      ],
+      "settings": {
+        "stack_on_mobile": false,
+        "show_background": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "1648587509be8cc4f4": {
+      "type": "rich-text",
+      "blocks": {
+        "1648587509ab6c5b12-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Journal",
+            "heading_size": "h0",
+            "font_color": ""
+          }
+        },
+        "8c28528d-3b7d-4fd8-83ad-d6f79677629c": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The stories here are dedicated to the underdog. Those of us who have dreams bigger than ourselves, and the determination to see them through. Read on, and dream on.<\/p>",
+            "use_heading_font": false,
+            "font_color": "#193859"
+          }
+        }
+      },
+      "block_order": [
+        "1648587509ab6c5b12-0",
+        "8c28528d-3b7d-4fd8-83ad-d6f79677629c"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "narrow": false,
+        "is_page_header": true,
+        "mobile_content_align": "center",
+        "desktop_content_align": "center",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "main": {
       "type": "main-blog",
       "settings": {
-        "layout": "grid",
+        "layout": "collage",
         "show_image": true,
-        "image_height": "large",
+        "image_height": "medium",
         "show_date": false,
         "show_author": false,
         "padding_top": 36,
@@ -14,6 +91,8 @@
     }
   },
   "order": [
+    "1649889485943b7335",
+    "1648587509be8cc4f4",
     "main"
   ]
 }

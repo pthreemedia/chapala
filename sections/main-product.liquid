@@ -208,11 +208,11 @@
           {%- when '@app' -%}
             {% render block %}
           {%- when 'text' -%}
-            <p class="product__text{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}" {{ block.shopify_attributes }}>
+            <p class="product__text {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
               {{- block.settings.text -}}
             </p>
           {%- when 'title' -%}
-            <h1 class="product__title" {{ block.shopify_attributes }}>
+            <h1 class="product__title h2" {{ block.shopify_attributes }}>
               {% if block.settings.text != blank %}
                 {{ block.settings.text }}
               {% else %}
@@ -257,7 +257,7 @@
                   <summary>
                     <div class="summary__title">
                       {% render 'icon-accordion', icon: block.settings.icon %}
-                      <h2 class="h4 accordion__title">
+                      <h2 class="h6 accordion__title">
                         {{ block.settings.heading | default: block.settings.page.title }}
                       </h2>
                     </div>
@@ -359,7 +359,7 @@
                 <variant-radios class="no-js-hidden" data-section="{{ section.id }}" data-url="{{ product.url }}" {{ block.shopify_attributes }}>
                   {%- for option in product.options_with_values -%}
                     <fieldset class="js product-form__input product-form-{{ option.name }}">
-                      <legend class="form__label product__text caption-with-letter-spacing">Select {{ option.name }}</legend>
+                      <legend class="form__label product__text h6">Select {{ option.name }}</legend>
                       {%- for value in option.values -%}
                         {%- assign option_disabled = true -%}
                         {% for option1_name in variants_option1_arr %}
@@ -707,19 +707,23 @@
           "id": "text_style",
           "options": [
             {
-              "value": "body",
-              "label": "t:sections.main-product.blocks.text.settings.text_style.options__1.label"
+              "value": "text-body",
+              "label": "body"
             },
             {
-              "value": "subtitle",
-              "label": "t:sections.main-product.blocks.text.settings.text_style.options__2.label"
+              "value": "h4",
+              "label": "h4"
             },
             {
-              "value": "uppercase",
-              "label": "t:sections.main-product.blocks.text.settings.text_style.options__3.label"
+              "value": "h5",
+              "label": "h5"
+            },
+            {
+              "value": "h6",
+              "label": "h6"
             }
           ],
-          "default": "body",
+          "default": "text-body",
           "label": "t:sections.main-product.blocks.text.settings.text_style.label"
         }
       ]

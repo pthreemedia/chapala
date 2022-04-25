@@ -162,10 +162,10 @@
   text-align: center;
 }
 
-.image-with-text--overlap .image-with-text__content {
+/* .image-with-text--overlap .image-with-text__content {
   width: 90%;
   margin: -3rem auto 0;
-}
+} */
 
 @media screen and (min-width: 750px) {
   .image-with-text__grid--reverse .image-with-text__content {
@@ -326,4 +326,8 @@
   .image-with-text .grid {
     margin-left: 0;
   }
+}
+
+.image-with-text .link {
+  text-decoration: none;
 }

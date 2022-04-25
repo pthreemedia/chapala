@@ -89,13 +89,13 @@
               {%- endif -%}
               <div class="multicolumn-card__info {% if block.settings.info_on_image == true %} multicolumn-card__info-absolute{% endif %}">
                 {%- if block.settings.title != blank -%}
-                  <h3 class="h2">{{ block.settings.title | escape }}</h3>
+                  <h3 class="{{ block.settings.font_style }}">{{ block.settings.title | escape }}</h3>
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
                   <div class="rte">{{ block.settings.text }}</div>
                 {%- endif -%}
                 {%- if block.settings.link_label != blank -%}
-                  <a class="link animate-arrow" {% if block.settings.link == blank %}role="link" aria-disabled="true"{% else %}href="{{ block.settings.link }}"{% endif %}>{{ block.settings.link_label | escape }}<span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span></a>
+                  <a class="link animate-arrow" {% if block.settings.link == blank %}role="link" aria-disabled="true"{% else %}href="{{ block.settings.link }}"{% endif %}>{{ block.settings.link_label | escape }}<span class="icon-wrap">&nbsp;{% render 'icon-arrow-long' %}</span></a>
                 {%- endif -%}
               </div>
             </div>
@@ -267,12 +267,20 @@
           "label": "t:sections.all.colors.accent_2.label"
         },
         {
+          "value": "accent-3",
+          "label": "t:sections.all.colors.accent_3.label"
+        },
+        {
           "value": "background-1",
           "label": "t:sections.all.colors.background_1.label"
         },
         {
           "value": "background-2",
           "label": "t:sections.all.colors.background_2.label"
+        },
+        {
+          "value": "background-3",
+          "label": "t:sections.all.colors.background_3.label"
         },
         {
           "value": "inverse",
@@ -348,6 +356,22 @@
           "id": "title",
           "default": "Column",
           "label": "t:sections.multicolumn.blocks.column.settings.title.label"
+        },
+        {
+          "type": "select",
+          "id": "font_style",
+          "options": [
+            {
+              "value": "h3",
+              "label": "H3"
+            },
+            {
+              "value": "h4",
+              "label": "H4"
+            }
+          ],
+          "default": "h3",
+          "label": "Title font style"
         },
         {
           "type": "richtext",

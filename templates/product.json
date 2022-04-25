@@ -13,7 +13,7 @@
           "type": "text",
           "settings": {
             "text": "{{ product.metafields.seavees.gender.value }} \/ {{ product.metafields.seavees.color_name.value }} \/ {{ product.metafields.seavees.material.value }}",
-            "text_style": "uppercase"
+            "text_style": "h5"
           }
         },
         "price": {
@@ -35,7 +35,7 @@
             "select_soldout_type": "none"
           }
         },
-        "66d40afc-2755-4be6-bb4d-a34a843571af": {
+        "0096abdf-d412-4354-8603-72bf837de1d2": {
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": "{% if product.metafields.seavees.note != blank %}\n<p class=\"product-back-in-stock\">{{ product.metafields.seavees.note }}\n{% endif %}"
@@ -116,7 +116,7 @@
         "price",
         "42a82d44-4510-48f4-944a-b6fa676826af",
         "variant_picker",
-        "66d40afc-2755-4be6-bb4d-a34a843571af",
+        "0096abdf-d412-4354-8603-72bf837de1d2",
         "6cb779ce-787f-4653-aca4-8ba527bdb49a",
         "quantity_selector",
         "buy_buttons",

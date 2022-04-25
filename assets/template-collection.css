@@ -86,19 +86,23 @@
 /* Grouped collection */
 
 .grouped-collection-container {
-  padding: 3rem 0 7rem;
+  padding: 7rem 0 7rem;
 }
 
 .grouped-collection-header {
   display: block;
   padding: 0;
+  text-align: center;
 }
 
-.grouped-collection-header h2, .grouped-collection-header p {
+.grouped-collection-header h2, .grouped-collection-header h3, .grouped-collection-header p {
   margin: 0;
 }
 
 @media screen and (max-width: 749px) {
+  .grouped-collection-container {
+    padding: 5rem 0 1rem;
+  }
   .grouped-collection-header h2 {
     margin-bottom: 0;
   }

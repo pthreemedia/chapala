@@ -360,7 +360,7 @@ a.product__text {
 
 .product__title {
   word-break: break-word;
-  margin-bottom: 1.5rem;
+  margin-bottom: -1rem;
 }
 
 .product__title > * {
@@ -1319,7 +1319,7 @@ a.product__text {
 }
 
 .product-swatches .active {
-  border: 3px solid rgb(var(--color-base-accent-2)) !important;
+  border: 3px solid #dc4b28 !important;
 }
 
 .price-container .shopify-installments {
@@ -1433,11 +1433,15 @@ a.product__text {
 }
 
 .product-reviews .junip-product-review-summary-container {
-  justify-content: center; }
+  justify-content: center; 
+}
 
 .product-reviews .junip-traits-container {
   display: none;
 }
+
+.product-reviews .junip-product-review-summary-container {
+  justify-content: center; }
 
 .product-reviews .junip-btn.junip-btn-sm {
   font-size: 1.4rem;

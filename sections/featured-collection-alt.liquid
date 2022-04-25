@@ -74,10 +74,10 @@
 
       <div class="tabs">
         <label class="tab" id="tab{{ section.settings.tab_id_1 }}-label" for="tab{{ section.settings.tab_id_1 }}" aria-hidden="true">
-          <h3 class="h5">{{ section.settings.featured_collection_title_1 | escape }}</h3>
+          <h3 class="h6">{{ section.settings.featured_collection_title_1 | escape }}</h3>
         </label>
         <label class="tab" id="tab{{ section.settings.tab_id_2 }}-label" for="tab{{ section.settings.tab_id_2 }}" aria-hidden="true">
-          <h3 class="h5">{{ section.settings.featured_collection_title_2 | escape }}</h3>
+          <h3 class="h6">{{ section.settings.featured_collection_title_2 | escape }}</h3>
         </label>
       </div>
 
@@ -210,19 +210,19 @@
       "id": "heading_size",
       "options": [
         {
-          "value": "h2",
+          "value": "h3",
           "label": "t:sections.all.heading_size.options__1.label"
         },
         {
-          "value": "h1",
+          "value": "h2",
           "label": "t:sections.all.heading_size.options__2.label"
         },
         {
-          "value": "h0",
+          "value": "h1",
           "label": "t:sections.all.heading_size.options__3.label"
         }
       ],
-      "default": "h1",
+      "default": "h3",
       "label": "t:sections.all.heading_size.label"
     },
     {
@@ -310,12 +310,20 @@
         "label": "t:sections.all.colors.accent_2.label"
         },
         {
+          "value": "accent-3",
+          "label": "t:sections.all.colors.accent_3.label"
+          },
+        {
         "value": "background-1",
         "label": "t:sections.all.colors.background_1.label"
         },
         {
         "value": "background-2",
         "label": "t:sections.all.colors.background_2.label"
+        },
+        {
+        "value": "background-3",
+        "label": "t:sections.all.colors.background_3.label"
         },
         {
         "value": "inverse",

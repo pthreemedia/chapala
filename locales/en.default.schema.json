@@ -106,6 +106,12 @@
         "gradient_accent_2": {
           "label": "Accent 2 gradient"
         },
+        "colors_accent_3": {
+          "label": "Accent 3"
+        },
+        "gradient_accent_3": {
+          "label": "Accent 3 gradient"
+        },
         "header__1": {
           "content": "Primary colors"
         },
@@ -131,6 +137,12 @@
         },
         "gradient_background_2": {
           "label": "Background 2 gradient"
+        },
+        "colors_background_3": {
+          "label": "Background 3"
+        },
+        "gradient_background_3": {
+          "label": "Background 3 gradient"
         }
       }
     },
@@ -318,11 +330,17 @@
         "accent_2": {
           "label": "Accent 2"
         },
+        "accent_3": {
+          "label": "Accent 3"
+        },
         "background_1": {
           "label": "Background 1"
         },
         "background_2": {
           "label": "Background 2"
+        },
+        "background_3": {
+          "label": "Background 3"
         },
         "inverse": {
           "label": "Inverse"
@@ -1419,9 +1437,6 @@
         "enable_quick_buy": {
           "label": "Enable quick add button",
           "info": "Optimal with popup or drawer cart type."
-        },
-        "collapse_on_larger_devices": {
-          "label": "Collapse on desktop"
         },
         "header_mobile": {
           "content": "Mobile Layout"

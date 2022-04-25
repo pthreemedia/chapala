@@ -1,25 +1,25 @@
 {
   "current": {
     "colors_solid_button_labels": "#ffffff",
-    "colors_accent_1": "#193859",
+    "colors_accent_1": "#012e5c",
     "gradient_accent_1": "",
-    "colors_accent_2": "#dc4b28",
+    "colors_accent_2": "#f5c035",
     "gradient_accent_2": "",
-    "colors_text": "#193859",
-    "colors_outline_button_labels": "#193859",
+    "colors_text": "#012e5c",
+    "colors_outline_button_labels": "#012e5c",
     "colors_background_1": "#ffffff",
     "gradient_background_1": "",
-    "colors_background_2": "#faf1e9",
+    "colors_background_2": "#fff3d4",
     "gradient_background_2": "",
-    "type_header_font": "sans-serif",
+    "type_header_font": "old_standard_tt_n4",
     "heading_scale": 100,
-    "type_body_font": "sans-serif",
+    "type_body_font": "lato_n4",
     "body_scale": 100,
     "page_width": 1400,
     "spacing_sections": 0,
     "spacing_grid_horizontal": 8,
     "spacing_grid_vertical": 8,
-    "buttons_border_thickness": 0,
+    "buttons_border_thickness": 1,
     "buttons_border_opacity": 100,
     "buttons_radius": 40,
     "buttons_shadow_opacity": 0,
@@ -109,8 +109,8 @@
           "1dceaaa3-c948-4cbc-a4e8-930e1847da35": {
             "type": "announcement",
             "settings": {
-              "text": "Free shipping on all orders over $100.",
-              "color_scheme": "accent-1",
+              "text": "Free shipping on all orders over $100–always.",
+              "color_scheme": "accent-3",
               "link": ""
             }
           }
@@ -186,8 +186,9 @@
           },
           "f276d9cc-490c-4bdc-8ff7-82e4849d5e13": {
             "type": "featured_content",
+            "disabled": true,
             "settings": {
-              "category": "Discover",
+              "category": "Rediscover the Dream",
               "text": "Restoring Pacific Kelp Forests",
               "link": "shopify:\/\/pages\/seatrees",
               "image_desktop": "shopify:\/\/shop_images\/seavees_nav_discover_seatrees.jpg",
@@ -196,8 +197,9 @@
           },
           "63bc2ed5-0727-430c-8884-146b5b9df29e": {
             "type": "featured_content",
+            "disabled": true,
             "settings": {
-              "category": "Discover",
+              "category": "Rediscover the Dream",
               "text": "Mental Health Awareness",
               "link": "shopify:\/\/pages\/mental-health-awareness-baja-slip-on",
               "image_desktop": "shopify:\/\/shop_images\/seavees_nav_discover_mental_health.jpg",
@@ -206,8 +208,9 @@
           },
           "463ec164-e1f8-4aa8-8920-25acd239523b": {
             "type": "featured_content",
+            "disabled": true,
             "settings": {
-              "category": "Discover",
+              "category": "Rediscover the Dream",
               "text": "Access to the ocean for marginalized communities",
               "link": "shopify:\/\/blogs\/journal\/bolinas-boot-field-report-4-un-mar-de-colores",
               "image_desktop": "shopify:\/\/shop_images\/seavees_nav_discover_un_mar_de_colores.jpg",
@@ -228,8 +231,8 @@
         ],
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify:\/\/shop_images\/seavees-website-logo-navy_f847c3ff-f1ad-41ec-8806-5d68fe4b5a7f.png",
-          "logo_width": 150,
+          "logo": "shopify:\/\/shop_images\/seavees-website-logo-navy_012E5C.png",
+          "logo_width": 140,
           "logo_position": "middle-left",
           "menu": "main-menu",
           "menu_type_desktop": "mega",
@@ -238,7 +241,7 @@
           "womens_featured_content_title": "Featured Styles",
           "mens_featured_content_title": "Featured Styles",
           "kids_featured_content_title": "",
-          "discover_featured_content_title": "Causes We Support",
+          "discover_featured_content_title": "",
           "margin_bottom": 0
         }
       },
@@ -285,8 +288,8 @@
           "margin_top": 0,
           "logo_1": "shopify:\/\/shop_images\/CA64_grey.png",
           "logo_2": "shopify:\/\/shop_images\/1Planet.png",
-          "padding_top": 36,
-          "padding_bottom": 36
+          "padding_top": 80,
+          "padding_bottom": 80
         }
       },
       "main-password-header": {

@@ -65,10 +65,10 @@
             {%- when 'buttons' -%}
               <div class="hero-banner__buttons {% if block.settings.button_label_1 != blank and block.settings.button_link_1 != blank and block.settings.button_label_2 != blank and block.settings.button_link_2 != blank %} hero-banner__buttons--multiple{% endif %} hero-banner__buttons-{{ section.settings.desktop_text_alignment }} {% if block.settings.hide_block_on_mobile %}small-hide{% elsif block.settings.hide_block_on_desktop %}medium-hide large-up-hide{% endif %}" {{ block.shopify_attributes }}>
                 {%- if block.settings.button_label_1 != blank -%}
-                  <a href="{{ block.settings.button_link_1 }}" class="button{% if block.settings.button_style_secondary_1 %} button--primary{% else %} hero-banner__button{% endif %}"{% if block.settings.button_link_1 == blank %} aria-disabled="true"{% endif %}>{{ block.settings.button_label_1 | escape }}</a>
+                  <a href="{{ block.settings.button_link_1 }}" class="{% if block.settings.use_arrow_link == true %}link-with-arrow{% elsif block.settings.button_style_secondary %}button button--primary{% else %}button hero-banner__button{% endif %}"{% if block.settings.button_link_1 == blank %} aria-disabled="true"{% endif %}>{{ block.settings.button_label_1 | escape }}</a>
                 {%- endif -%}
                 {%- if block.settings.button_label_2 != blank -%}
-                  <a href="{{ block.settings.button_link_2 }}" class="button{% if block.settings.button_style_secondary_2 %} button--primary]{% else %} hero-banner__button{% endif %}"{% if block.settings.button_link_2 == blank %} aria-disabled="true"{% endif %}>{{ block.settings.button_label_2 | escape }}</a>
+                  <a href="{{ block.settings.button_link_2 }}" class="{% if block.settings.use_arrow_link == true %}link-with-arrow{% elsif block.settings.button_style_secondary %}button button--primary{% else %}button hero-banner__button{% endif %}"{% if block.settings.button_link_2 == blank %} aria-disabled="true"{% endif %}>{{ block.settings.button_label_2 | escape }}</a>
                 {%- endif -%}
               </div>
           {%- endcase -%}
@@ -79,7 +79,7 @@
 
 {% else %}
 
-  <div id="Hero-Banner-{{ section.id }}" class="hero-banner{% if section.settings.text_image_separate %} hero-banner-separate{% endif %}{% if section.settings.adapt_height_first_image and section.settings.image_desktop != blank %} hero-banner--adapt{% endif %}">
+  <div id="Hero-Banner-{{ section.id }}" class="hero-banner{% if section.settings.text_image_separate %} hero-banner-separate{% else %}   hero-banner-together{% endif %}{% if section.settings.adapt_height_first_image and section.settings.image_desktop != blank %} hero-banner--adapt{% endif %}">
     {%- if section.settings.image_desktop != blank -%}
       <div class="hero-banner__media media hero-banner-desktop"> 
         <img srcset="{%- if section.settings.image.width >= 375 -%}{{ section.settings.image_desktop | img_url: '375x' }} 375w,{%- endif -%}
@@ -103,7 +103,7 @@
         <img srcset="{%- if section.settings.image_mobile.width >= 375 -%}{{ section.settings.image_mobile | img_url: '375x' }} 375w,{%- endif -%}
           {%- if section.settings.image_mobile.width >= 750 -%}{{ section.settings.image_mobile | img_url: '750x' }} 750w,{%- endif -%}
           {%- if section.settings.image_mobile.width >= 1100 -%}{{ section.settings.image_mobile | img_url: '1100x' }} 1100w,{%- endif -%}
-          {%- if section.settings.image_mobile.width >= 1500 -%}{{ section.settings.image_mobile | img_url: '1500x' }} 1500w,{%- endif -%}""
+          {%- if section.settings.image_mobile.width >= 1500 -%}{{ section.settings.image_mobile | img_url: '1500x' }} 1500w,{%- endif -%}"
           src="{{ section.settings.image_mobile | img_url: '750x' }}"
           loading="lazy"
           alt="{{ section.settings.image_mobile.alt | escape }}"
@@ -127,10 +127,18 @@
             {%- when 'buttons' -%}
               <div class="hero-banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_link_1 != blank and block.settings.button_label_2 != blank and block.settings.button_link_2 != blank %} hero-banner__buttons--multiple{% endif %} hero-banner__buttons-{{ section.settings.desktop_text_alignment }}" {{ block.shopify_attributes }}>
                 {%- if block.settings.button_label_1 != blank -%}
-                  <a href="{{ block.settings.button_link_1 }}" class="button{% if block.settings.button_style_secondary_1 %} button--primary{% else %} hero-banner__button{% endif %}"{% if block.settings.button_link_1 == blank %} aria-disabled="true"{% endif %}>{{ block.settings.button_label_1 | escape }}</a>
+                  {% if block.settings.use_arrow_link %}
+                    <a class="link animate-arrow" {% if block.settings.button_link_1 == blank %}role="link" aria-disabled="true"{% else %}href="{{ block.settings.button_link_1 }}"{% endif %}>{{ block.settings.button_label_1 | escape }}<span class="icon-wrap">&nbsp;{% render 'icon-arrow-long' %}</span></a>
+                  {% else %}
+                    <a href="{{ block.settings.button_link_1 }}" class="button {% if block.settings.button_style_secondary %} button--primary{% else %} hero-banner__button{% endif %}"{% if block.settings.button_link_1 == blank %} aria-disabled="true"{% endif %}>{{ block.settings.button_label_1 | escape }}</a>
+                  {% endif %}
                 {%- endif -%}
                 {%- if block.settings.button_label_2 != blank -%}
-                  <a href="{{ block.settings.button_link_2 }}" class="button{% if block.settings.button_style_secondary_2 %} button--primary]{% else %} hero-banner__button{% endif %}"{% if block.settings.button_link_2 == blank %} aria-disabled="true"{% endif %}>{{ block.settings.button_label_2 | escape }}</a>
+                  {% if block.settings.use_arrow_link %}
+                    <a class="link animate-arrow" {% if block.settings.button_link_2 == blank %}role="link" aria-disabled="true"{% else %}href="{{ block.settings.button_link_2 }}"{% endif %}>{{ block.settings.button_label_2 | escape }}<span class="icon-wrap">&nbsp;{% render 'icon-arrow-long' %}</span></a>
+                  {% else %}
+                    <a href="{{ block.settings.button_link_2 }}" class="button {% if block.settings.button_style_secondary %} button--primary{% else %} hero-banner__button{% endif %}"{% if block.settings.button_link_2 == blank %} aria-disabled="true"{% endif %}>{{ block.settings.button_label_2 | escape }}</a>
+                  {% endif %}
                 {%- endif -%}
               </div>
           {%- endcase -%}
@@ -140,7 +148,6 @@
   </div>
 
 {% endif %}
-
 
 
 {% schema %}
@@ -320,12 +327,6 @@
           "label": "Button 1 link"
         },
         {
-          "type": "checkbox",
-          "id": "button_style_secondary_1",
-          "default": false,
-          "label": "Use secondary button style"
-        },
-        {
           "type": "text",
           "id": "button_label_2",
           "label": "Button 2 text"        },
@@ -335,10 +336,20 @@
           "label": "Button 2 link"
         },
         {
+          "type": "header",
+          "content": "Button style"
+        },
+        {
           "type": "checkbox",
-          "id": "button_style_secondary_2",
+          "id": "button_style_secondary",
           "default": false,
           "label": "Use secondary button style"
+        },
+        {
+          "type": "checkbox",
+          "id": "use_arrow_link",
+          "default": false,
+          "label": "Use arrow link"
         },
         {
           "type": "checkbox",

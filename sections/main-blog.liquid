@@ -18,26 +18,20 @@
   }
 {%- endstyle -%}
 
-<div class="blog-header page-width">
-  <h1>
-    {% if current_tags contains "news" %}
-      {% assign blog_type = "news" %}
-      Journal | News
-    {% elsif current_tags contains "collaborations" %}
-      {% assign blog_type = "collaborations" %}
-      Journal | Collaborations
-    {% elsif current_tags contains "casual-types" %}
-      {% assign blog_type = "casual" %}
-      Journal | Casual Types
-    {% else %}
-      {% assign blog_type = "view all" %}
-      Journal | All Posts
-    {% endif %}
-  </h1>
-  
-</div>  
+{% comment %}
+{% liquid
+  if current_tags contains "news"
+    assign blog_type = "news"
+  elsif current_tags contains "collaborations"
+    assign blog_type = "collaborations"
+  elsif current_tags contains "casual-types"
+    assign blog_type = "casual"
+  else
+    assign blog_type = "view all"
+  endif
+%}
 
-<div class="page-menu section-margin-bottom-md">
+<div class="page-menu page-menu-background section-margin-bottom-md">
   <ul class="page-menu-stacked">
     <li {% if blog_type == 'view all' %}class="active"{% endif %}>
       <a href="/blogs/journal">All</a>
@@ -54,10 +48,11 @@
   </ul>
 </div>
 
+{% endcomment %}
 
-{%- paginate blog.articles by 6 -%}
+{%- paginate blog.articles by 18 -%}
   <div class="main-blog page-width section-{{ section.id }}-padding">
-    {% comment %}<h1 class="title--primary">{{ blog.title | escape }}</h1>{% endcomment %}    
+    {% comment %}<h1 class="title--primary">{{ blog.title | escape }}</h1>{% endcomment %}
 
     <div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
       {%- for article in blog.articles -%}

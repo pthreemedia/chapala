@@ -19,6 +19,15 @@
   overflow-wrap: break-word;
 }
 
+.rich-text .link {
+  text-decoration: none;
+}
+
+.rich_text .icon-wrap {
+  margin-left: 0.8rem;
+  white-space: nowrap;
+}
+
 .rich-text--full-width .rich-text__blocks {
   /* 4rem (1.5rem + 2.5rem) margin on left & right */
   width: calc(100% - 6rem / var(--font-body-scale));
@@ -37,7 +46,10 @@
 
 @media screen and (min-width: 990px) {
   .rich-text__blocks {
-    max-width: 78rem;
+    max-width: 120rem;
+  }
+  .rich-text--narrow .rich-text__blocks {
+    max-width: 75rem;
   }
 }
 

@@ -3,13 +3,13 @@
 {{ 'component-slideshow.css' | asset_url | stylesheet_tag }}
 
 
-{%- if section.settings.slide_height == 'adapt_image' and section.blocks.first.settings.image != blank -%}
+{%- if section.settings.slide_height == 'adapt_image' and section.blocks.first.settings.desktop_image != blank -%}
   {%- style -%}
   @media screen and (max-width: 749px) {
     #Slider-{{ section.id }}::before,
     #Slider-{{ section.id }} .media::before,
     #Slider-{{ section.id }}:not(.banner--mobile-bottom) .banner__content::before {
-      padding-bottom: {{ 1 | divided_by: section.blocks.first.settings.image.aspect_ratio | times: 100 }}%;
+      padding-bottom: {{ 1 | divided_by: section.blocks.first.settings.mobile_image.aspect_ratio | times: 100 }}%;
       content: '';
       display: block;
     }
@@ -18,7 +18,7 @@
   @media screen and (min-width: 750px) {
     #Slider-{{ section.id }}::before,
     #Slider-{{ section.id }} .media::before {
-      padding-bottom: {{ 1 | divided_by: section.blocks.first.settings.image.aspect_ratio | times: 100 }}%;
+      padding-bottom: {{ 1 | divided_by: section.blocks.first.settings.desktop_image.aspect_ratio | times: 100 }}%;
       content: '';
       display: block;
     }
@@ -68,7 +68,7 @@
     </noscript>
   {%- endif -%}
 
-  <div class="slideshow banner banner--{{ section.settings.slide_height }} grid grid--1-col slider slider--everywhere{% if section.settings.show_text_below %} banner--mobile-bottom{% endif %}{% if section.blocks.first.settings.image == blank %} slideshow--placeholder{% endif %}"
+  <div class="slideshow banner banner--{{ section.settings.slide_height }} grid grid--1-col slider slider--everywhere{% if section.settings.show_text_below %} banner--mobile-bottom{% endif %}{% if section.blocks.first.settings.desktop_image == blank %} slideshow--placeholder{% endif %}"
     id="Slider-{{ section.id }}"
     aria-live="polite"
     aria-atomic="true"
@@ -89,29 +89,40 @@
         aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
         tabindex="-1"
       >
-        <div class="slideshow__media banner__media media{% if block.settings.image == blank %} placeholder{% endif %}">
-          {%- if block.settings.image -%}
+        <div class="slideshow__media banner__media media{% if block.settings.desktop_image == blank %} placeholder{% endif %} slideshow-banner-desktop">
             <img
-              srcset="{%- if block.settings.image.width >= 375 -%}{{ block.settings.image | image_url: width: 375 }} 375w,{%- endif -%}
-              {%- if block.settings.image.width >= 550 -%}{{ block.settings.image | image_url: width: 550 }} 550w,{%- endif -%}
-              {%- if block.settings.image.width >= 750 -%}{{ block.settings.image | image_url: width: 750 }} 750w,{%- endif -%}
-              {%- if block.settings.image.width >= 1100 -%}{{ block.settings.image | image_url: width: 1100 }} 1100w,{%- endif -%}
-              {%- if block.settings.image.width >= 1500 -%}{{ block.settings.image | image_url: width: 1500 }} 1500w,{%- endif -%}
-              {%- if block.settings.image.width >= 1780 -%}{{ block.settings.image | image_url: width: 1780 }} 1780w,{%- endif -%}
-              {%- if block.settings.image.width >= 2000 -%}{{ block.settings.image | image_url: width: 2000 }} 2000w,{%- endif -%}
-              {%- if block.settings.image.width >= 3000 -%}{{ block.settings.image | image_url: width: 3000 }} 3000w,{%- endif -%}
-              {%- if block.settings.image.width >= 3840 -%}{{ block.settings.image | image_url: width: 3840 }} 3840w,{%- endif -%}
-              {{ block.settings.image | image_url }} {{ block.settings.image.width }}w"
+              srcset="{%- if block.settings.image.width >= 375 -%}{{ block.settings.desktop_image | image_url: width: 375 }} 375w,{%- endif -%}
+              {%- if block.settings.desktop_image.width >= 550 -%}{{ block.settings.desktop_image | image_url: width: 550 }} 550w,{%- endif -%}
+              {%- if block.settings.desktop_image.width >= 750 -%}{{ block.settings.desktop_image | image_url: width: 750 }} 750w,{%- endif -%}
+              {%- if block.settings.desktop_image.width >= 1100 -%}{{ block.settings.desktop_image | image_url: width: 1100 }} 1100w,{%- endif -%}
+              {%- if block.settings.desktop_image.width >= 1500 -%}{{ block.settings.desktop_image | image_url: width: 1500 }} 1500w,{%- endif -%}
+              {%- if block.settings.desktop_image.width >= 1780 -%}{{ block.settings.desktop_image | image_url: width: 1780 }} 1780w,{%- endif -%}
+              {%- if block.settings.desktop_image.width >= 2000 -%}{{ block.settings.desktop_image | image_url: width: 2000 }} 2000w,{%- endif -%}
+              {%- if block.settings.desktop_image.width >= 3000 -%}{{ block.settings.desktop_image | image_url: width: 3000 }} 3000w,{%- endif -%}
+              {%- if block.settings.desktop_image.width >= 3840 -%}{{ block.settings.desktop_image | image_url: width: 3840 }} 3840w,{%- endif -%}
+              {{ block.settings.desktop_image | image_url }} {{ block.settings.desktop_image.width }}w"
               sizes="100vw"
-              src="{{ block.settings.image | image_url: width: 1500 }}"
+              src="{{ block.settings.desktop_image | image_url: width: 1500 }}"
               loading="lazy"
-              alt="{{ block.settings.image.alt | escape }}"
-              width="{{ block.settings.image.width }}"
-              height="{{ block.settings.image.width | divided_by: block.settings.image.aspect_ratio | round }}"
+              alt="{{ block.settings.desktop_image.alt | escape }}"
+              width="{{ block.settings.desktop_image.width }}"
+              height="{{ block.settings.desktop_image.width | divided_by: block.settings.desktop_image.aspect_ratio | round }}"
             >
-          {%- else -%}
-            {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
-          {%- endif -%}
+        </div>
+        <div class="slideshow__media banner__media media{% if block.settings.mobile_image == blank %} placeholder{% endif %} slideshow-banner-mobile">
+            <img
+              srcset="{%- if block.settings.mobile_image.width >= 375 -%}{{ block.settings.mobile_image | image_url: width: 375 }} 375w,{%- endif -%}
+              {%- if block.settings.mobile_image.width >= 550 -%}{{ block.settings.mobile_image | image_url: width: 550 }} 550w,{%- endif -%}
+              {%- if block.settings.mobile_image.width >= 750 -%}{{ block.settings.mobile_image | image_url: width: 750 }} 750w,{%- endif -%}
+              {%- if block.settings.mobile_image.width >= 1100 -%}{{ block.settings.mobile_image | image_url: width: 1100 }} 1100w,{%- endif -%}
+              {{ block.settings.mobile_image | image_url }} {{ block.settings.mobile_image.width }}w"
+              sizes="100vw"
+              src="{{ block.settings.mobile_image | image_url: width: 1500 }}"
+              loading="lazy"
+              alt="{{ block.settings.mobile_image.alt | escape }}"
+              width="{{ block.settings.mobile_image.width }}"
+              height="{{ block.settings.mobile_image.width | divided_by: block.settings.mobile_image.aspect_ratio | round }}"
+            >
         </div>
         <div class="slideshow__text-wrapper banner__content banner__content--{{ block.settings.box_align }} page-width{% if block.settings.show_text_box == false %} banner--desktop-transparent{% endif %}">
           <div class="slideshow__text banner__box content-container content-container--full-width-mobile color-{{ block.settings.color_scheme }} gradient slideshow__text--{{ block.settings.text_alignment }} slideshow__text-mobile--{{ block.settings.text_alignment_mobile }}">
@@ -119,13 +130,26 @@
               <h2 class="banner__heading {{ block.settings.heading_size }}">{{ block.settings.heading | escape }}</h2>
             {%- endif -%}
             {%- if block.settings.subheading != blank -%}
-              <div class="banner__text" {{ block.shopify_attributes }}>
+              <div class="banner__text h4" {{ block.shopify_attributes }}>
                 <span>{{ block.settings.subheading | escape }}</span>
               </div>
             {%- endif -%}
-            {%- if block.settings.button_label != blank -%}
+            {%- if block.settings.button_label_1 or block.settings.button_label_2 -%}
               <div class="banner__buttons">
-                <a{% if block.settings.link %} href="{{ block.settings.link }}"{% else %} role="link" aria-disabled="true"{% endif %} class="button {% if block.settings.button_style_secondary %}button--secondary{% else %}button--primary{% endif %}">{{ block.settings.button_label | escape }}</a>
+                {%- if block.settings.button_label_1 != blank -%}
+                  {% if block.settings.use_arrow_link %}
+                    <a class="link animate-arrow" {% if block.settings.button_link_1 == blank %}role="link" aria-disabled="true"{% else %}href="{{ block.settings.button_link_1 }}"{% endif %}>{{ block.settings.button_label_1 | escape }}<span class="icon-wrap">&nbsp;{% render 'icon-arrow-long' %}</span></a>
+                  {% else %}
+                    <a href="{{ block.settings.button_link_1 }}" class="button {% if block.settings.button_style_secondary %} button--primary{% else %} hero-banner__button{% endif %}"{% if block.settings.button_link_1 == blank %} aria-disabled="true"{% endif %}>{{ block.settings.button_label_1 | escape }}</a>
+                  {% endif %}
+                {%- endif -%}
+                {%- if block.settings.button_label_2 != blank -%}
+                  {% if block.settings.use_arrow_link %}
+                    <a class="link animate-arrow" {% if block.settings.button_link_2 == blank %}role="link" aria-disabled="true"{% else %}href="{{ block.settings.button_link_2 }}"{% endif %}>{{ block.settings.button_label_2 | escape }}<span class="icon-wrap">&nbsp;{% render 'icon-arrow-long' %}</span></a>
+                  {% else %}
+                    <a href="{{ block.settings.button_link_2 }}" class="button {% if block.settings.button_style_secondary %} button--primary{% else %} hero-banner__button{% endif %}"{% if block.settings.button_link_2 == blank %} aria-disabled="true"{% endif %}>{{ block.settings.button_label_2 | escape }}</a>
+                  {% endif %}
+                {%- endif -%}
               </div>
             {%- endif -%}
           </div>
@@ -292,8 +316,13 @@
       "settings": [
         {
           "type": "image_picker",
-          "id": "image",
-          "label": "t:sections.slideshow.blocks.slide.settings.image.label"
+          "id": "desktop_image",
+          "label": "Desktop image"
+        },
+        {
+          "type": "image_picker",
+          "id": "mobile_image",
+          "label": "Mobile image"
         },
         {
           "type": "text",
@@ -306,16 +335,12 @@
           "id": "heading_size",
           "options": [
             {
-              "value": "h2",
-              "label": "t:sections.all.heading_size.options__1.label"
-            },
-            {
               "value": "h1",
-              "label": "t:sections.all.heading_size.options__2.label"
+              "label": "h1"
             },
             {
-              "value": "h0",
-              "label": "t:sections.all.heading_size.options__3.label"
+              "value": "h2",
+              "label": "h2"
             }
           ],
           "default": "h1",
@@ -329,21 +354,37 @@
         },
         {
           "type": "text",
-          "id": "button_label",
-          "default": "Button label",
-          "label": "t:sections.slideshow.blocks.slide.settings.button_label.label",
-          "info": "t:sections.slideshow.blocks.slide.settings.button_label.info"
+          "id": "button_label_1",
+          "label": "Button label 1",
+          "info": "Leave blank to hide button"
         },
         {
           "type": "url",
-          "id": "link",
-          "label": "t:sections.slideshow.blocks.slide.settings.link.label"
+          "id": "button_link_1",
+          "label": "Link 1"
+        },
+        {
+          "type": "text",
+          "id": "button_label_2",
+          "label": "Button label 2",
+          "info": "Leave blank to hide button"
+        },
+        {
+          "type": "url",
+          "id": "button_link_2",
+          "label": "Link 2"
         },
         {
           "type": "checkbox",
           "id": "button_style_secondary",
           "label": "t:sections.slideshow.blocks.slide.settings.secondary_style.label",
           "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "use_arrow_link",
+          "default": false,
+          "label": "Use arrow link"
         },
         {
           "type": "select",

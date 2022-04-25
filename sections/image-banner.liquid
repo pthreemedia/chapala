@@ -96,7 +96,7 @@
         {%- case block.type -%}
           {%- when 'heading' -%}
             <h2 class="banner__heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
-              <span>{{ block.settings.heading | escape }}</span>
+              <span>{{ block.settings.heading_line_1 | escape }}{% if block.settings.heading_line_2 %}<br>{{ block.settings.heading_line_2 | escape }}{% endif %}</span>
             </h2>
           {%- when 'text' -%}
             <div class="banner__text {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
@@ -255,12 +255,20 @@
           "label": "t:sections.all.colors.accent_2.label"
         },
         {
+          "value": "accent-3",
+          "label": "t:sections.all.colors.accent_3.label"
+        },
+        {
           "value": "background-1",
           "label": "t:sections.all.colors.background_1.label"
         },
         {
           "value": "background-2",
           "label": "t:sections.all.colors.background_2.label"
+        },
+        {
+          "value": "background-3",
+          "label": "t:sections.all.colors.background_3.label"
         },
         {
           "value": "inverse",
@@ -340,9 +348,15 @@
       "settings": [
         {
           "type": "text",
-          "id": "heading",
+          "id": "heading_line_1",
           "default": "Image banner",
-          "label": "t:sections.image-banner.blocks.heading.settings.heading.label"
+          "label": "Heading line 1"
+        },
+        {
+          "type": "text",
+          "id": "heading_line_2",
+          "default": "Image banner",
+          "label": "Heading line 2"
         },
         {
           "type": "select",
@@ -392,6 +406,18 @@
             {
               "value": "caption-with-letter-spacing",
               "label": "t:sections.image-banner.blocks.text.settings.text_style.options__3.label"
+            },
+            {
+              "value": "h3",
+              "label": "h3"
+            },
+            {
+              "value": "h4",
+              "label": "h4"
+            },
+            {
+              "value": "h5",
+              "label": "h5"
             }
           ],
           "default": "body",
