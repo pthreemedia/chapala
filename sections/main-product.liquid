@@ -342,7 +342,9 @@
             </share-button>
             <script src="{{ 'share.js' | asset_url }}" defer="defer"></script>
           {%- when 'product_swatches' -%}
-            {% render 'product-swatches', hide_sale_swatches: block.settings.hide_sale_product_swatches %}
+            {% unless product.metafields.seavees.is_on_sale == true %}
+              {% render 'product-swatches', hide_sale_swatches: block.settings.hide_sale_product_swatches %}
+            {% endunless %}
           {%- when 'back_in_stock' -%}
             {% assign all_variants_in_stock = true -%}
             {%- for variant in product.variants -%}
