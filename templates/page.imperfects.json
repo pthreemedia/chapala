@@ -1,0 +1,60 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 60
+      }
+    },
+    "165108209406db4a5d": {
+      "type": "featured-product",
+      "disabled": true,
+      "blocks": {
+        "165108209350b5b018-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.seavees.online_title.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "165108209350b5b018-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "165108209350b5b018-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "165108209350b5b018-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        }
+      },
+      "block_order": [
+        "165108209350b5b018-2",
+        "165108209350b5b018-3",
+        "165108209350b5b018-4",
+        "165108209350b5b018-6"
+      ],
+      "settings": {
+        "product": "mens-legend-sneaker-classic-black-white",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "165108209406db4a5d"
+  ]
+}

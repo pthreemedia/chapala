@@ -109,7 +109,7 @@
           "1dceaaa3-c948-4cbc-a4e8-930e1847da35": {
             "type": "announcement",
             "settings": {
-              "text": "Free shipping on all orders over $100–always.",
+              "text": "Free shipping on orders over $100",
               "color_scheme": "accent-3",
               "link": ""
             }

@@ -44,7 +44,7 @@
           "type": "page_menu_link",
           "settings": {
             "link_text": "About SeaVees",
-            "link_url": "shopify:\/\/pages\/about-seavees"
+            "link_url": "shopify:\/\/pages\/about"
           }
         },
         "bf80c113-02d0-49f6-b0a4-e0f03cd9a605": {

@@ -48,7 +48,7 @@
         "desktop_text_box_vertical_position": "center",
         "desktop_text_box_horizontal_position": "center",
         "desktop_text_alignment": "center",
-        "adapt_height_first_image": true,
+        "adapt_height_first_image": false,
         "text_image_separate": false
       }
     },
@@ -383,7 +383,7 @@
           "type": "button",
           "settings": {
             "button_label": "Learn More",
-            "button_link": "shopify:\/\/pages\/about-seavees",
+            "button_link": "shopify:\/\/pages\/about",
             "button_style_secondary": false,
             "use_arrow_link": true,
             "link_color": "#3d93e1"
@@ -440,7 +440,7 @@
             "font_style": "h3",
             "text": "<p>With a groundbreaking advertising campaign throughout the 1960s, SeaVees pioneered the transformation of the sneaker from gym shoe to casual shoe.<\/p>",
             "link_label": "Learn More",
-            "link": "shopify:\/\/pages\/about-seavees",
+            "link": "shopify:\/\/pages\/about",
             "info_on_image": false
           }
         }

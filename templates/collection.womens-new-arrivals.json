@@ -2,6 +2,7 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": true,
         "show_breadcrumbs": true,
@@ -10,6 +11,34 @@
         "show_collection_image": false,
         "hide_collection_image-on-mobile": true,
         "color_scheme": "background-1"
+      }
+    },
+    "165092899176dcccf0": {
+      "type": "rich-text",
+      "blocks": {
+        "165092899125afdd18-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "New Arrivals",
+            "heading_size": "h1",
+            "font_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "165092899125afdd18-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "narrow": false,
+        "is_page_header": true,
+        "mobile_content_align": "center",
+        "desktop_content_align": "center",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     },
     "16509290184c581900": {
@@ -71,6 +100,7 @@
   },
   "order": [
     "banner",
+    "165092899176dcccf0",
     "16509290184c581900",
     "product-grid"
   ]

@@ -1,0 +1,50 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 60
+      }
+    },
+    "1651000479fe357581": {
+      "type": "newsletter",
+      "blocks": {
+        "1651000478b6128f05-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join The Crew.",
+            "heading_size": "h1"
+          }
+        },
+        "1651000478b6128f05-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "1651000478b6128f05-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1651000478b6128f05-0",
+        "1651000478b6128f05-1",
+        "1651000478b6128f05-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1651000479fe357581"
+  ]
+}
