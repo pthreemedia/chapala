@@ -1,0 +1,659 @@
+{
+  "sections": {
+    "1651786136646e6579": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "16517861363a355bfa-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "SeaVees x Imperfects",
+            "heading_size": "h1",
+            "font_color": ""
+          }
+        },
+        "b519d48f-583d-4878-99d9-bdcfc13fe072": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A limited edition collaboration.<\/p>",
+            "use_heading_font": false,
+            "font_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "16517861363a355bfa-0",
+        "b519d48f-583d-4878-99d9-bdcfc13fe072"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "narrow": false,
+        "is_page_header": false,
+        "mobile_content_align": "center",
+        "desktop_content_align": "center",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "30bbf69a-4390-4448-a837-902ce9c42421": {
+          "type": "text",
+          "settings": {
+            "text": "SeaVees x Imperfects",
+            "text_style": "h6"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "text": "{{ product.metafields.seavees.online_title.value }}"
+          }
+        },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.seavees.gender.value }} \/  {{ product.metafields.seavees.material.value }}",
+            "text_style": "h5"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_installment_option": false
+          }
+        },
+        "42a82d44-4510-48f4-944a-b6fa676826af": {
+          "type": "product_swatches",
+          "disabled": true,
+          "settings": {
+            "hide_sale_product_swatches": true
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "select_soldout_type": "none"
+          }
+        },
+        "0096abdf-d412-4354-8603-72bf837de1d2": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.metafields.seavees.note != blank %}\n<p class=\"product-back-in-stock\">{{ product.metafields.seavees.note }}\n{% endif %}"
+          }
+        },
+        "6cb779ce-787f-4653-aca4-8ba527bdb49a": {
+          "type": "back_in_stock",
+          "settings": {
+            "enable_back_in_stock": true
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "b9fc1344-911e-4699-a453-1d9b9c8c56b6": {
+          "type": "text",
+          "settings": {
+            "text": "A limited edition split pair concept–the left shoe is our classic Legend Sneaker while the right is a completely revised pattern full of asymmetrical quirks.",
+            "text_style": "text-body"
+          }
+        },
+        "467af105-8b5d-4c64-9143-fc32cfdb1c35": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "The Details",
+            "icon": "none",
+            "content": "",
+            "page": "",
+            "show-description": true,
+            "liquid": ""
+          }
+        },
+        "collapsible-row-0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Size & Fit Information",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.seavees.size_and_fit | metafield_tag }}<\/p>",
+            "page": "",
+            "show-description": false,
+            "liquid": ""
+          }
+        },
+        "6b1f8270-ac69-4b93-a5f5-c3c308248dfa": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "About Imperfects",
+            "icon": "none",
+            "content": "<p>Imperfects was founded in 2015 by Mike Lynch. Mike is an entrepreneur, shaper, surfer, artist, and family man - building Imperfects as a lifestyle concept for a more enlightened Human Experience, is a life mission of Mike's which has been ongoing for over 15 years. The mission of Imperfects is to highlight the good in humanity by focusing on one's Imperfections - we craft the highest quality of Surfboards, Skateboards and Apparel as these our mediums which define one of our most defining human experiences, self-expression.<\/p>",
+            "page": "",
+            "show-description": false,
+            "liquid": ""
+          }
+        },
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping & Returns",
+            "icon": "none",
+            "content": "<p>Free shipping on all orders over $100.<\/p><p>$5 shipping for orders under $100.<\/p><p>It's important to us that you are happy with your SeaVees so returns and exchanges are free, fast and easy. If you choose to exchange for a different size or color, we will ship your replacement immediately.<\/p>",
+            "page": "",
+            "show-description": false,
+            "liquid": ""
+          }
+        },
+        "collapsible-row-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Origin",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.seavees.origin.value }}<\/p>",
+            "page": "",
+            "show-description": false,
+            "liquid": ""
+          }
+        },
+        "d45af598-2236-4f27-9df7-84e8aa0cb053": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "30bbf69a-4390-4448-a837-902ce9c42421",
+        "title",
+        "caption",
+        "price",
+        "42a82d44-4510-48f4-944a-b6fa676826af",
+        "variant_picker",
+        "0096abdf-d412-4354-8603-72bf837de1d2",
+        "6cb779ce-787f-4653-aca4-8ba527bdb49a",
+        "quantity_selector",
+        "buy_buttons",
+        "b9fc1344-911e-4699-a453-1d9b9c8c56b6",
+        "467af105-8b5d-4c64-9143-fc32cfdb1c35",
+        "collapsible-row-0",
+        "6b1f8270-ac69-4b93-a5f5-c3c308248dfa",
+        "collapsible-row-1",
+        "collapsible-row-2",
+        "d45af598-2236-4f27-9df7-84e8aa0cb053"
+      ],
+      "settings": {
+        "enable_sticky_info": false,
+        "gallery_layout": "stacked",
+        "media_size": "large",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 64
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "product-ugc-gallery": {
+      "type": "product-ugc-gallery",
+      "settings": {
+        "heading": "As Seen On You",
+        "subheading": "We love seeing how you show up in SeaVees. Tag @seavees on Instagram to be featured."
+      }
+    },
+    "164792745482b7fb61": {
+      "type": "featured-collection-alt",
+      "disabled": true,
+      "settings": {
+        "title": "Related Products",
+        "heading_size": "h2",
+        "description": "",
+        "description_style": "body",
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "collection_1": "featured-socks",
+        "tab_id_1": "1",
+        "featured_collection_title_1": "Socks",
+        "products_to_show_1": 3,
+        "collection_2": "sneaker-care",
+        "tab_id_2": "2",
+        "featured_collection_title_2": "Sneaker Care",
+        "products_to_show_2": 2,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_condensed_title": true,
+        "show_vendor": false,
+        "show_gender": true,
+        "show_material": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "product-reviews": {
+      "type": "product-reviews",
+      "settings": {
+        "heading": "See why people love the {{ product.metafields.seavees.silhouette.value }}."
+      }
+    },
+    "1651785096fd6f6c2b": {
+      "type": "hero-banner",
+      "settings": {
+        "use_video_background": false,
+        "hero_video_desktop": "",
+        "hero_video_mobile": "",
+        "image_desktop": "shopify:\/\/shop_images\/Imperfects_hero_desktop_8f78a7af-6883-442a-9884-60cbafa3615c.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Imperfects_hero_mobile_2.jpg",
+        "desktop_text_box_vertical_position": "center",
+        "desktop_text_box_horizontal_position": "flex-start",
+        "desktop_text_alignment": "left",
+        "adapt_height_first_image": false,
+        "text_image_separate": false
+      }
+    },
+    "1651785119c6bce2c4": {
+      "type": "rich-text",
+      "blocks": {
+        "1651785118491abaf3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A riff on our classic legend sneaker designed in collaboration with the legendary surf & skate brand,<em>Imperfects.<\/em><\/p>",
+            "use_heading_font": true,
+            "font_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "1651785118491abaf3-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "narrow": false,
+        "is_page_header": false,
+        "mobile_content_align": "center",
+        "desktop_content_align": "center",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "165178514780ceff35": {
+      "type": "multicolumn",
+      "blocks": {
+        "16517851479c713624-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/0006_Imperfects.Seavees-61.jpg",
+            "title": "Unity",
+            "font_style": "h3",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "info_on_image": true
+          }
+        },
+        "16517851479c713624-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Tall_Hero.jpg",
+            "title": "Is",
+            "font_style": "h3",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "info_on_image": true
+          }
+        },
+        "16517851479c713624-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/0005_Imperfects.Seavees-65.jpg",
+            "title": "Purple",
+            "font_style": "h3",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "info_on_image": true
+          }
+        }
+      },
+      "block_order": [
+        "16517851479c713624-0",
+        "16517851479c713624-1",
+        "16517851479c713624-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "165178529228a7855a": {
+      "type": "image-with-text",
+      "blocks": {
+        "1651785292fd122742-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "About the Collab",
+            "heading_size": "h1"
+          }
+        },
+        "1651785292fd122742-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>When you collaborate with a designer as talented as Mike Lynch, sometimes it's best to hand them the keys and hop in the passenger seat. You let them drive you to a place you wouldn't normally go.<\/p><p>Mike used his Imperfects magic to create a split pair concept–the left shoe is our classic Legend Sneaker while the right is a completely revised pattern full of asymmetrical quirks.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "1651785292fd122742-0",
+        "1651785292fd122742-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Imperfects_LP_GIF.gif",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "full_width": false,
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "1651785331ef35daca": {
+      "type": "multicolumn",
+      "blocks": {
+        "165178533104f58709-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Product_Details_Side_32812fb9-7b83-4872-a295-b5640f959e00.jpg",
+            "title": "A LITTLE WAVE",
+            "font_style": "h4",
+            "text": "<p>The vamp on the right shoe has a little wave as the pattern piece heads back towards the heel.<\/p>",
+            "link_label": "",
+            "link": "",
+            "info_on_image": false
+          }
+        },
+        "165178533104f58709-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Product_Details_Heel.jpg",
+            "title": "WRAP AROUND",
+            "font_style": "h4",
+            "text": "<p>As that same vamp piece approaches the heel, well...it just keeps going, wrapping all the way around the heel to the medial side of the shoe.<\/p>",
+            "link_label": "",
+            "link": "",
+            "info_on_image": false
+          }
+        },
+        "b5b54fc4-7221-462a-9d23-4f46b2b58464": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Product_Details_Bottom.jpg",
+            "title": "The Outsole",
+            "font_style": "h4",
+            "text": "<p>Red neighbor, blue neighbor. Unity is purple.<\/p>",
+            "link_label": "",
+            "link": "",
+            "info_on_image": false
+          }
+        },
+        "165178533104f58709-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Product_Details_Top.jpg",
+            "title": "ASYMMETRICAL",
+            "font_style": "h4",
+            "text": "<p>As you look top down, you'll notice that the spacing between the stitched eyelets is wider on the left shoe and narrower on the right.<\/p>",
+            "link_label": "",
+            "link": "",
+            "info_on_image": false
+          }
+        }
+      },
+      "block_order": [
+        "165178533104f58709-0",
+        "165178533104f58709-1",
+        "b5b54fc4-7221-462a-9d23-4f46b2b58464",
+        "165178533104f58709-2"
+      ],
+      "settings": {
+        "title": "Featuring:",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "circle",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16517854782d746a68": {
+      "type": "rich-text",
+      "blocks": {
+        "16517854776a8842f1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Gallery",
+            "heading_size": "h1",
+            "font_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "16517854776a8842f1-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "narrow": false,
+        "is_page_header": false,
+        "mobile_content_align": "center",
+        "desktop_content_align": "center",
+        "padding_top": 40,
+        "padding_bottom": 12,
+        "margin_top": 44,
+        "margin_bottom": 0
+      }
+    },
+    "165178549807230fe4": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "cover_image": "shopify:\/\/shop_images\/Film_Card.jpg",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "1651785501678444ac": {
+      "type": "collage",
+      "blocks": {
+        "58716c2f-bbb0-4747-a7ac-c6f17e4bc6f6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Tall_Lifestyle.jpg",
+            "image_padding": false
+          }
+        },
+        "476f417f-4cc1-40c7-a5af-f1bae02967bd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Imperfects.Seavees-126.jpg",
+            "image_padding": false
+          }
+        },
+        "b45946bd-0a25-4d8f-9951-a63bec9b98c4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/0003_Imperfects.Seavees-135.jpg",
+            "image_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "58716c2f-bbb0-4747-a7ac-c6f17e4bc6f6",
+        "476f417f-4cc1-40c7-a5af-f1bae02967bd",
+        "b45946bd-0a25-4d8f-9951-a63bec9b98c4"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "color_scheme": "background-1",
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "16517855206fba3004": {
+      "type": "collage",
+      "blocks": {
+        "cd7b00a5-9fb4-4894-97c4-0c50f3259eae": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Imperfects.Seavees-50.jpg",
+            "image_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "cd7b00a5-9fb4-4894-97c4-0c50f3259eae"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "1651785646395ff172": {
+      "type": "rich-text",
+      "blocks": {
+        "165178564608a01fd3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>All humans invited<\/p><p>Through our soles may we be united<\/p><p>As one, we make more vibrant color<\/p><p>Red neighbor, blue neighbor<\/p><p>Unity is Purple.<\/p><p><em>- Mike Lynch<\/em><\/p>",
+            "use_heading_font": true,
+            "font_color": "#8f5f89"
+          }
+        }
+      },
+      "block_order": [
+        "165178564608a01fd3-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "narrow": false,
+        "is_page_header": false,
+        "mobile_content_align": "center",
+        "desktop_content_align": "center",
+        "padding_top": 68,
+        "padding_bottom": 68,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "1651785650d48a97da": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% style %}\n.product-form__submit {\nbackground-color: #8f5f89;\nborder: none;\n}\n.product-form__submit::before, .product-form__submit::after {\ncontent: none;\n}\n.product__title {\nmargin-top: 0;\n}\n{% endstyle %}",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "1651786136646e6579",
+    "main",
+    "product-recommendations",
+    "product-ugc-gallery",
+    "164792745482b7fb61",
+    "product-reviews",
+    "1651785096fd6f6c2b",
+    "1651785119c6bce2c4",
+    "165178514780ceff35",
+    "165178529228a7855a",
+    "1651785331ef35daca",
+    "16517854782d746a68",
+    "165178549807230fe4",
+    "1651785501678444ac",
+    "16517855206fba3004",
+    "1651785646395ff172",
+    "1651785650d48a97da"
+  ]
+}

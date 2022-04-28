@@ -8,46 +8,66 @@
         "padding_bottom": 28
       }
     },
-    "1648833854783c6018": {
+    "1651769816dcb4919c": {
       "type": "rich-text",
       "blocks": {
-        "1648833853e4eafee4-0": {
+        "d845d1e9-4475-44d5-9f6e-5a776c159f6e": {
           "type": "heading",
           "settings": {
             "heading": "SeaChange Collection",
-            "heading_size": "h0"
+            "heading_size": "h1",
+            "font_color": ""
           }
         },
-        "1648833853e4eafee4-1": {
+        "1651769816c53397ad-1": {
           "type": "text",
           "settings": {
-            "text": "<p>SeaChange is our first almost completely recycled collection. These conscious, eco-friendly shoes also help support marine ecosystems through our partnership with SeaTrees.<\/p>"
+            "text": "<p>Every shoe in our SeaChange collection features recycled and eco-friendly components from recycled cotton uppers to post-consumer recycled plastic laces to recycled rubber outsoles. In addition, when you buy a pair of SeaChange shoes, we restore 1 sqft of kelp forest thanks to our partnership with SeaTrees.<\/p>",
+            "use_heading_font": false,
+            "font_color": ""
           }
         }
       },
       "block_order": [
-        "1648833853e4eafee4-0",
-        "1648833853e4eafee4-1"
+        "d845d1e9-4475-44d5-9f6e-5a776c159f6e",
+        "1651769816c53397ad-1"
       ],
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
+        "narrow": true,
         "is_page_header": true,
         "mobile_content_align": "center",
         "desktop_content_align": "center",
         "padding_top": 40,
-        "padding_bottom": 0
+        "padding_bottom": 52,
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     },
-    "164883385720bc56f6": {
+    "16488340185b1f3cc8": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "cover_image": "shopify:\/\/shop_images\/SeaVees_Inertia_Cover_Photo_3e8c474b-8cae-46c4-a9a0-fe4484602c55.jpg",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=z1L0i0QcQZk",
+        "description": "SeaTrees and SeaVees Video",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 12,
+        "padding_bottom": 24
+      }
+    },
+    "16517685015d2ce9b4": {
       "type": "featured-collection-alt",
       "settings": {
-        "title": "",
-        "heading_size": "h2",
+        "title": "The Collection",
+        "heading_size": "h1",
         "description": "",
         "description_style": "body",
         "columns_desktop": 4,
-        "full_width": false,
+        "full_width": true,
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": true,
@@ -65,29 +85,15 @@
         "show_condensed_title": true,
         "show_vendor": false,
         "show_gender": true,
-        "show_material": true,
+        "show_material": false,
         "show_rating": false,
-        "enable_quick_buy": false,
+        "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 0,
-        "padding_bottom": 36,
+        "padding_top": 28,
+        "padding_bottom": 56,
         "margin_top": 0,
         "margin_bottom": 0
-      }
-    },
-    "16488340185b1f3cc8": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h2",
-        "cover_image": "shopify:\/\/shop_images\/SeaVees_Inertia_Cover_Photo_3e8c474b-8cae-46c4-a9a0-fe4484602c55.jpg",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=z1L0i0QcQZk",
-        "description": "SeaTrees and SeaVees Video",
-        "full_width": true,
-        "color_scheme": "background-1",
-        "padding_top": 12,
-        "padding_bottom": 24
       }
     },
     "1648834181268fa0bf": {
@@ -111,7 +117,9 @@
           "type": "button",
           "settings": {
             "button_label": "Learn More",
-            "button_link": "shopify:\/\/pages\/seatrees"
+            "button_link": "shopify:\/\/pages\/seatrees",
+            "use_arrow_link": false,
+            "button_style_secondary": false
           }
         }
       },
@@ -123,23 +131,26 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/seatrees_mobile_header_111111_v2.jpg",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
+        "full_width": true,
         "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "color_scheme": "background-1",
+        "color_scheme": "background-3",
         "mobile_content_alignment": "left",
-        "padding_top": 48,
-        "padding_bottom": 36
+        "padding_top": 76,
+        "padding_bottom": 76,
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     }
   },
   "order": [
     "main",
-    "1648833854783c6018",
-    "164883385720bc56f6",
+    "1651769816dcb4919c",
     "16488340185b1f3cc8",
+    "16517685015d2ce9b4",
     "1648834181268fa0bf"
   ]
 }
