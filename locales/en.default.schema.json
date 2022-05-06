@@ -289,6 +289,36 @@
         }
       }
     },
+    "cart": {
+      "name": "Cart",
+      "settings": {
+        "cart_type": {
+          "label": "Cart type",
+          "drawer": {
+            "label": "Drawer"
+          },
+          "page": {
+            "label": "Page"
+          },
+          "notification": {
+            "label": "Popup notification"
+          }
+        },
+        "show_vendor": {
+          "label": "Show vendor"
+        },
+        "show_cart_note": {
+          "label": "Enable cart note"
+        },
+        "cart_drawer": {
+          "header": "Cart drawer",
+          "collection": {
+            "label": "Collection",
+            "info": "Visible when cart drawer is empty"
+          }
+        }
+      }
+    },
     "layout": {
       "name": "Layout",
       "settings": {
@@ -1336,11 +1366,6 @@
     },
     "main-cart-footer": {
       "name": "Subtotal",
-      "settings": {
-        "show_cart_note": {
-          "label": "Enable cart note"
-        }
-      },
       "blocks": {
         "subtotal": {
           "name": "Subtotal price"
@@ -1351,12 +1376,7 @@
       }
     },
     "main-cart-items": {
-      "name": "Items",
-      "settings": {
-        "show_vendor": {
-          "label": "Show vendor"
-        }
-      }
+      "name": "Items"
     },
     "main-collection-banner": {
       "name": "Collection banner",
