@@ -2,6 +2,7 @@
   "sections": {
     "164867367120e1947e": {
       "type": "hero-banner",
+      "disabled": true,
       "blocks": {
         "1648673671d11f3268-0": {
           "type": "heading",
@@ -45,6 +46,58 @@
         "hero_video_mobile": "",
         "image_desktop": "shopify:\/\/shop_images\/desktop_header_211111_25_copy.jpg",
         "image_mobile": "shopify:\/\/shop_images\/HP-Hero.jpg",
+        "desktop_text_box_vertical_position": "center",
+        "desktop_text_box_horizontal_position": "center",
+        "desktop_text_alignment": "center",
+        "adapt_height_first_image": false,
+        "text_image_separate": false
+      }
+    },
+    "1652135633ce7ce319": {
+      "type": "hero-banner",
+      "blocks": {
+        "16521356332262bfc5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "SeaVees X Imperfects",
+            "heading_2": "",
+            "hide_block_on_mobile": false,
+            "hide_block_on_desktop": false
+          }
+        },
+        "16521356332262bfc5-1": {
+          "type": "text",
+          "settings": {
+            "text": "A limited edition collaboration.",
+            "hide_block_on_mobile": false,
+            "hide_block_on_desktop": false
+          }
+        },
+        "16521356332262bfc5-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Now",
+            "button_link_1": "https:\/\/www.seavees.com\/products\/mens-legend-imperfects-sneaker-organic-duck-canvas-natural",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary": false,
+            "use_arrow_link": false,
+            "hide_block_on_mobile": false,
+            "hide_block_on_desktop": false
+          }
+        }
+      },
+      "block_order": [
+        "16521356332262bfc5-0",
+        "16521356332262bfc5-1",
+        "16521356332262bfc5-2"
+      ],
+      "settings": {
+        "use_video_background": false,
+        "hero_video_desktop": "",
+        "hero_video_mobile": "",
+        "image_desktop": "shopify:\/\/shop_images\/Imperfects_hero_desktop_v2.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Imperfects_hero_desktop_v2.jpg",
         "desktop_text_box_vertical_position": "center",
         "desktop_text_box_horizontal_position": "center",
         "desktop_text_alignment": "center",
@@ -530,12 +583,12 @@
         },
         "fbd89d45-25db-4d13-b163-4495e9103151": {
           "type": "collapsible_row",
-          "disabled": true,
           "settings": {
             "heading": "Mill Valley",
+            "image": "shopify:\/\/shop_images\/tam_junction_mill_valley_seavees.jpg",
             "image_ratio": "adapt",
             "icon": "none",
-            "row_content": "<p>Opening Summer 2022.<\/p>",
+            "row_content": "<p>Our third store is ﻿nestled between the Golden Gate Bridge and Mt. Tamalpais in beautiful Marin County. <\/p><p>Opening summer ‘22 in the Tam Junction district of Mill Valley, it marks our debut in Northern California.<\/p>",
             "page": ""
           }
         }
@@ -561,6 +614,7 @@
   },
   "order": [
     "164867367120e1947e",
+    "1652135633ce7ce319",
     "16503151834eccf6ed",
     "1649806229c9386eb6",
     "multicolumn",

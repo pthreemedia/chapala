@@ -294,9 +294,9 @@
         "1651785118491abaf3-1": {
           "type": "text",
           "settings": {
-            "text": "<p>A riff on our classic legend sneaker designed in collaboration with the legendary surf & skate brand,<em>Imperfects.<\/em><\/p>",
+            "text": "<p>A riff on our classic legend sneaker designed in collaboration with surf, skate & apparel brand, <em>Imperfects.<\/em><\/p>",
             "use_heading_font": true,
-            "font_color": ""
+            "font_color": "#012e5c"
           }
         }
       },
@@ -324,11 +324,11 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/0006_Imperfects.Seavees-61.jpg",
             "title": "Unity",
-            "font_style": "h3",
+            "font_style": "h4",
             "text": "",
             "link_label": "",
             "link": "",
-            "info_on_image": true
+            "info_on_image": false
           }
         },
         "16517851479c713624-1": {
@@ -336,11 +336,11 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Tall_Hero.jpg",
             "title": "Is",
-            "font_style": "h3",
+            "font_style": "h4",
             "text": "",
             "link_label": "",
             "link": "",
-            "info_on_image": true
+            "info_on_image": false
           }
         },
         "16517851479c713624-2": {
@@ -348,11 +348,11 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/0005_Imperfects.Seavees-65.jpg",
             "title": "Purple",
-            "font_style": "h3",
+            "font_style": "h4",
             "text": "",
             "link_label": "",
             "link": "",
-            "info_on_image": true
+            "info_on_image": false
           }
         }
       },
@@ -391,7 +391,7 @@
         "1651785292fd122742-1": {
           "type": "text",
           "settings": {
-            "text": "<p>When you collaborate with a designer as talented as Mike Lynch, sometimes it's best to hand them the keys and hop in the passenger seat. You let them drive you to a place you wouldn't normally go.<\/p><p>Mike used his Imperfects magic to create a split pair concept–the left shoe is our classic Legend Sneaker while the right is a completely revised pattern full of asymmetrical quirks.<\/p>",
+            "text": "<p>When you collaborate with a designer as talented as Mike Lynch, sometimes it's best to hand them the keys and hop in the passenger seat. You let them drive you to a place you wouldn't normally go.<\/p><p>Mike used his Imperfects approach to create a split pair concept–the left shoe is our classic Legend Sneaker while the right is a completely revised pattern full of asymmetrical quirks.<\/p>",
             "text_style": "body"
           }
         }
@@ -447,10 +447,10 @@
         "b5b54fc4-7221-462a-9d23-4f46b2b58464": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Product_Details_Bottom.jpg",
+            "image": "shopify:\/\/shop_images\/Product_Details_Bottom_cdfd2426-bf7e-492f-8d8a-21e3061fc416.jpg",
             "title": "The Outsole",
             "font_style": "h4",
-            "text": "<p>Red neighbor, blue neighbor. Unity is purple.<\/p>",
+            "text": "<p>The left sports our heritage smoke blue outsole, while the right is the Imperfects brand red. <\/p>",
             "link_label": "",
             "link": "",
             "info_on_image": false
@@ -462,7 +462,7 @@
             "image": "shopify:\/\/shop_images\/Product_Details_Top.jpg",
             "title": "ASYMMETRICAL",
             "font_style": "h4",
-            "text": "<p>As you look top down, you'll notice that the spacing between the stitched eyelets is wider on the left shoe and narrower on the right.<\/p>",
+            "text": "<p>Looking down, you'll notice that the spacing between the stitched eyelets is wider on one shoe and narrower on the other.<\/p>",
             "link_label": "",
             "link": "",
             "info_on_image": false
@@ -476,8 +476,8 @@
         "165178533104f58709-2"
       ],
       "settings": {
-        "title": "Featuring:",
-        "heading_size": "h1",
+        "title": "Featuring",
+        "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "circle",
         "columns_desktop": 4,
@@ -499,7 +499,7 @@
           "type": "heading",
           "settings": {
             "heading": "Gallery",
-            "heading_size": "h1",
+            "heading_size": "h2",
             "font_color": ""
           }
         }
@@ -522,12 +522,11 @@
     },
     "165178549807230fe4": {
       "type": "video",
-      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
         "cover_image": "shopify:\/\/shop_images\/Film_Card.jpg",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_url": "https:\/\/youtu.be\/R1Vo6jDQuNk",
         "description": "",
         "full_width": false,
         "color_scheme": "background-1",

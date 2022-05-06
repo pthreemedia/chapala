@@ -54,7 +54,7 @@
         "8c28528d-3b7d-4fd8-83ad-d6f79677629c": {
           "type": "text",
           "settings": {
-            "text": "<p>The stories here are dedicated to the underdog. Those of us who have dreams bigger than ourselves, and the determination to see them through. Read on, and dream on.<\/p>",
+            "text": "<p>The stories here are dedicated to the underdog. Those of us who have dreams bigger than ourselves, and the determination to see them through. <\/p>",
             "use_heading_font": false,
             "font_color": "#193859"
           }
@@ -67,7 +67,7 @@
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
-        "narrow": false,
+        "narrow": true,
         "is_page_header": true,
         "mobile_content_align": "center",
         "desktop_content_align": "center",
