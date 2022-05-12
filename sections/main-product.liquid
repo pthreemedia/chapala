@@ -342,6 +342,7 @@
             </share-button>
             <script src="{{ 'share.js' | asset_url }}" defer="defer"></script>
           {%- when 'product_swatches' -%}
+            <div class="product__text h6">Color: {{ product.metafields.seavees.color_name }}</div>
             {% unless product.metafields.seavees.is_on_sale == true %}
               {% render 'product-swatches', hide_sale_swatches: block.settings.hide_sale_product_swatches %}
             {% endunless %}
@@ -361,7 +362,7 @@
                 <variant-radios class="no-js-hidden" data-section="{{ section.id }}" data-url="{{ product.url }}" {{ block.shopify_attributes }}>
                   {%- for option in product.options_with_values -%}
                     <fieldset class="js product-form__input product-form-{{ option.name }}">
-                      <legend class="form__label product__text h6">Select {{ option.name }}</legend>
+                      <legend class="product__text h6">Select {{ option.name }}</legend>
                       {%- for value in option.values -%}
                         {%- assign option_disabled = true -%}
                         {% for option1_name in variants_option1_arr %}
