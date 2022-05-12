@@ -386,6 +386,7 @@
                               form="{{ product_form_id }}"
                               {% if option.selected_value == value %}checked{% endif %}
                               {% if option_disabled %}class="disabled"{% endif %}
+                              {% if option_disabled %}aria-label="Size {{ value | escape }} is unavailable"{% else %}aria-label="Add size {{ value | escape }}"{% endif %}
                         >
                         <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
                           {{ value | remove: 'Mens ' | remove: 'Womens ' | remove: 'Mens' | remove: 'Womens' | remove: 'Little Kid ' | remove: 'Little Kids ' | remove: 'Big Kid ' | remove: 'Big Kids ' | remove: 'Kids ' }}
