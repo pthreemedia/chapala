@@ -1537,8 +1537,8 @@ a.product__text {
   margin-top: 1.5rem;
 }
 
-.product-back-in-stock span {
-  text-decoration: underline;
+.product-back-in-stock a {
+  font-size: 1.5rem;
 }
 
 .product-back-in-stock:before {
