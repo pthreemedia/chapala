@@ -187,9 +187,13 @@
 }
 
 .featured-product-alt .product-swatches {
-  margin-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 
 .featured-product-alt .button {
-  margin-left: -0.5rem;
+    margin-left: -0.5rem;
+}
+
+.product-swatch-color-name {
+    margin: 0 0 1rem 0;
 }
