@@ -2,13 +2,12 @@
   "sections": {
     "164867367120e1947e": {
       "type": "hero-banner",
-      "disabled": true,
       "blocks": {
         "1648673671d11f3268-0": {
           "type": "heading",
           "settings": {
-            "heading": "A consciously crafted,",
-            "heading_2": "once-forgotten classic.",
+            "heading": "Low Profile,",
+            "heading_2": "High Comfort.",
             "hide_block_on_mobile": true,
             "hide_block_on_desktop": false
           }
@@ -16,7 +15,7 @@
         "1648673671d11f3268-1": {
           "type": "text",
           "settings": {
-            "text": "Born in 1964. Rediscovered in 2008.",
+            "text": "Our best-selling Sixty Six Sneaker is back in stock",
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
           }
@@ -25,9 +24,9 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Womens",
-            "button_link_1": "shopify:\/\/collections\/womens-best-sellers",
+            "button_link_1": "shopify:\/\/products\/womens-sixty-six-sneaker-classic-white",
             "button_label_2": "Shop Mens",
-            "button_link_2": "shopify:\/\/collections\/mens-best-sellers",
+            "button_link_2": "shopify:\/\/products\/mens-sixty-six-cotton-chambray-blue",
             "button_style_secondary": false,
             "use_arrow_link": false,
             "hide_block_on_mobile": false,
@@ -44,8 +43,8 @@
         "use_video_background": false,
         "hero_video_desktop": "",
         "hero_video_mobile": "",
-        "image_desktop": "shopify:\/\/shop_images\/desktop_header_211111_25_copy.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/HP-Hero.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Sixty_Six_HP_Hero_82a6a80a-fb3f-4087-92cf-a06e87c3ad77.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/SixtySix_Mobile_Hero.jpg",
         "desktop_text_box_vertical_position": "center",
         "desktop_text_box_horizontal_position": "center",
         "desktop_text_alignment": "center",
@@ -55,6 +54,7 @@
     },
     "1652135633ce7ce319": {
       "type": "hero-banner",
+      "disabled": true,
       "blocks": {
         "16521356332262bfc5-0": {
           "type": "heading",
@@ -251,12 +251,12 @@
         "0501f081-eded-4473-85b1-c3e475e34c6f": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HP-Socks_Tile_800x1000_f5cc64f2-00d3-4285-99c5-606eecfb8e77.jpg",
-            "title": "Socks",
+            "image": "shopify:\/\/shop_images\/Imperfects_hero_mobile.jpg",
+            "title": "SeaVees x Imperfects",
             "font_style": "h3",
             "text": "",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/socks",
+            "link": "shopify:\/\/products\/mens-legend-imperfects-sneaker-organic-duck-canvas-natural",
             "info_on_image": false
           }
         }
