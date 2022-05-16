@@ -48,7 +48,7 @@
         "desktop_text_box_vertical_position": "center",
         "desktop_text_box_horizontal_position": "center",
         "desktop_text_alignment": "center",
-        "adapt_height_first_image": false,
+        "adapt_height_first_image": true,
         "text_image_separate": false
       }
     },
