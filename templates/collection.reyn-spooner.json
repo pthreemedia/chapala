@@ -106,8 +106,58 @@
         "margin_bottom": 0
       }
     },
+    "165272760029de91b0": {
+      "type": "multicolumn",
+      "blocks": {
+        "1652727600e6e19a3e-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/M024A22SRSLHS-16020.jpg",
+            "title": "Baja Slip On | $88",
+            "font_style": "h4",
+            "text": "<p>Our best selling minimal slip on made with Spooner Kloth™, an inside-out blend of cotton and spun poly that’s amazingly durable, wrinkle free and breathable.<\/p>",
+            "link_label": "Shop",
+            "link": "",
+            "info_on_image": false
+          }
+        },
+        "1652727600e6e19a3e-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/M064A22SRSALB-17564.jpg",
+            "title": "Legend Sneaker | $95",
+            "font_style": "h4",
+            "text": "<p>Our classic lace up sneaker, also made with Spooner Kloth™, an inside-out blend of cotton and spun poly that’s amazingly durable, wrinkle free and breathable.<\/p>",
+            "link_label": "Shop",
+            "link": "",
+            "info_on_image": false
+          }
+        }
+      },
+      "block_order": [
+        "1652727600e6e19a3e-0",
+        "1652727600e6e19a3e-1"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "disabled": true,
       "settings": {
         "products_per_page": 48,
         "columns_desktop": 2,
@@ -166,7 +216,7 @@
         "mobile_content_alignment": "left",
         "padding_top": 64,
         "padding_bottom": 64,
-        "margin_top": 100,
+        "margin_top": 44,
         "margin_bottom": 0
       }
     }
@@ -175,6 +225,7 @@
     "banner",
     "165272650737993387",
     "1652726364f02138b5",
+    "165272760029de91b0",
     "product-grid",
     "1652727014cae58cf2"
   ]
