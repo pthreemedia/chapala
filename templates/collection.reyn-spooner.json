@@ -113,11 +113,11 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/M024A22SRSLHS-16020.jpg",
-            "title": "Baja Slip On | $88",
+            "title": "Men's Baja Slip On | $88",
             "font_style": "h4",
             "text": "<p>Our best selling minimal slip on made with Spooner Kloth™, an inside-out blend of cotton and spun poly that’s amazingly durable, wrinkle free and breathable.<\/p>",
             "link_label": "Shop",
-            "link": "",
+            "link": "shopify:\/\/products\/mens-baja-slip-on-reyn-spooner-spooner-kloth-navy-lahaina-sailor",
             "info_on_image": false
           }
         },
@@ -125,11 +125,11 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/M064A22SRSALB-17564.jpg",
-            "title": "Legend Sneaker | $95",
+            "title": "Men's Legend Sneaker | $95",
             "font_style": "h4",
             "text": "<p>Our classic lace up sneaker, also made with Spooner Kloth™, an inside-out blend of cotton and spun poly that’s amazingly durable, wrinkle free and breathable.<\/p>",
             "link_label": "Shop",
-            "link": "",
+            "link": "shopify:\/\/products\/mens-legend-sneaker-reyn-spooner-spooner-kloth-vintage-red-aloha-biscus",
             "info_on_image": false
           }
         }
