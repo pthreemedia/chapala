@@ -8,9 +8,6 @@
     {% render 'product-swatches', hide_sale_swatches: section.settings.hide_sale_product_swatches %}
 {% endcomment %}
 
-
-<script src="{{ 'product-swatch.js' | asset_url }}" defer="defer"></script>
-
 {% if product.vendor == 'SeaVees Footwear' %}
     {% paginate collections.all-shoes.products by 1000 %}
         
