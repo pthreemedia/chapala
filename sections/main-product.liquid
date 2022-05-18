@@ -353,7 +353,7 @@
               {%- endif -%}
             {%- endfor -%}
             {%- if block.settings.enable_back_in_stock == true and all_variants_in_stock == false and product.metafields.seavees.show_back_in_stock_tool == true -%}
-              <div id="BIS_trigger" class="product-back-in-stock" {{ block.shopify_attributes }}>Size out of stock? <span>Sign up for a restock notification.</span></div>
+              <div id="BIS_trigger" class="product-back-in-stock" {{ block.shopify_attributes }}>Size out of stock? <span>Join the waitlist.</span></div>
             {%- endif -%}
           {%- when 'variant_picker' -%}
             {%- unless product.has_only_default_variant -%}
