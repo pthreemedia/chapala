@@ -40,6 +40,7 @@
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
+        "narrow": false,
         "is_page_header": true,
         "mobile_content_align": "center",
         "desktop_content_align": "center",
@@ -72,7 +73,7 @@
         "b3caf44a-4368-46ae-8716-0344e2aaaf1e"
       ],
       "settings": {
-        "stack_on_mobile": false,
+        "stack_on_mobile": true,
         "show_background": true,
         "padding_top": 0,
         "padding_bottom": 0,
@@ -90,6 +91,7 @@
         "image_ratio": "adapt",
         "show_condensed_title": true,
         "show_swatches": false,
+        "show_availability": false,
         "show_secondary_image": false,
         "show_gender": true,
         "show_material": true,
