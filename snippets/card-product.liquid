@@ -231,9 +231,9 @@
           </div>
         {%- endif -%}
         <div class="card__badge {{ settings.badge_position }}">
-          {%- if card_product.metafield.seavees.product_card_note != blank -%}
-            <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}">{{ card_product.metafield.seavees.product_card_note }}</span>
-          {%- elsif card_product.available == false and card_product.metafield.seavees.show_back_in_stock_tool == true -%}
+          {%- if card_product.metafields.seavees.product_card_note != blank -%}
+            <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}">{{ card_product.metafields.seavees.product_card_note }}</span>
+          {%- elsif card_product.available == false and card_product.metafields.seavees.show_back_in_stock_tool == true -%}
             <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}">Join waitlist</span>
           {%- elsif card_product.available == false -%}
             <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}">Sold out</span>
