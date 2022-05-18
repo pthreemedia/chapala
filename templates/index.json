@@ -251,12 +251,12 @@
         "0501f081-eded-4473-85b1-c3e475e34c6f": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Imperfects_hero_mobile.jpg",
-            "title": "SeaVees x Imperfects",
+            "image": "shopify:\/\/shop_images\/reyn_spooner_seavees_mobile_header_111111.jpg",
+            "title": "SeaVees x Reyn Spooner",
             "font_style": "h3",
             "text": "",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/products\/mens-legend-imperfects-sneaker-organic-duck-canvas-natural",
+            "link": "shopify:\/\/collections\/reyn-spooner-collaboration",
             "info_on_image": false
           }
         }
