@@ -126,6 +126,7 @@
         "blocks": {
           "4dbb0686-cdd9-4f5a-8125-1bfd23e3dfcd": {
             "type": "featured_content",
+            "disabled": true,
             "settings": {
               "category": "Mens",
               "text": "The Baja",
@@ -136,6 +137,7 @@
           },
           "8faac646-622e-434a-8bea-f10b298e8fcd": {
             "type": "featured_content",
+            "disabled": true,
             "settings": {
               "category": "Mens",
               "text": "The Sixty Six",
@@ -146,6 +148,7 @@
           },
           "9586e75a-9c6b-4eab-98b5-462a69572691": {
             "type": "featured_content",
+            "disabled": true,
             "settings": {
               "category": "Mens",
               "text": "The Hermosa",
@@ -156,6 +159,7 @@
           },
           "63c8485a-2033-47fc-a0a6-26b9300dc81c": {
             "type": "featured_content",
+            "disabled": true,
             "settings": {
               "category": "Womens",
               "text": "The Monterey Sneaker",
@@ -166,6 +170,7 @@
           },
           "067eea87-3114-4e12-b33c-40d5f50d3f91": {
             "type": "featured_content",
+            "disabled": true,
             "settings": {
               "category": "Womens",
               "text": "The Hawthorne",
@@ -176,6 +181,7 @@
           },
           "549aab27-f359-4751-82f2-84007485cc1b": {
             "type": "featured_content",
+            "disabled": true,
             "settings": {
               "category": "Womens",
               "text": "The Baja Platform",
@@ -238,8 +244,8 @@
           "menu_type_desktop": "mega",
           "show_line_separator": false,
           "enable_sticky_header": true,
-          "womens_featured_content_title": "Featured Styles",
-          "mens_featured_content_title": "Featured Styles",
+          "womens_featured_content_title": "",
+          "mens_featured_content_title": "",
           "kids_featured_content_title": "",
           "discover_featured_content_title": "",
           "margin_bottom": 0
