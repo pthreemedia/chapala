@@ -151,7 +151,6 @@
     },
     "1652985775197fe410": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "1652985775961a51e0-0": {
           "type": "column",
@@ -222,7 +221,7 @@
         "b85bb5f3-ccde-4432-8a4a-448e71381c1c"
       ],
       "settings": {
-        "title": "Recycled Components",
+        "title": "",
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
