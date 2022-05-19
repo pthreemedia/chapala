@@ -135,7 +135,56 @@
         "mobile_layout": "collage",
         "color_scheme": "background-1",
         "padding_top": 36,
-        "padding_bottom": 8
+        "padding_bottom": 0
+      }
+    },
+    "1652992451b58be40b": {
+      "type": "rich-text",
+      "blocks": {
+        "16529924509e9c5cfb-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1",
+            "font_color": ""
+          }
+        },
+        "16529924509e9c5cfb-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Vegan Corn Leather<\/strong><\/p>",
+            "use_heading_font": false,
+            "font_color": ""
+          }
+        },
+        "16529924509e9c5cfb-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "use_arrow_link": false,
+            "link_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "16529924509e9c5cfb-0",
+        "16529924509e9c5cfb-1",
+        "16529924509e9c5cfb-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "narrow": false,
+        "is_page_header": false,
+        "mobile_content_align": "center",
+        "desktop_content_align": "left",
+        "padding_top": 0,
+        "padding_bottom": 52,
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     },
     "16529882352eb71c8e": {
@@ -170,61 +219,8 @@
         "padding_bottom": 36
       }
     },
-    "16517685015d2ce9b4": {
-      "type": "featured-collection-alt",
-      "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "description": "",
-        "description_style": "body",
-        "columns_desktop": 3,
-        "full_width": true,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "background-1",
-        "collection_1": "womens-seachange",
-        "tab_id_1": "1",
-        "featured_collection_title_1": "Womens",
-        "products_to_show_1": 12,
-        "collection_2": "mens-seachange",
-        "tab_id_2": "2",
-        "featured_collection_title_2": "Mens",
-        "products_to_show_2": 12,
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_condensed_title": true,
-        "show_vendor": false,
-        "show_gender": true,
-        "show_material": true,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 12,
-        "padding_bottom": 32,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "16488340185b1f3cc8": {
-      "type": "video",
-      "disabled": true,
-      "settings": {
-        "heading": "",
-        "heading_size": "h2",
-        "cover_image": "shopify:\/\/shop_images\/SeaVees_Inertia_Cover_Photo_3e8c474b-8cae-46c4-a9a0-fe4484602c55.jpg",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=z1L0i0QcQZk",
-        "description": "SeaTrees and SeaVees Video",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 12,
-        "padding_bottom": 24
-      }
-    },
     "1652985775197fe410": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "1652985775961a51e0-0": {
           "type": "column",
@@ -309,6 +305,58 @@
         "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "16517685015d2ce9b4": {
+      "type": "featured-collection-alt",
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "description": "",
+        "description_style": "body",
+        "columns_desktop": 3,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "collection_1": "womens-seachange",
+        "tab_id_1": "1",
+        "featured_collection_title_1": "Womens",
+        "products_to_show_1": 12,
+        "collection_2": "mens-seachange",
+        "tab_id_2": "2",
+        "featured_collection_title_2": "Mens",
+        "products_to_show_2": 12,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_condensed_title": true,
+        "show_vendor": false,
+        "show_gender": true,
+        "show_material": true,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 12,
+        "padding_bottom": 32,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "16488340185b1f3cc8": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "cover_image": "shopify:\/\/shop_images\/SeaVees_Inertia_Cover_Photo_3e8c474b-8cae-46c4-a9a0-fe4484602c55.jpg",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=z1L0i0QcQZk",
+        "description": "SeaTrees and SeaVees Video",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 12,
+        "padding_bottom": 24
       }
     },
     "1648834181268fa0bf": {
@@ -455,10 +503,11 @@
     "1652979137b0a62647",
     "1651769816dcb4919c",
     "1652986988362dbeb2",
+    "1652992451b58be40b",
     "16529882352eb71c8e",
+    "1652985775197fe410",
     "16517685015d2ce9b4",
     "16488340185b1f3cc8",
-    "1652985775197fe410",
     "1648834181268fa0bf",
     "16529869559e44ae82",
     "1652991467884ceccb"
