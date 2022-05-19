@@ -14,7 +14,7 @@
         "165297913758c6d6d2-0": {
           "type": "heading",
           "settings": {
-            "heading_line_1": "Waste You Can Wear",
+            "heading_line_1": "The SeaChange Collection",
             "heading_line_2": "",
             "heading_size": "h0"
           }
@@ -22,7 +22,7 @@
         "165297913758c6d6d2-1": {
           "type": "text",
           "settings": {
-            "text": "Our Most Responsible Collection Yet",
+            "text": "Our Most Responsible Sneakers Yet",
             "text_style": "caption-with-letter-spacing"
           }
         },
@@ -65,6 +65,7 @@
       "blocks": {
         "d845d1e9-4475-44d5-9f6e-5a776c159f6e": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "The SeaChange Collection",
             "heading_size": "h2",
@@ -74,7 +75,7 @@
         "1651769816c53397ad-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We put the “Sea” in SeaVees because we’re committed to protecting it. Through our giveback with SeaTrees and material innovations in product, our continued expansion of the SeaChange collection is a big part of our action on that commitment. <\/p>",
+            "text": "<p>We made waste into something you can wear. These freshly picked styles are made with pineapple yarn or corn leather upper, a recycled cotton canvas with metal-free stitched eyelets, post-consumer recycled plastic laces and a recycled natural rubber outsole. <\/p><p><\/p>",
             "use_heading_font": false,
             "font_color": "#012e5c"
           }
@@ -92,9 +93,81 @@
         "mobile_content_align": "center",
         "desktop_content_align": "center",
         "padding_top": 76,
-        "padding_bottom": 24,
+        "padding_bottom": 12,
         "margin_top": 0,
         "margin_bottom": 0
+      }
+    },
+    "1652986988362dbeb2": {
+      "type": "collage",
+      "blocks": {
+        "2e9146f8-8a7e-41b7-ac5a-7e374c48c2ae": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Instagram_story_-_43_cb3e4133-3bd0-4e57-8068-875c3bd6c0f5.jpg",
+            "image_padding": false
+          }
+        },
+        "16529869883ddd0da2-2": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": ""
+          }
+        },
+        "270667a6-249f-4379-9564-10111c5453ee": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Instagram_story_-_31.jpg",
+            "image_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "2e9146f8-8a7e-41b7-ac5a-7e374c48c2ae",
+        "16529869883ddd0da2-2",
+        "270667a6-249f-4379-9564-10111c5453ee"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 8
+      }
+    },
+    "16529882352eb71c8e": {
+      "type": "collage",
+      "blocks": {
+        "8eea6d43-69e1-4478-b20a-a17717ad710b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Pineapple_Yarn_Lifestyle.jpg",
+            "image_padding": false
+          }
+        },
+        "afa23223-e605-4cba-b05a-f7b9a13de2bf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Instagram_story_-_45_49a799a8-751d-462d-a6a8-c611b0082502.jpg",
+            "image_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "8eea6d43-69e1-4478-b20a-a17717ad710b",
+        "afa23223-e605-4cba-b05a-f7b9a13de2bf"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "right",
+        "mobile_layout": "collage",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 36
       }
     },
     "16488340185b1f3cc8": {
@@ -115,7 +188,7 @@
     "16517685015d2ce9b4": {
       "type": "featured-collection-alt",
       "settings": {
-        "title": "",
+        "title": "The Collection",
         "heading_size": "h2",
         "description": "",
         "description_style": "body",
@@ -151,6 +224,7 @@
     },
     "1652985775197fe410": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "1652985775961a51e0-0": {
           "type": "column",
@@ -326,76 +400,53 @@
         "padding_bottom": 36
       }
     },
-    "1652986988362dbeb2": {
-      "type": "collage",
+    "1652991467884ceccb": {
+      "type": "image-with-text",
       "blocks": {
-        "2e9146f8-8a7e-41b7-ac5a-7e374c48c2ae": {
-          "type": "image",
+        "165299146757a8e807-0": {
+          "type": "heading",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_story_-_43_cb3e4133-3bd0-4e57-8068-875c3bd6c0f5.jpg",
-            "image_padding": false
+            "heading": "We're Committed to Sea Change",
+            "heading_size": "h2"
           }
         },
-        "16529869883ddd0da2-2": {
-          "type": "collection",
-          "disabled": true,
+        "165299146757a8e807-1": {
+          "type": "text",
           "settings": {
-            "collection": ""
+            "text": "<p>It’s our best effort yet to make our shoes more responsibly, and it’s just the beginning. Every pair of shoes sold from this collection gives back $1 to our partner SeaTrees, a non-profit that works to restore coastal ecosystems and ocean health globally.<\/p>",
+            "text_style": "body"
           }
         },
-        "270667a6-249f-4379-9564-10111c5453ee": {
-          "type": "image",
+        "165299146757a8e807-2": {
+          "type": "button",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_story_-_31.jpg",
-            "image_padding": false
+            "button_label": "Learn More",
+            "button_link": "",
+            "use_arrow_link": true,
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "2e9146f8-8a7e-41b7-ac5a-7e374c48c2ae",
-        "16529869883ddd0da2-2",
-        "270667a6-249f-4379-9564-10111c5453ee"
+        "165299146757a8e807-0",
+        "165299146757a8e807-1",
+        "165299146757a8e807-2"
       ],
       "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
+        "image": "shopify:\/\/shop_images\/seatrees_featured_211111_7f8c7278-03d6-42f0-b06d-d810a7a93e12.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "full_width": false,
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
         "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
-        "padding_bottom": 8
-      }
-    },
-    "16529882352eb71c8e": {
-      "type": "collage",
-      "blocks": {
-        "8eea6d43-69e1-4478-b20a-a17717ad710b": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Pineapple_Yarn_Lifestyle.jpg",
-            "image_padding": false
-          }
-        },
-        "afa23223-e605-4cba-b05a-f7b9a13de2bf": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_story_-_45_49a799a8-751d-462d-a6a8-c611b0082502.jpg",
-            "image_padding": false
-          }
-        }
-      },
-      "block_order": [
-        "8eea6d43-69e1-4478-b20a-a17717ad710b",
-        "afa23223-e605-4cba-b05a-f7b9a13de2bf"
-      ],
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "desktop_layout": "right",
-        "mobile_layout": "collage",
-        "color_scheme": "background-1",
-        "padding_top": 0,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     }
   },
@@ -403,12 +454,13 @@
     "main",
     "1652979137b0a62647",
     "1651769816dcb4919c",
+    "1652986988362dbeb2",
+    "16529882352eb71c8e",
     "16488340185b1f3cc8",
     "16517685015d2ce9b4",
     "1652985775197fe410",
     "1648834181268fa0bf",
     "16529869559e44ae82",
-    "1652986988362dbeb2",
-    "16529882352eb71c8e"
+    "1652991467884ceccb"
   ]
 }
