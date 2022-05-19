@@ -170,25 +170,10 @@
         "padding_bottom": 36
       }
     },
-    "16488340185b1f3cc8": {
-      "type": "video",
-      "disabled": true,
-      "settings": {
-        "heading": "",
-        "heading_size": "h2",
-        "cover_image": "shopify:\/\/shop_images\/SeaVees_Inertia_Cover_Photo_3e8c474b-8cae-46c4-a9a0-fe4484602c55.jpg",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=z1L0i0QcQZk",
-        "description": "SeaTrees and SeaVees Video",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 12,
-        "padding_bottom": 24
-      }
-    },
     "16517685015d2ce9b4": {
       "type": "featured-collection-alt",
       "settings": {
-        "title": "The Collection",
+        "title": "",
         "heading_size": "h2",
         "description": "",
         "description_style": "body",
@@ -220,6 +205,21 @@
         "padding_bottom": 32,
         "margin_top": 0,
         "margin_bottom": 0
+      }
+    },
+    "16488340185b1f3cc8": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "cover_image": "shopify:\/\/shop_images\/SeaVees_Inertia_Cover_Photo_3e8c474b-8cae-46c4-a9a0-fe4484602c55.jpg",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=z1L0i0QcQZk",
+        "description": "SeaTrees and SeaVees Video",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 12,
+        "padding_bottom": 24
       }
     },
     "1652985775197fe410": {
@@ -456,8 +456,8 @@
     "1651769816dcb4919c",
     "1652986988362dbeb2",
     "16529882352eb71c8e",
-    "16488340185b1f3cc8",
     "16517685015d2ce9b4",
+    "16488340185b1f3cc8",
     "1652985775197fe410",
     "1648834181268fa0bf",
     "16529869559e44ae82",
