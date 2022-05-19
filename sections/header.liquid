@@ -159,6 +159,10 @@
                                       {%- endif -%}
                                     </li>
                                   {%- endfor -%}
+
+                                  {% comment %}This snippet will show the featured menu items on mobile{% endcomment %}
+                                  
+                                  {% comment %}
                                   {% liquid
                                     if link.title == "Mens" and section.settings.mens_featured_content_title != blank
                                       assign has_content = "Mens"
@@ -231,6 +235,7 @@
                                       </details>
                                     </li>
                                   {% endif %}
+                                  {% endcomment %}
                                 </ul>
                               </div>
                             </div>
