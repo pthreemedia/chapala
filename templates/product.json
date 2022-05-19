@@ -81,7 +81,7 @@
           "settings": {
             "show_installment_option": false,
             "margin_top": "1rem",
-            "margin_bottom": "1rem"
+            "margin_bottom": "2rem"
           }
         },
         "42a82d44-4510-48f4-944a-b6fa676826af": {
@@ -89,7 +89,7 @@
           "settings": {
             "hide_sale_product_swatches": true,
             "margin_top": "1rem",
-            "margin_bottom": "1rem"
+            "margin_bottom": "2rem"
           }
         },
         "variant_picker": {
@@ -97,8 +97,8 @@
           "settings": {
             "picker_type": "button",
             "select_soldout_type": "none",
-            "margin_top": "1rem",
-            "margin_bottom": "1rem"
+            "margin_top": "2rem",
+            "margin_bottom": "2rem"
           }
         },
         "0096abdf-d412-4354-8603-72bf837de1d2": {
