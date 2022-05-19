@@ -56,7 +56,7 @@
           "type": "text",
           "settings": {
             "text": "{{ product.metafields.seavees.gender.value }} \/ {{ product.metafields.seavees.material.value }}",
-            "text_style": "h6"
+            "text_style": "h5"
           }
         },
         "title": {
