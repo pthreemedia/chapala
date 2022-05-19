@@ -56,37 +56,49 @@
           "type": "text",
           "settings": {
             "text": "{{ product.metafields.seavees.gender.value }} \/ {{ product.metafields.seavees.material.value }}",
-            "text_style": "h5"
+            "text_style": "h6",
+            "margin_top": "none",
+            "margin_bottom": "none"
           }
         },
         "title": {
           "type": "title",
           "settings": {
-            "text": "{{ product.metafields.seavees.online_title.value }}"
+            "text": "{{ product.metafields.seavees.online_title.value }}",
+            "margin_top": "none",
+            "margin_bottom": "none"
           }
         },
         "61ceb859-fc56-4458-8eab-ec9397a3b5d5": {
           "type": "rating",
           "settings": {
+            "margin_top": "none",
+            "margin_bottom": "1rem"
           }
         },
         "price": {
           "type": "price",
           "settings": {
-            "show_installment_option": false
+            "show_installment_option": false,
+            "margin_top": "1rem",
+            "margin_bottom": "1rem"
           }
         },
         "42a82d44-4510-48f4-944a-b6fa676826af": {
           "type": "product_swatches",
           "settings": {
-            "hide_sale_product_swatches": true
+            "hide_sale_product_swatches": true,
+            "margin_top": "1rem",
+            "margin_bottom": "1rem"
           }
         },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
             "picker_type": "button",
-            "select_soldout_type": "none"
+            "select_soldout_type": "none",
+            "margin_top": "1rem",
+            "margin_bottom": "1rem"
           }
         },
         "0096abdf-d412-4354-8603-72bf837de1d2": {
@@ -98,7 +110,9 @@
         "6cb779ce-787f-4653-aca4-8ba527bdb49a": {
           "type": "back_in_stock",
           "settings": {
-            "enable_back_in_stock": true
+            "enable_back_in_stock": true,
+            "margin_top": "1rem",
+            "margin_bottom": "1rem"
           }
         },
         "quantity_selector": {
@@ -110,7 +124,9 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": false
+            "show_dynamic_checkout": false,
+            "margin_top": "1rem",
+            "margin_bottom": "1rem"
           }
         },
         "467af105-8b5d-4c64-9143-fc32cfdb1c35": {
@@ -160,7 +176,9 @@
         "d45af598-2236-4f27-9df7-84e8aa0cb053": {
           "type": "share",
           "settings": {
-            "share_label": "Share"
+            "share_label": "Share",
+            "margin_top": "1rem",
+            "margin_bottom": "1rem"
           }
         }
       },
