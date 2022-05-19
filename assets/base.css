@@ -3183,3 +3183,10 @@ details-disclosure > details {
 .featured-collection-tabs {
   border: none;
 }
+
+@media screen and (max-width: 749px) {
+  .featured-collection .slider--tablet.grid--peek.grid--1-col-tablet-down .grid__item,
+  .featured-collection .slider--mobile.grid--peek.grid--1-col-tablet-down .grid__item  {
+    width: calc(100% - 10rem);
+  }
+}
