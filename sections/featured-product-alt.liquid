@@ -28,11 +28,13 @@
         {% if section.settings.description %}<p class="featured-product-alt-description">{{ section.settings.description }}</p>{% endif %}
         {% assign product_card_product = block.settings.product %}
         {% if section.settings.show_swatches == true %}
-          {% for block in section.blocks %}
-            {% if forloop.first %}
-              <h6 class="product-swatch-color-name">Selected Color: {{ block.settings.product.metafields.seavees.color_name }}</h6>
-            {% endif %}
-          {% endfor %}
+          {% comment %}
+            {% for block in section.blocks %}
+              {% if forloop.first %}
+                <h6 class="product-swatch-color-name">Selected Color: {{ block.settings.product.metafields.seavees.color_name }}</h6>
+              {% endif %}
+            {% endfor %}
+          {% endcomment %}
           <featured-swatch class="product-swatches">
             {% for block in section.blocks %}
               <div>
