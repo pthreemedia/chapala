@@ -74,7 +74,7 @@
         "1651769816c53397ad-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We made waste into something you can wear.<\/p><p>These freshly picked styles are made with pineapple yarn or corn leather upper, a recycled cotton canvas with metal-free stitched eyelets, post-consumer recycled plastic laces and a recycled natural rubber outsole. It’s our best effort yet to make our shoes more responsibly, and it’s just the beginning. <\/p><p><em>Every pair of shoes sold from this collection gives back $1 to our partner SeaTrees, a non-profit that works to restore coastal ecosystems and ocean health globally.<\/em><\/p>",
+            "text": "<p>We put the “Sea” in SeaVees because we’re committed to protecting it. Through our giveback with SeaTrees and material innovations in product, our continued expansion of the SeaChange collection is a big part of our action on that commitment. <\/p>",
             "use_heading_font": false,
             "font_color": "#012e5c"
           }
@@ -92,7 +92,7 @@
         "mobile_content_align": "center",
         "desktop_content_align": "center",
         "padding_top": 76,
-        "padding_bottom": 52,
+        "padding_bottom": 24,
         "margin_top": 0,
         "margin_bottom": 0
       }
@@ -119,7 +119,7 @@
         "heading_size": "h2",
         "description": "",
         "description_style": "body",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "full_width": true,
         "show_view_all": true,
         "view_all_style": "solid",
@@ -134,23 +134,24 @@
         "featured_collection_title_2": "Mens",
         "products_to_show_2": 12,
         "image_ratio": "adapt",
-        "show_secondary_image": false,
+        "show_secondary_image": true,
         "show_condensed_title": true,
         "show_vendor": false,
         "show_gender": true,
-        "show_material": false,
+        "show_material": true,
         "show_rating": false,
         "enable_quick_add": false,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_top": 28,
-        "padding_bottom": 56,
+        "padding_top": 12,
+        "padding_bottom": 32,
         "margin_top": 0,
         "margin_bottom": 0
       }
     },
     "1652985775197fe410": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "1652985775961a51e0-0": {
           "type": "column",
@@ -239,6 +240,7 @@
     },
     "1648834181268fa0bf": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "164883418143aa5478-0": {
           "type": "heading",
@@ -285,6 +287,44 @@
         "margin_top": 0,
         "margin_bottom": 0
       }
+    },
+    "16529869559e44ae82": {
+      "type": "collage",
+      "blocks": {
+        "7bbb438f-3136-4646-a57a-27f5eeeaddf4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Instagram_story_-_40.png",
+            "image_padding": false
+          }
+        },
+        "4e9f1e25-5f9d-4fa7-822c-1ee6ab769912": {
+          "type": "image",
+          "settings": {
+            "image_padding": false
+          }
+        },
+        "2a4e86e9-787f-4047-beba-1dffc20e91ff": {
+          "type": "image",
+          "settings": {
+            "image_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "7bbb438f-3136-4646-a57a-27f5eeeaddf4",
+        "4e9f1e25-5f9d-4fa7-822c-1ee6ab769912",
+        "2a4e86e9-787f-4047-beba-1dffc20e91ff"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -294,6 +334,7 @@
     "16488340185b1f3cc8",
     "16517685015d2ce9b4",
     "1652985775197fe410",
-    "1648834181268fa0bf"
+    "1648834181268fa0bf",
+    "16529869559e44ae82"
   ]
 }
