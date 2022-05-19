@@ -290,6 +290,7 @@
     },
     "16529869559e44ae82": {
       "type": "collage",
+      "disabled": true,
       "blocks": {
         "7bbb438f-3136-4646-a57a-27f5eeeaddf4": {
           "type": "image",
@@ -325,6 +326,78 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1652986988362dbeb2": {
+      "type": "collage",
+      "blocks": {
+        "2e9146f8-8a7e-41b7-ac5a-7e374c48c2ae": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Instagram_story_-_43_c4206134-097b-4f9d-ab7a-9a30b3981184.jpg",
+            "image_padding": false
+          }
+        },
+        "16529869883ddd0da2-2": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": ""
+          }
+        },
+        "270667a6-249f-4379-9564-10111c5453ee": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Instagram_story_-_31.jpg",
+            "image_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "2e9146f8-8a7e-41b7-ac5a-7e374c48c2ae",
+        "16529869883ddd0da2-2",
+        "270667a6-249f-4379-9564-10111c5453ee"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 8
+      }
+    },
+    "16529882352eb71c8e": {
+      "type": "collage",
+      "blocks": {
+        "8eea6d43-69e1-4478-b20a-a17717ad710b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Pineapple_Yarn_Lifestyle.jpg",
+            "image_padding": false
+          }
+        },
+        "afa23223-e605-4cba-b05a-f7b9a13de2bf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Instagram_story_-_45_b80fba72-dee8-41ee-9e99-a222d1c8cb58.jpg",
+            "image_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "8eea6d43-69e1-4478-b20a-a17717ad710b",
+        "afa23223-e605-4cba-b05a-f7b9a13de2bf"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "right",
+        "mobile_layout": "collage",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -335,6 +408,8 @@
     "16517685015d2ce9b4",
     "1652985775197fe410",
     "1648834181268fa0bf",
-    "16529869559e44ae82"
+    "16529869559e44ae82",
+    "1652986988362dbeb2",
+    "16529882352eb71c8e"
   ]
 }
