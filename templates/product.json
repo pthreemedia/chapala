@@ -1,48 +1,92 @@
 {
   "sections": {
+    "1652982125dda54312": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "1652982125301298cc-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1",
+            "font_color": ""
+          }
+        },
+        "1652982125301298cc-1": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "use_heading_font": false,
+            "font_color": ""
+          }
+        },
+        "1652982125301298cc-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "use_arrow_link": false,
+            "link_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "1652982125301298cc-0",
+        "1652982125301298cc-1",
+        "1652982125301298cc-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "narrow": false,
+        "is_page_header": false,
+        "mobile_content_align": "center",
+        "desktop_content_align": "center",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
-        "title": {
-          "type": "title",
-          "settings": {
-            "text": "{{ product.metafields.seavees.online_title.value }}",
-            "margin_top": "1rem",
-            "margin_bottom": "none"
-          }
-        },
         "caption": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.seavees.gender.value }} \/ {{ product.metafields.seavees.color_name.value }} \/ {{ product.metafields.seavees.material.value }}",
-            "text_style": "h5",
-            "margin_top": "none",
-            "margin_bottom": "1rem"
+            "text": "{{ product.metafields.seavees.gender.value }} \/ {{ product.metafields.seavees.material.value }}",
+            "text_style": "h6"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "text": "{{ product.metafields.seavees.online_title.value }}"
+          }
+        },
+        "61ceb859-fc56-4458-8eab-ec9397a3b5d5": {
+          "type": "rating",
+          "settings": {
           }
         },
         "price": {
           "type": "price",
           "settings": {
-            "show_installment_option": false,
-            "margin_top": "2rem",
-            "margin_bottom": "2rem"
+            "show_installment_option": false
           }
         },
         "42a82d44-4510-48f4-944a-b6fa676826af": {
           "type": "product_swatches",
           "settings": {
-            "hide_sale_product_swatches": true,
-            "margin_top": "2rem",
-            "margin_bottom": "2rem"
+            "hide_sale_product_swatches": true
           }
         },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
             "picker_type": "button",
-            "select_soldout_type": "none",
-            "margin_top": "2rem",
-            "margin_bottom": "2rem"
+            "select_soldout_type": "none"
           }
         },
         "0096abdf-d412-4354-8603-72bf837de1d2": {
@@ -54,9 +98,7 @@
         "6cb779ce-787f-4653-aca4-8ba527bdb49a": {
           "type": "back_in_stock",
           "settings": {
-            "enable_back_in_stock": true,
-            "margin_top": "1rem",
-            "margin_bottom": "1rem"
+            "enable_back_in_stock": true
           }
         },
         "quantity_selector": {
@@ -68,9 +110,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": false,
-            "margin_top": "1rem",
-            "margin_bottom": "1rem"
+            "show_dynamic_checkout": false
           }
         },
         "467af105-8b5d-4c64-9143-fc32cfdb1c35": {
@@ -120,15 +160,14 @@
         "d45af598-2236-4f27-9df7-84e8aa0cb053": {
           "type": "share",
           "settings": {
-            "share_label": "Share",
-            "margin_top": "1rem",
-            "margin_bottom": "1rem"
+            "share_label": "Share"
           }
         }
       },
       "block_order": [
-        "title",
         "caption",
+        "title",
+        "61ceb859-fc56-4458-8eab-ec9397a3b5d5",
         "price",
         "42a82d44-4510-48f4-944a-b6fa676826af",
         "variant_picker",
@@ -223,6 +262,7 @@
     }
   },
   "order": [
+    "1652982125dda54312",
     "main",
     "product-recommendations",
     "product-ugc-gallery",
