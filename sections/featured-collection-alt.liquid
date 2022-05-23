@@ -69,8 +69,8 @@
     </div>
       
     <div class="featured-collection-container tab-container">
-      <input class="radio" type="radio" name="{{ section.settings.title | downcase | remove: " " }}" id="tab{{ section.settings.tab_id_1 }}" aria-labelledby="tab{{ section.settings.tab_id_1 }}-label" aria-roledescription="tab" checked >
-      <input class="radio" type="radio" name="{{ section.settings.title | downcase | remove: " " }}" id="tab{{ section.settings.tab_id_2 }}" aria-labelledby="tab{{ section.settings.tab_id_2 }}-label" aria-roledescription="tab" >
+      <input class="radio" type="radio" name="featured_collection_{{ section.id }}" id="tab{{ section.settings.tab_id_1 }}" aria-labelledby="tab{{ section.settings.tab_id_1 }}-label" aria-roledescription="tab" checked >
+      <input class="radio" type="radio" name="featured_collection_{{ section.id }}" id="tab{{ section.settings.tab_id_2 }}" aria-labelledby="tab{{ section.settings.tab_id_2 }}-label" aria-roledescription="tab" >
 
       <div class="tabs">
         <label class="tab" id="tab{{ section.settings.tab_id_1 }}-label" for="tab{{ section.settings.tab_id_1 }}" aria-hidden="true">
