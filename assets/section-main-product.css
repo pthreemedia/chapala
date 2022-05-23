@@ -422,6 +422,15 @@ a.product__text {
   display: none;
 }
 
+.product .color_next_to_price {
+  font-size: 1.8rem;
+  letter-spacing: 0.02rem;
+  font-weight: 500;
+  line-height: calc(1 + 0.5 / var(--font-body-scale));
+  color: rgb(var(--color-foreground));
+  display: inline-block;
+}
+
 @media screen and (min-width: 750px) {
   .product__info-container {
     max-width: 60rem;
@@ -1446,7 +1455,11 @@ a.product__text {
 }
 
 .product-reviews .junip-traits-container {
-  display: none !important;
+  display: none;
+}
+
+.show-traits .junip-traits-container {
+  display: block;
 }
 
 .product-reviews .junip-product-review-summary-container {

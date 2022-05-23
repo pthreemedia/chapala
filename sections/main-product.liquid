@@ -222,6 +222,12 @@
           {%- when 'price' -%}
             <div class="no-js-hidden pdp-margin-top-{{ block.settings.margin_top }} pdp-margin-bottom-{{ block.settings.margin_bottom }}" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
               {%- render 'price', product: product, use_variant: true, show_badges: false, price_class: 'price--large' -%}
+              {% if block.settings.show_color == true %}
+                <div class="color_next_to_price light">
+                  <span aria-disabled="true"> | </span>
+                  {{ product.metafields.seavees.color_name }}
+                </div>
+              {% endif %}
             </div>
             {%- if shop.taxes_included or shop.shipping_policy.body != blank -%}
               <div class="product__tax caption rte">
@@ -347,7 +353,7 @@
             <script src="{{ 'share.js' | asset_url }}" defer="defer"></script>
           {%- when 'product_swatches' -%}
             <div class="pdp-margin-top-{{ block.settings.margin_top }} pdp-margin-bottom-{{ block.settings.margin_bottom }}">
-              <div class="product__text h6">Color: {{ product.metafields.seavees.color_name }}</div>
+              {% if block.settings.show_title == true %}<div class="product__text h6">Color: {{ product.metafields.seavees.color_name }}</div>{% endif %}
               {% unless product.metafields.seavees.is_on_sale == true %}
                 {% render 'product-swatches', hide_sale_swatches: block.settings.hide_sale_product_swatches %}
               {% endunless %}
@@ -550,16 +556,20 @@
                 assign rating_decimal = 1
                endif
               %}
-              <div class="rating pdp-margin-top-{{ block.settings.margin_top }} pdp-margin-bottom-{{ block.settings.margin_bottom }}" role="img" aria-label="{{ 'accessibility.star_reviews_info' | t: rating_value: product.metafields.reviews.rating.value, rating_max: product.metafields.reviews.rating.value.scale_max }}">
-                <span aria-hidden="true" class="rating-star color-icon-{{ settings.accent_icons }}" style="--rating: {{ product.metafields.reviews.rating.value.rating | floor }}; --rating-max: {{ product.metafields.reviews.rating.value.scale_max }}; --rating-decimal: {{ rating_decimal }};"></span>
+              <div class="pdp-margin-top-{{ block.settings.margin_top }} pdp-margin-bottom-{{ block.settings.margin_bottom }}">
+                <a class="full-unstyled-link" href="#pdp-reviews" rel="nofollow">
+                  <div class="rating" role="img" aria-label="{{ 'accessibility.star_reviews_info' | t: rating_value: product.metafields.reviews.rating.value, rating_max: product.metafields.reviews.rating.value.scale_max }}">
+                  <span aria-hidden="true" class="rating-star color-icon-{{ settings.accent_icons }}" style="--rating: {{ product.metafields.reviews.rating.value.rating | floor }}; --rating-max: {{ product.metafields.reviews.rating.value.scale_max }}; --rating-decimal: {{ rating_decimal }};"></span>
+                  </div>
+                  <p class="rating-text caption">
+                    <span aria-hidden="true">{{ product.metafields.reviews.rating.value }} / {{ product.metafields.reviews.rating.value.scale_max }}</span>
+                  </p>
+                  <p class="rating-count caption">
+                    <span aria-hidden="true">({{ product.metafields.reviews.rating_count }})</span>
+                    <span class="visually-hidden">{{ product.metafields.reviews.rating_count }} {{ "accessibility.total_reviews" | t }}</span>
+                  </p>
+                </a>
               </div>
-              <p class="rating-text caption pdp-margin-top-{{ block.settings.margin_top }} pdp-margin-bottom-{{ block.settings.margin_bottom }}">
-                <span aria-hidden="true">{{ product.metafields.reviews.rating.value }} / {{ product.metafields.reviews.rating.value.scale_max }}</span>
-              </p>
-              <p class="rating-count caption pdp-margin-top-{{ block.settings.margin_top }} pdp-margin-bottom-{{ block.settings.margin_bottom }}">
-                <span aria-hidden="true">({{ product.metafields.reviews.rating_count }})</span>
-                <span class="visually-hidden">{{ product.metafields.reviews.rating_count }} {{ "accessibility.total_reviews" | t }}</span>
-              </p>
             {%- endif -%}
           {%- endcase -%}
         {%- endfor -%}
@@ -919,6 +929,11 @@
           "label": "Show installments option"        
         },
         {
+          "type": "checkbox",
+          "id": "show_color",
+          "label": "Show color information next to price"        
+        },
+        {
           "type": "select",
           "id": "margin_top",
           "options": [
@@ -1029,6 +1044,12 @@
           "id": "hide_sale_product_swatches",
           "default": false,
           "label": "Hide sale swatches"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_title",
+          "default": false,
+          "label": "Show title above swatches"
         },
         {
           "type": "select",
@@ -1586,7 +1607,7 @@
             },
             {
               "value": "2rem",
-              "label": "1rem"
+              "label": "2rem"
             }
           ],
           "default": "1rem",
@@ -1606,11 +1627,11 @@
             },
             {
               "value": "2rem",
-              "label": "1rem"
+              "label": "2rem"
             }
           ],
           "default": "1rem",
-          "label": "Top margin"
+          "label": "Bottom margin"
         }
       ]
     }

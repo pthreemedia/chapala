@@ -15,33 +15,43 @@
           "type": "title",
           "settings": {
             "text": "{{ product.metafields.seavees.online_title.value }}",
-            "margin_top": "none",
+            "margin_top": "1rem",
             "margin_bottom": "none"
-          }
-        },
-        "caption": {
-          "type": "text",
-          "settings": {
-            "text": "SeaVees x Reyn Spooner Collaboration",
-            "text_style": "h6",
-            "margin_top": "none",
-            "margin_bottom": "1rem"
           }
         },
         "price": {
           "type": "price",
           "settings": {
             "show_installment_option": false,
-            "margin_top": "2rem",
-            "margin_bottom": "2rem"
+            "show_color": true,
+            "margin_top": "none",
+            "margin_bottom": "none"
+          }
+        },
+        "7fc3d19a-10ea-4daf-83f2-6873fee1cb65": {
+          "type": "rating",
+          "settings": {
+            "margin_top": "1rem",
+            "margin_bottom": "1rem"
+          }
+        },
+        "caption": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "SeaVees x Reyn Spooner Collaboration",
+            "text_style": "h6",
+            "margin_top": "none",
+            "margin_bottom": "none"
           }
         },
         "42a82d44-4510-48f4-944a-b6fa676826af": {
           "type": "product_swatches",
           "settings": {
             "hide_sale_product_swatches": true,
-            "margin_top": "1rem",
-            "margin_bottom": "1rem"
+            "show_title": false,
+            "margin_top": "2rem",
+            "margin_bottom": "2rem"
           }
         },
         "variant_picker": {
@@ -137,8 +147,9 @@
       "block_order": [
         "275569d8-9cba-4e12-a3a4-a779762f17e0",
         "title",
-        "caption",
         "price",
+        "7fc3d19a-10ea-4daf-83f2-6873fee1cb65",
+        "caption",
         "42a82d44-4510-48f4-944a-b6fa676826af",
         "variant_picker",
         "0096abdf-d412-4354-8603-72bf837de1d2",

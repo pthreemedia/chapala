@@ -64,23 +64,23 @@
           "type": "title",
           "settings": {
             "text": "{{ product.metafields.seavees.online_title.value }}",
-            "margin_top": "none",
+            "margin_top": "1rem",
             "margin_bottom": "none"
-          }
-        },
-        "61ceb859-fc56-4458-8eab-ec9397a3b5d5": {
-          "type": "rating",
-          "disabled": true,
-          "settings": {
-            "margin_top": "none",
-            "margin_bottom": "1rem"
           }
         },
         "price": {
           "type": "price",
           "settings": {
             "show_installment_option": false,
-            "margin_top": "2rem",
+            "show_color": true,
+            "margin_top": "none",
+            "margin_bottom": "none"
+          }
+        },
+        "61ceb859-fc56-4458-8eab-ec9397a3b5d5": {
+          "type": "rating",
+          "settings": {
+            "margin_top": "1rem",
             "margin_bottom": "2rem"
           }
         },
@@ -88,6 +88,7 @@
           "type": "product_swatches",
           "settings": {
             "hide_sale_product_swatches": true,
+            "show_title": false,
             "margin_top": "1rem",
             "margin_bottom": "2rem"
           }
@@ -185,8 +186,8 @@
       "block_order": [
         "53050794-a012-4aa8-b7ef-533a86966eeb",
         "title",
-        "61ceb859-fc56-4458-8eab-ec9397a3b5d5",
         "price",
+        "61ceb859-fc56-4458-8eab-ec9397a3b5d5",
         "42a82d44-4510-48f4-944a-b6fa676826af",
         "variant_picker",
         "0096abdf-d412-4354-8603-72bf837de1d2",

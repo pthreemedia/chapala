@@ -49,20 +49,37 @@
             "margin_bottom": "none"
           }
         },
+        "30bbf69a-4390-4448-a837-902ce9c42421": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "SeaVees x Imperfects Collaboration",
+            "text_style": "h6",
+            "margin_top": "1rem",
+            "margin_bottom": "none"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
             "text": "{{ product.metafields.seavees.online_title.value }}",
-            "margin_top": "none",
+            "margin_top": "1rem",
             "margin_bottom": "none"
           }
         },
-        "30bbf69a-4390-4448-a837-902ce9c42421": {
-          "type": "text",
+        "price": {
+          "type": "price",
           "settings": {
-            "text": "SeaVees x Imperfects Collaboration",
-            "text_style": "h6",
+            "show_installment_option": false,
+            "show_color": true,
             "margin_top": "none",
+            "margin_bottom": "2rem"
+          }
+        },
+        "c00c23e2-1bae-43d9-82e9-c4c8838a6d21": {
+          "type": "rating",
+          "settings": {
+            "margin_top": "1rem",
             "margin_bottom": "1rem"
           }
         },
@@ -76,19 +93,12 @@
             "margin_bottom": "1rem"
           }
         },
-        "price": {
-          "type": "price",
-          "settings": {
-            "show_installment_option": false,
-            "margin_top": "2rem",
-            "margin_bottom": "2rem"
-          }
-        },
         "42a82d44-4510-48f4-944a-b6fa676826af": {
           "type": "product_swatches",
           "disabled": true,
           "settings": {
             "hide_sale_product_swatches": true,
+            "show_title": false,
             "margin_top": "1rem",
             "margin_bottom": "1rem"
           }
@@ -201,14 +211,22 @@
             "margin_top": "1rem",
             "margin_bottom": "1rem"
           }
+        },
+        "59ede94d-d1fb-4f31-abe8-ed1a1a087299": {
+          "type": "popup",
+          "settings": {
+            "text": "Pop-up link text",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "557b406a-bfb6-4f89-a9e0-a038451c5ea3",
-        "title",
         "30bbf69a-4390-4448-a837-902ce9c42421",
-        "caption",
+        "title",
         "price",
+        "c00c23e2-1bae-43d9-82e9-c4c8838a6d21",
+        "caption",
         "42a82d44-4510-48f4-944a-b6fa676826af",
         "variant_picker",
         "0096abdf-d412-4354-8603-72bf837de1d2",
@@ -221,7 +239,8 @@
         "6b1f8270-ac69-4b93-a5f5-c3c308248dfa",
         "collapsible-row-1",
         "collapsible-row-2",
-        "d45af598-2236-4f27-9df7-84e8aa0cb053"
+        "d45af598-2236-4f27-9df7-84e8aa0cb053",
+        "59ede94d-d1fb-4f31-abe8-ed1a1a087299"
       ],
       "settings": {
         "enable_sticky_info": false,

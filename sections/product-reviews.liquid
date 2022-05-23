@@ -1,4 +1,4 @@
-<div class="product-reviews page-width no-reviews">
+<div id="pdp-reviews" class="product-reviews page-width no-reviews {% if product.metafields.seavees.show_review_traits == true %}show-traits{% endif %}">
     <h2 class="product-reviews__title">{{ section.settings.heading | escape }}</h2>
     <span class="junip-product-review" data-product-id="{{ product.id }}"></span>
 </div>
