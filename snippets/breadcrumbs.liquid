@@ -1,16 +1,35 @@
+{% comment %}
+    Renders breadcrumbs
+
+    Accepts:
+    - show_home: {Boolean} Show home as the first option. Default: false (optional)
+
+    Usage:
+    {% render 'breadcrumbs', show_home: section.settings.show_home %}
+{% endcomment %}
+
+
 {% unless template == 'index' or template == 'cart' or template == 'list-collections' %}
     <nav class="breadcrumb" role="navigation" aria-label="breadcrumbs">
-      <a href="/" title="Home">Home</a>
+      {% if show_home %}<a href="/" title="Home">Home</a><span aria-hidden="true"> / </span>{% endif %}
       {% if template contains 'page' %}
         <span aria-hidden="true">/</span>
         <span>{{ page.title }}</span>
-      {% elsif template == 'product' or template == 'product.goods'%}
-        {% if collection.url %}
-          <span aria-hidden="true">/</span>
-          {{ collection.title | link_to: collection.url }}
+      {% elsif template.name == 'product' %}
+      {% if product.vendor == "SeaVees Footwear" %}
+          {% if product.metafields.seavees.gender == 'Mens' %}
+            <a href="/mens">Mens Shoes</a><span aria-hidden="true"> / </span>
+          {% elsif product.metafields.seavees.gender == 'Womens'%}
+            <a href="/womens">Womens Shoes</a><span aria-hidden="true"> / </span>
+          {% elsif product.metafields.seavees.gender == 'Little Kids' %}
+            <a href="/little-kids">Little Kids</a><span aria-hidden="true"> / </span>
+          {% elsif product.metafields.seavees.gender == 'Big Kids' %}
+            <a href="/big-kids">Big Kids</a><span aria-hidden="true"> / </span>
+          {% else %}
+            <a href="/">All Shoes</a><span> /</span>
+          {% endif %}
         {% endif %}
-        <span aria-hidden="true">/</span>
-        <span>{{ product.title }}</span>
+        <a href="/collections/{{ product.metafields.seavees.gender | downcase }}-{{ product.type | downcase }}">{{ product.type }}</a>
       {% elsif template contains 'collection' and collection.handle %}
         <span aria-hidden="true">/</span>
         {% if current_tags %}

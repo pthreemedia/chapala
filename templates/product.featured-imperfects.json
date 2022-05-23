@@ -41,44 +41,65 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "30bbf69a-4390-4448-a837-902ce9c42421": {
-          "type": "text",
+        "557b406a-bfb6-4f89-a9e0-a038451c5ea3": {
+          "type": "breadcrumbs",
           "settings": {
-            "text": "SeaVees x Imperfects",
-            "text_style": "h6"
+            "show_home": false,
+            "margin_top": "none",
+            "margin_bottom": "none"
           }
         },
         "title": {
           "type": "title",
           "settings": {
-            "text": "{{ product.metafields.seavees.online_title.value }}"
+            "text": "{{ product.metafields.seavees.online_title.value }}",
+            "margin_top": "none",
+            "margin_bottom": "none"
+          }
+        },
+        "30bbf69a-4390-4448-a837-902ce9c42421": {
+          "type": "text",
+          "settings": {
+            "text": "SeaVees x Imperfects Collaboration",
+            "text_style": "h6",
+            "margin_top": "none",
+            "margin_bottom": "1rem"
           }
         },
         "caption": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "{{ product.metafields.seavees.gender.value }} \/  {{ product.metafields.seavees.material.value }}",
-            "text_style": "h5"
+            "text_style": "h5",
+            "margin_top": "1rem",
+            "margin_bottom": "1rem"
           }
         },
         "price": {
           "type": "price",
           "settings": {
-            "show_installment_option": false
+            "show_installment_option": false,
+            "margin_top": "2rem",
+            "margin_bottom": "2rem"
           }
         },
         "42a82d44-4510-48f4-944a-b6fa676826af": {
           "type": "product_swatches",
           "disabled": true,
           "settings": {
-            "hide_sale_product_swatches": true
+            "hide_sale_product_swatches": true,
+            "margin_top": "1rem",
+            "margin_bottom": "1rem"
           }
         },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
             "picker_type": "button",
-            "select_soldout_type": "none"
+            "select_soldout_type": "none",
+            "margin_top": "1rem",
+            "margin_bottom": "1rem"
           }
         },
         "0096abdf-d412-4354-8603-72bf837de1d2": {
@@ -90,7 +111,9 @@
         "6cb779ce-787f-4653-aca4-8ba527bdb49a": {
           "type": "back_in_stock",
           "settings": {
-            "enable_back_in_stock": true
+            "enable_back_in_stock": true,
+            "margin_top": "1rem",
+            "margin_bottom": "1rem"
           }
         },
         "quantity_selector": {
@@ -102,14 +125,18 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": false
+            "show_dynamic_checkout": false,
+            "margin_top": "1rem",
+            "margin_bottom": "1rem"
           }
         },
         "b9fc1344-911e-4699-a453-1d9b9c8c56b6": {
           "type": "text",
           "settings": {
             "text": "A limited edition split pair concept–the left shoe is our classic Legend Sneaker while the right is a completely revised pattern full of asymmetrical quirks.",
-            "text_style": "text-body"
+            "text_style": "text-body",
+            "margin_top": "1rem",
+            "margin_bottom": "1rem"
           }
         },
         "467af105-8b5d-4c64-9143-fc32cfdb1c35": {
@@ -170,13 +197,16 @@
         "d45af598-2236-4f27-9df7-84e8aa0cb053": {
           "type": "share",
           "settings": {
-            "share_label": "Share"
+            "share_label": "Share",
+            "margin_top": "1rem",
+            "margin_bottom": "1rem"
           }
         }
       },
       "block_order": [
-        "30bbf69a-4390-4448-a837-902ce9c42421",
+        "557b406a-bfb6-4f89-a9e0-a038451c5ea3",
         "title",
+        "30bbf69a-4390-4448-a837-902ce9c42421",
         "caption",
         "price",
         "42a82d44-4510-48f4-944a-b6fa676826af",

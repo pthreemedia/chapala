@@ -52,11 +52,10 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "caption": {
-          "type": "text",
+        "53050794-a012-4aa8-b7ef-533a86966eeb": {
+          "type": "breadcrumbs",
           "settings": {
-            "text": "{{ product.metafields.seavees.gender.value }} \/ {{ product.metafields.seavees.material.value }}",
-            "text_style": "h6",
+            "show_home": false,
             "margin_top": "none",
             "margin_bottom": "none"
           }
@@ -81,7 +80,7 @@
           "type": "price",
           "settings": {
             "show_installment_option": false,
-            "margin_top": "1rem",
+            "margin_top": "2rem",
             "margin_bottom": "2rem"
           }
         },
@@ -184,7 +183,7 @@
         }
       },
       "block_order": [
-        "caption",
+        "53050794-a012-4aa8-b7ef-533a86966eeb",
         "title",
         "61ceb859-fc56-4458-8eab-ec9397a3b5d5",
         "price",

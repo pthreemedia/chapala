@@ -250,6 +250,10 @@
             {%- endif -%}
           {%- when 'custom_liquid' -%}
             {{ block.settings.custom_liquid }}
+          {%- when 'breadcrumbs' -%}
+            <div class="pdp-margin-top-{{ block.settings.margin_top }} pdp-margin-bottom-{{ block.settings.margin_bottom }}" {{ block.shopify_attributes }}>
+              {% render 'breadcrumbs', show_home: block.settings.show_home %}
+            </div>
           {%- when 'collapsible_tab' -%}
             {%- if block.settings.page.content or block.settings.content != blank or block.settings.liquid or block.settings.show-description -%}
               <div class="product__accordion accordion" {{ block.shopify_attributes }}>
@@ -792,6 +796,67 @@
           "id": "text",
           "label": "Custom title",
           "info": "Will use default if field is empty"
+        },
+        {
+          "type": "select",
+          "id": "margin_top",
+          "options": [
+            {
+              "value": "-1rem-",
+              "label": "-1rem"
+            },
+            {
+              "value": "none",
+              "label": "none"
+            },
+            {
+              "value": "1rem",
+              "label": "1rem"
+            },
+            {
+              "value": "2rem",
+              "label": "2rem"
+            }
+          ],
+          "default": "1rem",
+          "label": "Top margin"
+        },
+        {
+          "type": "select",
+          "id": "margin_bottom",
+          "options": [
+            {
+              "value": "-1rem-",
+              "label": "-1rem"
+            },
+            {
+              "value": "none",
+              "label": "none"
+            },
+            {
+              "value": "1rem",
+              "label": "1rem"
+            },
+            {
+              "value": "2rem",
+              "label": "2rem"
+            }
+          ],
+          "default": "1rem",
+          "label": "Bottom margin"
+        }
+      ]
+    },
+    {
+      "type": "breadcrumbs",
+      "name": "Breadcrumbs",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "show_home",
+          "default": false,
+          "label": "Show a link to the homepage as the first breadcrumb"
         },
         {
           "type": "select",

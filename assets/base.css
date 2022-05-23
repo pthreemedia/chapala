@@ -3123,8 +3123,9 @@ details-disclosure > details {
   text-transform: uppercase;
   font-style: italic;
   font-size: 1.2rem;
+  line-height: 1.2;
   color: rgba(var(--color-foreground),0.7);
-  padding: 1rem 0;
+  padding: 0;
 }
 
 /* Section - Featured Collection */
