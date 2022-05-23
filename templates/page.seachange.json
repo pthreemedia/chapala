@@ -75,7 +75,7 @@
         "1651769816c53397ad-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We made waste into something you can wear. These freshly picked styles are made with pineapple yarn or corn leather upper, a recycled cotton canvas with metal-free stitched eyelets, post-consumer recycled plastic laces and a recycled natural rubber outsole. <\/p><p><\/p>",
+            "text": "<p>We made the most comfortable shoe in your closet even better. These freshly-picked styles have uppers made with pineapple yarn, corn leather, or recycled cotton canvas, laces made with post-consumer recycled plastic, metal-free stitched eyelets, liners made with recycled cotton, and outsoles made with natural and recycled rubber. Every style in this collection is made with recycled materials – from to sole. It represents our best foot forward in making our shoes more responsibly, and it's just the beginning.<\/p><p><\/p>",
             "use_heading_font": false,
             "font_color": "#012e5c"
           }
@@ -92,54 +92,139 @@
         "is_page_header": true,
         "mobile_content_align": "center",
         "desktop_content_align": "center",
-        "padding_top": 76,
-        "padding_bottom": 12,
+        "padding_top": 100,
+        "padding_bottom": 72,
         "margin_top": 0,
         "margin_bottom": 0
       }
     },
-    "1652986988362dbeb2": {
-      "type": "collage",
+    "1653069663d19d7d66": {
+      "type": "multicolumn",
       "blocks": {
-        "2e9146f8-8a7e-41b7-ac5a-7e374c48c2ae": {
-          "type": "image",
+        "165306966370d82fc8-1": {
+          "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_story_-_43_cb3e4133-3bd0-4e57-8068-875c3bd6c0f5.jpg",
-            "image_padding": false
+            "image": "shopify:\/\/shop_images\/Instagram_post_-_3.jpg",
+            "title": "VEGAN CORN LEATHER",
+            "font_style": "h4",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "info_on_image": true
           }
         },
-        "16529869883ddd0da2-2": {
-          "type": "collection",
-          "disabled": true,
+        "165306966370d82fc8-2": {
+          "type": "column",
           "settings": {
-            "collection": ""
+            "image": "shopify:\/\/shop_images\/Instagram_story_-_79.jpg",
+            "title": "",
+            "font_style": "h4",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "info_on_image": true
           }
         },
-        "270667a6-249f-4379-9564-10111c5453ee": {
-          "type": "image",
+        "a63135c7-20d3-4c8d-a5d2-2639fa9606e5": {
+          "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_story_-_31.jpg",
-            "image_padding": false
+            "image": "shopify:\/\/shop_images\/Instagram_post_-_11.jpg",
+            "title": "",
+            "font_style": "h3",
+            "text": "<p>Corn leather is a vegan alternative to leather made from cotton fabric covered by a corn-based coating. It is durable, smooth and has a traditional leather feel.<\/p>",
+            "link_label": "",
+            "link": "",
+            "info_on_image": true
           }
         }
       },
       "block_order": [
-        "2e9146f8-8a7e-41b7-ac5a-7e374c48c2ae",
-        "16529869883ddd0da2-2",
-        "270667a6-249f-4379-9564-10111c5453ee"
+        "165306966370d82fc8-1",
+        "165306966370d82fc8-2",
+        "a63135c7-20d3-4c8d-a5d2-2639fa9606e5"
       ],
       "settings": {
-        "heading": "",
+        "title": "",
         "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
         "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
         "padding_top": 36,
-        "padding_bottom": 0
+        "padding_bottom": 36
+      }
+    },
+    "1653070266b056c99a": {
+      "type": "multicolumn",
+      "blocks": {
+        "1653070266e5c04d45-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Instagram_post_-_19.jpg",
+            "title": "PINEAPPLE YARN",
+            "font_style": "h4",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "info_on_image": true
+          }
+        },
+        "1653070266e5c04d45-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Instagram_story_-_80.jpg",
+            "title": "",
+            "font_style": "h3",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "info_on_image": false
+          }
+        },
+        "1653070266e5c04d45-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Instagram_post_-_17.jpg",
+            "title": "",
+            "font_style": "h3",
+            "text": "<p>Pineapple yarn is a biodegradable cellulose fiber harvested from pineapple plants. It has beautiful natural texture.<\/p>",
+            "link_label": "",
+            "link": "",
+            "info_on_image": true
+          }
+        }
+      },
+      "block_order": [
+        "1653070266e5c04d45-1",
+        "1653070266e5c04d45-0",
+        "1653070266e5c04d45-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "1652992451b58be40b": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "16529924509e9c5cfb-0": {
           "type": "heading",
@@ -152,9 +237,9 @@
         "16529924509e9c5cfb-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Vegan Corn Leather<\/strong><\/p>",
+            "text": "<p>Vegan Corn Leather<\/p>",
             "use_heading_font": false,
-            "font_color": ""
+            "font_color": "#3d93e1"
           }
         },
         "16529924509e9c5cfb-2": {
@@ -182,139 +267,19 @@
         "mobile_content_align": "center",
         "desktop_content_align": "left",
         "padding_top": 0,
-        "padding_bottom": 52,
+        "padding_bottom": 44,
         "margin_top": 0,
         "margin_bottom": 0
       }
     },
-    "16529882352eb71c8e": {
-      "type": "collage",
-      "blocks": {
-        "8eea6d43-69e1-4478-b20a-a17717ad710b": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Pineapple_Yarn_Lifestyle.jpg",
-            "image_padding": false
-          }
-        },
-        "afa23223-e605-4cba-b05a-f7b9a13de2bf": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_story_-_45_49a799a8-751d-462d-a6a8-c611b0082502.jpg",
-            "image_padding": false
-          }
-        }
-      },
-      "block_order": [
-        "8eea6d43-69e1-4478-b20a-a17717ad710b",
-        "afa23223-e605-4cba-b05a-f7b9a13de2bf"
-      ],
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "desktop_layout": "right",
-        "mobile_layout": "collage",
-        "color_scheme": "background-1",
-        "padding_top": 0,
-        "padding_bottom": 36
-      }
-    },
-    "1652985775197fe410": {
-      "type": "multicolumn",
-      "blocks": {
-        "1652985775961a51e0-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Icons-03.png",
-            "title": "",
-            "font_style": "h3",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "info_on_image": false
-          }
-        },
-        "1652985775961a51e0-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Icons-02.png",
-            "title": "",
-            "font_style": "h3",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "info_on_image": false
-          }
-        },
-        "1652985775961a51e0-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Icons-01.png",
-            "title": "",
-            "font_style": "h3",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "info_on_image": false
-          }
-        },
-        "5359cb48-7d7f-44d4-8f3e-e702348a80ef": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Icons-04.png",
-            "title": "",
-            "font_style": "h3",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "info_on_image": false
-          }
-        },
-        "b85bb5f3-ccde-4432-8a4a-448e71381c1c": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Icons-05.png",
-            "title": "",
-            "font_style": "h3",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "info_on_image": false
-          }
-        }
-      },
-      "block_order": [
-        "1652985775961a51e0-0",
-        "1652985775961a51e0-1",
-        "1652985775961a51e0-2",
-        "5359cb48-7d7f-44d4-8f3e-e702348a80ef",
-        "b85bb5f3-ccde-4432-8a4a-448e71381c1c"
-      ],
+    "16517685015d2ce9b4": {
+      "type": "featured-collection-alt",
       "settings": {
         "title": "",
         "heading_size": "h2",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 5,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "1652995522da850498": {
-      "type": "featured-collection-alt",
-      "settings": {
-        "title": "Featured collection",
-        "heading_size": "h3",
         "description": "",
         "description_style": "body",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "full_width": true,
         "show_view_all": true,
         "view_all_style": "solid",
@@ -329,17 +294,17 @@
         "featured_collection_title_2": "Mens",
         "products_to_show_2": 12,
         "image_ratio": "adapt",
-        "show_secondary_image": false,
+        "show_secondary_image": true,
         "show_condensed_title": true,
         "show_vendor": false,
-        "show_gender": false,
+        "show_gender": true,
         "show_material": true,
         "show_rating": false,
-        "enable_quick_add": true,
+        "enable_quick_add": false,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36,
+        "padding_top": 12,
+        "padding_bottom": 32,
         "margin_top": 0,
         "margin_bottom": 0
       }
@@ -361,19 +326,18 @@
     },
     "1648834181268fa0bf": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "164883418143aa5478-0": {
           "type": "heading",
           "settings": {
-            "heading": "About Seatrees",
-            "heading_size": "h1"
+            "heading": "We're Committed to Sea Change",
+            "heading_size": "h2"
           }
         },
         "164883418143aa5478-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Kelp forests provide healthy habitats for over 700 species of marine life and sequester carbon at a rate 20 times more carbon per acre than land forests. <em>(Hurlimann and Zucker, 2019)<\/em><\/p><p>In the last decade, these ecosystems have been in a state of crisis. According to our partners at SeaTrees, more than 90% of kelp forests along our California coast have disappeared in the last 10 years.<\/p>",
+            "text": "<p>A tiny blue and white flag tag on every shoe represents our ongoing commitment to protect our 2\/3 blue planet. Every pair of shoes sold from this collection gives back $1 to our partner <a href=\"https:\/\/sea-trees.org\/\" title=\"https:\/\/sea-trees.org\"><strong>SeaTrees<\/strong><\/a>, a non-profit that works to restore coastal ecosystems and ocean health globally. And by 2025, we aim to ensure that every shoe in our line is made with recycled materials and gives back to non-profit partners supporting ocean conservation efforts. <\/p>",
             "text_style": "body"
           }
         },
@@ -393,9 +357,9 @@
         "164883418143aa5478-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/seatrees_mobile_header_111111_v2.jpg",
+        "image": "shopify:\/\/shop_images\/Flag_Tag_d0299544-d5d0-40d9-badb-8f20dc35e773.jpg",
         "height": "adapt",
-        "desktop_image_width": "small",
+        "desktop_image_width": "medium",
         "full_width": true,
         "layout": "image_first",
         "desktop_content_position": "middle",
@@ -409,92 +373,79 @@
         "margin_bottom": 0
       }
     },
-    "16529869559e44ae82": {
-      "type": "collage",
-      "disabled": true,
+    "16533399328f27308a": {
+      "type": "multicolumn",
       "blocks": {
-        "7bbb438f-3136-4646-a57a-27f5eeeaddf4": {
-          "type": "image",
+        "1653339932d884285e-0": {
+          "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_story_-_40.png",
-            "image_padding": false
+            "image": "shopify:\/\/shop_images\/Instagram_post_-_5.jpg",
+            "title": "SeaChange Slip On",
+            "font_style": "h3",
+            "text": "",
+            "link_label": "Shop Women's",
+            "link": "",
+            "info_on_image": true
           }
         },
-        "4e9f1e25-5f9d-4fa7-822c-1ee6ab769912": {
-          "type": "image",
+        "1653339932d884285e-2": {
+          "type": "column",
           "settings": {
-            "image_padding": false
+            "image": "shopify:\/\/shop_images\/Instagram_post_-_18.jpg",
+            "title": "SeaChange Slip On",
+            "font_style": "h3",
+            "text": "",
+            "link_label": "Shop Men's",
+            "link": "",
+            "info_on_image": true
           }
         },
-        "2a4e86e9-787f-4047-beba-1dffc20e91ff": {
-          "type": "image",
+        "1653339932d884285e-1": {
+          "type": "column",
           "settings": {
-            "image_padding": false
+            "image": "shopify:\/\/shop_images\/Instagram_post_-_8.jpg",
+            "title": "SeaChange LTT",
+            "font_style": "h3",
+            "text": "",
+            "link_label": "Shop Women's",
+            "link": "",
+            "info_on_image": true
+          }
+        },
+        "72a3ed1e-ba58-47e0-a2bd-220298a26f90": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Instagram_post_-_10.jpg",
+            "title": "SeaChange LTT",
+            "font_style": "h3",
+            "text": "",
+            "link_label": "Shop Mens",
+            "link": "",
+            "info_on_image": true
           }
         }
       },
       "block_order": [
-        "7bbb438f-3136-4646-a57a-27f5eeeaddf4",
-        "4e9f1e25-5f9d-4fa7-822c-1ee6ab769912",
-        "2a4e86e9-787f-4047-beba-1dffc20e91ff"
+        "1653339932d884285e-0",
+        "1653339932d884285e-2",
+        "1653339932d884285e-1",
+        "72a3ed1e-ba58-47e0-a2bd-220298a26f90"
       ],
       "settings": {
-        "heading": "",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
         "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "1652991467884ceccb": {
-      "type": "image-with-text",
-      "blocks": {
-        "165299146757a8e807-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "We're Committed to Sea Change",
-            "heading_size": "h2"
-          }
-        },
-        "165299146757a8e807-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>It’s our best effort yet to make our shoes more responsibly, and it’s just the beginning. Every pair of shoes sold from this collection gives back $1 to our partner SeaTrees, a non-profit that works to restore coastal ecosystems and ocean health globally.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "165299146757a8e807-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Learn More",
-            "button_link": "",
-            "use_arrow_link": true,
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "165299146757a8e807-0",
-        "165299146757a8e807-1",
-        "165299146757a8e807-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/seatrees_featured_211111_7f8c7278-03d6-42f0-b06d-d810a7a93e12.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "full_width": false,
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "margin_top": 0,
-        "margin_bottom": 0
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 80,
+        "padding_bottom": 80
       }
     }
   },
@@ -502,14 +453,12 @@
     "main",
     "1652979137b0a62647",
     "1651769816dcb4919c",
-    "1652986988362dbeb2",
+    "1653069663d19d7d66",
+    "1653070266b056c99a",
     "1652992451b58be40b",
-    "16529882352eb71c8e",
-    "1652985775197fe410",
-    "1652995522da850498",
+    "16517685015d2ce9b4",
     "16488340185b1f3cc8",
     "1648834181268fa0bf",
-    "16529869559e44ae82",
-    "1652991467884ceccb"
+    "16533399328f27308a"
   ]
 }
