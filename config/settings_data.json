@@ -127,73 +127,96 @@
           "fb0a218e-862a-4034-92e9-0bca76c376f7": {
             "type": "featured_content",
             "settings": {
-              "category": "",
-              "text": "",
-              "link": ""
+              "category": "Mens",
+              "text": "The Baja",
+              "link": "shopify:\/\/collections\/mens-baja",
+              "image_desktop": "shopify:\/\/shop_images\/M_BajaSliponStandard_SlateNavy-46_copy_ba28cbcc-4fca-4460-b86b-ad79c3105d9a.jpg",
+              "image_mobile": "shopify:\/\/shop_images\/mens_baja_standard_slate_navy_side.jpg"
             }
           },
           "8522a9d6-f630-455f-bcac-6e676c6a1ccd": {
             "type": "featured_content",
             "settings": {
-              "category": "",
-              "text": "",
-              "link": ""
+              "category": "Mens",
+              "text": "The Sixty Six",
+              "link": "shopify:\/\/products\/mens-sixty-six-sneaker-classic-white",
+              "image_desktop": "shopify:\/\/shop_images\/M666A20C66WHT-12310.jpg",
+              "image_mobile": "shopify:\/\/shop_images\/mens_sixty_six_bleach_side.jpg"
             }
           },
           "7e9cfaa9-8865-411f-84d3-ac6b07f809fd": {
             "type": "featured_content",
+            "disabled": true,
             "settings": {
-              "category": "",
-              "text": "",
-              "link": ""
+              "category": "Mens",
+              "text": "The Hermosa",
+              "link": "shopify:\/\/products\/mens-hermosa-sneaker-classic-natural",
+              "image_desktop": "shopify:\/\/shop_images\/D4_4773.jpg",
+              "image_mobile": "shopify:\/\/shop_images\/mens_hermosa_standard_natural_side.jpg"
             }
           },
           "c5df3d1b-48d2-4874-bb47-960c42afcf7c": {
             "type": "featured_content",
             "settings": {
-              "category": "",
-              "text": "",
-              "link": ""
+              "category": "Womens",
+              "text": "The Monterey Sneaker",
+              "link": "shopify:\/\/products\/womens-monterey-sneaker-classic-cactus",
+              "image_desktop": "shopify:\/\/shop_images\/W_montereysneakerclassic_cactus-14_f94a9471-49a8-4035-8855-c21602982d3a.jpg",
+              "image_mobile": "shopify:\/\/shop_images\/womens_monterey_cactus_side.jpg"
             }
           },
           "e88f8910-dc3e-4320-8338-c570cd0330f3": {
             "type": "featured_content",
+            "disabled": true,
             "settings": {
-              "category": "",
-              "text": "",
-              "link": ""
+              "category": "Womens",
+              "text": "The Hawthorne",
+              "link": "shopify:\/\/products\/womens-hawthorne-slip-on-classic-true-navy",
+              "image_desktop": "shopify:\/\/shop_images\/mens_hawthorne_standard_true_navy_side.jpg",
+              "image_mobile": "shopify:\/\/shop_images\/mens_hawthorne_standard_true_navy_side.jpg"
             }
           },
           "d4aaaa28-65e0-4ee7-aa50-bf904feaab28": {
             "type": "featured_content",
             "settings": {
-              "category": "",
-              "text": "",
-              "link": ""
+              "category": "Womens",
+              "text": "The Baja Platform",
+              "link": "shopify:\/\/products\/womens-baja-slip-on-platform-herringbone-twill-bleach",
+              "image_desktop": "shopify:\/\/shop_images\/W024A22CPLBLC-2.jpg",
+              "image_mobile": "shopify:\/\/shop_images\/SPRING_WEB_ADD-ON_WOMEN_007.jpg"
             }
           },
           "e61ea584-787f-4c4e-8964-9a0e78007c2c": {
             "type": "featured_content",
+            "disabled": true,
             "settings": {
-              "category": "",
-              "text": "",
-              "link": ""
+              "category": "Rediscover the Dream",
+              "text": "Restoring Pacific Kelp Forests",
+              "link": "shopify:\/\/pages\/seatrees",
+              "image_desktop": "shopify:\/\/shop_images\/seavees_nav_discover_seatrees.jpg",
+              "image_mobile": "shopify:\/\/shop_images\/seavees_nav_discover_seatrees.jpg"
             }
           },
           "d2fd10b5-7ebb-47a5-9c7b-4b02fbfc2559": {
             "type": "featured_content",
+            "disabled": true,
             "settings": {
-              "category": "",
-              "text": "",
-              "link": ""
+              "category": "Rediscover the Dream",
+              "text": "Mental Health Awareness",
+              "link": "shopify:\/\/pages\/mental-health-awareness-baja-slip-on",
+              "image_desktop": "shopify:\/\/shop_images\/seavees_nav_discover_mental_health.jpg",
+              "image_mobile": "shopify:\/\/shop_images\/seavees_nav_discover_mental_health.jpg"
             }
           },
           "cb8058ab-289e-4377-a439-1733831dfc83": {
             "type": "featured_content",
+            "disabled": true,
             "settings": {
-              "category": "",
-              "text": "",
-              "link": ""
+              "category": "Rediscover the Dream",
+              "text": "Access to the ocean for marginalized communities",
+              "link": "shopify:\/\/blogs\/journal\/bolinas-boot-field-report-4-un-mar-de-colores",
+              "image_desktop": "shopify:\/\/shop_images\/seavees_nav_discover_un_mar_de_colores.jpg",
+              "image_mobile": "shopify:\/\/shop_images\/seavees_nav_discover_un_mar_de_colores.jpg"
             }
           }
         },
