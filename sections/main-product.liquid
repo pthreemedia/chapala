@@ -363,7 +363,7 @@
               {%- if block.settings.picker_type == 'button' -%}
                 <variant-radios class="no-js-hidden pdp-margin-top-{{ block.settings.margin_top }} pdp-margin-bottom-{{ block.settings.margin_bottom }}" data-section="{{ section.id }}" data-url="{{ product.url }}" {{ block.shopify_attributes }}>
                   {%- for option in product.options_with_values -%}
-                    <fieldset class="js product-form__input product-form-{{ option.name }}">
+                    <fieldset class="js product-form__input product-form-{{ option.name }}" data-option-name="{{ option.name }}">
                       <legend class="product__text h6">Select {{ option.name }}</legend>
                       {%- for value in option.values -%}
                         {%- assign option_disabled = true -%}
@@ -484,7 +484,7 @@
                 </div>
 
                 {%- form 'product', product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
-                  <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}" disabled>
+                  <input type="hidden" name="id" value="" disabled>
                   <div class="product-form__buttons">
                     <button
                       type="submit"
