@@ -134,6 +134,7 @@
           "type": "text",
           "settings": {
             "text": "Free shipping on orders over $100",
+            "center_align": true,
             "text_style": "caption",
             "margin_top": "none",
             "margin_bottom": "none"
@@ -143,6 +144,7 @@
           "type": "text",
           "settings": {
             "text": "Free exchanges and returns",
+            "center_align": true,
             "text_style": "caption",
             "margin_top": "none",
             "margin_bottom": "2rem"

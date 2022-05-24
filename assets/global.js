@@ -746,20 +746,39 @@ customElements.define('slideshow-component', SlideshowComponent);
 class VariantSelects extends HTMLElement {
   constructor() {
     super();
+
+    this.initOptions();
+
+    if (!this.currentVariant) {
+      this.toggleAddButton(true, 'Select a size', true);
+    } else {
+      this.updateVariantInput();
+      this.renderProductInfo();
+    }
+
     this.addEventListener('change', this.onVariantChange);
+  }
+
+  initOptions() {
+    // This function is left empty in VariantSelects object
+    // It is to be overridden in VariantRadios object
+    return;
   }
 
   onVariantChange() {
     this.updateOptions();
     this.updateMasterId();
-    this.toggleAddButton(true, '', false);
-    this.updatePickupAvailability();
-    this.removeErrorMessage();
 
     if (!this.currentVariant) {
       this.toggleAddButton(true, '', true);
       this.setUnavailable();
     } else {
+      this.toggleAddButton(!this.currentVariant.available, window.variantStrings.soldOut);
+    }
+    this.updatePickupAvailability();
+    this.removeErrorMessage();
+
+    if (this.currentVariant) {
       this.updateMedia();
       this.updateURL();
       this.updateVariantInput();
@@ -833,7 +852,9 @@ class VariantSelects extends HTMLElement {
     if (productForm) productForm.handleErrorMessage();
   }
 
+  
   renderProductInfo() {
+
     fetch(`${this.dataset.url}?variant=${this.currentVariant.id}&section_id=${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`)
       .then((response) => response.text())
       .then((responseText) => {
@@ -844,13 +865,17 @@ class VariantSelects extends HTMLElement {
         const variantPickerSource = html.querySelector('variant-radios') || html.querySelector('variant-selects');
 
         if (source && destination) destination.innerHTML = source.innerHTML;
-        if (variantPickerSource && variantPickerDestination) variantPickerDestination.innerHTML = variantPickerSource.innerHTML;
+        // if (variantPickerSource && variantPickerDestination) variantPickerDestination.innerHTML = variantPickerSource.innerHTML;
 
         const price = document.getElementById(`price-${this.dataset.section}`);
 
         if (price) price.classList.remove('visibility-hidden');
+
         this.toggleAddButton(!this.currentVariant.available, window.variantStrings.soldOut);
-      });
+    });
+    
+
+    this.toggleAddButton(!this.currentVariant.available, window.variantStrings.soldOut);
   }
 
   toggleAddButton(disable = true, text, modifyClass = true) {
@@ -895,10 +920,24 @@ class VariantRadios extends VariantSelects {
     super();
   }
 
+  initOptions() {
+    const sizeFieldSet = this.querySelector("fieldset.product-form-Size");
+
+    if(sizeFieldSet) {
+      const fieldInputs = sizeFieldSet.querySelectorAll("input");
+      if(fieldInputs.length > 1) {
+        const activeFieldInput = Array.from(fieldInputs).find((input) => input.hasAttribute("checked"));
+        if(activeFieldInput) activeFieldInput.checked = false;
+      }
+    }
+  }
+
   updateOptions() {
     const fieldsets = Array.from(this.querySelectorAll('fieldset'));
     this.options = fieldsets.map((fieldset) => {
-      return Array.from(fieldset.querySelectorAll('input')).find((radio) => radio.checked).value;
+      // return Array.from(fieldset.querySelectorAll('input')).find((radio) => radio.checked).value;
+      const checkedInput = Array.from(fieldset.querySelectorAll("input")).find((radio) => radio.checked);
+      return checkedInput ? checkedInput.value : "";
     });
   }
 }
