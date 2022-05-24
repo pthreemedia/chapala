@@ -115,7 +115,7 @@
           "type": "heading",
           "settings": {
             "heading": "About SeaTrees",
-            "heading_size": "h1",
+            "heading_size": "h2",
             "font_color": ""
           }
         },
@@ -152,7 +152,7 @@
           "type": "heading",
           "settings": {
             "heading": "How Does Kelp Sequester Carbon?",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "164866238944751989-1": {
