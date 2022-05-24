@@ -379,47 +379,23 @@
         "1653339932d884285e-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_post_-_5.jpg",
-            "title": "SeaChange Slip On",
+            "image": "shopify:\/\/shop_images\/Womens_Collection.jpg",
+            "title": "Womens Collection",
             "font_style": "h3",
             "text": "",
-            "link_label": "Shop Women's",
-            "link": "",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/mens-seachange",
             "info_on_image": true
           }
         },
         "1653339932d884285e-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_post_-_18.jpg",
-            "title": "SeaChange Slip On",
+            "image": "shopify:\/\/shop_images\/Mens_Collection.jpg",
+            "title": "Mens Collection",
             "font_style": "h3",
             "text": "",
-            "link_label": "Shop Men's",
-            "link": "",
-            "info_on_image": true
-          }
-        },
-        "1653339932d884285e-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_post_-_8.jpg",
-            "title": "SeaChange LTT",
-            "font_style": "h3",
-            "text": "",
-            "link_label": "Shop Women's",
-            "link": "",
-            "info_on_image": true
-          }
-        },
-        "72a3ed1e-ba58-47e0-a2bd-220298a26f90": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_post_-_10.jpg",
-            "title": "SeaChange LTT",
-            "font_style": "h3",
-            "text": "",
-            "link_label": "Shop Mens",
+            "link_label": "Shop Now",
             "link": "",
             "info_on_image": true
           }
@@ -427,9 +403,7 @@
       },
       "block_order": [
         "1653339932d884285e-0",
-        "1653339932d884285e-2",
-        "1653339932d884285e-1",
-        "72a3ed1e-ba58-47e0-a2bd-220298a26f90"
+        "1653339932d884285e-2"
       ],
       "settings": {
         "title": "",
