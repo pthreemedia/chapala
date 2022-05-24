@@ -218,6 +218,14 @@
               "image_desktop": "shopify:\/\/shop_images\/seavees_nav_discover_un_mar_de_colores.jpg",
               "image_mobile": "shopify:\/\/shop_images\/seavees_nav_discover_un_mar_de_colores.jpg"
             }
+          },
+          "53aa48e7-d13c-42eb-9864-e27635d8a476": {
+            "type": "featured_content",
+            "settings": {
+              "category": "",
+              "text": "",
+              "link": ""
+            }
           }
         },
         "block_order": [
@@ -229,7 +237,8 @@
           "549aab27-f359-4751-82f2-84007485cc1b",
           "f276d9cc-490c-4bdc-8ff7-82e4849d5e13",
           "63bc2ed5-0727-430c-8884-146b5b9df29e",
-          "463ec164-e1f8-4aa8-8920-25acd239523b"
+          "463ec164-e1f8-4aa8-8920-25acd239523b",
+          "53aa48e7-d13c-42eb-9864-e27635d8a476"
         ],
         "settings": {
           "color_scheme": "background-1",
