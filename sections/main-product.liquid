@@ -208,7 +208,7 @@
           {%- when '@app' -%}
             {% render block %}
           {%- when 'text' -%}
-            <p class="product__text {{ block.settings.text_style }} pdp-margin-top-{{ block.settings.margin_top }} pdp-margin-bottom-{{ block.settings.margin_bottom }}" {{ block.shopify_attributes }}>
+            <p class="product__text {{ block.settings.text_style }} pdp-margin-top-{{ block.settings.margin_top }} pdp-margin-bottom-{{ block.settings.margin_bottom }} {% if block.settings.center_align == true %}center{% endif %}" {{ block.shopify_attributes }}>
               {{- block.settings.text -}}
             </p>
           {%- when 'title' -%}
@@ -723,6 +723,12 @@
           "label": "t:sections.main-product.blocks.text.settings.text.label"
         },
         {
+          "type": "checkbox",
+          "id": "center_align",
+          "default": false,
+          "label": "Center align text (always centered on mobile)"
+        },
+        {
           "type": "select",
           "id": "text_style",
           "options": [
@@ -741,6 +747,10 @@
             {
               "value": "h6",
               "label": "h6"
+            },
+            {
+              "value": "caption",
+              "label": "caption"
             }
           ],
           "default": "text-body",

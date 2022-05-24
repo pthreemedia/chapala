@@ -127,7 +127,25 @@
           "settings": {
             "show_dynamic_checkout": false,
             "margin_top": "1rem",
-            "margin_bottom": "1rem"
+            "margin_bottom": "none"
+          }
+        },
+        "080db1e4-bde7-46c2-823e-50d3355ed358": {
+          "type": "text",
+          "settings": {
+            "text": "Free shipping on orders over $100",
+            "text_style": "caption",
+            "margin_top": "none",
+            "margin_bottom": "none"
+          }
+        },
+        "767576fa-e64b-490f-9391-a5893e8e98d1": {
+          "type": "text",
+          "settings": {
+            "text": "Free exchanges and returns",
+            "text_style": "caption",
+            "margin_top": "none",
+            "margin_bottom": "2rem"
           }
         },
         "467af105-8b5d-4c64-9143-fc32cfdb1c35": {
@@ -194,6 +212,8 @@
         "6cb779ce-787f-4653-aca4-8ba527bdb49a",
         "quantity_selector",
         "buy_buttons",
+        "080db1e4-bde7-46c2-823e-50d3355ed358",
+        "767576fa-e64b-490f-9391-a5893e8e98d1",
         "467af105-8b5d-4c64-9143-fc32cfdb1c35",
         "collapsible-row-0",
         "collapsible-row-1",
