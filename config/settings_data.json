@@ -123,6 +123,91 @@
       },
       "header": {
         "type": "header",
+        "blocks": {
+          "fb0a218e-862a-4034-92e9-0bca76c376f7": {
+            "type": "featured_content",
+            "settings": {
+              "category": "",
+              "text": "",
+              "link": ""
+            }
+          },
+          "8522a9d6-f630-455f-bcac-6e676c6a1ccd": {
+            "type": "featured_content",
+            "settings": {
+              "category": "",
+              "text": "",
+              "link": ""
+            }
+          },
+          "7e9cfaa9-8865-411f-84d3-ac6b07f809fd": {
+            "type": "featured_content",
+            "settings": {
+              "category": "",
+              "text": "",
+              "link": ""
+            }
+          },
+          "c5df3d1b-48d2-4874-bb47-960c42afcf7c": {
+            "type": "featured_content",
+            "settings": {
+              "category": "",
+              "text": "",
+              "link": ""
+            }
+          },
+          "e88f8910-dc3e-4320-8338-c570cd0330f3": {
+            "type": "featured_content",
+            "settings": {
+              "category": "",
+              "text": "",
+              "link": ""
+            }
+          },
+          "d4aaaa28-65e0-4ee7-aa50-bf904feaab28": {
+            "type": "featured_content",
+            "settings": {
+              "category": "",
+              "text": "",
+              "link": ""
+            }
+          },
+          "e61ea584-787f-4c4e-8964-9a0e78007c2c": {
+            "type": "featured_content",
+            "settings": {
+              "category": "",
+              "text": "",
+              "link": ""
+            }
+          },
+          "d2fd10b5-7ebb-47a5-9c7b-4b02fbfc2559": {
+            "type": "featured_content",
+            "settings": {
+              "category": "",
+              "text": "",
+              "link": ""
+            }
+          },
+          "cb8058ab-289e-4377-a439-1733831dfc83": {
+            "type": "featured_content",
+            "settings": {
+              "category": "",
+              "text": "",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "fb0a218e-862a-4034-92e9-0bca76c376f7",
+          "8522a9d6-f630-455f-bcac-6e676c6a1ccd",
+          "7e9cfaa9-8865-411f-84d3-ac6b07f809fd",
+          "c5df3d1b-48d2-4874-bb47-960c42afcf7c",
+          "e88f8910-dc3e-4320-8338-c570cd0330f3",
+          "d4aaaa28-65e0-4ee7-aa50-bf904feaab28",
+          "e61ea584-787f-4c4e-8964-9a0e78007c2c",
+          "d2fd10b5-7ebb-47a5-9c7b-4b02fbfc2559",
+          "cb8058ab-289e-4377-a439-1733831dfc83"
+        ],
         "settings": {
           "color_scheme": "background-1",
           "logo": "shopify:\/\/shop_images\/seavees-website-logo-navy_012E5C.png",
