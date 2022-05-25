@@ -768,14 +768,16 @@ class VariantSelects extends HTMLElement {
   onVariantChange() {
     this.updateOptions();
     this.updateMasterId();
-    this.toggleAddButton(true, '', false);
-    this.updatePickupAvailability();
-    this.removeErrorMessage();
-
     if (!this.currentVariant) {
       this.toggleAddButton(true, '', true);
       this.setUnavailable();
     } else {
+      this.toggleAddButton(!this.currentVariant.available, window.variantStrings.soldOut);
+    }
+    this.updatePickupAvailability();
+    this.removeErrorMessage();
+
+    if (this.currentVariant) {
       this.updateMedia();
       this.updateURL();
       this.updateVariantInput();
