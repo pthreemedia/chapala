@@ -387,7 +387,7 @@
                               name="{{ option.name }}"
                               value="{{ value | escape }}"
                               form="{{ product_form_id }}"
-                              {% if option.selected_value == value %}checked{% endif %}
+                              {% if option.selected_value == value and option.name != 'Size' %}checked{% endif %}
                               {% if option_disabled %}class="disabled"{% endif %}
                               {% if option_disabled %}aria-label="Size {{ value | escape }} is unavailable"{% else %}aria-label="Add size {{ value | escape }}"{% endif %}
                         >
@@ -490,14 +490,18 @@
                       type="submit"
                       name="add"
                       class="product-form__submit button button--full-width {% if block.settings.show_dynamic_checkout and product.selling_plan_groups == empty %}button--secondary{% else %}button--primary{% endif %}"
-                    {% if product.selected_or_first_available_variant.available == false %}disabled{% endif %}
+                      disabled
+                    {% comment %}{% if product.selected_or_first_available_variant.available == false %}disabled{% endif %}{% endcomment %}
                     >
                         <span>
+                          Select a size
+                          {% comment %}
                           {%- if product.selected_or_first_available_variant.available -%}
                             {{ 'products.product.add_to_cart' | t }}
                           {%- else -%}
                             {{ 'products.product.sold_out' | t }}
                           {%- endif -%}
+                          {% endcomment %}
                         </span>
                         <div class="loading-overlay__spinner hidden">
                           <svg aria-hidden="true" focusable="false" role="presentation" class="spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">

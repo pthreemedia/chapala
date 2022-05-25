@@ -862,7 +862,7 @@ class VariantSelects extends HTMLElement {
         const variantPickerSource = html.querySelector('variant-radios') || html.querySelector('variant-selects');
 
         if (source && destination) destination.innerHTML = source.innerHTML;
-        if (variantPickerSource && variantPickerDestination) variantPickerDestination.innerHTML = variantPickerSource.innerHTML;
+        // if (variantPickerSource && variantPickerDestination) variantPickerDestination.innerHTML = variantPickerSource.innerHTML;
 
         const price = document.getElementById(`price-${this.dataset.section}`);
 
