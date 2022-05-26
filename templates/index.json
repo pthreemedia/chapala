@@ -6,8 +6,8 @@
         "1648673671d11f3268-0": {
           "type": "heading",
           "settings": {
-            "heading": "Low Profile,",
-            "heading_2": "High Comfort",
+            "heading": "New Styles,",
+            "heading_2": "Just For You",
             "hide_block_on_mobile": true,
             "hide_block_on_desktop": false
           }
@@ -15,7 +15,7 @@
         "1648673671d11f3268-1": {
           "type": "text",
           "settings": {
-            "text": "Our best-selling Sixty Six Sneaker is back in stock",
+            "text": "Fresh Colors to Wear All Summer",
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
           }
@@ -24,9 +24,9 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Womens",
-            "button_link_1": "shopify:\/\/products\/womens-sixty-six-sneaker-classic-white",
+            "button_link_1": "shopify:\/\/collections\/womens-new-arrivals",
             "button_label_2": "Shop Mens",
-            "button_link_2": "shopify:\/\/products\/mens-sixty-six-cotton-chambray-blue",
+            "button_link_2": "shopify:\/\/collections\/mens-new-arrivals",
             "button_style_secondary": false,
             "use_arrow_link": false,
             "hide_block_on_mobile": false,
@@ -43,7 +43,7 @@
         "use_video_background": false,
         "hero_video_desktop": "",
         "hero_video_mobile": "",
-        "image_desktop": "shopify:\/\/shop_images\/Sixty_Six_HP_Hero_82a6a80a-fb3f-4087-92cf-a06e87c3ad77.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/newstyles3.jpg",
         "image_mobile": "shopify:\/\/shop_images\/SixtySix_Mobile_Hero.jpg",
         "desktop_text_box_vertical_position": "center",
         "desktop_text_box_horizontal_position": "center",
