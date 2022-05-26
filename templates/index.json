@@ -45,7 +45,7 @@
         "hero_video_mobile": "",
         "image_desktop": "shopify:\/\/shop_images\/newstyles3.jpg",
         "image_mobile": "shopify:\/\/shop_images\/W056A22GGGVIO-18701.jpg",
-        "image_overlay_opacity": 0,
+        "image_overlay_opacity": 20,
         "adapt_height_first_image": true,
         "text_image_separate": false,
         "show_text_box": false,
