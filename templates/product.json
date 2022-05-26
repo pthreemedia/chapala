@@ -72,7 +72,7 @@
           "type": "price",
           "settings": {
             "show_installment_option": false,
-            "show_color": true,
+            "show_color": false,
             "margin_top": "none",
             "margin_bottom": "none"
           }
@@ -88,7 +88,7 @@
           "type": "product_swatches",
           "settings": {
             "hide_sale_product_swatches": true,
-            "show_title": false,
+            "show_title": true,
             "margin_top": "1rem",
             "margin_bottom": "2rem"
           }
@@ -102,17 +102,20 @@
             "margin_bottom": "2rem"
           }
         },
-        "0096abdf-d412-4354-8603-72bf837de1d2": {
-          "type": "custom_liquid",
+        "9df1fe88-5d79-4bb4-b1dd-d18fa74da0b0": {
+          "type": "popup",
           "settings": {
-            "custom_liquid": "{% if product.metafields.seavees.note != blank %}\n<p class=\"product-back-in-stock\">{{ product.metafields.seavees.note }}\n{% endif %}"
+            "text": "View Size Chart",
+            "page": "sizing-and-fit",
+            "margin_top": "none",
+            "margin_bottom": "none"
           }
         },
         "6cb779ce-787f-4653-aca4-8ba527bdb49a": {
           "type": "back_in_stock",
           "settings": {
             "enable_back_in_stock": true,
-            "margin_top": "1rem",
+            "margin_top": "none",
             "margin_bottom": "1rem"
           }
         },
@@ -148,6 +151,12 @@
             "text_style": "caption",
             "margin_top": "none",
             "margin_bottom": "2rem"
+          }
+        },
+        "0096abdf-d412-4354-8603-72bf837de1d2": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.metafields.seavees.note != blank %}\n<p style=\"background: rgba(var(--color-foreground),.03); padding: 2rem; margin: 0 -1rem; font-size: 1.5rem; line-height: 1.3;\">{{ product.metafields.seavees.note }}\n{% endif %}"
           }
         },
         "467af105-8b5d-4c64-9143-fc32cfdb1c35": {
@@ -210,12 +219,13 @@
         "61ceb859-fc56-4458-8eab-ec9397a3b5d5",
         "42a82d44-4510-48f4-944a-b6fa676826af",
         "variant_picker",
-        "0096abdf-d412-4354-8603-72bf837de1d2",
+        "9df1fe88-5d79-4bb4-b1dd-d18fa74da0b0",
         "6cb779ce-787f-4653-aca4-8ba527bdb49a",
         "quantity_selector",
         "buy_buttons",
         "080db1e4-bde7-46c2-823e-50d3355ed358",
         "767576fa-e64b-490f-9391-a5893e8e98d1",
+        "0096abdf-d412-4354-8603-72bf837de1d2",
         "467af105-8b5d-4c64-9143-fc32cfdb1c35",
         "collapsible-row-0",
         "collapsible-row-1",
@@ -249,6 +259,43 @@
         "columns_mobile": "2",
         "padding_top": 36,
         "padding_bottom": 28
+      }
+    },
+    "165358595008c438cf": {
+      "type": "rich-text",
+      "blocks": {
+        "1653585950e257ebc9-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Dream Fit Guarantee",
+            "heading_size": "h2",
+            "font_color": "#012e5c"
+          }
+        },
+        "1653585950e257ebc9-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our experts are ready to help you find a style that fits like a dream, and we have a 30-day return or exchange policy for unused items that's fast, easy and free.<\/p>",
+            "use_heading_font": false,
+            "font_color": "#012e5c"
+          }
+        }
+      },
+      "block_order": [
+        "1653585950e257ebc9-0",
+        "1653585950e257ebc9-1"
+      ],
+      "settings": {
+        "color_scheme": "background-3",
+        "full_width": true,
+        "narrow": false,
+        "is_page_header": false,
+        "mobile_content_align": "center",
+        "desktop_content_align": "center",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "margin_top": 32,
+        "margin_bottom": 64
       }
     },
     "product-ugc-gallery": {
@@ -306,6 +353,7 @@
     "1652982125dda54312",
     "main",
     "product-recommendations",
+    "165358595008c438cf",
     "product-ugc-gallery",
     "164792745482b7fb61",
     "product-reviews"

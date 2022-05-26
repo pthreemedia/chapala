@@ -120,7 +120,7 @@
         >
       </div>
     {%- endif -%}
-    <div class="hero-banner__content{% if section.settings.desktop_content_half == "no" %} hero-banner__content-desktop-full-width{% endif %} page-width {% if section.settings.desktop_content_half == "left" %} banner_content_left_desktop {% elsif section.settings.desktop_content_half == "right" %} banner_content_right_desktop {% endif %}{% if section.settings.desktop_content_half != "no" %} color-{{ section.settings.banner_content_half_color }}{% endif %}" style="align-items: {{ section.settings.desktop_text_box_vertical_position }}; justify-content: {{ section.settings.desktop_text_box_horizontal_position }}; text-align: {{ section.settings.desktop_text_alignment }};">
+    <div class="{% if section.settings.desktop_content_half != "no" %} color-{{ section.settings.banner_content_half_color }}{% endif %} hero-banner__content{% if section.settings.desktop_content_half == "no" %} hero-banner__content-desktop-full-width{% endif %} page-width {% if section.settings.desktop_content_half == "left" %} banner_content_left_desktop {% elsif section.settings.desktop_content_half == "right" %} banner_content_right_desktop {% endif %}" style="align-items: {{ section.settings.desktop_text_box_vertical_position }}; justify-content: {{ section.settings.desktop_text_box_horizontal_position }}; text-align: {{ section.settings.desktop_text_alignment }};">
       <div class="hero-banner__box">
         {%- for block in section.blocks -%}
           {%- case block.type -%}

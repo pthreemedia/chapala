@@ -23,7 +23,7 @@
           "type": "price",
           "settings": {
             "show_installment_option": false,
-            "show_color": true,
+            "show_color": false,
             "margin_top": "none",
             "margin_bottom": "none"
           }
@@ -40,6 +40,7 @@
           "disabled": true,
           "settings": {
             "text": "SeaVees x Reyn Spooner Collaboration",
+            "center_align": false,
             "text_style": "h6",
             "margin_top": "none",
             "margin_bottom": "none"
@@ -49,7 +50,7 @@
           "type": "product_swatches",
           "settings": {
             "hide_sale_product_swatches": true,
-            "show_title": false,
+            "show_title": true,
             "margin_top": "2rem",
             "margin_bottom": "2rem"
           }

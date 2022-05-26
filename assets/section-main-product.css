@@ -1553,16 +1553,12 @@ a.product__text {
 /* Back In Stock Tool */
 
 .product-back-in-stock {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   letter-spacing: -0.04rem;
   cursor: pointer;
   margin-top: 1.5rem;
 }
 
 .product-back-in-stock a {
-  font-size: 1.5rem;
-}
-
-.product-back-in-stock:before {
-  content: "* ";
+  font-size: 1.6rem;
 }

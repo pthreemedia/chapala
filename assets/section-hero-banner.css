@@ -1,8 +1,8 @@
 .hero-banner {
-    display: flex;
-    position: relative;
-    min-height: initial;
-    flex-direction: column;
+  display: flex;
+  position: relative;
+  min-height: initial;
+  flex-direction: column;
 }
 
 @media screen and (min-width: 750px) {
@@ -91,7 +91,7 @@
   position: relative;
   width: 100%;
   justify-content: center;
-  z-index: 1;
+  z-index: 2;
 }
 
 @media screen and (min-width: 750px) {
@@ -223,13 +223,13 @@
 @media screen and (max-width: 749px) {
   .hero-banner__button {
     color: #ffffff;
-    background-color: rgb(var(--color-foreground));
+    background-color: rgba(1, 46, 92, 1);
   }
 }
 
 .hero-banner-separate .hero-banner__button {
   color: #ffffff;
-  background-color: rgb(var(--color-foreground));
+  background-color: rgba(1, 46, 92, 1);
 }
 
 .hero-banner__content .button {
@@ -382,12 +382,9 @@
 }
 
 @media screen and (max-width: 749px) {
-  .hero-banner__heading, .hero-banner__text {
-    color: rgb(var(--color-foreground));
-    background-color: rgb(var(--color-background));
-  }
-  .hero-banner__button {
-    background-color: rgb(var(--color-foreground));
-    color: rgb(var(--color-background));
+  .hero-banner__content, .hero-banner__heading, .hero-banner__text {
+    color: rgba(1, 46, 92, 1);
+    background-color: #ffffff;
   }
 }
+

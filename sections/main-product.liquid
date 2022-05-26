@@ -310,7 +310,7 @@
               </quantity-input>
             </div>
           {%- when 'popup' -%}
-              <modal-opener class="product-popup-modal__opener no-js-hidden quick-add-hidden" data-modal="#PopupModal-{{ block.id }}" {{ block.shopify_attributes }}>
+              <modal-opener class="product-popup-modal__opener no-js-hidden quick-add-hidden pdp-margin-top-{{ block.settings.margin_top }} pdp-margin-bottom-{{ block.settings.margin_bottom }}" data-modal="#PopupModal-{{ block.id }}" {{ block.shopify_attributes }}>
                 <button id="ProductPopup-{{ block.id }}" class="product-popup-modal__button link" type="button" aria-haspopup="dialog">{{ block.settings.text | default: block.settings.page.title }}</button>
               </modal-opener>
               <a href="{{ block.settings.page.url }}" class="product-popup-modal__button link no-js">{{ block.settings.text }}</a>
@@ -1595,6 +1595,46 @@
           "id": "page",
           "type": "page",
           "label": "t:sections.main-product.blocks.popup.settings.page.label"
+        },
+        {
+          "type": "select",
+          "id": "margin_top",
+          "options": [
+            {
+              "value": "none",
+              "label": "none"
+            },
+            {
+              "value": "1rem",
+              "label": "1rem"
+            },
+            {
+              "value": "2rem",
+              "label": "2rem"
+            }
+          ],
+          "default": "1rem",
+          "label": "Top margin"
+        },
+        {
+          "type": "select",
+          "id": "margin_bottom",
+          "options": [
+            {
+              "value": "none",
+              "label": "none"
+            },
+            {
+              "value": "1rem",
+              "label": "1rem"
+            },
+            {
+              "value": "2rem",
+              "label": "2rem"
+            }
+          ],
+          "default": "1rem",
+          "label": "Bottom margin"
         }
       ]
     },
