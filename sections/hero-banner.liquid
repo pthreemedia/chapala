@@ -1,5 +1,13 @@
 {{ 'section-hero-banner.css' | asset_url | stylesheet_tag }}
 
+{%- style -%}
+    @media screen and (min-width: 750px) {
+      .hero-banner-desktop::after {
+          opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
+      }
+    }
+{%- endstyle -%}
+
 {%- if section.settings.adapt_height_first_image and section.settings.image_desktop != blank -%}
     {%- style -%}
     @media screen and (max-width: 749px) {
@@ -79,7 +87,7 @@
 
 {% else %}
 
-  <div id="Hero-Banner-{{ section.id }}" class="hero-banner{% if section.settings.text_image_separate %} hero-banner-separate{% else %}   hero-banner-together{% endif %}{% if section.settings.adapt_height_first_image and section.settings.image_desktop != blank %} hero-banner--adapt{% endif %}">
+  <div id="Hero-Banner-{{ section.id }}" class="hero-banner{% if section.settings.text_image_separate %} hero-banner-separate{% else %}   hero-banner-together{% endif %}{% if section.settings.adapt_height_first_image and section.settings.image_desktop != blank %} hero-banner--adapt{% endif %}{% if section.settings.show_text_box == true %} hero-banner--desktop-background{% endif %}">
     {%- if section.settings.image_desktop != blank -%}
       <div class="hero-banner__media media hero-banner-desktop"> 
         <img srcset="{%- if section.settings.image.width >= 375 -%}{{ section.settings.image_desktop | img_url: '375x' }} 375w,{%- endif -%}
@@ -112,7 +120,7 @@
         >
       </div>
     {%- endif -%}
-    <div class="hero-banner__content page-width" style="align-items: {{ section.settings.desktop_text_box_vertical_position }}; justify-content: {{ section.settings.desktop_text_box_horizontal_position }}; text-align: {{ section.settings.desktop_text_alignment }};">
+    <div class="hero-banner__content{% if section.settings.desktop_content_half == "no" %} hero-banner__content-desktop-full-width{% endif %} page-width {% if section.settings.desktop_content_half == "left" %} banner_content_left_desktop {% elsif section.settings.desktop_content_half == "right" %} banner_content_right_desktop {% endif %}{% if section.settings.desktop_content_half != "no" %} color-{{ section.settings.banner_content_half_color }}{% endif %}" style="align-items: {{ section.settings.desktop_text_box_vertical_position }}; justify-content: {{ section.settings.desktop_text_box_horizontal_position }}; text-align: {{ section.settings.desktop_text_alignment }};">
       <div class="hero-banner__box">
         {%- for block in section.blocks -%}
           {%- case block.type -%}
@@ -157,6 +165,10 @@
   "class": "spaced-section spaced-section--full-width",
   "settings": [
     {
+      "type": "header",
+      "content": "Video settings"
+    },
+    {
       "type": "checkbox",
       "id": "use_video_background",
       "default": false,
@@ -173,6 +185,10 @@
       "label": "Mobile video url"
     },
     {
+      "type": "header",
+      "content": "Image settings"
+    },
+    {
       "type": "image_picker",
       "id": "image_desktop",
       "label": "Desktop image"
@@ -181,6 +197,91 @@
       "type": "image_picker",
       "id": "image_mobile",
       "label": "mobile image"
+    },
+    {
+      "type": "range",
+      "id": "image_overlay_opacity",
+      "min": 0,
+      "max": 100,
+      "step": 10,
+      "unit": "%",
+      "label": "Desktop image overlay",
+      "default": 0
+    },
+    {
+      "type": "checkbox",
+      "id": "adapt_height_first_image",
+      "default": false,
+      "label": "Adapt height of section to match image height"
+    },
+    {
+      "type": "header",
+      "content": "Desktop Banner content settings (applies to all screens >= 750px)"
+    },
+    {
+      "type": "checkbox",
+      "id": "text_image_separate",
+      "default": false,
+      "label": "Separate image and content on desktop"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_text_box",
+      "default": false,
+      "label": "Show container for content"
+    },
+    {
+      "type": "select",
+      "id": "desktop_content_half",
+      "options": [
+        {
+          "value": "no",
+          "label": "No"
+        },
+        {
+          "value": "left",
+          "label": "Left side"
+        },
+        {
+          "value": "right",
+          "label": "Right side"
+        }
+      ],
+      "default": "no",
+      "label": "Constrain desktop content to one side of screen"
+    },
+    {
+      "type": "select",
+      "id": "banner_content_half_color",
+      "options": [
+        {
+          "value": "accent-1",
+          "label": "t:sections.all.colors.accent_1.label"
+        },
+        {
+          "value": "accent-2",
+          "label": "t:sections.all.colors.accent_2.label"
+        },
+        {
+          "value": "accent-3",
+          "label": "t:sections.all.colors.accent_3.label"
+        },
+        {
+          "value": "background-1",
+          "label": "t:sections.all.colors.background_1.label"
+        },
+        {
+          "value": "background-2",
+          "label": "t:sections.all.colors.background_2.label"
+        },
+        {
+          "value": "background-3",
+          "label": "t:sections.all.colors.background_3.label"
+        }
+      ],
+      "default": "background-1",
+      "label": "Desktop color",
+      "info": "Only applies if banner content is constrained to the left or right half of the screen"
     },
     {
       "type": "select",
@@ -241,18 +342,6 @@
       ],
       "default": "left",
       "label": "Content alignment"
-    },
-    {
-      "type": "checkbox",
-      "id": "adapt_height_first_image",
-      "default": false,
-      "label": "Adapt height of section to match image height"
-    },
-    {
-      "type": "checkbox",
-      "id": "text_image_separate",
-      "default": false,
-      "label": "Separate image and content on desktop"
     }
   ],
   "blocks": [
