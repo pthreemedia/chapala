@@ -124,7 +124,7 @@
       "header": {
         "type": "header",
         "blocks": {
-          "fb0a218e-862a-4034-92e9-0bca76c376f7": {
+          "4dbb0686-cdd9-4f5a-8125-1bfd23e3dfcd": {
             "type": "featured_content",
             "settings": {
               "category": "Mens",
@@ -134,7 +134,7 @@
               "image_mobile": "shopify:\/\/shop_images\/mens_baja_standard_slate_navy_side.jpg"
             }
           },
-          "8522a9d6-f630-455f-bcac-6e676c6a1ccd": {
+          "8faac646-622e-434a-8bea-f10b298e8fcd": {
             "type": "featured_content",
             "settings": {
               "category": "Mens",
@@ -144,7 +144,7 @@
               "image_mobile": "shopify:\/\/shop_images\/mens_sixty_six_bleach_side.jpg"
             }
           },
-          "7e9cfaa9-8865-411f-84d3-ac6b07f809fd": {
+          "9586e75a-9c6b-4eab-98b5-462a69572691": {
             "type": "featured_content",
             "disabled": true,
             "settings": {
@@ -155,7 +155,7 @@
               "image_mobile": "shopify:\/\/shop_images\/mens_hermosa_standard_natural_side.jpg"
             }
           },
-          "c5df3d1b-48d2-4874-bb47-960c42afcf7c": {
+          "63c8485a-2033-47fc-a0a6-26b9300dc81c": {
             "type": "featured_content",
             "settings": {
               "category": "Womens",
@@ -165,7 +165,7 @@
               "image_mobile": "shopify:\/\/shop_images\/womens_monterey_cactus_side.jpg"
             }
           },
-          "e88f8910-dc3e-4320-8338-c570cd0330f3": {
+          "067eea87-3114-4e12-b33c-40d5f50d3f91": {
             "type": "featured_content",
             "disabled": true,
             "settings": {
@@ -176,7 +176,7 @@
               "image_mobile": "shopify:\/\/shop_images\/mens_hawthorne_standard_true_navy_side.jpg"
             }
           },
-          "d4aaaa28-65e0-4ee7-aa50-bf904feaab28": {
+          "549aab27-f359-4751-82f2-84007485cc1b": {
             "type": "featured_content",
             "settings": {
               "category": "Womens",
@@ -186,7 +186,7 @@
               "image_mobile": "shopify:\/\/shop_images\/SPRING_WEB_ADD-ON_WOMEN_007.jpg"
             }
           },
-          "e61ea584-787f-4c4e-8964-9a0e78007c2c": {
+          "f276d9cc-490c-4bdc-8ff7-82e4849d5e13": {
             "type": "featured_content",
             "disabled": true,
             "settings": {
@@ -197,7 +197,7 @@
               "image_mobile": "shopify:\/\/shop_images\/seavees_nav_discover_seatrees.jpg"
             }
           },
-          "d2fd10b5-7ebb-47a5-9c7b-4b02fbfc2559": {
+          "63bc2ed5-0727-430c-8884-146b5b9df29e": {
             "type": "featured_content",
             "disabled": true,
             "settings": {
@@ -208,7 +208,7 @@
               "image_mobile": "shopify:\/\/shop_images\/seavees_nav_discover_mental_health.jpg"
             }
           },
-          "cb8058ab-289e-4377-a439-1733831dfc83": {
+          "463ec164-e1f8-4aa8-8920-25acd239523b": {
             "type": "featured_content",
             "disabled": true,
             "settings": {
@@ -218,18 +218,27 @@
               "image_desktop": "shopify:\/\/shop_images\/seavees_nav_discover_un_mar_de_colores.jpg",
               "image_mobile": "shopify:\/\/shop_images\/seavees_nav_discover_un_mar_de_colores.jpg"
             }
+          },
+          "53aa48e7-d13c-42eb-9864-e27635d8a476": {
+            "type": "featured_content",
+            "settings": {
+              "category": "",
+              "text": "",
+              "link": ""
+            }
           }
         },
         "block_order": [
-          "fb0a218e-862a-4034-92e9-0bca76c376f7",
-          "8522a9d6-f630-455f-bcac-6e676c6a1ccd",
-          "7e9cfaa9-8865-411f-84d3-ac6b07f809fd",
-          "c5df3d1b-48d2-4874-bb47-960c42afcf7c",
-          "e88f8910-dc3e-4320-8338-c570cd0330f3",
-          "d4aaaa28-65e0-4ee7-aa50-bf904feaab28",
-          "e61ea584-787f-4c4e-8964-9a0e78007c2c",
-          "d2fd10b5-7ebb-47a5-9c7b-4b02fbfc2559",
-          "cb8058ab-289e-4377-a439-1733831dfc83"
+          "4dbb0686-cdd9-4f5a-8125-1bfd23e3dfcd",
+          "8faac646-622e-434a-8bea-f10b298e8fcd",
+          "9586e75a-9c6b-4eab-98b5-462a69572691",
+          "63c8485a-2033-47fc-a0a6-26b9300dc81c",
+          "067eea87-3114-4e12-b33c-40d5f50d3f91",
+          "549aab27-f359-4751-82f2-84007485cc1b",
+          "f276d9cc-490c-4bdc-8ff7-82e4849d5e13",
+          "63bc2ed5-0727-430c-8884-146b5b9df29e",
+          "463ec164-e1f8-4aa8-8920-25acd239523b",
+          "53aa48e7-d13c-42eb-9864-e27635d8a476"
         ],
         "settings": {
           "color_scheme": "background-1",
