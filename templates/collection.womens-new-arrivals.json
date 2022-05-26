@@ -75,7 +75,7 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
-        "products_per_page": 50,
+        "products_per_page": 60,
         "columns_desktop": 3,
         "grouped_collection": false,
         "hide_sale_products": false,
