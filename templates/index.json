@@ -44,12 +44,16 @@
         "hero_video_desktop": "",
         "hero_video_mobile": "",
         "image_desktop": "shopify:\/\/shop_images\/newstyles3.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/SixtySix_Mobile_Hero.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/W056A22GGGVIO-18701.jpg",
+        "image_overlay_opacity": 0,
+        "adapt_height_first_image": true,
+        "text_image_separate": false,
+        "show_text_box": false,
+        "desktop_content_half": "no",
+        "banner_content_half_color": "background-1",
         "desktop_text_box_vertical_position": "center",
         "desktop_text_box_horizontal_position": "center",
-        "desktop_text_alignment": "center",
-        "adapt_height_first_image": true,
-        "text_image_separate": false
+        "desktop_text_alignment": "center"
       }
     },
     "1652135633ce7ce319": {
@@ -98,11 +102,15 @@
         "hero_video_mobile": "",
         "image_desktop": "shopify:\/\/shop_images\/Imperfects_hero_desktop_v2.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Imperfects_hero_desktop_v2.jpg",
+        "image_overlay_opacity": 0,
+        "adapt_height_first_image": false,
+        "text_image_separate": false,
+        "show_text_box": false,
+        "desktop_content_half": "no",
+        "banner_content_half_color": "background-1",
         "desktop_text_box_vertical_position": "center",
         "desktop_text_box_horizontal_position": "center",
-        "desktop_text_alignment": "center",
-        "adapt_height_first_image": false,
-        "text_image_separate": false
+        "desktop_text_alignment": "center"
       }
     },
     "16503151834eccf6ed": {
