@@ -363,7 +363,7 @@
               {%- if block.settings.picker_type == 'button' -%}
                 <variant-radios class="no-js-hidden pdp-margin-top-{{ block.settings.margin_top }} pdp-margin-bottom-{{ block.settings.margin_bottom }}" data-section="{{ section.id }}" data-url="{{ product.url }}" {{ block.shopify_attributes }}>
                   {%- for option in product.options_with_values -%}
-                    <fieldset class="js product-form__input product-form-{{ option.name }}">
+                    <fieldset class="js product-form__input product-form-{{ option.name }}" data-option-name="{{ option.name }}">
                       <legend class="product__text h6">Select {{ option.name }}</legend>
                       {%- for value in option.values -%}
                         {%- assign option_disabled = true -%}
@@ -387,7 +387,7 @@
                               name="{{ option.name }}"
                               value="{{ value | escape }}"
                               form="{{ product_form_id }}"
-                              {% if option.selected_value == value %}checked{% endif %}
+                              {% if option.selected_value == value and option.name != 'Size' %}checked{% endif %}
                               {% if option_disabled %}class="disabled"{% endif %}
                               {% if option_disabled %}aria-label="Size {{ value | escape }} is unavailable"{% else %}aria-label="Add size {{ value | escape }}"{% endif %}
                         >
@@ -484,20 +484,24 @@
                 </div>
 
                 {%- form 'product', product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
-                  <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}" disabled>
+                  <input type="hidden" name="id" value="" disabled>
                   <div class="product-form__buttons">
                     <button
                       type="submit"
                       name="add"
                       class="product-form__submit button button--full-width {% if block.settings.show_dynamic_checkout and product.selling_plan_groups == empty %}button--secondary{% else %}button--primary{% endif %}"
-                    {% if product.selected_or_first_available_variant.available == false %}disabled{% endif %}
+                      disabled
+                    {% comment %}{% if product.selected_or_first_available_variant.available == false %}disabled{% endif %}{% endcomment %}
                     >
                         <span>
+                          Select a size
+                          {% comment %}
                           {%- if product.selected_or_first_available_variant.available -%}
                             {{ 'products.product.add_to_cart' | t }}
                           {%- else -%}
                             {{ 'products.product.sold_out' | t }}
                           {%- endif -%}
+                          {% endcomment %}
                         </span>
                         <div class="loading-overlay__spinner hidden">
                           <svg aria-hidden="true" focusable="false" role="presentation" class="spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
