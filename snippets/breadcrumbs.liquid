@@ -39,9 +39,9 @@
           <span aria-hidden="true">/ Tagged</span>
           <span>'{{ current_tags | join: " + " }}'</span>
         {% else %}
-          {% if collection.handle == "womens-sneakers" or "womens-slip-ons" or "womens-boots" or "womens-sandals-slippers" or "womens-casuals" or "womens-new-arrivals" or "womens-best-sellers" or "womens-platforms" %}
+          {% if collection.handle == "womens-sneakers" or collection.handle == "womens-slip-ons" or collection.handle == "womens-boots" or collection.handle == "womens-sandals-slippers" or collection.handle == "womens-casuals" or collection.handle == "womens-new-arrivals" or collection.handle == "womens-best-sellers" or collection.handle == "womens-platforms" %}
             <a href="/womens">Womens Shoes</a><span> / </span>
-          {% elsif collection.handle == "mens-sneakers" or "mens-slip-ons" or "mens-boots" or "mens-sandals-slippers" or "mens-casuals" or "mens-new-arrivals" or "mens-best-sellers" %}
+          {% elsif collection.handle == "mens-sneakers" or collection.handle == "mens-slip-ons" or collection.handle == "mens-boots" or collection.handle == "mens-sandals-slippers" or collection.handle == "mens-casuals" or collection.handle == "mens-new-arrivals" or collection.handle == "mens-best-sellers" %}
             <a href="/mens">Mens Shoes</a><span> / </span>
           {% endif %}
           <span>{{ collection.title }}</span> 
