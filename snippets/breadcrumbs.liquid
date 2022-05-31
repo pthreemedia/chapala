@@ -11,11 +11,12 @@
 
 {% unless template == 'index' or template == 'cart' or template == 'list-collections' %}
     <nav class="breadcrumb" role="navigation" aria-label="breadcrumbs">
-      {% if show_home %}<a href="/" title="Home">Home</a><span aria-hidden="true"> / </span>{% endif %}
+      {% if show_home %}<a href="/" title="Home">Home</a>{% endif %}
       {% if template contains 'page' %}
         <span aria-hidden="true">/</span>
         <span>{{ page.title }}</span>
       {% elsif template.name == 'product' %}
+        <span aria-hidden="true">/</span>
         {% if product.vendor == "SeaVees Footwear" %}
           {% if product.metafields.seavees.gender == 'Mens' %}
             <a href="/mens">Mens Shoes</a><span aria-hidden="true"> / </span>
@@ -41,7 +42,7 @@
           {% if collection.handle == "mens-sneakers" or "mens-slip-ons" or "mens-boots" or "mens-sandals-slippers" or "mens-casuals" or "mens-new-arrivals" or "mens-best-sellers" %}
             <a href="/mens">Mens Shoes</a><span> / </span>
           {% elsif collection.handle == "womens-sneakers" or "womens-slip-ons" or "womens-boots" or "womens-sandals-slippers" or "womens-casuals" or "womens-new-arrivals" or "womens-best-sellers" or "womens-platforms" %}
-            <a href="/womens">Mens Shoes</a><span> / </span>
+            <a href="/womens">Womens Shoes</a><span> / </span>
           {% endif %}
           <span>{{ collection.title }}</span> 
         {% endif %}
