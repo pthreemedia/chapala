@@ -2,6 +2,7 @@
   "sections": {
     "164867367120e1947e": {
       "type": "hero-banner",
+      "disabled": true,
       "blocks": {
         "1648673671d11f3268-0": {
           "type": "heading",
@@ -58,12 +59,11 @@
     },
     "1652135633ce7ce319": {
       "type": "hero-banner",
-      "disabled": true,
       "blocks": {
         "16521356332262bfc5-0": {
           "type": "heading",
           "settings": {
-            "heading": "SeaVees X Imperfects",
+            "heading": "The SeaChange Collection",
             "heading_2": "",
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
@@ -72,7 +72,7 @@
         "16521356332262bfc5-1": {
           "type": "text",
           "settings": {
-            "text": "A limited edition collaboration.",
+            "text": "Our Most Responsible Sneakers Yet",
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
           }
@@ -81,7 +81,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Now",
-            "button_link_1": "https:\/\/www.seavees.com\/products\/mens-legend-imperfects-sneaker-organic-duck-canvas-natural",
+            "button_link_1": "shopify:\/\/pages\/seachange",
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary": false,
@@ -100,10 +100,10 @@
         "use_video_background": false,
         "hero_video_desktop": "",
         "hero_video_mobile": "",
-        "image_desktop": "shopify:\/\/shop_images\/Imperfects_hero_desktop_v2.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Imperfects_hero_desktop_v2.jpg",
-        "image_overlay_opacity": 0,
-        "adapt_height_first_image": false,
+        "image_desktop": "shopify:\/\/shop_images\/Hero_2c13f8f8-3efe-40e6-86da-c98617546187.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Seachang_Launch_Hero-Mobile.jpg",
+        "image_overlay_opacity": 10,
+        "adapt_height_first_image": true,
         "text_image_separate": false,
         "show_text_box": false,
         "desktop_content_half": "no",

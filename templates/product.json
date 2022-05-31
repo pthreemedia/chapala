@@ -55,7 +55,7 @@
         "53050794-a012-4aa8-b7ef-533a86966eeb": {
           "type": "breadcrumbs",
           "settings": {
-            "show_home": false,
+            "show_home": true,
             "margin_top": "none",
             "margin_bottom": "none"
           }

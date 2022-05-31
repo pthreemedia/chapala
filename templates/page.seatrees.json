@@ -16,11 +16,15 @@
         "hero_video_mobile": "",
         "image_desktop": "shopify:\/\/shop_images\/seatrees_desktop_header_111111.jpg",
         "image_mobile": "shopify:\/\/shop_images\/seatrees_mobile_header_311111.jpg",
+        "image_overlay_opacity": 0,
+        "adapt_height_first_image": true,
+        "text_image_separate": false,
+        "show_text_box": false,
+        "desktop_content_half": "no",
+        "banner_content_half_color": "background-1",
         "desktop_text_box_vertical_position": "center",
         "desktop_text_box_horizontal_position": "center",
-        "desktop_text_alignment": "center",
-        "adapt_height_first_image": true,
-        "text_image_separate": false
+        "desktop_text_alignment": "center"
       }
     },
     "1648754377267fd7cf": {
@@ -29,7 +33,7 @@
         "16487543778e673e3c-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Our planet is 2\/3 blue. The \"Sea\" is in SeaVees because we’re committed to protecting it. Since 2020, every pair of shoes sold from our SeaChange collection gives back $1 to our partner SeaTrees, a non-profit that works to restore coastal ecosystems and ocean health globally. <\/p>",
+            "text": "<p>Our planet is 2\/3 blue. The \"Sea\" is in SeaVees because we’re committed to protecting it. Since 2020, every pair of shoes sold from our SeaChange collection gives back $1 to our partner SeaTrees, a non-profit that works to restore blue carbon coastal ecosystems and ocean health globally.<\/p>",
             "use_heading_font": false,
             "font_color": "#193859"
           }
@@ -64,7 +68,7 @@
         "16485951998e93f2b7-1": {
           "type": "text",
           "settings": {
-            "text": "<p>In the last decade, these ecosystems<br\/>have been in a state of crisis. According to our partners at SeaTrees, more than 90% of kelp forests along our California coast have disappeared in the last 10 years. Kelp forests provide healthy habitats for over 700 species of marine life and sequester carbon at a rate 2 times more carbon per acre than land forests. <em>(Hurlimann and Zucker, 2019)<\/em><\/p>",
+            "text": "<p>In the last decade, these ecosystems have been in a state of crisis. According to our partners at SeaTrees, more than 90% of kelp forests along our California coast have disappeared in the last 10 years. Kelp forests provide healthy habitats for over 700 species of marine life and sequester carbon at a rate 2 times more carbon per acre than land forests. <em>(Hurlimann and Zucker, 2019)<\/em><\/p>",
             "text_style": "body"
           }
         }
@@ -135,7 +139,7 @@
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
-        "narrow": false,
+        "narrow": true,
         "is_page_header": false,
         "mobile_content_align": "left",
         "desktop_content_align": "center",

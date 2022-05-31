@@ -14,15 +14,15 @@
         "165297913758c6d6d2-0": {
           "type": "heading",
           "settings": {
-            "heading_line_1": "The SeaChange Collection",
+            "heading_line_1": "SeaVees x Pacific Pride Foundation",
             "heading_line_2": "",
-            "heading_size": "h0"
+            "heading_size": "h2"
           }
         },
         "165297913758c6d6d2-1": {
           "type": "text",
           "settings": {
-            "text": "Our Most Responsible Sneakers Yet",
+            "text": "Beautiful, comfortable, and made with love",
             "text_style": "caption-with-letter-spacing"
           }
         },
@@ -45,7 +45,7 @@
         "165297913758c6d6d2-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/SeaChange_LP-Hero.jpg",
+        "image": "shopify:\/\/shop_images\/Pride_Landing_Page_Hero.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
@@ -75,7 +75,7 @@
         "1651769816c53397ad-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We made the most comfortable shoe in your closet even better. These freshly-picked styles have uppers made with pineapple yarn, corn leather, or recycled cotton canvas, laces made with post-consumer recycled plastic, metal-free stitched eyelets, liners made with recycled cotton, and outsoles made with natural and recycled rubber. Every style in this collection is made with recycled materials – from to sole. It represents our best foot forward in making our shoes more responsibly, and it's just the beginning.<\/p><p><\/p>",
+            "text": "<p>We’ve got so much love for our friends at the Pacific Pride Foundation. To celebrate our fourth year with PPF, we asked their talented team to help us create a fresh design for one of your favorite silhouettes—the compliment-gathering, confidence-inducing Hawthorne slip-on.<\/p><p><\/p>",
             "use_heading_font": false,
             "font_color": "#012e5c"
           }
@@ -101,115 +101,53 @@
     "1653069663d19d7d66": {
       "type": "multicolumn",
       "blocks": {
-        "165306966370d82fc8-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_post_-_3.jpg",
-            "title": "VEGAN CORN LEATHER",
-            "font_style": "h4",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "info_on_image": true
-          }
-        },
         "165306966370d82fc8-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_story_-_79.jpg",
+            "image": "shopify:\/\/shop_images\/Frame_6.jpg",
             "title": "",
             "font_style": "h4",
-            "text": "",
+            "text": "<p><strong>Features a cotton woven double-sided Progress Pride Flag<br\/><\/strong><\/p>",
             "link_label": "",
             "link": "",
-            "info_on_image": true
+            "info_on_image": false
           }
         },
         "a63135c7-20d3-4c8d-a5d2-2639fa9606e5": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_post_-_11.jpg",
+            "image": "shopify:\/\/shop_images\/Frame_7.jpg",
             "title": "",
-            "font_style": "h3",
-            "text": "<p>Corn leather is a vegan alternative to leather made from cotton fabric covered by a corn-based coating. It is durable, smooth and has a traditional leather feel.<\/p>",
+            "font_style": "h4",
+            "text": "<p><strong>The foxing stripe has three colors to represent green (nature), blue (harmony) and purple (spirit)<\/strong><\/p>",
             "link_label": "",
             "link": "",
-            "info_on_image": true
+            "info_on_image": false
+          }
+        },
+        "165306966370d82fc8-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_8.jpg",
+            "title": "",
+            "font_style": "h4",
+            "text": "<p><strong>The outsole design is inspired by the colors of the progress pride flag<\/strong><\/p>",
+            "link_label": "",
+            "link": "",
+            "info_on_image": false
           }
         }
       },
       "block_order": [
-        "165306966370d82fc8-1",
         "165306966370d82fc8-2",
-        "a63135c7-20d3-4c8d-a5d2-2639fa9606e5"
+        "a63135c7-20d3-4c8d-a5d2-2639fa9606e5",
+        "165306966370d82fc8-1"
       ],
       "settings": {
         "title": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "square",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "1653070266b056c99a": {
-      "type": "multicolumn",
-      "blocks": {
-        "1653070266e5c04d45-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_post_-_19.jpg",
-            "title": "PINEAPPLE YARN",
-            "font_style": "h4",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "info_on_image": true
-          }
-        },
-        "1653070266e5c04d45-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_story_-_80.jpg",
-            "title": "",
-            "font_style": "h3",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "info_on_image": false
-          }
-        },
-        "1653070266e5c04d45-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_post_-_17.jpg",
-            "title": "",
-            "font_style": "h3",
-            "text": "<p>Pineapple yarn is a biodegradable cellulose fiber harvested from pineapple plants. It has beautiful natural texture.<\/p>",
-            "link_label": "",
-            "link": "",
-            "info_on_image": true
-          }
-        }
-      },
-      "block_order": [
-        "1653070266e5c04d45-1",
-        "1653070266e5c04d45-0",
-        "1653070266e5c04d45-2"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "none",
@@ -272,39 +210,102 @@
         "margin_bottom": 0
       }
     },
-    "16517685015d2ce9b4": {
-      "type": "featured-collection-alt",
+    "1654024026e4dfc93f": {
+      "type": "multicolumn",
+      "disabled": true,
+      "blocks": {
+        "16540240263ca05353-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Womens_Product.jpg",
+            "title": "Column",
+            "font_style": "h3",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": "",
+            "info_on_image": false
+          }
+        },
+        "16540240263ca05353-1": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mens_Product_b47ce942-8407-43d0-a654-cd304a63386e.jpg",
+            "title": "Column",
+            "font_style": "h3",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "info_on_image": false
+          }
+        }
+      },
+      "block_order": [
+        "16540240263ca05353-0",
+        "16540240263ca05353-1"
+      ],
       "settings": {
         "title": "",
-        "heading_size": "h2",
-        "description": "",
-        "description_style": "body",
-        "columns_desktop": 3,
-        "full_width": true,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "background-1",
-        "collection_1": "womens-seachange",
-        "tab_id_1": "1",
-        "featured_collection_title_1": "Womens",
-        "products_to_show_1": 12,
-        "collection_2": "mens-seachange",
-        "tab_id_2": "2",
-        "featured_collection_title_2": "Mens",
-        "products_to_show_2": 12,
+        "heading_size": "h1",
+        "image_width": "full",
         "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_condensed_title": true,
-        "show_vendor": false,
-        "show_gender": true,
-        "show_material": true,
-        "show_rating": false,
-        "enable_quick_add": false,
+        "columns_desktop": 1,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
         "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 12,
-        "padding_bottom": 32,
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "165401772554e47927": {
+      "type": "rich-text",
+      "blocks": {
+        "1654017725a7695f8b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1",
+            "font_color": ""
+          }
+        },
+        "1654017725a7695f8b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Designed in partnership with our friends at the Pacific Pride Foundation, $5 from every purchase of this shoe gives back to the LGTBQIA+ community.<\/p>",
+            "use_heading_font": true,
+            "font_color": "#f68a1e"
+          }
+        },
+        "1654017725a7695f8b-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "use_arrow_link": false,
+            "link_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "1654017725a7695f8b-0",
+        "1654017725a7695f8b-1",
+        "1654017725a7695f8b-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "narrow": false,
+        "is_page_header": false,
+        "mobile_content_align": "center",
+        "desktop_content_align": "center",
+        "padding_top": 40,
+        "padding_bottom": 52,
         "margin_top": 0,
         "margin_bottom": 0
       }
@@ -324,21 +325,42 @@
         "padding_bottom": 24
       }
     },
+    "16540180768fa9db04": {
+      "type": "hero-banner",
+      "disabled": true,
+      "settings": {
+        "use_video_background": false,
+        "hero_video_desktop": "",
+        "hero_video_mobile": "",
+        "image_desktop": "shopify:\/\/shop_images\/Pride_Full_Width.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Pride_Mobile_Hero.jpg",
+        "image_overlay_opacity": 0,
+        "adapt_height_first_image": false,
+        "text_image_separate": false,
+        "show_text_box": false,
+        "desktop_content_half": "no",
+        "banner_content_half_color": "background-1",
+        "desktop_text_box_vertical_position": "center",
+        "desktop_text_box_horizontal_position": "flex-start",
+        "desktop_text_alignment": "left"
+      }
+    },
     "1648834181268fa0bf": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
-        "164883418143aa5478-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "We're Committed to Sea Change",
-            "heading_size": "h2"
-          }
-        },
         "164883418143aa5478-1": {
           "type": "text",
           "settings": {
             "text": "<p>A tiny blue and white flag tag on every shoe represents our ongoing commitment to protect our 2\/3 blue planet. Every pair of shoes sold from this collection gives back $1 to our partner <a href=\"https:\/\/sea-trees.org\/\" title=\"https:\/\/sea-trees.org\"><strong>SeaTrees<\/strong><\/a>, a non-profit that works to restore coastal ecosystems and ocean health globally. And by 2025, we aim to ensure that every shoe in our line is made with recycled materials and gives back to non-profit partners supporting ocean conservation efforts. <\/p>",
             "text_style": "body"
+          }
+        },
+        "164883418143aa5478-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "We're Committed to Sea Change",
+            "heading_size": "h2"
           }
         },
         "164883418143aa5478-2": {
@@ -352,8 +374,8 @@
         }
       },
       "block_order": [
-        "164883418143aa5478-0",
         "164883418143aa5478-1",
+        "164883418143aa5478-0",
         "164883418143aa5478-2"
       ],
       "settings": {
@@ -379,24 +401,24 @@
         "1653339932d884285e-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Womens_Collection.jpg",
-            "title": "Womens Collection",
-            "font_style": "h3",
+            "image": "shopify:\/\/shop_images\/PPF_1.jpg",
+            "title": "The Full Collection",
+            "font_style": "h4",
             "text": "",
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/womens-seachange",
-            "info_on_image": true
+            "info_on_image": false
           }
         },
         "1653339932d884285e-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mens_Collection.jpg",
-            "title": "Mens Collection",
+            "image": "shopify:\/\/shop_images\/PPF_3.jpg",
+            "title": "",
             "font_style": "h3",
             "text": "",
-            "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/mens-seachange",
+            "link_label": "",
+            "link": "",
             "info_on_image": true
           }
         }
@@ -411,7 +433,7 @@
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 2,
-        "column_alignment": "center",
+        "column_alignment": "left",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
@@ -428,10 +450,11 @@
     "1652979137b0a62647",
     "1651769816dcb4919c",
     "1653069663d19d7d66",
-    "1653070266b056c99a",
     "1652992451b58be40b",
-    "16517685015d2ce9b4",
+    "1654024026e4dfc93f",
+    "165401772554e47927",
     "16488340185b1f3cc8",
+    "16540180768fa9db04",
     "1648834181268fa0bf",
     "16533399328f27308a"
   ]

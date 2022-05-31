@@ -75,7 +75,7 @@
         "1651769816c53397ad-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We made the most comfortable shoe in your closet even better. These freshly-picked styles have uppers made with pineapple yarn, corn leather, or recycled cotton canvas, laces made with post-consumer recycled plastic, metal-free stitched eyelets, liners made with recycled cotton, and outsoles made with natural and recycled rubber. Every style in this collection is made with recycled materials – from to sole. It represents our best foot forward in making our shoes more responsibly, and it's just the beginning.<\/p><p><\/p>",
+            "text": "<p>We made the most comfortable shoe in your closet even better. These freshly-picked styles have uppers made with pineapple yarn, corn leather, or recycled cotton canvas, laces made with post-consumer recycled plastic, metal-free stitched eyelets, liners made with recycled cotton, and outsoles made with natural and recycled rubber. Every style in this collection is made with recycled material–from lace to sole. It represents our best foot forward in making our shoes more responsibly, and it's just the beginning.<\/p><p><\/p>",
             "use_heading_font": false,
             "font_color": "#012e5c"
           }
@@ -128,7 +128,7 @@
         "a63135c7-20d3-4c8d-a5d2-2639fa9606e5": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_post_-_11.jpg",
+            "image": "shopify:\/\/shop_images\/LTT_Dark.jpg",
             "title": "",
             "font_style": "h3",
             "text": "<p>Corn leather is a vegan alternative to leather made from cotton fabric covered by a corn-based coating. It is durable, smooth and has a traditional leather feel.<\/p>",
@@ -166,7 +166,7 @@
         "1653070266e5c04d45-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_post_-_19.jpg",
+            "image": "shopify:\/\/shop_images\/Slip_On_Edited.jpg",
             "title": "PINEAPPLE YARN",
             "font_style": "h4",
             "text": "",
@@ -190,7 +190,7 @@
         "1653070266e5c04d45-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_post_-_17.jpg",
+            "image": "shopify:\/\/shop_images\/Slip_On_Dark_d1b66714-2d0f-49b6-b7ee-62d72ce22c03.jpg",
             "title": "",
             "font_style": "h3",
             "text": "<p>Pineapple yarn is a biodegradable cellulose fiber harvested from pineapple plants. It has beautiful natural texture.<\/p>",
@@ -337,7 +337,7 @@
         "164883418143aa5478-1": {
           "type": "text",
           "settings": {
-            "text": "<p>A tiny blue and white flag tag on every shoe represents our ongoing commitment to protect our 2\/3 blue planet. Every pair of shoes sold from this collection gives back $1 to our partner <a href=\"https:\/\/sea-trees.org\/\" title=\"https:\/\/sea-trees.org\"><strong>SeaTrees<\/strong><\/a>, a non-profit that works to restore coastal ecosystems and ocean health globally. And by 2025, we aim to ensure that every shoe in our line is made with recycled materials and gives back to non-profit partners supporting ocean conservation efforts. <\/p>",
+            "text": "<p>A tiny blue and white flag tag on every shoe represents our ongoing commitment to protect our 2\/3 blue planet. Every pair of shoes sold from this collection gives back $1 to our partner SeaTrees, a non-profit that works to restore blue carbon coastal ecosystems and ocean health globally. And by 2025, we aim to ensure that every shoe in our line is made with recycled materials and gives back to non-profit partners supporting ocean conservation efforts. <\/p>",
             "text_style": "body"
           }
         },
