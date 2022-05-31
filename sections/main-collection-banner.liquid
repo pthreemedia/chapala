@@ -13,7 +13,7 @@
   <div class="collection-hero__inner page-width">
     <div class="collection-hero__text-wrapper{% if section.settings.center_banner_text_desktop == true %} center-desktop{% endif %}{% if section.settings.center_banner_text_mobile == true %} center-mobile{% endif %}">
       {%- if section.settings.show_breadcrumbs == true -%}
-        {% render 'breadcrumbs' %}
+        {% render 'breadcrumbs', show_home: section.settings.show_home %}
       {%- endif -%}
       <h1 class="collection-hero__title">
         <span class="visually-hidden">{{ 'sections.collection_template.title' | t }}: </span>
@@ -66,6 +66,12 @@
       "id": "show_breadcrumbs",
       "default": true,
       "label": "Show breadcrumbs"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_home",
+      "default": true,
+      "label": "Show link to homepage in breadcrumbs"
     },
     {
       "type": "checkbox",
