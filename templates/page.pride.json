@@ -162,6 +162,7 @@
     },
     "165428488235837057": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -238,36 +239,84 @@
     },
     "16542848032fe506a1": {
       "type": "featured-collection-alt",
-      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h3",
         "description": "",
         "description_style": "body",
-        "columns_desktop": 4,
+        "columns_desktop": 2,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
-        "collection_1": "pride",
+        "collection_1": "hawthorne-pride-featured",
         "tab_id_1": "1",
-        "featured_collection_title_1": "Featured collection 1",
-        "products_to_show_1": 4,
+        "featured_collection_title_1": "",
+        "products_to_show_1": 2,
         "collection_2": "",
         "tab_id_2": "2",
         "featured_collection_title_2": "",
         "products_to_show_2": 4,
         "image_ratio": "adapt",
         "show_secondary_image": false,
-        "show_condensed_title": false,
+        "show_condensed_title": true,
         "show_vendor": false,
-        "show_gender": false,
-        "show_material": false,
+        "show_gender": true,
+        "show_material": true,
         "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
+        "enable_quick_add": true,
+        "columns_mobile": "1",
         "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "165463119501d36423": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "16546311951597d16e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Hawthorn Slip On Pride",
+            "heading_size": "h3"
+          }
+        },
+        "16546311951597d16e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Poplin Twill | $95<\/p>",
+            "text_style": "body"
+          }
+        },
+        "16546311951597d16e-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "use_arrow_link": false,
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16546311951597d16e-0",
+        "16546311951597d16e-1",
+        "16546311951597d16e-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "full_width": false,
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36,
         "margin_top": 0,
@@ -441,6 +490,7 @@
     "165428488235837057",
     "165401772554e47927",
     "16542848032fe506a1",
+    "165463119501d36423",
     "16542847995a6c59ea",
     "165429118143a43626",
     "16533399328f27308a"
