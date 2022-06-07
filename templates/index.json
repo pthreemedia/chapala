@@ -2,21 +2,20 @@
   "sections": {
     "164867367120e1947e": {
       "type": "hero-banner",
-      "disabled": true,
       "blocks": {
         "1648673671d11f3268-0": {
           "type": "heading",
           "settings": {
-            "heading": "New Styles,",
-            "heading_2": "Just For You",
-            "hide_block_on_mobile": true,
+            "heading": "SeaVees x",
+            "heading_2": "Pacific Pride Foundation",
+            "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
           }
         },
         "1648673671d11f3268-1": {
           "type": "text",
           "settings": {
-            "text": "Fresh Colors to Wear All Summer",
+            "text": "$5 from every pair gives back to the LGBTQ+ Community",
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
           }
@@ -24,10 +23,10 @@
         "1648673671d11f3268-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Womens",
-            "button_link_1": "shopify:\/\/collections\/womens-new-arrivals",
-            "button_label_2": "Shop Mens",
-            "button_link_2": "shopify:\/\/collections\/mens-new-arrivals",
+            "button_label_1": "Shop Now",
+            "button_link_1": "https:\/\/www.seavees.com\/pages\/pride",
+            "button_label_2": "",
+            "button_link_2": "",
             "button_style_secondary": false,
             "use_arrow_link": false,
             "hide_block_on_mobile": false,
@@ -44,21 +43,22 @@
         "use_video_background": false,
         "hero_video_desktop": "",
         "hero_video_mobile": "",
-        "image_desktop": "shopify:\/\/shop_images\/HP_GIF_Test.gif",
-        "image_mobile": "shopify:\/\/shop_images\/W056A22GGGVIO-18701.jpg",
-        "image_overlay_opacity": 0,
+        "image_desktop": "shopify:\/\/shop_images\/seavees_pride_desktop_hero_111111.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Pride_Hero-Mobile.jpg",
+        "image_overlay_opacity": 20,
         "adapt_height_first_image": true,
         "text_image_separate": false,
         "show_text_box": false,
-        "desktop_content_half": "left",
+        "desktop_content_half": "no",
         "banner_content_half_color": "accent-1",
         "desktop_text_box_vertical_position": "center",
-        "desktop_text_box_horizontal_position": "center",
-        "desktop_text_alignment": "center"
+        "desktop_text_box_horizontal_position": "flex-start",
+        "desktop_text_alignment": "left"
       }
     },
     "1652135633ce7ce319": {
       "type": "hero-banner",
+      "disabled": true,
       "blocks": {
         "16521356332262bfc5-0": {
           "type": "heading",
