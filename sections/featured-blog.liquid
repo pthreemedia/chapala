@@ -53,17 +53,41 @@
         >
           {% assign articles_to_show = 0 %}
           {% assign current_url = handle %}
-          {%- for article in section.settings.blog.articles -%}
-            {% unless article.url contains current_url %}
-              <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="blog__post grid__item article slider__slide slider__slide--full-width">
-                {% render 'article-card', blog: section.settings.blog, article: article, media_aspect_ratio: 1.66, show_image: section.settings.show_image, show_date: section.settings.show_date, show_author: section.settings.show_author, show_excerpt: true %}
-              </li>
-              {% assign articles_to_show = articles_to_show | plus: 1 %}
-              {% if articles_to_show >= section.settings.post_limit %}
-                {% break %}
+
+          {% if section.settings.article_tag != blank %}
+            {%- for article in section.settings.blog.articles -%}
+              {% if section.settings.article_tag != blank %}
+                {% for tag in article.tags %}
+                  {% if tag == section.settings.article_tag %}
+                    {% assign is_tagged_article = true %}
+                  {% endif %}
+                {% endfor %}
               {% endif %}
-            {% endunless %}
-          {%- endfor -%}
+              {% if section.settings.article_tag != blank and is_tagged_article == true %}
+                {% unless article.url contains current_url %}
+                  <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="blog__post grid__item article slider__slide slider__slide--full-width">
+                    {% render 'article-card', blog: section.settings.blog, article: article, media_aspect_ratio: 1.66, show_image: section.settings.show_image, show_date: section.settings.show_date, show_author: section.settings.show_author, show_excerpt: true %}
+                  </li>
+                  {% assign articles_to_show = articles_to_show | plus: 1 %}
+                  {% if articles_to_show >= section.settings.post_limit %}
+                    {% break %}
+                  {% endif %}
+                {% endunless %}
+              {% endif %}
+            {%- endfor -%}
+          {% else %}
+            {%- for article in section.settings.blog.articles -%}
+              {% unless article.url contains current_url %}
+                <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="blog__post grid__item article slider__slide slider__slide--full-width">
+                  {% render 'article-card', blog: section.settings.blog, article: article, media_aspect_ratio: 1.66, show_image: section.settings.show_image, show_date: section.settings.show_date, show_author: section.settings.show_author, show_excerpt: true %}
+                </li>
+                {% assign articles_to_show = articles_to_show | plus: 1 %}
+                {% if articles_to_show >= section.settings.post_limit %}
+                  {% break %}
+                {% endif %}
+              {% endunless %}
+            {%- endfor -%}
+          {% endif %}
         </ul>
         {%- if posts_exceed_limit -%}
           <div class="slider-buttons no-js-hidden{% if section.settings.post_limit < 3 %} medium-hide{% endif %}{% if section.settings.post_limit < 2 %} small-hide{% endif %}">
@@ -220,6 +244,12 @@
       "id": "show_view_all",
       "default": true,
       "label": "t:sections.featured-blog.settings.show_view_all.label"
+    },
+    {
+      "type": "text",
+      "id": "article_tag",
+      "label": "Show only tagged posts",
+      "info": "Enter chosen tag. If blank, all posts will show."
     },
     {
       "type": "header",
