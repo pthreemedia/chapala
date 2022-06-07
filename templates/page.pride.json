@@ -265,7 +265,7 @@
         "show_gender": true,
         "show_material": true,
         "show_rating": false,
-        "enable_quick_add": true,
+        "enable_quick_add": false,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
