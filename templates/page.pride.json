@@ -396,7 +396,7 @@
         "165429118134bdef74-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pacific Pride Foundation is the most prominent resource for people living with HIV\/AIDS and the LGBTQ+ community, both in Santa Barbara County and the coastal communities of California between Los Angeles and San Francisco. Learn More &gt;<\/p>",
+            "text": "<p>Pacific Pride Foundation is the most prominent resource for people living with HIV\/AIDS and the LGBTQ+ community, both in Santa Barbara County and the coastal communities of California between Los Angeles and San Francisco. <a href=\"https:\/\/pacificpridefoundation.org\" target=\"_blank\" title=\"https:\/\/pacificpridefoundation.org\">Learn More &gt;<\/a><\/p>",
             "use_heading_font": false,
             "font_color": ""
           }
