@@ -6,6 +6,7 @@
       "settings": {
         "show_collection_description": true,
         "show_breadcrumbs": true,
+        "show_home": true,
         "center_banner_text_desktop": true,
         "center_banner_text_mobile": true,
         "show_collection_image": false,
@@ -40,6 +41,7 @@
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
+        "narrow": false,
         "is_page_header": false,
         "mobile_content_align": "center",
         "desktop_content_align": "center",
@@ -90,6 +92,7 @@
         "image_ratio": "adapt",
         "show_condensed_title": true,
         "show_swatches": false,
+        "show_availability": false,
         "show_secondary_image": false,
         "show_gender": true,
         "show_material": true,
@@ -99,7 +102,7 @@
         "enable_filtering": false,
         "filter_type": "horizontal",
         "enable_sorting": false,
-        "columns_mobile": "1",
+        "columns_mobile": "2",
         "padding_top": 12,
         "padding_bottom": 36
       }
