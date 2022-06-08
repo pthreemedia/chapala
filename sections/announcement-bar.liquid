@@ -6,8 +6,14 @@
           {%- if block.settings.link != blank -%}
             <a href="{{ block.settings.link }}" class="announcement-bar__link link link--text focus-inset animate-arrow">
           {%- endif -%}
-              <p class="announcement-bar__message">
-                {{ block.settings.text | escape }}
+              <p class="announcement-bar__message small-hide medium-hide">
+                {{ block.settings.text_desktop | escape }}
+                {%- if block.settings.link != blank -%}
+                  {% render 'icon-arrow' %}
+                {%- endif -%}
+              </p>
+              <p class="announcement-bar__message large-up-hide">
+                {{ block.settings.text_mobile | escape }}
                 {%- if block.settings.link != blank -%}
                   {% render 'icon-arrow' %}
                 {%- endif -%}
@@ -31,9 +37,13 @@
       "settings": [
         {
           "type": "text",
-          "id": "text",
-          "default": "Welcome to our store",
-          "label": "t:sections.announcement-bar.blocks.announcement.settings.text.label"
+          "id": "text_desktop",
+          "label": "Desktop text"
+        },
+        {
+          "type": "text",
+          "id": "text_mobile",
+          "label": "Mobile text"
         },
         {
           "type": "select",
