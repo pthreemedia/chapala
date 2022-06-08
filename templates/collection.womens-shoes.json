@@ -5,6 +5,7 @@
       "settings": {
         "show_collection_description": false,
         "show_breadcrumbs": true,
+        "show_home": true,
         "center_banner_text_desktop": true,
         "center_banner_text_mobile": true,
         "show_collection_image": false,
@@ -80,7 +81,7 @@
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 4,
-        "grouped_collection": true,
+        "grouped_collection": false,
         "hide_sale_products": true,
         "image_ratio": "adapt",
         "show_condensed_title": true,
