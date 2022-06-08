@@ -8,6 +8,7 @@
           "settings": {
             "heading": "SeaVees x",
             "heading_2": "Pacific Pride Foundation",
+            "font_size": "h1",
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
           }
@@ -15,7 +16,7 @@
         "1648673671d11f3268-1": {
           "type": "text",
           "settings": {
-            "text": "$5 from every pair gives back to the LGBTQ+ Community",
+            "text": "Designed in partnership with our friends at Pacific Pride Foundation, $5 from every purchase of this shoe gives back to the LGBTQ+ community.",
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
           }
@@ -65,6 +66,7 @@
           "settings": {
             "heading": "The SeaChange Collection",
             "heading_2": "",
+            "font_size": "h1",
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
           }
