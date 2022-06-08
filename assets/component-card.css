@@ -137,9 +137,10 @@
 }
 
 @media screen and (max-width: 749px) {
-.card > .card__content > .card__badge-mobile {
-  margin-top: -1rem;
-  justify-self: center;
+  .card > .card__content > .card__badge-mobile {
+    margin-top: -1rem;
+    justify-self: center;
+  }
 }
 
 .card__media .media img {
