@@ -125,7 +125,7 @@
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when 'heading' -%}
-              <h2 class="hero-banner__heading h1" {{ block.shopify_attributes }}>
+              <h2 class="hero-banner__heading {{ block.settings.font_size }}" {{ block.shopify_attributes }}>
                 <span>{{ block.settings.heading | escape }}{% if block.settings.heading_2 != blank %}<br>{{ block.settings.heading_2 }}{% endif %}</span>
               </h2>
             {%- when 'text' -%}
