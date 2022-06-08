@@ -234,7 +234,7 @@
             {%- endif -%}
           </div>
         {%- endif -%}
-        <div class="card__badge {{ settings.badge_position }}">
+        <div class="card__badge card__badge-mobile">
           {%- if card_product.metafields.seavees.product_card_note != blank -%}
             <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}">{{ card_product.metafields.seavees.product_card_note }}</span>
           {%- elsif card_product.available == false and card_product.metafields.seavees.show_back_in_stock_tool == true -%}

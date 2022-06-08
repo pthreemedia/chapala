@@ -136,6 +136,11 @@
   margin: 1.3rem;
 }
 
+.card__badge-mobile {
+  margin-top: 0;
+  justify-self: center;
+}
+
 .card__media .media img {
   height: 100%;
   object-fit: cover;
