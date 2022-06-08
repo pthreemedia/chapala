@@ -56,7 +56,6 @@
 
           {% if section.settings.article_tag != blank %}
             {%- for article in section.settings.blog.articles -%}
-              {% assign is_tagged_article = false %}
               {% if article.tags contains section.settings.article_tag %}
                 {% assign is_tagged_article = true %}
               {% endif %}
