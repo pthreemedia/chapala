@@ -136,7 +136,8 @@
   margin: 1.3rem;
 }
 
-.card__badge-mobile {
+@media screen and (max-width: 749px) {
+.card > .card__content > .card__badge-mobile {
   margin-top: -1rem;
   justify-self: center;
 }
