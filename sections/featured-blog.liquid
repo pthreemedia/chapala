@@ -56,17 +56,20 @@
 
           {% if section.settings.article_tag != blank %}
             {%- for article in section.settings.blog.articles -%}
-              {% if article.tags contains section.settings.article_tag %}
-                {% unless article.url contains current_url %}
-                  <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="blog__post grid__item article slider__slide slider__slide--full-width">
-                    {% render 'article-card', blog: section.settings.blog, article: article, media_aspect_ratio: 1.66, show_image: section.settings.show_image, show_date: section.settings.show_date, show_author: section.settings.show_author, show_excerpt: true %}
-                  </li>
-                  {% assign articles_to_show = articles_to_show | plus: 1 %}
-                  {% if articles_to_show >= section.settings.post_limit %}
-                    {% break %}
-                  {% endif %}
-                {% endunless %}
-              {% endif %}
+              {% for tag in article.tags %}
+                {% if article.tags contains section.settings.article_tag %}
+                  {% assign is_tagged_article = true %}
+                {% endif %}
+              {% endfor %}
+              {% unless article.url contains current_url %}
+                <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="blog__post grid__item article slider__slide slider__slide--full-width">
+                  {% render 'article-card', blog: section.settings.blog, article: article, media_aspect_ratio: 1.66, show_image: section.settings.show_image, show_date: section.settings.show_date, show_author: section.settings.show_author, show_excerpt: true %}
+                </li>
+                {% assign articles_to_show = articles_to_show | plus: 1 %}
+                {% if articles_to_show >= section.settings.post_limit %}
+                  {% break %}
+                {% endif %}
+              {% endunless %}
             {%- endfor -%}
           {% else %}
             {%- for article in section.settings.blog.articles -%}
