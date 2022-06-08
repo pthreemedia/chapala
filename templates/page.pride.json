@@ -483,19 +483,20 @@
     },
     "1654632739f7b3933d": {
       "type": "featured-blog",
-      "disabled": true,
       "settings": {
-        "heading": "Featured Stories",
+        "heading": "From The Journal",
         "heading_size": "h1",
         "blog": "journal",
+        "featured_post_1": "journal\/robert-mendez",
+        "featured_post_2": "journal\/pacific-pride-foundation",
+        "featured_post_3": "journal\/legend-pride-rainbow",
         "post_limit": 3,
         "columns_desktop": 3,
         "color_scheme": "background-1",
         "show_image": true,
-        "show_date": true,
+        "show_date": false,
         "show_author": false,
-        "show_view_all": true,
-        "article_tag": "pride-featured",
+        "show_view_all": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
