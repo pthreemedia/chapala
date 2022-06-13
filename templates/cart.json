@@ -24,7 +24,9 @@
       "block_order": [
         "subtotal",
         "buttons"
-      ]
+      ],
+      "settings": {
+      }
     },
     "164911222318086ea0": {
       "type": "featured-collection-alt",
@@ -35,7 +37,7 @@
         "description_style": "body",
         "columns_desktop": 3,
         "full_width": false,
-        "show_view_all": true,
+        "show_view_all": false,
         "view_all_style": "outline",
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
