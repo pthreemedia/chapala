@@ -28,7 +28,7 @@
             "button_link_1": "shopify:\/\/products\/womens-seachange-ltt-corn-leather-white",
             "button_label_2": "Shop Mens",
             "button_link_2": "shopify:\/\/products\/mens-seachange-ltt-corn-leather-white",
-            "button_style_secondary": true,
+            "button_style_secondary": false,
             "use_arrow_link": false,
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
