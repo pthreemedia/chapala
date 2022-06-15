@@ -6,8 +6,8 @@
         "1648673671d11f3268-0": {
           "type": "heading",
           "settings": {
-            "heading": "SeaVees x",
-            "heading_2": "Pacific Pride Foundation",
+            "heading": "“Buttery Smooth”",
+            "heading_2": "",
             "font_size": "h1",
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
@@ -16,7 +16,7 @@
         "1648673671d11f3268-1": {
           "type": "text",
           "settings": {
-            "text": "Designed in partnership with our friends at Pacific Pride Foundation, $5 from every purchase of this shoe gives back to the LGBTQ+ community.",
+            "text": "The SeaChange LTT in Vegan Corn Leather",
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
           }
@@ -24,11 +24,11 @@
         "1648673671d11f3268-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Now",
-            "button_link_1": "shopify:\/\/pages\/pride",
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary": false,
+            "button_label_1": "Shop Womens",
+            "button_link_1": "shopify:\/\/products\/womens-seachange-ltt-corn-leather-white",
+            "button_label_2": "Shop Mens",
+            "button_link_2": "shopify:\/\/products\/mens-seachange-ltt-corn-leather-white",
+            "button_style_secondary": true,
             "use_arrow_link": false,
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
@@ -44,9 +44,9 @@
         "use_video_background": false,
         "hero_video_desktop": "",
         "hero_video_mobile": "",
-        "image_desktop": "shopify:\/\/shop_images\/seavees_pride_desktop_hero_111111.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/seavees-pride-154.jpg",
-        "image_overlay_opacity": 20,
+        "image_desktop": "shopify:\/\/shop_images\/LTT_Hero-Desktop.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/LTT_Hero-Mobile.jpg",
+        "image_overlay_opacity": 10,
         "adapt_height_first_image": true,
         "text_image_separate": false,
         "show_text_box": false,
