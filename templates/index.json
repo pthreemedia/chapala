@@ -46,7 +46,7 @@
         "hero_video_mobile": "",
         "image_desktop": "shopify:\/\/shop_images\/LTT_Hero-Desktop_f13913f4-ff59-4c50-a225-9493344e058b.png",
         "image_mobile": "shopify:\/\/shop_images\/LTT_Hero-Mobile.jpg",
-        "image_overlay_opacity": 0,
+        "image_overlay_opacity": 10,
         "adapt_height_first_image": true,
         "text_image_separate": false,
         "show_text_box": true,
