@@ -49,7 +49,7 @@
         "image_overlay_opacity": 10,
         "adapt_height_first_image": true,
         "text_image_separate": false,
-        "show_text_box": false,
+        "show_text_box": true,
         "desktop_content_half": "no",
         "banner_content_half_color": "accent-1",
         "desktop_text_box_vertical_position": "center",
