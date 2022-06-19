@@ -7,11 +7,15 @@
         "hero_video_desktop": "",
         "hero_video_mobile": "",
         "image_desktop": "shopify:\/\/shop_images\/Classcs_Sale_Home_Desktop_-_Copy.jpg",
+        "image_overlay_opacity": 0,
+        "adapt_height_first_image": false,
+        "text_image_separate": false,
+        "show_text_box": false,
+        "desktop_content_half": "no",
+        "banner_content_half_color": "background-1",
         "desktop_text_box_vertical_position": "center",
         "desktop_text_box_horizontal_position": "center",
-        "desktop_text_alignment": "center",
-        "adapt_height_first_image": false,
-        "text_image_separate": false
+        "desktop_text_alignment": "center"
       }
     },
     "main": {
@@ -62,6 +66,17 @@
     "164883077644a5d7e4": {
       "type": "multicolumn",
       "blocks": {
+        "99120ec1-67d8-4e34-8855-930ee3f22b43": {
+          "type": "column",
+          "settings": {
+            "title": "Retail Key Holder - Santa Barbara",
+            "font_style": "h3",
+            "text": "<p>Based at our Santa Barbara, CA retail store, the Retail Key Holders are responsible for opening and closing the store, working directly with the assistant manager and store manager, implementing a variety of functions and procedures relating to customer service, sales, merchandising, and store operations.<\/p>",
+            "link_label": "View Details",
+            "link": "shopify:\/\/pages\/careers-retail-key-holder-santa-barbara",
+            "info_on_image": false
+          }
+        },
         "8199bab9-932a-4f4d-952b-adbae403d716": {
           "type": "column",
           "settings": {
@@ -119,6 +134,7 @@
         }
       },
       "block_order": [
+        "99120ec1-67d8-4e34-8855-930ee3f22b43",
         "8199bab9-932a-4f4d-952b-adbae403d716",
         "c6ae60f4-21ff-4c88-8bd9-80bebf7f42b1",
         "16488307761b149624-0",
