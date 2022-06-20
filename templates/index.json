@@ -105,7 +105,7 @@
         "image_desktop": "shopify:\/\/shop_images\/SS22_Solstice_Sale_HP-desktop.gif",
         "image_mobile": "shopify:\/\/shop_images\/SS22_Solstice_Sale_HP-mobile.gif",
         "image_overlay_opacity": 0,
-        "adapt_height_first_image": true,
+        "adapt_height_first_image": false,
         "text_image_separate": false,
         "show_text_box": false,
         "desktop_content_half": "no",
