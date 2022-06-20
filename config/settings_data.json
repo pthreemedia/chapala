@@ -121,7 +121,7 @@
             "type": "announcement",
             "settings": {
               "text_desktop": "Longest Day, Shortest Sale. 30% off all footwear with code SUMMER30.",
-              "text_mobile": "30% off all footwear with code SUMMER30.",
+              "text_mobile": "Longest Day, Shortest Sale. 30% off all footwear with code SUMMER30.",
               "color_scheme": "accent-1",
               "desktop_link": "",
               "mobile_link": ""
