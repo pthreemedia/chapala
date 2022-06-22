@@ -47,14 +47,14 @@
         "image_desktop": "shopify:\/\/shop_images\/Slip_On_Hero-Desktop.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Slip_On_Hero-Mobile.jpg",
         "image_overlay_opacity": 0,
-        "adapt_height_first_image": false,
+        "adapt_height_first_image": true,
         "text_image_separate": false,
         "show_text_box": false,
         "desktop_content_half": "left",
         "banner_content_half_color": "background-1",
         "desktop_text_box_vertical_position": "center",
         "desktop_text_box_horizontal_position": "center",
-        "desktop_text_alignment": "center"
+        "desktop_text_alignment": "left"
       }
     },
     "1652135633ce7ce319": {
