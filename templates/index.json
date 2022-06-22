@@ -2,14 +2,13 @@
   "sections": {
     "164867367120e1947e": {
       "type": "hero-banner",
-      "disabled": true,
       "blocks": {
         "1648673671d11f3268-0": {
           "type": "heading",
           "settings": {
-            "heading": "“Buttery Smooth”",
+            "heading": "“Soft, Natural, Fresh”",
             "heading_2": "",
-            "font_size": "h1",
+            "font_size": "h2",
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
           }
@@ -17,7 +16,7 @@
         "1648673671d11f3268-1": {
           "type": "text",
           "settings": {
-            "text": "The SeaChange LTT in Vegan Corn Leather",
+            "text": "The SeaChange Slip On in Pineapple Yarn",
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
           }
@@ -26,9 +25,9 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Womens",
-            "button_link_1": "shopify:\/\/products\/womens-seachange-ltt-corn-leather-white",
+            "button_link_1": "shopify:\/\/products\/womens-seachange-slip-on-pineapple-yarn-golden",
             "button_label_2": "Shop Mens",
-            "button_link_2": "shopify:\/\/products\/mens-seachange-ltt-corn-leather-white",
+            "button_link_2": "shopify:\/\/products\/mens-seachange-slip-on-pineapple-yarn-golden",
             "button_style_secondary": true,
             "use_arrow_link": false,
             "hide_block_on_mobile": false,
@@ -45,8 +44,8 @@
         "use_video_background": false,
         "hero_video_desktop": "",
         "hero_video_mobile": "",
-        "image_desktop": "shopify:\/\/shop_images\/LTT_Hero-Desktop_1.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/0000s_0012_mens_seachange_LTT_corn_leather_qtr_902dd99c-30c4-444c-9587-798e13d4ae9b.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Slip_On_Hero-Desktop.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Slip_On_Hero-Mobile.jpg",
         "image_overlay_opacity": 0,
         "adapt_height_first_image": false,
         "text_image_separate": false,
@@ -60,6 +59,7 @@
     },
     "1652135633ce7ce319": {
       "type": "hero-banner",
+      "disabled": true,
       "blocks": {
         "16521356332262bfc5-0": {
           "type": "heading",

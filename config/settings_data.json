@@ -108,7 +108,6 @@
         "blocks": {
           "1dceaaa3-c948-4cbc-a4e8-930e1847da35": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
               "text_desktop": "Free shipping on all orders over $100.",
               "text_mobile": "Free shipping on all orders over $100.",
@@ -119,6 +118,7 @@
           },
           "f68ee00c-7431-4072-af4c-087138d4a59f": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text_desktop": "Longest Day, Shortest Sale. 30% off all footwear with code SUMMER30.",
               "text_mobile": "Longest Day, Shortest Sale. 30% off all footwear with code SUMMER30.",
