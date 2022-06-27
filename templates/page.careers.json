@@ -79,6 +79,7 @@
         },
         "8199bab9-932a-4f4d-952b-adbae403d716": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "Graphic Design Intern",
             "font_style": "h3",
@@ -90,6 +91,7 @@
         },
         "c6ae60f4-21ff-4c88-8bd9-80bebf7f42b1": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "Retail Store Manager",
             "font_style": "h3",
