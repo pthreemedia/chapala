@@ -6,9 +6,9 @@
         "1648673671d11f3268-0": {
           "type": "heading",
           "settings": {
-            "heading": "“Soft, Natural, Fresh”",
+            "heading": "“All Day, Every Day”",
             "heading_2": "",
-            "font_size": "h1",
+            "font_size": "h0",
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
           }
@@ -16,7 +16,7 @@
         "1648673671d11f3268-1": {
           "type": "text",
           "settings": {
-            "text": "The SeaChange Slip On in Pineapple Yarn",
+            "text": "The SeaChange LTT in Recycled Cotton Canvas",
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
           }
@@ -25,9 +25,9 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Womens",
-            "button_link_1": "shopify:\/\/products\/womens-seachange-slip-on-pineapple-yarn-golden",
+            "button_link_1": "shopify:\/\/products\/womens-seachange-ltt-recycled-cotton-canvas-burnt-henna",
             "button_label_2": "Shop Mens",
-            "button_link_2": "shopify:\/\/products\/mens-seachange-slip-on-pineapple-yarn-golden",
+            "button_link_2": "shopify:\/\/products\/mens-seachange-ltt-recycled-cotton-canvas-burnt-henna",
             "button_style_secondary": true,
             "use_arrow_link": false,
             "hide_block_on_mobile": false,
@@ -44,8 +44,8 @@
         "use_video_background": false,
         "hero_video_desktop": "",
         "hero_video_mobile": "",
-        "image_desktop": "shopify:\/\/shop_images\/Slip_On_Hero-Desktop_a8f33760-d808-4f2e-b71e-60d98760a389.png",
-        "image_mobile": "shopify:\/\/shop_images\/Slip_On_Hero-Mobile.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Cotton_LTT_Hero-Desktop.png",
+        "image_mobile": "shopify:\/\/shop_images\/Cotton_LTT_Hero-Mobile.jpg",
         "image_overlay_opacity": 0,
         "adapt_height_first_image": false,
         "text_image_separate": false,
@@ -54,7 +54,7 @@
         "banner_content_half_color": "background-1",
         "desktop_text_box_vertical_position": "center",
         "desktop_text_box_horizontal_position": "center",
-        "desktop_text_alignment": "left"
+        "desktop_text_alignment": "center"
       }
     },
     "1652135633ce7ce319": {
