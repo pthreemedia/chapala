@@ -102,6 +102,20 @@
             "margin_bottom": "2rem"
           }
         },
+        "6cb779ce-787f-4653-aca4-8ba527bdb49a": {
+          "type": "back_in_stock",
+          "settings": {
+            "enable_back_in_stock": true,
+            "margin_top": "none",
+            "margin_bottom": "1rem"
+          }
+        },
+        "0096abdf-d412-4354-8603-72bf837de1d2": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.metafields.seavees.note != blank %}\n<p style=\"background: rgba(var(--color-foreground),.03); padding: 2rem; margin: 0 -1rem; font-size: 1.5rem; line-height: 1.3;\">{{ product.metafields.seavees.note }}\n{% endif %}"
+          }
+        },
         "9df1fe88-5d79-4bb4-b1dd-d18fa74da0b0": {
           "type": "popup",
           "settings": {
@@ -109,14 +123,6 @@
             "page": "sizing-and-fit",
             "margin_top": "none",
             "margin_bottom": "none"
-          }
-        },
-        "6cb779ce-787f-4653-aca4-8ba527bdb49a": {
-          "type": "back_in_stock",
-          "settings": {
-            "enable_back_in_stock": true,
-            "margin_top": "none",
-            "margin_bottom": "1rem"
           }
         },
         "quantity_selector": {
@@ -153,12 +159,6 @@
             "margin_bottom": "2rem"
           }
         },
-        "0096abdf-d412-4354-8603-72bf837de1d2": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{% if product.metafields.seavees.note != blank %}\n<p style=\"background: rgba(var(--color-foreground),.03); padding: 2rem; margin: 0 -1rem; font-size: 1.5rem; line-height: 1.3;\">{{ product.metafields.seavees.note }}\n{% endif %}"
-          }
-        },
         "467af105-8b5d-4c64-9143-fc32cfdb1c35": {
           "type": "collapsible_tab",
           "settings": {
@@ -167,7 +167,8 @@
             "content": "",
             "page": "",
             "show-description": true,
-            "liquid": ""
+            "liquid": "",
+            "expand_on_pageload": false
           }
         },
         "collapsible-row-0": {
@@ -178,7 +179,8 @@
             "content": "<p>{{ product.metafields.seavees.size_and_fit | metafield_tag }}<\/p>",
             "page": "",
             "show-description": false,
-            "liquid": ""
+            "liquid": "",
+            "expand_on_pageload": false
           }
         },
         "collapsible-row-1": {
@@ -189,7 +191,8 @@
             "content": "<p>Free shipping on all orders over $100.<\/p><p>$5 shipping for orders under $100.<\/p><p>It's important to us that you are happy with your SeaVees so returns and exchanges are free, fast and easy. If you choose to exchange for a different size or color, we will ship your replacement immediately.<\/p>",
             "page": "",
             "show-description": false,
-            "liquid": ""
+            "liquid": "",
+            "expand_on_pageload": false
           }
         },
         "collapsible-row-2": {
@@ -200,7 +203,8 @@
             "content": "<p>{{ product.metafields.seavees.origin.value }}<\/p>",
             "page": "",
             "show-description": false,
-            "liquid": ""
+            "liquid": "",
+            "expand_on_pageload": false
           }
         },
         "d45af598-2236-4f27-9df7-84e8aa0cb053": {
@@ -219,13 +223,13 @@
         "61ceb859-fc56-4458-8eab-ec9397a3b5d5",
         "42a82d44-4510-48f4-944a-b6fa676826af",
         "variant_picker",
-        "9df1fe88-5d79-4bb4-b1dd-d18fa74da0b0",
         "6cb779ce-787f-4653-aca4-8ba527bdb49a",
+        "0096abdf-d412-4354-8603-72bf837de1d2",
+        "9df1fe88-5d79-4bb4-b1dd-d18fa74da0b0",
         "quantity_selector",
         "buy_buttons",
         "080db1e4-bde7-46c2-823e-50d3355ed358",
         "767576fa-e64b-490f-9391-a5893e8e98d1",
-        "0096abdf-d412-4354-8603-72bf837de1d2",
         "467af105-8b5d-4c64-9143-fc32cfdb1c35",
         "collapsible-row-0",
         "collapsible-row-1",
