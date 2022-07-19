@@ -6,6 +6,7 @@
       "settings": {
         "show_collection_description": false,
         "show_breadcrumbs": true,
+        "show_home": true,
         "center_banner_text_desktop": false,
         "center_banner_text_mobile": true,
         "show_collection_image": false,
@@ -20,13 +21,16 @@
           "type": "heading",
           "settings": {
             "heading": "The Classics",
-            "heading_size": "h0"
+            "heading_size": "h0",
+            "font_color": ""
           }
         },
         "1648779884c8cdcf56-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Our Classics embody who we are at our core. These archival-inspired styles are extremely comfortable, timeless and appropriate for any occasion. Season after season, these are the shoes we keep coming back for.<\/p>"
+            "text": "<p>Our Classics embody who we are at our core. These archival-inspired styles are extremely comfortable, timeless and appropriate for any occasion. Season after season, these are the shoes we keep coming back for.<\/p>",
+            "use_heading_font": false,
+            "font_color": ""
           }
         }
       },
@@ -37,11 +41,14 @@
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
+        "narrow": true,
         "is_page_header": false,
         "mobile_content_align": "center",
         "desktop_content_align": "center",
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 52,
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     },
     "164877991739255701": {
@@ -68,10 +75,62 @@
       ],
       "settings": {
         "stack_on_mobile": true,
+        "show_background": true,
         "padding_top": 0,
         "padding_bottom": 0,
         "margin_top": 0,
         "margin_bottom": 44
+      }
+    },
+    "164878443500ff5f75": {
+      "type": "featured-product-alt",
+      "blocks": {
+        "19feb513-2fd9-459d-a5dd-69769d7530e3": {
+          "type": "style",
+          "settings": {
+            "product": "mens-legend-sneaker-classic-bleach"
+          }
+        },
+        "0527752f-4252-42ff-ba4b-7aa5323f953a": {
+          "type": "style",
+          "settings": {
+            "product": "mens-legend-sneaker-classic-true-navy"
+          }
+        },
+        "894c0758-135e-4c6c-9514-447080474cbf": {
+          "type": "style",
+          "settings": {
+            "product": "mens-legend-sneaker-classic-black-white"
+          }
+        },
+        "24bffefd-0187-4130-9fe9-66a0c70f9631": {
+          "type": "style",
+          "settings": {
+            "product": "mens-legend-sneaker-classic-granite-grey"
+          }
+        },
+        "18ea2abb-9c2f-4950-aada-14de2234882c": {
+          "type": "style",
+          "settings": {
+            "product": "mens-legend-sneaker-classic-blue-mirage-poplin-twill"
+          }
+        }
+      },
+      "block_order": [
+        "19feb513-2fd9-459d-a5dd-69769d7530e3",
+        "0527752f-4252-42ff-ba4b-7aa5323f953a",
+        "894c0758-135e-4c6c-9514-447080474cbf",
+        "24bffefd-0187-4130-9fe9-66a0c70f9631",
+        "18ea2abb-9c2f-4950-aada-14de2234882c"
+      ],
+      "settings": {
+        "reverse": false,
+        "image": "shopify:\/\/shop_images\/Legend_d5aa0368-4d74-4d4b-8af8-8643036d0da4.jpg",
+        "show_secondary_image": false,
+        "show_swatches": true,
+        "title": "The Legend Sneaker",
+        "description": "The Legend is a classic lace up CVO sneaker and is a stitch for stitch recreation of the style that started it all in 1964.",
+        "link_text": "Shop The Legend"
       }
     },
     "1648779740b93f970f": {
@@ -116,8 +175,8 @@
         "aae6ad5e-bb77-4882-9dfd-510b5c8edb7e"
       ],
       "settings": {
-        "reverse": false,
-        "image": "shopify:\/\/shop_images\/mens-baja-navy-lifestyle-2_6d3a8.jpg",
+        "reverse": true,
+        "image": "shopify:\/\/shop_images\/Baja.jpg",
         "show_secondary_image": false,
         "show_swatches": true,
         "title": "The Baja Slip On",
@@ -153,8 +212,8 @@
         "ace0847e-f952-4bd1-a0dd-1b7c5fb359e1"
       ],
       "settings": {
-        "reverse": true,
-        "image": "shopify:\/\/shop_images\/mens_sixty_six_featured_seavees.jpg",
+        "reverse": false,
+        "image": "shopify:\/\/shop_images\/Sixty_Six.jpg",
         "show_secondary_image": false,
         "show_swatches": true,
         "title": "The Sixty Six Sneaker",
@@ -183,8 +242,8 @@
         "1359c3fb-e429-4d11-911d-d02edae6c509"
       ],
       "settings": {
-        "reverse": false,
-        "image": "shopify:\/\/shop_images\/mens-hawthorne-navy-lifestyle_3d.jpg",
+        "reverse": true,
+        "image": "shopify:\/\/shop_images\/Hawthorne_Slip_On.jpg",
         "show_secondary_image": false,
         "show_swatches": true,
         "title": "The Hawthorne Slip On",
@@ -195,6 +254,12 @@
     "16487843114088e8b0": {
       "type": "featured-product-alt",
       "blocks": {
+        "d0285766-9bf7-4094-858f-3bc63ec9b271": {
+          "type": "style",
+          "settings": {
+            "product": "mens-hermosa-sneaker-classic-tin-grey"
+          }
+        },
         "2140e6b9-25ce-4909-99d0-24ee8c1854f7": {
           "type": "style",
           "settings": {
@@ -213,12 +278,6 @@
             "product": "mens-hermosa-sneaker-classic-linen-canvas-bleach"
           }
         },
-        "d0285766-9bf7-4094-858f-3bc63ec9b271": {
-          "type": "style",
-          "settings": {
-            "product": "mens-hermosa-sneaker-classic-tin-grey"
-          }
-        },
         "f4ebffcc-49d2-4217-96a7-01aab3f034cb": {
           "type": "style",
           "settings": {
@@ -227,15 +286,15 @@
         }
       },
       "block_order": [
+        "d0285766-9bf7-4094-858f-3bc63ec9b271",
         "2140e6b9-25ce-4909-99d0-24ee8c1854f7",
         "67a0bfea-36d6-4eb0-ad24-5a28bee60ed1",
         "4a9031c1-7a07-4a79-9804-bbcc1d2e194a",
-        "d0285766-9bf7-4094-858f-3bc63ec9b271",
         "f4ebffcc-49d2-4217-96a7-01aab3f034cb"
       ],
       "settings": {
-        "reverse": true,
-        "image": "shopify:\/\/shop_images\/mens-hermosa-navy-lifestyle_6da2.jpg",
+        "reverse": false,
+        "image": "shopify:\/\/shop_images\/Hermosa_c3a16b3a-fe8e-47cb-89f9-07d6d1c4d955.jpg",
         "show_secondary_image": false,
         "show_swatches": true,
         "title": "The Hermosa Sneaker",
@@ -243,60 +302,15 @@
         "link_text": "Shop The Hermosa"
       }
     },
-    "164878443500ff5f75": {
-      "type": "featured-product-alt",
-      "blocks": {
-        "0527752f-4252-42ff-ba4b-7aa5323f953a": {
-          "type": "style",
-          "settings": {
-            "product": "mens-legend-sneaker-classic-true-navy"
-          }
-        },
-        "894c0758-135e-4c6c-9514-447080474cbf": {
-          "type": "style",
-          "settings": {
-            "product": "mens-legend-sneaker-classic-black-white"
-          }
-        },
-        "19feb513-2fd9-459d-a5dd-69769d7530e3": {
-          "type": "style",
-          "settings": {
-            "product": "mens-legend-sneaker-classic-bleach"
-          }
-        },
-        "24bffefd-0187-4130-9fe9-66a0c70f9631": {
-          "type": "style",
-          "settings": {
-            "product": "mens-legend-sneaker-classic-granite-grey"
-          }
-        },
-        "18ea2abb-9c2f-4950-aada-14de2234882c": {
-          "type": "style",
-          "settings": {
-            "product": "mens-legend-sneaker-classic-blue-mirage-poplin-twill"
-          }
-        }
-      },
-      "block_order": [
-        "0527752f-4252-42ff-ba4b-7aa5323f953a",
-        "894c0758-135e-4c6c-9514-447080474cbf",
-        "19feb513-2fd9-459d-a5dd-69769d7530e3",
-        "24bffefd-0187-4130-9fe9-66a0c70f9631",
-        "18ea2abb-9c2f-4950-aada-14de2234882c"
-      ],
-      "settings": {
-        "reverse": false,
-        "image": "shopify:\/\/shop_images\/mens-legend-lifestyle_9e028c00-e.jpg",
-        "show_secondary_image": false,
-        "show_swatches": true,
-        "title": "The Legend Sneaker",
-        "description": "The Legend is a classic lace up CVO sneaker and is a stitch for stitch recreation of the style that started it all in 1964.",
-        "link_text": "Shop The Legend"
-      }
-    },
     "1648784601093d7bb4": {
       "type": "featured-product-alt",
       "blocks": {
+        "6ca6774a-d4fd-455e-87a8-6f419fe1dfa1": {
+          "type": "style",
+          "settings": {
+            "product": "mens-monterey-sneaker-classic-white"
+          }
+        },
         "9332b755-a3d1-4784-9a54-23ec984895c2": {
           "type": "style",
           "settings": {
@@ -314,23 +328,17 @@
           "settings": {
             "product": "mens-monterey-sneaker-classic-navy"
           }
-        },
-        "6ca6774a-d4fd-455e-87a8-6f419fe1dfa1": {
-          "type": "style",
-          "settings": {
-            "product": "mens-monterey-sneaker-classic-white"
-          }
         }
       },
       "block_order": [
+        "6ca6774a-d4fd-455e-87a8-6f419fe1dfa1",
         "9332b755-a3d1-4784-9a54-23ec984895c2",
         "747fe501-d469-4330-b5d1-09d83d37f90a",
-        "1e6ce890-5844-4ee5-adac-5ee6c926dd64",
-        "6ca6774a-d4fd-455e-87a8-6f419fe1dfa1"
+        "1e6ce890-5844-4ee5-adac-5ee6c926dd64"
       ],
       "settings": {
         "reverse": true,
-        "image": "shopify:\/\/shop_images\/mens-monterey-lifestyle_d7ef7475.jpg",
+        "image": "shopify:\/\/shop_images\/Monterey_Classic.jpg",
         "show_secondary_image": false,
         "show_swatches": true,
         "title": "Monterey Sneaker Classic",
@@ -405,9 +413,11 @@
         "products_per_page": 16,
         "columns_desktop": 4,
         "grouped_collection": true,
+        "hide_sale_products": false,
         "image_ratio": "adapt",
         "show_condensed_title": false,
         "show_swatches": false,
+        "show_availability": false,
         "show_secondary_image": false,
         "show_gender": false,
         "show_material": false,
@@ -415,8 +425,8 @@
         "show_rating": false,
         "enable_quick_add": false,
         "enable_filtering": true,
+        "filter_type": "horizontal",
         "enable_sorting": true,
-        "collapse_on_larger_devices": true,
         "columns_mobile": "1",
         "padding_top": 12,
         "padding_bottom": 36
@@ -427,11 +437,11 @@
     "banner",
     "164877988473d037b1",
     "164877991739255701",
+    "164878443500ff5f75",
     "1648779740b93f970f",
     "164878409667cc819c",
     "1648784100064ec3b4",
     "16487843114088e8b0",
-    "164878443500ff5f75",
     "1648784601093d7bb4",
     "164878471820e7ab82",
     "1648784816f2c549f4",
