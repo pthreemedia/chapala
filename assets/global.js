@@ -756,6 +756,15 @@ class VariantSelects extends HTMLElement {
       this.renderProductInfo();
     }
 
+    if(this.getAvailableVariantsCount() == 1) {
+      this.updateOptions();
+      this.updateMasterId();
+      this.updateURL();
+      this.updateVariantInput();
+      this.renderProductInfo();
+      this.updateShareUrl();
+    }
+
     this.addEventListener('change', this.onVariantChange);
   }
 
@@ -763,6 +772,11 @@ class VariantSelects extends HTMLElement {
     // This function is left empty in VariantSelects object
     // It is to be overridden in VariantRadios object
     return;
+  }
+
+  getAvailableVariantsCount() {
+    const availableVariants = this.getVariantData().filter(variant => variant.available);
+    return availableVariants.length;
   }
 
   onVariantChange() {
@@ -854,7 +868,6 @@ class VariantSelects extends HTMLElement {
 
   
   renderProductInfo() {
-
     fetch(`${this.dataset.url}?variant=${this.currentVariant.id}&section_id=${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`)
       .then((response) => response.text())
       .then((responseText) => {
@@ -886,8 +899,19 @@ class VariantSelects extends HTMLElement {
     if (!addButton) return;
 
     if (disable) {
-      addButton.setAttribute('disabled', 'disabled');
-      if (text) addButtonText.textContent = text;
+      if(this.getAvailableVariantsCount() > 1) {
+        addButton.setAttribute('disabled', 'disabled');
+        if (text) addButtonText.textContent = text;
+      } else {
+        if(this.getAvailableVariantsCount() == 0) {
+          addButton.setAttribute('disabled', 'disabled');
+          addButtonText.textContent = window.variantStrings.soldOut;
+        } else {
+          addButton.removeAttribute('disabled');
+          addButton.removeAttribute('aria-disabled');
+          addButtonText.textContent = window.variantStrings.addToCart;
+        }
+      }
     } else {
       addButton.removeAttribute('disabled');
       addButton.removeAttribute('aria-disabled');
@@ -923,7 +947,7 @@ class VariantRadios extends VariantSelects {
   initOptions() {
     const sizeFieldSet = this.querySelector("fieldset.product-form-Size");
 
-    if(sizeFieldSet) {
+    if(sizeFieldSet && this.getAvailableVariantsCount() != 1) {
       const fieldInputs = sizeFieldSet.querySelectorAll("input");
       if(fieldInputs.length > 1) {
         const activeFieldInput = Array.from(fieldInputs).find((input) => input.hasAttribute("checked"));
