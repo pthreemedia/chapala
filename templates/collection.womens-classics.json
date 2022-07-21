@@ -111,11 +111,11 @@
       ],
       "settings": {
         "reverse": false,
-        "image": "shopify:\/\/shop_images\/womens-legend-sneaker-navy-lifes.jpg",
+        "image": "shopify:\/\/shop_images\/Womens_Legend_Classic_Bleach.jpg",
         "show_secondary_image": false,
         "show_swatches": true,
         "title": "The Legend Sneaker",
-        "description": "The Legend is a classic lace up CVO sneaker and is a stitch for stitch recreation of the style that started it all in 1964.",
+        "description": "It's called the legend for a reason. The style that started it all in 1964 continues its legacy as a SeaVees best seller.",
         "link_text": "Shop The Legend"
       }
     },
@@ -166,7 +166,7 @@
         "show_secondary_image": false,
         "show_swatches": true,
         "title": "The Baja Slip On",
-        "description": "The Baja is a minimal slip on sneaker inspired by 1960's surf adventures to Baja California, Mexico.",
+        "description": "A coastal classic upgraded with long-lasting materials and our exclusive footbed for all-day comfort. Kick back and relax in this SeaVees staple.",
         "link_text": "Shop The Baja"
       }
     },
@@ -196,7 +196,7 @@
         "show_secondary_image": false,
         "show_swatches": true,
         "title": "The Sixty Six Sneaker",
-        "description": "The Sixty Six is a classic blucher sneaker that is a stitch for stitch re-creation of the original style shown in the ad campaigns for SeaVees in 1966.",
+        "description": "A re-creation of an iconic SeaVees style from 1966, these are a must-pack for any adventure. Low profile, high comfort.",
         "link_text": "Shop The Sixty Six"
       }
     },
@@ -247,7 +247,7 @@
         "show_secondary_image": false,
         "show_swatches": true,
         "title": "Monterey Sneaker Classic",
-        "description": "A lace up sneaker inspired by the Monterey Pop Festival of June 1967.",
+        "description": "Classic lace-ups to carry you throughout the seasons. Always comfortable, always in style.",
         "link_text": "Shop The Monterey"
       }
     },
@@ -284,7 +284,7 @@
         "show_secondary_image": false,
         "show_swatches": true,
         "title": "The Hawthorne Slip On",
-        "description": "The Hawthorne is a classic slip on sneaker inspired by the hometown of the quintessential California band, The Beach Boys.",
+        "description": "Intentionally simple, purposefully timeless. Wake up, slip ‘em on and know that you can handle whatever the day throws your way.",
         "link_text": "Shop The Hawthorne"
       }
     },
@@ -314,7 +314,7 @@
         "show_secondary_image": false,
         "show_swatches": true,
         "title": "The Army Issue Sneaker",
-        "description": "The Army Issue is a classic lace up sneaker inspired by the all-purpose sporting footwear issued to soldiers in the 1960's.",
+        "description": "We retrofitted a tried-and-true classic with all the durability you need and all the comfort you want.",
         "link_text": "Shop The Army Issue"
       }
     },
