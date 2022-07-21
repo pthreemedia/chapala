@@ -108,6 +108,7 @@
         "blocks": {
           "1dceaaa3-c948-4cbc-a4e8-930e1847da35": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text_desktop": "Free shipping on all orders over $100.",
               "text_mobile": "Free shipping on all orders over $100.",
@@ -115,10 +116,21 @@
               "desktop_link": "",
               "mobile_link": ""
             }
+          },
+          "f68ee00c-7431-4072-af4c-087138d4a59f": {
+            "type": "announcement",
+            "settings": {
+              "text_desktop": "Buy One Pair, Get One Half Off. Use Code HOTSHOESUMMER",
+              "text_mobile": "Buy One, Get One Half Off. Use Code HOTSHOESUMMER",
+              "color_scheme": "accent-1",
+              "desktop_link": "",
+              "mobile_link": ""
+            }
           }
         },
         "block_order": [
-          "1dceaaa3-c948-4cbc-a4e8-930e1847da35"
+          "1dceaaa3-c948-4cbc-a4e8-930e1847da35",
+          "f68ee00c-7431-4072-af4c-087138d4a59f"
         ],
         "settings": {
         }
@@ -132,7 +144,7 @@
               "category": "Mens",
               "text": "The Baja",
               "link": "shopify:\/\/products\/mens-baja-slip-on-classic-natural",
-              "image_desktop": "shopify:\/\/shop_images\/thumbnail_Mens_Nav_Hero_3.jpg",
+              "image_desktop": "shopify:\/\/shop_images\/Mens_Nav_Hero_6.jpg",
               "image_mobile": "shopify:\/\/shop_images\/thumbnail_Mens_Nav_Hero_3.jpg"
             }
           },
@@ -142,7 +154,7 @@
               "category": "Mens",
               "text": "The Sixty Six",
               "link": "shopify:\/\/products\/mens-sixty-six-cotton-chambray-blue",
-              "image_desktop": "shopify:\/\/shop_images\/thumbnail_Mens_Nav_Hero_4.jpg",
+              "image_desktop": "shopify:\/\/shop_images\/Mens_Nav_Hero_3.jpg",
               "image_mobile": "shopify:\/\/shop_images\/thumbnail_Mens_Nav_Hero_4.jpg"
             }
           },
@@ -155,16 +167,6 @@
               "link": "shopify:\/\/products\/mens-hermosa-sneaker-classic-natural",
               "image_desktop": "shopify:\/\/shop_images\/D4_4773.jpg",
               "image_mobile": "shopify:\/\/shop_images\/mens_hermosa_standard_natural_side.jpg"
-            }
-          },
-          "63c8485a-2033-47fc-a0a6-26b9300dc81c": {
-            "type": "featured_content",
-            "settings": {
-              "category": "Womens",
-              "text": "The Monterey Sneaker",
-              "link": "shopify:\/\/products\/womens-monterey-sneaker-classic-cactus",
-              "image_desktop": "shopify:\/\/shop_images\/W_montereysneakerclassic_cactus-14_f94a9471-49a8-4035-8855-c21602982d3a.jpg",
-              "image_mobile": "shopify:\/\/shop_images\/womens_monterey_cactus_side.jpg"
             }
           },
           "067eea87-3114-4e12-b33c-40d5f50d3f91": {
@@ -186,6 +188,16 @@
               "link": "shopify:\/\/products\/womens-baja-slip-on-platform-herringbone-twill-bleach",
               "image_desktop": "shopify:\/\/shop_images\/W024A22CPLBLC-2.jpg",
               "image_mobile": "shopify:\/\/shop_images\/SPRING_WEB_ADD-ON_WOMEN_007.jpg"
+            }
+          },
+          "63c8485a-2033-47fc-a0a6-26b9300dc81c": {
+            "type": "featured_content",
+            "settings": {
+              "category": "Womens",
+              "text": "The Monterey Sneaker",
+              "link": "shopify:\/\/products\/womens-monterey-sneaker-classic-cactus",
+              "image_desktop": "shopify:\/\/shop_images\/W_montereysneakerclassic_cactus-14_f94a9471-49a8-4035-8855-c21602982d3a.jpg",
+              "image_mobile": "shopify:\/\/shop_images\/womens_monterey_cactus_side.jpg"
             }
           },
           "f276d9cc-490c-4bdc-8ff7-82e4849d5e13": {
@@ -234,9 +246,9 @@
           "4dbb0686-cdd9-4f5a-8125-1bfd23e3dfcd",
           "8faac646-622e-434a-8bea-f10b298e8fcd",
           "9586e75a-9c6b-4eab-98b5-462a69572691",
-          "63c8485a-2033-47fc-a0a6-26b9300dc81c",
           "067eea87-3114-4e12-b33c-40d5f50d3f91",
           "549aab27-f359-4751-82f2-84007485cc1b",
+          "63c8485a-2033-47fc-a0a6-26b9300dc81c",
           "f276d9cc-490c-4bdc-8ff7-82e4849d5e13",
           "63bc2ed5-0727-430c-8884-146b5b9df29e",
           "463ec164-e1f8-4aa8-8920-25acd239523b",
@@ -436,9 +448,7 @@
             "announcement-bar-0": {
               "type": "announcement",
               "settings": {
-                "text": "Welcome to our store",
-                "color_scheme": "background-1",
-                "link": ""
+                "color_scheme": "background-1"
               }
             }
           },

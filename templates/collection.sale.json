@@ -6,6 +6,7 @@
       "settings": {
         "show_collection_description": false,
         "show_breadcrumbs": true,
+        "show_home": true,
         "center_banner_text_desktop": false,
         "center_banner_text_mobile": true,
         "show_collection_image": false,
@@ -107,7 +108,7 @@
         "show_rating": false,
         "enable_quick_add": false,
         "enable_filtering": true,
-        "filter_type": "drawer",
+        "filter_type": "horizontal",
         "enable_sorting": true,
         "columns_mobile": "1",
         "padding_top": 12,
