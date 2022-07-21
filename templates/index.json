@@ -2,6 +2,7 @@
   "sections": {
     "164867367120e1947e": {
       "type": "hero-banner",
+      "disabled": true,
       "blocks": {
         "1648673671d11f3268-0": {
           "type": "heading",
@@ -59,14 +60,13 @@
     },
     "1652135633ce7ce319": {
       "type": "hero-banner",
-      "disabled": true,
       "blocks": {
         "16521356332262bfc5-0": {
           "type": "heading",
           "settings": {
-            "heading": "Longest Day,",
-            "heading_2": "Shortest Sale",
-            "font_size": "h1",
+            "heading": "Hot Shoe Summer Sale",
+            "heading_2": "",
+            "font_size": "h2",
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
           }
@@ -74,7 +74,7 @@
         "16521356332262bfc5-1": {
           "type": "text",
           "settings": {
-            "text": "30% off all footwear. One day only.",
+            "text": "Buy One Pair, Get One Half Off.",
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
           }
@@ -83,9 +83,9 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Womens",
-            "button_link_1": "\/discount\/SUMMER30?redirect=\/womens",
+            "button_link_1": "https:\/\/seavees.com\/discount\/HOTSHOESUMMER?redirect=\/womens",
             "button_label_2": "Shop Mens",
-            "button_link_2": "\/discount\/SUMMER30?redirect=\/mens",
+            "button_link_2": "https:\/\/seavees.com\/discount\/HOTSHOESUMMER?redirect=\/mens",
             "button_style_secondary": false,
             "use_arrow_link": false,
             "hide_block_on_mobile": false,
@@ -102,14 +102,14 @@
         "use_video_background": false,
         "hero_video_desktop": "",
         "hero_video_mobile": "",
-        "image_desktop": "shopify:\/\/shop_images\/SS22_Solstice_Sale_HP-desktop.gif",
-        "image_mobile": "shopify:\/\/shop_images\/SS22_Sale_HP-mobile-square.gif",
+        "image_desktop": "shopify:\/\/shop_images\/Hot_Shoe_Summer_HP_Hero.gif",
+        "image_mobile": "shopify:\/\/shop_images\/Hot_Shoe_Summer_HP_mobile2.jpg",
         "image_overlay_opacity": 0,
-        "adapt_height_first_image": true,
+        "adapt_height_first_image": false,
         "text_image_separate": false,
         "show_text_box": false,
-        "desktop_content_half": "no",
-        "banner_content_half_color": "background-1",
+        "desktop_content_half": "left",
+        "banner_content_half_color": "background-3",
         "desktop_text_box_vertical_position": "center",
         "desktop_text_box_horizontal_position": "flex-start",
         "desktop_text_alignment": "left"
