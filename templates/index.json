@@ -105,7 +105,7 @@
         "image_desktop": "shopify:\/\/shop_images\/Hot_Shoe_Summer_HP_Hero.gif",
         "image_mobile": "shopify:\/\/shop_images\/Hot_Shoe_Summer_HP_mobile2.jpg",
         "image_overlay_opacity": 0,
-        "adapt_height_first_image": true,
+        "adapt_height_first_image": false,
         "text_image_separate": false,
         "show_text_box": false,
         "desktop_content_half": "left",
