@@ -85,6 +85,12 @@
     "164878443500ff5f75": {
       "type": "featured-product-alt",
       "blocks": {
+        "18ea2abb-9c2f-4950-aada-14de2234882c": {
+          "type": "style",
+          "settings": {
+            "product": "mens-legend-sneaker-classic-blue-mirage-poplin-twill"
+          }
+        },
         "19feb513-2fd9-459d-a5dd-69769d7530e3": {
           "type": "style",
           "settings": {
@@ -108,44 +114,38 @@
           "settings": {
             "product": "mens-legend-sneaker-classic-granite-grey"
           }
-        },
-        "18ea2abb-9c2f-4950-aada-14de2234882c": {
-          "type": "style",
-          "settings": {
-            "product": "mens-legend-sneaker-classic-blue-mirage-poplin-twill"
-          }
         }
       },
       "block_order": [
+        "18ea2abb-9c2f-4950-aada-14de2234882c",
         "19feb513-2fd9-459d-a5dd-69769d7530e3",
         "0527752f-4252-42ff-ba4b-7aa5323f953a",
         "894c0758-135e-4c6c-9514-447080474cbf",
-        "24bffefd-0187-4130-9fe9-66a0c70f9631",
-        "18ea2abb-9c2f-4950-aada-14de2234882c"
+        "24bffefd-0187-4130-9fe9-66a0c70f9631"
       ],
       "settings": {
         "reverse": false,
-        "image": "shopify:\/\/shop_images\/Legend_d5aa0368-4d74-4d4b-8af8-8643036d0da4.jpg",
+        "image": "shopify:\/\/shop_images\/Mens_Legend_Classic_Blue_Mirage.jpg",
         "show_secondary_image": false,
         "show_swatches": true,
         "title": "The Legend Sneaker",
-        "description": "The Legend is a classic lace up CVO sneaker and is a stitch for stitch recreation of the style that started it all in 1964.",
+        "description": "It's called the legend for a reason. The style that started it all in 1964 continues its legacy as a SeaVees best seller.",
         "link_text": "Shop The Legend"
       }
     },
     "1648779740b93f970f": {
       "type": "featured-product-alt",
       "blocks": {
-        "3e804b26-653b-446a-a335-6b14a3b21362": {
-          "type": "style",
-          "settings": {
-            "product": "mens-baja-slip-on-classic-slate-navy"
-          }
-        },
         "66efa828-ce1d-4856-9067-02145ea3c1c0": {
           "type": "style",
           "settings": {
             "product": "mens-baja-slip-on-classic-tin-grey"
+          }
+        },
+        "3e804b26-653b-446a-a335-6b14a3b21362": {
+          "type": "style",
+          "settings": {
+            "product": "mens-baja-slip-on-classic-slate-navy"
           }
         },
         "1b2c294e-ef45-4ded-bc1c-fb39c0e29c72": {
@@ -168,19 +168,19 @@
         }
       },
       "block_order": [
-        "3e804b26-653b-446a-a335-6b14a3b21362",
         "66efa828-ce1d-4856-9067-02145ea3c1c0",
+        "3e804b26-653b-446a-a335-6b14a3b21362",
         "1b2c294e-ef45-4ded-bc1c-fb39c0e29c72",
         "cf5fb80b-0169-4384-b242-7c6c7da7e795",
         "aae6ad5e-bb77-4882-9dfd-510b5c8edb7e"
       ],
       "settings": {
         "reverse": true,
-        "image": "shopify:\/\/shop_images\/Baja.jpg",
+        "image": "shopify:\/\/shop_images\/Mens_Baja_Classic_Tin_Grey_Web.jpg",
         "show_secondary_image": false,
         "show_swatches": true,
         "title": "The Baja Slip On",
-        "description": "The Baja is a minimal slip on sneaker inspired by 1960's surf adventures to Baja California, Mexico.",
+        "description": "A coastal classic upgraded with long-lasting materials and our exclusive footbed for all-day comfort. Kick back and relax in this SeaVees staple.",
         "link_text": "Shop The Baja"
       }
     },
@@ -213,11 +213,11 @@
       ],
       "settings": {
         "reverse": false,
-        "image": "shopify:\/\/shop_images\/Sixty_Six.jpg",
+        "image": "shopify:\/\/shop_images\/Mens_sixty_six_classic_web.jpg",
         "show_secondary_image": false,
         "show_swatches": true,
         "title": "The Sixty Six Sneaker",
-        "description": "The Sixty Six is a classic blucher sneaker that is a stitch for stitch re-creation of the original style shown in the ad campaigns for SeaVees in 1966.",
+        "description": "A re-creation of an iconic SeaVees style from 1966, these are a must-pack for any adventure. Low profile, high comfort.",
         "link_text": "Shop The Sixty Six"
       }
     },
@@ -247,7 +247,7 @@
         "show_secondary_image": false,
         "show_swatches": true,
         "title": "The Hawthorne Slip On",
-        "description": "The Hawthorne is a classic slip on sneaker inspired by the hometown of the quintessential California band, The Beach Boys.",
+        "description": "Intentionally simple, purposefully timeless. Wake up, slip ‘em on and know that you can handle whatever the day throws your way.",
         "link_text": "Shop The Hawthorne"
       }
     },
@@ -298,7 +298,7 @@
         "show_secondary_image": false,
         "show_swatches": true,
         "title": "The Hermosa Sneaker",
-        "description": "The Hermosa is a timeless lace up plimsoll sneaker inspired by the first skateboard contest held in Hermosa Beach, California in 1966.",
+        "description": "An iconic skate shoe recrafted with super durable materials and an unbelievably cushy footbed so you can cruise in comfort.",
         "link_text": "Shop The Hermosa"
       }
     },
@@ -342,7 +342,7 @@
         "show_secondary_image": false,
         "show_swatches": true,
         "title": "Monterey Sneaker Classic",
-        "description": "A lace up sneaker inspired by the Monterey Pop Festival of June 1967.",
+        "description": "Classic lace-ups to carry you throughout the seasons. Always comfortable, always in style.",
         "link_text": "Shop The Monterey"
       }
     },
@@ -372,29 +372,29 @@
         "show_secondary_image": false,
         "show_swatches": true,
         "title": "The Westwood Sneaker",
-        "description": "The Westwood is a classic lace up sneaker inspired by the classic 1960's tennis sneaker stylings found on and off the court.",
+        "description": "A nostalgic courtside style with modern comforts and heritage detailing. Game, set, match.",
         "link_text": "Shop The Westwood"
       }
     },
     "1648784816f2c549f4": {
       "type": "featured-product-alt",
       "blocks": {
-        "0ab1c5e2-8bbf-48ea-b456-65d8c4a7169a": {
-          "type": "style",
-          "settings": {
-            "product": "mens-army-issue-low-classic-black"
-          }
-        },
         "3fb36fb5-2348-42c6-ac52-4a7a53da59ee": {
           "type": "style",
           "settings": {
             "product": "mens-army-issue-low-classic-olive"
           }
+        },
+        "0ab1c5e2-8bbf-48ea-b456-65d8c4a7169a": {
+          "type": "style",
+          "settings": {
+            "product": "mens-army-issue-low-classic-black"
+          }
         }
       },
       "block_order": [
-        "0ab1c5e2-8bbf-48ea-b456-65d8c4a7169a",
-        "3fb36fb5-2348-42c6-ac52-4a7a53da59ee"
+        "3fb36fb5-2348-42c6-ac52-4a7a53da59ee",
+        "0ab1c5e2-8bbf-48ea-b456-65d8c4a7169a"
       ],
       "settings": {
         "reverse": true,
@@ -402,7 +402,7 @@
         "show_secondary_image": false,
         "show_swatches": true,
         "title": "The Army Issue Sneaker",
-        "description": "The Army Issue is a classic lace up sneaker inspired by the all-purpose sporting footwear issued to soldiers in the 1960's.",
+        "description": "We retrofitted a tried-and-true classic with all the durability you need and all the comfort you want.",
         "link_text": "Shop The Army Issue"
       }
     },
