@@ -120,9 +120,9 @@
           "f68ee00c-7431-4072-af4c-087138d4a59f": {
             "type": "announcement",
             "settings": {
-              "text_desktop": "Buy One Pair, Get One Half Off. Use Code HOTSHOESUMMER",
-              "text_mobile": "Buy One, Get One Half Off. Use Code HOTSHOESUMMER",
-              "color_scheme": "accent-1",
+              "text_desktop": "Free shipping on orders over $100.",
+              "text_mobile": "Free shipping on orders over $100.",
+              "color_scheme": "accent-3",
               "desktop_link": "",
               "mobile_link": ""
             }

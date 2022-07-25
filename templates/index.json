@@ -64,7 +64,7 @@
         "16521356332262bfc5-0": {
           "type": "heading",
           "settings": {
-            "heading": "Hot Shoe Summer Sale",
+            "heading": "Summer Favorite",
             "heading_2": "",
             "font_size": "h1",
             "hide_block_on_mobile": false,
@@ -74,7 +74,7 @@
         "16521356332262bfc5-1": {
           "type": "text",
           "settings": {
-            "text": "Buy One Pair, Get One Half Off.",
+            "text": "The best-selling Baja Slip On in mustard gingham.",
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
           }
@@ -83,9 +83,9 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Womens",
-            "button_link_1": "https:\/\/seavees.com\/discount\/HOTSHOESUMMER?redirect=\/womens",
-            "button_label_2": "Shop Mens",
-            "button_link_2": "https:\/\/seavees.com\/discount\/HOTSHOESUMMER?redirect=\/mens",
+            "button_link_1": "shopify:\/\/products\/womens-baja-slip-on-platform-cotton-gingham-mustard",
+            "button_label_2": "",
+            "button_link_2": "",
             "button_style_secondary": false,
             "use_arrow_link": false,
             "hide_block_on_mobile": false,
@@ -102,17 +102,17 @@
         "use_video_background": false,
         "hero_video_desktop": "",
         "hero_video_mobile": "",
-        "image_desktop": "shopify:\/\/shop_images\/Hot_Shoe_Summer_HP_Hero_2ea56ead-7d1e-4584-b0d4-0531843e1016.gif",
-        "image_mobile": "shopify:\/\/shop_images\/Hot_Shoe_Summer_Sale_HP-Mobile.gif",
+        "image_desktop": "shopify:\/\/shop_images\/Baja_Platform_Ginghame_2.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Baja_Platform_Gingham_HP-Mobile.jpg",
         "image_overlay_opacity": 0,
         "adapt_height_first_image": false,
         "text_image_separate": false,
         "show_text_box": false,
-        "desktop_content_half": "left",
+        "desktop_content_half": "no",
         "banner_content_half_color": "background-3",
         "desktop_text_box_vertical_position": "center",
         "desktop_text_box_horizontal_position": "center",
-        "desktop_text_alignment": "left"
+        "desktop_text_alignment": "center"
       }
     },
     "16503151834eccf6ed": {
