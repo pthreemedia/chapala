@@ -386,7 +386,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/JJ_CVO_HT_1000x1000_2_3a615116-7ab1-4130-ac06-9ea8182d547b.jpg",
-            "title": "summers",
+            "title": "",
             "font_style": "h4",
             "text": "",
             "link_label": "",
@@ -398,7 +398,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/JJ_CVO_HT_1000x1000_1_58aac1bd-e5e9-49ad-a9ab-e7f656c0101f.jpg",
-            "title": "favorite",
+            "title": "",
             "font_style": "h4",
             "text": "",
             "link_label": "",
@@ -410,7 +410,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/JJ_CVO_HT_1000x1000_4_0848496a-6b61-46e5-a8a1-7808aa98b5f8.jpg",
-            "title": "high-top",
+            "title": "",
             "font_style": "h4",
             "text": "",
             "link_label": "",
@@ -598,27 +598,51 @@
         "padding_bottom": 0
       }
     },
+    "16588692946d5d207d": {
+      "type": "collage",
+      "blocks": {
+        "c123ef52-8f4a-4f81-ba36-65486632bd4d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JJ_CVO-Hightop_Gallery_hero_15d9c16a-cdab-4e60-b0b1-c9ad8b77cfe4.jpg",
+            "image_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "c123ef52-8f4a-4f81-ba36-65486632bd4d"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "1651785501678444ac": {
       "type": "collage",
       "blocks": {
         "58716c2f-bbb0-4747-a7ac-c6f17e4bc6f6": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Tall_Lifestyle.jpg",
+            "image": "shopify:\/\/shop_images\/JJ_Tall_Lifestyle_53230f47-44aa-4321-a563-5dd9d29eaadd.jpg",
             "image_padding": false
           }
         },
         "476f417f-4cc1-40c7-a5af-f1bae02967bd": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Imperfects.Seavees-126.jpg",
+            "image": "shopify:\/\/shop_images\/JJ_Square_Lifestyle_126_09a05df3-a227-4cfc-a0bb-9d30392dcda3.jpg",
             "image_padding": false
           }
         },
         "b45946bd-0a25-4d8f-9951-a63bec9b98c4": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/0003_Imperfects.Seavees-135.jpg",
+            "image": "shopify:\/\/shop_images\/JJ_Square_Lifestyle_127_10458f7b-0819-42c5-8c22-ec743eb0d934.jpg",
             "image_padding": false
           }
         }
@@ -644,7 +668,7 @@
         "cd7b00a5-9fb4-4894-97c4-0c50f3259eae": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Imperfects.Seavees-50.jpg",
+            "image": "shopify:\/\/shop_images\/JJ_Landscape_Lifestyle_583eb39f-943a-4c10-bba9-6e4613b6455d.jpg",
             "image_padding": false
           }
         }
@@ -715,6 +739,7 @@
     "1651785331ef35daca",
     "16517854782d746a68",
     "165178549807230fe4",
+    "16588692946d5d207d",
     "1651785501678444ac",
     "16517855206fba3004",
     "1651785646395ff172",
