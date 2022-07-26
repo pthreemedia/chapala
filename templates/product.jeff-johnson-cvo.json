@@ -54,6 +54,7 @@
           "disabled": true,
           "settings": {
             "text": "SeaVees x Imperfects Collaboration",
+            "center_align": false,
             "text_style": "h6",
             "margin_top": "1rem",
             "margin_bottom": "none"
@@ -88,6 +89,7 @@
           "disabled": true,
           "settings": {
             "text": "{{ product.metafields.seavees.gender.value }} \/  {{ product.metafields.seavees.material.value }}",
+            "center_align": false,
             "text_style": "h5",
             "margin_top": "1rem",
             "margin_bottom": "1rem"
@@ -144,6 +146,7 @@
           "type": "text",
           "settings": {
             "text": "A limited edition split pair concept–the left shoe is our classic Legend Sneaker while the right is a completely revised pattern full of asymmetrical quirks.",
+            "center_align": false,
             "text_style": "text-body",
             "margin_top": "1rem",
             "margin_bottom": "1rem"
@@ -157,7 +160,8 @@
             "content": "",
             "page": "",
             "show-description": true,
-            "liquid": ""
+            "liquid": "",
+            "expand_on_pageload": false
           }
         },
         "collapsible-row-0": {
@@ -168,7 +172,8 @@
             "content": "<p>{{ product.metafields.seavees.size_and_fit | metafield_tag }}<\/p>",
             "page": "",
             "show-description": false,
-            "liquid": ""
+            "liquid": "",
+            "expand_on_pageload": false
           }
         },
         "6b1f8270-ac69-4b93-a5f5-c3c308248dfa": {
@@ -179,7 +184,8 @@
             "content": "<p>Imperfects was founded in 2015 by Mike Lynch. Mike is an entrepreneur, shaper, surfer, artist, and family man - building Imperfects as a lifestyle concept for a more enlightened Human Experience, is a life mission of Mike's which has been ongoing for over 15 years. The mission of Imperfects is to highlight the good in humanity by focusing on one's Imperfections - we craft the highest quality of Surfboards, Skateboards and Apparel as these our mediums which define one of our most defining human experiences, self-expression.<\/p>",
             "page": "",
             "show-description": false,
-            "liquid": ""
+            "liquid": "",
+            "expand_on_pageload": false
           }
         },
         "collapsible-row-1": {
@@ -190,7 +196,8 @@
             "content": "<p>Free shipping on all orders over $100.<\/p><p>$5 shipping for orders under $100.<\/p><p>It's important to us that you are happy with your SeaVees so returns and exchanges are free, fast and easy. If you choose to exchange for a different size or color, we will ship your replacement immediately.<\/p>",
             "page": "",
             "show-description": false,
-            "liquid": ""
+            "liquid": "",
+            "expand_on_pageload": false
           }
         },
         "collapsible-row-2": {
@@ -201,7 +208,8 @@
             "content": "<p>{{ product.metafields.seavees.origin.value }}<\/p>",
             "page": "",
             "show-description": false,
-            "liquid": ""
+            "liquid": "",
+            "expand_on_pageload": false
           }
         },
         "d45af598-2236-4f27-9df7-84e8aa0cb053": {
@@ -216,7 +224,9 @@
           "type": "popup",
           "settings": {
             "text": "Pop-up link text",
-            "page": ""
+            "page": "",
+            "margin_top": "1rem",
+            "margin_bottom": "1rem"
           }
         }
       },
@@ -330,8 +340,12 @@
         "hero_video_mobile": "",
         "image_desktop": "shopify:\/\/shop_images\/Imperfects_hero_desktop_8f78a7af-6883-442a-9884-60cbafa3615c.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Imperfects_hero_mobile_2.jpg",
+        "image_overlay_opacity": 0,
         "adapt_height_first_image": false,
         "text_image_separate": false,
+        "show_text_box": false,
+        "desktop_content_half": "no",
+        "banner_content_half_color": "background-1",
         "desktop_text_box_vertical_position": "center",
         "desktop_text_box_horizontal_position": "flex-start",
         "desktop_text_alignment": "left"
@@ -372,7 +386,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/0006_Imperfects.Seavees-61.jpg",
-            "title": "Unity",
+            "title": "Jeff",
             "font_style": "h4",
             "text": "",
             "link_label": "",
