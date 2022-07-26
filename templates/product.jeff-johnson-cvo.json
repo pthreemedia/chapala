@@ -338,8 +338,8 @@
         "use_video_background": false,
         "hero_video_desktop": "",
         "hero_video_mobile": "",
-        "image_desktop": "shopify:\/\/shop_images\/Imperfects_hero_desktop_8f78a7af-6883-442a-9884-60cbafa3615c.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Imperfects_hero_mobile_2.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/JJ_CVO-Hightop_hero_desktop.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/JJ_hero_mobile.jpg",
         "image_overlay_opacity": 0,
         "adapt_height_first_image": false,
         "text_image_separate": false,
@@ -357,7 +357,7 @@
         "1651785118491abaf3-1": {
           "type": "text",
           "settings": {
-            "text": "<p>A riff on our classic legend sneaker designed in collaboration with surf, skate & apparel brand, <em>Imperfects.<\/em><\/p>",
+            "text": "<p>Summer's favorite high-top is here. In collaboration with Jeff Johnson, the Beyond & Back CVO high-top isthe limited-edition sneaker\/boot hybrid you need for warm weather adventures. ​<\/p>",
             "use_heading_font": true,
             "font_color": "#012e5c"
           }
@@ -454,7 +454,7 @@
         "1651785292fd122742-1": {
           "type": "text",
           "settings": {
-            "text": "<p>When you collaborate with a designer as talented as Mike Lynch, sometimes it's best to hand them the keys and hop in the passenger seat. You let them drive you to a place you wouldn't normally go.<\/p><p>Mike used his Imperfects approach to create a split pair concept–the left shoe is our classic Legend Sneaker while the right is a completely revised pattern full of asymmetrical quirks.<\/p>",
+            "text": "<p>Introducing summer's favorite high-top. In collaboration with Jeff Johnson, the Beyond & Back CVO Boot isa limited-edition summer-ready sneaker\/boot hybrid. <\/p><p>Designed for the warmest months of the year in mind, this style features lightweight brushed-cotton herringbone twill, medial eyelets for extra breathability, and a cushymemory foam footbed with air flow channels for cooling comfort. <\/p><p>This style was consciously crafted with a recycledcotton canvas lining, post-consumer recycled plastic laces and our signature \"power grip\" outsole made fromdurable natural rubber and recycled rubber. ​<\/p>",
             "text_style": "body"
           }
         }
@@ -464,7 +464,7 @@
         "1651785292fd122742-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Imperfects_LP_GIF.gif",
+        "image": "shopify:\/\/shop_images\/JJ_LP_GIF.gif",
         "height": "adapt",
         "desktop_image_width": "medium",
         "full_width": false,
@@ -486,7 +486,7 @@
         "165178533104f58709-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Product_Details_Side_32812fb9-7b83-4872-a295-b5640f959e00.jpg",
+            "image": "shopify:\/\/shop_images\/Product_Details_Heel_f6762806-5dfc-4231-8a94-973fa45d878b.jpg",
             "title": "A LITTLE WAVE",
             "font_style": "h4",
             "text": "<p>The vamp on the right shoe has a little wave as the pattern piece heads back towards the heel.<\/p>",
@@ -498,7 +498,7 @@
         "165178533104f58709-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Product_Details_Heel.jpg",
+            "image": "shopify:\/\/shop_images\/Product_Details_Inside.jpg",
             "title": "WRAP AROUND",
             "font_style": "h4",
             "text": "<p>As that same vamp piece approaches the heel, well...it just keeps going, wrapping all the way around the heel to the medial side of the shoe.<\/p>",
@@ -510,7 +510,7 @@
         "b5b54fc4-7221-462a-9d23-4f46b2b58464": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Product_Details_Bottom_cdfd2426-bf7e-492f-8d8a-21e3061fc416.jpg",
+            "image": "shopify:\/\/shop_images\/Product_Details_Laces.jpg",
             "title": "The Outsole",
             "font_style": "h4",
             "text": "<p>The left sports our heritage smoke blue outsole, while the right is the Imperfects brand red. <\/p>",
@@ -522,7 +522,7 @@
         "165178533104f58709-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Product_Details_Top.jpg",
+            "image": "shopify:\/\/shop_images\/Product_Details_Top_e4a7fda4-1634-4444-9182-a864eff9d30c.jpg",
             "title": "ASYMMETRICAL",
             "font_style": "h4",
             "text": "<p>Looking down, you'll notice that the spacing between the stitched eyelets is wider on one shoe and narrower on the other.<\/p>",
@@ -585,6 +585,7 @@
     },
     "165178549807230fe4": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
