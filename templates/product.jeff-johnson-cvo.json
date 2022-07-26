@@ -178,6 +178,7 @@
         },
         "6b1f8270-ac69-4b93-a5f5-c3c308248dfa": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "About Imperfects",
             "icon": "none",
@@ -222,6 +223,7 @@
         },
         "59ede94d-d1fb-4f31-abe8-ed1a1a087299": {
           "type": "popup",
+          "disabled": true,
           "settings": {
             "text": "Pop-up link text",
             "page": "",
