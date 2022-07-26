@@ -145,7 +145,7 @@
         "b9fc1344-911e-4699-a453-1d9b9c8c56b6": {
           "type": "text",
           "settings": {
-            "text": "A limited edition split pair concept–the left shoe is our classic Legend Sneaker while the right is a completely revised pattern full of asymmetrical quirks.",
+            "text": "In collaboration with Jeff Johnson, the Beyond & Back CVO high-top is a limited-edition summer-ready sneaker. Designed for the warmest months of the year, this shoe has you covered for all the adventures you'll take this summer.",
             "center_align": false,
             "text_style": "text-body",
             "margin_top": "1rem",
@@ -385,8 +385,8 @@
         "16517851479c713624-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/0006_Imperfects.Seavees-61.jpg",
-            "title": "Jeff",
+            "image": "shopify:\/\/shop_images\/JJ_CVO_HT_1000x1000_2_3a615116-7ab1-4130-ac06-9ea8182d547b.jpg",
+            "title": "summers",
             "font_style": "h4",
             "text": "",
             "link_label": "",
@@ -397,8 +397,8 @@
         "16517851479c713624-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Tall_Hero.jpg",
-            "title": "Is",
+            "image": "shopify:\/\/shop_images\/JJ_CVO_HT_1000x1000_1_58aac1bd-e5e9-49ad-a9ab-e7f656c0101f.jpg",
+            "title": "favorite",
             "font_style": "h4",
             "text": "",
             "link_label": "",
@@ -409,8 +409,8 @@
         "16517851479c713624-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/0005_Imperfects.Seavees-65.jpg",
-            "title": "Purple",
+            "image": "shopify:\/\/shop_images\/JJ_CVO_HT_1000x1000_4_0848496a-6b61-46e5-a8a1-7808aa98b5f8.jpg",
+            "title": "high-top",
             "font_style": "h4",
             "text": "",
             "link_label": "",
@@ -487,9 +487,9 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Product_Details_Heel_f6762806-5dfc-4231-8a94-973fa45d878b.jpg",
-            "title": "A LITTLE WAVE",
+            "title": "beyond and back",
             "font_style": "h4",
-            "text": "<p>The vamp on the right shoe has a little wave as the pattern piece heads back towards the heel.<\/p>",
+            "text": "<p>The backstay features the Beyond & Back A-Frame logo on the pull tag.<\/p>",
             "link_label": "",
             "link": "",
             "info_on_image": false
@@ -499,9 +499,9 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Product_Details_Inside.jpg",
-            "title": "WRAP AROUND",
+            "title": "Inside",
             "font_style": "h4",
-            "text": "<p>As that same vamp piece approaches the heel, well...it just keeps going, wrapping all the way around the heel to the medial side of the shoe.<\/p>",
+            "text": "<p>SeaVees x Jeff Johnson logo featured on our cushy memory foam footbed with air flow channels for cooling comfort.<\/p>",
             "link_label": "",
             "link": "",
             "info_on_image": false
@@ -511,9 +511,9 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Product_Details_Laces.jpg",
-            "title": "The Outsole",
+            "title": "Laces",
             "font_style": "h4",
-            "text": "<p>The left sports our heritage smoke blue outsole, while the right is the Imperfects brand red. <\/p>",
+            "text": "<p>Long post-consumer recycled plastic laces can be looped through pull tab for extra secure fit.<\/p>",
             "link_label": "",
             "link": "",
             "info_on_image": false
@@ -523,9 +523,9 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Product_Details_Top_e4a7fda4-1634-4444-9182-a864eff9d30c.jpg",
-            "title": "ASYMMETRICAL",
+            "title": "outsole",
             "font_style": "h4",
-            "text": "<p>Looking down, you'll notice that the spacing between the stitched eyelets is wider on one shoe and narrower on the other.<\/p>",
+            "text": "<p>Bouncy “power grip” outsole made from durable natural rubber and recycled rubber provides additional traction and extra grip.<\/p>",
             "link_label": "",
             "link": "",
             "info_on_image": false
@@ -664,6 +664,7 @@
     },
     "1651785646395ff172": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "165178564608a01fd3-1": {
           "type": "text",
