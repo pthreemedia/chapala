@@ -358,7 +358,7 @@
         "1651785118491abaf3-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Summer's favorite high-top is here. In collaboration with Jeff Johnson, the Beyond & Back CVO high-top is the limited-edition sneaker\/boot hybrid you need for warm weather adventures. ​<\/p>",
+            "text": "<p>Summer's favorite High-Top is here. In collaboration with Jeff Johnson, the Beyond & Back CVO High-Top is the limited-edition sneaker\/boot hybrid you need for warm weather adventures. ​<\/p>",
             "use_heading_font": true,
             "font_color": "#012e5c"
           }
@@ -455,7 +455,7 @@
         "1651785292fd122742-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Introducing summer's favorite high-top. In collaboration with Jeff Johnson, the Beyond & Back CVO Boot isa limited-edition summer-ready sneaker\/boot hybrid. <\/p><p>Designed for the warmest months of the year in mind, this style features lightweight brushed-cotton herringbone twill, medial eyelets for extra breathability, and a cushymemory foam footbed with air flow channels for cooling comfort. <\/p><p>This style was consciously crafted with a recycledcotton canvas lining, post-consumer recycled plastic laces and our signature \"power grip\" outsole made fromdurable natural rubber and recycled rubber. ​<\/p>",
+            "text": "<p>Designed for the warmest months of the year in mind, this style features lightweight brushed-cotton herringbone twill, medial eyelets for extra breathability, and a cushy memory foam footbed with air flow channels for cooling comfort. <\/p><p>This style was consciously crafted with a recycled cotton canvas lining, post-consumer recycled plastic laces and our signature \"power grip\" outsole made from durable natural rubber and recycled rubber. ​<\/p>",
             "text_style": "body"
           }
         }
@@ -558,9 +558,11 @@
     },
     "16517854782d746a68": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "16517854776a8842f1-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Gallery",
             "heading_size": "h2",
