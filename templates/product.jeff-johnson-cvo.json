@@ -97,7 +97,6 @@
         },
         "42a82d44-4510-48f4-944a-b6fa676826af": {
           "type": "product_swatches",
-          "disabled": true,
           "settings": {
             "hide_sale_product_swatches": true,
             "show_title": false,
