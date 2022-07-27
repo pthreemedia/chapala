@@ -2,13 +2,12 @@
   "sections": {
     "164867367120e1947e": {
       "type": "hero-banner",
-      "disabled": true,
       "blocks": {
         "1648673671d11f3268-0": {
           "type": "heading",
           "settings": {
-            "heading": "Summer Favorite",
-            "heading_2": "",
+            "heading": "Summers Favorite",
+            "heading_2": "High-Top",
             "font_size": "h0",
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
@@ -17,7 +16,7 @@
         "1648673671d11f3268-1": {
           "type": "text",
           "settings": {
-            "text": "The best-selling Baja Platform in mustard gingham.",
+            "text": "Introducing the limited edition SeaVees x Jeff Johnson Beyond & Back CVO High-Top",
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
           }
@@ -25,7 +24,7 @@
         "1648673671d11f3268-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Womens",
+            "button_label_1": "Shop Beyond & Back CVO",
             "button_link_1": "shopify:\/\/products\/womens-baja-slip-on-platform-cotton-gingham-mustard",
             "button_label_2": "",
             "button_link_2": "",
@@ -45,13 +44,13 @@
         "use_video_background": false,
         "hero_video_desktop": "",
         "hero_video_mobile": "",
-        "image_desktop": "shopify:\/\/shop_images\/Baja_Platform_Gingham_3.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Baja_Platform_Gingham_HP-Mobile.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/JJ_CVO-hightop_Campaign_HP_Hero.gif",
+        "image_mobile": "shopify:\/\/shop_images\/JJ_Hero_Mobile_Square.jpg",
         "image_overlay_opacity": 0,
         "adapt_height_first_image": false,
         "text_image_separate": false,
         "show_text_box": false,
-        "desktop_content_half": "no",
+        "desktop_content_half": "left",
         "banner_content_half_color": "background-1",
         "desktop_text_box_vertical_position": "center",
         "desktop_text_box_horizontal_position": "center",
@@ -60,6 +59,7 @@
     },
     "1652135633ce7ce319": {
       "type": "hero-banner",
+      "disabled": true,
       "blocks": {
         "16521356332262bfc5-0": {
           "type": "heading",
