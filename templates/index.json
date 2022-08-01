@@ -6,9 +6,9 @@
         "1648673671d11f3268-0": {
           "type": "heading",
           "settings": {
-            "heading": "Summer's Favorite",
-            "heading_2": "High-Top",
-            "font_size": "h0",
+            "heading": "A Consciously Crafted",
+            "heading_2": "Once-Forgotten Classic.",
+            "font_size": "h1",
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
           }
@@ -16,7 +16,7 @@
         "1648673671d11f3268-1": {
           "type": "text",
           "settings": {
-            "text": "The Limited Edition SeaVees x Jeff Johnson Beyond & Back Sneaker",
+            "text": "Born in 1964. Rediscovered in 2008.",
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
           }
@@ -24,10 +24,10 @@
         "1648673671d11f3268-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Mens",
-            "button_link_1": "https:\/\/www.seavees.com\/products\/mens-beyond-back-cvo-boot-herringbone-twill-lava",
-            "button_label_2": "",
-            "button_link_2": "",
+            "button_label_1": "Shop Womens",
+            "button_link_1": "https:\/\/www.seavees.com\/collections\/womens-classics",
+            "button_label_2": "Shop Mens",
+            "button_link_2": "https:\/\/www.seavees.com\/collections\/mens-classics",
             "button_style_secondary": false,
             "use_arrow_link": false,
             "hide_block_on_mobile": false,
@@ -44,14 +44,14 @@
         "use_video_background": false,
         "hero_video_desktop": "",
         "hero_video_mobile": "",
-        "image_desktop": "shopify:\/\/shop_images\/JJ_CVO-hightop_Campaign_HP_Hero.gif",
-        "image_mobile": "shopify:\/\/shop_images\/JJ_Hero_Mobile_Square.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Classic_Campaign_Legend_HP_Hero_GIF.gif",
+        "image_mobile": "shopify:\/\/shop_images\/HP_Hero_Mobile_32f45983-c767-49a4-b3a1-1dbdb2250024.gif",
         "image_overlay_opacity": 0,
         "adapt_height_first_image": false,
         "text_image_separate": false,
         "show_text_box": false,
         "desktop_content_half": "left",
-        "banner_content_half_color": "accent-1",
+        "banner_content_half_color": "background-3",
         "desktop_text_box_vertical_position": "center",
         "desktop_text_box_horizontal_position": "center",
         "desktop_text_alignment": "center"
