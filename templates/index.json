@@ -7,8 +7,8 @@
           "type": "heading",
           "settings": {
             "heading": "A Consciously Crafted",
-            "heading_2": "Once-Forgotten Classic.",
-            "font_size": "h1",
+            "heading_2": "Once-Forgotten Classic",
+            "font_size": "h2",
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
           }
@@ -262,7 +262,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Coastal_Cruiser_White_Product_3.jpg",
-            "title": "Mens Coastal Cruiser",
+            "title": "SeaVees x Jeff Johnson",
             "font_style": "h3",
             "text": "",
             "link_label": "Shop Now",
@@ -288,7 +288,7 @@
         "button_link": "",
         "color_scheme": "background-1",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 76,
         "padding_bottom": 52
       }
