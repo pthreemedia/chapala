@@ -97,6 +97,8 @@
     "predictive_search_show_price": false,
     "favicon": "shopify:\/\/shop_images\/SeaVees_Favicon_Navy.png",
     "currency_code_enabled": true,
+    "cart_type": "drawer",
+    "show_cart_note": true,
     "checkout_logo_image": "shopify:\/\/shop_images\/seavees-website-logo-navy_f847c3ff-f1ad-41ec-8806-5d68fe4b5a7f.png",
     "checkout_logo_position": "center",
     "checkout_accent_color": "#193859",
