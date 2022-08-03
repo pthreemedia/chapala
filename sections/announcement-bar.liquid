@@ -1,47 +1,214 @@
-{%- for block in section.blocks -%}
-  {%- case block.type -%}
-    {%- when 'announcement' -%}
+{{ 'component-slider.css' | asset_url | stylesheet_tag }}
+{{ 'component-slideshow.css' | asset_url | stylesheet_tag }}
+{{ 'announcement-bar.css' | asset_url | stylesheet_tag }}
+{{ 'countdown.css' | asset_url | stylesheet_tag }}
 
-      <div class="announcement-bar small-hide color-{{ block.settings.color_scheme }} gradient" role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
-        {%- if block.settings.text_desktop != blank -%}
-          {%- if block.settings.desktop_link != blank -%}
-            <a href="{{ block.settings.desktop_link }}" class="announcement-bar__link link link--text focus-inset animate-arrow">
-          {%- endif -%}
-              <p class="announcement-bar__message small-hide">
-                {{ block.settings.text_desktop | escape }}
-                {%- if block.settings.desktop_link != blank -%}
-                  {% render 'icon-arrow' %}
-                {%- endif -%}
-              </p>
-          {%- if block.settings.desktop_link != blank -%}
-            </a>
-          {%- endif -%}
-        {%- endif -%}
-      </div>      
+{%- if section.blocks.size > 0 -%}
 
-      <div class="announcement-bar medium-hide large-up-hide color-{{ block.settings.color_scheme }} gradient" role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
-        {%- if block.settings.text_mobile != blank -%}
-          {%- if block.settings.mobile_link != blank -%}
-            <a href="{{ block.settings.mobile_link }}" class="announcement-bar__link link link--text focus-inset animate-arrow">
-          {%- endif -%}
-              <p class="announcement-bar__message medium-hide large-up-hide">
-                {{ block.settings.text_mobile | escape }}
-                {%- if block.settings.mobile_link != blank -%}
-                  {% render 'icon-arrow' %}
-                {%- endif -%}
-              </p>
-          {%- if block.settings.mobile_link != blank -%}
-            </a>
-          {%- endif -%}
-        {%- endif -%}
+  <!-- For Single Announcment -->
+  {%- if section.blocks.size < 2 -%}
+    {%- for block in section.blocks -%}
+      <div class="color-{{ block.settings.color_scheme }} {{ block.settings.font }}">
+        <div class="relative announcenment-ux-container">
+          <div class="announcement-bar gradient" role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
+            {%- if block.settings.heading != blank -%}
+              <span class="announcement-bar__message">
+                {{ block.settings.heading }}
+              </span>
+              {% if block.settings.countdown_date != blank %}
+                <countdown-to-date data-datetime = "{{ block.settings.countdown_date }}">
+                  <div class="days"></div>
+                  <div class="hours"></div>
+                  <div class="mins"></div>
+                  <div class="secs"></div>
+                  <div class="end"></div>  
+                </countdown-to-date>                
+              {% endif %}
+              {%- if block.settings.link != blank -%}
+                <a href="{{ block.settings.link }}" class="announcement-bar__link link link--text focus-inset {{ block.settings.link_style }}">
+                  {{ block.settings.cta_text }}
+                </a>
+              {%- endif -%}
+            {%- endif -%}
+          </div>    
+          <toggle-announcement-visibility id="hideAnnouncementBarTrigger" class="trigger-hide absolute top-0 right-0">
+            {% render 'icon-close' %}
+          </toggle-announcement-visibility>   
+        </div> 
       </div>
-  {%- endcase -%}
-{%- endfor -%}
+    {%- endfor -%}
+  {%- else -%}
+    <slideshow-component>
+      <div class="slideshow grid grid--1-col slider slider--everywhere announcements"
+        id="Slider-{{ section.id }}"
+        role="list"
+        data-autoplay="{{ section.settings.auto_rotate }}"
+        data-speed="{{ section.settings.change_slides_speed }}"
+      >
+        {%- for block in section.blocks -%}
+          <div class="color-{{ block.settings.color_scheme }} {{ block.settings.font }} slideshow__slide grid__item grid--1-col slider__slide"
+          id="Slide-{{ section.id }}-{{ forloop.index }}"
+          data-color-scheme="color-{{ block.settings.color_scheme }}"
+          {{ block.shopify_attributes }}
+          role="group"
+          aria-roledescription="{{ 'sections.slideshow.slide' | t }}"
+          aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
+          tabindex="-1">            
+            <div class="announcement-bar gradient" role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
+              {%- if block.settings.heading != blank -%}
+                <span class="announcement-bar__message">
+                  {{ block.settings.heading }}
+                </span>
+                {% if block.settings.countdown_date != blank %}
+                  <countdown-to-date data-datetime="{{ block.settings.countdown_date }}">
+                    <div class="days"></div>
+                    <div class="hours"></div>
+                    <div class="mins"></div>
+                    <div class="secs"></div>
+                    <div class="end"></div>  
+                  </countdown-to-date>                
+                {% endif %}
+                {%- if block.settings.link != blank -%}
+                <a href="{{ block.settings.link }}" class="announcement-bar__link link link--text focus-inset {{ block.settings.link_style }}">
+                  {{ block.settings.cta_text }}
+                  </a>
+                {%- endif -%}
+              {%- endif -%}
+            </div>    
+          </div>
+        {%- endfor -%}
+      </div>
+      <div class="slideshow_controls_container {{ section.settings.controls_position }}" data-color-scheme="">
+        <div class="slideshow__controls slideshow__controls--top slider-buttons no-js-hidden{% if section.settings.show_text_below %} slideshow__controls--border-radius-mobile{% endif %}">
+          <button type="button" class="slider-button slider-button--prev" name="previous" aria-label="{{ 'sections.slideshow.previous_slideshow' | t }}" aria-controls="Slider-{{ section.id }}">{% render 'icon-caret' %}</button>
+
+
+          {%- if hide_slide_visual == false -%}
+            <div class="slider-counter slider-counter--{{ section.settings.slider_visual }}{% if section.settings.slider_visual == 'counter' or section.settings.slider_visual == 'numbers' %} caption{% endif %}">
+              {%- if section.settings.slider_visual == 'counter' -%}
+                <span class="slider-counter--current">1</span>
+                <span aria-hidden="true"> / </span>
+                <span class="visually-hidden">{{ 'general.slider.of' | t }}</span>
+                <span class="slider-counter--total">{{ section.blocks.size }}</span>
+              {%- else-%}
+                <div class="slideshow__control-wrapper">
+                  {%- for block in section.blocks -%}
+                    <button class="slider-counter__link slider-counter__link--{{ section.settings.slider_visual }} link" aria-label="{{ 'sections.slideshow.load_slide' | t }} {{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}" aria-controls="Slider-{{ section.id }}">
+                      {%- if section.settings.slider_visual == 'numbers' -%}{{ forloop.index }}{% else %}<span class="dot"></span>{%- endif -%}
+                    </button>
+                  {%- endfor -%}
+                </div>
+              {%- endif -%}
+            </div>
+          {%- endif -%}
+
+          <button type="button" class="slider-button slider-button--next" name="next" aria-label="{{ 'sections.slideshow.next_slideshow' | t }}" aria-controls="Slider-{{ section.id }}">{% render 'icon-caret' %}</button>
+
+          {%- if section.settings.auto_rotate -%}
+            <button 
+              type="button" 
+              class="slideshow__autoplay slider-button no-js-hidden{% if section.settings.auto_rotate == false %} slideshow__autoplay--paused{% endif %} {% if section.settings.hide_pause_button %}visibility-hidden{% endif %}" 
+              aria-label="{{ 'sections.slideshow.pause_slideshow' | t }}"
+            >
+              {%- render 'icon-pause' -%}
+              {%- render 'icon-play' -%}
+            </button>
+          {%- endif -%}
+          
+          {% if section.settings.hide_close_button == false %}          
+            <toggle-announcement-visibility id="hideAnnouncementBarTrigger" class="trigger-hide">
+              {% render 'icon-close' %}
+            </toggle-announcement-visibility>
+          {% endif %}
+
+        </div>  
+      </div>
+    </slideshow-component>
+  {%- endif -%}
+{%- endif -%}
+
+{%- if request.design_mode -%}
+  <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
+{%- endif -%}
 
 {% schema %}
 {
   "name": "t:sections.announcement-bar.name",
   "max_blocks": 12,
+  "settings": [
+    {
+      "type": "select",
+      "id": "controls_position",
+      "label": "Slider Controls Position",
+      "options" : [
+        {
+          "value": "inline",
+          "label": "Inline"
+        },
+        {
+          "value": "below",
+          "label": "Below Announcement"
+        }
+      ],
+      "default": "inline",
+      "label": "Slider Controls Position",
+      "info": "Selecting inline removes the close, play/pause, and pagination buttons from the visitor UI."
+    },
+    {
+      "type": "checkbox",
+      "id": "hide_close_button",
+      "label": "Hide Close Button",
+      "default": false
+    },    
+    {
+      "type": "checkbox",
+      "id": "auto_rotate",
+      "label": "t:sections.slideshow.settings.auto_rotate.label",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "hide_pause_button",
+      "label": "Hide Pause Button",
+      "default": false
+    },    
+    {
+      "type": "range",
+      "id": "change_slides_speed",
+      "min": 3,
+      "max": 9,
+      "step": 2,
+      "unit": "s",
+      "label": "t:sections.slideshow.settings.change_slides_speed.label",
+      "default": 5
+    },
+    {
+      "type": "select",
+      "id": "slider_visual",
+      "options": [
+        {
+          "value": "dots",
+          "label": "t:sections.slideshow.settings.slider_visual.options__2.label"
+        },
+        {
+          "value": "counter",
+          "label": "t:sections.slideshow.settings.slider_visual.options__1.label"
+        },
+        {
+          "value": "numbers",
+          "label": "t:sections.slideshow.settings.slider_visual.options__3.label"
+        }
+      ],
+      "default": "counter",
+      "label": "t:sections.slideshow.settings.slider_visual.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "hide_slide_visual",
+      "label": "Hide Pagination",
+      "default": false
+    }    
+  ],
   "blocks": [
     {
       "type": "announcement",
@@ -49,13 +216,57 @@
       "settings": [
         {
           "type": "text",
-          "id": "text_desktop",
-          "label": "Desktop text"
+          "id": "heading",
+          "label": "Headline"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
         },
         {
           "type": "text",
-          "id": "text_mobile",
-          "label": "Mobile text"
+          "id": "cta_text",
+          "label": "Link Text"
+        },
+        {
+          "type": "select",
+          "id": "link_style",
+          "label": "Link Style",
+          "options": [
+            {
+              "value": "underline",
+              "label": "Underline"
+            },
+            {
+              "value": "pill",
+              "label": "Pill"
+            }
+          ],
+          "default" : "underline",
+          "label": "Underline"
+        },
+        {
+          "type": "select",
+          "id": "font",
+          "label": "Text Style",
+          "options": [
+            {
+              "value": "lato",
+              "label": "Lato"
+            },
+            {
+              "value": "MillerHeadlineLight",
+              "label": "Miller Headline"
+            }
+          ],
+          "default" : "lato"
+        },
+        {
+          "type": "text",
+          "id": "countdown_date",
+          "label": "Countdown Date",
+          "info": "Format expected: YYYY-MM-DD 00:00 AM"
         },
         {
           "type": "select",
@@ -92,16 +303,6 @@
           ],
           "default": "accent-1",
           "label": "t:sections.all.colors.label"
-        },
-        {
-          "type": "url",
-          "id": "desktop_link",
-          "label": "Desktop link"
-        },
-        {
-          "type": "url",
-          "id": "mobile_link",
-          "label": "Mobile link"
         }
       ]
     }
