@@ -693,6 +693,10 @@
         </a>
       {%- endif -%}
 
+      <toggle-announcement-visibility class="trigger-show dn">
+        {% render 'icon-announcement' %}
+      </toggle-announcement-visibility>  
+
       <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
         {%- liquid
           if cart == empty
