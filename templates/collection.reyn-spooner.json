@@ -61,11 +61,11 @@
         "hero_video_desktop": "",
         "hero_video_mobile": "",
         "image_desktop": "shopify:\/\/shop_images\/reyn_spooner_seavees_desktop_header_111111.jpg",
+        "adapt_height_first_image": false,
+        "text_image_separate": true,
         "desktop_text_box_vertical_position": "center",
         "desktop_text_box_horizontal_position": "center",
-        "desktop_text_alignment": "center",
-        "adapt_height_first_image": false,
-        "text_image_separate": true
+        "desktop_text_alignment": "center"
       }
     },
     "1652726364f02138b5": {
