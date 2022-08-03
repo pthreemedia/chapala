@@ -14,7 +14,7 @@
         "165297913758c6d6d2-0": {
           "type": "heading",
           "settings": {
-            "heading_line_1": "The Summer of Love",
+            "heading_line_1": "Summer of Love",
             "heading_line_2": "",
             "heading_size": "h0"
           }
@@ -63,15 +63,6 @@
     "1651769816dcb4919c": {
       "type": "rich-text",
       "blocks": {
-        "d845d1e9-4475-44d5-9f6e-5a776c159f6e": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "The SeaChange Collection",
-            "heading_size": "h2",
-            "font_color": ""
-          }
-        },
         "1651769816c53397ad-1": {
           "type": "text",
           "settings": {
@@ -82,7 +73,6 @@
         }
       },
       "block_order": [
-        "d845d1e9-4475-44d5-9f6e-5a776c159f6e",
         "1651769816c53397ad-1"
       ],
       "settings": {
@@ -160,56 +150,6 @@
         "padding_bottom": 36
       }
     },
-    "1652992451b58be40b": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "16529924509e9c5cfb-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h1",
-            "font_color": ""
-          }
-        },
-        "16529924509e9c5cfb-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Vegan Corn Leather<\/p>",
-            "use_heading_font": false,
-            "font_color": "#3d93e1"
-          }
-        },
-        "16529924509e9c5cfb-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "use_arrow_link": false,
-            "link_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "16529924509e9c5cfb-0",
-        "16529924509e9c5cfb-1",
-        "16529924509e9c5cfb-2"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "narrow": false,
-        "is_page_header": false,
-        "mobile_content_align": "center",
-        "desktop_content_align": "left",
-        "padding_top": 0,
-        "padding_bottom": 44,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
     "16517685015d2ce9b4": {
       "type": "featured-collection-alt",
       "settings": {
@@ -247,21 +187,6 @@
         "margin_bottom": 0
       }
     },
-    "16488340185b1f3cc8": {
-      "type": "video",
-      "disabled": true,
-      "settings": {
-        "heading": "",
-        "heading_size": "h2",
-        "cover_image": "shopify:\/\/shop_images\/SeaVees_Inertia_Cover_Photo_3e8c474b-8cae-46c4-a9a0-fe4484602c55.jpg",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=z1L0i0QcQZk",
-        "description": "SeaTrees and SeaVees Video",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 12,
-        "padding_bottom": 24
-      }
-    },
     "1648834181268fa0bf": {
       "type": "image-with-text",
       "blocks": {
@@ -275,7 +200,7 @@
         "164883418143aa5478-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Together with The Bee & The Fox, 10% of the process from this collection goes to <strong>Planned Parenthood. <\/strong><\/p><p>to ensure that all people have access to the care and resources they ned to make informed decisions about their bodies, their lives, and their futures.<\/p>",
+            "text": "<p>Together with The Bee & The Fox, 10% of the proceeds from this collection goes to <strong>Planned Parenthood, <\/strong>to ensure that all people have access to the care and resources they ned to make informed decisions about their bodies, their lives, and their futures.<\/p>",
             "text_style": "body"
           }
         },
@@ -366,9 +291,7 @@
     "1652979137b0a62647",
     "1651769816dcb4919c",
     "1653069663d19d7d66",
-    "1652992451b58be40b",
     "16517685015d2ce9b4",
-    "16488340185b1f3cc8",
     "1648834181268fa0bf",
     "16533399328f27308a"
   ]
