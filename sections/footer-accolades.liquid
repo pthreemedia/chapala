@@ -1,0 +1,40 @@
+<div class="footer__column footer__column--info accolades">
+  {%- for block in section.blocks -%}
+    <img
+      src="{{ block.settings.accolade_image | img_url: '250x' }}"
+      alt="{{ block.settings.accolade_image.alt | escape }}"
+      loading="lazy"
+    >
+  {%- endfor -%}
+</div>
+
+{% schema %}
+{
+  "name": "Footer Accolades",
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Image",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "image_picker",
+          "id": "accolade_image",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "default": {
+    "blocks": [
+      {
+        "type": "image"
+      }
+    ]
+  }
+}
+{% endschema %}

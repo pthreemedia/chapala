@@ -1,0 +1,61 @@
+
+<div class="social-links-container">
+    <h2>{{ section.settings.headline }}</h2>
+    {%- if section.blocks != blank -%}
+        <div class="social-links">
+            {%- for block in section.blocks -%}
+                <a href="{{ block.settings.link.url }}" class="">
+                    <div 
+                        class="logo"
+                        style="
+                            display: block;
+                            width: 36px;
+                            height: 36px;
+                            background-color: white;
+                            -webkit-mask: url({{ block.settings.image_link }}) no-repeat center;
+                            mask: url({{ block.settings.image_link }}) no-repeat center;
+                        "
+                    /></div>                    
+                </a>
+                <span class="dn">{{ block.settings.title }}</span>
+            {%- endfor -%}
+        </div>
+    {% endif %}
+</div>
+
+
+{% schema %}
+{
+  "name": "Footer Social Links",
+  "settings": [
+    {
+        "type": "text",
+        "id": "headline",
+        "label": "Headline"
+    }
+  ],
+  "blocks": [
+        {
+            "name": "Platform",
+            "type": "platform",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Platform name"
+                },
+                {
+                    "type": "url",
+                    "id": "link",
+                    "label": "Link"
+                },
+                {
+                    "type": "text",
+                    "id": "image_link",
+                    "label": "Image Link"
+                }
+            ]
+        }
+    ]
+}
+{% endschema %}
