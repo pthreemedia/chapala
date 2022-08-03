@@ -756,15 +756,6 @@ class VariantSelects extends HTMLElement {
       this.renderProductInfo();
     }
 
-    if(this.getAvailableVariantsCount() == 1) {
-      this.updateOptions();
-      this.updateMasterId();
-      this.updateURL();
-      this.updateVariantInput();
-      this.renderProductInfo();
-      this.updateShareUrl();
-    }
-
     this.addEventListener('change', this.onVariantChange);
   }
 
@@ -772,11 +763,6 @@ class VariantSelects extends HTMLElement {
     // This function is left empty in VariantSelects object
     // It is to be overridden in VariantRadios object
     return;
-  }
-
-  getAvailableVariantsCount() {
-    const availableVariants = this.getVariantData().filter(variant => variant.available);
-    return availableVariants.length;
   }
 
   onVariantChange() {
@@ -868,6 +854,7 @@ class VariantSelects extends HTMLElement {
 
   
   renderProductInfo() {
+
     fetch(`${this.dataset.url}?variant=${this.currentVariant.id}&section_id=${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`)
       .then((response) => response.text())
       .then((responseText) => {
@@ -899,19 +886,8 @@ class VariantSelects extends HTMLElement {
     if (!addButton) return;
 
     if (disable) {
-      if(this.getAvailableVariantsCount() > 1) {
-        addButton.setAttribute('disabled', 'disabled');
-        if (text) addButtonText.textContent = text;
-      } else {
-        if(this.getAvailableVariantsCount() == 0) {
-          addButton.setAttribute('disabled', 'disabled');
-          addButtonText.textContent = window.variantStrings.soldOut;
-        } else {
-          addButton.removeAttribute('disabled');
-          addButton.removeAttribute('aria-disabled');
-          addButtonText.textContent = window.variantStrings.addToCart;
-        }
-      }
+      addButton.setAttribute('disabled', 'disabled');
+      if (text) addButtonText.textContent = text;
     } else {
       addButton.removeAttribute('disabled');
       addButton.removeAttribute('aria-disabled');
@@ -947,7 +923,7 @@ class VariantRadios extends VariantSelects {
   initOptions() {
     const sizeFieldSet = this.querySelector("fieldset.product-form-Size");
 
-    if(sizeFieldSet && this.getAvailableVariantsCount() != 1) {
+    if(sizeFieldSet) {
       const fieldInputs = sizeFieldSet.querySelectorAll("input");
       if(fieldInputs.length > 1) {
         const activeFieldInput = Array.from(fieldInputs).find((input) => input.hasAttribute("checked"));
@@ -1082,3 +1058,249 @@ class FeaturedSwatch extends HTMLElement {
 }
 
 customElements.define("featured-swatch", FeaturedSwatch);
+
+
+
+
+
+
+
+
+
+
+
+
+let slideUp = (target, duration=500) => {
+  target.style.transitionProperty = 'height, margin, padding';
+  target.style.transitionDuration = duration + 'ms';
+  target.style.boxSizing = 'border-box';
+  target.style.height = target.offsetHeight + 'px';
+  target.offsetHeight;
+  target.style.overflow = 'hidden';
+  target.style.height = 0;
+  target.style.paddingTop = 0;
+  target.style.paddingBottom = 0;
+  target.style.marginTop = 0;
+  target.style.marginBottom = 0;
+  window.setTimeout( () => {
+    target.style.display = 'none';
+    target.style.removeProperty('height');
+    target.style.removeProperty('padding-top');
+    target.style.removeProperty('padding-bottom');
+    target.style.removeProperty('margin-top');
+    target.style.removeProperty('margin-bottom');
+    target.style.removeProperty('overflow');
+    target.style.removeProperty('transition-duration');
+    target.style.removeProperty('transition-property');
+    //alert("!");
+  }, duration);
+}
+
+let slideDown = (target, duration=500) => {
+  target.style.removeProperty('display');
+  let display = window.getComputedStyle(target).display;
+
+  if (display === 'none')
+    display = 'block';
+
+  target.style.display = display;
+  let height = target.offsetHeight;
+  target.style.overflow = 'hidden';
+  target.style.height = 0;
+  target.style.paddingTop = 0;
+  target.style.paddingBottom = 0;
+  target.style.marginTop = 0;
+  target.style.marginBottom = 0;
+  target.offsetHeight;
+  target.style.boxSizing = 'border-box';
+  target.style.transitionProperty = "height, margin, padding";
+  target.style.transitionDuration = duration + 'ms';
+  target.style.height = height + 'px';
+  target.style.removeProperty('padding-top');
+  target.style.removeProperty('padding-bottom');
+  target.style.removeProperty('margin-top');
+  target.style.removeProperty('margin-bottom');
+  window.setTimeout( () => {
+    target.style.removeProperty('height');
+    target.style.removeProperty('overflow');
+    target.style.removeProperty('transition-duration');
+    target.style.removeProperty('transition-property');
+  }, duration);
+}
+var slideToggle = (target, duration = 500) => {
+  if (window.getComputedStyle(target).display === 'none') {
+    return slideDown(target, duration);
+  } else {
+    return slideUp(target, duration);
+  }
+}
+
+
+class toggleAnnouncementVisibility extends HTMLElement {
+  constructor() {
+    super();
+
+    this.addEventListener('click', (event)=> {
+      event.preventDefault();
+      document.body.classList.toggle("announcement-visible");
+      document.body.classList.toggle("announcement-not-visible");
+      slideToggle(document.getElementById("shopify-section-announcement-bar"), 500);
+
+      if (this.classList.contains("trigger-show")) {
+        window.scrollTo({top: 0, behavior: 'smooth'});
+        sessionStorage['userlosedAnnounment'] = 0;
+      }
+
+      if (this.classList.contains("trigger-hide")) {
+        // Set timer to save decision to hide announcement bar for current session
+        var now = new Date().getTime();
+        sessionStorage['userlosedAnnounment'] = now;
+      }  
+    })      
+  }
+}
+
+customElements.define('toggle-announcement-visibility', toggleAnnouncementVisibility);
+
+
+/* do we show announcement to user on page load? */
+var userClosedAnnouncement = sessionStorage['userlosedAnnounment'];
+
+if (userClosedAnnouncement > 0) {
+  document.querySelector("body").classList.remove("announcement-visible");  
+  document.querySelector("body").classList.add("page-load-announcement-not-visible");  
+} else {
+  document.querySelector("body").classList.add("announcement-visible");  
+  document.querySelector("body").classList.remove("page-load-announcement-not-visible");  
+}
+
+/* take dn off trigger-show because it fades out otherwise on page load*/
+document.querySelector(".trigger-show").classList.remove("dn");
+
+/* update control colors on page load */
+if (document.querySelector('#shopify-section-announcement-bar .slideshow_controls_container')) {
+  if (document.querySelector('#shopify-section-announcement-bar .slideshow_controls_container').classList.contains('inline')) {
+    var currentColorScheme = document.querySelector('#Slider-announcement-bar .slideshow__slide').getAttribute("data-color-scheme");
+    var slideshowControlsContainer = document.querySelector('#shopify-section-announcement-bar .slideshow_controls_container');
+    slideshowControlsContainer.setAttribute("data-color-scheme", currentColorScheme);
+    slideshowControlsContainer.classList.toggle(currentColorScheme);
+  }  
+}
+
+/* update control colors on announcement switch */
+
+var announcementSliderObserver = new MutationObserver(callback);
+
+if (document.querySelector('#shopify-section-announcement-bar slideshow-component')) {
+  announcementSliderObserver.observe(document.querySelector('#Slider-announcement-bar .slideshow__slide'), {
+    attributeFilter: ['aria-hidden'],
+    childList: true,
+    subtree: true
+  });
+}
+
+function callback(mutationList) {
+  mutationList.forEach(function(mutation) {
+    switch(mutation.type) {
+      case "attributes":
+        switch(mutation.attributeName) {
+          case "aria-hidden":
+            updateAnnouncementBarHeight();
+            if (document.querySelector('#shopify-section-announcement-bar .slideshow_controls_container').classList.contains('inline')) {
+              updateSliderControlColor();
+            }
+            break;
+          }
+        break;
+      }
+  });
+}
+
+var updateSliderControlColor = debounce(function() 
+{
+  // remove current color scheme
+  currentColorScheme = slideshowControlsContainer.getAttribute("data-color-scheme");
+  slideshowControlsContainer.classList.remove(currentColorScheme);
+
+  // get color scheme of slide showing
+  var newColorScheme = document.querySelector('#Slider-announcement-bar .slideshow__slide[aria-hidden="false"]').getAttribute("data-color-scheme");
+
+  // update controls container data attribute
+  slideshowControlsContainer.setAttribute("data-color-scheme", newColorScheme);;
+
+  // set class to update colors of controls
+  slideshowControlsContainer.classList.toggle(newColorScheme);
+
+}, 25);
+
+
+/* announcement height stuff */
+
+/* page load */
+if (document.querySelector('#shopify-section-announcement-bar slideshow-component')) {
+  var currentAnnounementSlideHeight = document.querySelector('#Slider-announcement-bar .slideshow__slide .announcement-bar').offsetHeight;
+  setTimeout(function() {
+    document.getElementById("Slider-announcement-bar").style.height = currentAnnounementSlideHeight + "px";
+  }, 1);
+}
+
+/* function for announcement switch */
+
+var updateAnnouncementBarHeight = debounce(function(){
+  var currentAnnounementSlideHeight;
+
+  if (document.querySelector('#Slider-announcement-bar .slideshow__slide[aria-hidden="false"] .announcement-bar') !== null){
+    currentAnnounementSlideHeight = document.querySelector('#Slider-announcement-bar .slideshow__slide[aria-hidden="false"] .announcement-bar').offsetHeight;
+  } else {
+    currentAnnounementSlideHeight = document.querySelector('#Slider-announcement-bar .slideshow__slide .announcement-bar').offsetHeight;
+  }
+  document.getElementById("Slider-announcement-bar").style.height = currentAnnounementSlideHeight + "px";  
+}, 24);
+
+
+class countdownToDate extends HTMLElement {
+  constructor() {
+    super();
+    function instantiateTimer() {
+
+      document.querySelectorAll('countdown-to-date').forEach((announcement) => {
+        // The data/time we want to countdown to
+        var countDownDate = new Date(announcement.getAttribute("data-datetime").replace(/-/g, "/")).getTime();
+
+        // Run myfunc every second
+        var myfunc = setInterval(function() {
+          var now = new Date().getTime();
+          var timeleft = countDownDate - now;
+
+          
+
+          // Calculating the days, hours, minutes and seconds left
+          var days = Math.floor(timeleft / (1000 * 60 * 60 * 24));
+          var hours = Math.floor((timeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          var minutes = Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((timeleft % (1000 * 60)) / 1000);
+              
+          // Result is output to the specific element
+          announcement.querySelector(".days").innerHTML = days + "d "
+          announcement.querySelector(".hours").innerHTML = hours + "h " 
+          announcement.querySelector(".mins").innerHTML = minutes + "m " 
+          announcement.querySelector(".secs").innerHTML = seconds + "s " 
+              
+          // Display the message when countdown is over
+          if (timeleft < 0) {
+              clearInterval(myfunc);
+              announcement.querySelector(".days").remove()
+              announcement.querySelector(".hours").remove() 
+              announcement.querySelector(".mins").remove()
+              announcement.querySelector(".secs").remove()
+              announcement.querySelector(".end").innerHTML = "This offer has expired.";
+          }
+        }, 1000);
+      });
+    }  
+    instantiateTimer();
+  }
+}
+
+
+customElements.define('countdown-to-date', countdownToDate);
