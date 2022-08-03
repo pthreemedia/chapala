@@ -242,25 +242,25 @@
         "1653339932d884285e-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Womens_Collection.jpg",
-            "title": "Womens Collection",
+            "image": "shopify:\/\/shop_images\/Womens_Classics.jpg",
+            "title": "Womens Legend Classic",
             "font_style": "h3",
             "text": "",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/womens-seachange",
-            "info_on_image": true
+            "link": "shopify:\/\/products\/womens-legend-sneaker-classic-bleach",
+            "info_on_image": false
           }
         },
         "1653339932d884285e-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mens_Collection.jpg",
-            "title": "Mens Collection",
+            "image": "shopify:\/\/shop_images\/Mens_Classics.jpg",
+            "title": "Mens Legend Classic",
             "font_style": "h3",
             "text": "",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/mens-seachange",
-            "info_on_image": true
+            "link": "shopify:\/\/products\/mens-legend-sneaker-classic-blue-mirage-poplin-twill",
+            "info_on_image": false
           }
         }
       },
