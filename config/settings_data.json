@@ -1,7 +1,5 @@
 {
   "current": {
-    "show_announcement": true,
-    "announcement_position": "above",
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#012e5c",
     "gradient_accent_1": "",
@@ -104,6 +102,8 @@
     "checkout_accent_color": "#193859",
     "checkout_button_color": "#193859",
     "checkout_error_color": "#dc4b28",
+    "show_announcement": true,
+    "announcement_position": "above",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -112,24 +112,12 @@
             "type": "announcement",
             "disabled": true,
             "settings": {
-              "heading": "Shop our Labor Day Savings",
-              "link": "shopify:\/\/collections\/all",
-              "cta_text": "See the collection",
-              "link_style": "pill",
-              "font": "MillerHeadlineLight",
-              "countdown_date": "2022-07-20 12:00 AM",
               "color_scheme": "background-2"
             }
           },
           "c5dc7240-53a9-4d80-8f47-453f7c3e8574": {
             "type": "announcement",
             "settings": {
-              "heading": "Free Shipping over $100",
-              "link": "",
-              "cta_text": "",
-              "link_style": "underline",
-              "font": "lato",
-              "countdown_date": "",
               "color_scheme": "accent-1"
             }
           }
@@ -139,13 +127,6 @@
           "c5dc7240-53a9-4d80-8f47-453f7c3e8574"
         ],
         "settings": {
-          "controls_position": "inline",
-          "hide_close_button": false,
-          "auto_rotate": false,
-          "hide_pause_button": false,
-          "change_slides_speed": 5,
-          "slider_visual": "dots",
-          "hide_slide_visual": true
         }
       },
       "header": {
