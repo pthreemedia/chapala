@@ -56,11 +56,11 @@
         "hero_video_mobile": "",
         "image_desktop": "shopify:\/\/shop_images\/Imperfects_hero_desktop_8f78a7af-6883-442a-9884-60cbafa3615c.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Imperfects_hero_mobile_2.jpg",
+        "adapt_height_first_image": false,
+        "text_image_separate": false,
         "desktop_text_box_vertical_position": "center",
         "desktop_text_box_horizontal_position": "center",
-        "desktop_text_alignment": "center",
-        "adapt_height_first_image": false,
-        "text_image_separate": false
+        "desktop_text_alignment": "center"
       }
     },
     "16517803397e095f87": {
@@ -659,11 +659,11 @@
         "hero_video_mobile": "",
         "image_desktop": "shopify:\/\/shop_images\/Imperfects.Seavees-41.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Imperfects_Mid_Hero_Mobile.jpg",
+        "adapt_height_first_image": false,
+        "text_image_separate": false,
         "desktop_text_box_vertical_position": "center",
         "desktop_text_box_horizontal_position": "flex-start",
-        "desktop_text_alignment": "left",
-        "adapt_height_first_image": false,
-        "text_image_separate": false
+        "desktop_text_alignment": "left"
       }
     }
   },

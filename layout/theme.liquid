@@ -199,7 +199,8 @@
         }
       }
     {% endstyle %}
-
+    
+    {{ 'selective-tailwind.css' | asset_url | stylesheet_tag }}
     {{ 'base.css' | asset_url | stylesheet_tag }}
 
     {%- unless settings.type_body_font.system? -%}
@@ -220,7 +221,17 @@
     </script>
   </head>
 
-  <body class="gradient">
+  <!-- Detect if announcement bar should be hidden and store in variable -->
+
+  <body 
+    class="
+      gradient
+      {% if settings.show_announcement %}
+      announcement-visible
+      {% endif %}
+      page-load-announcement-not-visible
+    "
+  >
   {% render 'elevar-body-end' %}
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
@@ -230,13 +241,36 @@
       {%- render 'cart-drawer' -%}
     {%- endif -%}
 
-    {% section 'announcement-bar' %}
+    {%- if settings.show_announcement and settings.announcement_position == 'above' -%}
+      {% section 'announcement-bar' %}
+    {%- endif -%}
+
     {% section 'header' %}
+
+    {%- if settings.show_announcement and settings.announcement_position == 'below' -%}
+      {% section 'announcement-bar' %}
+    {%- endif -%}
+
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
       {{ content_for_layout }}
     </main>
 
-    {% section 'footer' %}
+    
+    <!-- {% section 'footer' %} -->
+
+    <footer class="footer color-inverse gradient">
+      <div class="footer-row-1">
+        {% section 'footer-menus' %}
+        <div class="">
+          {% section 'footer-newsletter' %}
+          {% section 'footer-social-links' %}
+        </div>
+      </div> 
+      <div class="footer-row-2">
+        {% section 'footer-accolades' %}
+        {% section 'footer-small-print' %}
+    </div>
+    </footer>
 
     <ul hidden>
       <li id="a11y-refresh-page-message">{{ 'accessibility.refresh_page' | t }}</li>

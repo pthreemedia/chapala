@@ -1,5 +1,7 @@
 {
   "current": {
+    "show_announcement": true,
+    "announcement_position": "above",
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#012e5c",
     "gradient_accent_1": "",
@@ -108,33 +110,30 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
-          "1dceaaa3-c948-4cbc-a4e8-930e1847da35": {
-            "type": "announcement",
-            "disabled": true,
-            "settings": {
-              "text_desktop": "Free shipping on all orders over $100.",
-              "text_mobile": "Free shipping on all orders over $100.",
-              "color_scheme": "accent-3",
-              "desktop_link": "",
-              "mobile_link": ""
-            }
-          },
-          "f68ee00c-7431-4072-af4c-087138d4a59f": {
+          "c5dc7240-53a9-4d80-8f47-453f7c3e8574": {
             "type": "announcement",
             "settings": {
-              "text_desktop": "Free shipping on orders over $100.",
-              "text_mobile": "Free shipping on orders over $100.",
-              "color_scheme": "accent-3",
-              "desktop_link": "",
-              "mobile_link": ""
+              "heading": "Free shipping on orders over $100.",
+              "link": "",
+              "cta_text": "",
+              "link_style": "underline",
+              "font": "lato",
+              "countdown_date": "",
+              "color_scheme": "accent-3"
             }
           }
         },
         "block_order": [
-          "1dceaaa3-c948-4cbc-a4e8-930e1847da35",
-          "f68ee00c-7431-4072-af4c-087138d4a59f"
+          "c5dc7240-53a9-4d80-8f47-453f7c3e8574"
         ],
         "settings": {
+          "controls_position": "inline",
+          "hide_close_button": false,
+          "auto_rotate": false,
+          "hide_pause_button": false,
+          "change_slides_speed": 5,
+          "slider_visual": "counter",
+          "hide_slide_visual": false
         }
       },
       "header": {
@@ -285,8 +284,8 @@
           "footer-1": {
             "type": "link_list",
             "settings": {
-              "heading": "Connect",
-              "menu": "footer-connect"
+              "heading": "Shop",
+              "menu": "footer-shop"
             }
           },
           "d2e7ec3c-3bfb-4819-bd97-0418ff520f74": {
@@ -330,6 +329,125 @@
         "type": "main-password-footer",
         "settings": {
           "color_scheme": "background-1"
+        }
+      },
+      "footer-menus": {
+        "type": "footer-menus",
+        "blocks": {
+          "ad501976-8c75-4064-9c32-c87071c67625": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Shop",
+              "menu": "footer-shop"
+            }
+          },
+          "133c9452-a189-4790-9edc-dfff9bcf7edf": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Company",
+              "menu": "footer-about"
+            }
+          },
+          "14df0131-0e82-4d2a-a821-0ca3dfc4bf43": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Help",
+              "menu": "footer-help"
+            }
+          }
+        },
+        "block_order": [
+          "ad501976-8c75-4064-9c32-c87071c67625",
+          "133c9452-a189-4790-9edc-dfff9bcf7edf",
+          "14df0131-0e82-4d2a-a821-0ca3dfc4bf43"
+        ],
+        "settings": {
+        }
+      },
+      "footer-newsletter": {
+        "type": "footer-newsletter",
+        "settings": {
+          "newsletter_enable": true,
+          "newsletter_heading": "Join The Crew",
+          "newsletter_subheading": "Sign up to our newsletter and save 10% off your first order."
+        }
+      },
+      "footer-social-links": {
+        "type": "footer-social-links",
+        "blocks": {
+          "a3eb8422-fd51-4113-95b3-c8d05b72f88f": {
+            "type": "platform",
+            "settings": {
+              "title": "Twitter",
+              "link": "https:\/\/twitter.com\/seavees",
+              "image_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0561\/3333\/files\/twitter.svg?v=1658254397"
+            }
+          },
+          "d2aa381a-8f8c-435e-860c-8635e18c8521": {
+            "type": "platform",
+            "settings": {
+              "title": "Facebook",
+              "link": "https:\/\/www.facebook.com\/SeaVees\/",
+              "image_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0561\/3333\/files\/facebook.svg?v=1658254209"
+            }
+          },
+          "be33b70f-862b-4243-a257-11f32b300a58": {
+            "type": "platform",
+            "settings": {
+              "title": "Instagram",
+              "link": "https:\/\/www.instagram.com\/seavees\/",
+              "image_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0561\/3333\/files\/instagram.svg?v=1658254397"
+            }
+          },
+          "c55be27b-eced-4112-a3aa-d0f1ba525131": {
+            "type": "platform",
+            "settings": {
+              "title": "Pinterest",
+              "link": "https:\/\/www.pinterest.com\/seavees\/",
+              "image_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0561\/3333\/files\/pinterest.svg?v=1658254397"
+            }
+          }
+        },
+        "block_order": [
+          "a3eb8422-fd51-4113-95b3-c8d05b72f88f",
+          "d2aa381a-8f8c-435e-860c-8635e18c8521",
+          "be33b70f-862b-4243-a257-11f32b300a58",
+          "c55be27b-eced-4112-a3aa-d0f1ba525131"
+        ],
+        "settings": {
+          "headline": ""
+        }
+      },
+      "footer-small-print": {
+        "type": "footer-small-print",
+        "settings": {
+          "menu": "small-print-menu",
+          "copyright_text": "Seavees"
+        }
+      },
+      "footer-accolades": {
+        "type": "footer-accolades",
+        "blocks": {
+          "aac4d499-cd15-4443-91d9-e8b511e93e47": {
+            "type": "image",
+            "settings": {
+              "title": "CA 64",
+              "accolade_image": "shopify:\/\/shop_images\/CA64_grey.png"
+            }
+          },
+          "footer-accolades-0": {
+            "type": "image",
+            "settings": {
+              "title": "1% For The Planet",
+              "accolade_image": "shopify:\/\/shop_images\/1Planet.png"
+            }
+          }
+        },
+        "block_order": [
+          "aac4d499-cd15-4443-91d9-e8b511e93e47",
+          "footer-accolades-0"
+        ],
+        "settings": {
         }
       }
     },

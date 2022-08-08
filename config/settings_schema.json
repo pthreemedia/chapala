@@ -3,9 +3,40 @@
     "name": "theme_info",
     "theme_name": "Chapala",
     "theme_version": "2.0",
-    "theme_author": "Shopify + PJHARIDE",
+    "theme_author": "PJHARIDE + Brandon Scott",
     "theme_documentation_url": "https:\/\/help.shopify.com\/manual\/online-store\/themes",
     "theme_support_url": "https:\/\/support.shopify.com\/"
+  },
+  {
+    "name": "Announcement Settings",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Announcement Settings"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_announcement",
+        "label": "Show announcement",
+        "default": true
+      },
+      {
+        "type": "select",
+        "id": "announcement_position",
+        "label": "Position",
+        "options": [
+          {
+            "value": "above",
+            "label": "Above Navigation"
+          },
+          {
+            "value": "below",
+            "label": "Below Navigation"
+          }
+        ],
+        "default": "above"
+      }
+    ]
   },
   {
     "name": "t:settings_schema.colors.name",
@@ -99,12 +130,12 @@
         "type": "color",
         "id": "colors_background_3",
         "default": "#FAF1E9",
-        "label": "t:settings_schema.colors.settings.colors_background_2.label"
+        "label": "t:settings_schema.colors.settings.colors_background_3.label"
       },
       {
         "id": "gradient_background_3",
         "type": "color_background",
-        "label": "t:settings_schema.colors.settings.gradient_background_2.label"
+        "label": "t:settings_schema.colors.settings.gradient_background_3.label"
       }
     ]
   },
