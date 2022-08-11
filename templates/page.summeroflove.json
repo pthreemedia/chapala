@@ -200,7 +200,7 @@
         "164883418143aa5478-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Together with The Bee & The Fox, 10% of the proceeds from this collection goes to <strong>Planned Parenthood, <\/strong>to ensure that all people have access to the care and resources they ned to make informed decisions about their bodies, their lives, and their futures.<\/p>",
+            "text": "<p>Together with The Bee & The Fox, we are giving <strong>10% of the proceeds from this collection to Planned Parenthood <\/strong>to ensure that all people have access to the care and resources they need to make informed decisions about their bodies, their lives, and their futures.<\/p>",
             "text_style": "body"
           }
         },
@@ -232,6 +232,109 @@
         "mobile_content_alignment": "left",
         "padding_top": 40,
         "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "166025666336c6bad2": {
+      "type": "image-banner",
+      "blocks": {
+        "1660256663c8c99e51-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading_line_1": "Image banner",
+            "heading_line_2": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "1660256663c8c99e51-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "1660256663c8c99e51-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1660256663c8c99e51-0",
+        "1660256663c8c99e51-1",
+        "1660256663c8c99e51-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Landing-Page-Banner.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "1660257321d4ce162d": {
+      "type": "image-with-text",
+      "blocks": {
+        "16602573212d274009-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The sound of change",
+            "heading_size": "h2"
+          }
+        },
+        "16602573212d274009-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A playlist curated by SeaVees, featuring songs released by some of the best female artists of 1967.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "16602573212d274009-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Listen Now",
+            "button_link": "https:\/\/open.spotify.com\/playlist\/3CvoPFn06sfplB8VLR6yC4?si=d01063d3e85a41ce",
+            "use_arrow_link": false,
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16602573212d274009-0",
+        "16602573212d274009-1",
+        "16602573212d274009-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Spotify_Playlist_GIF_2.gif",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "full_width": false,
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
         "margin_top": 0,
         "margin_bottom": 0
       }
@@ -293,6 +396,8 @@
     "1653069663d19d7d66",
     "16517685015d2ce9b4",
     "1648834181268fa0bf",
+    "166025666336c6bad2",
+    "1660257321d4ce162d",
     "16533399328f27308a"
   ]
 }
