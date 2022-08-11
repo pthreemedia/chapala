@@ -325,7 +325,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Spotify_Playlist_GIF_2.gif",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "full_width": false,
         "layout": "image_first",
         "desktop_content_position": "middle",
