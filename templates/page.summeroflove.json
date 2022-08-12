@@ -23,7 +23,7 @@
           "type": "text",
           "settings": {
             "text": "Celebrate the 55th anniversary of the summer of love with this limited edition collaboration.",
-            "text_style": "caption-with-letter-spacing"
+            "text_style": "body"
           }
         },
         "165297913758c6d6d2-2": {
@@ -262,7 +262,7 @@
         "164883418143aa5478-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Together with The Bee & The Fox, we are giving <strong>10% of the proceeds from this collection to Planned Parenthood <\/strong>to ensure that all people have access to the care and resources they need to make informed decisions about their bodies, their lives, and their futures.<\/p>",
+            "text": "<p><em>- Ashley Jennett, Founder of The Bee & The Fox<\/em><\/p><p><\/p><p>Together with The Bee & The Fox, we are giving <strong>10% of the proceeds from this collection to Planned Parenthood <\/strong>to ensure that all people have access to the care and resources they need to make informed decisions about their bodies, their lives, and their futures.<\/p>",
             "text_style": "body"
           }
         },
