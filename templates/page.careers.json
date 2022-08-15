@@ -123,6 +123,17 @@
             "info_on_image": false
           }
         },
+        "d32262e6-10d1-4e75-882a-8ac07dea52be": {
+          "type": "column",
+          "settings": {
+            "title": "Assistant Store Manager - Santa Barbara",
+            "font_style": "h3",
+            "text": "<p>Based at our Santa Barbara, CA retail store, this role provides support to the Store Manager in order to achieve the highest levels of customer service sales.<\/p>",
+            "link_label": "View Details",
+            "link": "shopify:\/\/pages\/careers-retail-assistant-manager-santa-barbara",
+            "info_on_image": false
+          }
+        },
         "9d2288f3-ce8c-4967-82ff-696fbceb0690": {
           "type": "column",
           "settings": {
@@ -141,6 +152,7 @@
         "c6ae60f4-21ff-4c88-8bd9-80bebf7f42b1",
         "16488307761b149624-0",
         "16488307761b149624-1",
+        "d32262e6-10d1-4e75-882a-8ac07dea52be",
         "9d2288f3-ce8c-4967-82ff-696fbceb0690"
       ],
       "settings": {
