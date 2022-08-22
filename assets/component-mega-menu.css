@@ -148,3 +148,5 @@
   text-decoration: none;
   color: rgba(var(--color-foreground),.75)
 }
+
+.mega-menu__content li:last-of-type a { color: red; }
