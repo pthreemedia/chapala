@@ -149,4 +149,4 @@
   color: rgba(var(--color-foreground),.75)
 }
 
-.mega-menu__content ul.mega-menu__list ul[role="list"] li:last-of-type a.mega-menu__link { color: red; }
+.mega-menu__content ul.mega-menu__list li:nth-child(1) ul[role="list"] li:last-of-type a.mega-menu__link { color: red; }
