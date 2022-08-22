@@ -71,15 +71,23 @@
         "03c43404-9428-40e4-90b1-503a9e727f7f": {
           "type": "page_menu_link",
           "settings": {
-            "link_text": "Kids",
-            "link_url": "shopify:\/\/collections\/kids-sale"
+            "link_text": "Little Kids",
+            "link_url": "shopify:\/\/collections\/little-kids-sale"
+          }
+        },
+        "27202e04-bf4c-478f-873f-940d3daa013e": {
+          "type": "page_menu_link",
+          "settings": {
+            "link_text": "Big Kids",
+            "link_url": "shopify:\/\/collections\/big-kids-sale"
           }
         }
       },
       "block_order": [
         "1648835822fd2840fa-0",
         "ffccb7e6-f38a-4cb6-a543-fc9a5114698b",
-        "03c43404-9428-40e4-90b1-503a9e727f7f"
+        "03c43404-9428-40e4-90b1-503a9e727f7f",
+        "27202e04-bf4c-478f-873f-940d3daa013e"
       ],
       "settings": {
         "stack_on_mobile": false,
