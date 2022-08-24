@@ -126,9 +126,9 @@
           "b02319df-3561-47db-8787-8de4610da820": {
             "type": "announcement",
             "settings": {
-              "heading": ":",
+              "heading": "Sale Ends Soon",
               "link": "shopify:\/\/collections\/womens-sale",
-              "cta_text": "Left to save up to 60%",
+              "cta_text": "Save up to 60%",
               "link_style": "underline",
               "font": "lato",
               "countdown_date": "2022-08-29 00:00",
