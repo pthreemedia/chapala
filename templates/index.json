@@ -2,6 +2,7 @@
   "sections": {
     "164867367120e1947e": {
       "type": "hero-banner",
+      "disabled": true,
       "blocks": {
         "1648673671d11f3268-0": {
           "type": "heading",
@@ -59,12 +60,11 @@
     },
     "1652135633ce7ce319": {
       "type": "hero-banner",
-      "disabled": true,
       "blocks": {
         "16521356332262bfc5-0": {
           "type": "heading",
           "settings": {
-            "heading": "Summer of Love",
+            "heading": "The Shoe That's Sold Out Twice",
             "heading_2": "",
             "font_size": "h0",
             "hide_block_on_mobile": false,
@@ -74,7 +74,7 @@
         "16521356332262bfc5-1": {
           "type": "text",
           "settings": {
-            "text": "Celebrate with this limited-edition Legend. 10% of every purchase gives back to Planned Parenthood.",
+            "text": "Now available in new colors",
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
           }
@@ -82,8 +82,8 @@
         "16521356332262bfc5-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Womens",
-            "button_link_1": "\/pages\/summer-of-love",
+            "button_label_1": "Shop Now",
+            "button_link_1": "\/products\/womens-monterey-sneaker-platform-cotton-canvas-black",
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary": false,
