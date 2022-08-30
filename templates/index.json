@@ -109,7 +109,7 @@
         "text_image_separate": false,
         "show_text_box": false,
         "desktop_content_half": "left",
-        "banner_content_half_color": "accent-1",
+        "banner_content_half_color": "background-3",
         "desktop_text_box_vertical_position": "center",
         "desktop_text_box_horizontal_position": "center",
         "desktop_text_alignment": "center"
