@@ -387,14 +387,14 @@
         "16497985735c91a62a-1": {
           "type": "text",
           "settings": {
-            "text": "<p>“I'm blown away by how comfortable they are! Super cute AND comfortable! Awesome! They run true to size.”<\/p>",
+            "text": "<p>Love! These shoes are awesome and super comfy!  True to size and love the natural color!!!<\/p>",
             "text_style": "h2"
           }
         },
         "95b3722c-f77d-41c7-911c-2c098384bc2b": {
           "type": "caption",
           "settings": {
-            "caption": "- kelly d.",
+            "caption": "- Stephanie S.",
             "text_style": "caption-with-letter-spacing",
             "text_size": "small"
           }
@@ -402,8 +402,8 @@
         "16497985735c91a62a-2": {
           "type": "button",
           "settings": {
-            "button_label": "Shop The Monterey Platform Bleach",
-            "button_link": "shopify:\/\/products\/womens-monterey-sneaker-platform-cotton-canvas-bleach",
+            "button_label": "Shop The SeaChange Slip On in Natural",
+            "button_link": "\/products\/womens-seachange-slip-on-pineapple-yarn-natural",
             "use_arrow_link": true,
             "button_style_secondary": false
           }
@@ -415,7 +415,7 @@
         "16497985735c91a62a-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/seavees-womens-monterey-platform-bleach-lifestyle-131111.jpg",
+        "image": "shopify:\/\/shop_images\/SeaChange_Slip_On_Natural.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "full_width": true,
