@@ -979,6 +979,10 @@
         "id": "badge_position",
         "options": [
           {
+            "value": "bottom center",
+            "label": "Bottom Center"
+          },
+          {
             "value": "bottom left",
             "label": "t:settings_schema.badges.settings.position.options__1.label"
           },

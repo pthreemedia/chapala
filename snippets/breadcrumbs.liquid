@@ -8,7 +8,6 @@
     {% render 'breadcrumbs', show_home: section.settings.show_home %}
 {% endcomment %}
 
-
 {% unless template == 'index' or template == 'cart' or template == 'list-collections' %}
     <nav class="breadcrumb" role="navigation" aria-label="breadcrumbs">
       {% if show_home %}<a href="/" title="Home">Home</a>{% endif %}
@@ -33,19 +32,21 @@
         <a href="/collections/{{ product.metafields.seavees.gender | downcase }}-{{ product.type | downcase }}">{{ product.type }}</a>
       {% elsif template contains 'collection' and collection.handle %}
         <span aria-hidden="true">/</span>
-        {% if current_tags %}
-          {% capture url %}/collections/{{ collection.handle }}{% endcapture %}
-          {{ collection.title | link_to: url }}
-          <span aria-hidden="true">/ Tagged</span>
-          <span>'{{ current_tags | join: " + " }}'</span>
-        {% else %}
-          {% if collection.handle == "womens-sneakers" or collection.handle == "womens-slip-ons" or collection.handle == "womens-boots" or collection.handle == "womens-sandals-slippers" or collection.handle == "womens-casuals" or collection.handle == "womens-new-arrivals" or collection.handle == "womens-best-sellers" or collection.handle == "womens-platforms" %}
-            <a href="/womens">Womens Shoes</a><span> / </span>
-          {% elsif collection.handle == "mens-sneakers" or collection.handle == "mens-slip-ons" or collection.handle == "mens-boots" or collection.handle == "mens-sandals-slippers" or collection.handle == "mens-casuals" or collection.handle == "mens-new-arrivals" or collection.handle == "mens-best-sellers" %}
-            <a href="/mens">Mens Shoes</a><span> / </span>
+        {% unless hide_current_page %}
+          {% if current_tags %}
+            {% capture url %}/collections/{{ collection.handle }}{% endcapture %}
+            {{ collection.title | link_to: url }}
+            <span aria-hidden="true">/ Tagged</span>
+            <span>'{{ current_tags | join: " + " }}'</span>
+          {% else %}
+            {% if collection.handle == "womens-sneakers" or collection.handle == "womens-slip-ons" or collection.handle == "womens-boots" or collection.handle == "womens-sandals-slippers" or collection.handle == "womens-casuals" or collection.handle == "womens-new-arrivals" or collection.handle == "womens-best-sellers" or collection.handle == "womens-platforms" %}
+              <a href="/womens">Womens Shoes</a><span> / </span>
+            {% elsif collection.handle == "mens-sneakers" or collection.handle == "mens-slip-ons" or collection.handle == "mens-boots" or collection.handle == "mens-sandals-slippers" or collection.handle == "mens-casuals" or collection.handle == "mens-new-arrivals" or collection.handle == "mens-best-sellers" %}
+              <a href="/mens">Mens Shoes</a><span> / </span>
+            {% endif %}
+            <span>{{ collection.title }}</span> 
           {% endif %}
-          <span>{{ collection.title }}</span> 
-        {% endif %}
+        {% endunless %}
       {% elsif template == 'blog' %}
         <span aria-hidden="true">/</span>
         {% if current_tags %}

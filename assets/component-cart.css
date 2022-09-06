@@ -194,6 +194,7 @@ cart-items {
 }
 
 .cart__ctas {
+  margin-top: 12px;
   text-align: center;
 }
 
@@ -218,6 +219,27 @@ cart-items {
 
   .cart__ctas {
     display: flex;
-    gap: 1rem;
+    flex-direction: column;
   }
+}
+
+.cart-free-shipping-message.hide {
+  display: none;
+}
+
+.cart-free-shipping-message {
+  text-align: center;
+  margin: 0px 0 24px;
+  border: 2px solid rgba(var(--color-foreground), .1);
+  padding: 12px;
+}
+
+.cart-free-shipping-message h3, 
+.cart-free-shipping-message p {
+  margin: 0;
+}
+
+.cart__checkout-button svg {
+  height: 24px;
+  margin-right: 12px;
 }

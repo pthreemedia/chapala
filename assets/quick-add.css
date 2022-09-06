@@ -127,7 +127,7 @@ quick-add-modal .product:not(.featured-product) .product__view-details {
   display: block;
 }
 
-quick-add-modal .quick-add-hidden,
+/* quick-add-modal .quick-add-hidden,
 quick-add-modal .product__modal-opener:not(.product__modal-opener--image),
 quick-add-modal .product__media-item:not(:first-child) {
   display: none !important;
@@ -135,7 +135,7 @@ quick-add-modal .product__media-item:not(:first-child) {
 
 quick-add-modal .slider.slider--mobile {
   overflow: visible;
-}
+} */
 
 quick-add-modal .product__media-list .deferred-media {
   display: block;
@@ -197,4 +197,18 @@ quick-add-modal .product-form__buttons {
 .quick-add__submit {
   padding: 0.75rem 1rem;
   box-sizing: border-box;
+}
+
+.quick-add-modal__content-info nav.breadcrumb,
+.quick-add-modal__content-info .product-back-in-stock,
+.quick-add-modal__content-info .product__accordion.accordion {
+  display: none;
+}
+
+.quick-add-modal__content-info .rating-count span {
+  text-decoration: none;
+}
+
+.reviews-link-container a:hover{
+  cursor: default; 
 }

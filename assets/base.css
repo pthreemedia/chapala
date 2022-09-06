@@ -811,7 +811,6 @@ details > * {
 .underlined-link:hover,
 .customer a:hover {
   color: rgb(var(--color-link));
-  text-decoration-thickness: 0.2rem;
 }
 
 .icon-arrow {
@@ -2352,6 +2351,8 @@ input[type='checkbox'] {
   padding: 0.75rem;
   text-decoration: none;
   word-break: break-word;
+  z-index: 2;
+  position: relative;
 }
 
 .header__heading-link:hover .h2 {
@@ -2397,6 +2398,8 @@ input[type='checkbox'] {
   display: flex;
   grid-area: icons;
   justify-self: end;
+  position: relative;
+  z-index: 2;
 }
 
 .header__icons .icon {
@@ -2682,9 +2685,11 @@ details[open] > .header__submenu {
     width: 0%;
     height: 1px;
     background-color: #dc4b28;
+    z-index: 2;
 }
 
-.header__menu-item:hover {
+.header__menu-item:hover,
+details[open] .header__menu-item {
   color: #dc4b28;
 }
 
@@ -2790,18 +2795,15 @@ details-disclosure > details {
 }
 
 .badge {
-  border: 1px solid transparent;
-  border-radius: var(--badge-corner-radius);
   display: inline-block;
   font-size: 1.2rem;
   letter-spacing: 0.1rem;
   line-height: 1;
   padding: 0.6rem 1.3rem;
   text-align: center;
-  background-color: rgb(var(--color-badge-background));
-  border-color: rgba(var(--color-badge-border), var(--alpha-badge-border));
   color: rgb(var(--color-foreground));
   word-break: break-word;
+  font-weight: bold;
 }
 
 .gradient {
@@ -3873,4 +3875,15 @@ p.copyright {
     margin-left: 0;
   }
 
+}
+
+.swiper-button-prev:empty,
+.swiper-button-next:empty {
+  display: flex;
+}
+
+.blue-on-white {
+  color: var(--color-foreground);
+  background: white;
+  border: rgb(var(--color-foreground)) solid 1px;
 }

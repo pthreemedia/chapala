@@ -63,8 +63,8 @@
 
     <product-swatch class="product-swatches">
             {% unless classic_array.size == 1 %}
-                    {% for related_product in classic_array %}
-                        {% unless forloop.last == true %}
+                {% for related_product in classic_array %}
+                    {% unless forloop.last == true %}
                         {% assign related_product_vals = related_product | split: '|' %}
                         <div>
                             <a
@@ -84,31 +84,31 @@
                             >
                             </a>
                         </div>
-                        {% endunless %}
-                    {% endfor %}
+                    {% endunless %}
+                {% endfor %}
             {% endunless %}
             {% unless collection_array.size == 1 %}
                 {% for related_product in collection_array %}
                     {% unless forloop.last == true %}
-                    {% assign related_product_vals = related_product | split: '|' %}
-                    <div>
-                        <a
-                            href="{{ related_product_vals[1] }}"
-                            class="product-swatch {{ product.url }} {{ related_product_vals[1] }} {% if product.url == related_product_vals[1] %}active{% endif %}"
-                            {%- if related_product_vals[3] != blank -%}
-                                style="background-image: url({{ related_product_vals[3] }}); background-size: cover;"
-                            {%- elsif related_product_vals[2] != blank -%}
-                                style="background-color: {{ related_product_vals[2] }}"
-                            {%- else -%}
-                                style="background-color: #f9f9f9; border-color: #e1e1e1;"
-                            {%- endif -%}
-                            data-var-handle='{{ handle }}'
-                            data-related_product-handle='{{ related_product_vals[0] }}'
-                            title="{{ related_product_vals[4] }}"
-                            aria-label="View related color {{ related_product_vals[4] }}"
-                        >
-                        </a>
-                    </div>
+                        {% assign related_product_vals = related_product | split: '|' %}
+                        <div>
+                            <a
+                                href="{{ related_product_vals[1] }}"
+                                class="product-swatch {{ product.url }} {{ related_product_vals[1] }} {% if product.url == related_product_vals[1] %}active{% endif %}"
+                                {%- if related_product_vals[3] != blank -%}
+                                    style="background-image: url({{ related_product_vals[3] }}); background-size: cover;"
+                                {%- elsif related_product_vals[2] != blank -%}
+                                    style="background-color: {{ related_product_vals[2] }}"
+                                {%- else -%}
+                                    style="background-color: #f9f9f9; border-color: #e1e1e1;"
+                                {%- endif -%}
+                                data-var-handle='{{ handle }}'
+                                data-related_product-handle='{{ related_product_vals[0] }}'
+                                title="{{ related_product_vals[4] }}"
+                                aria-label="View related color {{ related_product_vals[4] }}"
+                            >
+                            </a>
+                        </div>
                     {% endunless %}
                 {% endfor %}
             {% endunless %}

@@ -60,6 +60,16 @@ class FacetFiltersForm extends HTMLElement {
       const url = `${window.location.pathname}?section_id=${section.section}&${searchParams}`;
       const filterDataUrl = element => element.url === url;
 
+      if (document.querySelector('.collection-fall-2022-layout')) {
+        fetch(`${window.location.pathname}?section_id=collection-filter&${searchParams}`)
+        .then(response => response.text())
+        .then((responseText) => {
+          const facetsSection = responseText;
+          document.getElementById('FacetsWrapperDesktop').innerHTML = new DOMParser().parseFromString(facetsSection, 'text/html').getElementById('FacetsWrapperDesktop').innerHTML;
+          document.querySelector('.active-facets-mobile').innerHTML = new DOMParser().parseFromString(facetsSection, 'text/html').querySelector('.active-facets-mobile').innerHTML;          
+        });        
+      }
+
       FacetFiltersForm.filterData.some(filterDataUrl) ?
         FacetFiltersForm.renderSectionFromCache(filterDataUrl, event) :
         FacetFiltersForm.renderSectionFromFetch(url, event);
@@ -89,22 +99,43 @@ class FacetFiltersForm extends HTMLElement {
 
   static renderProductGridContainer(html) {
     document.getElementById('ProductGridContainer').innerHTML = new DOMParser().parseFromString(html, 'text/html').getElementById('ProductGridContainer').innerHTML;
+    swatchSwiperSetup();
   }
 
   static renderProductCount(html) {
-    const count = new DOMParser().parseFromString(html, 'text/html').getElementById('ProductCount').innerHTML
-    const container = document.getElementById('ProductCount');
-    const containerDesktop = document.getElementById('ProductCountDesktop');
-    container.innerHTML = count;
-    container.classList.remove('loading');
-    if (containerDesktop) {
-      containerDesktop.innerHTML = count;
-      containerDesktop.classList.remove('loading');
+    if (new DOMParser().parseFromString(html, 'text/html').getElementById('ProductCount').innerHTML !== null) {
+      const count = new DOMParser().parseFromString(html, 'text/html').getElementById('ProductCount').innerHTML
+      const container = document.getElementById('ProductCount');
+      const containerDesktop = document.getElementById('ProductCountDesktop');
+      container.innerHTML = count;
+      container.classList.remove('loading');
+      if (containerDesktop) {
+        containerDesktop.innerHTML = count;
+        containerDesktop.classList.remove('loading');
+      }
+
+      const text = 'Color';
+      const matches = [];
+      for (const div of document.querySelectorAll('.active-facets__button-inner')) {
+        if (div.textContent.includes(text)) {
+          if (document.querySelector("#ProductGridContainer")) {
+            matches.push(div);
+            break;
+          } 
+        } 
+      }
+
+      if (matches.length) {
+        document.querySelector("#ProductGridContainer").classList.add("hide-color-picker");
+      } else {
+        document.querySelector("#ProductGridContainer").classList.remove("hide-color-picker");
+      }
     }
   }
 
   static renderFilters(html, event) {
     const parsedHTML = new DOMParser().parseFromString(html, 'text/html');
+
 
     const facetDetailsElements =
       parsedHTML.querySelectorAll('#FacetFiltersForm .js-filter, #FacetFiltersFormMobile .js-filter, #FacetFiltersPillsForm .js-filter');
@@ -122,6 +153,8 @@ class FacetFiltersForm extends HTMLElement {
     FacetFiltersForm.renderActiveFacets(parsedHTML);
     FacetFiltersForm.renderAdditionalElements(parsedHTML);
 
+    swatchSwiperSetup();
+
     if (countsToRender) FacetFiltersForm.renderCounts(countsToRender, event.target.closest('.js-filter'));
   }
 
@@ -130,6 +163,7 @@ class FacetFiltersForm extends HTMLElement {
 
     activeFacetElementSelectors.forEach((selector) => {
       const activeFacetsElement = html.querySelector(selector);
+
       if (!activeFacetsElement) return;
       document.querySelector(selector).innerHTML = activeFacetsElement.innerHTML;
     })
@@ -186,6 +220,7 @@ class FacetFiltersForm extends HTMLElement {
   }
 
   onSubmitHandler(event) {
+
     event.preventDefault();
     const sortFilterForms = document.querySelectorAll('facet-filters-form form');
     if (event.srcElement.className == 'mobile-facets__checkbox') {
@@ -197,8 +232,8 @@ class FacetFiltersForm extends HTMLElement {
         if(instockInput) instockInput.checked = true;
         const formData = new FormData(event.target.closest('form'));
         searchParams = new URLSearchParams(formData).toString();
+        alert("searchParams");
       }
-      console.log('searchParams: ', searchParams);
       this.onSubmitForm(searchParams, event)
     } else {
       const forms = [];

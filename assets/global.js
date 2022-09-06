@@ -1287,7 +1287,7 @@ class countdownToDate extends HTMLElement {
     super();
     function instantiateTimer() {
 
-      document.querySelectorAll('countdown-to-date').forEach((announcement) => {
+      document.querySelectorAll('').forEach((announcement) => {
         // The data/time we want to countdown to
         var countDownDate = new Date(announcement.getAttribute("data-datetime").replace(/-/g, "/")).getTime();
 
@@ -1328,3 +1328,179 @@ class countdownToDate extends HTMLElement {
 
 
 customElements.define('countdown-to-date', countdownToDate);
+
+class groupedProductSwatchToggle extends HTMLElement {
+  constructor() {
+    super();
+
+    this.addEventListener('click', (event)=> {
+      event.preventDefault();
+
+      var containerParent = this.closest('.grouped-collection-container');
+
+      containerParent.querySelector(".product-swatch.active").classList.remove('active');
+      this.classList.add("active");
+
+      var cardToToggleURL = this.getAttribute("data-card-product-url");
+      var targetCard = containerParent.querySelector(".grouped-collection-container [data-card-product-container-url='" + cardToToggleURL + "']");
+      containerParent.querySelector('.card-wrapper.active').classList.remove('active');
+      targetCard.classList.add("active");
+    })      
+  }
+}
+
+customElements.define('grouped-product-swatch-toggle', groupedProductSwatchToggle);
+
+
+function swatchSwiperSetup() {
+  const swatchSwiper = document.querySelectorAll('.swiper.product-swatch-swiper');
+
+  for( i=0; i< swatchSwiper.length; i++ ) {
+    if (swatchSwiper[i].querySelectorAll(".swiper-slide").length < 5) {
+    
+      swatchSwiper[i].classList.add('swiper-container-' + i);
+      swatchSwiper[i].classList.add('less-than-five-swatches');
+      swatchSwiper[i].closest('.grouped-collection-container').classList.add('less-than-five-swatches');
+
+      var slider = new Swiper('.swiper-container-' + i, {
+        slidesPerView: 4,
+        slidesPerGroup: 4,
+        loop: false
+      });
+
+    } else {
+      swatchSwiper[i].classList.add('swiper-container-' + i);
+      swatchSwiper[i].closest('.grouped-collection-container').classList.add('swiper-container-parent-' + i);        
+      var slider = new Swiper('.swiper-container-' + i, {
+        slidesPerView: 4,
+        slidesPerGroup: 4,
+        loop: false,
+        navigation: {
+          nextEl: '.swiper-container-parent-' + i + ' .swiper-button-next',
+          prevEl: '.swiper-container-parent-' + i + ' .swiper-button-prev'
+        }
+      });
+    }
+  }
+}
+
+document.addEventListener('DOMContentLoaded', swatchSwiperSetup);
+
+function menuSetup() {
+  
+  if (document.querySelector("[hover-mega-menu]")) {
+
+    let showDelay = 0, hideDelay = 10;
+
+    let allMenuItems = document.querySelector(".header__inline-menu").querySelectorAll("details");
+  
+    for (let i = 0; i < allMenuItems.length; i++) {
+      allMenuItems[i].addEventListener('mouseenter', function() {
+        var now = Date.now();
+  
+        let thisItem = this;
+          
+        function mouseEnterMenuItem () {
+          // var previouslyOpenMenu = document.querySelector('details[open]');
+          // if (previouslyOpenMenu && (thisItem !== previouslyOpenMenu)) {
+          //   setTimeout(function(){
+          //     document.querySelector('.header__inline-menu details[open]').removeAttribute("open");
+          //   }, hideDelay);
+            
+          // }  
+          thisItem.setAttribute("open", now);
+        }
+ 
+        setTimeout(mouseEnterMenuItem, showDelay);
+      });
+    }
+
+    for (let i = 0; i < allMenuItems.length; i++) {
+      
+      allMenuItems[i].addEventListener('mouseleave', function() {
+        let thisItem = this;
+
+        var currentHoveredElement = null;
+        
+        function closeMenu(e) {
+          currentHoveredElement = e.target;
+          var a = currentHoveredElement;
+          var els = [];
+
+          while (a) {
+            a = a.parentNode;
+            if (a !== document) {
+              if (a.classList && !a.classList.contains("mega-menu")) {
+                
+                setTimeout(function(){
+                  thisItem.removeAttribute("open");
+                },hideDelay);
+
+                document.removeEventListener('mouseover', closeMenu);
+                break;  
+              }
+            }
+            if (a==document) {
+              document.removeEventListener('mouseover', closeMenu);
+              break;
+            }
+            els.unshift(a);
+          }       
+        }
+        document.addEventListener('mouseover', closeMenu);
+      })
+    }
+  }
+}
+
+document.addEventListener('DOMContentLoaded', menuSetup);
+
+function checkForHideProductSwatch() {
+  if (document.querySelector("#ProductGridContainer")) {
+    const text = 'Color';
+    const matches = [];
+    
+    for (const div of document.querySelectorAll('.active-facets__button-inner')) {
+      if (div.textContent.includes(text)) {
+        if (document.querySelector("#ProductGridContainer")) {
+          matches.push(div);
+          break;
+        } 
+      } 
+    }
+  
+    if (matches.length) {
+      document.querySelector("#ProductGridContainer").classList.add("hide-color-picker");
+    } else {
+      document.querySelector("#ProductGridContainer").classList.remove("hide-color-picker");
+    }  
+  }
+}
+
+document.addEventListener('DOMContentLoaded', checkForHideProductSwatch);
+
+
+class quickAddFakeButton extends HTMLElement {
+  constructor() {
+    super();
+
+    this.addEventListener('click', (event)=> {
+      event.preventDefault();
+      var buttonElement = this;
+      buttonElement.querySelector("span").classList.add("hidden");
+      buttonElement.querySelector(".loading-overlay__spinner").classList.remove("hidden");
+
+      setTimeout( function() {
+        buttonElement.querySelector("span").classList.remove("hidden");
+        buttonElement.querySelector(".loading-overlay__spinner").classList.add("hidden");  
+      }, 4000);
+
+      buttonElement.parentElement.querySelector('.card-wrapper.active button.quick-add__submit').click();
+
+    })      
+  }
+}
+
+customElements.define('fake-out-quick-shop', quickAddFakeButton);
+
+

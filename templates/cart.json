@@ -28,6 +28,69 @@
       "settings": {
       }
     },
+    "16605916898c837f0c": {
+      "type": "multicolumn",
+      "disabled": true,
+      "blocks": {
+        "1660591689a4e66ffb-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/free-shipping-truck.png",
+            "title": "FREE SHIPPING + FREE RETURNS",
+            "font_style": "h3",
+            "text": "<p>Free Ground Shipping and Free Returns applies to all full-priced products purchased on hoka.com.<\/p>",
+            "link_label": "",
+            "link": "",
+            "info_on_image": false
+          }
+        },
+        "1660591689a4e66ffb-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-08-15_at_12.29.33_PM.png",
+            "title": "TIME TO FLY™ 30-DAY GUARANTEE",
+            "font_style": "h3",
+            "text": "<p>Take a test flight, or two, or ten. You can return or exchange any pair within 30 days of the original purchase, no questions asked.<\/p>",
+            "link_label": "",
+            "link": "",
+            "info_on_image": false
+          }
+        },
+        "1660591689a4e66ffb-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/S22-norton-guarantee.png",
+            "title": "NORTON SHOPPING GUARANTEE",
+            "font_style": "h3",
+            "text": "<p>Every purchase is guaranteed by Norton with Identity Theft Protection, Purchase Guarantee and Lowest Price Guarantee.<\/p>",
+            "link_label": "",
+            "link": "",
+            "info_on_image": false
+          }
+        }
+      },
+      "block_order": [
+        "1660591689a4e66ffb-0",
+        "1660591689a4e66ffb-1",
+        "1660591689a4e66ffb-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "164911222318086ea0": {
       "type": "featured-collection-alt",
       "settings": {
@@ -69,6 +132,7 @@
   "order": [
     "cart-items",
     "cart-footer",
+    "16605916898c837f0c",
     "164911222318086ea0"
   ]
 }

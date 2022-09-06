@@ -1,0 +1,17 @@
+{{ 'section-page-menu.css' | asset_url | stylesheet_tag }}
+
+{% assign c = collection.metafields.seavees.collection_page_menu %}
+{% include "collection-page-menu" with linklistHandle: c %}
+
+{% schema %}
+{
+  "name": "Page Menu",
+  "settings": [
+    {
+      "type": "link_list",
+      "id": "menu",
+      "label": "Menu"
+    }
+  ] 
+}
+{% endschema %}

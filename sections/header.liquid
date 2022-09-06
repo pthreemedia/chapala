@@ -508,7 +508,11 @@
           </ul>
         </nav>
       {%- else -%}
-        <nav class="header__inline-menu">
+        <nav class="header__inline-menu"
+          {% if section.settings.hover_mega_menu %}
+            hover-mega-menu
+          {% endif %}
+        >
           <ul class="list-menu list-menu--inline" role="list">
             {%- for link in section.settings.menu.links -%}
               <li>
@@ -897,6 +901,11 @@
   ],
   "settings": [
     {
+      "type": "checkbox",
+      "id":  "hover_mega_menu",
+      "label": "Open Menu On Hover"
+    },
+    { 
       "type": "select",
       "id": "color_scheme",
       "options": [

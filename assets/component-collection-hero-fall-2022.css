@@ -1,0 +1,80 @@
+.collection-hero-fall-2022 h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+@media (min-width: 990px) {
+  .collection-hero-fall-2022 h1 {
+    font-size: 24px;
+  }
+
+  .collection-hero-fall-2022 .collection-hero__inner.page-width {
+    padding: 0;
+  }
+  .collection-hero-fall-2022 .page-menu ul {
+    flex-direction: column;
+  }
+
+}
+
+.collection-hero-fall-2022 .collection-hero__text-wrapper {
+  margin: 0;
+}
+
+@media screen and (min-width: 750px) {
+  .collection-fall-2022-layout .facets__heading--vertical,
+  .collection-fall-2022-layout .facets-vertical .active-facets-vertical-filter facet-remove:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .collection-fall-2022-layout .facets-vertical .active-facets-vertical-filter {
+    align-items: flex-end;
+  }
+
+  .collection-fall-2022-layout .active-facets-vertical-filter facet-remove a span {
+    font-size: 12px;
+  }
+
+  .collection-fall-2022-layout .facets-wrap-vertical {
+    padding: 0;
+  }
+
+  .collection-fall-2022-layout .facets-vertical .active-facets__button {
+    margin-top: 12px;
+    margin-bottom: 0;
+  }
+
+  .collection-fall-2022-layout .facet-checkbox span {
+    margin-top: -1px;
+  }
+
+}
+
+@media screen and (max-width: 989px) {
+  .collection-fall-2022-layout .active-facets {
+    align-items: center;
+    justify-content: center;
+  }
+  .collection-fall-2022-layout span.active-facets__button-inner { 
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .collection-fall-2022-layout .active-facets__button span {
+    padding: 7px 10px 7px;
+    font-size: 14px;
+  }
+  
+  .collection-fall-2022-layout .facet-checkbox {
+    padding: 7px 2rem 7px 0;
+  }
+}
+
+.collection-fall-2022-layout .visual-badge {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  z-index: 1;
+  height: 80px;
+}

@@ -184,6 +184,7 @@
                                   <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="grid__item slider__slide">
                                     {% render 'card-product',
                                       card_product: product,
+                                      collection_product_hover_image_position: section.settings.collection_product_hover_image_position,
                                       media_aspect_ratio: section.settings.image_ratio,
                                       show_secondary_image: section.settings.show_secondary_image,
                                       show_vendor: section.settings.show_vendor,
@@ -257,6 +258,7 @@
                       <li class="grid__item">
                         {% render 'card-product',
                           card_product: product,
+                          collection_product_hover_image_position: section.settings.collection_product_hover_image_position,
                           media_aspect_ratio: section.settings.image_ratio,
                           show_secondary_image: section.settings.show_secondary_image,
                           show_vendor: section.settings.show_vendor,
@@ -375,6 +377,12 @@
       "label": "t:sections.main-collection-product-grid.settings.show_secondary_image.label"
     },
     {
+      "type": "text",
+      "id": "collection_product_hover_image_position",
+      "default": "5",
+      "label": "Position of hover image"
+    },
+    {
       "type": "checkbox",
       "id": "show_gender",
       "default": false,
@@ -489,4 +497,4 @@
     }
   ]
 }
-{% endschema %}
+{% endschema %} 

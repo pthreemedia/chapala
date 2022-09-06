@@ -9,8 +9,6 @@
   border-right: 0;  
   left: 0;
   overflow-y: auto;
-  padding-bottom: 5rem;
-  padding-top: 3rem;
   position: absolute;
   right: 0;
   top: 100%;
@@ -32,7 +30,9 @@
 
 .mega-menu[open] .mega-menu__content {
   opacity: 1;
-  transform: translateY(0);
+  transform: translateY(-40px);
+  z-index: 1;
+  border: 0;
 }
 
 .mega-menu__list {
@@ -40,6 +40,8 @@
   gap: 2rem 3rem;
   grid-template-columns: 1fr 1fr 60%;
   list-style: none;
+  padding-bottom: 5rem;
+  padding-top: 3rem;
 }
 
 .mega-menu__link {

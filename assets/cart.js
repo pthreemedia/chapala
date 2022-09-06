@@ -126,6 +126,22 @@ class CartItems extends HTMLElement {
     setTimeout(() => {
       cartStatus.setAttribute('aria-hidden', true);
     }, 1000);
+
+    fetch(window.Shopify.routes.root + 'cart.js')
+    .then(response => response.json())
+    .then(data => { 
+      const freeMessageElement = document.querySelector(".cart-free-shipping-message");
+      if (data.items_subtotal_price > 10000) {
+        if (freeMessageElement.classList.contains("hide")) {
+          freeMessageElement.classList.remove("hide");
+        } 
+      } else {
+        if (!freeMessageElement.classList.contains("hide")) {
+          freeMessageElement.classList.add("hide");
+        }         
+      }
+    });
+
   }
 
   getSectionInnerHTML(html, selector) {

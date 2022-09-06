@@ -1,0 +1,103 @@
+.collection-fall-2022-layout #shopify-section-collection-page-menu {
+  margin-top: 12px;
+}
+
+.collection-fall-2022-layout .mobile-facets__wrapper {
+  justify-content: center;
+}
+
+.collection-fall-2022-layout .mobile-facets__open-label {
+  min-width: inherit;
+}
+
+.collection-fall-2022-layout .product-count, 
+.collection-fall-2022-layout .product-count-vertical,
+.collection-fall-2022-layout .facets.facets-vertical-sort.small-hide.no-js-hidden {
+  display: none;
+}
+
+.collection-fall-2022-layout .breadcrumb {
+  font-style: inherit;
+}
+
+@media (min-width: 990px) {
+  .collection-fall-2022-layout {
+      display: grid;
+      grid-template-columns: 280px 2fr;
+      column-gap: 48px;
+      padding: 0 2rem;
+  }
+
+  .collection-fall-2022-layout .column-1 {
+      padding: 0 0 0 3rem;
+  }  
+
+  .collection-fall-2022-layout #shopify-section-collection-page-menu {
+    margin-top: 0;
+  }
+  
+
+  .collection-fall-2022-layout .column-1 .page-menu-background {
+    background: transparent;
+  }   
+
+  .collection-fall-2022-layout .column-1 .page-menu ul {
+    flex-direction: column;
+    padding: 0;
+    align-items: flex-start;
+  }   
+
+  .collection-fall-2022-layout .column-1 .page-menu li {
+    padding: 2px 0;
+    text-align: left;
+    font-size: 12px;
+  }
+
+  .collection-fall-2022-layout .column-1 .page-menu li a {
+    font-size: 15px;
+  }
+
+  .collection-fall-2022-layout .facets-container {
+    padding-top: 0;
+  }
+  
+  .collection-fall-2022-layout .collection-filter.page-width {
+    margin-top: 36px;
+    padding: 0;
+  }
+
+  .collection-fall-2022-layout .facets__form-vertical {
+    margin: 0;
+    width: 100%;
+  }
+
+  .facets__heading {
+    font-weight: bold;
+  }
+
+}
+
+@media (min-width: 1280px) {
+  .collection-fall-2022-layout {
+      padding: 0 5rem;
+      max-width: 1500px;
+      margin: 0 auto;
+  }
+}
+
+.button-show-more, 
+.button-show-less {
+  font-size: 14px;
+}
+
+
+#shopify-section-collection-filter {
+  width: 100%;
+}
+
+.block-badge {
+  position: absolute;
+  top: -20px;
+  left: 0;
+  right: 0;
+}

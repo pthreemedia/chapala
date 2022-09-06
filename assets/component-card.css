@@ -117,25 +117,6 @@
   }
 }
 
-.card__badge {
-  align-self: flex-end;
-  grid-row-start: 3;
-  justify-self: flex-start;
-}
-
-.card__badge.top {
-  align-self: flex-start;
-  grid-row-start: 1;
-}
-
-.card__badge.right {
-  justify-self: flex-end;
-}
-
-.card > .card__content > .card__badge {
-  margin: 1.3rem;
-}
-
 @media screen and (max-width: 749px) {
   .card > .card__content > .card__badge-mobile {
     justify-self: center;
@@ -219,6 +200,10 @@
     transform: scale(1.03);
   }
 
+  .card-wrapper {
+    transition: transform var(--duration-long) ease;
+  }
+
   .card-wrapper:hover
     .media.media--hover-effect
     > img:first-child:not(:only-child) {
@@ -227,32 +212,11 @@
 
   .card-wrapper:hover .media.media--hover-effect > img + img {
     opacity: 1;
-    transition: transform var(--duration-long) ease;
-    transform: scale(1.03);
   }
 
   .underline-links-hover:hover a {
     text-decoration: underline;
     text-underline-offset: 0.3rem;
-  }
-}
-
-.card--standard.card--media .card__inner .card__information,
-.card--standard.card--text > .card__content .card__heading,
-.card--standard.card--text.article-card > .card__content .card__information,
-.card--standard > .card__content .card__caption {
-  display: none;
-}
-
-@media screen and (min-width: 750px) {
-  .card--standard > .card__content .card__badge {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 750px) {
-  .card--standard .card__inner .card__content .card__badge {
-    display: none;
   }
 }
 
@@ -263,6 +227,7 @@
 .card--standard > .card__content .card__information {
   padding-left: 0;
   padding-right: 0;
+  position: relative;
 }
 
 .card--card.card--media .card__inner .card__information,
@@ -405,4 +370,18 @@ collection-swatch {
   border: 0.1rem solid #aaa;
   color: #aaa;
   text-decoration: line-through;
+}
+
+.fake-out-quick-shop {
+  display: block;
+  margin: 16px auto 0;
+  padding-left: 36px;
+  padding-right: 36px;
+  width: 190px;
+  height: 48px;
+  text-align: center;
+}
+
+.quick-add.real-button-container {
+  margin: 0;
 }

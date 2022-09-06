@@ -2,13 +2,14 @@
   "sections": {
     "164867367120e1947e": {
       "type": "hero-banner",
+      "disabled": true,
       "blocks": {
         "1648673671d11f3268-0": {
           "type": "heading",
           "settings": {
-            "heading": "A Consciously Crafted",
-            "heading_2": "Once-Forgotten Classic",
-            "font_size": "h2",
+            "heading": "Endless Summer Sale",
+            "heading_2": "",
+            "font_size": "h1",
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
           }
@@ -16,7 +17,7 @@
         "1648673671d11f3268-1": {
           "type": "text",
           "settings": {
-            "text": "Born in 1964. Rediscovered in 2008.",
+            "text": "Take up to 60% OFF while supplies last.",
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
           }
@@ -25,9 +26,9 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Womens",
-            "button_link_1": "https:\/\/www.seavees.com\/collections\/womens-classics",
+            "button_link_1": "shopify:\/\/collections\/womens-sale",
             "button_label_2": "Shop Mens",
-            "button_link_2": "https:\/\/www.seavees.com\/collections\/mens-classics",
+            "button_link_2": "shopify:\/\/collections\/mens-sale",
             "button_style_secondary": false,
             "use_arrow_link": false,
             "hide_block_on_mobile": false,
@@ -44,8 +45,8 @@
         "use_video_background": false,
         "hero_video_desktop": "",
         "hero_video_mobile": "",
-        "image_desktop": "shopify:\/\/shop_images\/Classic_Campaign_Legend_HP_Hero_GIF.gif",
-        "image_mobile": "shopify:\/\/shop_images\/HP_Hero_Mobile_32f45983-c767-49a4-b3a1-1dbdb2250024.gif",
+        "image_desktop": "shopify:\/\/shop_images\/Endless_Summer_HP_Hero.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Endless_Summer_Sale_HP-Mobile.jpg",
         "image_overlay_opacity": 0,
         "adapt_height_first_image": false,
         "text_image_separate": false,
@@ -59,14 +60,13 @@
     },
     "1652135633ce7ce319": {
       "type": "hero-banner",
-      "disabled": true,
       "blocks": {
         "16521356332262bfc5-0": {
           "type": "heading",
           "settings": {
-            "heading": "Summer Favorite",
+            "heading": "The Shoe That's Sold Out Twice",
             "heading_2": "",
-            "font_size": "h1",
+            "font_size": "h0",
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
           }
@@ -74,7 +74,7 @@
         "16521356332262bfc5-1": {
           "type": "text",
           "settings": {
-            "text": "The best-selling Baja Platform in mustard gingham.",
+            "text": "Now available in new colors",
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
           }
@@ -82,8 +82,8 @@
         "16521356332262bfc5-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Womens",
-            "button_link_1": "shopify:\/\/products\/womens-baja-slip-on-platform-cotton-gingham-mustard",
+            "button_label_1": "Shop Now",
+            "button_link_1": "\/products\/womens-monterey-sneaker-platform-cotton-canvas-black",
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary": false,
@@ -102,13 +102,13 @@
         "use_video_background": false,
         "hero_video_desktop": "",
         "hero_video_mobile": "",
-        "image_desktop": "shopify:\/\/shop_images\/Baja_Platform_Ginghame_2.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Baja_Platform_Gingham_HP-Mobile.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Monterey_Platform_Black_HP_Hero.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Monterey_Platform_Black-Mobile.jpg",
         "image_overlay_opacity": 0,
         "adapt_height_first_image": false,
         "text_image_separate": false,
         "show_text_box": false,
-        "desktop_content_half": "no",
+        "desktop_content_half": "left",
         "banner_content_half_color": "background-3",
         "desktop_text_box_vertical_position": "center",
         "desktop_text_box_horizontal_position": "center",
@@ -261,12 +261,12 @@
         "290060ab-d2f9-4269-bc1d-a7148a4da2dd": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Jeff_Jonshon_Secondary_HP_Feature.jpg",
-            "title": "SeaVees x Jeff Johnson",
+            "image": "shopify:\/\/shop_images\/Classics_Secondary_Tile-HP.jpg",
+            "title": "The Classics Collection",
             "font_style": "h3",
             "text": "",
-            "link_label": "Shop Now",
-            "link": "shopify:\/\/products\/mens-beyond-back-cvo-boot-herringbone-twill-lava",
+            "link_label": "Shop Here",
+            "link": "\/collections\/womens-classics",
             "info_on_image": false
           }
         }
@@ -387,14 +387,14 @@
         "16497985735c91a62a-1": {
           "type": "text",
           "settings": {
-            "text": "<p>“I'm blown away by how comfortable they are! Super cute AND comfortable! Awesome! They run true to size.”<\/p>",
+            "text": "<p>Love! These shoes are awesome and super comfy!  True to size and love the natural color!!!<\/p>",
             "text_style": "h2"
           }
         },
         "95b3722c-f77d-41c7-911c-2c098384bc2b": {
           "type": "caption",
           "settings": {
-            "caption": "- kelly d.",
+            "caption": "- Stephanie S.",
             "text_style": "caption-with-letter-spacing",
             "text_size": "small"
           }
@@ -402,8 +402,8 @@
         "16497985735c91a62a-2": {
           "type": "button",
           "settings": {
-            "button_label": "Shop The Monterey Platform Bleach",
-            "button_link": "shopify:\/\/products\/womens-monterey-sneaker-platform-cotton-canvas-bleach",
+            "button_label": "Shop The SeaChange Slip On in Natural",
+            "button_link": "\/products\/womens-seachange-slip-on-pineapple-yarn-natural",
             "use_arrow_link": true,
             "button_style_secondary": false
           }
@@ -415,7 +415,7 @@
         "16497985735c91a62a-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/seavees-womens-monterey-platform-bleach-lifestyle-131111.jpg",
+        "image": "shopify:\/\/shop_images\/SeaChange_Slip_On_Natural.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "full_width": true,
@@ -473,7 +473,7 @@
     "16497990090566f2cc": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"product--ugc-gallery page-width\">\n    <div class=\"product-ugc__textcontent no-ugc\" style=\"margin-bottom: 5rem;\">\n      <h2 class=\"product-ugc__heading\" style=\"text-align: center; margin-bottom: 1rem;\">Show Up In SeaVees<\/h2>\n      <p class=\"product-ugc__subheading\" style=\"text-align: center;\">Tag @seavees to be featured.<\/p>\n    <\/div>\n<script src=\"\/\/foursixty.com\/media\/scripts\/fs.embed.v2.5.js\" data-feed-id=\"seavees_1\" data-theme=\"lookbook_v2_5\" data-open-links-in-same-page=\"true\" data-connector-filter=\"45833\" data-page-size=\"4\"><\/script>\n\n<\/div>\n\n<style>.fs-has-links { display:none; } .fs-wrapper div.fs-text-container .fs-entry-title, div.fs-detail-title { font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;;font-style:normal;font-weight:normal;font-size:18px; } div.fs-text-container .fs-entry-date, div.fs-detail-container .fs-post-info, div.fs-wrapper div.fs-has-links::after, .fs-text-product, .fs-overlink-text { font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;;font-style:normal;font-weight:normal;font-size:18px; } .fs-wrapper div.fs-text-container * { color:#ffffff; } .fs-wrapper div.fs-text-container { background-color:rgba(0, 0, 0, 0);margin:0px; } div.fs-entry-date { display:none; } div.fs-service-icon { display:none; } div.fs-entry-title { display:none; } .fs-lookbook_v2_5.fs-wrapper div.fs-timeline-entry { margin:4px; } .fs-mobile div.fs-entry-container { height: 0; width: calc(100% \/ 2) !important; padding-top: calc(100% \/ 2) !important; } .fs-desktop div.fs-entry-container { height: 0; width: calc(100% \/ 4) !important; padding-top: calc(100% \/ 4) !important; }\n<\/style>",
+        "custom_liquid": "<div class=\"product--ugc-gallery page-width\">\n    <div class=\"product-ugc__textcontent no-ugc\" style=\"margin-bottom: 5rem;\">\n      <h2 class=\"product-ugc__heading\" style=\"text-align: center; margin-bottom: 1rem;\">#StyledInSeaVees<\/h2>\n      <p class=\"product-ugc__subheading\" style=\"text-align: center;\">Tag @seavees to be featured.<\/p>\n    <\/div>\n<script src=\"\/\/foursixty.com\/media\/scripts\/fs.embed.v2.5.js\" data-feed-id=\"seavees_1\" data-theme=\"lookbook_v2_5\" data-open-links-in-same-page=\"true\" data-connector-filter=\"45833\" data-page-size=\"4\"><\/script>\n\n<\/div>\n\n<style>.fs-has-links { display:none; } .fs-wrapper div.fs-text-container .fs-entry-title, div.fs-detail-title { font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;;font-style:normal;font-weight:normal;font-size:18px; } div.fs-text-container .fs-entry-date, div.fs-detail-container .fs-post-info, div.fs-wrapper div.fs-has-links::after, .fs-text-product, .fs-overlink-text { font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;;font-style:normal;font-weight:normal;font-size:18px; } .fs-wrapper div.fs-text-container * { color:#ffffff; } .fs-wrapper div.fs-text-container { background-color:rgba(0, 0, 0, 0);margin:0px; } div.fs-entry-date { display:none; } div.fs-service-icon { display:none; } div.fs-entry-title { display:none; } .fs-lookbook_v2_5.fs-wrapper div.fs-timeline-entry { margin:4px; } .fs-mobile div.fs-entry-container { height: 0; width: calc(100% \/ 2) !important; padding-top: calc(100% \/ 2) !important; } .fs-desktop div.fs-entry-container { height: 0; width: calc(100% \/ 4) !important; padding-top: calc(100% \/ 4) !important; }\n<\/style>",
         "color_scheme": "background-2",
         "padding_top": 32,
         "padding_bottom": 100
@@ -594,7 +594,7 @@
         "fbd89d45-25db-4d13-b163-4495e9103151": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Mill Valley",
+            "heading": "Marin",
             "image": "shopify:\/\/shop_images\/tam_junction_mill_valley_seavees.jpg",
             "image_ratio": "adapt",
             "icon": "none",

@@ -44,8 +44,7 @@ body.page-load-announcement-not-visible #shopify-section-announcement-bar {
 .announcement-bar__message {
   text-align: center;
   margin: 0;
-  font-size: 1.6rem;
-  font-weight: bold;
+  font-size: 1.4rem;
   line-height: 1.3em;
   padding: 0 28px;
 }
@@ -153,6 +152,12 @@ toggle-announcement-visibility.trigger-hide .icon {
   opacity: 1;
   transform: scale(1);
   height: 1rem;
+}
+
+@media (min-width: 990px) {
+  toggle-announcement-visibility.trigger-hide {
+    display: none;
+  }
 }
 
 toggle-announcement-visibility.trigger-show {

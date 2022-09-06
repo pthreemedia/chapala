@@ -1,0 +1,15 @@
+{{ 'collection-fall-2022-layout.css' | asset_url | stylesheet_tag }}
+
+<div class="collection-fall-2022-layout">
+    <div class="column-1">
+        {% section 'main-collection-banner-fall-2022' %}    
+        {% section 'collection-page-menu' %}
+        <div class="collection-filter page-width facets-vertical">
+            {% section 'collection-filter' %}
+        </div>
+    </div>
+    <div class="column-2">
+        {% section 'main-collection-product-grid-fall-2022' %}
+    </div>
+</div>
+

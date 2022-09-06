@@ -168,7 +168,7 @@
             "page": "",
             "show-description": true,
             "liquid": "",
-            "expand_on_pageload": false
+            "expand_on_page_load": false
           }
         },
         "collapsible-row-0": {
@@ -180,7 +180,7 @@
             "page": "",
             "show-description": false,
             "liquid": "",
-            "expand_on_pageload": false
+            "expand_on_page_load": false
           }
         },
         "collapsible-row-1": {
@@ -192,7 +192,7 @@
             "page": "",
             "show-description": false,
             "liquid": "",
-            "expand_on_pageload": false
+            "expand_on_page_load": false
           }
         },
         "collapsible-row-2": {
@@ -204,7 +204,12 @@
             "page": "",
             "show-description": false,
             "liquid": "",
-            "expand_on_pageload": false
+            "expand_on_page_load": true
+          }
+        },
+        "3720728e-9c7e-4458-b202-63079b241024": {
+          "type": "pairs_with",
+          "settings": {
           }
         },
         "d45af598-2236-4f27-9df7-84e8aa0cb053": {
@@ -234,6 +239,7 @@
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
+        "3720728e-9c7e-4458-b202-63079b241024",
         "d45af598-2236-4f27-9df7-84e8aa0cb053"
       ],
       "settings": {
@@ -312,7 +318,7 @@
     "164792745482b7fb61": {
       "type": "featured-collection-alt",
       "settings": {
-        "title": "Related Products",
+        "title": "You May Also Like",
         "heading_size": "h2",
         "description": "",
         "description_style": "body",

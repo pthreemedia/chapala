@@ -7,7 +7,6 @@
     Usage:
     {% render 'card-grouped-product-swatches', card_product: product, hide_sale_swatches: hide_sale_swatches%}
 {% endcomment %}
-
 {% if card_product.vendor == 'SeaVees Footwear' %}
   {% paginate collections.all-shoes.products by 1000 %}
     {% capture classic_list %}
@@ -59,15 +58,21 @@
     {% assign collaboration_array = collaboration_list | split: '::' %}
 
   {% endpaginate %}
+
   <product-swatch class="product-swatches">
-    {% unless classic_array.size == 1 %}
+  <div class="swiper product-swatch-swiper">
+    <div class="swiper-wrapper">
+      {% unless classic_array.size == 1 %}
         {% for related_product in classic_array %}
             {% unless forloop.last == true %}
                 {% assign related_product_vals = related_product | split: '|' %}
-                <div>
-                    <a
-                        href="{{ related_product_vals[1] }}"
-                        class="product-swatch {{ card_product.url }} {{ related_product_vals[1] }} {% if card_product.url == related_product_vals[1] %}active{% endif %}"
+                <div 
+                  class="swiper-slide"
+                  {% if first_card_product_url == related_product_vals[1] %}  {% endif %}
+                >
+                    <grouped-product-swatch-toggle
+                        data-card-product-url = "{{ related_product_vals[1] }}"
+                        class="product-swatch {{ card_product.url }} {{ related_product_vals[1] }} {% if first_card_product_url == related_product_vals[1] %}active{% endif %}"
                         {%- if related_product_vals[3] != blank -%}
                             style="background-image: url({{ related_product_vals[3] }}); background-size: cover;"
                         {%- elsif related_product_vals[2] != blank -%}
@@ -80,19 +85,23 @@
                         title="{{ related_product_vals[4] }}"
                         aria-label="View related color {{ related_product_vals[4] }}"
                     >
-                    </a>
+                    </grouped-product-swatch-toggle>
                 </div>
             {% endunless %}
+          {% assign first_card = false %}
         {% endfor %}
     {% endunless %}
     {% unless collection_array.size == 1 %}
         {% for related_product in collection_array %}
             {% unless forloop.last == true %}
                 {% assign related_product_vals = related_product | split: '|' %}
-                <div>
-                    <a
-                        href="{{ related_product_vals[1] }}"
-                        class="product-swatch {{ card_product.url }} {{ related_product_vals[1] }} {% if card_product.url == related_product_vals[1] %}active{% endif %}"
+                <div 
+                  class="swiper-slide"
+                  {% if first_card_product_url == related_product_vals[1] %}  {% endif %}
+                >
+                    <grouped-product-swatch-toggle
+                        data-card-product-url = "{{ related_product_vals[1] }}"
+                        class="product-swatch {{ card_product.url }} {{ related_product_vals[1] }} {% if first_card_product_url == related_product_vals[1] %}active{% endif %}"
                         {%- if related_product_vals[3] != blank -%}
                             style="background-image: url({{ related_product_vals[3] }}); background-size: cover;"
                         {%- elsif related_product_vals[2] != blank -%}
@@ -105,19 +114,23 @@
                         title="{{ related_product_vals[4] }}"
                         aria-label="View related color {{ related_product_vals[4] }}"
                     >
-                    </a>
+                    </grouped-product-swatch-toggle>
                 </div>
             {% endunless %}
+          {% assign first_card = false %}
         {% endfor %}
     {% endunless %}
     {% unless collaboration_array.size == 1 %}
         {% for related_product in collaboration_array %}
             {% unless forloop.last == true %}
             {% assign related_product_vals = related_product | split: '|' %}
-            <div>
-                <a
-                    href="{{ related_product_vals[1] }}"
-                    class="product-swatch {{ card_product.url }} {{ related_product_vals[1] }} {% if card_product.url == related_product_vals[1] %}active{% endif %}"
+              <div 
+                class="swiper-slide"
+                {% if first_card_product_url == related_product_vals[1] %}  {% endif %}
+              >
+                <grouped-product-swatch-toggle
+                    data-card-product-url = "{{ related_product_vals[1] }}"                
+                    class="product-swatch {{ card_product.url }} {{ related_product_vals[1] }} {% if first_card_product_url == related_product_vals[1] %}active{% endif %}"
                     {%- if related_product_vals[3] != blank -%}
                         style="background-image: url({{ related_product_vals[3] }}); background-size: cover;"
                     {%- elsif related_product_vals[2] != blank -%}
@@ -130,11 +143,18 @@
                     title="{{ related_product_vals[4] }}"
                     aria-label="View related color {{ related_product_vals[4] }}"
                 >
-                </a>
+                </grouped-product-swatch-toggle>
             </div>
             {% endunless %}
+          {% assign first_card = false %}
         {% endfor %}
     {% endunless %}
+    </div>
+  </div>
+  <div class="navigation-buttons">
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
 </product-swatch>      
   {% else %}
   <product-swatch class="product-swatches">
@@ -143,8 +163,8 @@
             {% assign handle = tag | split: 'related_' | last %}
             {% assign prod = all_products[handle] %}
                 <div>
-                    <a
-                        href="{{prod.url}}"
+                    <grouped-product-swatch-toggle
+                        data-card-product-url = "{{ related_product_vals[1] }}"                    
                         class="product-swatch {{ card_product.url }} {{ prod.url }} {% if card_product.url == prod.url %}active{% endif %}"
                         {%- if prod.metafields.seavees.swatch_image != blank -%}
                             style="background-image: url({{ prod.metafields.seavees.swatch_image }}); background-size: cover;"
@@ -157,7 +177,7 @@
                         data-prod-handle='{{ card_product.handle }}'
                         title="{{prod.metafields.seavees.color_name}}"
                     >
-                    </a>
+                    </grouped-product-swatch-toggle>
                 </div>
         {% endif %}
     {%- endfor -%}

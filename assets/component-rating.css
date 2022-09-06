@@ -49,6 +49,10 @@
   margin: 0;
 }
 
+.rating-count span {
+  text-decoration: underline;
+}
+
 @media (forced-colors: active) {
   .rating {
     display: none;

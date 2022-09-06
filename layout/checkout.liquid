@@ -13,6 +13,7 @@
     {{ content_for_header }}
 
     {{ checkout_stylesheets }}
+    {{ 'checkout.css' | asset_url | stylesheet_tag }}
     {{ checkout_scripts }}
   </head>
   <body>
@@ -22,24 +23,33 @@
     <header class="banner" data-header role="banner">
       <div class="wrap">
         {{ content_for_logo }}
+        {% render 'icon-padlock' %}
+        <span>Checkout</span>
       </div>
     </header>
+
+    <div class="checkout-breadcrumb-small">
+      {% render 'checkout-breadcrumb' %}
+    </div>
 
     {{ order_summary_toggle }}
     <div class="content" data-content>
       <div class="wrap">
         <div class="main">
           <header class="main__header" role="banner">
-            {{ content_for_logo }}
-            {{ breadcrumb }}
+            <div class="checkout-logo-container">
+              {{ content_for_logo }}
+              {% render 'icon-padlock' %}
+              <span>Checkout</span>
+            </div>  
+            <div class="checkout-breadcrumb-large">
+              {% render 'checkout-breadcrumb' %}
+            </div>        
             {{ alternative_payment_methods }}
           </header>
           <main class="main__content" role="main">
             {{ content_for_layout }}
           </main>
-          <footer class="main__footer" role="contentinfo">
-            {{ content_for_footer }}
-          </footer>
         </div>
         <aside class="sidebar" role="complementary">
           <div class="sidebar__header">
