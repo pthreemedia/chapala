@@ -150,3 +150,14 @@
   text-decoration: none;
   color: rgba(var(--color-foreground),.75)
 }
+
+
+#childlink-Big\ Kids\ \(4-12\ Years\) > ul > li > a
+#childlink-Little\ Kids\ \(1-4\ Years\) > ul > li > a,
+#childlink-Mens\ Shoes > ul > li:nth-child(10) > a,
+#childlink-Womens\ Shoes > ul > li:nth-child(10) > a,
+#shopify-section-header nav.header__inline-menu li:nth-child(1) .mega-menu__content ul.mega-menu__list li:nth-child(1) ul[role="list"] li:last-of-type a.mega-menu__link, 
+#shopify-section-header nav.header__inline-menu li:nth-child(2) .mega-menu__content ul.mega-menu__list li:nth-child(1) ul[role="list"] li:last-of-type a.mega-menu__link,
+#shopify-section-header nav.header__inline-menu li:nth-child(3) .mega-menu__content ul.mega-menu__list li:nth-child(1) ul[role="list"] li:last-of-type a.mega-menu__link, 
+#shopify-section-header nav.header__inline-menu li:nth-child(3) .mega-menu__content ul.mega-menu__list li:nth-child(2) ul[role="list"] li:last-of-type a.mega-menu__link 
+{ color: red; }
