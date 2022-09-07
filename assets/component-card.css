@@ -236,6 +236,13 @@
   display: none;
 }
 
+.card__badge.old-card-badge {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -20px;
+}
+
 .card--extend-height {
   height: 100%;
 }
@@ -372,6 +379,7 @@ collection-swatch {
   text-decoration: line-through;
 }
 
+.quick-add__submit,
 .fake-out-quick-shop {
   display: block;
   margin: 16px auto 0;
@@ -380,6 +388,10 @@ collection-swatch {
   width: 190px;
   height: 48px;
   text-align: center;
+}
+
+.quick-add__submit {
+  margin: 0 auto;
 }
 
 .quick-add.real-button-container {
