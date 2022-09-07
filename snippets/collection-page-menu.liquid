@@ -1,0 +1,13 @@
+<div class="page-menu page-menu-background">
+    <ul class="page-width">
+        {% for link in linklists[linklistHandle].links %}
+        <li 
+              {% if link.url contains page.url or link.url contains collection.url or link.url contains product.url or link.url contains blog.url %} 
+                class="active"
+              {% endif %}
+            >
+                <a href="{{ link.url }}">{{ link.title }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>

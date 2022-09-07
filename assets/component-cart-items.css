@@ -53,10 +53,6 @@
   max-width: 30rem;
 }
 
-.cart-item__details > * + * {
-  margin-top: 0.6rem;
-}
-
 .cart-item__media {
   position: relative;
 }
@@ -75,6 +71,8 @@
 .cart-item__name {
   text-decoration: none;
   display: block;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .cart-item__name:hover {
@@ -190,10 +188,6 @@ cart-remove-button .icon-remove {
 
 .cart-item__error-text:empty + svg {
   display: none;
-}
-
-.product-option + .product-option {
-  margin-top: 0.4rem;
 }
 
 .product-option * {

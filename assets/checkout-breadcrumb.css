@@ -1,0 +1,69 @@
+.checkout-breadcrumb {
+    display: flex;
+    align-items: center;
+    margin: 0 auto 24px;
+    justify-content: center;
+}
+
+.checkout-breadcrumb-large {
+    display: none;
+}
+
+@media (min-width: 1000px) {
+    .checkout-breadcrumb-small {
+        display: none;
+    }
+
+    .checkout-breadcrumb-large {
+        display: block;
+        margin: 24px auto 32px;
+    }    
+}
+
+
+.checkout-breadcrumb .step-container {
+    height: 24px;
+    display: flex;
+}
+
+.checkout-breadcrumb .step-container > * {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.checkout-breadcrumb .step-number {
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    margin-right: 6px;
+    border: 2px solid grey;
+    box-sizing: border-box;
+    color: grey;
+}
+
+.checkout-breadcrumb .step-copy {
+    color: grey;
+}
+
+
+.checkout-breadcrumb .step-arrow {
+    margin: 0 12px;
+    width: 16px;
+    color: grey;
+}
+
+.checkout-breadcrumb .active .step-number {
+    border: 0;
+    background: #012e5c;
+    color: white;
+}
+
+.checkout-breadcrumb .active .step-copy {
+    color: #012e5c;
+}
+

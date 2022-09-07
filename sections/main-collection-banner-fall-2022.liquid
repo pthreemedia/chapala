@@ -1,0 +1,100 @@
+{% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
+{{ 'component-collection-hero.css' | asset_url | stylesheet_tag }}
+{{ 'component-collection-hero-fall-2022.css' | asset_url | stylesheet_tag }}
+
+<div class="collection-hero{% if section.settings.show_collection_image and collection.image %} collection-hero--with-image{% endif %} color-{{ section.settings.color_scheme }} gradient collection-hero-fall-2022">
+  <div class="collection-hero__inner page-width">
+    <div class="collection-hero__text-wrapper{% if section.settings.center_banner_text_desktop == true %} center-desktop{% endif %}{% if section.settings.center_banner_text_mobile == true %} center-mobile {% endif %}">
+      {%- if section.settings.show_breadcrumbs == true -%}
+        {% render 'breadcrumbs', show_home: section.settings.show_home, hide_current_page: section.settings.hide_current_page %}
+      {%- endif -%}
+      <h1 class="collection-hero__title">
+        <span class="visually-hidden">{{ 'sections.collection_template.title' | t }}: </span>
+        {{- collection.title | escape -}}
+      </h1>
+
+      {%- if section.settings.show_collection_description -%}
+        <div class="collection-hero__description rte">{{ collection.description }}</div>
+      {%- endif -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.main-collection-banner.name",
+  "class": "section",
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "t:sections.main-collection-banner.settings.paragraph.content"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_collection_description",
+      "default": true,
+      "label": "t:sections.main-collection-banner.settings.show_collection_description.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_breadcrumbs",
+      "default": true,
+      "label": "Show breadcrumbs"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_home",
+      "default": true,
+      "label": "Show link to homepage in breadcrumbs"
+    },
+    {
+      "type": "checkbox",
+      "id": "hide_current_page",
+      "default": true,
+      "label": "Hide current page in breadcrumbs"
+    },
+    {
+      "type": "checkbox",
+      "id": "center_banner_text_desktop",
+      "default": false,
+      "label": "Center collection header text on desktop",
+      "info": "Screens larger than 750px"
+    },
+    {
+      "type": "checkbox",
+      "id": "center_banner_text_mobile",
+      "default": true,
+      "label": "Center collection header text on mobile",
+      "info": "Screens smaller than 749px"
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "options": [
+        {
+          "value": "accent-1",
+          "label": "t:sections.all.colors.accent_1.label"
+        },
+        {
+          "value": "accent-2",
+          "label": "t:sections.all.colors.accent_2.label"
+        },
+        {
+          "value": "background-1",
+          "label": "t:sections.all.colors.background_1.label"
+        },
+        {
+          "value": "background-2",
+          "label": "t:sections.all.colors.background_2.label"
+        },
+        {
+          "value": "inverse",
+          "label": "t:sections.all.colors.inverse.label"
+        }
+      ],
+      "default": "background-1",
+      "label": "t:sections.all.colors.label"
+    }
+  ]
+}
+{% endschema %}

@@ -49,6 +49,14 @@
         <h2 class="drawer__heading">{{ 'sections.cart.title' | t }}</h2>
         <button class="drawer__close" type="button" onclick="this.closest('cart-drawer').close()" aria-label="{{ 'accessibility.close' | t }}">{% render 'icon-close' %}</button>
       </div>
+      <div class="cart-free-shipping-message text-center">
+        {% if cart.total_price > 10000 %}
+          <h3>Congrats!</h3>
+          <p>You get free shipping for this order.</p>
+        {% else %}
+          <p>Add more items to get free shipping <br/> on orders over $100.</p>
+        {% endif %}
+      </div>        
       <cart-drawer-items {% if cart == empty %}class=" is-empty"{% endif %}>
         <form action="{{ routes.cart_url }}" id="CartDrawer-Form" class="cart__contents cart-drawer__form" method="post">
           <div id="CartDrawer-CartItems" class="drawer__contents js-contents">
@@ -87,27 +95,28 @@
                           {%- endif -%}
 
                           <a href="{{ item.url }}" class="cart-item__name h5 break">{% if item.product.metafields.seavees.online_title != blank %}{{ item.product.metafields.seavees.online_title | escape }}{% else %}{{ item.product.title | escape }}{% endif %}</a>
-
-                          {%- if item.original_price != item.final_price -%}
-                            <div class="cart-item__discounted-prices">
-                              <span class="visually-hidden">
-                                {{ 'products.product.price.regular_price' | t }}
-                              </span>
-                              <s class="cart-item__old-price product-option">
-                                {{- item.original_price | money -}}
-                              </s>
-                              <span class="visually-hidden">
-                                {{ 'products.product.price.sale_price' | t }}
-                              </span>
-                              <strong class="cart-item__final-price product-option">
-                                {{ item.final_price | money }}
-                              </strong>
-                            </div>
-                          {%- else -%}
-                            <div class="product-option">
-                              {{ item.original_price | money }}
-                            </div>
-                          {%- endif -%}
+                          <div class="dn">
+                            {%- if item.original_price != item.final_price -%}
+                              <div class="cart-item__discounted-prices">
+                                <span class="visually-hidden">
+                                  {{ 'products.product.price.regular_price' | t }}
+                                </span>
+                                <s class="cart-item__old-price product-option">
+                                  {{- item.original_price | money -}}
+                                </s>
+                                <span class="visually-hidden">
+                                  {{ 'products.product.price.sale_price' | t }}
+                                </span>
+                                <strong class="cart-item__final-price product-option">
+                                  {{ item.final_price | money }}
+                                </strong>
+                              </div>
+                            {%- else -%}
+                              <div class="product-option">
+                                {{ item.original_price | money }}
+                              </div>
+                            {%- endif -%}
+                          </div>
 
                           {%- if item.product.has_only_default_variant == false or item.properties.size != 0 or item.selling_plan_allocation != nil -%}
                             <dl>
@@ -115,7 +124,7 @@
                                 {%- for option in item.options_with_values -%}
                                   <div class="product-option">
                                     <dt>{{ option.name }}: </dt>
-                                    <dd>{{ option.value }}{% unless forloop.last %}, {% endunless %}</dd>
+                                    <dd>{{ option.value }}{% unless forloop.last %} {% endunless %}</dd>
                                   </div>
                                 {%- endfor -%}
                               {%- endif -%}
@@ -141,6 +150,11 @@
 
                             <p class="product-option">{{ item.selling_plan_allocation.selling_plan.name }}</p>
                           {%- endif -%}
+
+                          {% if item.product.available %}
+                            <p class="product-option">In stock</p>
+                          {% endif %}
+                            
 
                           <ul class="discounts list-unstyled" role="list" aria-label="{{ 'customer.order.discount' | t }}">
                             {%- for discount in item.discounts -%}
@@ -311,8 +325,12 @@
           </noscript>
 
           <button type="submit" id="CartDrawer-Checkout" class="cart__checkout-button button" name="checkout" form="CartDrawer-Form"{% if cart == empty %} disabled{% endif %}>
-            {{ 'sections.cart.checkout' | t }}
+            {% render 'icon-padlock' %}
+            CHECKOUT NOW
           </button>
+          <a href="/cart" class="button blue-on-white w-100">
+            View cart
+          </a>
         </div>
       </div>
     </div>

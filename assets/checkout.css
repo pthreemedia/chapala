@@ -1,0 +1,23 @@
+.section__header p a {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+header .wrap,
+.checkout-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+header .wrap svg,
+.checkout-logo-container svg {
+    height: 24px;
+    margin: 0 12px 8px 12px;
+}
+
+.checkout-logo-container svg {
+    margin: 0 8px 8px 20px;
+}

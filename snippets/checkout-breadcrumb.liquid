@@ -1,0 +1,33 @@
+{{ 'checkout-breadcrumb.css' | asset_url | stylesheet_tag }}
+
+{% assign currentStep = "" %}
+
+{% if content_for_layout contains 'data-step="contact_information"' %}
+    {% assign currentStep = "information" %}
+{% endif %}
+
+{% if content_for_layout contains 'data-step="shipping_method"' %}
+    {% assign currentStep = "shipping" %}
+{% endif %}
+
+{% if content_for_layout contains 'data-step="payment_method"' %}
+    {% assign currentStep = "payment" %}
+{% endif %}
+
+<div class="checkout-breadcrumb">
+    <div class="step-container {% if currentStep == "information" %} active {% endif %}">
+        <span class="step-number">1</span>
+        <span class="step-copy">Information</span>
+    </div>
+    <span class="step-arrow">{% render 'icon-arrow' %}</span>
+    <div class="step-container {% if currentStep == "shipping" %} active {% endif %}">
+        <span class="step-number">2</span>
+        <span class="step-copy">Shipping</span>
+    </div>
+    <span class="step-arrow">{% render 'icon-arrow' %}</span>
+
+    <div class="step-container {% if currentStep == "payment" %} active {% endif %}">
+        <span class="step-number">3</span>
+        <span class="step-copy">Payment</span>
+    </div>
+</div>

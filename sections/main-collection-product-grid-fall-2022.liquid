@@ -1,0 +1,547 @@
+{{ 'template-collection.css' | asset_url | stylesheet_tag }}
+{{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
+{{ 'component-loading-overlay-fall-2022.css' | asset_url | stylesheet_tag }}
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+{{ 'component-grouped-card.css' | asset_url | stylesheet_tag }}
+{{ 'component-price.css' | asset_url | stylesheet_tag }}
+{{ 'product-swatches.css' | asset_url | stylesheet_tag }}
+{{ 'content-for-product-grid.css' | asset_url | stylesheet_tag }}
+
+<link rel="preload" href="{{ 'component-rte.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+{%- if section.settings.grouped_collection == true -%}
+  <link rel="stylesheet" href="{{ 'component-slider.css' | asset_url }}" media="print" onload="this.media='all'">
+  <noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
+{%- endif -%}
+
+{%- if section.settings.enable_quick_add -%}
+  <link rel="stylesheet" href="{{ 'quick-add.css' | asset_url }}" media="print" onload="this.media='all'">
+  <script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
+  <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
+{%- endif -%}
+<noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
+
+{% if section.settings.show_swatches == true %}
+  <script>
+    window.theme = {
+      template: {{ template.name | json }},
+      shop: {
+        url: {{ shop.url | json }}
+      },
+      swatch_prod: {
+      }
+    };
+  </script>
+
+  {%- liquid
+    if collection.all_vendors contains "SeaVees Footwear"
+      assign search_collection = collections["all-shoes"]
+    else
+      assign search_collection = collections["goods"]
+    endif
+  -%}
+  
+  {% unless search_collection == blank %}
+    {% paginate search_collection.products by 1000 %}
+      {% for product in search_collection.products %}
+      <script>
+        window.theme.swatch_prod["{{ product.handle }}"] = {
+          swatch_color: "{{ product.metafields.seavees.swatch }}",
+          swatch_image: "{{ product.metafields.seavees.swatch_image }}",
+          product_info: {{ product | json }}
+        }
+      </script>
+      {% endfor %}
+    {% endpaginate %}
+  {% endunless %}
+{% endif %}
+<div class="product-count-vertical light" role="status">
+  <h2 class="product-count__text text-body">
+    <span id="ProductCount"></span>
+    <span id="ProductCountDesktop">
+      {%- if collection.results_count -%}
+        {{ 'templates.search.results_with_count' | t: terms: collection.terms, count: collection.results_count }}
+      {%- elsif collection.products_count == collection.all_products_count -%}
+        {{ 'products.facets.product_count_simple' | t: count: collection.products_count }}
+      {%- else -%}
+        {{ 'products.facets.product_count' | t: product_count: collection.products_count, count: collection.all_products_count }}
+      {%- endif -%}
+    </span>
+  </h2>
+  <div class="loading-overlay__spinner">
+    <svg aria-hidden="true" focusable="false" role="presentation" class="spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+      <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+    </svg>
+  </div>
+</div>
+<div class="">
+  <div class="">
+    {% assign available_products = collection.products | where: "available" %}
+
+    {% if section.settings.grouped_collection == true %}
+      <div id="grouped_collection_view">
+        {%- paginate collection.products by 1000 -%}
+        
+          {%- capture silhouettes_list -%}
+            
+            {%- for product in available_products -%}
+                {{- product.metafields.seavees.silhouette -}}
+                {%- if forloop.last == false %}|{% endif -%}
+            {%- endfor -%}
+          {%- endcapture -%}
+
+
+          {%- assign silhouettes_array = silhouettes_list | split: '|' | uniq -%}
+
+          {% assign gridContentArray = collection.metafields.seavees.grid_content | remove: '"' %}
+          {% assign gridContentArray = gridContentArray | remove: '[' %}
+          {% assign gridContentArray = gridContentArray | remove: ']' %}
+          {% assign gridContentArray = gridContentArray | split: ',' %}
+
+  
+          <div class="product-grid-container" id="ProductGridContainer">
+            {%- if collection.products.size == 0 -%}
+              <div class="collection collection--empty page-width" id="product-grid" data-id="{{ section.id }}">
+                <div class="loading-overlay gradient">
+                  <div class="loading-overlay__spinner">
+                    <svg aria-hidden="true" focusable="false" role="presentation" class="spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+                      <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                    </svg>
+                  </div>                
+                </div>
+                <div class="title-wrapper center">
+                  <h2 class="title title--primary">
+                    {{ 'sections.collection_template.empty' | t }}<br>
+                  </h2>
+                </div>
+              </div>
+            {%- else -%}
+            <div class="collection">
+              <div class="loading-overlay gradient">
+                <div class="loading-overlay__spinner">
+                  <svg aria-hidden="true" focusable="false" role="presentation" class="spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                  </svg>
+                </div>                
+              </div>
+              {% for silhouette in silhouettes_array %}
+                {% assign silhouette_count = 0 %}
+                {% for product in collection.products %}
+                  {% if silhouette == product.metafields.seavees.silhouette and product.metafields.seavees.hide_product != true %}
+                    {% assign silhouette_count = silhouette_count | plus: 1 %}
+                  {% endif %}
+                {% endfor %}
+                {% unless silhouette_count == 0 %}
+                  {% assign card_counter = 1  %}
+                  {% assign current_grid_position = forloop.index %}
+
+                  {%- for block in section.blocks -%}
+                    {% assign content_grid_position = block.settings.grid_position | plus: 0 %}                      
+                    {% if  current_grid_position == content_grid_position %}
+                      {% for gridContentID in gridContentArray %}
+                        {% if gridContentID ==  block.settings.grid_content_id %}
+                          <div 
+                            class="content-for-product-grid
+                            cols-{{ block.settings.grid_width_in_3_column_grid }}
+                            vert-{{ block.settings.headline_vertical_position }}
+                            horz-{{ block.settings.headline_horizontal_position }}
+                          "  
+                          >
+                            <a href="{{ block.settings.link_url }}" class="link"></a>
+                            <div class="image-container">
+                              {% if block.settings.mobile_image %}
+                                <img class="mobile" src="{{ block.settings.mobile_image | image_url: width: 750 }}">
+                              {% endif %}
+                              {% if block.settings.desktop_image %}
+                                <img class="desktop" src="{{ block.settings.desktop_image | image_url: width: 2000 }}">
+                              {% endif %}
+                            </div>
+                            <div class="copy-container">
+                              <div class="text">
+                                {% if block.settings.heading != null and block.settings.heading != "" %}
+                                  <h3>{{ block.settings.heading }}</h3>
+                                {% endif %}
+                                {% if block.settings.subheading != null and block.settings.subheading != "" %}
+                                  <h4>{{ block.settings.subheading }}</h4>
+                                {% endif %}
+                              </div>
+                              {% if block.settings.link_text %}
+                                <span class="cta-text">{{ block.settings.link_text }}</span>                        
+                              {% endif %}
+                            </div>
+                          </div> 
+                        {% endif %}
+                      {% endfor %}         
+                    {% endif %}
+                  {%- endfor -%}
+                  <div class="grouped-collection-container page-width product-grid" data-id="{{ section.id }}" {% if silhouette_count == 0 %} first-container {% endif %}>
+                    {%- for product in collection.products -%}
+                                        
+                      {% assign lazy_load = false %}
+                      {%- if forloop.index > 2 -%}
+                        {%- assign lazy_load = true -%}
+                      {%- endif -%}
+
+
+                      {% unless product.metafields.seavees.hide_product == true %}
+                        {% unless section.settings.hide_sale_products == true and product.metafields.seavees.is_on_sale == true  %}
+                          {% if silhouette == product.metafields.seavees.silhouette %}
+
+                            {% if card_counter == 1 %}
+                              {% assign first_card = true %}
+                              {% assign first_card_product_url = product.url %}
+                            {% else %}
+                              {% assign first_card = false %}
+                            {% endif %}
+                            
+                            {% render 'card-grouped-product',
+                              card_product: product,
+                              media_aspect_ratio: section.settings.image_ratio,
+                              show_vendor: section.settings.show_vendor,
+                              show_gender: section.settings.show_gender,
+                              show_material: section.settings.show_material,
+                              show_rating: section.settings.show_rating,
+                              lazy_load: lazy_load,
+                              show_quick_add: section.settings.enable_quick_add,
+                              section_id: section.id,
+                              show_swatches: section.settings.show_swatches,
+                              show_condensed_title: section.settings.show_condensed_title,
+                              show_availability: section.settings.show_availability,
+                              first_card: first_card,
+                              silhouette_count: silhouette_count,
+                              hide_sale_swatches: section.settings.hide_sale_swatches,
+                              show_page_load_image: collection.metafields.seavees.show_page_load_image
+                              product_image_position_on_load: collection.metafields.seavees.product_image_position_on_load,
+                              show_secondary_image: section.settings.show_secondary_image,
+                              collection_product_hover_image_position: collection.metafields.seavees.collection_product_hover_image_position
+                            %}
+                            
+                            {% if card_counter == silhouette_count and section.settings.show_swatches %}
+                              {% render 'card-grouped-product-swatches', card_product: product, hide_sale_swatches: section.settings.hide_sale_swatches, first_card_product_url: first_card_product_url, silhouette_count: silhouette_count %}
+                              {% if section.settings.enable_quick_add  %}
+                                <fake-out-quick-shop class="fake-out-quick-shop button button--secondary">
+                                  <span>+ Quick Shop</span>
+                                  <div class="loading-overlay__spinner hidden">
+                                    <svg aria-hidden="true" focusable="false" role="presentation" class="spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+                                      <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                                    </svg>
+                                  </div>              
+                                </fake-out-quick-shop>
+                              {% endif %}
+                            {% endif %}
+                            {%- assign card_counter = card_counter | plus: 1 -%}
+                          {% endif %}
+                        {% endunless %}  
+                      {% endunless %}
+                    {%- endfor -%}
+                  </div>
+                {% endunless %}
+              {% endfor %}
+            </div>
+          {%- endif -%}
+        </div>
+        {%- endpaginate -%}
+      </div>
+    {%- else -%}
+      <div class="product-grid-container" id="ProductGridContainer">
+        {%- paginate collection.products by section.settings.products_per_page -%}
+          {%- if collection.products.size == 0 -%}
+            <div class="collection collection--empty page-width" id="product-grid" data-id="{{ section.id }}">
+              <div class="loading-overlay gradient">
+                <div class="loading-overlay__spinner">
+                  <svg aria-hidden="true" focusable="false" role="presentation" class="spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                  </svg>
+                </div>                
+              </div>
+              <div class="title-wrapper center">
+                <h2 class="title title--primary">
+                  {{ 'sections.collection_template.empty' | t }}<br>
+                </h2>
+              </div>
+            </div>
+          {%- else -%}
+            <div class="collection">
+              <div class="loading-overlay gradient">
+                <div class="loading-overlay__spinner">
+                  <svg aria-hidden="true" focusable="false" role="presentation" class="spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                  </svg>
+                </div>                
+              </div>
+              <ul id="product-grid" data-id="{{ section.id }}" class="
+                grid product-grid">
+                {%- for product in collection.products -%}
+                  {% assign lazy_load = false %}
+                  {%- if forloop.index > 2 -%}
+                    {%- assign lazy_load = true -%}
+                  {%- endif -%}      
+                  {% unless product.metafields.seavees.hide_product == true %}
+                    {% unless section.settings.hide_sale_products == true and product.metafields.seavees.is_on_sale == true %}
+                      <li class="grid__item">
+                        {% render 'card-product',
+                          card_product: product,
+                          media_aspect_ratio: section.settings.image_ratio,
+                          show_secondary_image: section.settings.show_secondary_image,
+                          product_image_position_on_load: collection.metafields.seavees.product_image_position_on_load,
+                          collection_product_hover_image_position: collection.metafields.seavees.collection_product_hover_image_position,
+                          show_vendor: section.settings.show_vendor,
+                          show_gender: section.settings.show_gender,
+                          show_material: section.settings.show_material,
+                          show_rating: section.settings.show_rating,
+                          lazy_load: lazy_load,
+                          show_quick_add: section.settings.enable_quick_add,
+                          section_id: section.id,
+                          show_condensed_title: section.settings.show_condensed_title,
+                          show_availability: section.settings.show_availability
+                        %}
+                      </li>
+                    {% endunless %}
+                  {% endunless %}
+                {%- endfor -%}
+              </ul>
+      
+              {%- if paginate.pages > 1 -%}
+                {% render 'pagination', paginate: paginate, anchor: '' %}
+              {%- endif -%}
+            </div>
+          {%- endif -%}
+        {%- endpaginate -%}
+      </div>
+    {%- endif -%}
+  </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "t:sections.main-collection-product-grid.name",
+  "class": "section",
+  "settings": [
+    {
+      "type": "range",
+      "id": "products_per_page",
+      "min": 8,
+      "max": 60,
+      "step": 2,
+      "default": 60,
+      "label": "t:sections.main-collection-product-grid.settings.products_per_page.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "grouped_collection",
+      "default": false,
+      "label": "Show grouped view",
+      "info": "If checked, products will be grouped by silhouette (defined in product metafields)"
+    },
+    {
+      "type": "checkbox",
+      "id": "hide_sale_products",
+      "default": false,
+      "label": "Hide sale products from collection",
+      "info": "Linked to is_on_sale metafield"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.main-collection-product-grid.settings.header__3.content"
+    },
+    {
+      "type": "select",
+      "id": "image_ratio",
+      "options": [
+        {
+          "value": "adapt",
+          "label": "t:sections.main-collection-product-grid.settings.image_ratio.options__1.label"
+        },
+        {
+          "value": "portrait",
+          "label": "t:sections.main-collection-product-grid.settings.image_ratio.options__2.label"
+        },
+        {
+          "value": "square",
+          "label": "t:sections.main-collection-product-grid.settings.image_ratio.options__3.label"
+        }
+      ],
+      "default": "adapt",
+      "label": "t:sections.main-collection-product-grid.settings.image_ratio.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_condensed_title",
+      "default": false,
+      "label": "Use the 'Online store title' metafield as the product title",
+      "info": "Will default to product.title if the 'Online store title' metafield is blank"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_swatches",
+      "default": false,
+      "label": "Show swatches"
+    },
+    {
+      "type": "checkbox",
+      "id": "hide_sale_swatches",
+      "default": true,
+      "label": "Hide sale swatches"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_availability",
+      "default": false,
+      "label": "Show availability"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_secondary_image",
+      "default": false,
+      "label": "t:sections.main-collection-product-grid.settings.show_secondary_image.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_gender",
+      "default": false,
+      "label": "Show gender"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_material",
+      "default": false,
+      "label": "Show material"
+    },    
+    {
+      "type": "checkbox",
+      "id": "show_vendor",
+      "default": false,
+      "label": "t:sections.main-collection-product-grid.settings.show_vendor.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_rating",
+      "default": false,
+      "label": "t:sections.main-collection-product-grid.settings.show_rating.label",
+      "info": "t:sections.main-collection-product-grid.settings.show_rating.info"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_quick_add",
+      "default": false,
+      "label": "t:sections.main-collection-product-grid.settings.enable_quick_buy.label"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "grid_content",
+      "name": "Grid Content",
+      "settings": [
+        {
+          "type": "text",
+          "id": "grid_content_id",
+          "label": "Content ID",
+          "info": "This field gets used on collection page metafields. Do not use spaces or special characters."
+        },
+        {
+          "type": "text",
+          "id": "grid_position",
+          "label": "Grid Position",
+          "info": "Enter the number position that this content appears in the grid."
+        },
+        {
+          "type": "select",
+          "id": "grid_width_in_3_column_grid",
+          "label": "Column width",
+          "info": "This setting is applied on desktop size screen",
+          "options": [
+            {
+              "value": "none",
+              "label": "One Column"
+            },          
+            {
+              "value": "1-3",
+              "label": "Columns 1 and 2"
+            },          
+            {
+              "value": "2-4",
+              "label": "Columns 2 and 3"
+            },
+            {
+              "value": "1-4",
+              "label": "Columns 1 - 3"
+            }                   
+          ],
+          "default": "none"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Headline"
+        },
+        {
+          "type": "text",
+          "id": "subheading",
+          "label": "Subheadline"
+        },
+        {
+          "type": "select",
+          "id": "headline_vertical_position",
+          "label": "Headline Vertical Position",
+          "options": [
+            {
+              "value": "top",
+              "label": "Top"
+            },          
+            {
+              "value": "middle",
+              "label": "Middle"
+            },          
+            {
+              "value": "bottom",
+              "label": "Bottom"
+            }          
+          ],
+          "default": "top"
+        },
+        {
+          "type": "select",
+          "id": "headline_horizontal_position",
+          "label": "Headline Horizontal Position",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },          
+            {
+              "value": "middle",
+              "label": "Middle"
+            },          
+            {
+              "value": "right",
+              "label": "Right"
+            }          
+          ],
+          "default": "left"
+        },
+        {
+          "type": "image_picker",
+          "id": "mobile_image",
+          "label": "Mobile Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "desktop_image",
+          "label": "Desktop Image"
+        },
+        {
+          "type": "url",
+          "id": "link_url",
+          "label": "Link"
+        },
+        {
+          "type": "text",
+          "id": "link_text",
+          "label": "Link Text"
+        }
+      ]
+    }
+  ]  
+}
+{% endschema %}

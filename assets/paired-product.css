@@ -1,0 +1,59 @@
+.paired-product {
+  max-width: 92%;
+  margin: 24px auto;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  transition: 600ms ease;
+  padding: 0px 24px 6px;
+  position: relative;
+}
+
+.paired-product span {
+  display: block;
+}
+
+.paired-product span.gender, 
+.paired-product span.material {
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.paired-product span.product-name {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.paired-product .price-item {
+  font-size: 14px;
+}
+
+.paired-product img {
+  width: 240px;
+  margin: 0 auto;
+  display: block;
+  transition: 600ms ease;
+}
+
+.paired-product:hover img {
+  transform: scale(1.06);
+} 
+
+.paired-product .paired-product-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: 1;
+}
+
+.paired-product .product-form__buttons {
+  position: relative;
+  z-index: 2;
+  margin: 0 auto;
+}
+
+.paired-product .quick-add .quick-add__submit {
+  width: 100%;
+  padding: 1.5rem 2.5rem 1.5rem;
+}

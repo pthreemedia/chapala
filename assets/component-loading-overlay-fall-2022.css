@@ -1,0 +1,16 @@
+.collection .loading-overlay {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+}
+
+.collection .loading-overlay .loading-overlay__spinner {
+  width: 20em;
+  height: 20em;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+}

@@ -69,23 +69,22 @@
         "99120ec1-67d8-4e34-8855-930ee3f22b43": {
           "type": "column",
           "settings": {
-            "title": "Retail Key Holder - Santa Barbara",
+            "title": "Store Manager - Mill Valley",
             "font_style": "h3",
-            "text": "<p>Based at our Santa Barbara, CA retail store, the Retail Key Holders are responsible for opening and closing the store, working directly with the assistant manager and store manager, implementing a variety of functions and procedures relating to customer service, sales, merchandising, and store operations.<\/p>",
+            "text": "<p>Based at our new Mill Valley store, the Store Manager is responsible for overseeing the operational execution of the retail store.<\/p>",
             "link_label": "View Details",
-            "link": "shopify:\/\/pages\/careers-retail-key-holder-santa-barbara",
+            "link": "shopify:\/\/pages\/careers-store-manager-mill-valley-ca",
             "info_on_image": false
           }
         },
         "8199bab9-932a-4f4d-952b-adbae403d716": {
           "type": "column",
-          "disabled": true,
           "settings": {
-            "title": "Graphic Design Intern",
+            "title": "Assistant Store Manager - Mill Valley",
             "font_style": "h3",
-            "text": "<p>We’re looking for a Graphic Design intern with strong typography and layout skills to help elevate the brand message through all visual communications on and offline.<\/p>",
+            "text": "<p>Based at our new Mill Valley retail store, this role provides support to the Store Manager in order to achieve the highest levels of customer service sales.<\/p>",
             "link_label": "View Details",
-            "link": "shopify:\/\/pages\/careers-graphic-design-intern",
+            "link": "shopify:\/\/pages\/careers-assistant-store-manager-mill-valley",
             "info_on_image": false
           }
         },
@@ -125,6 +124,7 @@
         },
         "d32262e6-10d1-4e75-882a-8ac07dea52be": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "Assistant Store Manager - Santa Barbara",
             "font_style": "h3",
