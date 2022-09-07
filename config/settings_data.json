@@ -494,7 +494,7 @@
         "type": "main-collection-product-grid-fall-2022-spliced",
         "settings": {
           "products_per_page": 48,
-          "columns_desktop": 4,
+          "columns_desktop": 3,
           "grouped_collection": false,
           "hide_sale_products": false,
           "image_ratio": "adapt",
