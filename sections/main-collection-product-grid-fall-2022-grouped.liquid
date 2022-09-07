@@ -215,16 +215,14 @@
                             
                             {% if card_counter == silhouette_count %}
                               {% render 'card-grouped-product-swatches', card_product: product, hide_sale_swatches: section.settings.hide_sale_swatches, first_card_product_url: first_card_product_url, silhouette_count: silhouette_count %}
-                              {% if section.settings.enable_quick_add  %}
-                                <fake-out-quick-shop class="fake-out-quick-shop button button--secondary">
-                                  <span>+ Quick Shop</span>
-                                  <div class="loading-overlay__spinner hidden">
-                                    <svg aria-hidden="true" focusable="false" role="presentation" class="spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
-                                      <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
-                                    </svg>
-                                  </div>              
-                                </fake-out-quick-shop>
-                              {% endif %}
+                              <fake-out-quick-shop class="fake-out-quick-shop button button--secondary">
+                                <span>+ Quick Shop</span>
+                                <div class="loading-overlay__spinner hidden">
+                                  <svg aria-hidden="true" focusable="false" role="presentation" class="spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+                                    <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                                  </svg>
+                                </div>              
+                              </fake-out-quick-shop>
                             {% endif %}
                             {%- assign card_counter = card_counter | plus: 1 -%}
                           {% endif %}
