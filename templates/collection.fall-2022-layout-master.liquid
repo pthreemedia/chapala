@@ -9,7 +9,11 @@
         </div>
     </div>
     <div class="column-2">
-        {% section 'main-collection-product-grid-fall-2022' %}
+        {% if collection.metafields.seavees.group_products_by_color == true %}
+            {% section 'main-collection-product-grid-fall-2022-grouped' %}
+        {% else %}
+            {% section 'main-collection-product-grid-fall-2022-spliced' %}
+        {% endif %}
     </div>
 </div>
 
