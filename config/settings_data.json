@@ -514,6 +514,24 @@
           "padding_top": 36,
           "padding_bottom": 36
         }
+      },
+      "main-collection-product-grid-fall-2022-grouped": {
+        "type": "main-collection-product-grid-fall-2022-grouped",
+        "settings": {
+          "products_per_page": 60,
+          "hide_sale_products": false,
+          "image_ratio": "adapt",
+          "show_condensed_title": false,
+          "show_swatches": false,
+          "hide_sale_swatches": true,
+          "show_availability": false,
+          "show_secondary_image": false,
+          "show_gender": false,
+          "show_material": false,
+          "show_vendor": false,
+          "show_rating": false,
+          "enable_quick_add": true
+        }
       }
     },
     "content_for_index": [
