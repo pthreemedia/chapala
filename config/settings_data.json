@@ -270,6 +270,7 @@
           "53aa48e7-d13c-42eb-9864-e27635d8a476"
         ],
         "settings": {
+          "hover_mega_menu": false,
           "color_scheme": "background-1",
           "logo": "shopify:\/\/shop_images\/seavees-website-logo-navy_012E5C.png",
           "logo_width": 140,
@@ -462,6 +463,51 @@
           "footer-accolades-0"
         ],
         "settings": {
+        }
+      },
+      "main-collection-banner-fall-2022": {
+        "type": "main-collection-banner-fall-2022",
+        "settings": {
+          "show_collection_description": true,
+          "show_breadcrumbs": true,
+          "show_home": true,
+          "hide_current_page": true,
+          "center_banner_text_desktop": false,
+          "center_banner_text_mobile": true,
+          "color_scheme": "background-1"
+        }
+      },
+      "collection-page-menu": {
+        "type": "collection-page-menu",
+        "settings": {
+          "menu": ""
+        }
+      },
+      "collection-filter": {
+        "type": "collection-filter",
+        "settings": {
+          "enable_filtering": true,
+          "filter_type": "vertical",
+          "enable_sorting": true
+        }
+      },
+      "main-collection-product-grid-fall-2022": {
+        "type": "main-collection-product-grid-fall-2022",
+        "settings": {
+          "products_per_page": 60,
+          "grouped_collection": true,
+          "hide_sale_products": false,
+          "image_ratio": "adapt",
+          "show_condensed_title": false,
+          "show_swatches": true,
+          "hide_sale_swatches": true,
+          "show_availability": false,
+          "show_secondary_image": false,
+          "show_gender": false,
+          "show_material": false,
+          "show_vendor": false,
+          "show_rating": false,
+          "enable_quick_add": true
         }
       }
     },
