@@ -120,7 +120,7 @@
 
       <div class="card__content">
         <div class="card__information">
-          <div class="card__badge">
+          <div class="card__badge old-card-badge">
             {%- if card_product.available == false and card_product.metafields.seavees.show_back_in_stock_tool == true -%}
               <span class="badge color-{{ settings.sold_out_badge_color_scheme }}">Join waitlist</span>
             {%- elsif card_product.available == false -%}
@@ -231,7 +231,7 @@
                   aria-labelledby="{{ product_form_id }}-submit title-{{ section_id }}-{{ card_product.id }}"
                   data-product-url="{{ card_product.url }}"
                 >
-                  {{ 'products.product.choose_options' | t }}
+                + Quick Shop
                   <div class="loading-overlay__spinner hidden">
                     <svg aria-hidden="true" focusable="false" role="presentation" class="spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
                       <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
@@ -323,7 +323,7 @@
       </div>
       <div class="card__content">
         <div class="card__information">
-          <div class="card__badge">
+          <div class="card__badge old-card-badge">
             {%- if card_product.available == false and card_product.metafields.seavees.show_back_in_stock_tool == true -%}
               <span class="badge color-{{ settings.sold_out_badge_color_scheme }}">Join waitlist</span>
             {%- elsif card_product.available == false -%}
