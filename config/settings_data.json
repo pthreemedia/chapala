@@ -480,7 +480,6 @@
       "collection-page-menu": {
         "type": "collection-page-menu",
         "settings": {
-          "menu": ""
         }
       },
       "collection-filter": {
@@ -495,7 +494,7 @@
         "type": "main-collection-product-grid-fall-2022",
         "settings": {
           "products_per_page": 60,
-          "grouped_collection": true,
+          "grouped_collection": false,
           "hide_sale_products": false,
           "image_ratio": "adapt",
           "show_condensed_title": true,
