@@ -67,35 +67,23 @@
                 height="{{ card_product.featured_media.height }}"
               >
               {% comment %}theme-check-enable ImgLazyLoading{% endcomment %}
-              
-              {% comment %} get what position the secondary image should be {% endcomment %}
-              
-              {% assign hover_image_position = 1 %}
 
-              {% if collection_product_hover_image_position %}
-                {% assign hover_image_position = collection_product_hover_image_position | plus: 0%}                
-              {% endif %}
-              
-              {% if card_product.metafields.seavees.hover_image_position %}
-                {% assign hover_image_position = card_product.metafields.seavees.hover_image_position | plus: 0 %}                
-              {% endif %}            
-
-              {%- if card_product.media[hover_image_position] != nil and show_secondary_image -%}
+              {%- if card_product.media[1] != nil and show_secondary_image -%}
                 <img
-                  srcset="{%- if card_product.media[hover_image_position].width >= 165 -%}{{ card_product.media[hover_image_position] | image_url: width: 165 }} 165w,{%- endif -%}
-                    {%- if card_product.media[hover_image_position].width >= 360 -%}{{ card_product.media[hover_image_position] | image_url: width: 360 }} 360w,{%- endif -%}
-                    {%- if card_product.media[hover_image_position].width >= 533 -%}{{ card_product.media[hover_image_position] | image_url: width: 533 }} 533w,{%- endif -%}
-                    {%- if card_product.media[hover_image_position].width >= 720 -%}{{ card_product.media[hover_image_position] | image_url: width: 720 }} 720w,{%- endif -%}
-                    {%- if card_product.media[hover_image_position].width >= 940 -%}{{ card_product.media[hover_image_position] | image_url: width: 940 }} 940w,{%- endif -%}
-                    {%- if card_product.media[hover_image_position].width >= 1066 -%}{{ card_product.media[hover_image_position] | image_url: width: 1066 }} 1066w,{%- endif -%}
-                    {{ card_product.media[hover_image_position] | image_url }} {{ card_product.media[hover_image_position].width }}w"
-                  src="{{ card_product.media[hover_image_position] | image_url: width: 533 }}"
+                  srcset="{%- if card_product.media[1].width >= 165 -%}{{ card_product.media[1] | image_url: width: 165 }} 165w,{%- endif -%}
+                    {%- if card_product.media[1].width >= 360 -%}{{ card_product.media[1] | image_url: width: 360 }} 360w,{%- endif -%}
+                    {%- if card_product.media[1].width >= 533 -%}{{ card_product.media[1] | image_url: width: 533 }} 533w,{%- endif -%}
+                    {%- if card_product.media[1].width >= 720 -%}{{ card_product.media[1] | image_url: width: 720 }} 720w,{%- endif -%}
+                    {%- if card_product.media[1].width >= 940 -%}{{ card_product.media[1] | image_url: width: 940 }} 940w,{%- endif -%}
+                    {%- if card_product.media[1].width >= 1066 -%}{{ card_product.media[1] | image_url: width: 1066 }} 1066w,{%- endif -%}
+                    {{ card_product.media[1] | image_url }} {{ card_product.media[1].width }}w"
+                  src="{{ card_product.media[1] | image_url: width: 533 }}"
                   sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 130 | divided_by: 2 }}px, (min-width: 990px) calc((100vw - 130px) / 3), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
-                  alt="{{ card_product.media[hover_image_position].alt | escape }}"
+                  alt="{{ card_product.media[1].alt | escape }}"
                   class="motion-reduce"
                   loading="lazy"
-                  width="{{ card_product.media[hover_image_position].width }}"
-                  height="{{ card_product.media[hover_image_position].height }}"
+                  width="{{ card_product.media[1].width }}"
+                  height="{{ card_product.media[1].height }}"
                 >
               {%- endif -%}
             </div>
@@ -105,11 +93,20 @@
           <div class="card__information">
             <h3 class="card__heading"{% if card_product.featured_media == nil and settings.card_style == 'standard' %} id="title-{{ section_id }}-{{ card_product.id }}"{% endif %}>
               <a href="{{ card_product.url }}" class="full-unstyled-link product-card-link">
-                <span class="dn">
-                  {{ card_product.title | escape }}
-                </span>
+                {{ card_product.title | escape }}
               </a>
             </h3>
+          </div>
+          <div class="card__badge {{ settings.badge_position }}">
+            {%- if card_product.available == false and card_product.metafields.seavees.show_back_in_stock_tool == true -%}
+              <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}">Join waitlist</span>
+            {%- elsif card_product.available == false -%}
+              <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}">Sold out</span>
+            {%- elsif card_product.metafields.seavees.product_card_note != blank -%}
+              <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}">{{ card_product.metafields.seavees.product_card_note }}</span>
+            {%- elsif card_product.compare_at_price > card_product.price and card_product.available -%}
+              <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}">{{ 'products.product.on_sale' | t }}</span>
+            {%- endif -%}
           </div>
         </div>
       </div>
@@ -120,26 +117,14 @@
 
       <div class="card__content">
         <div class="card__information">
-          <div class="card__badge">
-            {%- if card_product.available == false and card_product.metafields.seavees.show_back_in_stock_tool == true -%}
-              <span class="badge color-{{ settings.sold_out_badge_color_scheme }}">Join waitlist</span>
-            {%- elsif card_product.available == false -%}
-              <span class="badge color-{{ settings.sold_out_badge_color_scheme }}">Sold out</span>
-            {%- elsif card_product.metafields.seavees.product_card_note != blank -%}
-              <span class="badge" style="color: {{ card_product.metafields.seavees.product_card_note_color }};">{{ card_product.metafields.seavees.product_card_note }}</span>
-            {%- elsif card_product.compare_at_price > card_product.price and card_product.available -%}
-              <span class="badge color-{{ settings.sale_badge_color_scheme }}">{{ 'products.product.on_sale' | t }}</span>
-            {%- endif -%}
-          </div>
-
           <h3 class="card__heading{% if card_product.featured_media or settings.card_style == 'standard' %} text-body{% endif %}"{% if card_product.featured_media or settings.card_style == 'card' %} id="title-{{ section_id }}-{{ card_product.id }}"{% endif %}>
             {%- if show_condensed_title and card_product.metafields.seavees.online_title != blank -%}
               <a href="{{ card_product.url }}" class="full-unstyled-link product-card-link text-body">
-                <span class="dn">{{ card_product.metafields.seavees.online_title | escape }}</span>
+                {{ card_product.metafields.seavees.online_title | escape }}
               </a>
             {%- else -%}
               <a href="{{ card_product.url }}" class="full-unstyled-link product-card-link text-body">
-                <span class="dn">{{ card_product.title | escape }}</span>
+                {{ card_product.title | escape }}
               </a>
             {%- endif -%}
           </h3>
@@ -249,6 +234,17 @@
             {%- endif -%}
           </div>
         {%- endif -%}
+        <div class="card__badge card__badge-mobile">
+          {%- if card_product.metafields.seavees.product_card_note != blank -%}
+            <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}">{{ card_product.metafields.seavees.product_card_note }}</span>
+          {%- elsif card_product.available == false and card_product.metafields.seavees.show_back_in_stock_tool == true -%}
+            <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}">Join waitlist</span>
+          {%- elsif card_product.available == false -%}
+            <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}">Sold out</span>
+          {%- elsif card_product.compare_at_price > card_product.price and card_product.available -%}
+            <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}">{{ 'products.product.on_sale' | t }}</span>
+          {%- endif -%}
+        </div>
       </div>
       {% if show_availability %}
         {% for option in card_product.options_with_values %}
@@ -323,17 +319,6 @@
       </div>
       <div class="card__content">
         <div class="card__information">
-          <div class="card__badge">
-            {%- if card_product.available == false and card_product.metafields.seavees.show_back_in_stock_tool == true -%}
-              <span class="badge color-{{ settings.sold_out_badge_color_scheme }}">Join waitlist</span>
-            {%- elsif card_product.available == false -%}
-              <span class="badge color-{{ settings.sold_out_badge_color_scheme }}">Sold out</span>
-            {%- elsif card_product.metafields.seavees.product_card_note != blank -%}
-              <span class="badge" style="color: {{ card_product.metafields.seavees.product_card_note_color }};">{{ card_product.metafields.seavees.product_card_note }}</span>
-            {%- elsif card_product.compare_at_price > card_product.price and card_product.available -%}
-              <span class="badge color-{{ settings.sale_badge_color_scheme }}">{{ 'products.product.on_sale' | t }}</span>
-            {%- endif -%}
-          </div>
           <h3 class="card__heading{% if settings.card_style == 'standard' %} text-body{% endif %}">
             <a role="link" aria-disabled="true" class="full-unstyled-link">
               {{ 'onboarding.product_title' | t }}
