@@ -133,8 +133,13 @@
             {%- endfor -%}
           {%- endcapture -%}
           {%- assign silhouettes_array = silhouettes_list | split: '|' | uniq -%}
+          {% style %}
+            .move-up-60-px {
+              margin-top: -60px;
+            }
+          {% endstyle %}
   
-          <div class="product-grid-container{% if section.settings.filter_type == 'vertical' and section.settings.collapse_on_larger_devices %} product-grid-container-vertical{% endif %}" id="ProductGridContainer">
+          <div class="product-grid-container move-up-60-px {% if section.settings.filter_type == 'vertical' and section.settings.collapse_on_larger_devices %} product-grid-container-vertical{% endif %}" id="ProductGridContainer">
             {%- if collection.products.size == 0 -%}
               <div class="collection collection--empty page-width" id="product-grid" data-id="{{ section.id }}">
                 <div class="loading-overlay gradient"></div>
