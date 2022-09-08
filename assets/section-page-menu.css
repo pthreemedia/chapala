@@ -59,10 +59,12 @@
     width: 0%;
     height: 1px;
     background-color: #dc4b28;
+    bottom: 4px;
 }
 
-.collection-fall-2022-layout #shopify-section-collection-page-menu .page-menu li::after { 
-    display: none;
+.collection-fall-2022-layout #shopify-section-collection-page-menu .page-menu li:hover::after,
+.collection-fall-2022-layout #shopify-section-collection-page-menu .page-menu li.active::after { 
+    width: 100%;
 }
 
 .page-menu .active::after {
