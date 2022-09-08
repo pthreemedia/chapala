@@ -3899,6 +3899,12 @@ ul.product-grid-spliced li:not(:first-of-type) {
   margin-top: 24px;
 }
 
+ul.product-grid-spliced .card-wrapper {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding-bottom: 24px;
+}
+
+
 @media (min-width: 750px) {
   ul.product-grid-spliced li:not(:first-of-type) {
     margin-top: 0;
