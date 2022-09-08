@@ -3,6 +3,8 @@
   height: 100%;
   position: relative;
   text-decoration: none;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding-bottom: 24px;
 }
 
 .card {
