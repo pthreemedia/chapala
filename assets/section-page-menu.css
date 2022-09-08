@@ -67,6 +67,13 @@
     width: 100%;
 }
 
+@media (max-width: 750px) {
+    .collection-fall-2022-layout #shopify-section-collection-page-menu .page-menu li:hover::after,
+    .collection-fall-2022-layout #shopify-section-collection-page-menu .page-menu li.active::after { 
+        display: none;
+    }        
+}
+
 .page-menu .active::after {
     width: 60%
 }
