@@ -3888,21 +3888,25 @@ p.copyright {
   border: rgb(var(--color-foreground)) solid 1px;
 }
 
-ul.product-grid-spliced {
+ul[data-id="main-collection-product-grid-fall-2022-spliced"] {
+  padding-bottom: 24px;
 }
 
 ul.product-grid-spliced li {
   width: 100%;
+  max-width: 100%;
 }
 
 ul.product-grid-spliced li:not(:first-of-type) {
   margin-top: 24px;
 }
 
-ul.product-grid-spliced .card-wrapper {
+
+ul.product-grid-spliced:not(.slider--mobile) .card-wrapper {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   padding-bottom: 24px;
 }
+
 
 
 @media (min-width: 750px) {
@@ -3918,7 +3922,20 @@ ul.product-grid-spliced .card-wrapper {
     margin-top: 12px;
     padding: 0 3rem;
   }    
+
+  ul.slider--mobile.product-grid-spliced li {
+    width: 100% !important;
+    max-width: 100% !important;
+  }    
+
+  ul.slider--mobile.product-grid-spliced .card-wrapper {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding-bottom: 24px;
+  }
+  
+
 }
+
 
 @media (min-width: 1360px) {
   ul.product-grid-spliced {
