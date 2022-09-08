@@ -17,20 +17,6 @@
 {%- endif -%}
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
 
-{%- style -%}
-  .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
-  }
-
-  @media screen and (min-width: 750px) {
-    .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
-    }
-  }
-{%- endstyle -%}
-
 {% if section.settings.show_swatches == true %}
   <script>
     window.theme = {
@@ -66,8 +52,8 @@
   {% endunless %}
 {% endif %}
 
-<div class="section-{{ section.id }}-padding">
-  <div class="{% if section.settings.filter_type == 'vertical' %} facets-vertical page-width{% endif %}">
+<div>
+  <div class="">
 
     {% if section.settings.grouped_collection == true %}
       <div id="grouped_collection_view">
@@ -189,10 +175,8 @@
           {%- else -%}
             <div class="collection{% if section.settings.filter_type != 'vertical' %} page-width{% endif %}">
               <div class="loading-overlay gradient"></div>
-      
               <ul id="product-grid" data-id="{{ section.id }}" class="
-                grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
-                grid--{{ section.settings.columns_desktop }}-col-desktop">
+                grid product-grid product-grid-spliced">
                 {%- for product in collection.products -%}
                   {% assign lazy_load = false %}
                   {%- if forloop.index > 2 -%}
@@ -201,7 +185,7 @@
 
                   {% unless product.metafields.seavees.hide_product == true %}
                     {% unless section.settings.hide_sale_products == true and product.metafields.seavees.is_on_sale == true %}
-                      <li class="grid__item">
+                      <li class="">
                         {% render 'card-product',
                           card_product: product,
                           media_aspect_ratio: section.settings.image_ratio,
@@ -389,50 +373,6 @@
       "id": "enable_sorting",
       "default": true,
       "label": "t:sections.main-collection-product-grid.settings.enable_sorting.label"
-    },
-    {
-      "type": "header",
-      "content": "t:sections.main-collection-product-grid.settings.header_mobile.content"
-    },
-    {
-      "type": "select",
-      "id": "columns_mobile",
-      "default": "2",
-      "label": "t:sections.main-collection-product-grid.settings.columns_mobile.label",
-      "options": [
-        {
-          "value": "1",
-          "label": "t:sections.main-collection-product-grid.settings.columns_mobile.options__1.label"
-        },
-        {
-          "value": "2",
-          "label": "t:sections.main-collection-product-grid.settings.columns_mobile.options__2.label"
-        }
-      ]
-    },
-    {
-      "type": "header",
-      "content": "t:sections.all.padding.section_padding_heading"
-    },
-    {
-      "type": "range",
-      "id": "padding_top",
-      "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "px",
-      "label": "t:sections.all.padding.padding_top",
-      "default": 36
-    },
-    {
-      "type": "range",
-      "id": "padding_bottom",
-      "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "px",
-      "label": "t:sections.all.padding.padding_bottom",
-      "default": 36
     }
   ]
 }
