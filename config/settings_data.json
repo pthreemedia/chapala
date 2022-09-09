@@ -485,7 +485,7 @@
       "collection-filter": {
         "type": "collection-filter",
         "settings": {
-          "enable_filtering": true,
+          "enable_filtering": false,
           "filter_type": "vertical",
           "enable_sorting": true
         }
