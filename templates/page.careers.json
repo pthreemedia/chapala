@@ -99,6 +99,17 @@
             "info_on_image": false
           }
         },
+        "d32262e6-10d1-4e75-882a-8ac07dea52be": {
+          "type": "column",
+          "settings": {
+            "title": "Retail Sales Associate - Mill Valley",
+            "font_style": "h3",
+            "text": "<p>We are looking for a positive self-starter and team<br\/>player who is detail-oriented and solution-driven. <\/p>",
+            "link_label": "View Details",
+            "link": "shopify:\/\/pages\/retail-sales-associate-mill-valley",
+            "info_on_image": false
+          }
+        },
         "16488307761b149624-0": {
           "type": "column",
           "settings": {
@@ -121,18 +132,6 @@
             "info_on_image": false
           }
         },
-        "d32262e6-10d1-4e75-882a-8ac07dea52be": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "title": "Assistant Store Manager - Santa Barbara",
-            "font_style": "h3",
-            "text": "<p>Based at our Santa Barbara, CA retail store, this role provides support to the Store Manager in order to achieve the highest levels of customer service sales.<\/p>",
-            "link_label": "View Details",
-            "link": "shopify:\/\/pages\/careers-retail-assistant-manager-santa-barbara",
-            "info_on_image": false
-          }
-        },
         "9d2288f3-ce8c-4967-82ff-696fbceb0690": {
           "type": "column",
           "settings": {
@@ -149,9 +148,9 @@
         "99120ec1-67d8-4e34-8855-930ee3f22b43",
         "8199bab9-932a-4f4d-952b-adbae403d716",
         "c6ae60f4-21ff-4c88-8bd9-80bebf7f42b1",
+        "d32262e6-10d1-4e75-882a-8ac07dea52be",
         "16488307761b149624-0",
         "16488307761b149624-1",
-        "d32262e6-10d1-4e75-882a-8ac07dea52be",
         "9d2288f3-ce8c-4967-82ff-696fbceb0690"
       ],
       "settings": {
