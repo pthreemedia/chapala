@@ -90,13 +90,12 @@
         },
         "c6ae60f4-21ff-4c88-8bd9-80bebf7f42b1": {
           "type": "column",
-          "disabled": true,
           "settings": {
-            "title": "Retail Store Manager",
+            "title": "Retail Key Holder – Mill Valley",
             "font_style": "h3",
-            "text": "<p>Based at our Newport Beach store, the Store Manager is responsible for overseeing the operational execution of the retail store.<\/p>",
+            "text": "<p>Retail Key Holders are responsible for opening and closing the store, working directly with the Assistant<br\/>Manager and Store Manager.<\/p>",
             "link_label": "View Details",
-            "link": "shopify:\/\/pages\/careers-retail-store-manager-newport-beach",
+            "link": "shopify:\/\/pages\/careers-retail-key-holder-mill-valley",
             "info_on_image": false
           }
         },
