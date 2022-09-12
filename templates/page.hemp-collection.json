@@ -214,6 +214,33 @@
         "margin_bottom": 0
       }
     },
+    "166302093595753c60": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "uppercase",
+        "collection": "seavees-x-jungmaven-collection",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "1663019933d7ecd160": {
       "type": "collage",
       "disabled": true,
@@ -413,33 +440,6 @@
         "padding_top": 80,
         "padding_bottom": 80
       }
-    },
-    "166302093595753c60": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured collection",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -449,10 +449,10 @@
     "1653069663d19d7d66",
     "1652992451b58be40b",
     "16517685015d2ce9b4",
+    "166302093595753c60",
     "1663019933d7ecd160",
     "166301662527dc4971",
     "1663016950053e8882",
-    "16533399328f27308a",
-    "166302093595753c60"
+    "16533399328f27308a"
   ]
 }
