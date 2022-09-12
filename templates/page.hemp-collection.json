@@ -214,6 +214,47 @@
         "margin_bottom": 0
       }
     },
+    "1663019933d7ecd160": {
+      "type": "collage",
+      "disabled": true,
+      "blocks": {
+        "0711998f-f63c-49cd-acf8-6ad3473d7a3a": {
+          "type": "product",
+          "settings": {
+            "product": "womens-hawthorne-slip-on-jungmaven-hemp-tie-dye",
+            "second_image": false
+          }
+        },
+        "0acdd3d1-53e3-4ec7-9ac3-7661f67e1d86": {
+          "type": "product",
+          "settings": {
+            "product": "womens-sixty-six-jungmaven-hemp-canvas",
+            "second_image": false
+          }
+        },
+        "9aff4b06-67e0-4161-8acc-0d60b2ffe026": {
+          "type": "product",
+          "settings": {
+            "product": "womens-sixty-six-jungmaven-hemp-canvas-clay-green",
+            "second_image": false
+          }
+        }
+      },
+      "block_order": [
+        "0711998f-f63c-49cd-acf8-6ad3473d7a3a",
+        "0acdd3d1-53e3-4ec7-9ac3-7661f67e1d86",
+        "9aff4b06-67e0-4161-8acc-0d60b2ffe026"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "166301662527dc4971": {
       "type": "hero-banner",
       "blocks": {
@@ -373,43 +414,29 @@
         "padding_bottom": 80
       }
     },
-    "16630169594a4237c2": {
-      "type": "collage",
-      "blocks": {
-        "16630169597276a4c4-0": {
-          "type": "video",
-          "disabled": true,
-          "settings": {
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "description": "Describe the video",
-            "image_padding": false
-          }
-        },
-        "16630169597276a4c4-1": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "16630169597276a4c4-2": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "16630169597276a4c4-0",
-        "16630169597276a4c4-1",
-        "16630169597276a4c4-2"
-      ],
+    "166302093595753c60": {
+      "type": "featured-collection",
       "settings": {
-        "heading": "",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
         "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -422,9 +449,10 @@
     "1653069663d19d7d66",
     "1652992451b58be40b",
     "16517685015d2ce9b4",
+    "1663019933d7ecd160",
     "166301662527dc4971",
     "1663016950053e8882",
     "16533399328f27308a",
-    "16630169594a4237c2"
+    "166302093595753c60"
   ]
 }
