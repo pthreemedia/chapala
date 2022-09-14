@@ -2,12 +2,11 @@
   "sections": {
     "164867367120e1947e": {
       "type": "hero-banner",
-      "disabled": true,
       "blocks": {
         "1648673671d11f3268-0": {
           "type": "heading",
           "settings": {
-            "heading": "Endless Summer Sale",
+            "heading": "SeaVees x Jungmaven",
             "heading_2": "",
             "font_size": "h1",
             "hide_block_on_mobile": false,
@@ -17,7 +16,7 @@
         "1648673671d11f3268-1": {
           "type": "text",
           "settings": {
-            "text": "Take up to 60% OFF while supplies last.",
+            "text": "Introducing the Hemp Collection",
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
           }
@@ -25,10 +24,10 @@
         "1648673671d11f3268-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Womens",
-            "button_link_1": "shopify:\/\/collections\/womens-sale",
-            "button_label_2": "Shop Mens",
-            "button_link_2": "shopify:\/\/collections\/mens-sale",
+            "button_label_1": "Shop Hemp Sneakers",
+            "button_link_1": "shopify:\/\/pages\/hemp-collection",
+            "button_label_2": "",
+            "button_link_2": "",
             "button_style_secondary": false,
             "use_arrow_link": false,
             "hide_block_on_mobile": false,
@@ -60,6 +59,7 @@
     },
     "1652135633ce7ce319": {
       "type": "hero-banner",
+      "disabled": true,
       "blocks": {
         "16521356332262bfc5-0": {
           "type": "heading",
