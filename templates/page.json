@@ -150,19 +150,11 @@
             "product": "mens-beyond-back-boot-rugged-oiled-leather-elmwood",
             "second_image": true
           }
-        },
-        "16637814784c29bffc-2": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": ""
-          }
         }
       },
       "block_order": [
         "16637814784c29bffc-0",
-        "16637814784c29bffc-1",
-        "16637814784c29bffc-2"
+        "16637814784c29bffc-1"
       ],
       "settings": {
         "heading": "",
@@ -231,7 +223,7 @@
         "button_link": "",
         "color_scheme": "background-2",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 64,
         "padding_bottom": 64
       }
