@@ -282,22 +282,29 @@
         "margin_bottom": 0
       }
     },
-    "16637858570e52f555": {
-      "type": "featured-blog",
+    "16637858792aebd7b0": {
+      "type": "featured-collection",
       "settings": {
-        "heading": "The Journal",
+        "title": "",
         "heading_size": "h2",
-        "blog": "journal",
-        "featured_post_1": "",
-        "featured_post_2": "",
-        "featured_post_3": "",
-        "post_limit": 3,
-        "columns_desktop": 3,
+        "description": "<p><strong>SHOP ALL BOOTS<\/strong><\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "mens-boots",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
         "color_scheme": "background-1",
-        "show_image": true,
-        "show_date": true,
-        "show_author": false,
-        "show_view_all": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -311,6 +318,6 @@
     "1663781478c8c68e80",
     "16637819990b5fb132",
     "1663782260320b345f",
-    "16637858570e52f555"
+    "16637858792aebd7b0"
   ]
 }
