@@ -74,11 +74,11 @@
 </div>
 <div class="">
   <div class="">
-    {% assign available_products = collection.products | where: "available" %}
-
+    
       <div id="grouped_collection_view">
         {%- paginate collection.products by 1000 -%}
-        
+        {% assign available_products = collection.products | where: "available" %}
+
           {%- capture silhouettes_list -%}
             
             {%- for product in available_products -%}
@@ -86,7 +86,6 @@
                 {%- if forloop.last == false %}|{% endif -%}
             {%- endfor -%}
           {%- endcapture -%}
-
 
           {%- assign silhouettes_array = silhouettes_list | split: '|' | uniq -%}
 
@@ -171,9 +170,9 @@
                       {% endfor %}         
                     {% endif %}
                   {%- endfor -%}
+
                   <div class="grouped-collection-container page-width product-grid" data-id="{{ section.id }}" {% if silhouette_count == 0 %} first-container {% endif %}>
                     {%- for product in collection.products -%}
-                                        
                       {% assign lazy_load = false %}
                       {%- if forloop.index > 2 -%}
                         {%- assign lazy_load = true -%}
