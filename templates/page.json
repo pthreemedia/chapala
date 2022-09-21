@@ -1,14 +1,126 @@
 {
   "sections": {
+    "166377942474139604": {
+      "type": "hero-banner",
+      "blocks": {
+        "1663779424e358192d-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "heading_2": "",
+            "font_size": "h1",
+            "hide_block_on_mobile": false,
+            "hide_block_on_desktop": false
+          }
+        },
+        "1663779424e358192d-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "hide_block_on_mobile": false,
+            "hide_block_on_desktop": false
+          }
+        },
+        "1663779424e358192d-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary": false,
+            "use_arrow_link": false,
+            "hide_block_on_mobile": false,
+            "hide_block_on_desktop": false
+          }
+        }
+      },
+      "block_order": [
+        "1663779424e358192d-0",
+        "1663779424e358192d-1",
+        "1663779424e358192d-2"
+      ],
+      "settings": {
+        "use_video_background": false,
+        "hero_video_desktop": "",
+        "hero_video_mobile": "",
+        "image_desktop": "shopify:\/\/shop_images\/Landing_Page_Hero-min_7ce111ed-92fa-40d2-a818-eb545e3f807d.jpg",
+        "image_overlay_opacity": 0,
+        "adapt_height_first_image": false,
+        "text_image_separate": false,
+        "show_text_box": false,
+        "desktop_content_half": "no",
+        "banner_content_half_color": "background-1",
+        "desktop_text_box_vertical_position": "center",
+        "desktop_text_box_horizontal_position": "flex-start",
+        "desktop_text_alignment": "left"
+      }
+    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 60
       }
+    },
+    "16637810280ee85eb5": {
+      "type": "rich-text",
+      "blocks": {
+        "1663781028ad06b462-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1",
+            "font_color": ""
+          }
+        },
+        "1663781028ad06b462-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A limited edition rugged slip-on sneaker boot that’s built for getting you<br\/>beyond where you thought you could go...and back.<\/p><p><\/p><p>The Beyond And Back Boot is a Leather Working Group Certified rugged oiled leather. A fan favorite that sold out in hours, it’s water resistant and features a recycled and natural molded outsole, recycled elastic gore and recycled cotton<br\/>canvas lining.<\/p>",
+            "use_heading_font": false,
+            "font_color": ""
+          }
+        },
+        "1663781028ad06b462-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "use_arrow_link": false,
+            "link_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "1663781028ad06b462-0",
+        "1663781028ad06b462-1",
+        "1663781028ad06b462-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "narrow": true,
+        "is_page_header": false,
+        "mobile_content_align": "center",
+        "desktop_content_align": "center",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
-    "main"
+    "166377942474139604",
+    "main",
+    "16637810280ee85eb5"
   ]
 }
