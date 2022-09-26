@@ -390,6 +390,30 @@
       "footer-social-links": {
         "type": "footer-social-links",
         "blocks": {
+          "be33b70f-862b-4243-a257-11f32b300a58": {
+            "type": "platform",
+            "settings": {
+              "title": "Instagram",
+              "link": "https:\/\/www.instagram.com\/seavees\/",
+              "image_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0561\/3333\/files\/instagram.svg?v=1658254397"
+            }
+          },
+          "5d144c33-5ce1-472c-880c-45eeb57b24f0": {
+            "type": "platform",
+            "settings": {
+              "title": "TikTok",
+              "link": "https:\/\/www.tiktok.com\/@seavees",
+              "image_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0561\/3333\/files\/TikTok_433e29b8-137d-426e-819f-c035c714bc84.svg?v=1663955486"
+            }
+          },
+          "c55be27b-eced-4112-a3aa-d0f1ba525131": {
+            "type": "platform",
+            "settings": {
+              "title": "Pinterest",
+              "link": "https:\/\/www.pinterest.com\/seavees\/",
+              "image_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0561\/3333\/files\/pinterest.svg?v=1658254397"
+            }
+          },
           "a3eb8422-fd51-4113-95b3-c8d05b72f88f": {
             "type": "platform",
             "settings": {
@@ -405,29 +429,14 @@
               "link": "https:\/\/www.facebook.com\/SeaVees\/",
               "image_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0561\/3333\/files\/facebook.svg?v=1658254209"
             }
-          },
-          "be33b70f-862b-4243-a257-11f32b300a58": {
-            "type": "platform",
-            "settings": {
-              "title": "Instagram",
-              "link": "https:\/\/www.instagram.com\/seavees\/",
-              "image_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0561\/3333\/files\/instagram.svg?v=1658254397"
-            }
-          },
-          "c55be27b-eced-4112-a3aa-d0f1ba525131": {
-            "type": "platform",
-            "settings": {
-              "title": "Pinterest",
-              "link": "https:\/\/www.pinterest.com\/seavees\/",
-              "image_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0561\/3333\/files\/pinterest.svg?v=1658254397"
-            }
           }
         },
         "block_order": [
-          "a3eb8422-fd51-4113-95b3-c8d05b72f88f",
-          "d2aa381a-8f8c-435e-860c-8635e18c8521",
           "be33b70f-862b-4243-a257-11f32b300a58",
-          "c55be27b-eced-4112-a3aa-d0f1ba525131"
+          "5d144c33-5ce1-472c-880c-45eeb57b24f0",
+          "c55be27b-eced-4112-a3aa-d0f1ba525131",
+          "a3eb8422-fd51-4113-95b3-c8d05b72f88f",
+          "d2aa381a-8f8c-435e-860c-8635e18c8521"
         ],
         "settings": {
           "headline": ""
