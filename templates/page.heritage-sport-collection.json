@@ -1,0 +1,328 @@
+{
+  "sections": {
+    "166377942474139604": {
+      "type": "hero-banner",
+      "disabled": true,
+      "blocks": {
+        "1663779424e358192d-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "heading_2": "",
+            "font_size": "h1",
+            "hide_block_on_mobile": false,
+            "hide_block_on_desktop": false
+          }
+        },
+        "1663779424e358192d-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "hide_block_on_mobile": false,
+            "hide_block_on_desktop": false
+          }
+        },
+        "1663779424e358192d-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary": false,
+            "use_arrow_link": false,
+            "hide_block_on_mobile": false,
+            "hide_block_on_desktop": false
+          }
+        }
+      },
+      "block_order": [
+        "1663779424e358192d-0",
+        "1663779424e358192d-1",
+        "1663779424e358192d-2"
+      ],
+      "settings": {
+        "use_video_background": false,
+        "hero_video_desktop": "",
+        "hero_video_mobile": "",
+        "image_desktop": "shopify:\/\/shop_images\/Landing_Page_Hero-min_7ce111ed-92fa-40d2-a818-eb545e3f807d.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Landing_Page_Hero-min_7ce111ed-92fa-40d2-a818-eb545e3f807d.jpg",
+        "image_overlay_opacity": 0,
+        "adapt_height_first_image": false,
+        "text_image_separate": false,
+        "show_text_box": false,
+        "desktop_content_half": "no",
+        "banner_content_half_color": "background-1",
+        "desktop_text_box_vertical_position": "center",
+        "desktop_text_box_horizontal_position": "flex-start",
+        "desktop_text_alignment": "left"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 60
+      }
+    },
+    "16637810280ee85eb5": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "1663781028ad06b462-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "SeaVees x Jeff Johnson",
+            "heading_size": "h2",
+            "font_color": ""
+          }
+        },
+        "1663781028ad06b462-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A limited edition rugged slip-on sneaker boot that’s built for getting you beyond where you thought you could go...and back.<\/p><p><\/p><p>The Beyond And Back Boot is made of Leather Working Group Certified rugged oiled leather. A fan favorite that previously sold out in hours, it’s water resistant and features a recycled and natural molded outsole, recycled elastic gore and recycled cotton canvas lining.<\/p>",
+            "use_heading_font": false,
+            "font_color": ""
+          }
+        },
+        "1663781028ad06b462-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "use_arrow_link": false,
+            "link_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "1663781028ad06b462-0",
+        "1663781028ad06b462-1",
+        "1663781028ad06b462-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "narrow": true,
+        "is_page_header": false,
+        "mobile_content_align": "center",
+        "desktop_content_align": "center",
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "1663782409a6363c5e": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "cover_image": "shopify:\/\/shop_images\/vid_2-min.jpg",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=GM2vjj3GXlk",
+        "description": "outdoor adventure photographer Jeff Johnson wears his collaboration boots around town. He goes hiking, biking, jumping fences and taking photos to show how comfortable and durable they are.",
+        "full_width": false,
+        "color_scheme": "background-2",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "1663781478c8c68e80": {
+      "type": "collage",
+      "disabled": true,
+      "blocks": {
+        "16637814784c29bffc-0": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": "Describe the video",
+            "image_padding": false
+          }
+        },
+        "16637814784c29bffc-1": {
+          "type": "product",
+          "settings": {
+            "product": "mens-beyond-back-boot-rugged-oiled-leather-elmwood",
+            "second_image": true
+          }
+        }
+      },
+      "block_order": [
+        "16637814784c29bffc-0",
+        "16637814784c29bffc-1"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16637819990b5fb132": {
+      "type": "multicolumn",
+      "disabled": true,
+      "blocks": {
+        "166378199991820c90-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Instagram_post_-_56-min.jpg",
+            "title": "",
+            "font_style": "h3",
+            "text": "<p><strong>THE BOOT THAT SOLD OUT IN 72 HOURS<\/strong><\/p>",
+            "link_label": "",
+            "link": "",
+            "info_on_image": true
+          }
+        },
+        "166378199991820c90-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Instagram_post_-_57-min.jpg",
+            "title": "",
+            "font_style": "h3",
+            "text": "<p><strong>BUILT FOR GETTING YOU BEYOND AND BACK<\/strong><\/p>",
+            "link_label": "",
+            "link": "",
+            "info_on_image": true
+          }
+        },
+        "166378199991820c90-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Instagram_post_-_45-min.jpg",
+            "title": "",
+            "font_style": "h4",
+            "text": "<p><strong>MADE OF DURABLE RUGGED OILED LEATHER<\/strong><\/p>",
+            "link_label": "",
+            "link": "",
+            "info_on_image": true
+          }
+        }
+      },
+      "block_order": [
+        "166378199991820c90-0",
+        "166378199991820c90-1",
+        "166378199991820c90-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "1663782260320b345f": {
+      "type": "image-banner",
+      "disabled": true,
+      "blocks": {
+        "16637822605188c363-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading_line_1": "Image banner",
+            "heading_line_2": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "16637822605188c363-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "16637822605188c363-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16637822605188c363-0",
+        "16637822605188c363-1",
+        "16637822605188c363-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Full_Width-min_985d054e-b7c0-4dfe-bfbe-7026b495abbe.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "16637858792aebd7b0": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "description": "<p><strong>SHOP ALL BOOTS<\/strong><\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "mens-boots",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "166377942474139604",
+    "main",
+    "16637810280ee85eb5",
+    "1663782409a6363c5e",
+    "1663781478c8c68e80",
+    "16637819990b5fb132",
+    "1663782260320b345f",
+    "16637858792aebd7b0"
+  ]
+}
