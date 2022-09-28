@@ -70,8 +70,8 @@
         {%- if product_image -%}
 
           <div class="card__media">
-            <div class="media media--transparent media--hover-effect">
-              <a href="{{ card_product.url }}" class="full-unstyled-link product-card-link">
+            <a href="{{ card_product.url }}" class="full-unstyled-link product-card-link">
+              <div class="media media--transparent media--hover-effect">
                 {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
                 <img
                   srcset="{%- if product_image.width >= 165 -%}{{ product_image | image_url: width: 165 }} 165w,{%- endif -%}
@@ -125,8 +125,8 @@
                     height="{{ hover_image.height }}"
                   >
                 {%- endif -%}
-              </a>
-            </div>
+              </div>
+            </a>
           </div>
         {%- endif -%}
         <div class="">

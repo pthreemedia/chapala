@@ -48,8 +48,8 @@
       <div class="card__inner {% if settings.card_style == 'standard' %}color-{{ settings.card_color_scheme }} gradient{% endif %}{% if card_product.featured_media or settings.card_style == 'standard' %} ratio{% endif %}" style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;">
         {%- if card_product.featured_media -%}
           <div class="card__media">
-            <div class="media media--transparent media--hover-effect">
-              <a href="{{ card_product.url }}" class="full-unstyled-link product-card-link">
+            <a href="{{ card_product.url }}" class="full-unstyled-link product-card-link">
+              <div class="media media--transparent media--hover-effect">
                 {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
                 <img
                   srcset="{%- if card_product.featured_media.width >= 165 -%}{{ card_product.featured_media | image_url: width: 165 }} 165w,{%- endif -%}
@@ -99,8 +99,8 @@
                     height="{{ card_product.media[hover_image_position].height }}"
                   >
                 {%- endif -%}
-              </a>
-            </div>
+              </div>
+            </a>
           </div>
         {%- endif -%}
         <div class="card__content">
