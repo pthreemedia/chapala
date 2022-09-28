@@ -82,7 +82,7 @@
         "1663781028ad06b462-1": {
           "type": "text",
           "settings": {
-            "text": "<p>A limited edition rugged slip-on sneaker boot that’s built for getting you beyond where you thought you could go...and back.<\/p><p><\/p><p>The Beyond And Back Boot is a Leather Working Group Certified rugged oiled leather. A fan favorite that sold out in hours, it’s water resistant and features a recycled and natural molded outsole, recycled elastic gore and recycled cotton canvas lining.<\/p>",
+            "text": "<p>A limited edition rugged slip-on sneaker boot that’s built for getting you beyond where you thought you could go...and back.<\/p><p><\/p><p>The Beyond And Back Boot is made of Leather Working Group Certified rugged oiled leather. A fan favorite that previously sold out in hours, it’s water resistant and features a recycled and natural molded outsole, recycled elastic gore and recycled cotton canvas lining.<\/p>",
             "use_heading_font": false,
             "font_color": ""
           }
@@ -290,7 +290,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "mens-boots",
-        "products_to_show": 4,
+        "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
@@ -298,7 +298,7 @@
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
         "image_ratio": "adapt",
-        "show_secondary_image": false,
+        "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
         "enable_quick_add": false,
