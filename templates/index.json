@@ -2,6 +2,7 @@
   "sections": {
     "164867367120e1947e": {
       "type": "hero-banner",
+      "disabled": true,
       "blocks": {
         "1648673671d11f3268-0": {
           "type": "heading",
@@ -59,12 +60,11 @@
     },
     "1652135633ce7ce319": {
       "type": "hero-banner",
-      "disabled": true,
       "blocks": {
         "16521356332262bfc5-0": {
           "type": "heading",
           "settings": {
-            "heading": "The Shoe That's Sold Out Twice",
+            "heading": "This Boot Sold Out In 72 Hours",
             "heading_2": "",
             "font_size": "h0",
             "hide_block_on_mobile": false,
@@ -74,7 +74,7 @@
         "16521356332262bfc5-1": {
           "type": "text",
           "settings": {
-            "text": "Now available in new colors",
+            "text": "A limited edition rugged slip-on sneaker boot that's built for getting you beyond where you thought you thought you could go...and back.",
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
           }
@@ -83,7 +83,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Now",
-            "button_link_1": "\/products\/womens-monterey-sneaker-platform-cotton-canvas-black",
+            "button_link_1": "shopify:\/\/pages\/jeff-johnson-beyond-and-back-boot",
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary": false,
@@ -102,8 +102,8 @@
         "use_video_background": false,
         "hero_video_desktop": "",
         "hero_video_mobile": "",
-        "image_desktop": "shopify:\/\/shop_images\/Monterey_Platform_Black_HP_Hero.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Monterey_Platform_Black-Mobile.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Frame_1-min_901f4b22-8e71-4480-8c68-95241771421d.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Frame_2-min.jpg",
         "image_overlay_opacity": 0,
         "adapt_height_first_image": false,
         "text_image_separate": false,
