@@ -156,6 +156,7 @@
     },
     "1663782409a6363c5e": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h2",
@@ -166,6 +167,45 @@
         "color_scheme": "background-2",
         "padding_top": 60,
         "padding_bottom": 60
+      }
+    },
+    "2fa585ed-391e-4619-ae97-f8e4fa842c54": {
+      "type": "collage",
+      "blocks": {
+        "b0830b32-8003-4055-bc16-09b5de045fec": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Womens-Cover-1000x1000.jpg",
+            "image_padding": false
+          }
+        },
+        "template--14705436262474__2fa585ed-391e-4619-ae97-f8e4fa842c54-1664919803a03eb854-1": {
+          "type": "product",
+          "settings": {
+            "product": "womens-royal-runner-nylon-black",
+            "second_image": true
+          }
+        },
+        "template--14705436262474__2fa585ed-391e-4619-ae97-f8e4fa842c54-1664919803a03eb854-2": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "b0830b32-8003-4055-bc16-09b5de045fec",
+        "template--14705436262474__2fa585ed-391e-4619-ae97-f8e4fa842c54-1664919803a03eb854-1",
+        "template--14705436262474__2fa585ed-391e-4619-ae97-f8e4fa842c54-1664919803a03eb854-2"
+      ],
+      "settings": {
+        "heading": "The Royal Runner",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "1663781478c8c68e80": {
@@ -183,14 +223,22 @@
         "16637814784c29bffc-1": {
           "type": "product",
           "settings": {
-            "product": "mens-beyond-back-boot-rugged-oiled-leather-elmwood",
+            "product": "womens-royal-runner-nylon-white",
+            "second_image": true
+          }
+        },
+        "df58cbd5-43ea-4024-8e4e-f6d39c5425fe": {
+          "type": "product",
+          "settings": {
+            "product": "womens-royal-runner-nylon-black",
             "second_image": true
           }
         }
       },
       "block_order": [
         "16637814784c29bffc-0",
-        "16637814784c29bffc-1"
+        "16637814784c29bffc-1",
+        "df58cbd5-43ea-4024-8e4e-f6d39c5425fe"
       ],
       "settings": {
         "heading": "",
@@ -320,6 +368,7 @@
     },
     "16637858792aebd7b0": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h2",
@@ -352,6 +401,7 @@
     "16637810280ee85eb5",
     "9c8045a6-c5fa-46cb-937a-3a3dd6c6ecda",
     "1663782409a6363c5e",
+    "2fa585ed-391e-4619-ae97-f8e4fa842c54",
     "1663781478c8c68e80",
     "16637819990b5fb132",
     "1663782260320b345f",
