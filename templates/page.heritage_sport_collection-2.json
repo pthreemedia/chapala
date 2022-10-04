@@ -74,7 +74,7 @@
         "1663781028ad06b462-0": {
           "type": "heading",
           "settings": {
-            "heading": "SeaVees x Jeff Johnson",
+            "heading": "The Heritage Sport Collection",
             "heading_size": "h1",
             "font_color": ""
           }
@@ -82,7 +82,7 @@
         "1663781028ad06b462-1": {
           "type": "text",
           "settings": {
-            "text": "<p>A limited edition rugged slip-on sneaker boot that’s built for getting you beyond where you thought you could go...and back.<\/p><p><\/p><p>The Beyond And Back Boot is made of Leather Working Group Certified rugged oiled leather. A fan favorite that previously sold out in hours, it’s water resistant and features a recycled and natural molded outsole, recycled elastic gore and recycled cotton canvas lining.<\/p>",
+            "text": "<p>Your soon-to-be favorite sporty sneaker is here.Inspired by runner styles of the 70s, every shoe in thiscollection was made for all-day comfort and versatility and modernized with quality materials from lace totoe. Whether you'll be walking all day, running errands, or heading out for some fun—these shoes can(and will) do it all. Every style features aSeaVeesSport logo and heritage webbing pulled from a vintagestyle in our archives, updated with modern materials like cotton canvas and twill, recycled nylon, recycledpolyester from post-consumer plastic or Leather Working Group certified suede.​<\/p>",
             "use_heading_font": false,
             "font_color": ""
           }
@@ -113,6 +113,43 @@
         "desktop_content_align": "center",
         "padding_top": 64,
         "padding_bottom": 64,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "9c8045a6-c5fa-46cb-937a-3a3dd6c6ecda": {
+      "type": "featured-collection-alt",
+      "settings": {
+        "title": "",
+        "heading_size": "h3",
+        "description": "",
+        "description_style": "body",
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "collection_1": "",
+        "tab_id_1": "1",
+        "featured_collection_title_1": "Womens",
+        "products_to_show_1": 4,
+        "collection_2": "",
+        "tab_id_2": "2",
+        "featured_collection_title_2": "Mens",
+        "products_to_show_2": 4,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_condensed_title": false,
+        "show_vendor": false,
+        "show_gender": false,
+        "show_material": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
         "margin_top": 0,
         "margin_bottom": 0
       }
@@ -313,6 +350,7 @@
     "166377942474139604",
     "main",
     "16637810280ee85eb5",
+    "9c8045a6-c5fa-46cb-937a-3a3dd6c6ecda",
     "1663782409a6363c5e",
     "1663781478c8c68e80",
     "16637819990b5fb132",
