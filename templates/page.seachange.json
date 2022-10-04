@@ -45,8 +45,8 @@
         "165297913758c6d6d2-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/SeaChange_LP-Hero.jpg",
-        "image_overlay_opacity": 0,
+        "image": "shopify:\/\/shop_images\/SeaChange_Oct22_LP-Hero.jpg",
+        "image_overlay_opacity": 10,
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-center",
@@ -222,6 +222,68 @@
         "padding_bottom": 36
       }
     },
+    "16649009663d31e5ef": {
+      "type": "multicolumn",
+      "blocks": {
+        "1664900966949cd27f-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SeaChange_Recycled_Polyester-1.jpg",
+            "title": "RECYCLED POLYESTER",
+            "font_style": "h4",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "info_on_image": true
+          }
+        },
+        "1664900966949cd27f-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Recycled_Polyester.jpg",
+            "title": "",
+            "font_style": "h3",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "info_on_image": true
+          }
+        },
+        "1664900966949cd27f-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SeaChange_Recycled_Polyester-2.jpg",
+            "title": "",
+            "font_style": "h3",
+            "text": "<p>Super soft, recycled fleece made from PET. PET plastic is the most widely recycled plastic, most commonly used for single use clear plastic bottles.<\/p>",
+            "link_label": "",
+            "link": "",
+            "info_on_image": true
+          }
+        }
+      },
+      "block_order": [
+        "1664900966949cd27f-0",
+        "1664900966949cd27f-1",
+        "1664900966949cd27f-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "1652992451b58be40b": {
       "type": "rich-text",
       "disabled": true,
@@ -285,11 +347,11 @@
         "view_all_style": "solid",
         "enable_desktop_slider": true,
         "color_scheme": "background-1",
-        "collection_1": "womens-seachange1",
+        "collection_1": "womens-seachange",
         "tab_id_1": "1",
         "featured_collection_title_1": "Womens",
         "products_to_show_1": 12,
-        "collection_2": "mens-seachange1",
+        "collection_2": "mens-seachange",
         "tab_id_2": "2",
         "featured_collection_title_2": "Mens",
         "products_to_show_2": 12,
@@ -429,6 +491,7 @@
     "1651769816dcb4919c",
     "1653069663d19d7d66",
     "1653070266b056c99a",
+    "16649009663d31e5ef",
     "1652992451b58be40b",
     "16517685015d2ce9b4",
     "16488340185b1f3cc8",
