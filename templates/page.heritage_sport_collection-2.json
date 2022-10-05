@@ -48,7 +48,7 @@
         "hero_video_desktop": "",
         "hero_video_mobile": "",
         "image_desktop": "shopify:\/\/shop_images\/The-Heritage-Sport-Collection-Hero-Banner.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Landing_Page_Hero-min_7ce111ed-92fa-40d2-a818-eb545e3f807d.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/The-Heritage-Sport-Collection-Hero-Banner.jpg",
         "image_overlay_opacity": 0,
         "adapt_height_first_image": false,
         "text_image_separate": false,
@@ -139,7 +139,7 @@
         "featured_collection_title_2": "Mens",
         "products_to_show_2": 5,
         "image_ratio": "adapt",
-        "show_secondary_image": false,
+        "show_secondary_image": true,
         "show_condensed_title": false,
         "show_vendor": false,
         "show_gender": false,
@@ -171,6 +171,7 @@
     },
     "2fa585ed-391e-4619-ae97-f8e4fa842c54": {
       "type": "collage",
+      "disabled": true,
       "blocks": {
         "b0830b32-8003-4055-bc16-09b5de045fec": {
           "type": "image",
@@ -210,6 +211,7 @@
     },
     "1663781478c8c68e80": {
       "type": "collage",
+      "disabled": true,
       "blocks": {
         "16637814784c29bffc-0": {
           "type": "video",
@@ -246,6 +248,65 @@
         "desktop_layout": "left",
         "mobile_layout": "collage",
         "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "4982140d-6e6b-4023-9d8f-9da69c52fe95": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14705436262474__4982140d-6e6b-4023-9d8f-9da69c52fe95-166501278057de78d0-0": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "font_style": "h3",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": "",
+            "info_on_image": false
+          }
+        },
+        "template--14705436262474__4982140d-6e6b-4023-9d8f-9da69c52fe95-166501278057de78d0-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "font_style": "h3",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": "",
+            "info_on_image": false
+          }
+        },
+        "template--14705436262474__4982140d-6e6b-4023-9d8f-9da69c52fe95-166501278057de78d0-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "font_style": "h3",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": "",
+            "info_on_image": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14705436262474__4982140d-6e6b-4023-9d8f-9da69c52fe95-166501278057de78d0-0",
+        "template--14705436262474__4982140d-6e6b-4023-9d8f-9da69c52fe95-166501278057de78d0-1",
+        "template--14705436262474__4982140d-6e6b-4023-9d8f-9da69c52fe95-166501278057de78d0-2"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -403,6 +464,7 @@
     "1663782409a6363c5e",
     "2fa585ed-391e-4619-ae97-f8e4fa842c54",
     "1663781478c8c68e80",
+    "4982140d-6e6b-4023-9d8f-9da69c52fe95",
     "16637819990b5fb132",
     "1663782260320b345f",
     "16637858792aebd7b0"
