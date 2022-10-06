@@ -312,6 +312,7 @@
         "0ea36214-4700-47db-b136-dbe54f9cc847": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/M-Rolling-Lifestyle.gif",
             "image_padding": false
           }
         }
@@ -432,7 +433,7 @@
         "16637822605188c363-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Full_Width-min_985d054e-b7c0-4dfe-bfbe-7026b495abbe.jpg",
+        "image": "shopify:\/\/shop_images\/Full-Width-footer.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
