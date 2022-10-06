@@ -262,28 +262,29 @@
             "image_padding": false
           }
         },
-        "template--14705436262474__72c4ee29-be6f-4c76-a250-8daa86326898-1665012695abeb661d-2": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
         "template--14705436262474__72c4ee29-be6f-4c76-a250-8daa86326898-1665012695abeb661d-1": {
           "type": "product",
           "settings": {
             "product": "womens-royal-runner-nylon-blue",
             "second_image": false
           }
+        },
+        "800e5f5d-546c-455a-b263-719e9ab0c3c0": {
+          "type": "product",
+          "settings": {
+            "product": "womens-balboa-court-shoe-grosgrain-twill-white",
+            "second_image": false
+          }
         }
       },
       "block_order": [
         "9470484a-ce6d-4a78-b60f-f3907eb988b3",
-        "template--14705436262474__72c4ee29-be6f-4c76-a250-8daa86326898-1665012695abeb661d-2",
-        "template--14705436262474__72c4ee29-be6f-4c76-a250-8daa86326898-1665012695abeb661d-1"
+        "template--14705436262474__72c4ee29-be6f-4c76-a250-8daa86326898-1665012695abeb661d-1",
+        "800e5f5d-546c-455a-b263-719e9ab0c3c0"
       ],
       "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h1",
+        "heading": "Women's Heritage Sport Collection",
+        "heading_size": "h2",
         "desktop_layout": "left",
         "mobile_layout": "collage",
         "color_scheme": "background-1",
