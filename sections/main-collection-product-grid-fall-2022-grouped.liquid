@@ -75,7 +75,7 @@
 <div class="">
   <div class="">
     
-      <div id="grouped_collection_view" class="grouped_collection_view">
+      <div id="grouped_collection_view" class="grouped_collection_view" data-mobile-col="{{ section.settings.columns_mobile }}">
         {%- paginate collection.products by 1000 -%}
         {% assign available_products = collection.products | where: "available" %}
 
