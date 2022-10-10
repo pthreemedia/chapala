@@ -55,7 +55,7 @@
   <div class="">
 
     {% if collection.metafields.seavees.group_by_silhouette == true %}
-      <div id="grouped_collection_view">
+      <div id="grouped_collection_view" class="sliced_collection_view">
         {%- paginate collection.products by 1000 -%}
       
           {%- capture silhouettes_list -%}
@@ -240,6 +240,22 @@
       "step": 1,
       "default": 4,
       "label": "t:sections.main-collection-product-grid.settings.columns_desktop.label"
+    },
+    {
+      "type": "select",
+      "id": "columns_mobile",
+      "default": "1",
+      "label": "Number of columns on mobile",
+      "options": [
+        {
+          "value": "1",
+          "label": "1 column"
+        },
+        {
+          "value": "2",
+          "label": "2 columns"
+        }
+      ]
     },
     {
       "type": "checkbox",
