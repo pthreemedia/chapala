@@ -448,7 +448,7 @@
         "template--14705436196938__b670791e-bdec-4b9c-848a-4daa58580765-16655173085091aa28-0": {
           "type": "heading",
           "settings": {
-            "heading": "\"By Her Own Self\"",
+            "heading": "By Her Own Self",
             "heading_size": "h2"
           }
         },
@@ -480,7 +480,7 @@
         "desktop_image_width": "medium",
         "full_width": false,
         "layout": "image_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
