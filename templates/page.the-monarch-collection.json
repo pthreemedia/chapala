@@ -48,7 +48,7 @@
         "hero_video_desktop": "",
         "hero_video_mobile": "",
         "image_desktop": "shopify:\/\/shop_images\/Landing_Page_Hero-min_c7fff570-84f1-4551-9c2f-ae8202f4bed9.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Instagram_post_-_76_a6d39889-f327-4d8c-bc83-5487cf99e9e4.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Instagram_post_-_76_98c0b522-29c7-4ca1-8791-fbc0c2cd8218.jpg",
         "image_overlay_opacity": 0,
         "adapt_height_first_image": true,
         "text_image_separate": false,
@@ -82,7 +82,7 @@
         "1663781028ad06b462-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Every shoe in this limited-edition collection helps support the Xerces Foundation, a non-profit working to protect monarch butterflies against the threat of extinction.<\/p>",
+            "text": "<p>Two limited-edition styles made of super soft cotton embroidered flannel. This collection is helping protect the life that sustains all of us because we support the Xerces Society for Invertebrate Conservation!<\/p>",
             "use_heading_font": false,
             "font_color": ""
           }
@@ -442,6 +442,55 @@
         "padding_bottom": 36
       }
     },
+    "b670791e-bdec-4b9c-848a-4daa58580765": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14705436196938__b670791e-bdec-4b9c-848a-4daa58580765-16655173085091aa28-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "\"By Her Own Self\"",
+            "heading_size": "h2"
+          }
+        },
+        "template--14705436196938__b670791e-bdec-4b9c-848a-4daa58580765-16655173085091aa28-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With butterflies on the mind, we’ve teamed up with @napkinapocalypse to bring you a fresh run of her iconic “By Her Own Self” metamorphosis hats as part of the collection.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--14705436196938__b670791e-bdec-4b9c-848a-4daa58580765-16655173085091aa28-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "",
+            "use_arrow_link": false,
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14705436196938__b670791e-bdec-4b9c-848a-4daa58580765-16655173085091aa28-0",
+        "template--14705436196938__b670791e-bdec-4b9c-848a-4daa58580765-16655173085091aa28-1",
+        "template--14705436196938__b670791e-bdec-4b9c-848a-4daa58580765-16655173085091aa28-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Hat_GIF_f88b2efb-c626-4467-b1c6-efe20c7222fa.gif",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "full_width": false,
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "16648223785f793efc": {
       "type": "multicolumn",
       "blocks": {
@@ -497,7 +546,7 @@
         "background_style": "none",
         "button_label": "Read The Story",
         "button_link": "https:\/\/www.seavees.com\/blogs\/journal",
-        "color_scheme": "background-1",
+        "color_scheme": "background-3",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
@@ -516,6 +565,7 @@
     "16648221124dd5097d",
     "1664819199b4fe6af0",
     "16637858792aebd7b0",
+    "b670791e-bdec-4b9c-848a-4daa58580765",
     "16648223785f793efc"
   ]
 }
