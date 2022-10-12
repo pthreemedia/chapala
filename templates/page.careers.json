@@ -123,6 +123,7 @@
         },
         "16488307761b149624-1": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "Retail Sales Associate",
             "font_style": "h3",
