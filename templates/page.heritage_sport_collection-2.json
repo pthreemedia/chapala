@@ -354,6 +354,68 @@
         "padding_bottom": 36
       }
     },
+    "14ea7b6c-cd17-4279-9212-d7784aff8756": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14705436262474__14ea7b6c-cd17-4279-9212-d7784aff8756-166561151018124aad-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Royal-Runner-Lifestyle-2.jpg",
+            "title": "",
+            "font_style": "h3",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "info_on_image": false
+          }
+        },
+        "template--14705436262474__14ea7b6c-cd17-4279-9212-d7784aff8756-166561151018124aad-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Royal-Runner-Lifestyle-1.jpg",
+            "title": "",
+            "font_style": "h3",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "info_on_image": false
+          }
+        },
+        "template--14705436262474__14ea7b6c-cd17-4279-9212-d7784aff8756-166561151018124aad-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Royal-Runner-Lifestyle-3.jpg",
+            "title": "",
+            "font_style": "h3",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "info_on_image": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14705436262474__14ea7b6c-cd17-4279-9212-d7784aff8756-166561151018124aad-0",
+        "template--14705436262474__14ea7b6c-cd17-4279-9212-d7784aff8756-166561151018124aad-1",
+        "template--14705436262474__14ea7b6c-cd17-4279-9212-d7784aff8756-166561151018124aad-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "4d267572-7935-43ae-8296-a9ad124f222e": {
       "type": "collage",
       "blocks": {
@@ -487,6 +549,7 @@
     "1663781478c8c68e80",
     "16637819990b5fb132",
     "72c4ee29-be6f-4c76-a250-8daa86326898",
+    "14ea7b6c-cd17-4279-9212-d7784aff8756",
     "4d267572-7935-43ae-8296-a9ad124f222e",
     "1663782260320b345f",
     "16637858792aebd7b0"
