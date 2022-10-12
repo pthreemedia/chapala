@@ -258,22 +258,22 @@
         "166378199991820c90-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_post_-_56-min.jpg",
+            "image": "shopify:\/\/shop_images\/Details-Post-1.jpg",
             "title": "",
             "font_style": "h3",
-            "text": "<p><strong>THE BOOT THAT SOLD OUT IN 72 HOURS<\/strong><\/p>",
+            "text": "<p><strong>RECYCLED NYLON<\/strong><\/p>",
             "link_label": "",
             "link": "",
-            "info_on_image": true
+            "info_on_image": false
           }
         },
         "166378199991820c90-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_post_-_57-min.jpg",
+            "image": "shopify:\/\/shop_images\/Details-Post-2.jpg",
             "title": "",
             "font_style": "h3",
-            "text": "<p><strong>BUILT FOR GETTING YOU BEYOND AND BACK<\/strong><\/p>",
+            "text": "<p><strong>ARCHIVAL HERITAGE WEBBING<\/strong><\/p>",
             "link_label": "",
             "link": "",
             "info_on_image": false
@@ -282,13 +282,13 @@
         "166378199991820c90-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_post_-_45-min.jpg",
+            "image": "shopify:\/\/shop_images\/Details-Post-3.jpg",
             "title": "",
             "font_style": "h4",
-            "text": "<p><strong>MADE OF DURABLE RUGGED OILED LEATHER<\/strong><\/p>",
+            "text": "<p><strong>NATURAL & RECYCLED SAWTOOTH OUTSOLE<\/strong><\/p>",
             "link_label": "",
             "link": "",
-            "info_on_image": true
+            "info_on_image": false
           }
         }
       },
