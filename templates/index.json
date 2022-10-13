@@ -2,12 +2,11 @@
   "sections": {
     "164867367120e1947e": {
       "type": "hero-banner",
-      "disabled": true,
       "blocks": {
         "1648673671d11f3268-0": {
           "type": "heading",
           "settings": {
-            "heading": "SeaVees x Jungmaven",
+            "heading": "The Heritage Sport Collection",
             "heading_2": "",
             "font_size": "h1",
             "hide_block_on_mobile": false,
@@ -17,7 +16,7 @@
         "1648673671d11f3268-1": {
           "type": "text",
           "settings": {
-            "text": "Introducing the Hemp Collection",
+            "text": "Introducing your soon-to-be favorite sporty sneaker.",
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
           }
@@ -25,11 +24,11 @@
         "1648673671d11f3268-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Hemp Sneakers",
-            "button_link_1": "shopify:\/\/pages\/hemp-collection",
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify:\/\/pages\/heritage-sport",
             "button_label_2": "",
             "button_link_2": "",
-            "button_style_secondary": false,
+            "button_style_secondary": true,
             "use_arrow_link": false,
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
@@ -45,14 +44,14 @@
         "use_video_background": false,
         "hero_video_desktop": "",
         "hero_video_mobile": "",
-        "image_desktop": "shopify:\/\/shop_images\/Jungmaven_HP_Hero_V2.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Jungmaven_HP-Mobile_v2.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Heritage-Launch-HP-Hero.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Mobile-Heritage-Launch-HP-Hero.gif",
         "image_overlay_opacity": 0,
         "adapt_height_first_image": false,
         "text_image_separate": false,
         "show_text_box": false,
-        "desktop_content_half": "left",
-        "banner_content_half_color": "background-3",
+        "desktop_content_half": "no",
+        "banner_content_half_color": "background-2",
         "desktop_text_box_vertical_position": "center",
         "desktop_text_box_horizontal_position": "center",
         "desktop_text_alignment": "center"
@@ -60,6 +59,7 @@
     },
     "1652135633ce7ce319": {
       "type": "hero-banner",
+      "disabled": true,
       "blocks": {
         "16521356332262bfc5-0": {
           "type": "heading",
