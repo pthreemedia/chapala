@@ -168,7 +168,19 @@
             "page": "",
             "show-description": true,
             "liquid": "",
-            "expand_on_pageload": false
+            "expand_on_page_load": false
+          }
+        },
+        "302987d4-fdb7-4f6a-adae-c1169a59fbd9": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Materials",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.seavees.materials | metafield_tag }}<\/p>",
+            "page": "",
+            "show-description": false,
+            "liquid": "",
+            "expand_on_page_load": false
           }
         },
         "collapsible-row-0": {
@@ -180,7 +192,7 @@
             "page": "",
             "show-description": false,
             "liquid": "",
-            "expand_on_pageload": false
+            "expand_on_page_load": false
           }
         },
         "collapsible-row-1": {
@@ -192,7 +204,7 @@
             "page": "",
             "show-description": false,
             "liquid": "",
-            "expand_on_pageload": false
+            "expand_on_page_load": false
           }
         },
         "collapsible-row-2": {
@@ -204,7 +216,7 @@
             "page": "",
             "show-description": false,
             "liquid": "",
-            "expand_on_pageload": false
+            "expand_on_page_load": false
           }
         },
         "d45af598-2236-4f27-9df7-84e8aa0cb053": {
@@ -231,6 +243,7 @@
         "080db1e4-bde7-46c2-823e-50d3355ed358",
         "767576fa-e64b-490f-9391-a5893e8e98d1",
         "467af105-8b5d-4c64-9143-fc32cfdb1c35",
+        "302987d4-fdb7-4f6a-adae-c1169a59fbd9",
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
