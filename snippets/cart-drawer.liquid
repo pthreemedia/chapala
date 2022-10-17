@@ -96,13 +96,13 @@
 
                           <a href="{{ item.url }}" class="cart-item__name h5 break">{% if item.product.metafields.seavees.online_title != blank %}{{ item.product.metafields.seavees.online_title | escape }}{% else %}{{ item.product.title | escape }}{% endif %}</a>
                           <div class="dn">
-                            {%- if item.original_price != item.final_price -%}
+                            {%- if item.variant.compare_at_price != item.final_price -%}
                               <div class="cart-item__discounted-prices">
                                 <span class="visually-hidden">
                                   {{ 'products.product.price.regular_price' | t }}
                                 </span>
                                 <s class="cart-item__old-price product-option">
-                                  {{- item.original_price | money -}}
+                                  {{- item.variant.compare_at_price | money -}}
                                 </s>
                                 <span class="visually-hidden">
                                   {{ 'products.product.price.sale_price' | t }}
@@ -113,7 +113,7 @@
                               </div>
                             {%- else -%}
                               <div class="product-option">
-                                {{ item.original_price | money }}
+                                {{ item.final_price | money }}
                               </div>
                             {%- endif -%}
                           </div>
@@ -176,13 +176,14 @@
                           </div>
 
                           <div class="cart-item__price-wrapper">
-                            {%- if item.original_line_price != item.final_line_price -%}
+                            {% assign compare_at_line_price = item.variant.compare_at_price | times: item.quantity %}
+                            {%- if compare_at_line_price != item.final_line_price -%}
                               <div class="cart-item__discounted-prices">
                                 <span class="visually-hidden">
                                   {{ 'products.product.price.regular_price' | t }}
                                 </span>
                                 <s class="cart-item__old-price price price--end">
-                                  {{ item.original_line_price | money }}
+                                  {{ compare_at_line_price | money }}
                                 </s>
                                 <span class="visually-hidden">
                                   {{ 'products.product.price.sale_price' | t }}
@@ -193,7 +194,7 @@
                               </div>
                             {%- else -%}
                               <span class="price price--end">
-                                {{ item.original_line_price | money }}
+                                {{ item.final_line_price | money }}
                               </span>
                             {%- endif -%}
 
