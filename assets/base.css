@@ -3942,3 +3942,17 @@ ul.product-grid-spliced:not(.slider--mobile) .card-wrapper {
     grid-template-columns: 1fr 1fr 1fr;
   }  
 }
+.product-popup-modal {
+    box-sizing: border-box;
+    opacity: 0;
+    position: fixed;
+    visibility: hidden;
+    z-index: -1;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    width: 100%;
+    background: rgba(var(--color-foreground), 0.2);
+    height: 100%;
+}
