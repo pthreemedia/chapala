@@ -64,10 +64,38 @@
 
     {{ tracking_code }}
 	
-	<!-- PASSPORT SCRIPT -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript" async></script>
-	<script src="https://api.passportshipping.com/external/shopify/themes/utils/utils.js?ts=1654811482611" type="text/javascript" async></script>
-	<script src="https://api.passportshipping.com/external/shopify/themes/taxesAndDuties/taxesAndDuties.js?ts=1654811482611" type="text/javascript" async></script>
-	<!-- /PASSPORT SCRIPT -->
+    <!-- PASSPORT SCRIPT -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript" async></script>
+    <script src="https://api.passportshipping.com/external/shopify/themes/utils/utils.js?ts=1654811482611" type="text/javascript" async></script>
+    <script src="https://api.passportshipping.com/external/shopify/themes/taxesAndDuties/taxesAndDuties.js?ts=1654811482611" type="text/javascript" async></script>
+    <!-- /PASSPORT SCRIPT -->
+
+    <script>
+      var checkout_line_items = [];
+      {% for item in checkout.line_items %}
+        {% assign compare_at_line_price = item.variant.compare_at_price | times: item.quantity %}
+        {% if item.variant.compare_at_price != item.final_price %}
+          checkout_line_items.push({"product_id": {{ item.product_id }}, "variant_id": {{ item.variant_id }}, "qty": {{ item.quantity }}, "compare_at_line_price": "{{ compare_at_line_price | money }}" });
+        {% endif %}
+      {% endfor %}
+
+      checkout_line_items.forEach((item) => {
+        let itemEls = document.querySelectorAll(`.sidebar__content .order-summary__section--product-list [data-order-summary-section="line-items"] tr[data-product-id="${item.product_id}"][data-variant-id="${item.variant_id}"]`);
+        if (itemEls.length) {
+          itemEls.forEach((itemEl) => {
+            let qty = itemEl.querySelector('.product__quantity span').innerHTML;
+            if (qty == item.qty ) {
+              itemEl.querySelector('.product__price').insertAdjacentHTML("afterbegin", `<span class="order-summary__compare_at_line_price">${item.compare_at_line_price}</span>`);
+            }
+          });
+        }
+      });
+    </script>
+    <style>
+      .order-summary__compare_at_line_price {
+        display: block;
+        text-decoration: line-through;
+      }
+    </style>
   </body>
 </html>

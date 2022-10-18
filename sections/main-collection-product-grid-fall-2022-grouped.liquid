@@ -75,7 +75,7 @@
 <div class="">
   <div class="">
     
-      <div id="grouped_collection_view">
+      <div id="grouped_collection_view" class="grouped_collection_view" data-mobile-col="{{ section.settings.columns_mobile }}">
         {%- paginate collection.products by 1000 -%}
         {% assign available_products = collection.products | where: "available" %}
 
@@ -238,7 +238,9 @@
       </div>
   </div>
 </div>
-
+<div class="page-width">
+  <div class="collection-hero__description rte">{{ collection.description }}</div>
+</div>
 
 {% schema %}
 {
@@ -253,6 +255,22 @@
       "step": 2,
       "default": 60,
       "label": "t:sections.main-collection-product-grid.settings.products_per_page.label"
+    },
+    {
+      "type": "select",
+      "id": "columns_mobile",
+      "default": "1",
+      "label": "Number of columns on mobile",
+      "options": [
+        {
+          "value": "1",
+          "label": "1 column"
+        },
+        {
+          "value": "2",
+          "label": "2 columns"
+        }
+      ]
     },
     {
       "type": "checkbox",

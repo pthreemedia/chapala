@@ -55,7 +55,7 @@
   <div class="">
 
     {% if collection.metafields.seavees.group_by_silhouette == true %}
-      <div id="grouped_collection_view">
+      <div id="grouped_collection_view" class="sliced_collection_view" data-mobile-col="{{ section.settings.columns_mobile }}">
         {%- paginate collection.products by 1000 -%}
       
           {%- capture silhouettes_list -%}
@@ -159,7 +159,7 @@
         {%- endpaginate -%}
       </div>
     {%- else -%}
-      <div class="product-grid-container{% if section.settings.filter_type == 'vertical' and section.settings.collapse_on_larger_devices %} product-grid-container-vertical{% endif %}" id="ProductGridContainer">
+      <div class="product-grid-container{% if section.settings.filter_type == 'vertical' and section.settings.collapse_on_larger_devices %} product-grid-container-vertical{% endif %}" id="ProductGridContainer" data-mobile-col="{{ section.settings.columns_mobile }}">
         {%- paginate collection.products by section.settings.products_per_page -%}
           {%- if collection.products.size == 0 -%}
             <div class="collection collection--empty page-width" id="product-grid" data-id="{{ section.id }}">
@@ -217,6 +217,10 @@
   </div>
 </div>
 
+<div class="page-width">
+  <div class="collection-hero__description rte">{{ collection.description }}</div>
+</div>
+
 
 {% schema %}
 {
@@ -240,6 +244,22 @@
       "step": 1,
       "default": 4,
       "label": "t:sections.main-collection-product-grid.settings.columns_desktop.label"
+    },
+    {
+      "type": "select",
+      "id": "columns_mobile",
+      "default": "1",
+      "label": "Number of columns on mobile",
+      "options": [
+        {
+          "value": "1",
+          "label": "1 column"
+        },
+        {
+          "value": "2",
+          "label": "2 columns"
+        }
+      ]
     },
     {
       "type": "checkbox",
