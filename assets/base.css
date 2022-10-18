@@ -3956,3 +3956,6 @@ ul.product-grid-spliced:not(.slider--mobile) .card-wrapper {
     background: rgba(var(--color-foreground), 0.2);
     height: 100%;
 }
+.collection-hero__description {
+  margin-top: 20px;
+}
