@@ -2,6 +2,7 @@
   "sections": {
     "164867367120e1947e": {
       "type": "hero-banner",
+      "disabled": true,
       "blocks": {
         "1648673671d11f3268-0": {
           "type": "heading",
@@ -59,12 +60,11 @@
     },
     "1652135633ce7ce319": {
       "type": "hero-banner",
-      "disabled": true,
       "blocks": {
         "16521356332262bfc5-0": {
           "type": "heading",
           "settings": {
-            "heading": "Beyond and Back",
+            "heading": "The Monarch Collection",
             "heading_2": "",
             "font_size": "h0",
             "hide_block_on_mobile": false,
@@ -74,7 +74,7 @@
         "16521356332262bfc5-1": {
           "type": "text",
           "settings": {
-            "text": "A limited-edition rugged slip-on sneaker boot.",
+            "text": "Every shoe in this limited-edition collection is made of super soft cotton flannel embroidered with perhaps the most iconic of butterfly species, the monarch.",
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
           }
@@ -83,7 +83,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Now",
-            "button_link_1": "shopify:\/\/pages\/jeff-johnson-beyond-and-back-boot",
+            "button_link_1": "shopify:\/\/pages\/monarch-collection",
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary": false,
@@ -102,14 +102,14 @@
         "use_video_background": false,
         "hero_video_desktop": "",
         "hero_video_mobile": "",
-        "image_desktop": "shopify:\/\/shop_images\/Frame_1-min_901f4b22-8e71-4480-8c68-95241771421d.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Frame_2-min.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/W_Monarch_Homepage-Desktop.gif",
+        "image_mobile": "shopify:\/\/shop_images\/W_Monarch_Homepage_Mobile.gif",
         "image_overlay_opacity": 0,
         "adapt_height_first_image": false,
         "text_image_separate": false,
         "show_text_box": false,
         "desktop_content_half": "left",
-        "banner_content_half_color": "background-3",
+        "banner_content_half_color": "background-2",
         "desktop_text_box_vertical_position": "center",
         "desktop_text_box_horizontal_position": "center",
         "desktop_text_alignment": "center"
@@ -261,12 +261,12 @@
         "290060ab-d2f9-4269-bc1d-a7148a4da2dd": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HP-Farmer_Jawn_Tile_800x1000_7.jpg",
+            "image": "shopify:\/\/shop_images\/HP-Napkin_Apocalypse_Tile_800x1000_0001_DSC01884.jpg",
             "title": "Daydreamer Series",
             "font_style": "h3",
             "text": "",
             "link_label": "Read The Story",
-            "link": "\/blogs\/journal\/daydreamer-series-on-reinvention-and-starting-a-revolution",
+            "link": "\/blogs\/journal\/daydreamer-series-on-letting-your-dreams-change",
             "info_on_image": false
           }
         }
