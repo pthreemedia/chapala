@@ -3991,7 +3991,8 @@ ul.product-grid-spliced:not(.slider--mobile) .card-wrapper {
     width: 100%;
     min-width: unset;
   }
-  .grouped_collection_view[data-mobile-col="2"] .product-grid-container .collection  .quick-add__submit {
+  .grouped_collection_view[data-mobile-col="2"] .product-grid-container .collection  .quick-add__submit,
+  .grouped_collection_view[data-mobile-col="2"] .product-grid-container .collection  .fake-out-quick-shop {
     width: 100%;
     min-width: unset;
     margin: 0 10px;
