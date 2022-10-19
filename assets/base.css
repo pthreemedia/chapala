@@ -3963,8 +3963,9 @@ ul.product-grid-spliced:not(.slider--mobile) .card-wrapper {
   .grouped_collection_view[data-mobile-col="2"] .product-grid-container .collection {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 5px;
+    margin: 0 5px 48px;
     align-items: flex-start;
+    
   }
   
   .product-grid-container[data-mobile-col="2"] .collection .product-grid {
@@ -3978,6 +3979,7 @@ ul.product-grid-spliced:not(.slider--mobile) .card-wrapper {
     max-width: calc(50% - 10px);
     flex-basis: calc(50% - 10px);
     margin-top: 24px;
+    margin-bottom: 0;
   }
   .product-grid-container[data-mobile-col="2"] .collection .product-grid li {
     max-width: calc(50% - 5px);
