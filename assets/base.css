@@ -3987,13 +3987,13 @@ ul.product-grid-spliced:not(.slider--mobile) .card-wrapper {
   .product-grid-container[data-mobile-col="2"] .collection .product-grid li .card__content {
     display: block;
   }
+  .grouped_collection_view[data-mobile-col="2"] .product-grid-container .collection  .quick-add__submit,
   .product-grid-container[data-mobile-col="2"] .collection .product-grid li .card__content .quick-add__submit {
     width: 100%;
     min-width: unset;
   }
-  .grouped_collection_view[data-mobile-col="2"] .product-grid-container .collection  .quick-add__submit,
   .grouped_collection_view[data-mobile-col="2"] .product-grid-container .collection  .fake-out-quick-shop {
-    width: 100%;
+    width: auto;
     min-width: unset;
     margin: 0 10px;
     padding: 15px 20px;
