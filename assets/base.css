@@ -3985,7 +3985,9 @@ ul.product-grid-spliced:not(.slider--mobile) .card-wrapper {
     margin-top: 24px;
   }
   .product-grid-container[data-mobile-col="2"] .collection .product-grid li .card__content {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   .grouped_collection_view[data-mobile-col="2"] .product-grid-container .collection  .quick-add__submit,
   .product-grid-container[data-mobile-col="2"] .collection .product-grid li .card__content .quick-add__submit {
