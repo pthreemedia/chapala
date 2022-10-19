@@ -504,7 +504,7 @@
         "settings": {
           "products_per_page": 60,
           "columns_desktop": 3,
-          "columns_mobile": "1",
+          "columns_mobile": "2",
           "hide_sale_products": false,
           "image_ratio": "adapt",
           "show_condensed_title": true,
