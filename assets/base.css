@@ -3981,13 +3981,21 @@ ul.product-grid-spliced:not(.slider--mobile) .card-wrapper {
   }
   .product-grid-container[data-mobile-col="2"] .collection .product-grid li {
     max-width: calc(50% - 5px);
-    flex-basis: calc(50% - 5px);
+    flex-basis: calc(50% - 5px);    
+    margin-top: 24px;
   }
   .product-grid-container[data-mobile-col="2"] .collection .product-grid li .card__content {
     display: block;
   }
+  .grouped_collection_view[data-mobile-col="2"] .product-grid-container .collection .quick-add__submit,
   .product-grid-container[data-mobile-col="2"] .collection .product-grid li .card__content .quick-add__submit {
     width: 100%;
     min-width: unset;
+  }
+  .grouped_collection_view[data-mobile-col="2"] .product-grid-container .collection .quick-add__submit {
+    width: 100%;
+    min-width: unset;
+    margin: 0 10px;
+    padding: 15px 20px;
   }
 }
