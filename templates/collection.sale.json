@@ -27,9 +27,8 @@
         },
         "16488357932f2433e4-1": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<p>Save up to 60% while supplies last.<\/p>",
+            "text": "<p>Take an extra 30% off sale styles with code EXTRA30<\/p>",
             "use_heading_font": false,
             "font_color": ""
           }
