@@ -127,8 +127,8 @@
             "type": "announcement",
             "settings": {
               "heading": "Take an extra 30% off sale styles with code EXTRA30",
-              "link": "",
-              "cta_text": "",
+              "link": "\/discount\/extra30?redirect=\/collections\/mens-sale",
+              "cta_text": "Shop Sale >",
               "link_style": "underline",
               "font": "lato",
               "countdown_date": "",
