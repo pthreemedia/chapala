@@ -167,7 +167,7 @@
         "fbbd1669-4a1d-4824-83af-c3d988d80848": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Womens_Bolinas_GIF_1247765c-fb58-4567-8e0f-6beeed9f8e85.gif",
+            "image": "shopify:\/\/shop_images\/Womens_Bolinas_GIF_3c53fe93-71c8-41fd-9aa3-4d7a8bf4e628.gif",
             "image_padding": false
           }
         },
@@ -258,6 +258,13 @@
     "8949c364-8ac5-44b3-b4d5-6ba60e60680c": {
       "type": "collage",
       "blocks": {
+        "6d1112ec-6890-4da1-8ff4-4fe04e998209": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mens_Vertical_GIF.gif",
+            "image_padding": true
+          }
+        },
         "template--14746980778058__8949c364-8ac5-44b3-b4d5-6ba60e60680c-1666373701cdadef7f-1": {
           "type": "product",
           "settings": {
@@ -271,24 +278,17 @@
             "product": "mens-bolinas-off-shore-boot-rubber-black",
             "second_image": false
           }
-        },
-        "6d1112ec-6890-4da1-8ff4-4fe04e998209": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mens_Vertical_GIF.gif",
-            "image_padding": true
-          }
         }
       },
       "block_order": [
+        "6d1112ec-6890-4da1-8ff4-4fe04e998209",
         "template--14746980778058__8949c364-8ac5-44b3-b4d5-6ba60e60680c-1666373701cdadef7f-1",
-        "2ebc34fc-7cc8-4080-b99f-8667ab18352f",
-        "6d1112ec-6890-4da1-8ff4-4fe04e998209"
+        "2ebc34fc-7cc8-4080-b99f-8667ab18352f"
       ],
       "settings": {
         "heading": "Mens",
         "heading_size": "h2",
-        "desktop_layout": "right",
+        "desktop_layout": "left",
         "mobile_layout": "collage",
         "color_scheme": "background-1",
         "padding_top": 36,
