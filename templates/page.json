@@ -126,8 +126,9 @@
       "blocks": {
         "1663781028ad06b462-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
-            "heading": "The Best Gifts",
+            "heading": "",
             "heading_size": "h1",
             "font_color": ""
           }
@@ -135,7 +136,7 @@
         "1663781028ad06b462-1": {
           "type": "text",
           "settings": {
-            "text": "<p>A great pair of shoes is the gift that keeps on giving. Meet our best gifts for everyone on your list.<\/p>",
+            "text": "<p>A great pair of shoes is the gift that keeps on giving. Meet our best gifts for everyone on your list. All you need from the person on your list is a shoe size to choose from our wide variety of sneakers, boots or slippers. Or make it easy with a sweatshirt, hat, beanie or gift card. <\/p><p><strong>From our family to yours, happy holidays.<\/strong><\/p>",
             "use_heading_font": false,
             "font_color": ""
           }
@@ -215,7 +216,7 @@
         "template--14499865526346__2cd7c9fa-4152-4dc1-a998-8091f86d566e-16663038957c3856fe-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_post_-_68.jpg",
+            "image": "shopify:\/\/shop_images\/Sweatshirt_for_Them.jpg",
             "title": "Gifts for Them",
             "font_style": "h3",
             "text": "",
@@ -258,61 +259,6 @@
         "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "1663782260320b345f": {
-      "type": "image-banner",
-      "disabled": true,
-      "blocks": {
-        "16637822605188c363-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading_line_1": "Image banner",
-            "heading_line_2": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "16637822605188c363-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "16637822605188c363-2": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "16637822605188c363-0",
-        "16637822605188c363-1",
-        "16637822605188c363-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Full_Width-min_985d054e-b7c0-4dfe-bfbe-7026b495abbe.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "margin_top": 0,
-        "margin_bottom": 0
       }
     },
     "16637858792aebd7b0": {
@@ -490,6 +436,55 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "46bc3c94-b480-4a1a-9283-0d8633198b60": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14499865526346__46bc3c94-b480-4a1a-9283-0d8633198b60-166638035169e5e3b1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Dream Fit Guarantee",
+            "heading_size": "h2",
+            "font_color": ""
+          }
+        },
+        "template--14499865526346__46bc3c94-b480-4a1a-9283-0d8633198b60-166638035169e5e3b1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our experts are ready to help you find a style that fits like a dream, and we have a 30-day return or exchange policy for unused items that's fast, easy and free.<\/p>",
+            "use_heading_font": false,
+            "font_color": ""
+          }
+        },
+        "template--14499865526346__46bc3c94-b480-4a1a-9283-0d8633198b60-166638035169e5e3b1-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "use_arrow_link": false,
+            "link_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14499865526346__46bc3c94-b480-4a1a-9283-0d8633198b60-166638035169e5e3b1-0",
+        "template--14499865526346__46bc3c94-b480-4a1a-9283-0d8633198b60-166638035169e5e3b1-1",
+        "template--14499865526346__46bc3c94-b480-4a1a-9283-0d8633198b60-166638035169e5e3b1-2"
+      ],
+      "settings": {
+        "color_scheme": "background-3",
+        "full_width": false,
+        "narrow": true,
+        "is_page_header": false,
+        "mobile_content_align": "center",
+        "desktop_content_align": "center",
+        "padding_top": 88,
+        "padding_bottom": 88,
+        "margin_top": 36,
+        "margin_bottom": 36
+      }
     }
   },
   "order": [
@@ -499,10 +494,10 @@
     "16637810280ee85eb5",
     "1663782409a6363c5e",
     "2cd7c9fa-4152-4dc1-a998-8091f86d566e",
-    "1663782260320b345f",
     "16637858792aebd7b0",
     "9271cbd7-c2c0-4aaf-8445-e4119c9fe703",
     "ac660ec2-1bfc-4954-af1e-f7e9a26fb1bb",
-    "52a1ef98-1b5d-48b7-b864-a461a7148030"
+    "52a1ef98-1b5d-48b7-b864-a461a7148030",
+    "46bc3c94-b480-4a1a-9283-0d8633198b60"
   ]
 }
