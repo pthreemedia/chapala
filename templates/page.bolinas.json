@@ -14,7 +14,7 @@
         "165297913758c6d6d2-0": {
           "type": "heading",
           "settings": {
-            "heading_line_1": "The SeaChange Collection",
+            "heading_line_1": "The Bolinas Boot",
             "heading_line_2": "",
             "heading_size": "h0"
           }
@@ -22,7 +22,7 @@
         "165297913758c6d6d2-1": {
           "type": "text",
           "settings": {
-            "text": "Our Most Responsible Sneakers Yet",
+            "text": "your new wet weather go-to",
             "text_style": "caption-with-letter-spacing"
           }
         },
@@ -45,7 +45,7 @@
         "165297913758c6d6d2-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/SeaChange_Oct22_LP-Hero.jpg",
+        "image": "shopify:\/\/shop_images\/Landing_Page_Hero-min_e41ec9b5-8277-49c3-90b8-358f328039b7.jpg",
         "image_overlay_opacity": 10,
         "image_height": "medium",
         "adapt_height_first_image": false,
@@ -75,7 +75,7 @@
         "1651769816c53397ad-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We made the most comfortable shoe in your closet even better. These freshly-picked styles have uppers made with pineapple yarn, corn leather, or recycled cotton canvas, laces made with post-consumer recycled plastic, metal-free stitched eyelets, liners made with recycled cotton, and outsoles made with natural and recycled rubber. Every style in this collection is made with recycled material–from lace to sole. It represents our best foot forward in making our shoes more responsibly, and it's just the beginning.<\/p><p><\/p>",
+            "text": "<p>Field tested on sailboats, surf trips to iceland, and the brewery floor, our Bolinas Boot will keep your feet happy and dry wherever your day takes you. With an easy on\/off heritage webbing pull tab on the front and back, a beautiful matte natural rubber upper, and a feel-good soft knit lining—this shoe is equal parts style and comfort. And to continue to reduce our impact, we made our ultra-grooved heeled outsole from natural and recycled rubber. You'll want to wear them everyday—rain or shine.<\/p><p><\/p>",
             "use_heading_font": false,
             "font_color": "#012e5c"
           }
@@ -98,132 +98,9 @@
         "margin_bottom": 0
       }
     },
-    "1653069663d19d7d66": {
-      "type": "multicolumn",
-      "blocks": {
-        "165306966370d82fc8-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_post_-_3.jpg",
-            "title": "VEGAN CORN LEATHER",
-            "font_style": "h4",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "info_on_image": true
-          }
-        },
-        "165306966370d82fc8-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_story_-_79.jpg",
-            "title": "",
-            "font_style": "h4",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "info_on_image": true
-          }
-        },
-        "a63135c7-20d3-4c8d-a5d2-2639fa9606e5": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/LTT_Dark.jpg",
-            "title": "",
-            "font_style": "h3",
-            "text": "<p>Corn leather is a vegan alternative to leather made from cotton fabric covered by a corn-based coating. It is durable, smooth and has a traditional leather feel.<\/p>",
-            "link_label": "",
-            "link": "",
-            "info_on_image": true
-          }
-        }
-      },
-      "block_order": [
-        "165306966370d82fc8-1",
-        "165306966370d82fc8-2",
-        "a63135c7-20d3-4c8d-a5d2-2639fa9606e5"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "1653070266b056c99a": {
-      "type": "multicolumn",
-      "blocks": {
-        "1653070266e5c04d45-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Slip_On_Edited.jpg",
-            "title": "PINEAPPLE YARN",
-            "font_style": "h4",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "info_on_image": true
-          }
-        },
-        "1653070266e5c04d45-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_story_-_80.jpg",
-            "title": "",
-            "font_style": "h3",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "info_on_image": false
-          }
-        },
-        "1653070266e5c04d45-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Slip_On_Dark_d1b66714-2d0f-49b6-b7ee-62d72ce22c03.jpg",
-            "title": "",
-            "font_style": "h3",
-            "text": "<p>Pineapple yarn is a biodegradable cellulose fiber harvested from pineapple plants. It has beautiful natural texture.<\/p>",
-            "link_label": "",
-            "link": "",
-            "info_on_image": true
-          }
-        }
-      },
-      "block_order": [
-        "1653070266e5c04d45-1",
-        "1653070266e5c04d45-0",
-        "1653070266e5c04d45-2"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "16649009663d31e5ef": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "1664900966949cd27f-0": {
           "type": "column",
@@ -284,91 +161,138 @@
         "padding_bottom": 36
       }
     },
-    "1652992451b58be40b": {
-      "type": "rich-text",
-      "disabled": true,
+    "0016756b-ddc2-4b47-b4e2-aa123ee846a6": {
+      "type": "collage",
       "blocks": {
-        "16529924509e9c5cfb-0": {
-          "type": "heading",
+        "fbbd1669-4a1d-4824-83af-c3d988d80848": {
+          "type": "image",
           "settings": {
-            "heading": "",
-            "heading_size": "h1",
-            "font_color": ""
+            "image": "shopify:\/\/shop_images\/Womens_Bolinas_GIF_1247765c-fb58-4567-8e0f-6beeed9f8e85.gif",
+            "image_padding": false
           }
         },
-        "16529924509e9c5cfb-1": {
-          "type": "text",
+        "template--14746980778058__0016756b-ddc2-4b47-b4e2-aa123ee846a6-1666373701cdadef7f-1": {
+          "type": "product",
           "settings": {
-            "text": "<p>Vegan Corn Leather<\/p>",
-            "use_heading_font": false,
-            "font_color": "#3d93e1"
+            "product": "womens-bolinas-off-shore-boot-rubber-black",
+            "second_image": false
           }
         },
-        "16529924509e9c5cfb-2": {
-          "type": "button",
-          "disabled": true,
+        "9b5c54df-11e7-46d9-8e4e-265e6b9a28cf": {
+          "type": "product",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "use_arrow_link": false,
-            "link_color": ""
+            "product": "womens-bolinas-off-shore-boot-rubber-military-olive",
+            "second_image": false
           }
         }
       },
       "block_order": [
-        "16529924509e9c5cfb-0",
-        "16529924509e9c5cfb-1",
-        "16529924509e9c5cfb-2"
+        "fbbd1669-4a1d-4824-83af-c3d988d80848",
+        "template--14746980778058__0016756b-ddc2-4b47-b4e2-aa123ee846a6-1666373701cdadef7f-1",
+        "9b5c54df-11e7-46d9-8e4e-265e6b9a28cf"
       ],
       "settings": {
+        "heading": "Womens",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
         "color_scheme": "background-1",
-        "full_width": true,
-        "narrow": false,
-        "is_page_header": false,
-        "mobile_content_align": "center",
-        "desktop_content_align": "left",
-        "padding_top": 0,
-        "padding_bottom": 44,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "b26b5054-df2b-4ff6-a5fc-bff8050715fd": {
+      "type": "image-banner",
+      "blocks": {
+        "template--14746980778058__b26b5054-df2b-4ff6-a5fc-bff8050715fd-1666374494f21d0f44-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading_line_1": "Image banner",
+            "heading_line_2": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--14746980778058__b26b5054-df2b-4ff6-a5fc-bff8050715fd-1666374494f21d0f44-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--14746980778058__b26b5054-df2b-4ff6-a5fc-bff8050715fd-1666374494f21d0f44-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14746980778058__b26b5054-df2b-4ff6-a5fc-bff8050715fd-1666374494f21d0f44-0",
+        "template--14746980778058__b26b5054-df2b-4ff6-a5fc-bff8050715fd-1666374494f21d0f44-1",
+        "template--14746980778058__b26b5054-df2b-4ff6-a5fc-bff8050715fd-1666374494f21d0f44-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Landing_Page_Hero2-min.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
         "margin_top": 0,
         "margin_bottom": 0
       }
     },
-    "16517685015d2ce9b4": {
-      "type": "featured-collection-alt",
+    "8949c364-8ac5-44b3-b4d5-6ba60e60680c": {
+      "type": "collage",
+      "blocks": {
+        "template--14746980778058__8949c364-8ac5-44b3-b4d5-6ba60e60680c-1666373701cdadef7f-1": {
+          "type": "product",
+          "settings": {
+            "product": "mens-bolinas-off-shore-boot-rubber-military-olive",
+            "second_image": false
+          }
+        },
+        "2ebc34fc-7cc8-4080-b99f-8667ab18352f": {
+          "type": "product",
+          "settings": {
+            "product": "mens-bolinas-off-shore-boot-rubber-black",
+            "second_image": false
+          }
+        },
+        "6d1112ec-6890-4da1-8ff4-4fe04e998209": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mens_Vertical_GIF.gif",
+            "image_padding": true
+          }
+        }
+      },
+      "block_order": [
+        "template--14746980778058__8949c364-8ac5-44b3-b4d5-6ba60e60680c-1666373701cdadef7f-1",
+        "2ebc34fc-7cc8-4080-b99f-8667ab18352f",
+        "6d1112ec-6890-4da1-8ff4-4fe04e998209"
+      ],
       "settings": {
-        "title": "",
+        "heading": "Mens",
         "heading_size": "h2",
-        "description": "",
-        "description_style": "body",
-        "columns_desktop": 4,
-        "full_width": true,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
+        "desktop_layout": "right",
+        "mobile_layout": "collage",
         "color_scheme": "background-1",
-        "collection_1": "womens-seachange",
-        "tab_id_1": "1",
-        "featured_collection_title_1": "Womens",
-        "products_to_show_1": 12,
-        "collection_2": "mens-seachange",
-        "tab_id_2": "2",
-        "featured_collection_title_2": "Mens",
-        "products_to_show_2": 12,
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_condensed_title": true,
-        "show_vendor": false,
-        "show_gender": true,
-        "show_material": true,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 12,
-        "padding_bottom": 32,
-        "margin_top": 0,
-        "margin_bottom": 0
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "16488340185b1f3cc8": {
@@ -489,11 +413,10 @@
     "main",
     "1652979137b0a62647",
     "1651769816dcb4919c",
-    "1653069663d19d7d66",
-    "1653070266b056c99a",
     "16649009663d31e5ef",
-    "1652992451b58be40b",
-    "16517685015d2ce9b4",
+    "0016756b-ddc2-4b47-b4e2-aa123ee846a6",
+    "b26b5054-df2b-4ff6-a5fc-bff8050715fd",
+    "8949c364-8ac5-44b3-b4d5-6ba60e60680c",
     "16488340185b1f3cc8",
     "1648834181268fa0bf",
     "16533399328f27308a"
