@@ -250,12 +250,12 @@
         "image_ratio": "adapt",
         "columns_desktop": 2,
         "column_alignment": "left",
-        "background_style": "none",
+        "background_style": "primary",
         "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -343,6 +343,43 @@
         "padding_bottom": 36
       }
     },
+    "9271cbd7-c2c0-4aaf-8445-e4119c9fe703": {
+      "type": "featured-collection-alt",
+      "settings": {
+        "title": "Our Most Gifted Items",
+        "heading_size": "h2",
+        "description": "",
+        "description_style": "body",
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "collection_1": "our-most-gifted-items",
+        "tab_id_1": "1",
+        "featured_collection_title_1": "Womens",
+        "products_to_show_1": 12,
+        "collection_2": "mens-most-gifted-items",
+        "tab_id_2": "2",
+        "featured_collection_title_2": "Mens",
+        "products_to_show_2": 9,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_condensed_title": false,
+        "show_vendor": false,
+        "show_gender": false,
+        "show_material": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "ac660ec2-1bfc-4954-af1e-f7e9a26fb1bb": {
       "type": "image-with-text",
       "blocks": {
@@ -350,7 +387,7 @@
           "type": "heading",
           "settings": {
             "heading": "Make it Easy",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "template--14499865526346__ac660ec2-1bfc-4954-af1e-f7e9a26fb1bb-16663038953bd8cdb7-1": {
@@ -444,12 +481,12 @@
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "left",
-        "background_style": "none",
+        "background_style": "primary",
         "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -464,6 +501,7 @@
     "2cd7c9fa-4152-4dc1-a998-8091f86d566e",
     "1663782260320b345f",
     "16637858792aebd7b0",
+    "9271cbd7-c2c0-4aaf-8445-e4119c9fe703",
     "ac660ec2-1bfc-4954-af1e-f7e9a26fb1bb",
     "52a1ef98-1b5d-48b7-b864-a461a7148030"
   ]
