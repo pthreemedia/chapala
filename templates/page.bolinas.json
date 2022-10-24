@@ -98,6 +98,20 @@
         "margin_bottom": 0
       }
     },
+    "624f2ef9-1370-4381-9f9a-08aaf662ac62": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "cover_image": "shopify:\/\/shop_images\/Bolinas_Video_Cover_Photo.jpg",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "16649009663d31e5ef": {
       "type": "multicolumn",
       "disabled": true,
@@ -295,19 +309,66 @@
         "padding_bottom": 36
       }
     },
-    "16488340185b1f3cc8": {
-      "type": "video",
-      "disabled": true,
+    "16533399328f27308a": {
+      "type": "multicolumn",
+      "blocks": {
+        "1653339932d884285e-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bolinas_trifecta_0000_665A1627.jpg",
+            "title": "",
+            "font_style": "h3",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/womens-seachange1",
+            "info_on_image": true
+          }
+        },
+        "1653339932d884285e-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bolinas_trifecta_0002_DSCF5823.jpg",
+            "title": "",
+            "font_style": "h3",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/mens-seachange1",
+            "info_on_image": true
+          }
+        },
+        "80c8b7d2-40e1-4557-b441-b0403ce95e5e": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bolinas_trifecta_0001_DSCF5504.jpg",
+            "title": "",
+            "font_style": "h3",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "info_on_image": false
+          }
+        }
+      },
+      "block_order": [
+        "1653339932d884285e-0",
+        "1653339932d884285e-2",
+        "80c8b7d2-40e1-4557-b441-b0403ce95e5e"
+      ],
       "settings": {
-        "heading": "",
-        "heading_size": "h2",
-        "cover_image": "shopify:\/\/shop_images\/SeaVees_Inertia_Cover_Photo_3e8c474b-8cae-46c4-a9a0-fe4484602c55.jpg",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=z1L0i0QcQZk",
-        "description": "SeaTrees and SeaVees Video",
-        "full_width": false,
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
         "color_scheme": "background-1",
-        "padding_top": 12,
-        "padding_bottom": 24
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 80,
+        "padding_bottom": 80
       }
     },
     "1648834181268fa0bf": {
@@ -316,14 +377,14 @@
         "164883418143aa5478-0": {
           "type": "heading",
           "settings": {
-            "heading": "We're Committed to Sea Change",
+            "heading": "Giving Back",
             "heading_size": "h2"
           }
         },
         "164883418143aa5478-1": {
           "type": "text",
           "settings": {
-            "text": "<p>A tiny blue and white flag tag on every shoe represents our ongoing commitment to protect our 2\/3 blue planet. Every pair of shoes sold from this collection gives back $1 to our partner SeaTrees, a non-profit that works to restore blue carbon coastal ecosystems and ocean health globally. And by 2025, we aim to ensure that every shoe in our line is made with recycled materials and gives back to non-profit partners supporting ocean conservation efforts. <\/p>",
+            "text": "<p>10% from every pair sold goes to Un Mar De Colores—an organization that works to bridge the socio-economic gap in surfing for future generations of historically marginalized youth.<\/p>",
             "text_style": "body"
           }
         },
@@ -331,7 +392,7 @@
           "type": "button",
           "settings": {
             "button_label": "Learn More",
-            "button_link": "shopify:\/\/pages\/seatrees",
+            "button_link": "https:\/\/mar-de-colores.org\/",
             "use_arrow_link": false,
             "button_style_secondary": false
           }
@@ -343,69 +404,20 @@
         "164883418143aa5478-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Flag_Tag_d0299544-d5d0-40d9-badb-8f20dc35e773.jpg",
+        "image": "shopify:\/\/shop_images\/seavees_bolinas_boot_mar_de_colores_15111_502b5b1c-3dff-4856-b558-3a74f647b04d.jpg",
         "height": "adapt",
-        "desktop_image_width": "medium",
-        "full_width": true,
-        "layout": "image_first",
+        "desktop_image_width": "small",
+        "full_width": false,
+        "layout": "text_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "background-3",
         "mobile_content_alignment": "left",
-        "padding_top": 76,
-        "padding_bottom": 76,
+        "padding_top": 48,
+        "padding_bottom": 48,
         "margin_top": 0,
         "margin_bottom": 0
-      }
-    },
-    "16533399328f27308a": {
-      "type": "multicolumn",
-      "blocks": {
-        "1653339932d884285e-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Womens_Collection.jpg",
-            "title": "Womens Collection",
-            "font_style": "h3",
-            "text": "",
-            "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/womens-seachange1",
-            "info_on_image": true
-          }
-        },
-        "1653339932d884285e-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mens_Collection.jpg",
-            "title": "Mens Collection",
-            "font_style": "h3",
-            "text": "",
-            "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/mens-seachange1",
-            "info_on_image": true
-          }
-        }
-      },
-      "block_order": [
-        "1653339932d884285e-0",
-        "1653339932d884285e-2"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 80,
-        "padding_bottom": 80
       }
     }
   },
@@ -413,12 +425,12 @@
     "main",
     "1652979137b0a62647",
     "1651769816dcb4919c",
+    "624f2ef9-1370-4381-9f9a-08aaf662ac62",
     "16649009663d31e5ef",
     "0016756b-ddc2-4b47-b4e2-aa123ee846a6",
     "b26b5054-df2b-4ff6-a5fc-bff8050715fd",
     "8949c364-8ac5-44b3-b4d5-6ba60e60680c",
-    "16488340185b1f3cc8",
-    "1648834181268fa0bf",
-    "16533399328f27308a"
+    "16533399328f27308a",
+    "1648834181268fa0bf"
   ]
 }
