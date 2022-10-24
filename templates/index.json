@@ -2,6 +2,7 @@
   "sections": {
     "164867367120e1947e": {
       "type": "hero-banner",
+      "disabled": true,
       "blocks": {
         "1648673671d11f3268-0": {
           "type": "heading",
@@ -59,12 +60,11 @@
     },
     "1652135633ce7ce319": {
       "type": "hero-banner",
-      "disabled": true,
       "blocks": {
         "16521356332262bfc5-0": {
           "type": "heading",
           "settings": {
-            "heading": "The Monarch Collection",
+            "heading": "The Heritage Sport Collection",
             "heading_2": "",
             "font_size": "h0",
             "hide_block_on_mobile": false,
@@ -74,7 +74,7 @@
         "16521356332262bfc5-1": {
           "type": "text",
           "settings": {
-            "text": "Every shoe in this limited-edition collection is made of super soft cotton flannel embroidered with perhaps the most iconic of butterfly species, the monarch.",
+            "text": "Introducing your soon-to-be favorite sporty sneaker.",
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
           }
@@ -86,7 +86,7 @@
             "button_link_1": "shopify:\/\/pages\/monarch-collection",
             "button_label_2": "",
             "button_link_2": "",
-            "button_style_secondary": false,
+            "button_style_secondary": true,
             "use_arrow_link": false,
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
@@ -102,13 +102,13 @@
         "use_video_background": false,
         "hero_video_desktop": "",
         "hero_video_mobile": "",
-        "image_desktop": "shopify:\/\/shop_images\/W_Monarch_Homepage-Desktop.gif",
-        "image_mobile": "shopify:\/\/shop_images\/W_Monarch_Homepage_Mobile.gif",
+        "image_desktop": "shopify:\/\/shop_images\/Heritage-Launch-HP-Hero_a1557e6f-a977-4bb8-9a2a-e7327e4d9d10.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Mobile-Heritage-Launch-HP-Hero_81ee1a0e-2398-4ec3-a0e8-312bbb84131c.gif",
         "image_overlay_opacity": 0,
         "adapt_height_first_image": false,
         "text_image_separate": false,
         "show_text_box": false,
-        "desktop_content_half": "left",
+        "desktop_content_half": "no",
         "banner_content_half_color": "background-2",
         "desktop_text_box_vertical_position": "center",
         "desktop_text_box_horizontal_position": "center",
@@ -387,14 +387,14 @@
         "16497985735c91a62a-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Love! These shoes are awesome and super comfy!  True to size and love the natural color!!!<\/p>",
+            "text": "<p>\"Versatile and stylish.I had been looking for some cute sneakers to wear with shorts, dresses, jeans, skirts, ... and these fit the bill perfectly.They are also SO comfy!\"<\/p>",
             "text_style": "h2"
           }
         },
         "95b3722c-f77d-41c7-911c-2c098384bc2b": {
           "type": "caption",
           "settings": {
-            "caption": "- Stephanie S.",
+            "caption": "- BRISTOL S.",
             "text_style": "caption-with-letter-spacing",
             "text_size": "small"
           }
@@ -402,8 +402,8 @@
         "16497985735c91a62a-2": {
           "type": "button",
           "settings": {
-            "button_label": "Shop The SeaChange Slip On in Natural",
-            "button_link": "\/products\/womens-seachange-slip-on-pineapple-yarn-natural",
+            "button_label": "Shop The Monterey Platform in Black",
+            "button_link": "shopify:\/\/products\/womens-monterey-sneaker-platform-cotton-canvas-black",
             "use_arrow_link": true,
             "button_style_secondary": false
           }
@@ -415,7 +415,7 @@
         "16497985735c91a62a-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/SeaChange_Slip_On_Natural.jpg",
+        "image": "shopify:\/\/shop_images\/W_HP_Review_Monterey_Platform_Black.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "full_width": true,
