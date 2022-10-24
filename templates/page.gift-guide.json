@@ -1,0 +1,503 @@
+{
+  "sections": {
+    "b19a4c85-5e3e-4c4b-b997-af0bbb23ab7b": {
+      "type": "image-banner",
+      "blocks": {
+        "template--14499865526346__b19a4c85-5e3e-4c4b-b997-af0bbb23ab7b-16663038956e58925e-0": {
+          "type": "heading",
+          "settings": {
+            "heading_line_1": "Holiday Gift Guide",
+            "heading_line_2": "",
+            "heading_size": "h1"
+          }
+        },
+        "template--14499865526346__b19a4c85-5e3e-4c4b-b997-af0bbb23ab7b-16663038956e58925e-1": {
+          "type": "text",
+          "settings": {
+            "text": "GIVE THE GIFT OF COMFORT",
+            "text_style": "h4"
+          }
+        },
+        "template--14499865526346__b19a4c85-5e3e-4c4b-b997-af0bbb23ab7b-16663038956e58925e-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14499865526346__b19a4c85-5e3e-4c4b-b997-af0bbb23ab7b-16663038956e58925e-0",
+        "template--14499865526346__b19a4c85-5e3e-4c4b-b997-af0bbb23ab7b-16663038956e58925e-1",
+        "template--14499865526346__b19a4c85-5e3e-4c4b-b997-af0bbb23ab7b-16663038956e58925e-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Gift_Guide_Hero_1-min_d9a6f422-45be-47e2-861c-3218d5e93427.jpg",
+        "image_overlay_opacity": 10,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": true,
+        "show_text_below": false,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "166377942474139604": {
+      "type": "hero-banner",
+      "disabled": true,
+      "blocks": {
+        "1663779424e358192d-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "heading_2": "",
+            "font_size": "h1",
+            "hide_block_on_mobile": false,
+            "hide_block_on_desktop": false
+          }
+        },
+        "1663779424e358192d-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "hide_block_on_mobile": false,
+            "hide_block_on_desktop": false
+          }
+        },
+        "1663779424e358192d-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary": false,
+            "use_arrow_link": false,
+            "hide_block_on_mobile": false,
+            "hide_block_on_desktop": false
+          }
+        }
+      },
+      "block_order": [
+        "1663779424e358192d-0",
+        "1663779424e358192d-1",
+        "1663779424e358192d-2"
+      ],
+      "settings": {
+        "use_video_background": false,
+        "hero_video_desktop": "",
+        "hero_video_mobile": "",
+        "image_desktop": "shopify:\/\/shop_images\/Landing_Page_Hero-min_7ce111ed-92fa-40d2-a818-eb545e3f807d.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Landing_Page_Hero-min_7ce111ed-92fa-40d2-a818-eb545e3f807d.jpg",
+        "image_overlay_opacity": 0,
+        "adapt_height_first_image": false,
+        "text_image_separate": false,
+        "show_text_box": false,
+        "desktop_content_half": "no",
+        "banner_content_half_color": "background-1",
+        "desktop_text_box_vertical_position": "center",
+        "desktop_text_box_horizontal_position": "flex-start",
+        "desktop_text_alignment": "left"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 60
+      }
+    },
+    "16637810280ee85eb5": {
+      "type": "rich-text",
+      "blocks": {
+        "1663781028ad06b462-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "heading_size": "h1",
+            "font_color": ""
+          }
+        },
+        "1663781028ad06b462-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A great pair of shoes is the gift that keeps on giving. Meet our best gifts for everyone on your list. All you need from the person on your list is a shoe size to choose from our wide variety of sneakers, boots or slippers. Or make it easy with a sweatshirt, hat, beanie or gift card. <\/p><p><strong>From our family to yours, happy holidays.<\/strong><\/p>",
+            "use_heading_font": false,
+            "font_color": ""
+          }
+        },
+        "1663781028ad06b462-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "use_arrow_link": false,
+            "link_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "1663781028ad06b462-0",
+        "1663781028ad06b462-1",
+        "1663781028ad06b462-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "narrow": true,
+        "is_page_header": false,
+        "mobile_content_align": "center",
+        "desktop_content_align": "center",
+        "padding_top": 64,
+        "padding_bottom": 28,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "1663782409a6363c5e": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "cover_image": "shopify:\/\/shop_images\/vid_2-min.jpg",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=GM2vjj3GXlk",
+        "description": "outdoor adventure photographer Jeff Johnson wears his collaboration boots around town. He goes hiking, biking, jumping fences and taking photos to show how comfortable and durable they are.",
+        "full_width": false,
+        "color_scheme": "background-2",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "2cd7c9fa-4152-4dc1-a998-8091f86d566e": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14499865526346__2cd7c9fa-4152-4dc1-a998-8091f86d566e-16663038957c3856fe-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Instagram_post_-_64.jpg",
+            "title": "Gifts for Her",
+            "font_style": "h3",
+            "text": "",
+            "link_label": "Shop Now",
+            "link": "",
+            "info_on_image": false
+          }
+        },
+        "template--14499865526346__2cd7c9fa-4152-4dc1-a998-8091f86d566e-16663038957c3856fe-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Instagram_post_-_66.jpg",
+            "title": "Gifts for Him",
+            "font_style": "h3",
+            "text": "",
+            "link_label": "Shop Now",
+            "link": "",
+            "info_on_image": false
+          }
+        },
+        "template--14499865526346__2cd7c9fa-4152-4dc1-a998-8091f86d566e-16663038957c3856fe-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sweatshirt_for_Them.jpg",
+            "title": "Gifts for Them",
+            "font_style": "h3",
+            "text": "",
+            "link_label": "Shop Now",
+            "link": "",
+            "info_on_image": false
+          }
+        },
+        "e6f236ce-86a3-40d5-93c9-077a7ca91e44": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Instagram_post_-_69_4df2b740-4004-4d84-9a9d-9553d8202317.jpg",
+            "title": "Gifts Under $50",
+            "font_style": "h3",
+            "text": "",
+            "link_label": "Shop Now",
+            "link": "",
+            "info_on_image": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14499865526346__2cd7c9fa-4152-4dc1-a998-8091f86d566e-16663038957c3856fe-0",
+        "template--14499865526346__2cd7c9fa-4152-4dc1-a998-8091f86d566e-16663038957c3856fe-1",
+        "template--14499865526346__2cd7c9fa-4152-4dc1-a998-8091f86d566e-16663038957c3856fe-2",
+        "e6f236ce-86a3-40d5-93c9-077a7ca91e44"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16637858792aebd7b0": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "description": "<p><strong>SHOP ALL BOOTS<\/strong><\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "mens-boots",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "9271cbd7-c2c0-4aaf-8445-e4119c9fe703": {
+      "type": "featured-collection-alt",
+      "settings": {
+        "title": "Our Most Gifted Items",
+        "heading_size": "h2",
+        "description": "",
+        "description_style": "body",
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "collection_1": "our-most-gifted-items",
+        "tab_id_1": "1",
+        "featured_collection_title_1": "Womens",
+        "products_to_show_1": 12,
+        "collection_2": "mens-most-gifted-items",
+        "tab_id_2": "2",
+        "featured_collection_title_2": "Mens",
+        "products_to_show_2": 9,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_condensed_title": false,
+        "show_vendor": false,
+        "show_gender": false,
+        "show_material": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "ac660ec2-1bfc-4954-af1e-f7e9a26fb1bb": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14499865526346__ac660ec2-1bfc-4954-af1e-f7e9a26fb1bb-16663038953bd8cdb7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Make it Easy",
+            "heading_size": "h2"
+          }
+        },
+        "template--14499865526346__ac660ec2-1bfc-4954-af1e-f7e9a26fb1bb-16663038953bd8cdb7-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Whether it’s last minute or you’re the kind of friend that likes to let them choose, our electronicgiftcards are quick and easy.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--14499865526346__ac660ec2-1bfc-4954-af1e-f7e9a26fb1bb-16663038953bd8cdb7-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Gift Cards",
+            "button_link": "shopify:\/\/products\/seavees-gift-card",
+            "use_arrow_link": false,
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14499865526346__ac660ec2-1bfc-4954-af1e-f7e9a26fb1bb-16663038953bd8cdb7-0",
+        "template--14499865526346__ac660ec2-1bfc-4954-af1e-f7e9a26fb1bb-16663038953bd8cdb7-1",
+        "template--14499865526346__ac660ec2-1bfc-4954-af1e-f7e9a26fb1bb-16663038953bd8cdb7-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/SeaVees_Gift_Card_74bec53a-6e8d-44cb-aae0-3938f7785ecd.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "full_width": false,
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "52a1ef98-1b5d-48b7-b864-a461a7148030": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14499865526346__52a1ef98-1b5d-48b7-b864-a461a7148030-16663038957c3856fe-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Instagram_post_-_70.jpg",
+            "title": "Women's New Arrivals",
+            "font_style": "h3",
+            "text": "",
+            "link_label": "Shop Now",
+            "link": "",
+            "info_on_image": false
+          }
+        },
+        "template--14499865526346__52a1ef98-1b5d-48b7-b864-a461a7148030-16663038957c3856fe-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Instagram_post_-_71.jpg",
+            "title": "Men's New Arrivals",
+            "font_style": "h3",
+            "text": "",
+            "link_label": "Shop Now",
+            "link": "",
+            "info_on_image": false
+          }
+        },
+        "template--14499865526346__52a1ef98-1b5d-48b7-b864-a461a7148030-16663038957c3856fe-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Instagram_post_-_72.jpg",
+            "title": "Goods",
+            "font_style": "h3",
+            "text": "",
+            "link_label": "Shop Now",
+            "link": "",
+            "info_on_image": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14499865526346__52a1ef98-1b5d-48b7-b864-a461a7148030-16663038957c3856fe-0",
+        "template--14499865526346__52a1ef98-1b5d-48b7-b864-a461a7148030-16663038957c3856fe-1",
+        "template--14499865526346__52a1ef98-1b5d-48b7-b864-a461a7148030-16663038957c3856fe-2"
+      ],
+      "settings": {
+        "title": "While You're At It, Treat Yourself",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "46bc3c94-b480-4a1a-9283-0d8633198b60": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14499865526346__46bc3c94-b480-4a1a-9283-0d8633198b60-166638035169e5e3b1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Dream Fit Guarantee",
+            "heading_size": "h2",
+            "font_color": ""
+          }
+        },
+        "template--14499865526346__46bc3c94-b480-4a1a-9283-0d8633198b60-166638035169e5e3b1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our experts are ready to help you find a style that fits like a dream, and we have a 30-day return or exchange policy for unused items that's fast, easy and free.<\/p>",
+            "use_heading_font": false,
+            "font_color": ""
+          }
+        },
+        "template--14499865526346__46bc3c94-b480-4a1a-9283-0d8633198b60-166638035169e5e3b1-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "use_arrow_link": false,
+            "link_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14499865526346__46bc3c94-b480-4a1a-9283-0d8633198b60-166638035169e5e3b1-0",
+        "template--14499865526346__46bc3c94-b480-4a1a-9283-0d8633198b60-166638035169e5e3b1-1",
+        "template--14499865526346__46bc3c94-b480-4a1a-9283-0d8633198b60-166638035169e5e3b1-2"
+      ],
+      "settings": {
+        "color_scheme": "background-3",
+        "full_width": false,
+        "narrow": true,
+        "is_page_header": false,
+        "mobile_content_align": "center",
+        "desktop_content_align": "center",
+        "padding_top": 88,
+        "padding_bottom": 88,
+        "margin_top": 36,
+        "margin_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "b19a4c85-5e3e-4c4b-b997-af0bbb23ab7b",
+    "166377942474139604",
+    "main",
+    "16637810280ee85eb5",
+    "1663782409a6363c5e",
+    "2cd7c9fa-4152-4dc1-a998-8091f86d566e",
+    "16637858792aebd7b0",
+    "9271cbd7-c2c0-4aaf-8445-e4119c9fe703",
+    "ac660ec2-1bfc-4954-af1e-f7e9a26fb1bb",
+    "52a1ef98-1b5d-48b7-b864-a461a7148030",
+    "46bc3c94-b480-4a1a-9283-0d8633198b60"
+  ]
+}
