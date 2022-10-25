@@ -327,7 +327,7 @@
         "1653339932d884285e-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Bolinas_trifecta_0002_DSCF5823.jpg",
+            "image": "shopify:\/\/shop_images\/Bolinas_trifecta_0002_DSCF5823_8303a24f-206d-432a-9d00-8b84b5136312.jpg",
             "title": "",
             "font_style": "h3",
             "text": "",
@@ -336,10 +336,10 @@
             "info_on_image": true
           }
         },
-        "80c8b7d2-40e1-4557-b441-b0403ce95e5e": {
+        "db2e2bc6-1d59-40e0-b834-ce364e4ecc4f": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Bolinas_trifecta_0001_DSCF5504.jpg",
+            "image": "shopify:\/\/shop_images\/Bolinas_trifecta_3.jpg",
             "title": "",
             "font_style": "h3",
             "text": "",
@@ -352,7 +352,7 @@
       "block_order": [
         "1653339932d884285e-0",
         "1653339932d884285e-2",
-        "80c8b7d2-40e1-4557-b441-b0403ce95e5e"
+        "db2e2bc6-1d59-40e0-b834-ce364e4ecc4f"
       ],
       "settings": {
         "title": "",
