@@ -2,7 +2,6 @@
   "sections": {
     "b19a4c85-5e3e-4c4b-b997-af0bbb23ab7b": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "template--14499865526346__b19a4c85-5e3e-4c4b-b997-af0bbb23ab7b-16663038956e58925e-0": {
           "type": "heading",
@@ -15,7 +14,7 @@
         "template--14499865526346__b19a4c85-5e3e-4c4b-b997-af0bbb23ab7b-16663038956e58925e-1": {
           "type": "text",
           "settings": {
-            "text": "GIVE THE GIFT OF COMFORT",
+            "text": "GIVE THE GIFT OF STYLE & COMFORT",
             "text_style": "h4"
           }
         },
@@ -116,6 +115,7 @@
     },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 60
@@ -123,7 +123,6 @@
     },
     "16637810280ee85eb5": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "1663781028ad06b462-0": {
           "type": "heading",
@@ -189,7 +188,6 @@
     },
     "2cd7c9fa-4152-4dc1-a998-8091f86d566e": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "template--14499865526346__2cd7c9fa-4152-4dc1-a998-8091f86d566e-16663038957c3856fe-0": {
           "type": "column",
@@ -293,7 +291,6 @@
     },
     "9271cbd7-c2c0-4aaf-8445-e4119c9fe703": {
       "type": "featured-collection-alt",
-      "disabled": true,
       "settings": {
         "title": "Our Most Gifted Items",
         "heading_size": "h2",
@@ -331,7 +328,6 @@
     },
     "ac660ec2-1bfc-4954-af1e-f7e9a26fb1bb": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "template--14499865526346__ac660ec2-1bfc-4954-af1e-f7e9a26fb1bb-16663038953bd8cdb7-0": {
           "type": "heading",
@@ -381,7 +377,6 @@
     },
     "52a1ef98-1b5d-48b7-b864-a461a7148030": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "template--14499865526346__52a1ef98-1b5d-48b7-b864-a461a7148030-16663038957c3856fe-0": {
           "type": "column",
@@ -444,7 +439,6 @@
     },
     "46bc3c94-b480-4a1a-9283-0d8633198b60": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--14499865526346__46bc3c94-b480-4a1a-9283-0d8633198b60-166638035169e5e3b1-0": {
           "type": "heading",

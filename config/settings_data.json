@@ -126,8 +126,8 @@
             "type": "announcement",
             "disabled": true,
             "settings": {
-              "heading": "Up To 60% OFF, Ends Tomorrow.",
-              "link": "shopify:\/\/collections\/womens-sale",
+              "heading": "Take an extra 30% off sale styles with code EXTRA30",
+              "link": "\/discount\/extra30?redirect=\/collections\/mens-sale",
               "cta_text": "Shop Sale >",
               "link_style": "underline",
               "font": "lato",
@@ -157,10 +157,10 @@
             "type": "featured_content",
             "settings": {
               "category": "Mens",
-              "text": "The Baja",
-              "link": "shopify:\/\/products\/mens-baja-slip-on-classic-natural",
-              "image_desktop": "shopify:\/\/shop_images\/Mens_Nav_Hero_6.jpg",
-              "image_mobile": "shopify:\/\/shop_images\/thumbnail_Mens_Nav_Hero_3.jpg"
+              "text": "The Beyond and Back Boot",
+              "link": "shopify:\/\/products\/mens-beyond-back-boot-rugged-oiled-leather-elmwood",
+              "image_desktop": "shopify:\/\/shop_images\/seavees_crowd_favorites_0003__SA10111.jpg",
+              "image_mobile": "shopify:\/\/shop_images\/seavees_crowd_favorites_0003__SA10111_3e54914f-5e81-4839-9b5f-9aa8924e8827.jpg"
             }
           },
           "8faac646-622e-434a-8bea-f10b298e8fcd": {
@@ -178,10 +178,10 @@
             "disabled": true,
             "settings": {
               "category": "Mens",
-              "text": "The Hermosa",
-              "link": "shopify:\/\/products\/mens-hermosa-sneaker-classic-natural",
-              "image_desktop": "shopify:\/\/shop_images\/D4_4773.jpg",
-              "image_mobile": "shopify:\/\/shop_images\/mens_hermosa_standard_natural_side.jpg"
+              "text": "The Sixty Six",
+              "link": "\/products\/mens-sixty-six-wool-flannel-charcoal",
+              "image_desktop": "shopify:\/\/shop_images\/seavees_crowd_favorites_0002_M_Sixty_Six_Charcoal_Flannel_015.jpg",
+              "image_mobile": "shopify:\/\/shop_images\/seavees_crowd_favorites_0002_M_Sixty_Six_Charcoal_Flannel_015_8dcf33e1-53fd-4a29-ae5b-5a9a698d7f75.jpg"
             }
           },
           "067eea87-3114-4e12-b33c-40d5f50d3f91": {
@@ -199,20 +199,20 @@
             "type": "featured_content",
             "settings": {
               "category": "Womens",
-              "text": "The Baja Platform",
-              "link": "shopify:\/\/products\/womens-baja-slip-on-platform-herringbone-twill-bleach",
-              "image_desktop": "shopify:\/\/shop_images\/W024A22CPLBLC-2.jpg",
-              "image_mobile": "shopify:\/\/shop_images\/SPRING_WEB_ADD-ON_WOMEN_007.jpg"
+              "text": "The Melrose Lug Platform",
+              "link": "\/products\/womens-melrose-lug-platform-hemp-vanilla",
+              "image_desktop": "shopify:\/\/shop_images\/seavees_crowd_favorites_0000_W_Melrose_Lug_Platform_Vanilla_Hemp_Canvas_031.jpg",
+              "image_mobile": "shopify:\/\/shop_images\/seavees_crowd_favorites_0000_W_Melrose_Lug_Platform_Vanilla_Hemp_Canvas_031_2e9080d1-6731-4db1-860f-06e05350ccd7.jpg"
             }
           },
           "63c8485a-2033-47fc-a0a6-26b9300dc81c": {
             "type": "featured_content",
             "settings": {
               "category": "Womens",
-              "text": "The Monterey Sneaker",
-              "link": "shopify:\/\/products\/womens-monterey-sneaker-classic-cactus",
-              "image_desktop": "shopify:\/\/shop_images\/W_montereysneakerclassic_cactus-14_f94a9471-49a8-4035-8855-c21602982d3a.jpg",
-              "image_mobile": "shopify:\/\/shop_images\/womens_monterey_cactus_side.jpg"
+              "text": "The Baja Slip On Platform",
+              "link": "\/products\/womens-baja-slip-on-platform-check-flannel-chai",
+              "image_desktop": "shopify:\/\/shop_images\/seavees_crowd_favorites_0001_W_Baja_Slip_On_Platform_Chai_Check_Flannel_022.jpg",
+              "image_mobile": "shopify:\/\/shop_images\/seavees_crowd_favorites_0001_W_Baja_Slip_On_Platform_Chai_Check_Flannel_022_d4e93cdf-134f-4c4b-a7fa-3c13f56a5bf7.jpg"
             }
           },
           "f276d9cc-490c-4bdc-8ff7-82e4849d5e13": {
