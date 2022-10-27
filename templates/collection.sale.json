@@ -20,7 +20,7 @@
         "16488357932f2433e4-0": {
           "type": "heading",
           "settings": {
-            "heading": "Sale on Sale",
+            "heading": "Shop Sale",
             "heading_size": "h1",
             "font_color": ""
           }
@@ -28,7 +28,7 @@
         "16488357932f2433e4-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Take an extra 30% off sale styles with code EXTRA30<\/p>",
+            "text": "",
             "use_heading_font": false,
             "font_color": ""
           }
