@@ -23,7 +23,7 @@
           "type": "text",
           "settings": {
             "text": "your new wet weather go-to",
-            "text_style": "caption-with-letter-spacing"
+            "text_style": "h4"
           }
         },
         "165297913758c6d6d2-2": {
@@ -384,7 +384,7 @@
         "164883418143aa5478-1": {
           "type": "text",
           "settings": {
-            "text": "<p>10% from every pair sold goes to Un Mar De Colores—an organization that works to bridge the socio-economic gap in surfing for future generations of historically marginalized youth.<\/p>",
+            "text": "<p>Your purchase gives 10% from every pair sold to Un Mar De Colores—an organization that works to bridge the socio-economic gap in surfing for future generations of historically marginalized youth.<\/p>",
             "text_style": "body"
           }
         },
