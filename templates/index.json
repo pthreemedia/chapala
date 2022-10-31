@@ -6,7 +6,7 @@
         "1648673671d11f3268-0": {
           "type": "heading",
           "settings": {
-            "heading": "Sale on Sale",
+            "heading": "The Bolinas Boot",
             "heading_2": "",
             "font_size": "h1",
             "hide_block_on_mobile": false,
@@ -16,7 +16,7 @@
         "1648673671d11f3268-1": {
           "type": "text",
           "settings": {
-            "text": "Take an extra 30% off sale styles with code EXTRA30​",
+            "text": "Dress it up or dress it down, our Bolinas Boot will be your new wet weather go-to.",
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
           }
@@ -42,15 +42,15 @@
       ],
       "settings": {
         "use_video_background": true,
-        "hero_video_desktop": "https:\/\/www.youtube.com\/watch?v=9d9NjEBWTDI",
-        "hero_video_mobile": "https:\/\/www.youtube.com\/watch?v=9d9NjEBWTDI",
+        "hero_video_desktop": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2f507bd2eaee45819d3475b9e1f0865e.mp4",
+        "hero_video_mobile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2f507bd2eaee45819d3475b9e1f0865e.mp4",
         "image_overlay_opacity": 0,
         "adapt_height_first_image": false,
         "text_image_separate": false,
         "show_text_box": false,
-        "desktop_content_half": "left",
-        "banner_content_half_color": "background-3",
-        "desktop_text_box_vertical_position": "center",
+        "desktop_content_half": "no",
+        "banner_content_half_color": "background-1",
+        "desktop_text_box_vertical_position": "flex-end",
         "desktop_text_box_horizontal_position": "center",
         "desktop_text_alignment": "center"
       }
