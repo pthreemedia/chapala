@@ -2,7 +2,6 @@
   "sections": {
     "164867367120e1947e": {
       "type": "hero-banner",
-      "disabled": true,
       "blocks": {
         "1648673671d11f3268-0": {
           "type": "heading",
@@ -42,11 +41,9 @@
         "1648673671d11f3268-2"
       ],
       "settings": {
-        "use_video_background": false,
-        "hero_video_desktop": "",
-        "hero_video_mobile": "",
-        "image_desktop": "shopify:\/\/shop_images\/Sale_On_Sale_HP_Hero_v2.gif",
-        "image_mobile": "shopify:\/\/shop_images\/Sale_On_Sale_HP-Mobile_V2.gif",
+        "use_video_background": true,
+        "hero_video_desktop": "https:\/\/www.youtube.com\/watch?v=9d9NjEBWTDI",
+        "hero_video_mobile": "https:\/\/www.youtube.com\/watch?v=9d9NjEBWTDI",
         "image_overlay_opacity": 0,
         "adapt_height_first_image": false,
         "text_image_separate": false,
@@ -60,6 +57,7 @@
     },
     "1652135633ce7ce319": {
       "type": "hero-banner",
+      "disabled": true,
       "blocks": {
         "16521356332262bfc5-0": {
           "type": "heading",
