@@ -79,6 +79,7 @@
         },
         "8199bab9-932a-4f4d-952b-adbae403d716": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "Assistant Store Manager - Mill Valley",
             "font_style": "h3",
@@ -113,7 +114,7 @@
         "16488307761b149624-0": {
           "type": "column",
           "settings": {
-            "title": "Retail Sales Associate",
+            "title": "Retail Sales Associate - Newport Beach",
             "font_style": "h3",
             "text": "<p>Based at our Newport Beach , CA retail store, this role is essential to the face and embodiment of the SeaVees brand and involves  creating an elevated retail experience for all new and returning SeaVees customers.<\/p>",
             "link_label": "View Details",
@@ -123,9 +124,8 @@
         },
         "16488307761b149624-1": {
           "type": "column",
-          "disabled": true,
           "settings": {
-            "title": "Retail Sales Associate",
+            "title": "Part Time Retail Sales Associate - Santa Barbara",
             "font_style": "h3",
             "text": "<p>Based at our Santa Barbara, CA retail store, this role is essential to the face and embodiment of the SeaVees brand and involves  creating an elevated retail experience for all new and returning SeaVees customers.<\/p>",
             "link_label": "View Details",
