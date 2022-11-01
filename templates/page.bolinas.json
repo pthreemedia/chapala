@@ -75,7 +75,7 @@
         "1651769816c53397ad-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Ready for Rain, or Whatever <\/p><p>Field tested on sailboats, surf trips to Iceland, and the brewery floor, our Bolinas Boot will keep your feet happy and dry wherever your day takes you. With an easy on\/off heritage webbing pull tab on the front and back, a beautiful matte natural rubber upper, and a feel-good soft knit lining, these 100% waterproof boots are equal parts style and comfort. You'll want to wear them every day—rain or shine.  <\/p><p><\/p>",
+            "text": "<p>Field tested on sailboats, surf trips to Iceland, and the brewery floor, our Bolinas Boot will keep your feet happy and dry wherever your day takes you. At home on city streets or muddy trails, our 100% waterproof boots are equal parts style and comfort. With an easy on\/off heritage webbing pull tab on the front and back, a beautiful matte natural rubber upper, and a feel-good soft knit lining, you'll want to wear them every day—rain or shine.   <\/p><p><\/p>",
             "use_heading_font": false,
             "font_color": "#012e5c"
           }
@@ -419,6 +419,42 @@
         "margin_top": 0,
         "margin_bottom": 0
       }
+    },
+    "6db22db5-5212-4327-9a97-f9b1e30a4f02": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14746980778058__6db22db5-5212-4327-9a97-f9b1e30a4f02-1667322180f34b32bd-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mario_UnMar_Daydreamer-min.jpg",
+            "title": "",
+            "font_style": "h3",
+            "text": "<p>With a little help from his friends, Navy Veteran Mario Ordonez-Calderon is providing free surf lessons to children of color and underserved youth through Un Mar De Colores.<\/p>",
+            "link_label": "",
+            "link": "",
+            "info_on_image": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14746980778058__6db22db5-5212-4327-9a97-f9b1e30a4f02-1667322180f34b32bd-0"
+      ],
+      "settings": {
+        "title": "Daydreamer Series",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -431,6 +467,7 @@
     "b26b5054-df2b-4ff6-a5fc-bff8050715fd",
     "8949c364-8ac5-44b3-b4d5-6ba60e60680c",
     "16533399328f27308a",
-    "1648834181268fa0bf"
+    "1648834181268fa0bf",
+    "6db22db5-5212-4327-9a97-f9b1e30a4f02"
   ]
 }
