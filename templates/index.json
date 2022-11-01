@@ -5,6 +5,7 @@
       "blocks": {
         "1648673671d11f3268-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "The Bolinas Boot",
             "heading_2": "",
@@ -15,6 +16,7 @@
         },
         "1648673671d11f3268-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Dress it up or dress it down, our Bolinas Boot will be your new wet weather go-to.",
             "hide_block_on_mobile": false,
@@ -23,6 +25,7 @@
         },
         "1648673671d11f3268-2": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_label_1": "Shop Womens",
             "button_link_1": "\/discount\/extra30?redirect=\/collections\/womens-sale",
@@ -49,10 +52,58 @@
         "text_image_separate": false,
         "show_text_box": false,
         "desktop_content_half": "no",
-        "banner_content_half_color": "background-1",
+        "banner_content_half_color": "accent-3",
         "desktop_text_box_vertical_position": "flex-end",
         "desktop_text_box_horizontal_position": "center",
         "desktop_text_alignment": "center"
+      }
+    },
+    "90a6b8cf-f580-49af-a352-48d5ab8dcb10": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14499865755722__90a6b8cf-f580-49af-a352-48d5ab8dcb10-16673284741a252a5d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Bolinas Boot",
+            "heading_size": "h1",
+            "font_color": ""
+          }
+        },
+        "template--14499865755722__90a6b8cf-f580-49af-a352-48d5ab8dcb10-16673284741a252a5d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Dress it up or dress it down, our Bolinas Boot will be your new wet weather go-to.<\/p>",
+            "use_heading_font": false,
+            "font_color": ""
+          }
+        },
+        "template--14499865755722__90a6b8cf-f580-49af-a352-48d5ab8dcb10-16673284741a252a5d-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop The Bolinas Boot",
+            "button_link": "",
+            "button_style_secondary": false,
+            "use_arrow_link": false,
+            "link_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14499865755722__90a6b8cf-f580-49af-a352-48d5ab8dcb10-16673284741a252a5d-0",
+        "template--14499865755722__90a6b8cf-f580-49af-a352-48d5ab8dcb10-16673284741a252a5d-1",
+        "template--14499865755722__90a6b8cf-f580-49af-a352-48d5ab8dcb10-16673284741a252a5d-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "narrow": false,
+        "is_page_header": false,
+        "mobile_content_align": "center",
+        "desktop_content_align": "center",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     },
     "1652135633ce7ce319": {
@@ -622,6 +673,7 @@
   },
   "order": [
     "164867367120e1947e",
+    "90a6b8cf-f580-49af-a352-48d5ab8dcb10",
     "1652135633ce7ce319",
     "16503151834eccf6ed",
     "1649806229c9386eb6",
