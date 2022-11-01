@@ -337,7 +337,7 @@
         "6d1112ec-6890-4da1-8ff4-4fe04e998209": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mens_Bolinas_GIF.gif",
+            "image": "shopify:\/\/shop_images\/Mens_Bolinas_GIF-min.gif",
             "image_padding": true
           }
         },
@@ -510,7 +510,7 @@
         "column_alignment": "center",
         "background_style": "primary",
         "button_label": "Read The Story",
-        "button_link": "https:\/\/www.seavees.com\/blogs\/journal",
+        "button_link": "https:\/\/www.seavees.com\/blogs\/journal\/daydreamer-series-on-using-community-to-create-a-dream",
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
