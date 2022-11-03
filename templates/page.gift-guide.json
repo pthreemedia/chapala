@@ -197,7 +197,7 @@
             "font_style": "h3",
             "text": "",
             "link_label": "Shop Now",
-            "link": "",
+            "link": "shopify:\/\/collections\/gifts-for-her",
             "info_on_image": false
           }
         },
@@ -209,7 +209,7 @@
             "font_style": "h3",
             "text": "",
             "link_label": "Shop Now",
-            "link": "",
+            "link": "shopify:\/\/collections\/gifts-for-him",
             "info_on_image": false
           }
         },
@@ -221,7 +221,7 @@
             "font_style": "h3",
             "text": "",
             "link_label": "Shop Now",
-            "link": "",
+            "link": "shopify:\/\/collections\/gifts-for-them",
             "info_on_image": false
           }
         },
@@ -233,7 +233,7 @@
             "font_style": "h3",
             "text": "",
             "link_label": "Shop Now",
-            "link": "",
+            "link": "shopify:\/\/collections\/under-50",
             "info_on_image": false
           }
         }
