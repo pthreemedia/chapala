@@ -501,6 +501,26 @@
       },
       "main-collection-product-grid-fall-2022-spliced": {
         "type": "main-collection-product-grid-fall-2022-spliced",
+        "blocks": {
+          "8cd7b1a7-65d7-441f-ade4-668ffddd542a": {
+            "type": "grid_content",
+            "settings": {
+              "grid_content_id": "spliced-test-1",
+              "grid_position": "1",
+              "grid_width_in_3_column_grid": "none",
+              "heading": "test1 headline",
+              "subheading": "test1 subheadline",
+              "headline_vertical_position": "top",
+              "headline_horizontal_position": "left",
+              "desktop_image": "shopify:\/\/shop_images\/Un_Mar_Image.jpg",
+              "link_url": "shopify:\/\/products\/big-kids-california-special-beachcomber-red-ginger-herringbone-twill",
+              "link_text": "test link"
+            }
+          }
+        },
+        "block_order": [
+          "8cd7b1a7-65d7-441f-ade4-668ffddd542a"
+        ],
         "settings": {
           "products_per_page": 60,
           "columns_desktop": 3,
