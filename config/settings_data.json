@@ -523,6 +523,27 @@
       },
       "main-collection-product-grid-fall-2022-grouped": {
         "type": "main-collection-product-grid-fall-2022-grouped",
+        "blocks": {
+          "09af0b95-4688-44d9-a7f6-4d8e52ffd02e": {
+            "type": "grid_content",
+            "settings": {
+              "grid_content_id": "womens-new-arrivals",
+              "grid_position": "1",
+              "grid_width_in_3_column_grid": "none",
+              "heading": "test headline",
+              "subheading": "test subheadline",
+              "headline_vertical_position": "top",
+              "headline_horizontal_position": "left",
+              "mobile_image": "shopify:\/\/shop_images\/Womens__0001_665A1862.jpg",
+              "desktop_image": "shopify:\/\/shop_images\/Womens__0002_665A1552.jpg",
+              "link_url": "shopify:\/\/products\/arvin-x-seavees-casual-twisted-sock-sand-blue",
+              "link_text": "test link"
+            }
+          }
+        },
+        "block_order": [
+          "09af0b95-4688-44d9-a7f6-4d8e52ffd02e"
+        ],
         "settings": {
           "products_per_page": 60,
           "columns_mobile": "2",
