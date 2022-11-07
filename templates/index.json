@@ -2,6 +2,7 @@
   "sections": {
     "164867367120e1947e": {
       "type": "hero-banner",
+      "disabled": true,
       "blocks": {
         "1648673671d11f3268-0": {
           "type": "heading",
@@ -60,6 +61,7 @@
     },
     "90a6b8cf-f580-49af-a352-48d5ab8dcb10": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--14499865755722__90a6b8cf-f580-49af-a352-48d5ab8dcb10-16673284741a252a5d-0": {
           "type": "heading",
@@ -108,7 +110,6 @@
     },
     "1652135633ce7ce319": {
       "type": "hero-banner",
-      "disabled": true,
       "blocks": {
         "16521356332262bfc5-0": {
           "type": "heading",
