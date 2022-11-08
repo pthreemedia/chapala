@@ -81,7 +81,7 @@
           "type": "button",
           "settings": {
             "button_label": "Shop The Bolinas Boot",
-            "button_link": "",
+            "button_link": "shopify:\/\/pages\/bolinas-boot",
             "button_style_secondary": false,
             "use_arrow_link": false,
             "link_color": ""
