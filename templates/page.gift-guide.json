@@ -386,7 +386,7 @@
             "font_style": "h3",
             "text": "",
             "link_label": "Shop Now",
-            "link": "",
+            "link": "shopify:\/\/collections\/womens-new-arrivals",
             "info_on_image": false
           }
         },
@@ -398,7 +398,7 @@
             "font_style": "h3",
             "text": "",
             "link_label": "Shop Now",
-            "link": "",
+            "link": "shopify:\/\/collections\/mens-new-arrivals",
             "info_on_image": false
           }
         },
