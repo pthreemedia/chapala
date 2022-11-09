@@ -122,29 +122,29 @@
                                       {% if value.active %}checked{% endif %}
                                       {% if value.count == 0 and value.active == false %}disabled{% endif %}
                                     >
-    
+
                                     <svg width="1.6rem" height="1.6rem" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
                                       <rect width="16" height="16" stroke="currentColor" fill="none" stroke-width="1"></rect>
                                     </svg>
-    
+
                                     <svg class="icon icon-checkmark"
                                       width="1.1rem"
                                       height="0.7rem"
                                       viewBox="0 0 11 7"
                                       fill="none"
                                       xmlns="http://www.w3.org/2000/svg">
-    
+
                                       <path d="M1.5 3.5L2.83333 4.75L4.16667 6L9.5 1"
                                         stroke="currentColor"
                                         stroke-width="1.75"
                                         stroke-linecap="round"
                                         stroke-linejoin="round" />
                                     </svg>
-    
+
                                     <span aria-hidden="true">{{ value.label | escape }} ({{ value.count }})</span>
                                     <span class="visually-hidden">{{ value.label | escape }} ({% if value.count == 1 %}{{ 'products.facets.product_count_simple.one' | t: count: value.count }}{% else %}{{ 'products.facets.product_count_simple.other' | t: count: value.count }}{% endif %})</span>
                                   </label>
-                                </li>                              
+                                </li>
                               {% endcapture %}
                               {% assign sizes10AndGreater = sizes10AndGreater | append: capturedSizeGreaterThan10 %}
                             {% else %}
@@ -254,7 +254,7 @@
                               <span aria-hidden="true">{{ value.label | escape }} ({{ value.count }})</span>
                               <span class="visually-hidden">{{ value.label | escape }} ({% if value.count == 1 %}{{ 'products.facets.product_count_simple.one' | t: count: value.count }}{% else %}{{ 'products.facets.product_count_simple.other' | t: count: value.count }}{% endif %})</span>
                             </label>
-                          </li> 
+                          </li>
                         {%- endfor -%}
                       </ul>
                     </fieldset>
@@ -427,7 +427,7 @@
           <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
         </svg>
       </div>
-    </div>  
+    </div>
     {% comment %} Sorting for vertical filter are grouped with filter when no JS{% endcomment %}
     {%- if enable_sorting and filter_type == 'vertical' -%}
       <facet-filters-form class="small-hide">
@@ -463,7 +463,7 @@
           {%- endif -%}
         </form>
       </facet-filters-form>
-    {%- endif -%}    
+    {%- endif -%}
   {%- endif -%}
   {% comment %}  Drawer and mobile filter {% endcomment %}
   <menu-drawer class="mobile-facets__wrapper{% if filter_type == 'horizontal' or filter_type == 'vertical' %} large-up-hide{% endif %}" data-breakpoint="mobile">
@@ -566,18 +566,18 @@
                                         {% if value.active %}checked{% endif %}
                                         {% if value.count == 0 and value.active == false %}disabled{% endif %}
                                       >
-      
+
                                       <span class="mobile-facets__highlight"></span>
 
                                       <svg width="1.6rem" height="1.6rem" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
                                         <rect width="16" height="16" stroke="currentColor" fill="none" stroke-width="1"></rect>
                                       </svg>
-      
+
                                       <svg class="icon icon-checkmark" width="1.1rem" height="0.7rem" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M1.5 3.5L2.83333 4.75L4.16667 6L9.5 1" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" />
                                       </svg>
-      
-                                      
+
+
                                       <span aria-hidden="true">{{ value.label | escape }}{% unless filter.label == 'Size' %} ({{ value.count }}){% endunless %}</span>
                                       {% unless filter.label == 'Size' %}
                                         <span class="visually-hidden">{{ value.label | escape }} ({% if value.count == '1' %}{{ 'products.facets.product_count_simple.one' | t: count: value.count }}{% else %}{{ 'products.facets.product_count_simple.other' | t: count: value.count }}{% endif %})</span>
@@ -608,7 +608,7 @@
                                     <path d="M1.5 3.5L2.83333 4.75L4.16667 6L9.5 1" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" />
                                   </svg>
 
-                                  
+
                                   <span aria-hidden="true">{{ value.label | escape }} ({{ value.count }})</span>
                                   <span class="visually-hidden">{{ value.label | escape }} ({% if value.count == '1' %}{{ 'products.facets.product_count_simple.one' | t: count: value.count }}{% else %}{{ 'products.facets.product_count_simple.other' | t: count: value.count }}{% endif %})</span>
                                 </label>
@@ -800,7 +800,7 @@
         {% if results.current_vendor or results.current_type %}
           <input type="hidden" name="q" value="{{ results.current_vendor }}{{ results.current_type }}">
         {% endif %}
-    
+
         {%- if results.terms -%}
           <input type="hidden" name="q" value="{{ results.terms | escape }}">
           <input name="options[prefix]" type="hidden" value="last">

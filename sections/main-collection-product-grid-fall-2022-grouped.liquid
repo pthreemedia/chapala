@@ -76,11 +76,10 @@
   <div class="">
 
       <div id="grouped_collection_view" class="grouped_collection_view" data-mobile-col="{{ section.settings.columns_mobile }}">
-        {%- paginate collection.products by 1000 -%}
+        {%- paginate collection.products by 50 -%}
         {% assign available_products = collection.products | where: "available" %}
 
           {%- capture silhouettes_list -%}
-
             {%- for product in available_products -%}
                 {{- product.metafields.seavees.silhouette -}}
                 {%- if forloop.last == false %}|{% endif -%}

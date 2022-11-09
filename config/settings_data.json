@@ -494,7 +494,7 @@
       "collection-filter": {
         "type": "collection-filter",
         "settings": {
-          "enable_filtering": false,
+          "enable_filtering": true,
           "filter_type": "vertical",
           "enable_sorting": true
         }
