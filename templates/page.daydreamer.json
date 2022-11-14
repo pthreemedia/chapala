@@ -14,7 +14,7 @@
         "165297913758c6d6d2-0": {
           "type": "heading",
           "settings": {
-            "heading_line_1": "The SeaChange Collection",
+            "heading_line_1": "Daydreamer Contest",
             "heading_line_2": "",
             "heading_size": "h0"
           }
@@ -22,7 +22,7 @@
         "165297913758c6d6d2-1": {
           "type": "text",
           "settings": {
-            "text": "Our Most Responsible Sneakers Yet",
+            "text": "What's Your Dream",
             "text_style": "caption-with-letter-spacing"
           }
         },
@@ -98,8 +98,18 @@
         "margin_bottom": 0
       }
     },
+    "b168654a-4f8d-428d-b9a2-2bf5f8a1da52": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div data-tf-widget=\"aFFaC9Wy\" data-tf-opacity=\"100\" style=\"width:100%;height:500px;\"><\/div><script src=\"\/\/embed.typeform.com\/next\/embed.js\"><\/script>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "1653069663d19d7d66": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "165306966370d82fc8-1": {
           "type": "column",
@@ -162,6 +172,7 @@
     },
     "1653070266b056c99a": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "1653070266e5c04d45-1": {
           "type": "column",
@@ -224,6 +235,7 @@
     },
     "16649009663d31e5ef": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "1664900966949cd27f-0": {
           "type": "column",
@@ -336,6 +348,7 @@
     },
     "16517685015d2ce9b4": {
       "type": "featured-collection-alt",
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h2",
@@ -388,6 +401,7 @@
     },
     "1648834181268fa0bf": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "164883418143aa5478-0": {
           "type": "heading",
@@ -483,21 +497,13 @@
         "padding_top": 80,
         "padding_bottom": 80
       }
-    },
-    "b168654a-4f8d-428d-b9a2-2bf5f8a1da52": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div data-tf-widget=\"aFFaC9Wy\" data-tf-opacity=\"100\" style=\"width:100%;height:500px;\"><\/div><script src=\"\/\/embed.typeform.com\/next\/embed.js\"><\/script>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "main",
     "1652979137b0a62647",
     "1651769816dcb4919c",
+    "b168654a-4f8d-428d-b9a2-2bf5f8a1da52",
     "1653069663d19d7d66",
     "1653070266b056c99a",
     "16649009663d31e5ef",
@@ -505,7 +511,6 @@
     "16517685015d2ce9b4",
     "16488340185b1f3cc8",
     "1648834181268fa0bf",
-    "16533399328f27308a",
-    "b168654a-4f8d-428d-b9a2-2bf5f8a1da52"
+    "16533399328f27308a"
   ]
 }
