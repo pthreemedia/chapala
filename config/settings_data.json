@@ -113,7 +113,7 @@
           "c5dc7240-53a9-4d80-8f47-453f7c3e8574": {
             "type": "announcement",
             "settings": {
-              "heading": "Free Shipping On Orders Over $100 & Our 30 Day Dream Fit Guarantee.",
+              "heading": "Free Shipping on Orders Over $100",
               "link": "",
               "cta_text": "",
               "link_style": "underline",
@@ -124,6 +124,7 @@
           },
           "b02319df-3561-47db-8787-8de4610da820": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "heading": "Need Gift Ideas?",
               "link": "shopify:\/\/pages\/gift-guide",
@@ -136,6 +137,7 @@
           },
           "2a864d09-3ffd-4238-a5d8-5c60b6850024": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "heading": "30 Day Dream Fit Guarantee.",
               "link": "",
