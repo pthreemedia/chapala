@@ -32,7 +32,7 @@
 
 <link rel="preload" href="{{ 'component-rte.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
-{%- if collection.metafields.seavees.group_by_silhouette == true -%}
+{%- if collection.metafields.seavees.group_by_silhouette == false -%}
   <link rel="stylesheet" href="{{ 'component-slider.css' | asset_url }}" media="print" onload="this.media='all'">
   <noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
 {%- endif -%}
@@ -100,7 +100,7 @@
 <div class="">
   <div class="">
 
-    {% if collection.metafields.seavees.group_by_silhouette == true %}
+    {% if collection.metafields.seavees.group_by_silhouette == false %}
       <div id="grouped_collection_view" class="sliced_collection_view" data-mobile-col="{{ section.settings.columns_mobile }}">
         {%- paginate collection.products by 1000 -%}
         {% assign available_products = collection.products | where: "available" %}
