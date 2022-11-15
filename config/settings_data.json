@@ -506,7 +506,7 @@
             "type": "grid_content",
             "settings": {
               "grid_content_id": "spliced-test-1",
-              "grid_position": "1",
+              "grid_position": "3",
               "grid_width_in_3_column_grid": "none",
               "heading": "test1 headline",
               "subheading": "test1 subheadline",
