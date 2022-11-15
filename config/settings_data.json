@@ -516,10 +516,42 @@
               "link_url": "shopify:\/\/products\/big-kids-california-special-beachcomber-red-ginger-herringbone-twill",
               "link_text": "test link"
             }
+          },
+          "0d4a97f4-6108-480e-9638-272250d79a38": {
+            "type": "grid_content",
+            "settings": {
+              "grid_content_id": "spliced-test-1",
+              "grid_position": "3",
+              "grid_width_in_3_column_grid": "none",
+              "heading": "test2 headline",
+              "subheading": "test2 subheadline",
+              "headline_vertical_position": "top",
+              "headline_horizontal_position": "left",
+              "desktop_image": "shopify:\/\/shop_images\/SeaChange_Slide_Oat_PDP_7.jpg",
+              "link_url": "shopify:\/\/products\/little-kids-california-special-beachcomber-red-ginger-herringbone-twill",
+              "link_text": "test2 link"
+            }
+          },
+          "f4bcccf6-4539-4844-84f9-5f3e0b185f83": {
+            "type": "grid_content",
+            "settings": {
+              "grid_content_id": "spliced-test-1",
+              "grid_position": "3",
+              "grid_width_in_3_column_grid": "none",
+              "heading": "test3 headline",
+              "subheading": "test3 subheadline",
+              "headline_vertical_position": "top",
+              "headline_horizontal_position": "left",
+              "desktop_image": "shopify:\/\/shop_images\/Womens__0002_665A1552.jpg",
+              "link_url": "shopify:\/\/products\/big-kids-california-special-mulholland-sneaker-leopard-cowhide",
+              "link_text": "test3 link"
+            }
           }
         },
         "block_order": [
-          "8cd7b1a7-65d7-441f-ade4-668ffddd542a"
+          "8cd7b1a7-65d7-441f-ade4-668ffddd542a",
+          "0d4a97f4-6108-480e-9638-272250d79a38",
+          "f4bcccf6-4539-4844-84f9-5f3e0b185f83"
         ],
         "settings": {
           "products_per_page": 60,
