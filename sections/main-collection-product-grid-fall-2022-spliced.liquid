@@ -168,6 +168,52 @@
                               {% unless section.settings.hide_sale_products == true and product.metafields.seavees.is_on_sale == true %}
                                 {% if silhouette == product.metafields.seavees.silhouette %}
                                   {% assign card_count = card_count | plus: 1 %}
+                                  {%- for block in section.blocks -%}
+                                    {% assign block_position = forloop.index %}
+                                    {% assign content_grid_position = block.settings.grid_position | plus: 0 %}
+                                    {% assign adjusted_card_count = card_count | plus: 1 %}
+                                    {% if current_silhouette_position == 1 and block_position == 1 and content_grid_position == 1 %}
+                                      {% for gridContentID in gridContentArray %}
+                                        {% if gridContentID == block.settings.grid_content_id %}
+                                          <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="grid__item slider__slide custom-banner-li-element">
+                                            <a href="{{ block.settings.link_url }}" class="link custom-banner-link">
+                                              <div
+                                                class="content-for-product-grid custom-content-for-product-grid
+                                                cols-{{ block.settings.grid_width_in_3_column_grid }}
+                                                vert-{{ block.settings.headline_vertical_position }}
+                                                horz-{{ block.settings.headline_horizontal_position }}
+                                              "
+                                              style="height: 100%;"
+                                              >
+                                                <div class="image-container">
+                                                  {% if block.settings.mobile_image %}
+                                                    <img class="mobile" src="{{ block.settings.mobile_image | image_url: width: 750 }}">
+                                                  {% endif %}
+                                                  {% if block.settings.desktop_image %}
+                                                    <img class="desktop" src="{{ block.settings.desktop_image | image_url: width: 2000 }}">
+                                                  {% endif %}
+                                                </div>
+                                                <div class="copy-container custom-copy-container">
+                                                  <div class="text">
+                                                    {% if block.settings.heading != null and block.settings.heading != "" %}
+                                                      <h3>{{ block.settings.heading }}</h3>
+                                                    {% endif %}
+                                                    {% if block.settings.subheading != null and block.settings.subheading != "" %}
+                                                      <h4>{{ block.settings.subheading }}</h4>
+                                                    {% endif %}
+                                                  </div>
+                                                  {% if block.settings.link_text %}
+                                                    <span class="cta-text">{{ block.settings.link_text }}</span>
+                                                  {% endif %}
+                                                </div>
+                                              </div>
+                                            </a>
+                                          </li>
+                                        {% endif %}
+                                      {% endfor %}
+                                      {% assign banner_appear = true %}
+                                    {% endif %}
+                                  {%- endfor -%}
                                   <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="grid__item slider__slide">
                                     {% render 'card-product',
                                       card_product: product,
@@ -196,12 +242,48 @@
                                 {% assign block_position = forloop.index %}
                                 {% assign content_grid_position = block.settings.grid_position | plus: 0 %}
                                 {% assign adjusted_card_count = card_count | plus: 1 %}
+                                {% if current_silhouette_position == 1 and block_position == 1 and content_grid_position == 1 %}
+                                  {% for gridContentID in gridContentArray %}
+                                    {% if gridContentID == block.settings.grid_content_id %}
+                                      <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="grid__item slider__slide">
+                                        <a href="{{ block.settings.link_url }}" class="link custom-banner-link">
+                                          <div
+                                            class="content-for-product-grid custom-content-for-product-grid
+                                            cols-{{ block.settings.grid_width_in_3_column_grid }}
+                                            vert-{{ block.settings.headline_vertical_position }}
+                                            horz-{{ block.settings.headline_horizontal_position }}
+                                          "
+                                          style="height: 100%;"
+                                          >
+                                            <div class="image-container">
+                                              {% if block.settings.mobile_image %}
+                                                <img class="mobile" src="{{ block.settings.mobile_image | image_url: width: 750 }}">
+                                              {% endif %}
+                                              {% if block.settings.desktop_image %}
+                                                <img class="desktop" src="{{ block.settings.desktop_image | image_url: width: 2000 }}">
+                                              {% endif %}
+                                            </div>
+                                            <div class="copy-container custom-copy-container">
+                                              <div class="text">
+                                                {% if block.settings.heading != null and block.settings.heading != "" %}
+                                                  <h3>{{ block.settings.heading }}</h3>
+                                                {% endif %}
+                                                {% if block.settings.subheading != null and block.settings.subheading != "" %}
+                                                  <h4>{{ block.settings.subheading }}</h4>
+                                                {% endif %}
+                                              </div>
+                                              {% if block.settings.link_text %}
+                                                <span class="cta-text">{{ block.settings.link_text }}</span>
+                                              {% endif %}
+                                            </div>
+                                          </div>
+                                        </a>
+                                      </li>
+                                    {% endif %}
+                                  {% endfor %}
+                                  {% assign banner_appear = true %}
+                                {% endif %}
                                 {% if current_silhouette_position == block_position and adjusted_card_count == content_grid_position %}
-                                  {% comment %} current_grid_position: {{current_grid_position}}
-                                  current_silhouette_position: {{current_silhouette_position}}
-                                  block_position: {{block_position}}
-                                  adjusted_card_count: {{adjusted_card_count}}
-                                  content_grid_position: {{content_grid_position}} {% endcomment %}
                                   {% for gridContentID in gridContentArray %}
                                     {% if gridContentID == block.settings.grid_content_id %}
                                       <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="grid__item slider__slide">
@@ -331,6 +413,12 @@
 <div class="page-width">
   <div class="collection-hero__description rte">{{ collection.description }}</div>
 </div>
+
+{% style %}
+  slider-component ul li.custom-banner-li-element:nth-of-type(3) {
+    display: none !important;
+  }
+{% endstyle %}
 
 
 {% schema %}
