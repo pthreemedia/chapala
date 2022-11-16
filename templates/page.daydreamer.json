@@ -14,7 +14,7 @@
         "165297913758c6d6d2-0": {
           "type": "heading",
           "settings": {
-            "heading_line_1": "Daydreamer Contest",
+            "heading_line_1": "The Daydreamer Collective",
             "heading_line_2": "",
             "heading_size": "h0"
           }
@@ -22,8 +22,8 @@
         "165297913758c6d6d2-1": {
           "type": "text",
           "settings": {
-            "text": "What's Your Dream",
-            "text_style": "caption-with-letter-spacing"
+            "text": "WANT TO WIN $10,000 FOR YOUR DREAM?",
+            "text_style": "body"
           }
         },
         "165297913758c6d6d2-2": {
@@ -45,7 +45,7 @@
         "165297913758c6d6d2-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/SeaChange_Oct22_LP-Hero.jpg",
+        "image": "shopify:\/\/shop_images\/Daydreamer_LP_Banner.jpg",
         "image_overlay_opacity": 10,
         "image_height": "medium",
         "adapt_height_first_image": false,
@@ -75,7 +75,7 @@
         "1651769816c53397ad-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We made the most comfortable shoe in your closet even better. These freshly-picked styles have uppers made with pineapple yarn, corn leather, or recycled cotton canvas, laces made with post-consumer recycled plastic, metal-free stitched eyelets, liners made with recycled cotton, and outsoles made with natural and recycled rubber. Every style in this collection is made with recycled material–from lace to sole. It represents our best foot forward in making our shoes more responsibly, and it's just the beginning.<\/p><p><\/p>",
+            "text": "<p>Introducing our first annual Rediscover the Dream contest where we will give one winner $10k to start their dreams and access to our Daydreamer Collective, a community of dreamers who believe what we do—that business can be a force for good. Subscribers to this community will receive monthly emails with inspiring stories from our #daydreamer series, advice from other members and information about live social discussions on the topic of making dreams a reality. <\/p><p><\/p>",
             "use_heading_font": false,
             "font_color": "#012e5c"
           }
@@ -107,283 +107,6 @@
         "padding_bottom": 52
       }
     },
-    "1653069663d19d7d66": {
-      "type": "multicolumn",
-      "disabled": true,
-      "blocks": {
-        "165306966370d82fc8-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_post_-_3.jpg",
-            "title": "VEGAN CORN LEATHER",
-            "font_style": "h4",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "info_on_image": true
-          }
-        },
-        "165306966370d82fc8-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_story_-_79.jpg",
-            "title": "",
-            "font_style": "h4",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "info_on_image": true
-          }
-        },
-        "a63135c7-20d3-4c8d-a5d2-2639fa9606e5": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/LTT_Dark.jpg",
-            "title": "",
-            "font_style": "h3",
-            "text": "<p>Corn leather is a vegan alternative to leather made from cotton fabric covered by a corn-based coating. It is durable, smooth and has a traditional leather feel.<\/p>",
-            "link_label": "",
-            "link": "",
-            "info_on_image": true
-          }
-        }
-      },
-      "block_order": [
-        "165306966370d82fc8-1",
-        "165306966370d82fc8-2",
-        "a63135c7-20d3-4c8d-a5d2-2639fa9606e5"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "1653070266b056c99a": {
-      "type": "multicolumn",
-      "disabled": true,
-      "blocks": {
-        "1653070266e5c04d45-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Slip_On_Edited.jpg",
-            "title": "PINEAPPLE YARN",
-            "font_style": "h4",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "info_on_image": true
-          }
-        },
-        "1653070266e5c04d45-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_story_-_80.jpg",
-            "title": "",
-            "font_style": "h3",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "info_on_image": false
-          }
-        },
-        "1653070266e5c04d45-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Slip_On_Dark_d1b66714-2d0f-49b6-b7ee-62d72ce22c03.jpg",
-            "title": "",
-            "font_style": "h3",
-            "text": "<p>Pineapple yarn is a biodegradable cellulose fiber harvested from pineapple plants. It has beautiful natural texture.<\/p>",
-            "link_label": "",
-            "link": "",
-            "info_on_image": true
-          }
-        }
-      },
-      "block_order": [
-        "1653070266e5c04d45-1",
-        "1653070266e5c04d45-0",
-        "1653070266e5c04d45-2"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "16649009663d31e5ef": {
-      "type": "multicolumn",
-      "disabled": true,
-      "blocks": {
-        "1664900966949cd27f-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/SeaChange_Recycled_Polyester-1.jpg",
-            "title": "RECYCLED POLYESTER",
-            "font_style": "h4",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "info_on_image": true
-          }
-        },
-        "1664900966949cd27f-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Recycled_Polyester.jpg",
-            "title": "",
-            "font_style": "h3",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "info_on_image": true
-          }
-        },
-        "1664900966949cd27f-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/SeaChange_Recycled_Polyester-2.jpg",
-            "title": "",
-            "font_style": "h3",
-            "text": "<p>Super soft, recycled fleece made from PET. PET plastic is the most widely recycled plastic, most commonly used for single use clear plastic bottles.<\/p>",
-            "link_label": "",
-            "link": "",
-            "info_on_image": true
-          }
-        }
-      },
-      "block_order": [
-        "1664900966949cd27f-0",
-        "1664900966949cd27f-1",
-        "1664900966949cd27f-2"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "1652992451b58be40b": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "16529924509e9c5cfb-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h1",
-            "font_color": ""
-          }
-        },
-        "16529924509e9c5cfb-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Vegan Corn Leather<\/p>",
-            "use_heading_font": false,
-            "font_color": "#3d93e1"
-          }
-        },
-        "16529924509e9c5cfb-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "use_arrow_link": false,
-            "link_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "16529924509e9c5cfb-0",
-        "16529924509e9c5cfb-1",
-        "16529924509e9c5cfb-2"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "narrow": false,
-        "is_page_header": false,
-        "mobile_content_align": "center",
-        "desktop_content_align": "left",
-        "padding_top": 0,
-        "padding_bottom": 44,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "16517685015d2ce9b4": {
-      "type": "featured-collection-alt",
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "description": "",
-        "description_style": "body",
-        "columns_desktop": 4,
-        "full_width": true,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "background-1",
-        "collection_1": "womens-seachange",
-        "tab_id_1": "1",
-        "featured_collection_title_1": "Womens",
-        "products_to_show_1": 12,
-        "collection_2": "mens-seachange",
-        "tab_id_2": "2",
-        "featured_collection_title_2": "Mens",
-        "products_to_show_2": 12,
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_condensed_title": true,
-        "show_vendor": false,
-        "show_gender": true,
-        "show_material": true,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 12,
-        "padding_bottom": 32,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
     "16488340185b1f3cc8": {
       "type": "video",
       "disabled": true,
@@ -399,58 +122,9 @@
         "padding_bottom": 24
       }
     },
-    "1648834181268fa0bf": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "164883418143aa5478-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "We're Committed to Sea Change",
-            "heading_size": "h2"
-          }
-        },
-        "164883418143aa5478-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>A tiny blue and white flag tag on every shoe represents our ongoing commitment to protect our 2\/3 blue planet. Every pair of shoes sold from this collection gives back $1 to our partner SeaTrees, a non-profit that works to restore blue carbon coastal ecosystems and ocean health globally. And by 2025, we aim to ensure that every shoe in our line is made with recycled materials and gives back to non-profit partners supporting ocean conservation efforts. <\/p>",
-            "text_style": "body"
-          }
-        },
-        "164883418143aa5478-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Learn More",
-            "button_link": "shopify:\/\/pages\/seatrees",
-            "use_arrow_link": false,
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "164883418143aa5478-0",
-        "164883418143aa5478-1",
-        "164883418143aa5478-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Flag_Tag_d0299544-d5d0-40d9-badb-8f20dc35e773.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "full_width": true,
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-3",
-        "mobile_content_alignment": "left",
-        "padding_top": 76,
-        "padding_bottom": 76,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
     "16533399328f27308a": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "1653339932d884285e-0": {
           "type": "column",
@@ -482,8 +156,8 @@
         "1653339932d884285e-2"
       ],
       "settings": {
-        "title": "",
-        "heading_size": "h1",
+        "title": "The Daydreamers",
+        "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 2,
@@ -497,6 +171,68 @@
         "padding_top": 80,
         "padding_bottom": 80
       }
+    },
+    "f36e3ba0-2506-45c6-bc95-0a498c085937": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14765405470794__f36e3ba0-2506-45c6-bc95-0a498c085937-1668634673102df6c6-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Daydreamer_Features_Ashe_Brown_1.jpg",
+            "title": "",
+            "font_style": "h3",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "info_on_image": false
+          }
+        },
+        "template--14765405470794__f36e3ba0-2506-45c6-bc95-0a498c085937-1668634673102df6c6-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Daydreamer_Features_Ashe_Brown_2.jpg",
+            "title": "",
+            "font_style": "h3",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "info_on_image": false
+          }
+        },
+        "template--14765405470794__f36e3ba0-2506-45c6-bc95-0a498c085937-1668634673102df6c6-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Daydreamer_Features_Ashe_Brown_3.jpg",
+            "title": "",
+            "font_style": "h3",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "info_on_image": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14765405470794__f36e3ba0-2506-45c6-bc95-0a498c085937-1668634673102df6c6-0",
+        "template--14765405470794__f36e3ba0-2506-45c6-bc95-0a498c085937-1668634673102df6c6-1",
+        "template--14765405470794__f36e3ba0-2506-45c6-bc95-0a498c085937-1668634673102df6c6-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -504,13 +240,8 @@
     "1652979137b0a62647",
     "1651769816dcb4919c",
     "b168654a-4f8d-428d-b9a2-2bf5f8a1da52",
-    "1653069663d19d7d66",
-    "1653070266b056c99a",
-    "16649009663d31e5ef",
-    "1652992451b58be40b",
-    "16517685015d2ce9b4",
     "16488340185b1f3cc8",
-    "1648834181268fa0bf",
-    "16533399328f27308a"
+    "16533399328f27308a",
+    "f36e3ba0-2506-45c6-bc95-0a498c085937"
   ]
 }
