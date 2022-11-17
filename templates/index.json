@@ -25,9 +25,9 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Womens",
-            "button_link_1": "\/discount\/extra30?redirect=\/collections\/womens-sale",
+            "button_link_1": "\/discount\/cyber40?redirect=\/collections\/womens-all",
             "button_label_2": "Shop Mens",
-            "button_link_2": "\/discount\/extra30?redirect=\/collections\/mens-sale",
+            "button_link_2": "\/discount\/cyber40?redirect=\/collections\/mens-all",
             "button_style_secondary": true,
             "use_arrow_link": false,
             "hide_block_on_mobile": false,
