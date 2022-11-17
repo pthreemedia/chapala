@@ -2,13 +2,11 @@
   "sections": {
     "164867367120e1947e": {
       "type": "hero-banner",
-      "disabled": true,
       "blocks": {
         "1648673671d11f3268-0": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "heading": "The Bolinas Boot",
+            "heading": "Cyber Deals Are Here",
             "heading_2": "",
             "font_size": "h1",
             "hide_block_on_mobile": false,
@@ -17,16 +15,14 @@
         },
         "1648673671d11f3268-1": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "Dress it up or dress it down, our Bolinas Boot will be your new wet weather go-to.",
+            "text": "Take 40% off all footwear* with code CYBER40. *Offer excludes Beyond And Back Boot and Sierra Adventure Boot.",
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
           }
         },
         "1648673671d11f3268-2": {
           "type": "buttons",
-          "disabled": true,
           "settings": {
             "button_label_1": "Shop Womens",
             "button_link_1": "\/discount\/extra30?redirect=\/collections\/womens-sale",
@@ -45,16 +41,18 @@
         "1648673671d11f3268-2"
       ],
       "settings": {
-        "use_video_background": true,
-        "hero_video_desktop": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2f507bd2eaee45819d3475b9e1f0865e.mp4",
-        "hero_video_mobile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2f507bd2eaee45819d3475b9e1f0865e.mp4",
+        "use_video_background": false,
+        "hero_video_desktop": "",
+        "hero_video_mobile": "",
+        "image_desktop": "shopify:\/\/shop_images\/Black-Friday_HP_Hero.gif",
+        "image_mobile": "shopify:\/\/shop_images\/Mobile-BlackFriday-Launch-HP-Hero.gif",
         "image_overlay_opacity": 0,
         "adapt_height_first_image": false,
         "text_image_separate": false,
         "show_text_box": false,
-        "desktop_content_half": "no",
-        "banner_content_half_color": "accent-3",
-        "desktop_text_box_vertical_position": "flex-end",
+        "desktop_content_half": "left",
+        "banner_content_half_color": "background-3",
+        "desktop_text_box_vertical_position": "center",
         "desktop_text_box_horizontal_position": "center",
         "desktop_text_alignment": "center"
       }
@@ -110,6 +108,7 @@
     },
     "1652135633ce7ce319": {
       "type": "hero-banner",
+      "disabled": true,
       "blocks": {
         "16521356332262bfc5-0": {
           "type": "heading",
