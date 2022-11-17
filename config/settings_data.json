@@ -494,9 +494,9 @@
       "collection-filter": {
         "type": "collection-filter",
         "settings": {
-          "enable_filtering": true,
+          "enable_filtering": false,
           "filter_type": "vertical",
-          "enable_sorting": true
+          "enable_sorting": false
         }
       },
       "main-collection-product-grid-fall-2022-spliced": {
