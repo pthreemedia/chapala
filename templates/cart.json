@@ -1,33 +1,5 @@
 {
   "sections": {
-    "cart-items": {
-      "type": "main-cart-items",
-      "settings": {
-        "padding_top": 36,
-        "padding_bottom": 0
-      }
-    },
-    "cart-footer": {
-      "type": "main-cart-footer",
-      "blocks": {
-        "subtotal": {
-          "type": "subtotal",
-          "settings": {
-          }
-        },
-        "buttons": {
-          "type": "buttons",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "subtotal",
-        "buttons"
-      ],
-      "settings": {
-      }
-    },
     "fc2268e7-ca2d-4ff1-9c5d-173dca173e2b": {
       "type": "rich-text",
       "blocks": {
@@ -75,6 +47,34 @@
         "padding_bottom": 52,
         "margin_top": 0,
         "margin_bottom": 0
+      }
+    },
+    "cart-items": {
+      "type": "main-cart-items",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "cart-footer": {
+      "type": "main-cart-footer",
+      "blocks": {
+        "subtotal": {
+          "type": "subtotal",
+          "settings": {
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "subtotal",
+        "buttons"
+      ],
+      "settings": {
       }
     },
     "16605916898c837f0c": {
@@ -179,9 +179,9 @@
     }
   },
   "order": [
+    "fc2268e7-ca2d-4ff1-9c5d-173dca173e2b",
     "cart-items",
     "cart-footer",
-    "fc2268e7-ca2d-4ff1-9c5d-173dca173e2b",
     "16605916898c837f0c",
     "164911222318086ea0"
   ]
