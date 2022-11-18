@@ -20,7 +20,7 @@
         "16488357932f2433e4-0": {
           "type": "heading",
           "settings": {
-            "heading": "Cyber Closeouts",
+            "heading": "Sale",
             "heading_size": "h1",
             "font_color": ""
           }
@@ -28,7 +28,7 @@
         "16488357932f2433e4-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Take an ADDITIONAL 40% off with code CYBER40. All sales are final on sale products.<\/p>",
+            "text": "<p>Take an <strong>ADDITIONAL 40% off all sale items<\/strong> with code CYBER40. All <strong>sales are FINAL<\/strong> on sale products.<\/p>",
             "use_heading_font": false,
             "font_color": ""
           }
