@@ -13,7 +13,7 @@
         "template--14499865591882__fc2268e7-ca2d-4ff1-9c5d-173dca173e2b-1668707297e9d7d5fc-0": {
           "type": "heading",
           "settings": {
-            "heading": "Cyber Savings Disclaimers",
+            "heading": "Cyber Savings Disclaimer",
             "heading_size": "h2",
             "font_color": ""
           }
@@ -21,7 +21,7 @@
         "template--14499865591882__fc2268e7-ca2d-4ff1-9c5d-173dca173e2b-1668707297e9d7d5fc-1": {
           "type": "text",
           "settings": {
-            "text": "<p>CYBER40 discount code excludes the Beyond And Back Boot and Sierra Adventure Boot.  All sales are final on previously marked down sale products. Please be advised that shipping times may be slightly longer than normal due to order volume. <\/p>",
+            "text": "<p>CYBER40 discount code excludes the Beyond And Back Boot and Sierra Adventure Boot.  All sales are final on previously marked down sale products. <strong>Please be advised that shipping times may be slightly longer than normal due to order volume. <\/strong><\/p>",
             "use_heading_font": false,
             "font_color": ""
           }
