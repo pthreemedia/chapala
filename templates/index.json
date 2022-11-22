@@ -286,7 +286,7 @@
         "column2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HP-Womens_Tile_800x1000_2_6d1a0e84-c2a1-42f3-a849-b5629274e42d.jpg",
+            "image": "shopify:\/\/shop_images\/HP_Secondary_Tile_800x1000-Womens-min_2cb47bc5-b5b2-47b2-b50d-573e4bb2cc7d.jpg",
             "title": "Womens New Arrivals",
             "font_style": "h3",
             "text": "",
@@ -298,7 +298,7 @@
         "column1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HP-Mens_Tile_800x1000_3.jpg",
+            "image": "shopify:\/\/shop_images\/HP_Secondary_Tile_800x1000-Mens-min_7970613b-ed20-4c4c-8208-424a971fe8e0.jpg",
             "title": "Mens New Arrivals",
             "font_style": "h3",
             "text": "",
