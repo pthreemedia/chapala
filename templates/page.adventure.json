@@ -14,7 +14,7 @@
         "165297913758c6d6d2-0": {
           "type": "heading",
           "settings": {
-            "heading_line_1": "The SeaChange Collection",
+            "heading_line_1": "The Adventure Collection",
             "heading_line_2": "",
             "heading_size": "h0"
           }
@@ -22,7 +22,7 @@
         "165297913758c6d6d2-1": {
           "type": "text",
           "settings": {
-            "text": "Our Most Responsible Sneakers Yet",
+            "text": "Built for comfort. Ready for anything.",
             "text_style": "caption-with-letter-spacing"
           }
         },
@@ -45,7 +45,7 @@
         "165297913758c6d6d2-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/SeaChange_Oct22_LP-Hero.jpg",
+        "image": "shopify:\/\/shop_images\/Landing_Page_Hero-min_463c705b-d7b7-4a58-9bab-2f554e54a396.jpg",
         "image_overlay_opacity": 10,
         "image_height": "medium",
         "adapt_height_first_image": false,
@@ -75,7 +75,7 @@
         "1651769816c53397ad-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We made the most comfortable shoe in your closet even better. These freshly-picked styles have uppers made with pineapple yarn, corn leather, or recycled cotton canvas, laces made with post-consumer recycled plastic, metal-free stitched eyelets, liners made with recycled cotton, and outsoles made with natural and recycled rubber. Every style in this collection is made with recycled material–from lace to sole. It represents our best foot forward in making our shoes more responsibly, and it's just the beginning.<\/p><p><\/p>",
+            "text": "<p>The best boots in your closet were made by a sneaker brand. Every boot in this collection has the same timeless, classic design elements we're known for to make them the most versatile styles in your closet. We may be best-known for our sneakers, but we put the same thoughtfulness into the construction of our boots. Made with responsible materials like natural and recycled rubber and Leather Working Group certified leather and suede, they'll hold up season after season. <\/p><p><\/p>",
             "use_heading_font": false,
             "font_color": "#012e5c"
           }
@@ -101,26 +101,14 @@
     "1653069663d19d7d66": {
       "type": "multicolumn",
       "blocks": {
-        "165306966370d82fc8-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_post_-_3.jpg",
-            "title": "VEGAN CORN LEATHER",
-            "font_style": "h4",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "info_on_image": true
-          }
-        },
         "165306966370d82fc8-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_story_-_79.jpg",
-            "title": "",
-            "font_style": "h4",
+            "image": "shopify:\/\/shop_images\/Instagram_post_-_70-min.jpg",
+            "title": "Womens Adventure Collection",
+            "font_style": "h3",
             "text": "",
-            "link_label": "",
+            "link_label": "Shop Now",
             "link": "",
             "info_on_image": true
           }
@@ -128,18 +116,17 @@
         "a63135c7-20d3-4c8d-a5d2-2639fa9606e5": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/LTT_Dark.jpg",
-            "title": "",
+            "image": "shopify:\/\/shop_images\/Instagram_post_-_75-min.jpg",
+            "title": "Mens Adventure Collection",
             "font_style": "h3",
-            "text": "<p>Corn leather is a vegan alternative to leather made from cotton fabric covered by a corn-based coating. It is durable, smooth and has a traditional leather feel.<\/p>",
-            "link_label": "",
+            "text": "",
+            "link_label": "Shop Now",
             "link": "",
             "info_on_image": true
           }
         }
       },
       "block_order": [
-        "165306966370d82fc8-1",
         "165306966370d82fc8-2",
         "a63135c7-20d3-4c8d-a5d2-2639fa9606e5"
       ],
@@ -147,71 +134,9 @@
         "title": "",
         "heading_size": "h1",
         "image_width": "full",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "1653070266b056c99a": {
-      "type": "multicolumn",
-      "blocks": {
-        "1653070266e5c04d45-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Slip_On_Edited.jpg",
-            "title": "PINEAPPLE YARN",
-            "font_style": "h4",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "info_on_image": true
-          }
-        },
-        "1653070266e5c04d45-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_story_-_80.jpg",
-            "title": "",
-            "font_style": "h3",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "info_on_image": false
-          }
-        },
-        "1653070266e5c04d45-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Slip_On_Dark_d1b66714-2d0f-49b6-b7ee-62d72ce22c03.jpg",
-            "title": "",
-            "font_style": "h3",
-            "text": "<p>Pineapple yarn is a biodegradable cellulose fiber harvested from pineapple plants. It has beautiful natural texture.<\/p>",
-            "link_label": "",
-            "link": "",
-            "info_on_image": true
-          }
-        }
-      },
-      "block_order": [
-        "1653070266e5c04d45-1",
-        "1653070266e5c04d45-0",
-        "1653070266e5c04d45-2"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
+        "columns_desktop": 2,
+        "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
@@ -220,118 +145,6 @@
         "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "16649009663d31e5ef": {
-      "type": "multicolumn",
-      "blocks": {
-        "1664900966949cd27f-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/SeaChange_Recycled_Polyester-1.jpg",
-            "title": "RECYCLED POLYESTER",
-            "font_style": "h4",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "info_on_image": true
-          }
-        },
-        "1664900966949cd27f-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Recycled_Polyester.jpg",
-            "title": "",
-            "font_style": "h3",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "info_on_image": true
-          }
-        },
-        "1664900966949cd27f-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/SeaChange_Recycled_Polyester-2.jpg",
-            "title": "",
-            "font_style": "h3",
-            "text": "<p>Super soft, recycled fleece made from PET. PET plastic is the most widely recycled plastic, most commonly used for single use clear plastic bottles.<\/p>",
-            "link_label": "",
-            "link": "",
-            "info_on_image": true
-          }
-        }
-      },
-      "block_order": [
-        "1664900966949cd27f-0",
-        "1664900966949cd27f-1",
-        "1664900966949cd27f-2"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "1652992451b58be40b": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "16529924509e9c5cfb-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h1",
-            "font_color": ""
-          }
-        },
-        "16529924509e9c5cfb-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Vegan Corn Leather<\/p>",
-            "use_heading_font": false,
-            "font_color": "#3d93e1"
-          }
-        },
-        "16529924509e9c5cfb-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "use_arrow_link": false,
-            "link_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "16529924509e9c5cfb-0",
-        "16529924509e9c5cfb-1",
-        "16529924509e9c5cfb-2"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "narrow": false,
-        "is_page_header": false,
-        "mobile_content_align": "center",
-        "desktop_content_align": "left",
-        "padding_top": 0,
-        "padding_bottom": 44,
-        "margin_top": 0,
-        "margin_bottom": 0
       }
     },
     "16517685015d2ce9b4": {
@@ -341,19 +154,19 @@
         "heading_size": "h2",
         "description": "",
         "description_style": "body",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "full_width": true,
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": true,
         "color_scheme": "background-1",
-        "collection_1": "womens-seachange",
+        "collection_1": "mens-adventure-collection",
         "tab_id_1": "1",
-        "featured_collection_title_1": "Womens",
+        "featured_collection_title_1": "Mens",
         "products_to_show_1": 12,
-        "collection_2": "mens-seachange",
+        "collection_2": "womens-adventure-collection",
         "tab_id_2": "2",
-        "featured_collection_title_2": "Mens",
+        "featured_collection_title_2": "Womens",
         "products_to_show_2": 12,
         "image_ratio": "adapt",
         "show_secondary_image": true,
@@ -371,66 +184,56 @@
         "margin_bottom": 0
       }
     },
-    "16488340185b1f3cc8": {
-      "type": "video",
-      "disabled": true,
-      "settings": {
-        "heading": "",
-        "heading_size": "h2",
-        "cover_image": "shopify:\/\/shop_images\/SeaVees_Inertia_Cover_Photo_3e8c474b-8cae-46c4-a9a0-fe4484602c55.jpg",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=z1L0i0QcQZk",
-        "description": "SeaTrees and SeaVees Video",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 12,
-        "padding_bottom": 24
-      }
-    },
-    "1648834181268fa0bf": {
-      "type": "image-with-text",
+    "fe80016f-9e9e-47a0-a8f0-9d6a440d22b8": {
+      "type": "image-banner",
       "blocks": {
-        "164883418143aa5478-0": {
+        "template--14772159709258__fe80016f-9e9e-47a0-a8f0-9d6a440d22b8-16692308294739453d-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
-            "heading": "We're Committed to Sea Change",
-            "heading_size": "h2"
+            "heading_line_1": "Image banner",
+            "heading_line_2": "Image banner",
+            "heading_size": "h1"
           }
         },
-        "164883418143aa5478-1": {
+        "template--14772159709258__fe80016f-9e9e-47a0-a8f0-9d6a440d22b8-16692308294739453d-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "<p>A tiny blue and white flag tag on every shoe represents our ongoing commitment to protect our 2\/3 blue planet. Every pair of shoes sold from this collection gives back $1 to our partner SeaTrees, a non-profit that works to restore blue carbon coastal ecosystems and ocean health globally. And by 2025, we aim to ensure that every shoe in our line is made with recycled materials and gives back to non-profit partners supporting ocean conservation efforts. <\/p>",
+            "text": "Give customers details about the banner image(s) or content on the template.",
             "text_style": "body"
           }
         },
-        "164883418143aa5478-2": {
-          "type": "button",
+        "template--14772159709258__fe80016f-9e9e-47a0-a8f0-9d6a440d22b8-16692308294739453d-2": {
+          "type": "buttons",
+          "disabled": true,
           "settings": {
-            "button_label": "Learn More",
-            "button_link": "shopify:\/\/pages\/seatrees",
-            "use_arrow_link": false,
-            "button_style_secondary": false
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "164883418143aa5478-0",
-        "164883418143aa5478-1",
-        "164883418143aa5478-2"
+        "template--14772159709258__fe80016f-9e9e-47a0-a8f0-9d6a440d22b8-16692308294739453d-0",
+        "template--14772159709258__fe80016f-9e9e-47a0-a8f0-9d6a440d22b8-16692308294739453d-1",
+        "template--14772159709258__fe80016f-9e9e-47a0-a8f0-9d6a440d22b8-16692308294739453d-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Flag_Tag_d0299544-d5d0-40d9-badb-8f20dc35e773.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "full_width": true,
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-3",
-        "mobile_content_alignment": "left",
-        "padding_top": 76,
-        "padding_bottom": 76,
+        "image": "shopify:\/\/shop_images\/Landing_Page_Hero-1-min.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
         "margin_top": 0,
         "margin_bottom": 0
       }
@@ -490,12 +293,8 @@
     "1652979137b0a62647",
     "1651769816dcb4919c",
     "1653069663d19d7d66",
-    "1653070266b056c99a",
-    "16649009663d31e5ef",
-    "1652992451b58be40b",
     "16517685015d2ce9b4",
-    "16488340185b1f3cc8",
-    "1648834181268fa0bf",
+    "fe80016f-9e9e-47a0-a8f0-9d6a440d22b8",
     "16533399328f27308a"
   ]
 }
