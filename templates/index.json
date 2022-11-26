@@ -6,7 +6,7 @@
         "1648673671d11f3268-0": {
           "type": "heading",
           "settings": {
-            "heading": "Black Friday",
+            "heading": "Cyber Monday",
             "heading_2": "",
             "font_size": "h1",
             "hide_block_on_mobile": false,
@@ -16,7 +16,7 @@
         "1648673671d11f3268-1": {
           "type": "text",
           "settings": {
-            "text": "Take 40% off footwear with code CYBER40. Some exclusions apply.",
+            "text": "Get 40% off footwear and free shipping with code CYBER40. Exclusions apply.",
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
           }
@@ -44,8 +44,8 @@
         "use_video_background": false,
         "hero_video_desktop": "",
         "hero_video_mobile": "",
-        "image_desktop": "shopify:\/\/shop_images\/Black-Friday_HP_Hero.gif",
-        "image_mobile": "shopify:\/\/shop_images\/Mobile-BlackFriday-Launch-HP-Hero.gif",
+        "image_desktop": "shopify:\/\/shop_images\/Cyber-Monday_HP_Hero-min.gif",
+        "image_mobile": "shopify:\/\/shop_images\/Mobile-Cyber-Monday_HP_Hero-min.gif",
         "image_overlay_opacity": 0,
         "adapt_height_first_image": true,
         "text_image_separate": false,
