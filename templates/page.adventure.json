@@ -160,13 +160,13 @@
         "view_all_style": "solid",
         "enable_desktop_slider": true,
         "color_scheme": "background-1",
-        "collection_1": "mens-adventure-collection",
+        "collection_1": "womens-adventure-collection",
         "tab_id_1": "1",
-        "featured_collection_title_1": "Mens",
+        "featured_collection_title_1": "Womens",
         "products_to_show_1": 12,
-        "collection_2": "womens-adventure-collection",
+        "collection_2": "mens-adventure-collection",
         "tab_id_2": "2",
-        "featured_collection_title_2": "Womens",
+        "featured_collection_title_2": "Mens",
         "products_to_show_2": 12,
         "image_ratio": "adapt",
         "show_secondary_image": true,
@@ -177,11 +177,73 @@
         "show_rating": false,
         "enable_quick_add": false,
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 12,
         "padding_bottom": 32,
         "margin_top": 0,
         "margin_bottom": 0
+      }
+    },
+    "16533399328f27308a": {
+      "type": "multicolumn",
+      "blocks": {
+        "1653339932d884285e-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/0000_M_Bolinas_Boot_OD_Green_Rubber_018_c700b19d-9bf1-414a-b79d-59b227e6dc04.jpg",
+            "title": "BUILT FOR COMFORT",
+            "font_style": "h4",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "info_on_image": true
+          }
+        },
+        "190da888-f8be-4ffd-85c7-9ab4adb42d9b": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/0001_W_bolinasoffshoreboot_peacoatnavy-108-2_dcd2661b-4378-4daf-9422-c97e40b8a036.jpg",
+            "title": "MADE TO LAST",
+            "font_style": "h4",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "info_on_image": true
+          }
+        },
+        "1653339932d884285e-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/0002_W_lagunachelseaboot_elmwood-57_copy_b96e4358-8fc8-4bf4-895d-f2ff99f7b5c2.jpg",
+            "title": "READY FOR ANYTHING",
+            "font_style": "h4",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "info_on_image": true
+          }
+        }
+      },
+      "block_order": [
+        "1653339932d884285e-2",
+        "190da888-f8be-4ffd-85c7-9ab4adb42d9b",
+        "1653339932d884285e-0"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 80,
+        "padding_bottom": 80
       }
     },
     "fe80016f-9e9e-47a0-a8f0-9d6a440d22b8": {
@@ -237,55 +299,6 @@
         "margin_top": 0,
         "margin_bottom": 0
       }
-    },
-    "16533399328f27308a": {
-      "type": "multicolumn",
-      "blocks": {
-        "1653339932d884285e-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Womens_Collection.jpg",
-            "title": "Womens Collection",
-            "font_style": "h3",
-            "text": "",
-            "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/womens-seachange",
-            "info_on_image": true
-          }
-        },
-        "1653339932d884285e-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mens_Collection.jpg",
-            "title": "Mens Collection",
-            "font_style": "h3",
-            "text": "",
-            "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/mens-seachange",
-            "info_on_image": true
-          }
-        }
-      },
-      "block_order": [
-        "1653339932d884285e-0",
-        "1653339932d884285e-2"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 80,
-        "padding_bottom": 80
-      }
     }
   },
   "order": [
@@ -294,7 +307,7 @@
     "1651769816dcb4919c",
     "1653069663d19d7d66",
     "16517685015d2ce9b4",
-    "fe80016f-9e9e-47a0-a8f0-9d6a440d22b8",
-    "16533399328f27308a"
+    "16533399328f27308a",
+    "fe80016f-9e9e-47a0-a8f0-9d6a440d22b8"
   ]
 }
