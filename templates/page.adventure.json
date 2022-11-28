@@ -23,7 +23,7 @@
           "type": "text",
           "settings": {
             "text": "Built for comfort. Ready for anything.",
-            "text_style": "caption-with-letter-spacing"
+            "text_style": "h4"
           }
         },
         "165297913758c6d6d2-2": {
@@ -98,92 +98,6 @@
         "margin_bottom": 0
       }
     },
-    "1653069663d19d7d66": {
-      "type": "multicolumn",
-      "blocks": {
-        "165306966370d82fc8-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_post_-_70-min.jpg",
-            "title": "Womens Adventure Collection",
-            "font_style": "h3",
-            "text": "",
-            "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/womens-adventure-collection",
-            "info_on_image": true
-          }
-        },
-        "a63135c7-20d3-4c8d-a5d2-2639fa9606e5": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_post_-_75-min.jpg",
-            "title": "Mens Adventure Collection",
-            "font_style": "h3",
-            "text": "",
-            "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/mens-adventure-collection",
-            "info_on_image": true
-          }
-        }
-      },
-      "block_order": [
-        "165306966370d82fc8-2",
-        "a63135c7-20d3-4c8d-a5d2-2639fa9606e5"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "16517685015d2ce9b4": {
-      "type": "featured-collection-alt",
-      "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "description": "",
-        "description_style": "body",
-        "columns_desktop": 3,
-        "full_width": true,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "background-1",
-        "collection_1": "womens-adventure-collection",
-        "tab_id_1": "1",
-        "featured_collection_title_1": "Womens",
-        "products_to_show_1": 12,
-        "collection_2": "mens-adventure-collection",
-        "tab_id_2": "2",
-        "featured_collection_title_2": "Mens",
-        "products_to_show_2": 12,
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_condensed_title": true,
-        "show_vendor": false,
-        "show_gender": true,
-        "show_material": true,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 12,
-        "padding_bottom": 32,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
     "16533399328f27308a": {
       "type": "multicolumn",
       "blocks": {
@@ -246,58 +160,90 @@
         "padding_bottom": 80
       }
     },
-    "fe80016f-9e9e-47a0-a8f0-9d6a440d22b8": {
-      "type": "image-banner",
+    "16517685015d2ce9b4": {
+      "type": "featured-collection-alt",
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "description": "",
+        "description_style": "body",
+        "columns_desktop": 3,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "collection_1": "womens-adventure-collection",
+        "tab_id_1": "1",
+        "featured_collection_title_1": "Womens",
+        "products_to_show_1": 12,
+        "collection_2": "mens-adventure-collection",
+        "tab_id_2": "2",
+        "featured_collection_title_2": "Mens",
+        "products_to_show_2": 12,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_condensed_title": true,
+        "show_vendor": false,
+        "show_gender": true,
+        "show_material": true,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 12,
+        "padding_bottom": 32,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "1653069663d19d7d66": {
+      "type": "multicolumn",
       "blocks": {
-        "template--14772159709258__fe80016f-9e9e-47a0-a8f0-9d6a440d22b8-16692308294739453d-0": {
-          "type": "heading",
-          "disabled": true,
+        "165306966370d82fc8-2": {
+          "type": "column",
           "settings": {
-            "heading_line_1": "Image banner",
-            "heading_line_2": "Image banner",
-            "heading_size": "h1"
+            "image": "shopify:\/\/shop_images\/Instagram_post_-_70-min.jpg",
+            "title": "Womens Adventure Collection",
+            "font_style": "h3",
+            "text": "",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/womens-adventure-collection",
+            "info_on_image": true
           }
         },
-        "template--14772159709258__fe80016f-9e9e-47a0-a8f0-9d6a440d22b8-16692308294739453d-1": {
-          "type": "text",
-          "disabled": true,
+        "a63135c7-20d3-4c8d-a5d2-2639fa9606e5": {
+          "type": "column",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "template--14772159709258__fe80016f-9e9e-47a0-a8f0-9d6a440d22b8-16692308294739453d-2": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "image": "shopify:\/\/shop_images\/Instagram_post_-_75-min.jpg",
+            "title": "Mens Adventure Collection",
+            "font_style": "h3",
+            "text": "",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/mens-adventure-collection",
+            "info_on_image": true
           }
         }
       },
       "block_order": [
-        "template--14772159709258__fe80016f-9e9e-47a0-a8f0-9d6a440d22b8-16692308294739453d-0",
-        "template--14772159709258__fe80016f-9e9e-47a0-a8f0-9d6a440d22b8-16692308294739453d-1",
-        "template--14772159709258__fe80016f-9e9e-47a0-a8f0-9d6a440d22b8-16692308294739453d-2"
+        "165306966370d82fc8-2",
+        "a63135c7-20d3-4c8d-a5d2-2639fa9606e5"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Landing_Page_Hero-1-min.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
         "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "margin_top": 0,
-        "margin_bottom": 0
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -305,9 +251,8 @@
     "main",
     "1652979137b0a62647",
     "1651769816dcb4919c",
-    "1653069663d19d7d66",
-    "16517685015d2ce9b4",
     "16533399328f27308a",
-    "fe80016f-9e9e-47a0-a8f0-9d6a440d22b8"
+    "16517685015d2ce9b4",
+    "1653069663d19d7d66"
   ]
 }
