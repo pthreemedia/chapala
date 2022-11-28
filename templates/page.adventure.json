@@ -109,7 +109,7 @@
             "font_style": "h3",
             "text": "",
             "link_label": "Shop Now",
-            "link": "",
+            "link": "shopify:\/\/collections\/womens-adventure-collection",
             "info_on_image": true
           }
         },
@@ -121,7 +121,7 @@
             "font_style": "h3",
             "text": "",
             "link_label": "Shop Now",
-            "link": "",
+            "link": "shopify:\/\/collections\/mens-adventure-collection",
             "info_on_image": true
           }
         }
