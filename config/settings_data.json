@@ -180,9 +180,9 @@
             "type": "featured_content",
             "settings": {
               "category": "Mens",
-              "text": "The Sixty Six",
-              "link": "shopify:\/\/products\/mens-sixty-six-cotton-chambray-blue",
-              "image_desktop": "shopify:\/\/shop_images\/Mens_Nav_Hero_3.jpg",
+              "text": "Holiday Gift Guide",
+              "link": "shopify:\/\/pages\/gift-guide",
+              "image_desktop": "shopify:\/\/shop_images\/Crowd_Favorites_Gift_Guide_015.jpg",
               "image_mobile": "shopify:\/\/shop_images\/thumbnail_Mens_Nav_Hero_4.jpg"
             }
           },
@@ -212,10 +212,10 @@
             "type": "featured_content",
             "settings": {
               "category": "Womens",
-              "text": "The Melrose Lug Platform",
-              "link": "\/products\/womens-melrose-lug-platform-hemp-vanilla",
-              "image_desktop": "shopify:\/\/shop_images\/seavees_crowd_favorites_0000_W_Melrose_Lug_Platform_Vanilla_Hemp_Canvas_031.jpg",
-              "image_mobile": "shopify:\/\/shop_images\/seavees_crowd_favorites_0000_W_Melrose_Lug_Platform_Vanilla_Hemp_Canvas_031_2e9080d1-6731-4db1-860f-06e05350ccd7.jpg"
+              "text": "Holiday Gift Guide",
+              "link": "shopify:\/\/pages\/gift-guide",
+              "image_desktop": "shopify:\/\/shop_images\/Crowd_Favorites_Gift_Guide_015_06e5ea22-7ccb-4f54-936c-46f66cd982ad.jpg",
+              "image_mobile": "shopify:\/\/shop_images\/Crowd_Favorites_Gift_Guide_015_1d66de22-095f-4bb0-bb31-1c74de28cad0.jpg"
             }
           },
           "63c8485a-2033-47fc-a0a6-26b9300dc81c": {
