@@ -79,22 +79,11 @@
             "use_heading_font": false,
             "font_color": "#012e5c"
           }
-        },
-        "04772d3e-17d5-4994-a097-3690f902ccfb": {
-          "type": "button",
-          "settings": {
-            "button_label": "Rules",
-            "button_link": "",
-            "button_style_secondary": false,
-            "use_arrow_link": false,
-            "link_color": ""
-          }
         }
       },
       "block_order": [
         "d845d1e9-4475-44d5-9f6e-5a776c159f6e",
-        "1651769816c53397ad-1",
-        "04772d3e-17d5-4994-a097-3690f902ccfb"
+        "1651769816c53397ad-1"
       ],
       "settings": {
         "color_scheme": "background-1",
@@ -244,6 +233,15 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "821d04a0-8a92-4d68-8ad8-3197ace80b12": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"klaviyo-form-Vrprqs\"><\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -253,6 +251,7 @@
     "b168654a-4f8d-428d-b9a2-2bf5f8a1da52",
     "16488340185b1f3cc8",
     "16533399328f27308a",
-    "f36e3ba0-2506-45c6-bc95-0a498c085937"
+    "f36e3ba0-2506-45c6-bc95-0a498c085937",
+    "821d04a0-8a92-4d68-8ad8-3197ace80b12"
   ]
 }
