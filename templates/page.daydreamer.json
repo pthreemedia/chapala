@@ -79,11 +79,22 @@
             "use_heading_font": false,
             "font_color": "#012e5c"
           }
+        },
+        "04772d3e-17d5-4994-a097-3690f902ccfb": {
+          "type": "button",
+          "settings": {
+            "button_label": "Rules",
+            "button_link": "",
+            "button_style_secondary": false,
+            "use_arrow_link": false,
+            "link_color": ""
+          }
         }
       },
       "block_order": [
         "d845d1e9-4475-44d5-9f6e-5a776c159f6e",
-        "1651769816c53397ad-1"
+        "1651769816c53397ad-1",
+        "04772d3e-17d5-4994-a097-3690f902ccfb"
       ],
       "settings": {
         "color_scheme": "background-1",
