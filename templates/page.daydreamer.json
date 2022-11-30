@@ -236,7 +236,6 @@
     },
     "821d04a0-8a92-4d68-8ad8-3197ace80b12": {
       "type": "custom-liquid",
-      "disabled": true,
       "settings": {
         "custom_liquid": "<div class=\"klaviyo-form-Vrprqs\"><\/div>",
         "color_scheme": "background-1",
@@ -246,6 +245,7 @@
     },
     "8c94683f-0c2c-4226-8d43-cc5bf237d6c8": {
       "type": "collapsible-content",
+      "disabled": true,
       "blocks": {
         "template--14765405470794__8c94683f-0c2c-4226-8d43-cc5bf237d6c8-166975783082ec9b6d-0": {
           "type": "collapsible_row",
