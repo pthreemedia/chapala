@@ -101,7 +101,7 @@
     "b168654a-4f8d-428d-b9a2-2bf5f8a1da52": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div data-tf-widget=\"aFFaC9Wy\" data-tf-opacity=\"100\" style=\"width:100%;height:10000px;\"><\/div><script src=\"\/\/embed.typeform.com\/next\/embed.js\"><\/script>",
+        "custom_liquid": "<div data-tf-widget=\"aFFaC9Wy\" data-tf-opacity=\"100\" style=\"width:100%;height:5000px;\"><\/div><script src=\"\/\/embed.typeform.com\/next\/embed.js\"><\/script>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
