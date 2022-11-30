@@ -236,6 +236,7 @@
     },
     "821d04a0-8a92-4d68-8ad8-3197ace80b12": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<div class=\"klaviyo-form-Vrprqs\"><\/div>",
         "color_scheme": "background-1",
