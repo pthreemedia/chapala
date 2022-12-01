@@ -357,11 +357,22 @@
             "use_heading_font": false,
             "font_color": ""
           }
+        },
+        "fc9b8376-b5b6-48b4-aee8-cdfd7c235b78": {
+          "type": "button",
+          "settings": {
+            "button_label": "View On Map",
+            "button_link": "https:\/\/www.google.com\/maps\/place\/SeaVees+Marin\/@37.8802629,-122.5281558,15.54z\/data=!4m5!3m4!1s0x80858501a728fa01:0xa0116726633fea31!8m2!3d37.8814359!4d-122.5242512",
+            "button_style_secondary": false,
+            "use_arrow_link": true,
+            "link_color": ""
+          }
         }
       },
       "block_order": [
         "template--14499865296970__b7612fdb-af20-4f0c-81e5-686658abeeec-16699239988cc03550-0",
-        "template--14499865296970__b7612fdb-af20-4f0c-81e5-686658abeeec-16699239988cc03550-1"
+        "template--14499865296970__b7612fdb-af20-4f0c-81e5-686658abeeec-16699239988cc03550-1",
+        "fc9b8376-b5b6-48b4-aee8-cdfd7c235b78"
       ],
       "settings": {
         "color_scheme": "background-1",
