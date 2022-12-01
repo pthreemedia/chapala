@@ -87,12 +87,13 @@
     },
     "1648504301a2713980": {
       "type": "page-menu",
+      "disabled": true,
       "blocks": {
         "164850430140b21d70-0": {
           "type": "page_menu_link",
           "settings": {
             "link_text": "Santa Barbara, CA",
-            "link_url": "#shopify-section-template--14414540111946__1648504495195c5808"
+            "link_url": ""
           }
         },
         "2f903b98-fa8a-4af9-a78f-3f774b1abae5": {
@@ -300,6 +301,81 @@
         "margin_bottom": 0
       }
     },
+    "d74028cb-620f-4476-84a3-748f92037160": {
+      "type": "collage",
+      "blocks": {
+        "60682034-4de9-42aa-b954-6caad99a6219": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Marin_Store.jpg",
+            "image_padding": false
+          }
+        },
+        "cc3c514f-b758-41b6-8315-dffdcf1daf20": {
+          "type": "image",
+          "settings": {
+            "image_padding": false
+          }
+        },
+        "9d124d08-98fa-4115-a657-893d1e761d59": {
+          "type": "image",
+          "settings": {
+            "image_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "60682034-4de9-42aa-b954-6caad99a6219",
+        "cc3c514f-b758-41b6-8315-dffdcf1daf20",
+        "9d124d08-98fa-4115-a657-893d1e761d59"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "b7612fdb-af20-4f0c-81e5-686658abeeec": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14499865296970__b7612fdb-af20-4f0c-81e5-686658abeeec-16699239988cc03550-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Mill Valley, CA",
+            "heading_size": "h1",
+            "font_color": ""
+          }
+        },
+        "template--14499865296970__b7612fdb-af20-4f0c-81e5-686658abeeec-16699239988cc03550-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nestled between the Golden Gate Bridge and Mt. Tamalpais in beautiful Marin County, this store marks our debut in Northern California.<\/p><p><strong>Phone<\/strong>: (628) 477-9280<\/p><p><strong>Address:<\/strong> <a href=\"https:\/\/www.google.com\/maps\/place\/SeaVees+Marin\/@37.8814401,-122.5264452,17z\/data=!3m1!4b1!4m5!3m4!1s0x80858501a728fa01:0xa0116726633fea31!8m2!3d37.8814359!4d-122.5242512\" target=\"_blank\">242 Shoreline Hwy, Mill Valley, CA 94941<\/a><\/p><p><strong>Sunday: <\/strong>10am – 6pm<strong><br\/>Monday: <\/strong>10am – 6pm<strong><br\/>Tuesday: <\/strong>10am – 6pm<strong><br\/>Wednesday: <\/strong>10am – 6pm<strong><br\/>Thursday:<\/strong> 10am – 6pm<strong><br\/>Friday: <\/strong>10am – 6pm<strong><br\/>Saturday: <\/strong>10am – 6pm<\/p><p><strong>More information on Instagram: <\/strong><a href=\"https:\/\/www.instagram.com\/seavees_newportbeach\/\">@seavees_newportbeach<\/a><\/p>",
+            "use_heading_font": false,
+            "font_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14499865296970__b7612fdb-af20-4f0c-81e5-686658abeeec-16699239988cc03550-0",
+        "template--14499865296970__b7612fdb-af20-4f0c-81e5-686658abeeec-16699239988cc03550-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "narrow": false,
+        "is_page_header": false,
+        "mobile_content_align": "left",
+        "desktop_content_align": "left",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "164850477675de8e86": {
       "type": "rich-text",
       "blocks": {
@@ -356,6 +432,8 @@
     "1648504495195c5808",
     "16485044981072997d",
     "164850470447a9518b",
+    "d74028cb-620f-4476-84a3-748f92037160",
+    "b7612fdb-af20-4f0c-81e5-686658abeeec",
     "164850477675de8e86",
     "1648504708f57208c2"
   ]
