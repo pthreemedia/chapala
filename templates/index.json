@@ -436,12 +436,13 @@
         "16497985735c91a62a-1": {
           "type": "text",
           "settings": {
-            "text": "<p>\"Versatile and stylish. I had been looking for some cute sneakers to wear with shorts, dresses, jeans, skirts, ... and these fit the bill perfectly. They are also SO comfy!\"<\/p>",
+            "text": "<p>Want to Win $10,000 For Your Dream?<\/p>",
             "text_style": "h2"
           }
         },
         "95b3722c-f77d-41c7-911c-2c098384bc2b": {
           "type": "caption",
+          "disabled": true,
           "settings": {
             "caption": "- BRISTOL S.",
             "text_style": "caption-with-letter-spacing",
@@ -451,8 +452,8 @@
         "16497985735c91a62a-2": {
           "type": "button",
           "settings": {
-            "button_label": "Shop The Monterey Platform in Black",
-            "button_link": "shopify:\/\/products\/womens-monterey-sneaker-platform-cotton-canvas-black",
+            "button_label": "Enter to Win",
+            "button_link": "shopify:\/\/pages\/daydreamer-contest",
             "use_arrow_link": true,
             "button_style_secondary": false
           }
@@ -464,7 +465,7 @@
         "16497985735c91a62a-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/W_HP_Review_Monterey_Platform_Black.jpg",
+        "image": "shopify:\/\/shop_images\/Daydreamer_Collective_SocialSocial_1080x1080_1_copy_20_f175dbcc-a8bb-4e0b-8147-ffc892819feb.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "full_width": true,
@@ -472,7 +473,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "color_scheme": "accent-2",
+        "color_scheme": "background-2",
         "mobile_content_alignment": "left",
         "padding_top": 92,
         "padding_bottom": 92,
