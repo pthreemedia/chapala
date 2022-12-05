@@ -27,9 +27,8 @@
         },
         "16488357932f2433e4-1": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<p>Take an <strong>ADDITIONAL 40% off all sale items<\/strong> with code CYBER40. All sales are FINAL on sale products.<\/p>",
+            "text": "<p> All sales are FINAL on sale products.<\/p>",
             "use_heading_font": false,
             "font_color": ""
           }
