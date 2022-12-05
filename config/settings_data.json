@@ -110,40 +110,53 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
+          "b02319df-3561-47db-8787-8de4610da820": {
+            "type": "announcement",
+            "settings": {
+              "heading": "The Holiday Gift Guide is here.",
+              "link": "shopify:\/\/pages\/gift-guide",
+              "cta_text": "Shop Now.",
+              "link_style": "underline",
+              "font": "lato",
+              "countdown_date": "",
+              "color_scheme": "accent-1"
+            }
+          },
           "c5dc7240-53a9-4d80-8f47-453f7c3e8574": {
             "type": "announcement",
             "settings": {
-              "heading": "Free shipping on orders over $100.",
+              "heading": "Free Shipping on Orders Over $100. Free Returns.",
               "link": "",
               "cta_text": "",
               "link_style": "underline",
               "font": "lato",
               "countdown_date": "",
-              "color_scheme": "accent-3"
+              "color_scheme": "accent-1"
             }
           },
-          "b02319df-3561-47db-8787-8de4610da820": {
+          "2a864d09-3ffd-4238-a5d8-5c60b6850024": {
             "type": "announcement",
             "disabled": true,
             "settings": {
-              "heading": "Take an extra 30% off sale styles with code EXTRA30",
-              "link": "\/discount\/extra30?redirect=\/collections\/mens-sale",
-              "cta_text": "Shop Sale >",
+              "heading": "30 Day Dream Fit Guarantee.",
+              "link": "",
+              "cta_text": "",
               "link_style": "underline",
               "font": "lato",
               "countdown_date": "",
-              "color_scheme": "accent-3"
+              "color_scheme": "accent-2"
             }
           }
         },
         "block_order": [
+          "b02319df-3561-47db-8787-8de4610da820",
           "c5dc7240-53a9-4d80-8f47-453f7c3e8574",
-          "b02319df-3561-47db-8787-8de4610da820"
+          "2a864d09-3ffd-4238-a5d8-5c60b6850024"
         ],
         "settings": {
           "controls_position": "inline",
           "hide_close_button": false,
-          "auto_rotate": false,
+          "auto_rotate": true,
           "hide_pause_button": false,
           "change_slides_speed": 5,
           "slider_visual": "counter",
@@ -167,9 +180,9 @@
             "type": "featured_content",
             "settings": {
               "category": "Mens",
-              "text": "The Sixty Six",
-              "link": "shopify:\/\/products\/mens-sixty-six-cotton-chambray-blue",
-              "image_desktop": "shopify:\/\/shop_images\/Mens_Nav_Hero_3.jpg",
+              "text": "Holiday Gift Guide",
+              "link": "shopify:\/\/pages\/gift-guide",
+              "image_desktop": "shopify:\/\/shop_images\/Crowd_Favorites_Gift_Guide_015.jpg",
               "image_mobile": "shopify:\/\/shop_images\/thumbnail_Mens_Nav_Hero_4.jpg"
             }
           },
@@ -199,10 +212,10 @@
             "type": "featured_content",
             "settings": {
               "category": "Womens",
-              "text": "The Melrose Lug Platform",
-              "link": "\/products\/womens-melrose-lug-platform-hemp-vanilla",
-              "image_desktop": "shopify:\/\/shop_images\/seavees_crowd_favorites_0000_W_Melrose_Lug_Platform_Vanilla_Hemp_Canvas_031.jpg",
-              "image_mobile": "shopify:\/\/shop_images\/seavees_crowd_favorites_0000_W_Melrose_Lug_Platform_Vanilla_Hemp_Canvas_031_2e9080d1-6731-4db1-860f-06e05350ccd7.jpg"
+              "text": "Holiday Gift Guide",
+              "link": "shopify:\/\/pages\/gift-guide",
+              "image_desktop": "shopify:\/\/shop_images\/Crowd_Favorites_Gift_Guide_015_06e5ea22-7ccb-4f54-936c-46f66cd982ad.jpg",
+              "image_mobile": "shopify:\/\/shop_images\/Crowd_Favorites_Gift_Guide_015_1d66de22-095f-4bb0-bb31-1c74de28cad0.jpg"
             }
           },
           "63c8485a-2033-47fc-a0a6-26b9300dc81c": {
@@ -496,66 +509,11 @@
         "settings": {
           "enable_filtering": false,
           "filter_type": "vertical",
-          "enable_sorting": false
+          "enable_sorting": true
         }
       },
       "main-collection-product-grid-fall-2022-spliced": {
         "type": "main-collection-product-grid-fall-2022-spliced",
-        "blocks": {
-          "8cd7b1a7-65d7-441f-ade4-668ffddd542a": {
-            "type": "grid_content",
-            "settings": {
-              "grid_content_id": "spliced-test-1",
-              "grid_position": "1",
-              "grid_width_in_3_column_grid": "none",
-              "heading": "test1 headline",
-              "subheading": "test1 subheadline",
-              "headline_vertical_position": "middle",
-              "headline_horizontal_position": "middle",
-              "mobile_image": "shopify:\/\/shop_images\/Platforms-min.jpg",
-              "desktop_image": "shopify:\/\/shop_images\/Platforms-min.jpg",
-              "link_url": "shopify:\/\/products\/big-kids-california-special-beachcomber-red-ginger-herringbone-twill",
-              "link_text": "test link"
-            }
-          },
-          "0d4a97f4-6108-480e-9638-272250d79a38": {
-            "type": "grid_content",
-            "settings": {
-              "grid_content_id": "spliced-test-1",
-              "grid_position": "2",
-              "grid_width_in_3_column_grid": "none",
-              "heading": "",
-              "subheading": "",
-              "headline_vertical_position": "top",
-              "headline_horizontal_position": "left",
-              "mobile_image": "shopify:\/\/shop_images\/SeaChange_Slide_Oat_PDP_7.jpg",
-              "desktop_image": "shopify:\/\/shop_images\/SeaChange_Slide_Oat_PDP_7.jpg",
-              "link_url": "shopify:\/\/products\/little-kids-california-special-beachcomber-red-ginger-herringbone-twill",
-              "link_text": "test2 link"
-            }
-          },
-          "f4bcccf6-4539-4844-84f9-5f3e0b185f83": {
-            "type": "grid_content",
-            "settings": {
-              "grid_content_id": "spliced-test-1",
-              "grid_position": "3",
-              "grid_width_in_3_column_grid": "none",
-              "heading": "test3 headline",
-              "subheading": "test3 subheadline",
-              "headline_vertical_position": "top",
-              "headline_horizontal_position": "left",
-              "mobile_image": "shopify:\/\/shop_images\/Womens__0002_665A1552.jpg",
-              "desktop_image": "shopify:\/\/shop_images\/Womens__0002_665A1552.jpg",
-              "link_url": "shopify:\/\/products\/big-kids-california-special-mulholland-sneaker-leopard-cowhide",
-              "link_text": "test3 link"
-            }
-          }
-        },
-        "block_order": [
-          "8cd7b1a7-65d7-441f-ade4-668ffddd542a",
-          "0d4a97f4-6108-480e-9638-272250d79a38",
-          "f4bcccf6-4539-4844-84f9-5f3e0b185f83"
-        ],
         "settings": {
           "products_per_page": 60,
           "columns_desktop": 3,
@@ -578,27 +536,6 @@
       },
       "main-collection-product-grid-fall-2022-grouped": {
         "type": "main-collection-product-grid-fall-2022-grouped",
-        "blocks": {
-          "09af0b95-4688-44d9-a7f6-4d8e52ffd02e": {
-            "type": "grid_content",
-            "settings": {
-              "grid_content_id": "womens-new-arrivals",
-              "grid_position": "3",
-              "grid_width_in_3_column_grid": "none",
-              "heading": "test headline",
-              "subheading": "test subheadline",
-              "headline_vertical_position": "top",
-              "headline_horizontal_position": "left",
-              "mobile_image": "shopify:\/\/shop_images\/Womens__0001_665A1862.jpg",
-              "desktop_image": "shopify:\/\/shop_images\/Womens__0002_665A1552.jpg",
-              "link_url": "shopify:\/\/products\/arvin-x-seavees-casual-twisted-sock-sand-blue",
-              "link_text": "test link"
-            }
-          }
-        },
-        "block_order": [
-          "09af0b95-4688-44d9-a7f6-4d8e52ffd02e"
-        ],
         "settings": {
           "products_per_page": 60,
           "columns_mobile": "2",

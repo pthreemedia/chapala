@@ -1,0 +1,323 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "1652979137b0a62647": {
+      "type": "image-banner",
+      "blocks": {
+        "165297913758c6d6d2-0": {
+          "type": "heading",
+          "settings": {
+            "heading_line_1": "The Daydreamer Collective",
+            "heading_line_2": "",
+            "heading_size": "h0"
+          }
+        },
+        "165297913758c6d6d2-1": {
+          "type": "text",
+          "settings": {
+            "text": "WANT TO WIN $10,000 FOR YOUR DREAM?",
+            "text_style": "body"
+          }
+        },
+        "165297913758c6d6d2-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "165297913758c6d6d2-0",
+        "165297913758c6d6d2-1",
+        "165297913758c6d6d2-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Daydreamer_LP_Banner.jpg",
+        "image_overlay_opacity": 10,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "accent-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "1651769816dcb4919c": {
+      "type": "rich-text",
+      "blocks": {
+        "d845d1e9-4475-44d5-9f6e-5a776c159f6e": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "The SeaChange Collection",
+            "heading_size": "h2",
+            "font_color": ""
+          }
+        },
+        "1651769816c53397ad-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Introducing our first annual<strong> <\/strong>Daydreamer contest where we will give one winner $10,000 to go after<strong> <\/strong>their dreams and access to our Daydreamer Collective, a community of dreamers who believe what we do—that business can be a force for good. Subscribers to this community will receive monthly emails with inspiring stories from our #daydreamer series, advice from other members and information about social discussions on the topic of making dreams a reality. And of course, the chance to win.<\/p><p><\/p><p>Contest ends at 11:59pm PST on 1\/6\/23. One winner will be selected and contacted via email in the coming days. Open to US residents only.<\/p><p><\/p>",
+            "use_heading_font": false,
+            "font_color": "#012e5c"
+          }
+        }
+      },
+      "block_order": [
+        "d845d1e9-4475-44d5-9f6e-5a776c159f6e",
+        "1651769816c53397ad-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "narrow": true,
+        "is_page_header": true,
+        "mobile_content_align": "center",
+        "desktop_content_align": "center",
+        "padding_top": 100,
+        "padding_bottom": 8,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "b168654a-4f8d-428d-b9a2-2bf5f8a1da52": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div data-tf-widget=\"aFFaC9Wy\" data-tf-opacity=\"100\" data-tf-iframe-props=\"title=Daydreamer Contest Entry Form\" style=\"width:100%;height:600px;\"><\/div><script src=\"\/\/embed.typeform.com\/next\/embed.js\"><\/script>",
+        "color_scheme": "background-1",
+        "padding_top": 16,
+        "padding_bottom": 52
+      }
+    },
+    "16488340185b1f3cc8": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "cover_image": "shopify:\/\/shop_images\/SeaVees_Inertia_Cover_Photo_3e8c474b-8cae-46c4-a9a0-fe4484602c55.jpg",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=z1L0i0QcQZk",
+        "description": "SeaTrees and SeaVees Video",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 12,
+        "padding_bottom": 24
+      }
+    },
+    "16533399328f27308a": {
+      "type": "multicolumn",
+      "disabled": true,
+      "blocks": {
+        "1653339932d884285e-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Womens_Collection.jpg",
+            "title": "Womens Collection",
+            "font_style": "h3",
+            "text": "",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/womens-seachange",
+            "info_on_image": true
+          }
+        },
+        "1653339932d884285e-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mens_Collection.jpg",
+            "title": "Mens Collection",
+            "font_style": "h3",
+            "text": "",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/mens-seachange",
+            "info_on_image": true
+          }
+        }
+      },
+      "block_order": [
+        "1653339932d884285e-0",
+        "1653339932d884285e-2"
+      ],
+      "settings": {
+        "title": "The Daydreamers",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "f36e3ba0-2506-45c6-bc95-0a498c085937": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14765405470794__f36e3ba0-2506-45c6-bc95-0a498c085937-1668634673102df6c6-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Daydreamer_FeaturesAshe_Brown_1_26a3e629-9c5e-4170-9aef-5a63d8499166.jpg",
+            "title": "",
+            "font_style": "h3",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "info_on_image": false
+          }
+        },
+        "template--14765405470794__f36e3ba0-2506-45c6-bc95-0a498c085937-1668634673102df6c6-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Daydreamer_Features_Ashe_Brown_2.jpg",
+            "title": "",
+            "font_style": "h3",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "info_on_image": false
+          }
+        },
+        "template--14765405470794__f36e3ba0-2506-45c6-bc95-0a498c085937-1668634673102df6c6-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Daydreamer_Features_Ashe_Brown_3.jpg",
+            "title": "",
+            "font_style": "h3",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "info_on_image": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14765405470794__f36e3ba0-2506-45c6-bc95-0a498c085937-1668634673102df6c6-0",
+        "template--14765405470794__f36e3ba0-2506-45c6-bc95-0a498c085937-1668634673102df6c6-1",
+        "template--14765405470794__f36e3ba0-2506-45c6-bc95-0a498c085937-1668634673102df6c6-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "821d04a0-8a92-4d68-8ad8-3197ace80b12": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<div class=\"klaviyo-form-Vrprqs\"><\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "8c94683f-0c2c-4226-8d43-cc5bf237d6c8": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--14765405470794__8c94683f-0c2c-4226-8d43-cc5bf237d6c8-166975783082ec9b6d-0": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--14765405470794__8c94683f-0c2c-4226-8d43-cc5bf237d6c8-166975783082ec9b6d-1": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--14765405470794__8c94683f-0c2c-4226-8d43-cc5bf237d6c8-166975783082ec9b6d-2": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--14765405470794__8c94683f-0c2c-4226-8d43-cc5bf237d6c8-166975783082ec9b6d-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "CONTEST RULES",
+            "icon": "none",
+            "row_content": "<p>SEAVEES INC.’S DAYDREAMER CONTEST<\/p><p> <\/p><p>OFFICIAL RULES<\/p><p> <\/p><p>NO PURCHASE OR PAYMENT IS NECESSARY TO ENTER OR WIN. A PURCHASE, PAYMENT OR DONATION WILL NOT INCREASE OR IMPROVE YOUR CHANCES OF WINNING.<\/p><p> <\/p><p>1. <strong>ELIGIBILITY.<\/strong> The SeaVees Inc. (“Sponsor”) Daydreamer Contest (“Promotion”) is only open to those who, as of the start date, are legal residents of the fifty (50) United States, including DC, and who have reached the age of majority in their state of residence. The Promotion is void where prohibited or restricted by law. Employees, officers and directors of Sponsor and its parents, subsidiaries, affiliates, divisions, advertising and promotion agencies involved in the administration of this Promotion, and the immediate families (defined as parents, spouses, children, siblings, grandparents and their respective spouses) or members of the same household (whether related or not) of each such employee, officer and director), are not eligible to enter.<\/p><p>2. <strong>TIMING. <\/strong>The Promotion entry period begins at 12:00 AM Pacific Time (“PT”) on 12\/06\/2022]and ends at 11:59 PM PT on 01\/06\/2023 (the “Entry Period”). Sponsor’s computer is the official timekeeping device for the Promotion.<\/p><p>3. <strong>HOW TO ENTER. <\/strong>To enter, go to <a href=\"https:\/\/www.seavees.com\/pages\/daydreamer-contest\"><span style=\"text-decoration:underline\">https:\/\/www.seavees.com\/pages\/daydreamer-contest<\/span><\/a> and follow the instructions for entering. Company is hosting the \"Daydreamer Contest,\" where entrants submit a written statement describing their dream and how they hope to bring that dream to life. Potential winners will be selected by a panel of judges. Entrants must upload their entry via an entry form linked directly on the contest landing page on www.seavees.com\/pages\/daydreamer-contest. Noncompliance with any Official Rule will result in disqualification. Decisions of the Sponsor and judges are final. By submitting your entry, you acknowledge that you have read and understand, and agree to abide by, these Official Rules<\/p><p>All potential winners are subject to verification before any prize will be awarded.<strong> <\/strong>The entry (1) cannot be derogatory of any ethnic, racial, gender, religious, professional or age group; (2) must not infringe upon the rights of any third parties; (3) must be received during the Entry Period.<\/p><p>This Promotion is not sponsored, endorsed, administered by, or associated with Facebook or Instagram. You understand that you are providing information to Sponsor and not to Facebook or Instagram.<\/p><p> <\/p><p>Limit of one (1) entry per person. Multiple entries, mass entries, and entries generated by script, macro, or other automated means or by any means that subvert the entry process will be void.<\/p><p> <\/p><p>Complete all requested information during the entry process in accordance with the instructions. You must complete all required information to be eligible to win. All entries must be received by Sponsor during the Entry Period. Any attempt by any participant to obtain additional entries beyond the limit by using multiple\/different email addresses, identities, registrations, or any other methods will void that entrant’s entries and that entrant may be disqualified. Use of any automated system to participate is prohibited and will result in disqualification. Sponsor is not responsible for lost, late, incomplete, invalid, void, unintelligible or misdirected entries, which will be disqualified.<\/p><p>In the event of a dispute as to an entrant’s entry, the natural person who is the authorized account holder of the email address will be deemed to be the entrant, but only if that person is otherwise eligible to enter the Promotion. The “authorized account holder” is the natural person assigned to an email address by an Internet access provider, online service provider, Internet service provider, online service provider or other organization responsible for assigning email addresses for the domain associated with the submitted address. Each potential winner may be required to show proof of being the authorized account holder. If a dispute cannot be resolved to Sponsor’s satisfaction, the winning entrant may be deemed ineligible. All entries become the exclusive property of Sponsor and none will be acknowledged or returned. Proof of submission will not be deemed proof of receipt of entry by Sponsor.<\/p><p>4. <strong>AGREEMENT TO OFFICIAL RULES AND DECISIONS.<\/strong> By participating, each entrant fully and unconditionally agrees to be bound by and accepts these Official Rules, and the decisions of Sponsor (including, without limitation, decisions regarding eligibility of entries, the selection of entrants and the winner, and the awarding of the prize), which are final and binding in all respects.<\/p><p>5. <strong>WINNER SELECTION; NOTIFICATION.<\/strong> On or about 01\/13\/2023 Sponsor or the judges will select a potential winner from among all eligible entries received. All entries will be judged, and winners selected on the basis of originality (33%), creativity (33%) and relationship of entry to theme of the contest (34%).<\/p><p>6. <strong>TERMS OF SUBMISSIONS\/ENTRIES; INTELLECTUAL PROPERTY: <\/strong>All entrants agree that by submitting their entry, they grant to Sponsor an irrevocable, unlimited, and perpetual license to use, display, and publish all or any part of the entry submission. By participating, entrant agrees to hold Sponsor and its parents, affiliates, subsidiaries and advertising and promotion agencies and all of their respective officers, directors, employees, representatives and agents (collectively “Released Parties”) harmless against any and all claims, injuries, losses and liability for any injuries, losses or damages of any kind, including death, to persons, or property arising in whole or in part, directly or indirectly out of acceptance, possession, use or misuse of prize or participation in the contest. Sponsor and its promotional partners accept no liability for content of entries. All entrants consent to use of name, likeness, entry of material in any manner by Sponsor and\/or its promotional partners for advertising, PR, online, on-board activities, and trade without further compensation, unless prohibited by law. In the event there is a discrepancy or inconsistency between disclosures or other statements contained in any contest materials and the terms and conditions of the Official Rules, the Official Rules shall prevail, govern, and control. Winners assume all liability for any injury, damage caused or claimed to be caused by participation in this promotion or use or redemption of any prize. All entrants represent, warrant, and agree that entrant is the sole creator of the entry or, if not, entrant has the express permission of any person who helped create the entry and to grant the rights entrant grants herein. By submitting an entry, entrants also represent, warrant, and agree that entrant has all rights, approvals and\/or consents necessary to submit the entry on the terms provided and the entry does not infringe on the rights or copyright of another party.<\/p><p>7. <strong>ENTRIES:<\/strong> Entries must not contain any inappropriate or offensive materials, as determined by Sponsor. Any entry, which in the sole opinion of Sponsor, is deemed inappropriate (e.g., defamation, nudity, pornography, gratuitous violence, inappropriate language, obscene, illegal, racially or morally offensive or likely to transmit or contain a virus, corrupted file or any similar element, etc.) or is inconsistent with the theme or image of the promotion may be rejected or removed from Sponsor’s site(s) and may result in disqualification. Entries must comply with all laws, rules, and regulations including, but not limited to, those concerning copyright, plagiarism, trademark, defamation, and invasion of privacy.<\/p><p>8.<strong>VERIFICATION:<\/strong> The entrant selected must comply with all terms and conditions of these Official Rules, and winning is contingent upon fulfilling all requirements and requests of Sponsor during the verification process. The potential winner will be notified by direct message, phone, mail, and\/or email. The potential winner may be required to execute and return to Sponsor a notarized Affidavit of Eligibility, a Liability Release, and, except where prohibited by law, a Publicity Release (an “Affidavit\/Release”) in the form(s) provided by Sponsor in order to claim his\/her prize. The Affidavit\/Release must be returned to Sponsor by the date and\/or time indicated. If the potential winner cannot be contacted within seven (7) days of the first attempt to contact him\/her, or if the potential winner fails to return the Affidavit\/Release within the specified time, or if any prize or prize notification is returned as undeliverable, or if the potential winner is found to be ineligible, or if the potential winner does not comply with the Official Rules or the requests of Sponsor, then the potential winner may be disqualified and an alternate winner selected by Sponsor in its sole discretion in his\/her place, at random from among all eligible non-winning entries received by Sponsor for the Promotion. By participating in this contest, participants must certify that he\/she has not received any professional guidance; no portion of entry is subject to any collective bargaining agreements; that he\/she has followed the Official Rules of this contest; and agrees to waive all rights, title, interest in submitted material.<\/p><p>9. <strong>PRIZE(S).<\/strong> One (1) $10,000 monetary prize will be awarded in this Promotion. Prize must be accepted as awarded, and prize is awarded “AS IS” with no warranty, representation, or guarantee, express or implied, in fact or in law, made by Sponsor or for which Sponsor shall be liable, including, without limitation, ANY IMPLIED WARRANTIES OF MERCHANTABILITY, NON-INFRINGEMENT OR FITNESS FOR A PARTICULAR PURPOSE. No substitution, assignment or transfer of a prize is permitted, except by Sponsor, who reserves the right to substitute a prize with another prize of greater or equal value, in the event of unavailability of the advertised prize. Winner is solely responsible for any and all costs, fees, taxes and expenses associated with prize award, receipt and use, including, without limitation, all federal, state and local taxes on the prize. For prizes valued over $600, prize winner will be issued an IRS Form 1099 for the retail value of the prize. If potential winner does not wish to accept the prize, an alternate winner will be selected from the pool of eligible entrants. All details of the prize not set forth herein will be determined by Sponsor in its sole discretion. All entrants and entries are subject to verification prior to the awarding of a prize, as are the eligibility, age and other claims of\/information provided by a potential prize winner.<\/p><p>10. <strong>DISPUTES.<\/strong> Entrant agrees that: (a) any and all disputes, claims and causes of action arising out of or connected with this Promotion, or any prizes awarded shall be resolved individually, without resort to any form of class action, and solely and exclusively in a federal or state court located in the State of California; entrant submits to sole and exclusive personal jurisdiction to the courts in the State of California for any such dispute and irrevocably waives any and all rights to object to such jurisdiction; (b) any and all claims, judgments, and awards shall be limited to actual out-of-pocket costs incurred, but in no event attorneys’ fees; and (c) under no circumstances will entrant be permitted to obtain awards for and entrant hereby waives all rights to claim punitive, incidental, consequential, and any other damages, other than for actual out-of-pocket expenses, and any and all rights to have damages multiplied or otherwise increased. SOME JURISDICTIONS DO NOT ALLOW THE LIMITATION OR EXCLUSION OF LIABILITY FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THE ABOVE MAY NOT APPLY TO YOU. All issues and questions concerning the construction, validity, interpretation and enforceability of these Official Rules, or the rights and obligations of entrant or Sponsor in connection with the Promotion shall be governed by, and construed in accordance with, the laws of the State of California without giving effect to any choice of law or conflict of law rules of provisions which would cause the application of the laws of any other jurisdiction.<\/p><p>11. <strong>DATA COLLECTION.<\/strong> Information collected in this Promotion will be administered by Sponsor in accordance with its Privacy Policy, located at https:\/\/www.seavees.com\/pages\/privacy-policy.<\/p><p>12. <strong>WINNERS LIST. <\/strong>To request a list of winners, send a self-addressed postage-stamped envelope to “SeaVees Inc., Attn: eCommerce Dept., Daydreamer Contest - Winners List Request, 430 Chapala St., Santa Barbara, CA 93101. Requests must be received by 30 days after the end of the End Date.<\/p><p>13. <strong>SPONSOR.<\/strong> The sponsor of the Promotion and the address at which the Sponsor may be contacted is SeaVees Inc., 430 Chapala St., Santa Barbara, CA 93101.<\/p><p>14. <strong>PUBLICITY<\/strong>. Except where prohibited by law, participation in the Promotion constitutes winner’s consent to Sponsor’s (and its designees’, successors’ and assigns’) use of winner’s name, biography, likeness, voice, photographs, video, opinions, statements, hometown, state and country for promotional purposes in any manner or media (including, without limitation, online), worldwide, in perpetuity, and without further payment, consideration, notice, review or consent.<\/p><p>15. <strong>GENERAL CONDITIONS.<\/strong> Sponsor reserves the right, in its sole discretion, to terminate, modify or suspend the Promotion if, in Sponsor’s opinion, there is any suspected or actual evidence of electronic or non-electronic tampering with any portion of the Promotion, or if viruses, bugs, unauthorized intervention, fraud, technical difficulties or failures or any other factor beyond Sponsor’s reasonable control corrupt or affect the administration, security, fairness, integrity or proper conduct of the Promotion. In such event, Sponsor reserves the right (but does not have the obligation) in its sole discretion to award the prize at random from among eligible, non-suspect entries received up to the time of suspected impairment. Sponsor reserves the right in its sole discretion to disqualify any individual it finds to be tampering with the entry process or the operation of the Promotion or to be acting in violation of these Official Rules or in an unsportsmanlike or disruptive manner. Any attempt by any person to deliberately damage any website or undermine the legitimate operation of this Promotion is a violation of criminal and civil laws, and, should such an attempt be made, Sponsor reserves the right to seek damages and other remedies from any such person to the fullest extent permitted by law. Sponsor’s failure to enforce any term of these Official Rules shall not constitute a waiver of that provision or any other provision of these Official Rules.<\/p><p>16. <strong>RELEASE.<\/strong> By entering, each entrant forever, fully and irrevocably releases and holds harmless Sponsor and its parents, subsidiaries and affiliates, and their respective agents, advertising and promotion agencies, affiliates, Promotion partners and prize suppliers, and Facebook, Instagram and all of their respective employees, officers, directors, shareholders and agents from and against all claims, damages or liabilities arising in whole or in part, directly or indirectly, from entrant’s participation and\/or entry in the Promotion and\/or entrant’s award, receipt or use of any prize awarded in the Promotion.<\/p><p>17. <strong>LIMITATIONS OF LIABILITY.<\/strong> Sponsor is not responsible for: (a) incorrect or inaccurate transcription of entry information or late, lost, stolen, unintelligible, illegible, damaged, mutilated, altered, incomplete or misdirected entries or entries received through impermissible or illegitimate channels, all of which will be disqualified; (b) technical failures of any kind, including but not limited to the malfunctioning of any telephone, computer online systems, computer equipment, website, server provider, network, hardware or software; (c) the unavailability or inaccessibility of any website or service; (d) unauthorized intervention in any part of the entry process or the Promotion; (e) printing, typographical, electronic or human errors, which may occur in the offer or administration of the Promotion or the processing of entries; or (f) any injury or damage to persons or property, including but not limited to entrant’s computer, which may be caused, directly or indirectly, in whole or in part, from entrant’s participation in the Promotion, or from viewing, playing or downloading any material from Sponsor’s website(s), regardless of whether the material was prepared by Sponsor or a third party, and regardless of whether the material is connected to Sponsor’s websites by a hypertext link.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14765405470794__8c94683f-0c2c-4226-8d43-cc5bf237d6c8-166975783082ec9b6d-0",
+        "template--14765405470794__8c94683f-0c2c-4226-8d43-cc5bf237d6c8-166975783082ec9b6d-1",
+        "template--14765405470794__8c94683f-0c2c-4226-8d43-cc5bf237d6c8-166975783082ec9b6d-2",
+        "template--14765405470794__8c94683f-0c2c-4226-8d43-cc5bf237d6c8-166975783082ec9b6d-3"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1652979137b0a62647",
+    "1651769816dcb4919c",
+    "b168654a-4f8d-428d-b9a2-2bf5f8a1da52",
+    "16488340185b1f3cc8",
+    "16533399328f27308a",
+    "f36e3ba0-2506-45c6-bc95-0a498c085937",
+    "821d04a0-8a92-4d68-8ad8-3197ace80b12",
+    "8c94683f-0c2c-4226-8d43-cc5bf237d6c8"
+  ]
+}

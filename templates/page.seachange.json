@@ -446,7 +446,7 @@
             "font_style": "h3",
             "text": "",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/womens-seachange1",
+            "link": "shopify:\/\/collections\/womens-seachange",
             "info_on_image": true
           }
         },
@@ -458,7 +458,7 @@
             "font_style": "h3",
             "text": "",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/mens-seachange1",
+            "link": "shopify:\/\/collections\/mens-seachange",
             "info_on_image": true
           }
         }

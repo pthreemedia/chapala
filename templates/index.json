@@ -2,13 +2,11 @@
   "sections": {
     "164867367120e1947e": {
       "type": "hero-banner",
-      "disabled": true,
       "blocks": {
         "1648673671d11f3268-0": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "heading": "The Bolinas Boot",
+            "heading": "The Adventure Collection",
             "heading_2": "",
             "font_size": "h1",
             "hide_block_on_mobile": false,
@@ -17,21 +15,19 @@
         },
         "1648673671d11f3268-1": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "Dress it up or dress it down, our Bolinas Boot will be your new wet weather go-to.",
+            "text": "The comfort of a sneaker in a boot that's ready to get out there. ",
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
           }
         },
         "1648673671d11f3268-2": {
           "type": "buttons",
-          "disabled": true,
           "settings": {
-            "button_label_1": "Shop Womens",
-            "button_link_1": "\/discount\/extra30?redirect=\/collections\/womens-sale",
-            "button_label_2": "Shop Mens",
-            "button_link_2": "\/discount\/extra30?redirect=\/collections\/mens-sale",
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify:\/\/pages\/adventure-collection",
+            "button_label_2": "",
+            "button_link_2": "\/discount\/cyber40?redirect=\/collections\/mens-all",
             "button_style_secondary": true,
             "use_arrow_link": false,
             "hide_block_on_mobile": false,
@@ -45,16 +41,18 @@
         "1648673671d11f3268-2"
       ],
       "settings": {
-        "use_video_background": true,
-        "hero_video_desktop": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2f507bd2eaee45819d3475b9e1f0865e.mp4",
-        "hero_video_mobile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2f507bd2eaee45819d3475b9e1f0865e.mp4",
+        "use_video_background": false,
+        "hero_video_desktop": "",
+        "hero_video_mobile": "",
+        "image_desktop": "shopify:\/\/shop_images\/Adventure_Collection_Homepage-min.gif",
+        "image_mobile": "shopify:\/\/shop_images\/Adventure_Collection_Homepage_Mobile-min.gif",
         "image_overlay_opacity": 0,
-        "adapt_height_first_image": false,
+        "adapt_height_first_image": true,
         "text_image_separate": false,
         "show_text_box": false,
-        "desktop_content_half": "no",
-        "banner_content_half_color": "accent-3",
-        "desktop_text_box_vertical_position": "flex-end",
+        "desktop_content_half": "left",
+        "banner_content_half_color": "accent-1",
+        "desktop_text_box_vertical_position": "center",
         "desktop_text_box_horizontal_position": "center",
         "desktop_text_alignment": "center"
       }
@@ -83,7 +81,7 @@
           "type": "button",
           "settings": {
             "button_label": "Shop The Bolinas Boot",
-            "button_link": "",
+            "button_link": "shopify:\/\/pages\/bolinas-boot",
             "button_style_secondary": false,
             "use_arrow_link": false,
             "link_color": ""
@@ -110,11 +108,12 @@
     },
     "1652135633ce7ce319": {
       "type": "hero-banner",
+      "disabled": true,
       "blocks": {
         "16521356332262bfc5-0": {
           "type": "heading",
           "settings": {
-            "heading": "The Heritage Sport Collection",
+            "heading": "The Cozy Collection",
             "heading_2": "",
             "font_size": "h0",
             "hide_block_on_mobile": false,
@@ -124,7 +123,7 @@
         "16521356332262bfc5-1": {
           "type": "text",
           "settings": {
-            "text": "Introducing your soon-to-be favorite sporty sneaker.",
+            "text": "Treat your feet to our cozy 100% recycled fleece slippers. ",
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
           }
@@ -132,10 +131,10 @@
         "16521356332262bfc5-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Now",
-            "button_link_1": "shopify:\/\/pages\/heritage-sport",
-            "button_label_2": "",
-            "button_link_2": "",
+            "button_label_1": "Shop Womens",
+            "button_link_1": "shopify:\/\/collections\/womens-sandals-slippers",
+            "button_label_2": "Shop Mens",
+            "button_link_2": "shopify:\/\/collections\/mens-sandals-slippers",
             "button_style_secondary": true,
             "use_arrow_link": false,
             "hide_block_on_mobile": false,
@@ -152,14 +151,14 @@
         "use_video_background": false,
         "hero_video_desktop": "",
         "hero_video_mobile": "",
-        "image_desktop": "shopify:\/\/shop_images\/Heritage-Launch-HP-Hero_a1557e6f-a977-4bb8-9a2a-e7327e4d9d10.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Mobile-Heritage-Launch-HP-Hero_81ee1a0e-2398-4ec3-a0e8-312bbb84131c.gif",
+        "image_desktop": "shopify:\/\/shop_images\/Cozy_Collection_Homepage.gif",
+        "image_mobile": "shopify:\/\/shop_images\/Cozy_Collection_Homepage_Mobile.gif",
         "image_overlay_opacity": 0,
         "adapt_height_first_image": false,
         "text_image_separate": false,
         "show_text_box": false,
-        "desktop_content_half": "no",
-        "banner_content_half_color": "background-2",
+        "desktop_content_half": "left",
+        "banner_content_half_color": "background-3",
         "desktop_text_box_vertical_position": "center",
         "desktop_text_box_horizontal_position": "center",
         "desktop_text_alignment": "center"
@@ -287,7 +286,7 @@
         "column2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HP-Womens_Tile_800x1000_2_6d1a0e84-c2a1-42f3-a849-b5629274e42d.jpg",
+            "image": "shopify:\/\/shop_images\/HP_Secondary_Tile_800x1000-Womens-min_2cb47bc5-b5b2-47b2-b50d-573e4bb2cc7d.jpg",
             "title": "Womens New Arrivals",
             "font_style": "h3",
             "text": "",
@@ -299,7 +298,7 @@
         "column1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HP-Mens_Tile_800x1000_3.jpg",
+            "image": "shopify:\/\/shop_images\/HP_Secondary_Tile_800x1000-Mens-min_7970613b-ed20-4c4c-8208-424a971fe8e0.jpg",
             "title": "Mens New Arrivals",
             "font_style": "h3",
             "text": "",
@@ -311,12 +310,12 @@
         "290060ab-d2f9-4269-bc1d-a7148a4da2dd": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HP-Jenny-Schatzle_Tile_800x1000-min.jpg",
+            "image": "shopify:\/\/shop_images\/HP_Secondary_Tile_800x1000-Steven_Tiller-min.jpg",
             "title": "Daydreamer Series",
             "font_style": "h3",
             "text": "",
             "link_label": "Read The Story",
-            "link": "\/blogs\/journal\/daydreamer-series-on-changing-the-conversation-with-yourself",
+            "link": "\/blogs\/journal\/daydreamer-series-it-s-never-too-late-to-start-your-dream",
             "info_on_image": false
           }
         }
@@ -338,7 +337,7 @@
         "button_link": "",
         "color_scheme": "background-1",
         "columns_mobile": "1",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "padding_top": 76,
         "padding_bottom": 52
       }
@@ -645,10 +644,10 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Marin",
-            "image": "shopify:\/\/shop_images\/tam_junction_mill_valley_seavees.jpg",
+            "image": "shopify:\/\/shop_images\/Marin_Store.jpg",
             "image_ratio": "adapt",
             "icon": "none",
-            "row_content": "<p>Our third store is ﻿nestled between the Golden Gate Bridge and Mt. Tamalpais in beautiful Marin County. <\/p><p>Opening summer ‘22 in the Tam Junction district of Mill Valley, it marks our debut in Northern California.<\/p>",
+            "row_content": "<p>Our third store is ﻿nestled between the Golden Gate Bridge and Mt. Tamalpais in beautiful Marin County. <\/p><p>Opening Saturday December 3, 2022 in the Tam Junction district of Mill Valley, it marks our debut in Northern California.<\/p>",
             "page": ""
           }
         }

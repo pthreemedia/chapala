@@ -159,7 +159,8 @@
             "content": "",
             "page": "",
             "show-description": true,
-            "liquid": ""
+            "liquid": "",
+            "expand_on_pageload": false
           }
         },
         "collapsible-row-0": {
@@ -170,7 +171,8 @@
             "content": "<p>{{ product.metafields.seavees.size_and_fit | metafield_tag }}<\/p>",
             "page": "",
             "show-description": false,
-            "liquid": ""
+            "liquid": "",
+            "expand_on_pageload": false
           }
         },
         "6b1f8270-ac69-4b93-a5f5-c3c308248dfa": {
@@ -182,7 +184,8 @@
             "content": "<p>Imperfects was founded in 2015 by Mike Lynch. Mike is an entrepreneur, shaper, surfer, artist, and family man - building Imperfects as a lifestyle concept for a more enlightened Human Experience, is a life mission of Mike's which has been ongoing for over 15 years. The mission of Imperfects is to highlight the good in humanity by focusing on one's Imperfections - we craft the highest quality of Surfboards, Skateboards and Apparel as these our mediums which define one of our most defining human experiences, self-expression.<\/p>",
             "page": "",
             "show-description": false,
-            "liquid": ""
+            "liquid": "",
+            "expand_on_pageload": false
           }
         },
         "collapsible-row-1": {
@@ -193,7 +196,8 @@
             "content": "<p>Free shipping on all orders over $100.<\/p><p>$5 shipping for orders under $100.<\/p><p>It's important to us that you are happy with your SeaVees so returns and exchanges are free, fast and easy. If you choose to exchange for a different size or color, we will ship your replacement immediately.<\/p>",
             "page": "",
             "show-description": false,
-            "liquid": ""
+            "liquid": "",
+            "expand_on_pageload": false
           }
         },
         "collapsible-row-2": {
@@ -204,7 +208,8 @@
             "content": "<p>{{ product.metafields.seavees.origin.value }}<\/p>",
             "page": "",
             "show-description": false,
-            "liquid": ""
+            "liquid": "",
+            "expand_on_pageload": false
           }
         },
         "d45af598-2236-4f27-9df7-84e8aa0cb053": {

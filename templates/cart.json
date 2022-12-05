@@ -7,6 +7,56 @@
         "padding_bottom": 0
       }
     },
+    "fc2268e7-ca2d-4ff1-9c5d-173dca173e2b": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14499865591882__fc2268e7-ca2d-4ff1-9c5d-173dca173e2b-1668707297e9d7d5fc-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Cyber Week Disclaimer",
+            "heading_size": "h2",
+            "font_color": ""
+          }
+        },
+        "template--14499865591882__fc2268e7-ca2d-4ff1-9c5d-173dca173e2b-1668707297e9d7d5fc-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Please be advised that shipping times may be slightly longer than normal due to order volume. <\/strong><\/p>",
+            "use_heading_font": false,
+            "font_color": ""
+          }
+        },
+        "template--14499865591882__fc2268e7-ca2d-4ff1-9c5d-173dca173e2b-1668707297e9d7d5fc-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "use_arrow_link": false,
+            "link_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14499865591882__fc2268e7-ca2d-4ff1-9c5d-173dca173e2b-1668707297e9d7d5fc-0",
+        "template--14499865591882__fc2268e7-ca2d-4ff1-9c5d-173dca173e2b-1668707297e9d7d5fc-1",
+        "template--14499865591882__fc2268e7-ca2d-4ff1-9c5d-173dca173e2b-1668707297e9d7d5fc-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "narrow": false,
+        "is_page_header": false,
+        "mobile_content_align": "center",
+        "desktop_content_align": "center",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "cart-footer": {
       "type": "main-cart-footer",
       "blocks": {
@@ -108,7 +158,7 @@
         "tab_id_1": "1",
         "featured_collection_title_1": "Womens Socks",
         "products_to_show_1": 5,
-        "collection_2": "mens-socks",
+        "collection_2": "all-socks",
         "tab_id_2": "2",
         "featured_collection_title_2": "Mens Socks",
         "products_to_show_2": 4,
@@ -131,6 +181,7 @@
   },
   "order": [
     "cart-items",
+    "fc2268e7-ca2d-4ff1-9c5d-173dca173e2b",
     "cart-footer",
     "16605916898c837f0c",
     "164911222318086ea0"

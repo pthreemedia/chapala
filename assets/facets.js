@@ -79,7 +79,6 @@ class FacetFiltersForm extends HTMLElement {
   }
 
   static renderSectionFromFetch(url, event) {
-    console.log(url);
     fetch(url)
       .then((response) => response.text())
       .then((responseText) => {
