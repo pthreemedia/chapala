@@ -314,12 +314,14 @@
         "cc3c514f-b758-41b6-8315-dffdcf1daf20": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/25B2E249-35DE-42DB-ABF4-5B4F60F980F8.jpg",
             "image_padding": false
           }
         },
         "9d124d08-98fa-4115-a657-893d1e761d59": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/6B7E8591-4C99-4309-AEB7-E3DA75EAE1C9.jpg",
             "image_padding": false
           }
         }
@@ -353,7 +355,7 @@
         "template--14499865296970__b7612fdb-af20-4f0c-81e5-686658abeeec-16699239988cc03550-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Nestled between the Golden Gate Bridge and Mt. Tamalpais in beautiful Marin County, this store marks our debut in Northern California.<\/p><p><strong>Phone<\/strong>: (628) 477-9280<\/p><p><strong>Address:<\/strong> <a href=\"https:\/\/www.google.com\/maps\/place\/SeaVees+Marin\/@37.8814401,-122.5264452,17z\/data=!3m1!4b1!4m5!3m4!1s0x80858501a728fa01:0xa0116726633fea31!8m2!3d37.8814359!4d-122.5242512\" target=\"_blank\">242 Shoreline Hwy, Mill Valley, CA 94941<\/a><\/p><p><strong>Sunday: <\/strong>10am – 6pm<strong><br\/>Monday: <\/strong>10am – 6pm<strong><br\/>Tuesday: <\/strong>10am – 6pm<strong><br\/>Wednesday: <\/strong>10am – 6pm<strong><br\/>Thursday:<\/strong> 10am – 6pm<strong><br\/>Friday: <\/strong>10am – 6pm<strong><br\/>Saturday: <\/strong>10am – 6pm<\/p><p><strong>More information on Instagram: <\/strong><a href=\"https:\/\/www.instagram.com\/seavees_newportbeach\/\">@seavees_newportbeach<\/a><\/p>",
+            "text": "<p>Nestled between the Golden Gate Bridge and Mt. Tamalpais in beautiful Marin County, this store marks our debut in Northern California.<\/p><p><strong>Phone<\/strong>: (628) 477-9280<\/p><p><strong>Address:<\/strong> <a href=\"https:\/\/www.google.com\/maps\/place\/SeaVees+Marin\/@37.8814401,-122.5264452,17z\/data=!3m1!4b1!4m5!3m4!1s0x80858501a728fa01:0xa0116726633fea31!8m2!3d37.8814359!4d-122.5242512\" target=\"_blank\">242 Shoreline Hwy, Mill Valley, CA 94941<\/a><\/p><p><strong>Sunday: <\/strong>10am – 6pm<strong><br\/>Monday: <\/strong>10am – 6pm<strong><br\/>Tuesday: <\/strong>10am – 6pm<strong><br\/>Wednesday: <\/strong>10am – 6pm<strong><br\/>Thursday:<\/strong> 10am – 6pm<strong><br\/>Friday: <\/strong>10am – 6pm<strong><br\/>Saturday: <\/strong>10am – 6pm<\/p><p><strong>More information on Instagram: <\/strong><a href=\"https:\/\/www.instagram.com\/seavees_newportbeach\/\">@seavees_marin<\/a><\/p>",
             "use_heading_font": false,
             "font_color": ""
           }
