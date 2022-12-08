@@ -4,8 +4,13 @@
 }
 
 @media (min-width: 990px) {
+  .collection-hero-fall-2022 {
+    margin-top: 3rem;
+  }
+
   .collection-hero-fall-2022 h1 {
-    font-size: 24px;
+    font-size: 40px;
+    margin-bottom: 2rem;
   }
 
   .collection-hero-fall-2022 .collection-hero__inner.page-width {
@@ -55,7 +60,7 @@
     align-items: center;
     justify-content: center;
   }
-  .collection-fall-2022-layout span.active-facets__button-inner { 
+  .collection-fall-2022-layout span.active-facets__button-inner {
     font-size: 14px;
   }
 }
@@ -65,7 +70,7 @@
     padding: 7px 10px 7px;
     font-size: 14px;
   }
-  
+
   .collection-fall-2022-layout .facet-checkbox {
     padding: 7px 2rem 7px 0;
   }

@@ -97,11 +97,11 @@
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
-    "favicon": "shopify:\/\/shop_images\/SeaVees_Favicon_Navy.png",
+    "favicon": "shopify://shop_images/SeaVees_Favicon_Navy.png",
     "currency_code_enabled": false,
     "cart_type": "drawer",
     "show_cart_note": false,
-    "checkout_logo_image": "shopify:\/\/shop_images\/seavees-website-logo-navy_f847c3ff-f1ad-41ec-8806-5d68fe4b5a7f.png",
+    "checkout_logo_image": "shopify://shop_images/seavees-website-logo-navy_f847c3ff-f1ad-41ec-8806-5d68fe4b5a7f.png",
     "checkout_logo_position": "center",
     "checkout_accent_color": "#193859",
     "checkout_button_color": "#193859",
@@ -122,12 +122,12 @@
               "color_scheme": "accent-1"
             }
           },
-          "b02319df-3561-47db-8787-8de4610da820": {
+          "2a864d09-3ffd-4238-a5d8-5c60b6850024": {
             "type": "announcement",
             "disabled": true,
             "settings": {
               "heading": "The Holiday Gift Guide is here.",
-              "link": "shopify:\/\/pages\/gift-guide",
+              "link": "shopify://pages/gift-guide",
               "cta_text": "Shop Now.",
               "link_style": "underline",
               "font": "lato",
@@ -171,9 +171,9 @@
             "settings": {
               "category": "Mens",
               "text": "The Beyond and Back Boot",
-              "link": "shopify:\/\/products\/mens-beyond-back-boot-rugged-oiled-leather-elmwood",
-              "image_desktop": "shopify:\/\/shop_images\/seavees_crowd_favorites_0003__SA10111.jpg",
-              "image_mobile": "shopify:\/\/shop_images\/seavees_crowd_favorites_0003__SA10111_3e54914f-5e81-4839-9b5f-9aa8924e8827.jpg"
+              "link": "shopify://products/mens-beyond-back-boot-rugged-oiled-leather-elmwood",
+              "image_desktop": "shopify://shop_images/seavees_crowd_favorites_0003__SA10111.jpg",
+              "image_mobile": "shopify://shop_images/seavees_crowd_favorites_0003__SA10111_3e54914f-5e81-4839-9b5f-9aa8924e8827.jpg"
             }
           },
           "8faac646-622e-434a-8bea-f10b298e8fcd": {
@@ -181,9 +181,9 @@
             "settings": {
               "category": "Mens",
               "text": "Holiday Gift Guide",
-              "link": "shopify:\/\/pages\/gift-guide",
-              "image_desktop": "shopify:\/\/shop_images\/Crowd_Favorites_Gift_Guide_015.jpg",
-              "image_mobile": "shopify:\/\/shop_images\/thumbnail_Mens_Nav_Hero_4.jpg"
+              "link": "shopify://pages/gift-guide",
+              "image_desktop": "shopify://shop_images/Crowd_Favorites_Gift_Guide_015.jpg",
+              "image_mobile": "shopify://shop_images/thumbnail_Mens_Nav_Hero_4.jpg"
             }
           },
           "9586e75a-9c6b-4eab-98b5-462a69572691": {
@@ -192,9 +192,9 @@
             "settings": {
               "category": "Mens",
               "text": "The Sixty Six",
-              "link": "\/products\/mens-sixty-six-wool-flannel-charcoal",
-              "image_desktop": "shopify:\/\/shop_images\/seavees_crowd_favorites_0002_M_Sixty_Six_Charcoal_Flannel_015.jpg",
-              "image_mobile": "shopify:\/\/shop_images\/seavees_crowd_favorites_0002_M_Sixty_Six_Charcoal_Flannel_015_8dcf33e1-53fd-4a29-ae5b-5a9a698d7f75.jpg"
+              "link": "/products/mens-sixty-six-wool-flannel-charcoal",
+              "image_desktop": "shopify://shop_images/seavees_crowd_favorites_0002_M_Sixty_Six_Charcoal_Flannel_015.jpg",
+              "image_mobile": "shopify://shop_images/seavees_crowd_favorites_0002_M_Sixty_Six_Charcoal_Flannel_015_8dcf33e1-53fd-4a29-ae5b-5a9a698d7f75.jpg"
             }
           },
           "067eea87-3114-4e12-b33c-40d5f50d3f91": {
@@ -203,9 +203,9 @@
             "settings": {
               "category": "Womens",
               "text": "The Hawthorne",
-              "link": "shopify:\/\/products\/womens-hawthorne-slip-on-classic-true-navy",
-              "image_desktop": "shopify:\/\/shop_images\/mens_hawthorne_standard_true_navy_side.jpg",
-              "image_mobile": "shopify:\/\/shop_images\/mens_hawthorne_standard_true_navy_side.jpg"
+              "link": "shopify://products/womens-hawthorne-slip-on-classic-true-navy",
+              "image_desktop": "shopify://shop_images/mens_hawthorne_standard_true_navy_side.jpg",
+              "image_mobile": "shopify://shop_images/mens_hawthorne_standard_true_navy_side.jpg"
             }
           },
           "549aab27-f359-4751-82f2-84007485cc1b": {
@@ -213,9 +213,9 @@
             "settings": {
               "category": "Womens",
               "text": "Holiday Gift Guide",
-              "link": "shopify:\/\/pages\/gift-guide",
-              "image_desktop": "shopify:\/\/shop_images\/Crowd_Favorites_Gift_Guide_015_06e5ea22-7ccb-4f54-936c-46f66cd982ad.jpg",
-              "image_mobile": "shopify:\/\/shop_images\/Crowd_Favorites_Gift_Guide_015_1d66de22-095f-4bb0-bb31-1c74de28cad0.jpg"
+              "link": "shopify://pages/gift-guide",
+              "image_desktop": "shopify://shop_images/Crowd_Favorites_Gift_Guide_015_06e5ea22-7ccb-4f54-936c-46f66cd982ad.jpg",
+              "image_mobile": "shopify://shop_images/Crowd_Favorites_Gift_Guide_015_1d66de22-095f-4bb0-bb31-1c74de28cad0.jpg"
             }
           },
           "63c8485a-2033-47fc-a0a6-26b9300dc81c": {
@@ -223,9 +223,9 @@
             "settings": {
               "category": "Womens",
               "text": "The Baja Slip On Platform",
-              "link": "\/products\/womens-baja-slip-on-platform-check-flannel-chai",
-              "image_desktop": "shopify:\/\/shop_images\/seavees_crowd_favorites_0001_W_Baja_Slip_On_Platform_Chai_Check_Flannel_022.jpg",
-              "image_mobile": "shopify:\/\/shop_images\/seavees_crowd_favorites_0001_W_Baja_Slip_On_Platform_Chai_Check_Flannel_022_d4e93cdf-134f-4c4b-a7fa-3c13f56a5bf7.jpg"
+              "link": "/products/womens-baja-slip-on-platform-check-flannel-chai",
+              "image_desktop": "shopify://shop_images/seavees_crowd_favorites_0001_W_Baja_Slip_On_Platform_Chai_Check_Flannel_022.jpg",
+              "image_mobile": "shopify://shop_images/seavees_crowd_favorites_0001_W_Baja_Slip_On_Platform_Chai_Check_Flannel_022_d4e93cdf-134f-4c4b-a7fa-3c13f56a5bf7.jpg"
             }
           },
           "f276d9cc-490c-4bdc-8ff7-82e4849d5e13": {
@@ -234,9 +234,9 @@
             "settings": {
               "category": "Rediscover the Dream",
               "text": "Restoring Pacific Kelp Forests",
-              "link": "shopify:\/\/pages\/seatrees",
-              "image_desktop": "shopify:\/\/shop_images\/seavees_nav_discover_seatrees.jpg",
-              "image_mobile": "shopify:\/\/shop_images\/seavees_nav_discover_seatrees.jpg"
+              "link": "shopify://pages/seatrees",
+              "image_desktop": "shopify://shop_images/seavees_nav_discover_seatrees.jpg",
+              "image_mobile": "shopify://shop_images/seavees_nav_discover_seatrees.jpg"
             }
           },
           "63bc2ed5-0727-430c-8884-146b5b9df29e": {
@@ -245,9 +245,9 @@
             "settings": {
               "category": "Rediscover the Dream",
               "text": "Mental Health Awareness",
-              "link": "shopify:\/\/pages\/mental-health-awareness-baja-slip-on",
-              "image_desktop": "shopify:\/\/shop_images\/seavees_nav_discover_mental_health.jpg",
-              "image_mobile": "shopify:\/\/shop_images\/seavees_nav_discover_mental_health.jpg"
+              "link": "shopify://pages/mental-health-awareness-baja-slip-on",
+              "image_desktop": "shopify://shop_images/seavees_nav_discover_mental_health.jpg",
+              "image_mobile": "shopify://shop_images/seavees_nav_discover_mental_health.jpg"
             }
           },
           "463ec164-e1f8-4aa8-8920-25acd239523b": {
@@ -256,9 +256,9 @@
             "settings": {
               "category": "Rediscover the Dream",
               "text": "Access to the ocean for marginalized communities",
-              "link": "shopify:\/\/blogs\/journal\/bolinas-boot-field-report-4-un-mar-de-colores",
-              "image_desktop": "shopify:\/\/shop_images\/seavees_nav_discover_un_mar_de_colores.jpg",
-              "image_mobile": "shopify:\/\/shop_images\/seavees_nav_discover_un_mar_de_colores.jpg"
+              "link": "shopify://blogs/journal/bolinas-boot-field-report-4-un-mar-de-colores",
+              "image_desktop": "shopify://shop_images/seavees_nav_discover_un_mar_de_colores.jpg",
+              "image_mobile": "shopify://shop_images/seavees_nav_discover_un_mar_de_colores.jpg"
             }
           },
           "53aa48e7-d13c-42eb-9864-e27635d8a476": {
@@ -285,7 +285,7 @@
         "settings": {
           "hover_mega_menu": false,
           "color_scheme": "background-1",
-          "logo": "shopify:\/\/shop_images\/seavees-website-logo-navy_012E5C.png",
+          "logo": "shopify://shop_images/seavees-website-logo-navy_012E5C.png",
           "logo_width": 140,
           "logo_position": "middle-left",
           "menu": "main-menu",
@@ -324,11 +324,7 @@
             }
           }
         },
-        "block_order": [
-          "footer-0",
-          "footer-1",
-          "d2e7ec3c-3bfb-4819-bd97-0418ff520f74"
-        ],
+        "block_order": ["footer-0", "footer-1", "d2e7ec3c-3bfb-4819-bd97-0418ff520f74"],
         "settings": {
           "color_scheme": "inverse",
           "newsletter_enable": true,
@@ -340,8 +336,8 @@
           "enable_language_selector": false,
           "payment_enable": false,
           "margin_top": 0,
-          "logo_1": "shopify:\/\/shop_images\/CA64_grey.png",
-          "logo_2": "shopify:\/\/shop_images\/1Planet.png",
+          "logo_1": "shopify://shop_images/CA64_grey.png",
+          "logo_2": "shopify://shop_images/1Planet.png",
           "padding_top": 80,
           "padding_bottom": 80
         }
@@ -389,8 +385,7 @@
           "133c9452-a189-4790-9edc-dfff9bcf7edf",
           "14df0131-0e82-4d2a-a821-0ca3dfc4bf43"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "footer-newsletter": {
         "type": "footer-newsletter",
@@ -407,40 +402,40 @@
             "type": "platform",
             "settings": {
               "title": "Instagram",
-              "link": "https:\/\/www.instagram.com\/seavees\/",
-              "image_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0561\/3333\/files\/instagram.svg?v=1658254397"
+              "link": "https://www.instagram.com/seavees/",
+              "image_link": "https://cdn.shopify.com/s/files/1/0561/3333/files/instagram.svg?v=1658254397"
             }
           },
           "5d144c33-5ce1-472c-880c-45eeb57b24f0": {
             "type": "platform",
             "settings": {
               "title": "TikTok",
-              "link": "https:\/\/www.tiktok.com\/@seavees",
-              "image_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0561\/3333\/files\/TikTok_433e29b8-137d-426e-819f-c035c714bc84.svg?v=1663955486"
+              "link": "https://www.tiktok.com/@seavees",
+              "image_link": "https://cdn.shopify.com/s/files/1/0561/3333/files/TikTok_433e29b8-137d-426e-819f-c035c714bc84.svg?v=1663955486"
             }
           },
           "c55be27b-eced-4112-a3aa-d0f1ba525131": {
             "type": "platform",
             "settings": {
               "title": "Pinterest",
-              "link": "https:\/\/www.pinterest.com\/seavees\/",
-              "image_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0561\/3333\/files\/pinterest.svg?v=1658254397"
+              "link": "https://www.pinterest.com/seavees/",
+              "image_link": "https://cdn.shopify.com/s/files/1/0561/3333/files/pinterest.svg?v=1658254397"
             }
           },
           "a3eb8422-fd51-4113-95b3-c8d05b72f88f": {
             "type": "platform",
             "settings": {
               "title": "Twitter",
-              "link": "https:\/\/twitter.com\/seavees",
-              "image_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0561\/3333\/files\/twitter.svg?v=1658254397"
+              "link": "https://twitter.com/seavees",
+              "image_link": "https://cdn.shopify.com/s/files/1/0561/3333/files/twitter.svg?v=1658254397"
             }
           },
           "d2aa381a-8f8c-435e-860c-8635e18c8521": {
             "type": "platform",
             "settings": {
               "title": "Facebook",
-              "link": "https:\/\/www.facebook.com\/SeaVees\/",
-              "image_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0561\/3333\/files\/facebook.svg?v=1658254209"
+              "link": "https://www.facebook.com/SeaVees/",
+              "image_link": "https://cdn.shopify.com/s/files/1/0561/3333/files/facebook.svg?v=1658254209"
             }
           }
         },
@@ -469,23 +464,19 @@
             "type": "image",
             "settings": {
               "title": "CA 64",
-              "accolade_image": "shopify:\/\/shop_images\/CA64_grey.png"
+              "accolade_image": "shopify://shop_images/CA64_grey.png"
             }
           },
           "footer-accolades-0": {
             "type": "image",
             "settings": {
               "title": "1% For The Planet",
-              "accolade_image": "shopify:\/\/shop_images\/1Planet.png"
+              "accolade_image": "shopify://shop_images/1Planet.png"
             }
           }
         },
-        "block_order": [
-          "aac4d499-cd15-4443-91d9-e8b511e93e47",
-          "footer-accolades-0"
-        ],
-        "settings": {
-        }
+        "block_order": ["aac4d499-cd15-4443-91d9-e8b511e93e47", "footer-accolades-0"],
+        "settings": {}
       },
       "main-collection-banner-fall-2022": {
         "type": "main-collection-banner-fall-2022",
@@ -501,8 +492,7 @@
       },
       "collection-page-menu": {
         "type": "collection-page-menu",
-        "settings": {
-        }
+        "settings": {}
       },
       "collection-filter": {
         "type": "collection-filter",
@@ -514,6 +504,61 @@
       },
       "main-collection-product-grid-fall-2022-spliced": {
         "type": "main-collection-product-grid-fall-2022-spliced",
+        "blocks": {
+          "3d1ddb4b-8e69-4f60-9bf3-5284d0611e5f": {
+            "type": "grid_content",
+            "settings": {
+              "grid_content_id": "spliced-test-1",
+              "grid_position": "1",
+              "grid_width_in_3_column_grid": "1-3",
+              "heading": "test1headline",
+              "subheading": "test1headline",
+              "headline_vertical_position": "middle",
+              "headline_horizontal_position": "middle",
+              "mobile_image": "shopify://shop_images/DSC04565.jpg",
+              "desktop_image": "shopify://shop_images/DSC04565.jpg",
+              "link_url": "shopify://collections/apparel",
+              "link_text": "testlink"
+            }
+          },
+          "e0789ffc-fa50-430e-a6c2-665ca3d37f4f": {
+            "type": "grid_content",
+            "settings": {
+              "grid_content_id": "spliced-test-1",
+              "grid_position": "2",
+              "grid_width_in_3_column_grid": "none",
+              "heading": "test2headline",
+              "subheading": "test2subheadline",
+              "headline_vertical_position": "top",
+              "headline_horizontal_position": "left",
+              "mobile_image": "shopify://shop_images/DSC04475.jpg",
+              "desktop_image": "shopify://shop_images/DSC04475.jpg",
+              "link_url": "",
+              "link_text": "test2link"
+            }
+          },
+          "56b35a7f-b412-4e71-97e6-9c07a99ae90f": {
+            "type": "grid_content",
+            "settings": {
+              "grid_content_id": "spliced-test-1",
+              "grid_position": "3",
+              "grid_width_in_3_column_grid": "none",
+              "heading": "test3headline",
+              "subheading": "test3subheadline",
+              "headline_vertical_position": "top",
+              "headline_horizontal_position": "left",
+              "mobile_image": "shopify://shop_images/Daydreamer_Collective_SocialSocial_1080x1080_1_copy_20_f175dbcc-a8bb-4e0b-8147-ffc892819feb.jpg",
+              "desktop_image": "shopify://shop_images/Daydreamer_Collective_SocialSocial_1080x1080_1_copy_20_f175dbcc-a8bb-4e0b-8147-ffc892819feb.jpg",
+              "link_url": "",
+              "link_text": "test3link"
+            }
+          }
+        },
+        "block_order": [
+          "3d1ddb4b-8e69-4f60-9bf3-5284d0611e5f",
+          "e0789ffc-fa50-430e-a6c2-665ca3d37f4f",
+          "56b35a7f-b412-4e71-97e6-9c07a99ae90f"
+        ],
         "settings": {
           "products_per_page": 60,
           "columns_desktop": 3,
@@ -554,15 +599,12 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       }
     }
   },
@@ -675,11 +717,8 @@
               }
             }
           },
-          "block_order": [
-            "announcement-bar-0"
-          ],
-          "settings": {
-          }
+          "block_order": ["announcement-bar-0"],
+          "settings": {}
         },
         "header": {
           "type": "header",
@@ -714,15 +753,11 @@
               "type": "text",
               "settings": {
                 "heading": "Our mission",
-                "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+                "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>"
               }
             }
           },
-          "block_order": [
-            "footer-0",
-            "footer-1",
-            "footer-2"
-          ],
+          "block_order": ["footer-0", "footer-1", "footer-2"],
           "settings": {
             "color_scheme": "background-1",
             "newsletter_enable": true,

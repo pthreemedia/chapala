@@ -27,17 +27,15 @@
         },
         "16488357932f2433e4-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "<p> All sales are FINAL on sale products.<\/p>",
+            "text": "<p> All sales are FINAL on sale products.</p>",
             "use_heading_font": false,
             "font_color": ""
           }
         }
       },
-      "block_order": [
-        "16488357932f2433e4-0",
-        "16488357932f2433e4-1"
-      ],
+      "block_order": ["16488357932f2433e4-0", "16488357932f2433e4-1"],
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
@@ -58,28 +56,28 @@
           "type": "page_menu_link",
           "settings": {
             "link_text": "Womens",
-            "link_url": "shopify:\/\/collections\/womens-sale"
+            "link_url": "shopify://collections/womens-sale"
           }
         },
         "ffccb7e6-f38a-4cb6-a543-fc9a5114698b": {
           "type": "page_menu_link",
           "settings": {
             "link_text": "Mens",
-            "link_url": "shopify:\/\/collections\/mens-sale"
+            "link_url": "shopify://collections/mens-sale"
           }
         },
         "03c43404-9428-40e4-90b1-503a9e727f7f": {
           "type": "page_menu_link",
           "settings": {
             "link_text": "Little Kids",
-            "link_url": "shopify:\/\/collections\/little-kids-sale"
+            "link_url": "shopify://collections/little-kids-sale"
           }
         },
         "27202e04-bf4c-478f-873f-940d3daa013e": {
           "type": "page_menu_link",
           "settings": {
             "link_text": "Big Kids",
-            "link_url": "shopify:\/\/collections\/big-kids-sale"
+            "link_url": "shopify://collections/big-kids-sale"
           }
         }
       },
@@ -124,10 +122,5 @@
       }
     }
   },
-  "order": [
-    "banner",
-    "1648835794949c71a2",
-    "1648835822b09e3964",
-    "product-grid"
-  ]
+  "order": ["banner", "1648835794949c71a2", "1648835822b09e3964", "product-grid"]
 }

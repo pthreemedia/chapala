@@ -22,7 +22,7 @@
         "template--14499865591882__fc2268e7-ca2d-4ff1-9c5d-173dca173e2b-1668707297e9d7d5fc-1": {
           "type": "text",
           "settings": {
-            "text": "<p>FLASH30 discount code excludes the Beyond And Back Boot and Sierra Adventure Boot. All sales are final on previously marked down sale products. <strong>Please be advised that shipping times may be slightly longer than normal due to order volume. <\/strong><\/p>",
+            "text": "<p>FLASH30 discount code excludes the Beyond And Back Boot and Sierra Adventure Boot. All sales are final on previously marked down sale products. <strong>Please be advised that shipping times may be slightly longer than normal due to order volume. </strong></p>",
             "use_heading_font": false,
             "font_color": ""
           }
@@ -62,21 +62,15 @@
       "blocks": {
         "subtotal": {
           "type": "subtotal",
-          "settings": {
-          }
+          "settings": {}
         },
         "buttons": {
           "type": "buttons",
-          "settings": {
-          }
+          "settings": {}
         }
       },
-      "block_order": [
-        "subtotal",
-        "buttons"
-      ],
-      "settings": {
-      }
+      "block_order": ["subtotal", "buttons"],
+      "settings": {}
     },
     "16605916898c837f0c": {
       "type": "multicolumn",
@@ -85,10 +79,10 @@
         "1660591689a4e66ffb-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/free-shipping-truck.png",
+            "image": "shopify://shop_images/free-shipping-truck.png",
             "title": "FREE SHIPPING + FREE RETURNS",
             "font_style": "h3",
-            "text": "<p>Free Ground Shipping and Free Returns applies to all full-priced products purchased on hoka.com.<\/p>",
+            "text": "<p>Free Ground Shipping and Free Returns applies to all full-priced products purchased on hoka.com.</p>",
             "link_label": "",
             "link": "",
             "info_on_image": false
@@ -97,10 +91,10 @@
         "1660591689a4e66ffb-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-08-15_at_12.29.33_PM.png",
+            "image": "shopify://shop_images/Screen_Shot_2022-08-15_at_12.29.33_PM.png",
             "title": "TIME TO FLY™ 30-DAY GUARANTEE",
             "font_style": "h3",
-            "text": "<p>Take a test flight, or two, or ten. You can return or exchange any pair within 30 days of the original purchase, no questions asked.<\/p>",
+            "text": "<p>Take a test flight, or two, or ten. You can return or exchange any pair within 30 days of the original purchase, no questions asked.</p>",
             "link_label": "",
             "link": "",
             "info_on_image": false
@@ -109,21 +103,17 @@
         "1660591689a4e66ffb-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/S22-norton-guarantee.png",
+            "image": "shopify://shop_images/S22-norton-guarantee.png",
             "title": "NORTON SHOPPING GUARANTEE",
             "font_style": "h3",
-            "text": "<p>Every purchase is guaranteed by Norton with Identity Theft Protection, Purchase Guarantee and Lowest Price Guarantee.<\/p>",
+            "text": "<p>Every purchase is guaranteed by Norton with Identity Theft Protection, Purchase Guarantee and Lowest Price Guarantee.</p>",
             "link_label": "",
             "link": "",
             "info_on_image": false
           }
         }
       },
-      "block_order": [
-        "1660591689a4e66ffb-0",
-        "1660591689a4e66ffb-1",
-        "1660591689a4e66ffb-2"
-      ],
+      "block_order": ["1660591689a4e66ffb-0", "1660591689a4e66ffb-1", "1660591689a4e66ffb-2"],
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -146,7 +136,7 @@
       "settings": {
         "title": "Don't forget...",
         "heading_size": "h2",
-        "description": "<p><\/p>",
+        "description": "<p></p>",
         "description_style": "body",
         "columns_desktop": 3,
         "full_width": false,

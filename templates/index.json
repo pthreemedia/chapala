@@ -25,9 +25,9 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Now",
-            "button_link_1": "shopify:\/\/pages\/adventure-collection",
+            "button_link_1": "shopify://pages/adventure-collection",
             "button_label_2": "",
-            "button_link_2": "\/discount\/cyber40?redirect=\/collections\/mens-all",
+            "button_link_2": "/discount/cyber40?redirect=/collections/mens-all",
             "button_style_secondary": true,
             "use_arrow_link": false,
             "hide_block_on_mobile": false,
@@ -35,17 +35,13 @@
           }
         }
       },
-      "block_order": [
-        "1648673671d11f3268-0",
-        "1648673671d11f3268-1",
-        "1648673671d11f3268-2"
-      ],
+      "block_order": ["1648673671d11f3268-0", "1648673671d11f3268-1", "1648673671d11f3268-2"],
       "settings": {
         "use_video_background": false,
         "hero_video_desktop": "",
         "hero_video_mobile": "",
-        "image_desktop": "shopify:\/\/shop_images\/Green_Monday_Homepage-Desktop_1.gif",
-        "image_mobile": "shopify:\/\/shop_images\/Green_Monday_HP-Mobile.gif",
+        "image_desktop": "shopify://shop_images/Green_Monday_Homepage-Desktop_1.gif",
+        "image_mobile": "shopify://shop_images/Green_Monday_HP-Mobile.gif",
         "image_overlay_opacity": 0,
         "adapt_height_first_image": true,
         "text_image_separate": false,
@@ -72,7 +68,7 @@
         "template--14499865755722__90a6b8cf-f580-49af-a352-48d5ab8dcb10-16673284741a252a5d-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Dress it up or dress it down, our Bolinas Boot will be your new wet weather go-to.<\/p>",
+            "text": "<p>Dress it up or dress it down, our Bolinas Boot will be your new wet weather go-to.</p>",
             "use_heading_font": false,
             "font_color": ""
           }
@@ -81,7 +77,7 @@
           "type": "button",
           "settings": {
             "button_label": "Shop The Bolinas Boot",
-            "button_link": "shopify:\/\/pages\/bolinas-boot",
+            "button_link": "shopify://pages/bolinas-boot",
             "button_style_secondary": false,
             "use_arrow_link": false,
             "link_color": ""
@@ -132,9 +128,9 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Womens",
-            "button_link_1": "shopify:\/\/collections\/womens-sandals-slippers",
+            "button_link_1": "shopify://collections/womens-sandals-slippers",
             "button_label_2": "Shop Mens",
-            "button_link_2": "shopify:\/\/collections\/mens-sandals-slippers",
+            "button_link_2": "shopify://collections/mens-sandals-slippers",
             "button_style_secondary": true,
             "use_arrow_link": false,
             "hide_block_on_mobile": false,
@@ -142,17 +138,13 @@
           }
         }
       },
-      "block_order": [
-        "16521356332262bfc5-0",
-        "16521356332262bfc5-1",
-        "16521356332262bfc5-2"
-      ],
+      "block_order": ["16521356332262bfc5-0", "16521356332262bfc5-1", "16521356332262bfc5-2"],
       "settings": {
         "use_video_background": false,
         "hero_video_desktop": "",
         "hero_video_mobile": "",
-        "image_desktop": "shopify:\/\/shop_images\/Cozy_Collection_Homepage.gif",
-        "image_mobile": "shopify:\/\/shop_images\/Cozy_Collection_Homepage_Mobile.gif",
+        "image_desktop": "shopify://shop_images/Cozy_Collection_Homepage.gif",
+        "image_mobile": "shopify://shop_images/Cozy_Collection_Homepage_Mobile.gif",
         "image_overlay_opacity": 0,
         "adapt_height_first_image": false,
         "text_image_separate": false,
@@ -177,9 +169,7 @@
           }
         }
       },
-      "block_order": [
-        "16503151836c7554cd-0"
-      ],
+      "block_order": ["16503151836c7554cd-0"],
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
@@ -200,13 +190,13 @@
         "16498062295f24c743-1": {
           "type": "slide",
           "settings": {
-            "desktop_image": "shopify:\/\/shop_images\/seavees_desktop_header_611111.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/seavees_mobile_header_611111.jpg",
+            "desktop_image": "shopify://shop_images/seavees_desktop_header_611111.jpg",
+            "mobile_image": "shopify://shop_images/seavees_mobile_header_611111.jpg",
             "heading": "Rediscover The Dream",
             "heading_size": "h1",
             "subheading": "A consciously-crafted, once-forgotten classic.",
             "button_label_1": "Shop Best Sellers",
-            "button_link_1": "shopify:\/\/collections\/womens-best-sellers",
+            "button_link_1": "shopify://collections/womens-best-sellers",
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary": false,
@@ -223,15 +213,15 @@
           "type": "slide",
           "disabled": true,
           "settings": {
-            "desktop_image": "shopify:\/\/shop_images\/seavees_desktop_header_311111_b7b92e5d-7532-452c-922a-53d017fdcc73.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/seavees_mobile_header_311111.jpg",
+            "desktop_image": "shopify://shop_images/seavees_desktop_header_311111_b7b92e5d-7532-452c-922a-53d017fdcc73.jpg",
+            "mobile_image": "shopify://shop_images/seavees_mobile_header_311111.jpg",
             "heading": "Rediscover The Dream",
             "heading_size": "h1",
             "subheading": "A consciously-crafted, once-forgotten classic.",
             "button_label_1": "Shop Womens",
-            "button_link_1": "shopify:\/\/collections\/womens-all",
+            "button_link_1": "shopify://collections/womens-all",
             "button_label_2": "Shop Mens",
-            "button_link_2": "shopify:\/\/collections\/mens-best-sellers",
+            "button_link_2": "shopify://collections/mens-best-sellers",
             "button_style_secondary": false,
             "use_arrow_link": false,
             "box_align": "middle-center",
@@ -245,13 +235,13 @@
         "04688f63-0415-4571-b9c8-2d6b75c97e05": {
           "type": "slide",
           "settings": {
-            "desktop_image": "shopify:\/\/shop_images\/seavees_desktop_header_411111_ddeb5cbb-3783-4157-ba54-cb9220987e3e.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/SS21_HP_Full_Width_044e219f-462e-4df0-a852-ea460c3ea7ca.jpg",
+            "desktop_image": "shopify://shop_images/seavees_desktop_header_411111_ddeb5cbb-3783-4157-ba54-cb9220987e3e.jpg",
+            "mobile_image": "shopify://shop_images/SS21_HP_Full_Width_044e219f-462e-4df0-a852-ea460c3ea7ca.jpg",
             "heading": "Fresh for Spring",
             "heading_size": "h1",
             "subheading": "These are the shoes you keep coming back for.",
             "button_label_1": "Shop Classics",
-            "button_link_1": "shopify:\/\/collections\/womens-classics",
+            "button_link_1": "shopify://collections/womens-classics",
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary": false,
@@ -286,45 +276,41 @@
         "column2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HP_Secondary_Tile_800x1000-Womens-min_2cb47bc5-b5b2-47b2-b50d-573e4bb2cc7d.jpg",
+            "image": "shopify://shop_images/HP_Secondary_Tile_800x1000-Womens-min_2cb47bc5-b5b2-47b2-b50d-573e4bb2cc7d.jpg",
             "title": "Womens New Arrivals",
             "font_style": "h3",
-            "text": "<p><\/p>",
+            "text": "<p></p>",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/womens-new-arrivals",
+            "link": "shopify://collections/womens-new-arrivals",
             "info_on_image": false
           }
         },
         "column1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HP_Secondary_Tile_800x1000-Mens-min_7970613b-ed20-4c4c-8208-424a971fe8e0.jpg",
+            "image": "shopify://shop_images/HP_Secondary_Tile_800x1000-Mens-min_7970613b-ed20-4c4c-8208-424a971fe8e0.jpg",
             "title": "Mens New Arrivals",
             "font_style": "h3",
-            "text": "<p><\/p>",
+            "text": "<p></p>",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/mens-new-arrivals",
+            "link": "shopify://collections/mens-new-arrivals",
             "info_on_image": false
           }
         },
         "290060ab-d2f9-4269-bc1d-a7148a4da2dd": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HP_Secondary_Tile_800x1000-Steven_Tiller-min.jpg",
+            "image": "shopify://shop_images/HP_Secondary_Tile_800x1000-Steven_Tiller-min.jpg",
             "title": "Daydreamer Series",
             "font_style": "h3",
-            "text": "<p><\/p>",
+            "text": "<p></p>",
             "link_label": "Read The Story",
-            "link": "\/blogs\/journal\/daydreamer-series-it-s-never-too-late-to-start-your-dream",
+            "link": "/blogs/journal/daydreamer-series-it-s-never-too-late-to-start-your-dream",
             "info_on_image": false
           }
         }
       },
-      "block_order": [
-        "column2",
-        "column1",
-        "290060ab-d2f9-4269-bc1d-a7148a4da2dd"
-      ],
+      "block_order": ["column2", "column1", "290060ab-d2f9-4269-bc1d-a7148a4da2dd"],
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -356,7 +342,7 @@
         "16498083081347e1fe-1": {
           "type": "text",
           "settings": {
-            "text": "<p>For every shoe purchase you make, SeaVees will donate $5 to SeaTrees for Earth Month.<\/p>",
+            "text": "<p>For every shoe purchase you make, SeaVees will donate $5 to SeaTrees for Earth Month.</p>",
             "text_style": "body"
           }
         },
@@ -364,19 +350,15 @@
           "type": "button",
           "settings": {
             "button_label": "Learn More",
-            "button_link": "shopify:\/\/pages\/seatrees",
+            "button_link": "shopify://pages/seatrees",
             "use_arrow_link": false,
             "button_style_secondary": false
           }
         }
       },
-      "block_order": [
-        "16498083081347e1fe-0",
-        "16498083081347e1fe-1",
-        "16498083081347e1fe-2"
-      ],
+      "block_order": ["16498083081347e1fe-0", "16498083081347e1fe-1", "16498083081347e1fe-2"],
       "settings": {
-        "image": "shopify:\/\/shop_images\/seatrees_mobile_header_111111_v2.jpg",
+        "image": "shopify://shop_images/seatrees_mobile_header_111111_v2.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "full_width": false,
@@ -398,7 +380,7 @@
       "settings": {
         "title": "Shop Crowd Favorites",
         "heading_size": "h2",
-        "description": "<p><\/p>",
+        "description": "<p></p>",
         "description_style": "body",
         "columns_desktop": 3,
         "full_width": true,
@@ -436,7 +418,7 @@
         "16497985735c91a62a-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Want to Win $10,000 For Your Dream?<\/p>",
+            "text": "<p>Want to Win $10,000 For Your Dream?</p>",
             "text_style": "h2"
           }
         },
@@ -453,7 +435,7 @@
           "type": "button",
           "settings": {
             "button_label": "Enter to Win",
-            "button_link": "shopify:\/\/pages\/daydreamer-contest",
+            "button_link": "shopify://pages/daydreamer-contest",
             "use_arrow_link": true,
             "button_style_secondary": false
           }
@@ -465,7 +447,7 @@
         "16497985735c91a62a-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Daydreamer_Collective_SocialSocial_1080x1080_1_copy_20_f175dbcc-a8bb-4e0b-8147-ffc892819feb.jpg",
+        "image": "shopify://shop_images/Daydreamer_Collective_SocialSocial_1080x1080_1_copy_20_f175dbcc-a8bb-4e0b-8147-ffc892819feb.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "full_width": true,
@@ -487,7 +469,7 @@
         "1649740012e29d09f7-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We all have dreams. And sometimes they end up on a shelf.<br\/><\/p><p>Our brand was quite literally put on a shelf for nearly 40 years before it was rediscovered at a second hand shop in Tokyo and brought back to life in California—the state where dreams come true, or in our case, have a second chance.<\/p><p>SeaVees®. Rediscover the dream.<\/p>",
+            "text": "<p>We all have dreams. And sometimes they end up on a shelf.<br/></p><p>Our brand was quite literally put on a shelf for nearly 40 years before it was rediscovered at a second hand shop in Tokyo and brought back to life in California—the state where dreams come true, or in our case, have a second chance.</p><p>SeaVees®. Rediscover the dream.</p>",
             "use_heading_font": true,
             "font_color": "#3d93e1"
           }
@@ -496,17 +478,14 @@
           "type": "button",
           "settings": {
             "button_label": "Learn More",
-            "button_link": "shopify:\/\/pages\/about",
+            "button_link": "shopify://pages/about",
             "button_style_secondary": false,
             "use_arrow_link": true,
             "link_color": "#3d93e1"
           }
         }
       },
-      "block_order": [
-        "1649740012e29d09f7-1",
-        "1649740012e29d09f7-2"
-      ],
+      "block_order": ["1649740012e29d09f7-1", "1649740012e29d09f7-2"],
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
@@ -523,7 +502,7 @@
     "16497990090566f2cc": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"product--ugc-gallery page-width\">\n    <div class=\"product-ugc__textcontent no-ugc\" style=\"margin-bottom: 5rem;\">\n      <h2 class=\"product-ugc__heading\" style=\"text-align: center; margin-bottom: 1rem;\">#StyledInSeaVees<\/h2>\n      <p class=\"product-ugc__subheading\" style=\"text-align: center;\">Tag @seavees to be featured.<\/p>\n    <\/div>\n<script src=\"\/\/foursixty.com\/media\/scripts\/fs.embed.v2.5.js\" data-feed-id=\"seavees_1\" data-theme=\"lookbook_v2_5\" data-open-links-in-same-page=\"true\" data-connector-filter=\"45833\" data-page-size=\"4\"><\/script>\n\n<\/div>\n\n<style>.fs-has-links { display:none; } .fs-wrapper div.fs-text-container .fs-entry-title, div.fs-detail-title { font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;;font-style:normal;font-weight:normal;font-size:18px; } div.fs-text-container .fs-entry-date, div.fs-detail-container .fs-post-info, div.fs-wrapper div.fs-has-links::after, .fs-text-product, .fs-overlink-text { font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;;font-style:normal;font-weight:normal;font-size:18px; } .fs-wrapper div.fs-text-container * { color:#ffffff; } .fs-wrapper div.fs-text-container { background-color:rgba(0, 0, 0, 0);margin:0px; } div.fs-entry-date { display:none; } div.fs-service-icon { display:none; } div.fs-entry-title { display:none; } .fs-lookbook_v2_5.fs-wrapper div.fs-timeline-entry { margin:4px; } .fs-mobile div.fs-entry-container { height: 0; width: calc(100% \/ 2) !important; padding-top: calc(100% \/ 2) !important; } .fs-desktop div.fs-entry-container { height: 0; width: calc(100% \/ 4) !important; padding-top: calc(100% \/ 4) !important; }\n<\/style>",
+        "custom_liquid": "<div class=\"product--ugc-gallery page-width\">\n    <div class=\"product-ugc__textcontent no-ugc\" style=\"margin-bottom: 5rem;\">\n      <h2 class=\"product-ugc__heading\" style=\"text-align: center; margin-bottom: 1rem;\">#StyledInSeaVees</h2>\n      <p class=\"product-ugc__subheading\" style=\"text-align: center;\">Tag @seavees to be featured.</p>\n    </div>\n<script src=\"//foursixty.com/media/scripts/fs.embed.v2.5.js\" data-feed-id=\"seavees_1\" data-theme=\"lookbook_v2_5\" data-open-links-in-same-page=\"true\" data-connector-filter=\"45833\" data-page-size=\"4\"></script>\n\n</div>\n\n<style>.fs-has-links { display:none; } .fs-wrapper div.fs-text-container .fs-entry-title, div.fs-detail-title { font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;;font-style:normal;font-weight:normal;font-size:18px; } div.fs-text-container .fs-entry-date, div.fs-detail-container .fs-post-info, div.fs-wrapper div.fs-has-links::after, .fs-text-product, .fs-overlink-text { font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;;font-style:normal;font-weight:normal;font-size:18px; } .fs-wrapper div.fs-text-container * { color:#ffffff; } .fs-wrapper div.fs-text-container { background-color:rgba(0, 0, 0, 0);margin:0px; } div.fs-entry-date { display:none; } div.fs-service-icon { display:none; } div.fs-entry-title { display:none; } .fs-lookbook_v2_5.fs-wrapper div.fs-timeline-entry { margin:4px; } .fs-mobile div.fs-entry-container { height: 0; width: calc(100% / 2) !important; padding-top: calc(100% / 2) !important; } .fs-desktop div.fs-entry-container { height: 0; width: calc(100% / 4) !important; padding-top: calc(100% / 4) !important; }\n</style>",
         "color_scheme": "background-2",
         "padding_top": 32,
         "padding_bottom": 100
@@ -536,32 +515,29 @@
         "1647017821b513cad8-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/seavees_newport_beach_square_111211_2b955e9c-c308-46e9-ba68-595bbe338450.jpg",
+            "image": "shopify://shop_images/seavees_newport_beach_square_111211_2b955e9c-c308-46e9-ba68-595bbe338450.jpg",
             "title": "Our Stores",
             "font_style": "h3",
-            "text": "<p>SeaVees stores are a sunbeamed passage into a 1960s California dream. Community clubhouses that lovingly celebrate the Golden State in its golden age. Each shop is a unique immersive experience inspired by the salt-washed origins of the particular locale.<\/p>",
+            "text": "<p>SeaVees stores are a sunbeamed passage into a 1960s California dream. Community clubhouses that lovingly celebrate the Golden State in its golden age. Each shop is a unique immersive experience inspired by the salt-washed origins of the particular locale.</p>",
             "link_label": "Hours & Information",
-            "link": "shopify:\/\/pages\/stores",
+            "link": "shopify://pages/stores",
             "info_on_image": false
           }
         },
         "1647017821b513cad8-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/about_seavees_133211.jpg",
+            "image": "shopify://shop_images/about_seavees_133211.jpg",
             "title": "About SeaVees",
             "font_style": "h3",
-            "text": "<p>With a groundbreaking advertising campaign throughout the 1960s, SeaVees pioneered the transformation of the sneaker from gym shoe to casual shoe.<\/p>",
+            "text": "<p>With a groundbreaking advertising campaign throughout the 1960s, SeaVees pioneered the transformation of the sneaker from gym shoe to casual shoe.</p>",
             "link_label": "Learn More",
-            "link": "shopify:\/\/pages\/about",
+            "link": "shopify://pages/about",
             "info_on_image": false
           }
         }
       },
-      "block_order": [
-        "1647017821b513cad8-0",
-        "1647017821b513cad8-1"
-      ],
+      "block_order": ["1647017821b513cad8-0", "1647017821b513cad8-1"],
       "settings": {
         "title": "",
         "heading_size": "h2",
@@ -593,16 +569,13 @@
         "1650393974c5f0d78e-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Our SeaVees stores are a window into the beginnings of our brand—our first and second life—in sunny California.<\/p>",
+            "text": "<p>Our SeaVees stores are a window into the beginnings of our brand—our first and second life—in sunny California.</p>",
             "use_heading_font": false,
             "font_color": ""
           }
         }
       },
-      "block_order": [
-        "1650393974c5f0d78e-0",
-        "1650393974c5f0d78e-1"
-      ],
+      "block_order": ["1650393974c5f0d78e-0", "1650393974c5f0d78e-1"],
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
@@ -623,10 +596,10 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Santa Barbara",
-            "image": "shopify:\/\/shop_images\/seavees_santa_barbara_square_111_2.jpg",
+            "image": "shopify://shop_images/seavees_santa_barbara_square_111_2.jpg",
             "image_ratio": "adapt",
             "icon": "none",
-            "row_content": "<p>The original California Clubhouse, our hometown flagship is the physical manifestation of our vision. Located in the heart of Santa Barbara’s Funk Zone at the intersection of the sea and downtown.<\/p><p><strong>Phone: <\/strong><a href=\"tel:+18054569798\" title=\"tel:+18054569798\">(805) 456-9798<\/a><\/p><p><strong>Address: <\/strong><a href=\"https:\/\/g.page\/SeaVees?share\">24 E Mason St, Santa Barbara, CA, 93101<\/a><\/p><p><a href=\"\/pages\/stores\" title=\"Stores\">View Hours & Information<\/a><\/p>",
+            "row_content": "<p>The original California Clubhouse, our hometown flagship is the physical manifestation of our vision. Located in the heart of Santa Barbara’s Funk Zone at the intersection of the sea and downtown.</p><p><strong>Phone: </strong><a href=\"tel:+18054569798\" title=\"tel:+18054569798\">(805) 456-9798</a></p><p><strong>Address: </strong><a href=\"https://g.page/SeaVees?share\">24 E Mason St, Santa Barbara, CA, 93101</a></p><p><a href=\"/pages/stores\" title=\"Stores\">View Hours & Information</a></p>",
             "page": ""
           }
         },
@@ -634,10 +607,10 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Newport Beach",
-            "image": "shopify:\/\/shop_images\/seavees_newport_beach_square_111_1.jpg",
+            "image": "shopify://shop_images/seavees_newport_beach_square_111_1.jpg",
             "image_ratio": "adapt",
             "icon": "none",
-            "row_content": "<p>A reclaimed 1940s-era cottage that anchors the historic Lido Marina on the Balboa Peninsula side of Newport Bay.<\/p><p><strong>Phone<\/strong>: <a href=\"tel:+19494238077\" title=\"tel:+19494238077\">(949) 423-8077<\/a><\/p><p><strong>Address:<\/strong> <a href=\"https:\/\/goo.gl\/maps\/GkqSp9xRwGdDNn5Y7\">3377 Via Lido, Newport Beach, CA 92663<\/a><\/p><p><a href=\"\/pages\/stores\" title=\"Stores\">View Hours & Information<\/a><\/p>",
+            "row_content": "<p>A reclaimed 1940s-era cottage that anchors the historic Lido Marina on the Balboa Peninsula side of Newport Bay.</p><p><strong>Phone</strong>: <a href=\"tel:+19494238077\" title=\"tel:+19494238077\">(949) 423-8077</a></p><p><strong>Address:</strong> <a href=\"https://goo.gl/maps/GkqSp9xRwGdDNn5Y7\">3377 Via Lido, Newport Beach, CA 92663</a></p><p><a href=\"/pages/stores\" title=\"Stores\">View Hours & Information</a></p>",
             "page": ""
           }
         },
@@ -645,10 +618,10 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Marin",
-            "image": "shopify:\/\/shop_images\/Marin_Store.jpg",
+            "image": "shopify://shop_images/Marin_Store.jpg",
             "image_ratio": "adapt",
             "icon": "none",
-            "row_content": "<p>Our third store is ﻿nestled between the Golden Gate Bridge and Mt. Tamalpais in beautiful Marin County. <\/p><p>Opening Saturday December 3, 2022 in the Tam Junction district of Mill Valley, it marks our debut in Northern California.<\/p>",
+            "row_content": "<p>Our third store is ﻿nestled between the Golden Gate Bridge and Mt. Tamalpais in beautiful Marin County. </p><p>Opening Saturday December 3, 2022 in the Tam Junction district of Mill Valley, it marks our debut in Northern California.</p>",
             "page": ""
           }
         }
