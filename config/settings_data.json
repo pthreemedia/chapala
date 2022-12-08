@@ -119,7 +119,7 @@
               "link_style": "underline",
               "font": "lato",
               "countdown_date": "2022-12-09 11:59 PM",
-              "color_scheme": "accent-3"
+              "color_scheme": "accent-1"
             }
           },
           "b02319df-3561-47db-8787-8de4610da820": {
@@ -137,7 +137,6 @@
           },
           "c5dc7240-53a9-4d80-8f47-453f7c3e8574": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
               "heading": "Free Shipping on Orders Over $100. Free Returns.",
               "link": "",
