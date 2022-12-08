@@ -377,8 +377,8 @@
 
 @media screen and (max-width: 749px) {
   .hero-banner__content, .hero-banner__heading, .hero-banner__text {
-    color: rgba(1, 46, 92, 1);
-    background-color: #ffffff;
+/*     color: rgba(1, 46, 92, 1);
+    background-color: #ffffff; */
   }
 }
 
