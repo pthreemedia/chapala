@@ -137,6 +137,7 @@
           },
           "c5dc7240-53a9-4d80-8f47-453f7c3e8574": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "heading": "Free Shipping on Orders Over $100. Free Returns.",
               "link": "",
