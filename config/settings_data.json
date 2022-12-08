@@ -114,12 +114,12 @@
             "type": "announcement",
             "settings": {
               "heading": "Flash Sale - Take 30% off footwear with code FLASH30. Ends at Midnight:",
-              "link": "",
-              "cta_text": "",
+              "link": "shopify:\/\/pages\/gift-guide",
+              "cta_text": ".",
               "link_style": "underline",
               "font": "lato",
               "countdown_date": "2022-12-13 12:00 AM",
-              "color_scheme": "accent-1"
+              "color_scheme": "accent-3"
             }
           },
           "b02319df-3561-47db-8787-8de4610da820": {
