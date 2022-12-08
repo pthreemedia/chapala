@@ -110,8 +110,21 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
+          "2a864d09-3ffd-4238-a5d8-5c60b6850024": {
+            "type": "announcement",
+            "settings": {
+              "heading": "Flash Sale - Take 30% off footwear with code FLASH30. Ends at Midnight:",
+              "link": "shopify:\/\/collections\/shoe-care",
+              "cta_text": ".",
+              "link_style": "underline",
+              "font": "lato",
+              "countdown_date": "2022-12-09 11:59 PM",
+              "color_scheme": "accent-3"
+            }
+          },
           "b02319df-3561-47db-8787-8de4610da820": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "heading": "The Holiday Gift Guide is here.",
               "link": "shopify:\/\/pages\/gift-guide",
@@ -124,6 +137,7 @@
           },
           "c5dc7240-53a9-4d80-8f47-453f7c3e8574": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "heading": "Free Shipping on Orders Over $100. Free Returns.",
               "link": "",
@@ -133,25 +147,12 @@
               "countdown_date": "",
               "color_scheme": "accent-1"
             }
-          },
-          "2a864d09-3ffd-4238-a5d8-5c60b6850024": {
-            "type": "announcement",
-            "disabled": true,
-            "settings": {
-              "heading": "30 Day Dream Fit Guarantee.",
-              "link": "",
-              "cta_text": "",
-              "link_style": "underline",
-              "font": "lato",
-              "countdown_date": "",
-              "color_scheme": "accent-2"
-            }
           }
         },
         "block_order": [
+          "2a864d09-3ffd-4238-a5d8-5c60b6850024",
           "b02319df-3561-47db-8787-8de4610da820",
-          "c5dc7240-53a9-4d80-8f47-453f7c3e8574",
-          "2a864d09-3ffd-4238-a5d8-5c60b6850024"
+          "c5dc7240-53a9-4d80-8f47-453f7c3e8574"
         ],
         "settings": {
           "controls_position": "inline",

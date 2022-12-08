@@ -22,7 +22,7 @@
         "template--14499865591882__fc2268e7-ca2d-4ff1-9c5d-173dca173e2b-1668707297e9d7d5fc-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Please be advised that shipping times may be slightly longer than normal due to order volume. <\/strong><\/p>",
+            "text": "<p>FLASH30 discount code excludes the Beyond And Back Boot and Sierra Adventure Boot. All sales are final on previously marked down sale products. <strong>Please be advised that shipping times may be slightly longer than normal due to order volume. <\/strong><\/p>",
             "use_heading_font": false,
             "font_color": ""
           }
@@ -146,7 +146,7 @@
       "settings": {
         "title": "Don't forget...",
         "heading_size": "h2",
-        "description": "",
+        "description": "<p><\/p>",
         "description_style": "body",
         "columns_desktop": 3,
         "full_width": false,
