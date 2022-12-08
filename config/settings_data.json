@@ -114,7 +114,7 @@
             "type": "announcement",
             "settings": {
               "heading": "Flash Sale - Take 30% off footwear with code FLASH30. Ends at Midnight:",
-              "link": "shopify:\/\/collections\/shoe-care",
+              "link": "shopify:\/\/pages\/gift-guide",
               "cta_text": ".",
               "link_style": "underline",
               "font": "lato",
