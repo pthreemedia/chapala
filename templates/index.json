@@ -24,10 +24,10 @@
         "1648673671d11f3268-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Now",
-            "button_link_1": "shopify:\/\/pages\/adventure-collection",
-            "button_label_2": "",
-            "button_link_2": "\/discount\/cyber40?redirect=\/collections\/mens-all",
+            "button_label_1": "Shop Womens",
+            "button_link_1": "shopify:\/\/collections\/womens-all",
+            "button_label_2": "Shop Mens",
+            "button_link_2": "shopify:\/\/collections\/mens-all",
             "button_style_secondary": true,
             "use_arrow_link": false,
             "hide_block_on_mobile": false,
