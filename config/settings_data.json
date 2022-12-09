@@ -112,18 +112,6 @@
         "blocks": {
           "2a864d09-3ffd-4238-a5d8-5c60b6850024": {
             "type": "announcement",
-            "settings": {
-              "heading": "Flash Sale - Take 30% off footwear with code FLASH30. Ends at Midnight:",
-              "link": "",
-              "cta_text": "",
-              "link_style": "underline",
-              "font": "lato",
-              "countdown_date": "2022-12-13 12:00 AM",
-              "color_scheme": "accent-1"
-            }
-          },
-          "2a864d09-3ffd-4238-a5d8-5c60b6850024": {
-            "type": "announcement",
             "disabled": true,
             "settings": {
               "heading": "The Holiday Gift Guide is here.",
@@ -143,15 +131,27 @@
               "cta_text": "",
               "link_style": "underline",
               "font": "lato",
-              "countdown_date": "",
+              "countdown_date": "2022-12-12 12:00 AM",
+              "color_scheme": "accent-1"
+            }
+          },
+          "54c45f4d-1dd6-4a10-8cf5-d21d87e0182e": {
+            "type": "announcement",
+            "settings": {
+              "heading": "Get 30% off footwear today only with code FLASH30.",
+              "link": "",
+              "cta_text": "",
+              "link_style": "underline",
+              "font": "lato",
+              "countdown_date": "2022-12-12 12:00 AM",
               "color_scheme": "accent-1"
             }
           }
         },
         "block_order": [
           "2a864d09-3ffd-4238-a5d8-5c60b6850024",
-          "b02319df-3561-47db-8787-8de4610da820",
-          "c5dc7240-53a9-4d80-8f47-453f7c3e8574"
+          "c5dc7240-53a9-4d80-8f47-453f7c3e8574",
+          "54c45f4d-1dd6-4a10-8cf5-d21d87e0182e"
         ],
         "settings": {
           "controls_position": "inline",
@@ -507,6 +507,7 @@
         "blocks": {
           "3d1ddb4b-8e69-4f60-9bf3-5284d0611e5f": {
             "type": "grid_content",
+            "disabled": true,
             "settings": {
               "grid_content_id": "spliced-test-1",
               "grid_position": "1",
@@ -523,6 +524,7 @@
           },
           "e0789ffc-fa50-430e-a6c2-665ca3d37f4f": {
             "type": "grid_content",
+            "disabled": true,
             "settings": {
               "grid_content_id": "spliced-test-1",
               "grid_position": "2",
@@ -539,6 +541,7 @@
           },
           "56b35a7f-b412-4e71-97e6-9c07a99ae90f": {
             "type": "grid_content",
+            "disabled": true,
             "settings": {
               "grid_content_id": "spliced-test-1",
               "grid_position": "3",
