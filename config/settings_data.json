@@ -123,18 +123,6 @@
               "color_scheme": "accent-1"
             }
           },
-          "c5dc7240-53a9-4d80-8f47-453f7c3e8574": {
-            "type": "announcement",
-            "settings": {
-              "heading": "Free Shipping on Orders Over $100. Free Returns.",
-              "link": "",
-              "cta_text": "",
-              "link_style": "underline",
-              "font": "lato",
-              "countdown_date": "2022-12-12 12:00 AM",
-              "color_scheme": "accent-1"
-            }
-          },
           "54c45f4d-1dd6-4a10-8cf5-d21d87e0182e": {
             "type": "announcement",
             "settings": {
@@ -146,12 +134,24 @@
               "countdown_date": "2022-12-12 12:00 AM",
               "color_scheme": "accent-1"
             }
+          },
+          "c5dc7240-53a9-4d80-8f47-453f7c3e8574": {
+            "type": "announcement",
+            "settings": {
+              "heading": "Free Shipping on Orders Over $100. Free Returns.",
+              "link": "",
+              "cta_text": "",
+              "link_style": "underline",
+              "font": "lato",
+              "countdown_date": "2022-12-12 12:00 AM",
+              "color_scheme": "accent-1"
+            }
           }
         },
         "block_order": [
           "2a864d09-3ffd-4238-a5d8-5c60b6850024",
-          "c5dc7240-53a9-4d80-8f47-453f7c3e8574",
-          "54c45f4d-1dd6-4a10-8cf5-d21d87e0182e"
+          "54c45f4d-1dd6-4a10-8cf5-d21d87e0182e",
+          "c5dc7240-53a9-4d80-8f47-453f7c3e8574"
         ],
         "settings": {
           "controls_position": "inline",
