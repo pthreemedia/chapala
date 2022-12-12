@@ -6,7 +6,7 @@
         "1648673671d11f3268-0": {
           "type": "heading",
           "settings": {
-            "heading": "Green Monday Flash Sale",
+            "heading": "The Adventure Collection",
             "heading_2": "",
             "font_size": "h1",
             "hide_block_on_mobile": false,
@@ -16,7 +16,7 @@
         "1648673671d11f3268-1": {
           "type": "text",
           "settings": {
-            "text": "Get 30% off footwear today only with code FLASH30. Exclusions apply.",
+            "text": "The comfort of a sneaker in a boot that's ready to get out there. ",
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
           }
@@ -24,9 +24,9 @@
         "1648673671d11f3268-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Womens",
-            "button_link_1": "\/discount\/flash30?redirect=\/collections\/womens-all",
-            "button_label_2": "Shop Mens",
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify:\/\/pages\/adventure-collection",
+            "button_label_2": "",
             "button_link_2": "\/discount\/flash30?redirect=\/collections\/mens-all",
             "button_style_secondary": true,
             "use_arrow_link": false,
@@ -44,14 +44,14 @@
         "use_video_background": false,
         "hero_video_desktop": "",
         "hero_video_mobile": "",
-        "image_desktop": "shopify:\/\/shop_images\/Green_Monday_Homepage-Desktop_V2_compressed-min.gif",
-        "image_mobile": "shopify:\/\/shop_images\/Green_Monday_HP-Mobile_v2_compressed-min.gif",
+        "image_desktop": "shopify:\/\/shop_images\/Adventure_Collection_Homepage-min_f42b8f4f-630b-4b5f-be3d-bcc5e3b7ce6e.gif",
+        "image_mobile": "shopify:\/\/shop_images\/Adventure_Collection_Homepage_Mobile-min_3e06e4aa-ad1d-4530-b602-3d5ed93a8500.gif",
         "image_overlay_opacity": 0,
         "adapt_height_first_image": true,
         "text_image_separate": false,
         "show_text_box": false,
         "desktop_content_half": "left",
-        "banner_content_half_color": "background-3",
+        "banner_content_half_color": "accent-1",
         "desktop_text_box_vertical_position": "center",
         "desktop_text_box_horizontal_position": "center",
         "desktop_text_alignment": "center"
@@ -298,10 +298,10 @@
         "column1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HP_Secondary_Tile_800x1000-Mens-min_7970613b-ed20-4c4c-8208-424a971fe8e0.jpg",
+            "image": "shopify:\/\/shop_images\/HP_Secondary_Tile_800x1000-Mens.jpg",
             "title": "Mens New Arrivals",
             "font_style": "h3",
-            "text": "<p><\/p>",
+            "text": "",
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/mens-new-arrivals",
             "info_on_image": false
@@ -310,10 +310,10 @@
         "290060ab-d2f9-4269-bc1d-a7148a4da2dd": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HP_Secondary_Tile_800x1000-Steven_Tiller-min.jpg",
+            "image": "shopify:\/\/shop_images\/HP_Secondary_Tile_800x1000-Loria_Stern.jpg",
             "title": "Daydreamer Series",
             "font_style": "h3",
-            "text": "<p><\/p>",
+            "text": "",
             "link_label": "Read The Story",
             "link": "\/blogs\/journal\/daydreamer-series-it-s-never-too-late-to-start-your-dream",
             "info_on_image": false

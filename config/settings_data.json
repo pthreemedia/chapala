@@ -112,7 +112,6 @@
         "blocks": {
           "2a864d09-3ffd-4238-a5d8-5c60b6850024": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
               "heading": "The Holiday Gift Guide is here.",
               "link": "shopify:\/\/pages\/gift-guide",
@@ -125,6 +124,7 @@
           },
           "54c45f4d-1dd6-4a10-8cf5-d21d87e0182e": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "heading": "Get 30% off footwear today only with code FLASH30. Ends in",
               "link": "",
