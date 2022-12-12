@@ -2,6 +2,7 @@
   "sections": {
     "16488310261a494101": {
       "type": "hero-banner",
+      "disabled": true,
       "settings": {
         "use_video_background": false,
         "hero_video_desktop": "",
@@ -40,7 +41,7 @@
         "16488312478cd1b1a5-1": {
           "type": "text",
           "settings": {
-            "text": "<p>SeaVees is growing and we need some help keeping up. Immediate positions are currently available. If you don't see your California dream job below, check back soon for updated opportunities.<\/p>",
+            "text": "<p>Check out what people are saying about SeaVees. Press inquiries? Reach out to <a href=\"mailto:press@seavees.com\"><span style=\"text-decoration:underline\">press@seavees.com<\/span><\/a><\/p>",
             "use_heading_font": false,
             "font_color": ""
           }
@@ -53,7 +54,7 @@
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
-        "narrow": false,
+        "narrow": true,
         "is_page_header": false,
         "mobile_content_align": "center",
         "desktop_content_align": "center",
@@ -72,9 +73,9 @@
             "image": "shopify:\/\/shop_images\/ny7.png",
             "title": "",
             "font_style": "h3",
-            "text": "<p>Based at our new Mill Valley store, the Store Manager is responsible for overseeing the operational execution of the retail store.<\/p>",
-            "link_label": "View Details",
-            "link": "shopify:\/\/pages\/careers-store-manager-mill-valley-ca",
+            "text": "<p>“Jungmaven, hands down the coolest maker of hemp clothing on the planet, has teamed up with sneaker brand SeaVees to reimagine Seavees’ best-selling styles in sustainably grown hemp.”<\/p>",
+            "link_label": "Read More",
+            "link": "https:\/\/nymag.com\/strategist\/2022\/09\/things-thatll-sell-out-noah-jungmaven.html",
             "info_on_image": false
           }
         },
@@ -84,9 +85,9 @@
             "image": "shopify:\/\/shop_images\/Forbes.png",
             "title": "",
             "font_style": "h3",
-            "text": "<p>Based at our new Mill Valley retail store, this role provides support to the Store Manager in order to achieve the highest levels of customer service sales.<\/p>",
-            "link_label": "View Details",
-            "link": "shopify:\/\/pages\/careers-assistant-store-manager-mill-valley",
+            "text": "<p>“Fashionable Gifts for New Moms: Slippers She’ll Never Want To Take Off. She’ll live in these plush slippers made from recycled fleece. The easy slip-on design means she can keep her feet toasty during middle-of-the-night feedings and the durable sole allows her to keep them on even if she steps outside. Another thing to feel good about: A percentage of each purchase helps fund efforts to restore coastal ecosystems.”<\/p>",
+            "link_label": "Read More",
+            "link": "",
             "info_on_image": false
           }
         },
@@ -96,9 +97,9 @@
             "image": "shopify:\/\/shop_images\/gear_patrol_74eb2e72-73d7-4573-9a37-3b101edc854c.png",
             "title": "",
             "font_style": "h3",
-            "text": "<p>Retail Key Holders are responsible for opening and closing the store, working directly with the Assistant<br\/>Manager and Store Manager.<\/p>",
-            "link_label": "View Details",
-            "link": "shopify:\/\/pages\/careers-retail-key-holder-mill-valley",
+            "text": "<p>“15 Style Releases We’re Obessed With This Week. Part sneaker, part boot, SeaVees's Beyond And Back CVO Boot with adventure photographer Jeff Johnson features a high-top collar, thick outsole and long run of metal eyelets. It's super breathable but will totally work late into fall.”<\/p>",
+            "link_label": "Read More",
+            "link": "https:\/\/www.gearpatrol.com\/style\/g40723467\/style-releases-new-watches-july-29-2022\/",
             "info_on_image": false
           }
         },
@@ -106,11 +107,11 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/La_Times.png",
-            "title": "Retail Sales Associate - Mill Valley",
+            "title": "",
             "font_style": "h3",
             "text": "<p>We are looking for a positive self-starter and team<br\/>player who is detail-oriented and solution-driven. <\/p>",
-            "link_label": "View Details",
-            "link": "shopify:\/\/pages\/retail-sales-associate-mill-valley",
+            "link_label": "Learn More",
+            "link": "https:\/\/www.latimes.com\/travel\/story\/2022-08-16\/best-california-college-towns-things-to-do",
             "info_on_image": false
           }
         },
