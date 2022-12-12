@@ -69,7 +69,8 @@
         "99120ec1-67d8-4e34-8855-930ee3f22b43": {
           "type": "column",
           "settings": {
-            "title": "Store Manager - Mill Valley",
+            "image": "shopify:\/\/shop_images\/ny7.png",
+            "title": "",
             "font_style": "h3",
             "text": "<p>Based at our new Mill Valley store, the Store Manager is responsible for overseeing the operational execution of the retail store.<\/p>",
             "link_label": "View Details",
@@ -80,7 +81,8 @@
         "8199bab9-932a-4f4d-952b-adbae403d716": {
           "type": "column",
           "settings": {
-            "title": "Assistant Store Manager - Mill Valley",
+            "image": "shopify:\/\/shop_images\/Forbes.png",
+            "title": "",
             "font_style": "h3",
             "text": "<p>Based at our new Mill Valley retail store, this role provides support to the Store Manager in order to achieve the highest levels of customer service sales.<\/p>",
             "link_label": "View Details",
@@ -91,7 +93,8 @@
         "c6ae60f4-21ff-4c88-8bd9-80bebf7f42b1": {
           "type": "column",
           "settings": {
-            "title": "Retail Key Holder – Mill Valley",
+            "image": "shopify:\/\/shop_images\/gear_patrol_74eb2e72-73d7-4573-9a37-3b101edc854c.png",
+            "title": "",
             "font_style": "h3",
             "text": "<p>Retail Key Holders are responsible for opening and closing the store, working directly with the Assistant<br\/>Manager and Store Manager.<\/p>",
             "link_label": "View Details",
@@ -102,6 +105,7 @@
         "d32262e6-10d1-4e75-882a-8ac07dea52be": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/La_Times.png",
             "title": "Retail Sales Associate - Mill Valley",
             "font_style": "h3",
             "text": "<p>We are looking for a positive self-starter and team<br\/>player who is detail-oriented and solution-driven. <\/p>",
@@ -160,7 +164,7 @@
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 2,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
