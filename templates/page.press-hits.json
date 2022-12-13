@@ -118,11 +118,12 @@
         "16488307761b149624-0": {
           "type": "column",
           "settings": {
-            "title": "Retail Sales Associate",
+            "image": "shopify:\/\/shop_images\/Parade.png",
+            "title": "",
             "font_style": "h3",
-            "text": "<p>Based at our Newport Beach , CA retail store, this role is essential to the face and embodiment of the SeaVees brand and involves  creating an elevated retail experience for all new and returning SeaVees customers.<\/p>",
-            "link_label": "View Details",
-            "link": "shopify:\/\/pages\/careers-retail-sales-associate-newport-beach",
+            "text": "<p>“Wedding Season Is Back! Here Are The 45 Best Shoes to Wear With Dresses. One easy way to pull off the sneaker-with-a-dress look is to opt for a platform shoe, as it gives you a similar effect to a heel. And this pair of Baja Slip-On Platforms from casual sneaker pioneer SeaVees is no-fuss and versatile. It's also made with the company's signature cooling system to keep your feet feeling fresh on even the hottest days.”<\/p>",
+            "link_label": "Read More",
+            "link": "https:\/\/parade.com\/1367317\/danaschulz\/shoes-to-wear-with-dresses\/",
             "info_on_image": false
           }
         },
@@ -141,11 +142,12 @@
         "9d2288f3-ce8c-4967-82ff-696fbceb0690": {
           "type": "column",
           "settings": {
-            "title": "Open Application",
+            "image": "shopify:\/\/shop_images\/Liquid_salt.png",
+            "title": "",
             "font_style": "h3",
-            "text": "<p>Don't see something for you? Tell us your dream job at SeaVees here:<\/p>",
-            "link_label": "Contact Us",
-            "link": "mailto:careers@seavees.com",
+            "text": "<p>“In collaboration with surf photographer and adventurer Jeff Johnson, the Beyond & Back CVO high-top is a limited-edition summer-ready sneaker. Designed for the warmest months of the year, this shoe has you covered for all the adventures you'll take this summer.”<\/p>",
+            "link_label": "Read More",
+            "link": "https:\/\/www.liquidsaltmag.com\/gear-guide\/2022\/7\/27\/seevees-x-jeff-johnson-high-top",
             "info_on_image": false
           }
         }
