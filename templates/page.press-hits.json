@@ -91,18 +91,6 @@
             "info_on_image": false
           }
         },
-        "c6ae60f4-21ff-4c88-8bd9-80bebf7f42b1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/gear_patrol_74eb2e72-73d7-4573-9a37-3b101edc854c.png",
-            "title": "",
-            "font_style": "h3",
-            "text": "<p>“15 Style Releases We’re Obessed With This Week. Part sneaker, part boot, SeaVees's Beyond And Back CVO Boot with adventure photographer Jeff Johnson features a high-top collar, thick outsole and long run of metal eyelets. It's super breathable but will totally work late into fall.”<\/p>",
-            "link_label": "Read More",
-            "link": "https:\/\/www.gearpatrol.com\/style\/g40723467\/style-releases-new-watches-july-29-2022\/",
-            "info_on_image": false
-          }
-        },
         "d32262e6-10d1-4e75-882a-8ac07dea52be": {
           "type": "column",
           "settings": {
@@ -127,15 +115,51 @@
             "info_on_image": false
           }
         },
-        "16488307761b149624-1": {
+        "52dd139e-2f27-4606-a223-9b2d381963cf": {
           "type": "column",
-          "disabled": true,
           "settings": {
-            "title": "Retail Sales Associate",
+            "image": "shopify:\/\/shop_images\/Mens_Journal.png",
+            "title": "",
             "font_style": "h3",
-            "text": "<p>Based at our Santa Barbara, CA retail store, this role is essential to the face and embodiment of the SeaVees brand and involves  creating an elevated retail experience for all new and returning SeaVees customers.<\/p>",
-            "link_label": "View Details",
-            "link": "shopify:\/\/pages\/careers-retail-sales-associate-santa-barbara",
+            "text": "<p>“The coolest pieces of gear we tested this week. Have you ever been to a great thrift shop and found a well-designed, well-made product by a brand you haven’t heard of only to find out that they aren’t around anymore? Well that is what happened to revivers of SeaVees, except they brought back the brand for everyone to enjoy. But today, we are going to review on of their classics, the Huntington Middies. We think they look great with nearly any outfit from shorts to suits, and if you don’t believe us, just ask actor Brad Pitt.”<\/p>",
+            "link_label": "Read More",
+            "link": "https:\/\/www.mensjournal.com\/gear\/best-new-gear-coolest-gadgets-week\/seavees-huntington-middies\/",
+            "info_on_image": false
+          }
+        },
+        "c6ae60f4-21ff-4c88-8bd9-80bebf7f42b1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gear_patrol_74eb2e72-73d7-4573-9a37-3b101edc854c.png",
+            "title": "",
+            "font_style": "h3",
+            "text": "<p>“15 Style Releases We’re Obessed With This Week. Part sneaker, part boot, SeaVees's Beyond And Back CVO Boot with adventure photographer Jeff Johnson features a high-top collar, thick outsole and long run of metal eyelets. It's super breathable but will totally work late into fall.”<\/p>",
+            "link_label": "Read More",
+            "link": "https:\/\/www.gearpatrol.com\/style\/g40723467\/style-releases-new-watches-july-29-2022\/",
+            "info_on_image": false
+          }
+        },
+        "731421f0-b25f-4d69-a87d-491a85f64f2e": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/VegNews.png",
+            "title": "",
+            "font_style": "h3",
+            "text": "<p>The ultimate guide to the best vegan sneakers. “Founded in the ‘60s and revitalized in the ‘00s by Steven Tiller, SeaVees is responsible for positioning sneakers as an everyday shoe in modern American society (it was primarily for the gym or a kids-only option back then). SeaVees now offers a variety of vegan styles including these platform lace-up sneakers in adorable prints such as strawberries or planet Earth. It’s almost too cute to wear … almost!”<\/p>",
+            "link_label": "Read More",
+            "link": "https:\/\/vegnews.com\/vegan-guides\/fashion\/guide-best-vegan-sneakers",
+            "info_on_image": false
+          }
+        },
+        "716ca9b7-589b-4037-b531-88fab0ff339c": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FootwearNews.png",
+            "title": "",
+            "font_style": "h3",
+            "text": "<p>“Brad Pitt Pops in Sorbet Drawstring Suit and Slip-On Sneakers for ‘Bullet Train’ in Paris. When it came to shoes, Pitt continued his easygoing appearance in a pair of slip-on sneakers by SeaVees. The “Big Short” actor’s set included off-white canvas uppers and rounded toes, as well as flat rubber soles. The style added a casual air to his outfit, while providing a neutral base for its orange tones to stand out.”<\/p>",
+            "link_label": "Read More",
+            "link": "https:\/\/footwearnews.com\/2022\/fashion\/mens\/brad-pitt-slip-on-sneakers-orange-suit-bullet-train-paris-1203312627\/",
             "info_on_image": false
           }
         },
@@ -151,15 +175,39 @@
             "info_on_image": false
           }
         },
-        "52dd139e-2f27-4606-a223-9b2d381963cf": {
+        "45654f62-b3b6-4b1d-ac73-5e9c989864a1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mens_Journal.png",
-            "title": "Column",
+            "image": "shopify:\/\/shop_images\/VegOut.png",
+            "title": "",
             "font_style": "h3",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": "",
+            "text": "<p>“From grocery store trips and workdays to meetups with friends, these Baja Slip On Sneakers are our go-to shoes. They’re made in small batches with a recycled cotton canvas lining, cushioned footbed, and natural rubber outsole. SeaVees’ leopard pattern is to die for!”<\/p>",
+            "link_label": "Read More",
+            "link": "https:\/\/vegoutmag.com\/fashion-and-beauty\/vegan-sneakers-we-love\/",
+            "info_on_image": false
+          }
+        },
+        "5db7866f-5d9a-41cd-9515-c9c43b9aec62": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Upworthy.png",
+            "title": "",
+            "font_style": "h3",
+            "text": "<p>“In honor of World Oceans Day here are five brands that are making waves. <em>Sea<\/em> the change with these super stylish and comfortable shoes! One dollar from every pair of shoes in the collection goes to SeaTrees, a nonprofit that works to restore blue carbon coastal ecosystems and ocean health globally. The company also works with Un Mar de Colores, an organization that helps bring future generations of historically marginalized youths to the sport of surfing. And while they can’t yet let you walk on water, they do just fine in the sand—we’ve checked!”<\/p>",
+            "link_label": "Read More",
+            "link": "https:\/\/www.upworthy.com\/in-honor-of-world-oceans-day-heres-five-brands-that-are-making-waves",
+            "info_on_image": false
+          }
+        },
+        "561c0632-cce2-41ff-bd79-f023226ec3b3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TrendHunter.png",
+            "title": "",
+            "font_style": "h3",
+            "text": "<p>“Just in time for World Ocean Day on June 8th, responsibly made shoe brand SeaVees introduced the updated SeaChange collection. Every piece of this collection is made from recycled materials, from lace to sole. The uppers are made of pineapple yarn, vegan corn leather, or recycled cotton canvas, while the laces are made from post-consumer recycled plastic.”<\/p>",
+            "link_label": "Read More",
+            "link": "https:\/\/www.trendhunter.com\/trends\/seachange-collection",
             "info_on_image": false
           }
         }
@@ -167,12 +215,16 @@
       "block_order": [
         "99120ec1-67d8-4e34-8855-930ee3f22b43",
         "8199bab9-932a-4f4d-952b-adbae403d716",
-        "c6ae60f4-21ff-4c88-8bd9-80bebf7f42b1",
         "d32262e6-10d1-4e75-882a-8ac07dea52be",
         "16488307761b149624-0",
-        "16488307761b149624-1",
+        "52dd139e-2f27-4606-a223-9b2d381963cf",
+        "c6ae60f4-21ff-4c88-8bd9-80bebf7f42b1",
+        "731421f0-b25f-4d69-a87d-491a85f64f2e",
+        "716ca9b7-589b-4037-b531-88fab0ff339c",
         "9d2288f3-ce8c-4967-82ff-696fbceb0690",
-        "52dd139e-2f27-4606-a223-9b2d381963cf"
+        "45654f62-b3b6-4b1d-ac73-5e9c989864a1",
+        "5db7866f-5d9a-41cd-9515-c9c43b9aec62",
+        "561c0632-cce2-41ff-bd79-f023226ec3b3"
       ],
       "settings": {
         "title": "",
