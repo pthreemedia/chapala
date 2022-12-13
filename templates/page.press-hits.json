@@ -2,12 +2,12 @@
   "sections": {
     "16488310261a494101": {
       "type": "hero-banner",
-      "disabled": true,
       "settings": {
         "use_video_background": false,
         "hero_video_desktop": "",
         "hero_video_mobile": "",
-        "image_desktop": "shopify:\/\/shop_images\/Classcs_Sale_Home_Desktop_-_Copy.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Press_Page_Hero_6b56d812-1b76-4ab1-9c79-bf1a5056a0d1.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Press_Page_Hero-Mobile.jpg",
         "image_overlay_opacity": 0,
         "adapt_height_first_image": false,
         "text_image_separate": false,
