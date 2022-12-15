@@ -113,9 +113,9 @@
           "2a864d09-3ffd-4238-a5d8-5c60b6850024": {
             "type": "announcement",
             "settings": {
-              "heading": "The Holiday Gift Guide is here.",
-              "link": "shopify:\/\/pages\/gift-guide",
-              "cta_text": "Shop Now.",
+              "heading": "Want to win $10,000 for your dream?",
+              "link": "shopify:\/\/pages\/daydreamer-contest",
+              "cta_text": "Enter our Daydreamer Contest here.",
               "link_style": "underline",
               "font": "lato",
               "countdown_date": "",
@@ -137,6 +137,7 @@
           },
           "1d3f9d0c-88b1-4155-bd4e-262ef844f838": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "heading": "Order by 12\/18 with expedited shipping to receive by December 25",
               "link": "",
@@ -193,10 +194,10 @@
             "type": "featured_content",
             "settings": {
               "category": "Mens",
-              "text": "Holiday Gift Guide",
-              "link": "shopify:\/\/pages\/gift-guide",
-              "image_desktop": "shopify:\/\/shop_images\/Crowd_Favorites_Gift_Guide_015.jpg",
-              "image_mobile": "shopify:\/\/shop_images\/thumbnail_Mens_Nav_Hero_4.jpg"
+              "text": "Hawthorne Slip On - Suede",
+              "link": "\/products\/mens-hawthorne-slip-on-sneaker-pavement-suede",
+              "image_desktop": "shopify:\/\/shop_images\/HP_Secondary_Tile_800x1000-3-min.jpg",
+              "image_mobile": "shopify:\/\/shop_images\/HP_Secondary_Tile_800x1000-3-min_edefa179-18db-477c-9102-65b74c0d3963.jpg"
             }
           },
           "9586e75a-9c6b-4eab-98b5-462a69572691": {
@@ -225,20 +226,20 @@
             "type": "featured_content",
             "settings": {
               "category": "Womens",
-              "text": "Holiday Gift Guide",
-              "link": "shopify:\/\/pages\/gift-guide",
-              "image_desktop": "shopify:\/\/shop_images\/Crowd_Favorites_Gift_Guide_015_06e5ea22-7ccb-4f54-936c-46f66cd982ad.jpg",
-              "image_mobile": "shopify:\/\/shop_images\/Crowd_Favorites_Gift_Guide_015_1d66de22-095f-4bb0-bb31-1c74de28cad0.jpg"
+              "text": "SeaChange LTT - Corn Leather",
+              "link": "\/products\/womens-seachange-ltt-corn-leather-white",
+              "image_desktop": "shopify:\/\/shop_images\/HP_Secondary_Tile_800x1000-1-min.jpg",
+              "image_mobile": "shopify:\/\/shop_images\/HP_Secondary_Tile_800x1000-1-min_7568b3c3-0999-4f68-a5f7-a3d931d64304.jpg"
             }
           },
           "63c8485a-2033-47fc-a0a6-26b9300dc81c": {
             "type": "featured_content",
             "settings": {
               "category": "Womens",
-              "text": "The Baja Slip On Platform",
-              "link": "\/products\/womens-baja-slip-on-platform-check-flannel-chai",
-              "image_desktop": "shopify:\/\/shop_images\/seavees_crowd_favorites_0001_W_Baja_Slip_On_Platform_Chai_Check_Flannel_022.jpg",
-              "image_mobile": "shopify:\/\/shop_images\/seavees_crowd_favorites_0001_W_Baja_Slip_On_Platform_Chai_Check_Flannel_022_d4e93cdf-134f-4c4b-a7fa-3c13f56a5bf7.jpg"
+              "text": "Baja Slip On Platform - Black Lace",
+              "link": "\/products\/womens-baja-slip-on-platform-lace-black",
+              "image_desktop": "shopify:\/\/shop_images\/HP_Secondary_Tile_800x1000-2-min.jpg",
+              "image_mobile": "shopify:\/\/shop_images\/HP_Secondary_Tile_800x1000-2-min_1d45e99a-dde8-4290-85f2-fbd561c2e4f8.jpg"
             }
           },
           "f276d9cc-490c-4bdc-8ff7-82e4849d5e13": {
