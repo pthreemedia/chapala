@@ -110,31 +110,6 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
-          "c5dc7240-53a9-4d80-8f47-453f7c3e8574": {
-            "type": "announcement",
-            "disabled": true,
-            "settings": {
-              "heading": "Free Shipping on Orders Over $100. Free Returns.",
-              "link": "",
-              "cta_text": "",
-              "link_style": "underline",
-              "font": "lato",
-              "countdown_date": "",
-              "color_scheme": "accent-1"
-            }
-          },
-          "e61ff3cd-65fd-4c39-9245-e35d3f6d7e83": {
-            "type": "announcement",
-            "settings": {
-              "heading": "Looking for last minute gifts?",
-              "link": "\/products\/seavees-gift-card",
-              "cta_text": "Our gift cards make it easy.",
-              "link_style": "underline",
-              "font": "lato",
-              "countdown_date": "",
-              "color_scheme": "accent-1"
-            }
-          },
           "2a864d09-3ffd-4238-a5d8-5c60b6850024": {
             "type": "announcement",
             "settings": {
@@ -172,14 +147,25 @@
               "countdown_date": "2022-12-19 12:00 AM",
               "color_scheme": "accent-1"
             }
+          },
+          "c5dc7240-53a9-4d80-8f47-453f7c3e8574": {
+            "type": "announcement",
+            "settings": {
+              "heading": "Free Shipping on Orders Over $100. Free Returns.",
+              "link": "",
+              "cta_text": "",
+              "link_style": "underline",
+              "font": "lato",
+              "countdown_date": "",
+              "color_scheme": "accent-1"
+            }
           }
         },
         "block_order": [
-          "c5dc7240-53a9-4d80-8f47-453f7c3e8574",
-          "e61ff3cd-65fd-4c39-9245-e35d3f6d7e83",
           "2a864d09-3ffd-4238-a5d8-5c60b6850024",
           "54c45f4d-1dd6-4a10-8cf5-d21d87e0182e",
-          "1d3f9d0c-88b1-4155-bd4e-262ef844f838"
+          "1d3f9d0c-88b1-4155-bd4e-262ef844f838",
+          "c5dc7240-53a9-4d80-8f47-453f7c3e8574"
         ],
         "settings": {
           "controls_position": "inline",
