@@ -33,7 +33,7 @@
         "6014d416-e7c6-44e8-86e2-70f620651a4a": {
           "type": "heading",
           "settings": {
-            "heading": "SeaVees In The News",
+            "heading": "In The News",
             "heading_size": "h0",
             "font_color": ""
           }
@@ -245,6 +245,7 @@
     },
     "615eb654-9063-4a50-bd5e-18050dab83f3": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "template--14749123379274__615eb654-9063-4a50-bd5e-18050dab83f3-16712177303ff78c6d-0": {
           "type": "column",
