@@ -84,7 +84,7 @@
   -%}
 
   {% unless search_collection == blank %}
-    {% paginate search_collection.products by 50 %}
+    {% paginate search_collection.products by 1000 %}
       {% for product in search_collection.products %}
       <script>
         window.theme.swatch_prod["{{ product.handle }}"] = {
