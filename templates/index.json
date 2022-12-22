@@ -2,6 +2,7 @@
   "sections": {
     "164867367120e1947e": {
       "type": "hero-banner",
+      "disabled": true,
       "blocks": {
         "1648673671d11f3268-0": {
           "type": "heading",
@@ -108,12 +109,11 @@
     },
     "1652135633ce7ce319": {
       "type": "hero-banner",
-      "disabled": true,
       "blocks": {
         "16521356332262bfc5-0": {
           "type": "heading",
           "settings": {
-            "heading": "The Cozy Collection",
+            "heading": "End of Year Sale",
             "heading_2": "",
             "font_size": "h0",
             "hide_block_on_mobile": false,
@@ -123,7 +123,7 @@
         "16521356332262bfc5-1": {
           "type": "text",
           "settings": {
-            "text": "Treat your feet to our cozy 100% recycled fleece slippers. ",
+            "text": "Get Up to 60% off select footwear.",
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
           }
@@ -132,9 +132,9 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Womens",
-            "button_link_1": "shopify:\/\/collections\/womens-sandals-slippers",
+            "button_link_1": "shopify:\/\/collections\/womens-sale",
             "button_label_2": "Shop Mens",
-            "button_link_2": "shopify:\/\/collections\/mens-sandals-slippers",
+            "button_link_2": "shopify:\/\/collections\/mens-sale",
             "button_style_secondary": true,
             "use_arrow_link": false,
             "hide_block_on_mobile": false,
@@ -151,8 +151,8 @@
         "use_video_background": false,
         "hero_video_desktop": "",
         "hero_video_mobile": "",
-        "image_desktop": "shopify:\/\/shop_images\/Cozy_Collection_Homepage.gif",
-        "image_mobile": "shopify:\/\/shop_images\/Cozy_Collection_Homepage_Mobile.gif",
+        "image_desktop": "shopify:\/\/shop_images\/EOYS_Homepage-Desktop-min.gif",
+        "image_mobile": "shopify:\/\/shop_images\/EOYS_HP-Mobile-min.gif",
         "image_overlay_opacity": 0,
         "adapt_height_first_image": false,
         "text_image_separate": false,
