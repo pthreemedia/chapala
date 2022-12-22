@@ -307,14 +307,14 @@
         "60682034-4de9-42aa-b954-6caad99a6219": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Millvalley_exterior.png",
+            "image": "shopify:\/\/shop_images\/MillIexterior.jpg",
             "image_padding": false
           }
         },
         "cc3c514f-b758-41b6-8315-dffdcf1daf20": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/25B2E249-35DE-42DB-ABF4-5B4F60F980F8.jpg",
+            "image": "shopify:\/\/shop_images\/Millvalley_interior.png",
             "image_padding": false
           }
         },
