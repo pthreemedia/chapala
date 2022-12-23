@@ -289,7 +289,7 @@
             "image": "shopify:\/\/shop_images\/HP_Secondary_Tile_800x1000-Womens-min_2cb47bc5-b5b2-47b2-b50d-573e4bb2cc7d.jpg",
             "title": "Womens New Arrivals",
             "font_style": "h3",
-            "text": "<p><\/p>",
+            "text": "",
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/womens-new-arrivals",
             "info_on_image": false
