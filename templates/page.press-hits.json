@@ -94,12 +94,12 @@
         "d32262e6-10d1-4e75-882a-8ac07dea52be": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/La_Times.png",
+            "image": "shopify:\/\/shop_images\/Newsweek.png",
             "title": "",
             "font_style": "h3",
-            "text": "<p>We are looking for a positive self-starter and team<br\/>player who is detail-oriented and solution-driven. <\/p>",
-            "link_label": "Learn More",
-            "link": "https:\/\/www.latimes.com\/travel\/story\/2022-08-16\/best-california-college-towns-things-to-do",
+            "text": "<p>\"Putting on the Royal Runners from Seavees are like putting on a worn-in sweatshirt or familiar pair of jeans. The shoes are made of recycled nylon and have a french terry lining, making them extremely comfortable right out of the box. I didn't feel any rubbing or pinching, and they were ready for walking the first time I slipped my feet into them. The sneakers have a retro design and come in three different color choices.\"<\/p>",
+            "link_label": "Read More",
+            "link": "https:\/\/www.newsweek.com\/gift-guide-tech-lifestyle-ideas-people-who-are-hard-shop-1758368",
             "info_on_image": false
           }
         },
