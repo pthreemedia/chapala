@@ -102,7 +102,7 @@
     "b168654a-4f8d-428d-b9a2-2bf5f8a1da52": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "window._klOnsite = window._klOnsite || [];\nwindow._klOnsite.push(['openForm', 'WjsNCz']);",
+        "custom_liquid": "<div class=\"klaviyo-form-WjsNCz\"><\/div>",
         "color_scheme": "background-1",
         "padding_top": 16,
         "padding_bottom": 52
