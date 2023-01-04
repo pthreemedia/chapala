@@ -579,12 +579,27 @@
               "link_url": "",
               "link_text": "test3link"
             }
+          },
+          "fce34243-bac1-410b-a6df-aed79b63daa2": {
+            "type": "grid_content",
+            "settings": {
+              "grid_content_id": "mens-slippers",
+              "grid_position": "4",
+              "grid_width_in_3_column_grid": "none",
+              "heading": "",
+              "subheading": "",
+              "headline_vertical_position": "top",
+              "headline_horizontal_position": "left",
+              "link_url": "shopify:\/\/products\/mens-seachange-slide-cocoa",
+              "link_text": "SeaChange Slipper - Cocoa"
+            }
           }
         },
         "block_order": [
           "3d1ddb4b-8e69-4f60-9bf3-5284d0611e5f",
           "e0789ffc-fa50-430e-a6c2-665ca3d37f4f",
-          "56b35a7f-b412-4e71-97e6-9c07a99ae90f"
+          "56b35a7f-b412-4e71-97e6-9c07a99ae90f",
+          "fce34243-bac1-410b-a6df-aed79b63daa2"
         ],
         "settings": {
           "products_per_page": 60,
