@@ -619,8 +619,8 @@
             "type": "grid_content",
             "settings": {
               "grid_content_id": "mens-boots",
-              "grid_position": "3",
-              "grid_width_in_3_column_grid": "2-4",
+              "grid_position": "1",
+              "grid_width_in_3_column_grid": "1-3",
               "heading": "",
               "subheading": "",
               "headline_vertical_position": "top",
