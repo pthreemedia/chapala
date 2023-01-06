@@ -29,7 +29,16 @@
             <a href="/">All Shoes</a><span> /</span>
           {% endif %}
         {% endif %}
-        <a href="/collections/{{ product.metafields.seavees.gender | downcase }}-{{ product.type | downcase }}">{{ product.type }}</a>
+
+        {%- for collection in product.collections -%}
+          {%- if collection.title == 'Goods' -%}
+            {% comment %} <a href="/collections/{{ collection.title | downcase }}">{{ collection.title }}</a> {% endcomment %}
+            <a href="{{ product.metafields.custom.breadcrumb.value.url }}">{{ product.metafields.custom.breadcrumb.value.title }}</a>
+            {% break %}
+          {%- endif -%}
+        {%- endfor -%}
+
+        {% comment %} <a href="/collections/{{ product.metafields.seavees.gender | downcase }}-{{ product.type | downcase }}">{{ product.type }}</a> {% endcomment %}
       {% elsif template contains 'collection' and collection.handle %}
         <span aria-hidden="true">/</span>
         {% unless hide_current_page %}
@@ -44,7 +53,7 @@
             {% elsif collection.handle == "mens-sneakers" or collection.handle == "mens-slip-ons" or collection.handle == "mens-boots" or collection.handle == "mens-sandals-slippers" or collection.handle == "mens-casuals" or collection.handle == "mens-new-arrivals" or collection.handle == "mens-best-sellers" %}
               <a href="/mens">Mens Shoes</a><span> / </span>
             {% endif %}
-            <span>{{ collection.title }}</span> 
+            <span>{{ collection.title }}</span>
           {% endif %}
         {% endunless %}
       {% elsif template == 'blog' %}
