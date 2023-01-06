@@ -617,11 +617,10 @@
           },
           "28b689a2-6551-484a-803b-89476ba093f9": {
             "type": "grid_content",
-            "disabled": true,
             "settings": {
               "grid_content_id": "mens-boots",
               "grid_position": "3",
-              "grid_width_in_3_column_grid": "none",
+              "grid_width_in_3_column_grid": "2-4",
               "heading": "",
               "subheading": "",
               "headline_vertical_position": "top",
