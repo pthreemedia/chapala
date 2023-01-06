@@ -583,7 +583,6 @@
           },
           "fce34243-bac1-410b-a6df-aed79b63daa2": {
             "type": "grid_content",
-            "disabled": true,
             "settings": {
               "grid_content_id": "mens-slippers",
               "grid_position": "3",
@@ -600,7 +599,6 @@
           },
           "3584b079-3303-478e-ac88-bdd55e986a0b": {
             "type": "grid_content",
-            "disabled": true,
             "settings": {
               "grid_content_id": "mens-new-arrivals",
               "grid_position": "3",
