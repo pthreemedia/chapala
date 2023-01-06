@@ -600,10 +600,10 @@
           "3584b079-3303-478e-ac88-bdd55e986a0b": {
             "type": "grid_content",
             "settings": {
-              "grid_content_id": "",
+              "grid_content_id": "mens-new-arrivals",
               "grid_position": "3",
               "grid_width_in_3_column_grid": "none",
-              "heading": "mens-new-arrivals",
+              "heading": "",
               "subheading": "",
               "headline_vertical_position": "top",
               "headline_horizontal_position": "left",
