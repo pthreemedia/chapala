@@ -286,7 +286,7 @@
         "column2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HP_Secondary_Tile_800x1000-Womens-min_2cb47bc5-b5b2-47b2-b50d-573e4bb2cc7d.jpg",
+            "image": "shopify:\/\/shop_images\/HP_Womens_NA_Tile_800x1000_0b0dcf17-77e0-4f3d-9cf3-e2d11f230b84.jpg",
             "title": "Womens New Arrivals",
             "font_style": "h3",
             "text": "",
@@ -298,7 +298,7 @@
         "column1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HP_Secondary_Tile_800x1000-Mens.jpg",
+            "image": "shopify:\/\/shop_images\/HP_Mens_NA_Tile_800x1000_b35f6d91-87f0-4627-bbc7-9c25b8e3228c.jpg",
             "title": "Mens New Arrivals",
             "font_style": "h3",
             "text": "",
@@ -436,15 +436,14 @@
         "16497985735c91a62a-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Want to Win $10,000 For Your Dream?<\/p>",
+            "text": "<p>\"Terrific slip on boot for looking sharp in cold weather while remaining comfortable, too!\"<\/p>",
             "text_style": "h2"
           }
         },
         "95b3722c-f77d-41c7-911c-2c098384bc2b": {
           "type": "caption",
-          "disabled": true,
           "settings": {
-            "caption": "- BRISTOL S.",
+            "caption": "- Elizabeth S.",
             "text_style": "caption-with-letter-spacing",
             "text_size": "small"
           }
@@ -452,7 +451,7 @@
         "16497985735c91a62a-2": {
           "type": "button",
           "settings": {
-            "button_label": "Enter to Win",
+            "button_label": "Laguna Chelsea Boot - Elmwood",
             "button_link": "shopify:\/\/pages\/daydreamer-contest",
             "use_arrow_link": true,
             "button_style_secondary": false
@@ -465,7 +464,7 @@
         "16497985735c91a62a-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Daydreamer_Collective_SocialSocial_1080x1080_1_copy_20_f175dbcc-a8bb-4e0b-8147-ffc892819feb.jpg",
+        "image": "shopify:\/\/shop_images\/HP_Laguna_Review_1080x1080_9050c354-fac3-494a-af9a-99e0e2ce1c38.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "full_width": true,

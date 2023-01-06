@@ -195,10 +195,10 @@
             "type": "featured_content",
             "settings": {
               "category": "Mens",
-              "text": "Hawthorne Slip On - Suede",
-              "link": "\/products\/mens-hawthorne-slip-on-sneaker-pavement-suede",
-              "image_desktop": "shopify:\/\/shop_images\/HP_Secondary_Tile_300x300-3.jpg",
-              "image_mobile": "shopify:\/\/shop_images\/HP_Secondary_Tile_300x300-3_6a81534c-500f-498f-b6c8-dde3edd33129.jpg"
+              "text": "Mariners Boot - Peacoat Navy",
+              "link": "shopify:\/\/products\/mens-mariners-boot-peacoat-navy-canvas",
+              "image_desktop": "shopify:\/\/shop_images\/NAV_Mens_CF_Right_300x300_531d4a2b-4827-4bf1-8d50-001f6f249746.jpg",
+              "image_mobile": "shopify:\/\/shop_images\/NAV_Mens_CF_Right_300x300_4f8b564d-7c96-4634-b331-7d9a0a78ea4c.jpg"
             }
           },
           "9586e75a-9c6b-4eab-98b5-462a69572691": {
@@ -228,7 +228,7 @@
             "settings": {
               "category": "Womens",
               "text": "SeaChange Bootie - Oat",
-              "link": "\/products\/womens-seachange-ltt-corn-leather-white",
+              "link": "shopify:\/\/products\/womens-seachange-bootie-recycled-fleece-oat",
               "image_desktop": "shopify:\/\/shop_images\/NAV_Womens_CF_Left_300x300_56cbe85a-b4e8-444a-bbc1-4f23a7909988.jpg",
               "image_mobile": "shopify:\/\/shop_images\/NAV_Womens_CF_Left_300x300_a9440008-eb32-498b-a708-28bf3db2f02b.jpg"
             }
