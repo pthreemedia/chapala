@@ -583,9 +583,10 @@
           },
           "fce34243-bac1-410b-a6df-aed79b63daa2": {
             "type": "grid_content",
+            "disabled": true,
             "settings": {
               "grid_content_id": "mens-slippers",
-              "grid_position": "4",
+              "grid_position": "3",
               "grid_width_in_3_column_grid": "none",
               "heading": "",
               "subheading": "",
@@ -593,12 +594,13 @@
               "headline_horizontal_position": "left",
               "mobile_image": "shopify:\/\/shop_images\/Sandals_and_Slippers-min_f5e983f1-9871-473d-ac24-56121126d755.jpg",
               "desktop_image": "shopify:\/\/shop_images\/Sandals_and_Slippers-min.jpg",
-              "link_url": "",
+              "link_url": "shopify:\/\/products\/mens-seachange-slide-cocoa",
               "link_text": ""
             }
           },
           "3584b079-3303-478e-ac88-bdd55e986a0b": {
             "type": "grid_content",
+            "disabled": true,
             "settings": {
               "grid_content_id": "mens-new-arrivals",
               "grid_position": "3",
@@ -612,6 +614,22 @@
               "link_url": "shopify:\/\/products\/mens-el-cap-camp-moc-cow-suede-tobacco",
               "link_text": "El Cap Moc"
             }
+          },
+          "28b689a2-6551-484a-803b-89476ba093f9": {
+            "type": "grid_content",
+            "settings": {
+              "grid_content_id": "mens-boots",
+              "grid_position": "3",
+              "grid_width_in_3_column_grid": "none",
+              "heading": "",
+              "subheading": "",
+              "headline_vertical_position": "top",
+              "headline_horizontal_position": "left",
+              "mobile_image": "shopify:\/\/shop_images\/Boots-min.jpg",
+              "desktop_image": "shopify:\/\/shop_images\/Boots-min_b7de42dd-251b-403f-9492-1c8a84111e80.jpg",
+              "link_url": "shopify:\/\/products\/mens-maslon-desert-boot-carr-bull-denim-twill-coffee",
+              "link_text": "Maslon Boot"
+            }
           }
         },
         "block_order": [
@@ -619,7 +637,8 @@
           "e0789ffc-fa50-430e-a6c2-665ca3d37f4f",
           "56b35a7f-b412-4e71-97e6-9c07a99ae90f",
           "fce34243-bac1-410b-a6df-aed79b63daa2",
-          "3584b079-3303-478e-ac88-bdd55e986a0b"
+          "3584b079-3303-478e-ac88-bdd55e986a0b",
+          "28b689a2-6551-484a-803b-89476ba093f9"
         ],
         "settings": {
           "products_per_page": 60,
