@@ -125,6 +125,7 @@
           },
           "54c45f4d-1dd6-4a10-8cf5-d21d87e0182e": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "heading": "End of Year Sale. Take Up to 60% Off Select Styles.",
               "link": "shopify:\/\/collections\/womens-sale",
@@ -157,7 +158,7 @@
               "link_style": "underline",
               "font": "lato",
               "countdown_date": "",
-              "color_scheme": "accent-1"
+              "color_scheme": "accent-3"
             }
           }
         },
@@ -226,20 +227,20 @@
             "type": "featured_content",
             "settings": {
               "category": "Womens",
-              "text": "SeaChange LTT - Corn Leather",
+              "text": "SeaChange Bootie - Oat",
               "link": "\/products\/womens-seachange-ltt-corn-leather-white",
-              "image_desktop": "shopify:\/\/shop_images\/HP_Secondary_Tile_300x300-4.jpg",
-              "image_mobile": "shopify:\/\/shop_images\/HP_Secondary_Tile_300x300-4_7472ab72-0e80-4766-b11e-2908fa0c8669.jpg"
+              "image_desktop": "shopify:\/\/shop_images\/NAV_Womens_CF_Left_300x300_56cbe85a-b4e8-444a-bbc1-4f23a7909988.jpg",
+              "image_mobile": "shopify:\/\/shop_images\/NAV_Womens_CF_Left_300x300_a9440008-eb32-498b-a708-28bf3db2f02b.jpg"
             }
           },
           "63c8485a-2033-47fc-a0a6-26b9300dc81c": {
             "type": "featured_content",
             "settings": {
               "category": "Womens",
-              "text": "Baja Slip On Platform - Black Lace",
-              "link": "\/products\/womens-baja-slip-on-platform-lace-black",
-              "image_desktop": "shopify:\/\/shop_images\/HP_Secondary_Tile_300x300-2.jpg",
-              "image_mobile": "shopify:\/\/shop_images\/HP_Secondary_Tile_300x300-2_25346c2f-ad4e-470b-9b16-9f09b146e281.jpg"
+              "text": "Monterey Sneaker Platform - Black",
+              "link": "shopify:\/\/products\/womens-monterey-sneaker-platform-cotton-canvas-black",
+              "image_desktop": "shopify:\/\/shop_images\/NAV_Womens_CF_Right_300x300_ac822980-1ee0-4303-b22d-ce9758dd56e6.jpg",
+              "image_mobile": "shopify:\/\/shop_images\/NAV_Womens_CF_Right_300x300_d2588fcb-695c-4394-9906-6b246c7f6557.jpg"
             }
           },
           "f276d9cc-490c-4bdc-8ff7-82e4849d5e13": {
