@@ -2,13 +2,12 @@
   "sections": {
     "164867367120e1947e": {
       "type": "hero-banner",
-      "disabled": true,
       "blocks": {
         "1648673671d11f3268-0": {
           "type": "heading",
           "settings": {
-            "heading": "The Adventure Collection",
-            "heading_2": "",
+            "heading": "The Adventure",
+            "heading_2": "Collection",
             "font_size": "h1",
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
@@ -17,7 +16,7 @@
         "1648673671d11f3268-1": {
           "type": "text",
           "settings": {
-            "text": "The comfort of a sneaker in boots that are ready to get out there.",
+            "text": "",
             "hide_block_on_mobile": false,
             "hide_block_on_desktop": false
           }
@@ -45,13 +44,13 @@
         "use_video_background": false,
         "hero_video_desktop": "",
         "hero_video_mobile": "",
-        "image_desktop": "shopify:\/\/shop_images\/Adventure_Collection_Homepage-min_f42b8f4f-630b-4b5f-be3d-bcc5e3b7ce6e.gif",
+        "image_desktop": "shopify:\/\/shop_images\/Adventure_Collection_Homepage_4.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Adventure_Collection_Homepage_Mobile-min_3e06e4aa-ad1d-4530-b602-3d5ed93a8500.gif",
         "image_overlay_opacity": 0,
         "adapt_height_first_image": true,
         "text_image_separate": false,
         "show_text_box": false,
-        "desktop_content_half": "left",
+        "desktop_content_half": "no",
         "banner_content_half_color": "accent-1",
         "desktop_text_box_vertical_position": "center",
         "desktop_text_box_horizontal_position": "center",
@@ -109,6 +108,7 @@
     },
     "1652135633ce7ce319": {
       "type": "hero-banner",
+      "disabled": true,
       "blocks": {
         "16521356332262bfc5-0": {
           "type": "heading",
