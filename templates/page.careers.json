@@ -68,6 +68,7 @@
       "blocks": {
         "99120ec1-67d8-4e34-8855-930ee3f22b43": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "Store Manager - Mill Valley",
             "font_style": "h3",
@@ -124,6 +125,7 @@
         },
         "16488307761b149624-1": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "Part Time Retail Sales Associate - Santa Barbara",
             "font_style": "h3",
