@@ -165,10 +165,10 @@
                     {%- if block_position == tmp_count -%}
                       {% for gridContentID in gridContentArray %}
                         {% if gridContentID == block.settings.grid_content_id %}
-                          <li class="custom-mobile-banner-block">
+                          <li class="custom-mobile-banner-block content-for-product-grid cols-{{ block.settings.grid_width_in_3_column_grid }}">
                             <a href="{{ block.settings.link_url }}" class="link custom-banner-link">
                               <div class="content-for-product-grid custom-content-for-product-grid
-                                cols-{{ block.settings.grid_width_in_3_column_grid }}
+                                {% comment %} cols-{{ block.settings.grid_width_in_3_column_grid }} {% endcomment %}
                                 vert-{{ block.settings.headline_vertical_position }}
                                 horz-{{ block.settings.headline_horizontal_position }}
                                 " style="width: 100%; height: 100%;">
@@ -189,7 +189,7 @@
                                       <h4>{{ block.settings.subheading }}</h4>
                                     {% endif %}
                                   </div>
-                                  {% if block.settings.link_text %}
+                                  {% if block.settings.link_text and block.settings.button_toggle == 'show' %}
                                     <span class="cta-text">{{ block.settings.link_text }}</span>
                                   {% endif %}
                                 </div>
@@ -530,6 +530,22 @@
           "type": "text",
           "id": "link_text",
           "label": "Link Text"
+        },
+        {
+          "type": "radio",
+          "id": "button_toggle",
+          "label": "Button Toggle",
+          "options": [
+            {
+              "value": "show",
+              "label": "Show Button"
+            },
+            {
+              "value": "hide",
+              "label": "Hide Button"
+            }
+          ],
+          "default": "show"
         }
       ]
     }
