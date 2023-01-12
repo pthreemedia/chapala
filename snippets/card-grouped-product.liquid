@@ -36,10 +36,10 @@
       assign ratio = 1
     endif
   -%}
-  <div 
-    class="card-wrapper {% if first_card == true %}active{% endif%}"
+  <div
+    class="card-wrapper {% if first_card == true %}active{% endif %}"
     data-card-product-container-url="{{ card_product.url }}"
-    {% if first_card == false %} data-not-first-card {% endif %}  
+    {% if first_card == false %} data-not-first-card {% endif %}
   >
     {% if card_product.metafields.seavees.visual_badge %}
       <img src="{{ card_product.metafields.seavees.visual_badge }}" class="visual-badge" />
@@ -89,24 +89,24 @@
                   width="{{ product_image.width }}"
                   height="{{ product_image.height }}"
                 >
-                
+
                 {% comment %}theme-check-enable ImgLazyLoading{% endcomment %}
 
                 {% assign hover_image_position = 1 %}
                 {% if collection_product_hover_image_position %}
                   {% assign hover_image_position = collection_product_hover_image_position %}
-                  {% assign hover_image = card_product.media[hover_image_position] %}                
+                  {% assign hover_image = card_product.media[hover_image_position] %}
                 {% endif %}
-                
+
                 {% if card_product.metafields.seavees.hover_image_position %}
-                  {% assign hover_image_position = card_product.metafields.seavees.hover_image_position %} 
-                  {% assign hover_image = card_product.media[hover_image_position] %}                
-                {% endif %} 
+                  {% assign hover_image_position = card_product.metafields.seavees.hover_image_position %}
+                  {% assign hover_image = card_product.media[hover_image_position] %}
+                {% endif %}
 
                 {% if card_product.metafields.seavees.hover_image %}
-                  {% assign hover_image = card_product.metafields.seavees.hover_image  %}
+                  {% assign hover_image = card_product.metafields.seavees.hover_image %}
                 {% endif %}
-                
+
                 {%- if hover_image != nil and show_secondary_image -%}
                   <img
                     srcset="{%- if hover_image.width >= 165 -%}{{ hover_image | image_url: width: 165 }} 165w,{%- endif -%}
@@ -202,12 +202,12 @@
                 <span class="visually-hidden">{{ card_product.metafields.reviews.rating_count }} {{ "accessibility.total_reviews" | t }}</span>
               </p>
             {%- endif -%}
-              <div class="price-and-style-count-container">            
+              <div class="price-and-style-count-container">
                 {% render 'price', product: card_product, price_class: '' %}
                 {% if silhouette_count > 0 %}
                   <span class="separator"></span>
                   <span class="collection-product-count">
-                    {{ silhouette_count }} 
+                    {{ silhouette_count }}
                     {% if silhouette_count == 1 %}
                       Color
                     {% else %}
@@ -288,7 +288,7 @@
         {% for option in card_product.options_with_values %}
           {% if option.name contains 'Size' %}
             <div class="product-card-availability">
-    
+
               {% for value in option.values %}
                 {% assign optionDisabled = true %}
                   {% for v in card_product.variants %}
@@ -305,7 +305,7 @@
                   {% break %}
                 {% endif %}
               {% endfor %}
-    
+
                 <a
                   class="product-card-availability-option {% if optionDisabled %} product-card-availability-option-disabled{% endif %}"
                   type="button"
@@ -328,7 +328,7 @@
                   {% endif %}
                 </a>
               {% endfor %}
-            </div>    
+            </div>
           {% endif %}
         {% endfor %}
       {% endif %}
