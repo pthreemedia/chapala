@@ -544,7 +544,8 @@
               "mobile_image": "shopify:\/\/shop_images\/DSC04565.jpg",
               "desktop_image": "shopify:\/\/shop_images\/DSC04565.jpg",
               "link_url": "shopify:\/\/collections\/apparel",
-              "link_text": "testlink"
+              "link_text": "testlink",
+              "button_toggle": "show"
             }
           },
           "e0789ffc-fa50-430e-a6c2-665ca3d37f4f": {
@@ -561,7 +562,8 @@
               "mobile_image": "shopify:\/\/shop_images\/DSC04475.jpg",
               "desktop_image": "shopify:\/\/shop_images\/DSC04475.jpg",
               "link_url": "",
-              "link_text": "test2link"
+              "link_text": "test2link",
+              "button_toggle": "show"
             }
           },
           "56b35a7f-b412-4e71-97e6-9c07a99ae90f": {
@@ -578,7 +580,8 @@
               "mobile_image": "shopify:\/\/shop_images\/Daydreamer_Collective_SocialSocial_1080x1080_1_copy_20_f175dbcc-a8bb-4e0b-8147-ffc892819feb.jpg",
               "desktop_image": "shopify:\/\/shop_images\/Daydreamer_Collective_SocialSocial_1080x1080_1_copy_20_f175dbcc-a8bb-4e0b-8147-ffc892819feb.jpg",
               "link_url": "",
-              "link_text": "test3link"
+              "link_text": "test3link",
+              "button_toggle": "show"
             }
           },
           "fce34243-bac1-410b-a6df-aed79b63daa2": {
@@ -595,7 +598,8 @@
               "mobile_image": "shopify:\/\/shop_images\/Sandals_and_Slippers-min_f5e983f1-9871-473d-ac24-56121126d755.jpg",
               "desktop_image": "shopify:\/\/shop_images\/Sandals_and_Slippers-min.jpg",
               "link_url": "shopify:\/\/products\/mens-seachange-slide-cocoa",
-              "link_text": ""
+              "link_text": "",
+              "button_toggle": "show"
             }
           },
           "3584b079-3303-478e-ac88-bdd55e986a0b": {
@@ -603,7 +607,7 @@
             "settings": {
               "grid_content_id": "mens-new-arrivals",
               "grid_position": "3",
-              "grid_width_in_3_column_grid": "2-4",
+              "grid_width_in_3_column_grid": "1-4",
               "heading": "",
               "subheading": "",
               "headline_vertical_position": "top",
@@ -611,7 +615,8 @@
               "mobile_image": "shopify:\/\/shop_images\/New_Arrivals-min.jpg",
               "desktop_image": "shopify:\/\/shop_images\/New_Arrivals-min_8ec3b23d-e816-4e09-9848-d151e25bf52d.jpg",
               "link_url": "shopify:\/\/products\/mens-el-cap-camp-moc-cow-suede-tobacco",
-              "link_text": "El Cap Moc"
+              "link_text": "El Cap Moc",
+              "button_toggle": "hide"
             }
           },
           "28b689a2-6551-484a-803b-89476ba093f9": {
@@ -628,7 +633,8 @@
               "mobile_image": "shopify:\/\/shop_images\/Boots-min.jpg",
               "desktop_image": "shopify:\/\/shop_images\/Boots-min_b7de42dd-251b-403f-9492-1c8a84111e80.jpg",
               "link_url": "shopify:\/\/products\/mens-maslon-desert-boot-carr-bull-denim-twill-coffee",
-              "link_text": "Maslon Boot"
+              "link_text": "Maslon Boot",
+              "button_toggle": "show"
             }
           }
         },
