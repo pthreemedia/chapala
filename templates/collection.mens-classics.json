@@ -20,7 +20,7 @@
         "1648779884c8cdcf56-0": {
           "type": "heading",
           "settings": {
-            "heading": "The Classics",
+            "heading": "The Originals",
             "heading_size": "h0",
             "font_color": ""
           }
@@ -28,7 +28,7 @@
         "1648779884c8cdcf56-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Our Classics embody who we are at our core. These archival-inspired styles are extremely comfortable, timeless and appropriate for any occasion. Season after season, these are the shoes we keep coming back for.<\/p>",
+            "text": "<p>Our Originals embody who we are at our core. These archival-inspired styles are extremely comfortable, timeless and appropriate for any occasion. Season after season, these are the shoes we keep coming back for.<\/p>",
             "use_heading_font": false,
             "font_color": ""
           }
@@ -57,14 +57,14 @@
         "164877991702710e48-0": {
           "type": "page_menu_link",
           "settings": {
-            "link_text": "Womens Classics",
+            "link_text": "Womens Originals",
             "link_url": "shopify:\/\/collections\/womens-classics"
           }
         },
         "2d18f37f-d6d3-4f05-a2a7-9111f10f1fde": {
           "type": "page_menu_link",
           "settings": {
-            "link_text": "Mens Classics",
+            "link_text": "Mens Originals",
             "link_url": "shopify:\/\/collections\/mens-classics"
           }
         }
@@ -341,8 +341,8 @@
         "image": "shopify:\/\/shop_images\/Monterey_Classic.jpg",
         "show_secondary_image": false,
         "show_swatches": true,
-        "title": "Monterey Sneaker Classic",
-        "description": "Classic lace-ups to carry you throughout the seasons. Always comfortable, always in style.",
+        "title": "Monterey Sneaker Originals",
+        "description": "Original lace-ups to carry you throughout the seasons. Always comfortable, always in style.",
         "link_text": "Shop The Monterey"
       }
     },
@@ -402,7 +402,7 @@
         "show_secondary_image": false,
         "show_swatches": true,
         "title": "The Army Issue Sneaker",
-        "description": "We retrofitted a tried-and-true classic with all the durability you need and all the comfort you want.",
+        "description": "We retrofitted a tried-and-true original with all the durability you need and all the comfort you want.",
         "link_text": "Shop The Army Issue"
       }
     },
