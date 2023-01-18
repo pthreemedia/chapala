@@ -75,7 +75,7 @@
           "type": "heading",
           "settings": {
             "heading": "The Originals",
-            "heading_size": "h1",
+            "heading_size": "h0",
             "font_color": ""
           }
         },
@@ -378,7 +378,7 @@
         "template--14799812722762__be378c25-a127-4a41-bb69-34e6a503adbf-167407704569493c0b-2": {
           "type": "button",
           "settings": {
-            "button_label": "Shop Now",
+            "button_label": "Shop The Legend",
             "button_link": "shopify:\/\/products\/womens-legend-sneaker-classic-true-navy",
             "use_arrow_link": true,
             "button_style_secondary": false
@@ -406,6 +406,214 @@
         "margin_top": 0,
         "margin_bottom": 0
       }
+    },
+    "c78cbb23-d2bb-4e25-82f4-44787fe649ca": {
+      "type": "image-banner",
+      "disabled": true,
+      "blocks": {
+        "template--14799812722762__c78cbb23-d2bb-4e25-82f4-44787fe649ca-16740770456011217a-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading_line_1": "Image banner",
+            "heading_line_2": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--14799812722762__c78cbb23-d2bb-4e25-82f4-44787fe649ca-16740770456011217a-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--14799812722762__c78cbb23-d2bb-4e25-82f4-44787fe649ca-16740770456011217a-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14799812722762__c78cbb23-d2bb-4e25-82f4-44787fe649ca-16740770456011217a-0",
+        "template--14799812722762__c78cbb23-d2bb-4e25-82f4-44787fe649ca-16740770456011217a-1",
+        "template--14799812722762__c78cbb23-d2bb-4e25-82f4-44787fe649ca-16740770456011217a-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Orginals_Baja_Full_Width.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "7c0a84db-778c-4c0c-82cf-aaa1e53006ef": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14799812722762__7c0a84db-778c-4c0c-82cf-aaa1e53006ef-167407704569493c0b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The One You Can't Resist",
+            "heading_size": "h1"
+          }
+        },
+        "template--14799812722762__7c0a84db-778c-4c0c-82cf-aaa1e53006ef-167407704569493c0b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A coastal original upgraded with long-lasting materials and our exclusive footbed for all-day comfort. Kick back and relax in this SeaVees staple.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--14799812722762__7c0a84db-778c-4c0c-82cf-aaa1e53006ef-167407704569493c0b-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop The Baja",
+            "button_link": "",
+            "use_arrow_link": true,
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14799812722762__7c0a84db-778c-4c0c-82cf-aaa1e53006ef-167407704569493c0b-0",
+        "template--14799812722762__7c0a84db-778c-4c0c-82cf-aaa1e53006ef-167407704569493c0b-1",
+        "template--14799812722762__7c0a84db-778c-4c0c-82cf-aaa1e53006ef-167407704569493c0b-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/W_Orginals_Baja_Natural.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "full_width": false,
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 76,
+        "padding_bottom": 76,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "8958d91c-628c-48eb-ba95-7f1452d2237b": {
+      "type": "image-banner",
+      "disabled": true,
+      "blocks": {
+        "template--14799812722762__8958d91c-628c-48eb-ba95-7f1452d2237b-16740770456011217a-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading_line_1": "Image banner",
+            "heading_line_2": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--14799812722762__8958d91c-628c-48eb-ba95-7f1452d2237b-16740770456011217a-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--14799812722762__8958d91c-628c-48eb-ba95-7f1452d2237b-16740770456011217a-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14799812722762__8958d91c-628c-48eb-ba95-7f1452d2237b-16740770456011217a-0",
+        "template--14799812722762__8958d91c-628c-48eb-ba95-7f1452d2237b-16740770456011217a-1",
+        "template--14799812722762__8958d91c-628c-48eb-ba95-7f1452d2237b-16740770456011217a-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/w_monterey_cactuscanvas-170-1-min.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "464e13c7-e860-4214-bc36-dffd9d1f2980": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14799812722762__464e13c7-e860-4214-bc36-dffd9d1f2980-167407704569493c0b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The One You Won't Forget",
+            "heading_size": "h1"
+          }
+        },
+        "template--14799812722762__464e13c7-e860-4214-bc36-dffd9d1f2980-167407704569493c0b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Original lace-ups to carry you throughout the seasons. Always comfortable, always in style.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--14799812722762__464e13c7-e860-4214-bc36-dffd9d1f2980-167407704569493c0b-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop The Monterey",
+            "button_link": "",
+            "use_arrow_link": true,
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14799812722762__464e13c7-e860-4214-bc36-dffd9d1f2980-167407704569493c0b-0",
+        "template--14799812722762__464e13c7-e860-4214-bc36-dffd9d1f2980-167407704569493c0b-1",
+        "template--14799812722762__464e13c7-e860-4214-bc36-dffd9d1f2980-167407704569493c0b-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Originals_Monterey_White.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "full_width": false,
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
@@ -418,6 +626,10 @@
     "14ea7b6c-cd17-4279-9212-d7784aff8756",
     "2d97ec42-3304-4308-a14f-381cc220cb55",
     "1663782260320b345f",
-    "be378c25-a127-4a41-bb69-34e6a503adbf"
+    "be378c25-a127-4a41-bb69-34e6a503adbf",
+    "c78cbb23-d2bb-4e25-82f4-44787fe649ca",
+    "7c0a84db-778c-4c0c-82cf-aaa1e53006ef",
+    "8958d91c-628c-48eb-ba95-7f1452d2237b",
+    "464e13c7-e860-4214-bc36-dffd9d1f2980"
   ]
 }
