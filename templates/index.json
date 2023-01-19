@@ -24,9 +24,9 @@
         "1648673671d11f3268-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Women",
+            "button_label_1": "Shop Womens",
             "button_link_1": "shopify:\/\/pages\/adventure-collection",
-            "button_label_2": "Shop Men",
+            "button_label_2": "Shop Mens",
             "button_link_2": "shopify:\/\/pages\/adventure-collection",
             "button_style_secondary": true,
             "use_arrow_link": false,

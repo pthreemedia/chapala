@@ -600,6 +600,7 @@
           },
           "3584b079-3303-478e-ac88-bdd55e986a0b": {
             "type": "grid_content",
+            "disabled": true,
             "settings": {
               "grid_content_id": "mens-new-arrivals",
               "grid_position": "3",
@@ -671,7 +672,7 @@
           "show_swatches": false,
           "hide_sale_swatches": true,
           "show_availability": false,
-          "show_secondary_image": false,
+          "show_secondary_image": true,
           "show_gender": false,
           "show_material": false,
           "show_vendor": false,
