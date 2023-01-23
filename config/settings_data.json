@@ -607,7 +607,7 @@
             "settings": {
               "grid_content_id": "mens-new-arrivals",
               "grid_position": "3",
-              "grid_width_in_3_column_grid": "1-4",
+              "grid_width_in_3_column_grid": "none",
               "heading": "",
               "subheading": "",
               "headline_vertical_position": "top",
