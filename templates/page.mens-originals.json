@@ -1,0 +1,557 @@
+{
+  "sections": {
+    "166377942474139604": {
+      "type": "hero-banner",
+      "blocks": {
+        "1663779424e358192d-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "heading_2": "",
+            "font_size": "h1",
+            "hide_block_on_mobile": false,
+            "hide_block_on_desktop": false
+          }
+        },
+        "1663779424e358192d-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "hide_block_on_mobile": false,
+            "hide_block_on_desktop": false
+          }
+        },
+        "1663779424e358192d-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary": false,
+            "use_arrow_link": false,
+            "hide_block_on_mobile": false,
+            "hide_block_on_desktop": false
+          }
+        }
+      },
+      "block_order": [
+        "1663779424e358192d-0",
+        "1663779424e358192d-1",
+        "1663779424e358192d-2"
+      ],
+      "settings": {
+        "use_video_background": false,
+        "hero_video_desktop": "",
+        "hero_video_mobile": "",
+        "image_desktop": "shopify:\/\/shop_images\/Heritage-Collection-Hero.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Heritage-Collection-Mobile-Hero_7e16b26f-27e8-44a0-8547-3dd8e952a17c.jpg",
+        "image_overlay_opacity": 0,
+        "adapt_height_first_image": false,
+        "text_image_separate": false,
+        "show_text_box": false,
+        "desktop_content_half": "no",
+        "banner_content_half_color": "background-1",
+        "desktop_text_box_vertical_position": "center",
+        "desktop_text_box_horizontal_position": "flex-start",
+        "desktop_text_alignment": "left"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 60
+      }
+    },
+    "16637810280ee85eb5": {
+      "type": "rich-text",
+      "blocks": {
+        "1663781028ad06b462-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Heritage Sport Collection",
+            "heading_size": "h1",
+            "font_color": ""
+          }
+        },
+        "1663781028ad06b462-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Your soon-to-be favorite sporty sneaker is here. Inspired by runner styles of the '70s, every shoe in this collection was made for all-day comfort and versatility and modernized with quality materials from lace to toe. Whether you'll be walking all day, running errands, or heading out for some fun—these shoes can (and will) do it all. <\/p>",
+            "use_heading_font": false,
+            "font_color": ""
+          }
+        },
+        "1663781028ad06b462-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "use_arrow_link": false,
+            "link_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "1663781028ad06b462-0",
+        "1663781028ad06b462-1",
+        "1663781028ad06b462-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "narrow": true,
+        "is_page_header": false,
+        "mobile_content_align": "center",
+        "desktop_content_align": "center",
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "1663782409a6363c5e": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "cover_image": "shopify:\/\/shop_images\/vid_2-min.jpg",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=GM2vjj3GXlk",
+        "description": "outdoor adventure photographer Jeff Johnson wears his collaboration boots around town. He goes hiking, biking, jumping fences and taking photos to show how comfortable and durable they are.",
+        "full_width": false,
+        "color_scheme": "background-2",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "2fa585ed-391e-4619-ae97-f8e4fa842c54": {
+      "type": "collage",
+      "disabled": true,
+      "blocks": {
+        "b0830b32-8003-4055-bc16-09b5de045fec": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Womens-Cover-1000x1000.jpg",
+            "image_padding": false
+          }
+        },
+        "template--14705436262474__2fa585ed-391e-4619-ae97-f8e4fa842c54-1664919803a03eb854-1": {
+          "type": "product",
+          "settings": {
+            "product": "womens-royal-runner-nylon-black",
+            "second_image": true
+          }
+        },
+        "template--14705436262474__2fa585ed-391e-4619-ae97-f8e4fa842c54-1664919803a03eb854-2": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "b0830b32-8003-4055-bc16-09b5de045fec",
+        "template--14705436262474__2fa585ed-391e-4619-ae97-f8e4fa842c54-1664919803a03eb854-1",
+        "template--14705436262474__2fa585ed-391e-4619-ae97-f8e4fa842c54-1664919803a03eb854-2"
+      ],
+      "settings": {
+        "heading": "The Royal Runner",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1663781478c8c68e80": {
+      "type": "collage",
+      "disabled": true,
+      "blocks": {
+        "16637814784c29bffc-0": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": "Describe the video",
+            "image_padding": false
+          }
+        },
+        "16637814784c29bffc-1": {
+          "type": "product",
+          "settings": {
+            "product": "womens-royal-runner-nylon-white",
+            "second_image": true
+          }
+        },
+        "df58cbd5-43ea-4024-8e4e-f6d39c5425fe": {
+          "type": "product",
+          "settings": {
+            "product": "womens-royal-runner-nylon-black",
+            "second_image": true
+          }
+        }
+      },
+      "block_order": [
+        "16637814784c29bffc-0",
+        "16637814784c29bffc-1",
+        "df58cbd5-43ea-4024-8e4e-f6d39c5425fe"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "14ea7b6c-cd17-4279-9212-d7784aff8756": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14705436262474__14ea7b6c-cd17-4279-9212-d7784aff8756-166561151018124aad-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Royal-Runner-Lifestyle-2.jpg",
+            "title": "",
+            "font_style": "h3",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "info_on_image": false
+          }
+        },
+        "template--14705436262474__14ea7b6c-cd17-4279-9212-d7784aff8756-166561151018124aad-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Royal-Runner-Lifestyle-1.jpg",
+            "title": "",
+            "font_style": "h3",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "info_on_image": false
+          }
+        },
+        "template--14705436262474__14ea7b6c-cd17-4279-9212-d7784aff8756-166561151018124aad-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Royal-Runner-Lifestyle-3.jpg",
+            "title": "",
+            "font_style": "h3",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "info_on_image": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14705436262474__14ea7b6c-cd17-4279-9212-d7784aff8756-166561151018124aad-0",
+        "template--14705436262474__14ea7b6c-cd17-4279-9212-d7784aff8756-166561151018124aad-1",
+        "template--14705436262474__14ea7b6c-cd17-4279-9212-d7784aff8756-166561151018124aad-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "72c4ee29-be6f-4c76-a250-8daa86326898": {
+      "type": "collage",
+      "blocks": {
+        "9470484a-ce6d-4a78-b60f-f3907eb988b3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/RR-Rolling-Lifestyle.gif",
+            "image_padding": false
+          }
+        },
+        "template--14705436262474__72c4ee29-be6f-4c76-a250-8daa86326898-1665012695abeb661d-1": {
+          "type": "product",
+          "settings": {
+            "product": "womens-royal-runner-nylon-blue",
+            "second_image": true
+          }
+        },
+        "800e5f5d-546c-455a-b263-719e9ab0c3c0": {
+          "type": "product",
+          "settings": {
+            "product": "womens-balboa-court-shoe-grosgrain-twill-white",
+            "second_image": true
+          }
+        }
+      },
+      "block_order": [
+        "9470484a-ce6d-4a78-b60f-f3907eb988b3",
+        "template--14705436262474__72c4ee29-be6f-4c76-a250-8daa86326898-1665012695abeb661d-1",
+        "800e5f5d-546c-455a-b263-719e9ab0c3c0"
+      ],
+      "settings": {
+        "heading": "Women's Heritage Sport Collection",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16637819990b5fb132": {
+      "type": "multicolumn",
+      "blocks": {
+        "166378199991820c90-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Details-Post-1.jpg",
+            "title": "",
+            "font_style": "h3",
+            "text": "<p><strong>RECYCLED NYLON<\/strong><\/p>",
+            "link_label": "",
+            "link": "",
+            "info_on_image": false
+          }
+        },
+        "166378199991820c90-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Details-Post-2.jpg",
+            "title": "",
+            "font_style": "h3",
+            "text": "<p><strong>ARCHIVAL HERITAGE WEBBING<\/strong><\/p>",
+            "link_label": "",
+            "link": "",
+            "info_on_image": false
+          }
+        },
+        "166378199991820c90-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Details-Post-3.jpg",
+            "title": "",
+            "font_style": "h4",
+            "text": "<p><strong>NATURAL & RECYCLED SAWTOOTH OUTSOLE<\/strong><\/p>",
+            "link_label": "",
+            "link": "",
+            "info_on_image": false
+          }
+        }
+      },
+      "block_order": [
+        "166378199991820c90-0",
+        "166378199991820c90-1",
+        "166378199991820c90-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "4d267572-7935-43ae-8296-a9ad124f222e": {
+      "type": "collage",
+      "blocks": {
+        "0ea36214-4700-47db-b136-dbe54f9cc847": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/M-Rolling-Lifestyle.gif",
+            "image_padding": false
+          }
+        },
+        "template--14705436262474__4d267572-7935-43ae-8296-a9ad124f222e-1665012695abeb661d-1": {
+          "type": "product",
+          "settings": {
+            "product": "mens-royal-runner-nylon-blue",
+            "second_image": true
+          }
+        },
+        "ef6da258-bab7-4150-add5-35473ddaa290": {
+          "type": "product",
+          "settings": {
+            "product": "mens-westwood-tennis-classic-natural",
+            "second_image": true
+          }
+        }
+      },
+      "block_order": [
+        "0ea36214-4700-47db-b136-dbe54f9cc847",
+        "template--14705436262474__4d267572-7935-43ae-8296-a9ad124f222e-1665012695abeb661d-1",
+        "ef6da258-bab7-4150-add5-35473ddaa290"
+      ],
+      "settings": {
+        "heading": "Men's Heritage Sport Collection",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "9c8045a6-c5fa-46cb-937a-3a3dd6c6ecda": {
+      "type": "featured-collection-alt",
+      "settings": {
+        "title": "",
+        "heading_size": "h3",
+        "description": "",
+        "description_style": "body",
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "collection_1": "women-heritage-sport",
+        "tab_id_1": "1",
+        "featured_collection_title_1": "Womens",
+        "products_to_show_1": 6,
+        "collection_2": "mens-heritage-sport",
+        "tab_id_2": "2",
+        "featured_collection_title_2": "Mens",
+        "products_to_show_2": 5,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_condensed_title": false,
+        "show_vendor": false,
+        "show_gender": false,
+        "show_material": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "1663782260320b345f": {
+      "type": "image-banner",
+      "blocks": {
+        "16637822605188c363-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading_line_1": "Image banner",
+            "heading_line_2": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "16637822605188c363-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "16637822605188c363-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16637822605188c363-0",
+        "16637822605188c363-1",
+        "16637822605188c363-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Full-Width-footer.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "16637858792aebd7b0": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "description": "<p><strong>SHOP ALL BOOTS<\/strong><\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "mens-boots",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "166377942474139604",
+    "main",
+    "16637810280ee85eb5",
+    "1663782409a6363c5e",
+    "2fa585ed-391e-4619-ae97-f8e4fa842c54",
+    "1663781478c8c68e80",
+    "14ea7b6c-cd17-4279-9212-d7784aff8756",
+    "72c4ee29-be6f-4c76-a250-8daa86326898",
+    "16637819990b5fb132",
+    "4d267572-7935-43ae-8296-a9ad124f222e",
+    "9c8045a6-c5fa-46cb-937a-3a3dd6c6ecda",
+    "1663782260320b345f",
+    "16637858792aebd7b0"
+  ]
+}

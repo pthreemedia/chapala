@@ -54,8 +54,8 @@
         "1649889267f34c7795-0": {
           "type": "heading",
           "settings": {
-            "heading_line_1": "A consciously crafted,",
-            "heading_line_2": "once-forgotten classic.",
+            "heading_line_1": "The original once-forgotten",
+            "heading_line_2": "sneaker brand.",
             "heading_size": "h0"
           }
         },
@@ -133,7 +133,7 @@
             "image": "shopify:\/\/shop_images\/People-About_Us.jpg",
             "title": "People",
             "font_style": "h4",
-            "text": "<p>We’re a committed crew of underdogs who care a lot and dream big. We regularly volunteer our time and give back a portion of our profits to organizations that support mental health, human rights, and social justice for all.<\/p>",
+            "text": "<p>We’re a committed crew of underdogs who care a lot and dream big. We give back a portion of our profits to organizations that support the environment, mental health, human rights, and social justice for all.<\/p>",
             "link_label": "",
             "link": "shopify:\/\/pages\/careers",
             "info_on_image": false
@@ -145,7 +145,7 @@
             "image": "shopify:\/\/shop_images\/Planet.jpg",
             "title": "Planet",
             "font_style": "h4",
-            "text": "<p>We put the “Sea” in SeaVees® because we’re committed to protecting it. We regularly partner with organizations restoring ocean ecosystems and our coasts.<\/p>",
+            "text": "<p>The “Sea” is in SeaVees® because we’re committed to protecting it. We regularly partner with organizations working to restore ocean ecosystems and our coasts.<\/p>",
             "link_label": "",
             "link": "shopify:\/\/pages\/causes",
             "info_on_image": false
@@ -390,7 +390,7 @@
             "image": "shopify:\/\/shop_images\/More_Bounce.jpg",
             "title": "More bounce, longer wear",
             "font_style": "h4",
-            "text": "<p>Natural rubber baked in a time-honored process gives our shoes a soft step, flexibility and durability.<\/p>",
+            "text": "<p>Natural rubber gives our shoes a soft step, flexibility and durability.<\/p>",
             "link_label": "",
             "link": "",
             "info_on_image": false
@@ -467,7 +467,7 @@
             "image": "shopify:\/\/shop_images\/Materials_0000_pexels-artem-podrez-7232397_a591d190-c786-4c5f-9e80-1f6213041c90.jpg",
             "title": "Waste Not",
             "font_style": "h4",
-            "text": "<p>We’re putting waste to work with materials like vegan corn leather and pineapple yarn (natural fibers made from food production waste). Most of our shoes have recycled polyester laces and recycled cotton liners.<\/p>",
+            "text": "<p>We put waste to work with materials like vegan corn leather and pineapple yarn (natural fibers made from food production waste).<\/p>",
             "link_label": "",
             "link": "",
             "info_on_image": false
@@ -479,7 +479,7 @@
             "image": "shopify:\/\/shop_images\/Recycled_Outsole_2.jpg",
             "title": "Reduce, Reuse, Recycle",
             "font_style": "h4",
-            "text": "<p>We are working toward recycled materials in every shoe we make—including repurposing recycled rubber scraps that end up on the factory floor into the outsoles of our shoes.<\/p>",
+            "text": "<p>We’ve incorporated recycled materials into every shoe we make. All ofour shoes have recycled cotton or recycled polyester laces and recycled cotton linings. And many have outsoles made with recycled rubber repurposed from things like tires and rubber gloves. <\/p>",
             "link_label": "",
             "link": "",
             "info_on_image": false
@@ -626,7 +626,7 @@
             "text_placement": "left",
             "image": "shopify:\/\/shop_images\/Timeline_Section_1_734af220-7f19-4c1b-9388-6aacfab0445e.jpg",
             "heading": "2020s",
-            "body": "<p><strong>2022<\/strong>: Launched our first collection of shoes made with materials derived from natural waste streams with corn leather and pineapple yarn.<\/p><p><strong>2021<\/strong>: Opened the 'Lido Lodge', our second retail store in Newport Beach, CA—a reclaimed 1940s-era cottage anchored in the historic Lido Marina.<\/p><p><strong>2020:<\/strong> Launched our first collection of shoes made with recycled materials. Started selling our first signature socks, apparel, and hats.<\/p>"
+            "body": "<p><strong>2022<\/strong>: Launched our first collection of shoes made with materials derived from natural waste streams with corn leather and pineapple yarn. Opened our first store location in Northern California, nestled between the Golden Gate Bridge and Mt. Tamalpais in beautiful Marin County.<\/p><p><strong>2021<\/strong>: Opened the 'Lido Lodge', our second retail store in Newport Beach, CA—a reclaimed 1940s-era cottage anchored in the historic Lido Marina.<\/p><p><strong>2020:<\/strong> Launched our first collection of shoes made with recycled materials. Started selling our first signature socks, apparel, and hats.<\/p>"
           }
         },
         "861950e2-ce63-4a2a-9933-67e2edf70571": {
