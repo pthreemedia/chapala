@@ -630,7 +630,7 @@
           "show_swatches": false,
           "hide_sale_swatches": true,
           "show_availability": false,
-          "show_secondary_image": false,
+          "show_secondary_image": true,
           "show_gender": false,
           "show_material": false,
           "show_vendor": false,
