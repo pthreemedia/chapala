@@ -6,13 +6,14 @@
   background-color: rgb(var(--color-background));
   border-left: 0;
   border-radius: 0;
-  border-right: 0;  
+  border-right: 0;
   left: 0;
   overflow-y: auto;
+  padding-bottom: 2.4rem;
+  padding-top: 2.4rem;
   position: absolute;
   right: 0;
   top: 100%;
-  z-index: -1;
 }
 
 .shopify-section-header-sticky .mega-menu__content {
@@ -30,22 +31,18 @@
 
 .mega-menu[open] .mega-menu__content {
   opacity: 1;
-  transform: translateY(-40px);
-  z-index: 1;
-  border: 0;
+  transform: translateY(0);
 }
 
 .mega-menu__list {
   display: grid;
-  gap: 2rem 3rem;
-  grid-template-columns: 1fr 1fr 60%;
+  gap: 2.4rem 4rem;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
   list-style: none;
-  padding-bottom: 5rem;
-  padding-top: 3rem;
 }
 
 .mega-menu__link {
-  color: rgba(var(--color-foreground), 0.95);
+  color: rgba(var(--color-foreground), 0.75);
   display: block;
   font-size: 1.3rem;
   line-height: calc(1 + 0.3 / var(--font-body-scale));
@@ -58,7 +55,6 @@
 
 .mega-menu__link--level-2 {
   font-size: 1.4rem;
-  font-weight: var(--font-body-weight-bold);
 }
 
 .mega-menu__link--level-2:not(:only-child) {
@@ -99,7 +95,7 @@
 
 .featured-menu-desktop-container {
   grid-column: 3 / 3;
-  grid-row: 1 / 3
+  grid-row: 1 / 3;
 }
 
 .header-featured-desktop-image {
@@ -148,16 +144,45 @@
 
 .featured-menu-desktop-header:hover {
   text-decoration: none;
-  color: rgba(var(--color-foreground),.75)
+  color: rgba(var(--color-foreground), 0.75);
 }
 
-
-#childlink-Big\ Kids\ \(4-12\ Years\) > ul > li > a
-#childlink-Little\ Kids\ \(1-4\ Years\) > ul > li > a,
+#childlink-Big\ Kids\ \(4-12\ Years\)
+  > ul
+  > li
+  > a
+  #childlink-Little\ Kids\ \(1-4\ Years\)
+  > ul
+  > li
+  > a,
 #childlink-Mens\ Shoes > ul > li:nth-child(10) > a,
 #childlink-Womens\ Shoes > ul > li:nth-child(10) > a,
-#shopify-section-header nav.header__inline-menu li:nth-child(1) .mega-menu__content ul.mega-menu__list li:nth-child(1) ul[role="list"] li:last-of-type a.mega-menu__link, 
-#shopify-section-header nav.header__inline-menu li:nth-child(2) .mega-menu__content ul.mega-menu__list li:nth-child(1) ul[role="list"] li:last-of-type a.mega-menu__link,
-#shopify-section-header nav.header__inline-menu li:nth-child(3) .mega-menu__content ul.mega-menu__list li:nth-child(1) ul[role="list"] li:last-of-type a.mega-menu__link, 
-#shopify-section-header nav.header__inline-menu li:nth-child(3) .mega-menu__content ul.mega-menu__list li:nth-child(2) ul[role="list"] li:last-of-type a.mega-menu__link 
-{ color: red; }
+#shopify-section-header
+  nav.header__inline-menu
+  li:nth-child(1)
+  .mega-menu__content
+  ul.mega-menu__list
+  li:nth-child(1)
+  ul[role="list"]
+  li:last-of-type
+  a.mega-menu__link,
+#shopify-section-header
+  nav.header__inline-menu
+  li:nth-child(2)
+  .mega-menu__content
+  ul.mega-menu__list
+  li:nth-child(1)
+  ul[role="list"]
+  li:last-of-type
+  a.mega-menu__link,
+#shopify-section-header
+  nav.header__inline-menu
+  li:nth-child(3)
+  .mega-menu__content
+  ul.mega-menu__list
+  li:nth-child(1)
+  ul[role="list"]
+  li:last-of-type
+  a.mega-menu__link {
+  color: red;
+}
