@@ -47,8 +47,8 @@
         "use_video_background": false,
         "hero_video_desktop": "",
         "hero_video_mobile": "",
-        "image_desktop": "shopify:\/\/shop_images\/w_monterey_cactuscanvas-170_1-min.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/W_Originals_Hero_Mobile_06480485-1550-4fd4-8f31-72fd8c9e04c1.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/M_Originals_Hero_2.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/M_Originals_Hero_Mobile.jpg",
         "image_overlay_opacity": 10,
         "adapt_height_first_image": true,
         "text_image_separate": false,
@@ -123,7 +123,7 @@
         "template--14705436262474__14ea7b6c-cd17-4279-9212-d7784aff8756-166561151018124aad-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Originals-Collection-Mobile-Hero.jpg",
+            "image": "shopify:\/\/shop_images\/M_Originals_Sub_3.jpg",
             "title": "",
             "font_style": "h3",
             "text": "",
@@ -135,7 +135,7 @@
         "template--14705436262474__14ea7b6c-cd17-4279-9212-d7784aff8756-166561151018124aad-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Originals_W_Baja_c2a99dd6-8cea-409b-9d9d-c768594fb1b4.jpg",
+            "image": "shopify:\/\/shop_images\/M_Originals_Sub_8.jpg",
             "title": "",
             "font_style": "h3",
             "text": "",
@@ -147,7 +147,7 @@
         "template--14705436262474__14ea7b6c-cd17-4279-9212-d7784aff8756-166561151018124aad-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Originals_W_SixtySix.jpg",
+            "image": "shopify:\/\/shop_images\/M_Originals_Sub_7_87791bc7-c38b-4423-ab0c-671e00410a32.jpg",
             "title": "",
             "font_style": "h3",
             "text": "",
@@ -187,8 +187,8 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "womens-originals",
-        "products_to_show": 6,
+        "collection": "mens-originals",
+        "products_to_show": 8,
         "columns_desktop": 3,
         "full_width": false,
         "show_view_all": false,
@@ -245,7 +245,7 @@
         "16637822605188c363-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Originals_w_legend_full_width.jpg",
+        "image": "shopify:\/\/shop_images\/M_Originals_Hero_1_243c1807-dc03-4f07-9c53-771d385f16d6.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
@@ -281,7 +281,7 @@
           "type": "button",
           "settings": {
             "button_label": "Shop The Legend",
-            "button_link": "shopify:\/\/products\/womens-legend-sneaker-classic-true-navy",
+            "button_link": "shopify:\/\/products\/mens-legend-sneaker-classic-granite-grey",
             "use_arrow_link": true,
             "button_style_secondary": false
           }
@@ -293,7 +293,7 @@
         "template--14799812722762__be378c25-a127-4a41-bb69-34e6a503adbf-167407704569493c0b-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Originals_Legend_3.jpg",
+        "image": "shopify:\/\/shop_images\/M_Originals_Sub_2.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "full_width": false,
@@ -330,7 +330,7 @@
           "type": "button",
           "settings": {
             "button_label": "Shop The Baja",
-            "button_link": "shopify:\/\/products\/womens-baja-slip-on-classic-natural",
+            "button_link": "shopify:\/\/products\/mens-baja-slip-on-classic-slate-navy",
             "use_arrow_link": true,
             "button_style_secondary": false
           }
@@ -342,7 +342,7 @@
         "template--14799812722762__7c0a84db-778c-4c0c-82cf-aaa1e53006ef-167407704569493c0b-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/W_Orginals_Baja_Natural.jpg",
+        "image": "shopify:\/\/shop_images\/M_Originals_Baja_1.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "full_width": false,
@@ -371,15 +371,15 @@
         "template--14799812722762__464e13c7-e860-4214-bc36-dffd9d1f2980-167407704569493c0b-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Original lace-ups to carry you throughout the seasons. Always comfortable, always in style.<\/p>",
+            "text": "<p>An iconic skate shoe recrafted with super durable materials and an unbelievably cushy footbed so you can cruise in comfort.<\/p>",
             "text_style": "body"
           }
         },
         "template--14799812722762__464e13c7-e860-4214-bc36-dffd9d1f2980-167407704569493c0b-2": {
           "type": "button",
           "settings": {
-            "button_label": "Shop The Monterey",
-            "button_link": "shopify:\/\/products\/womens-monterey-sneaker-classic-bleach",
+            "button_label": "Shop The Hermosa",
+            "button_link": "shopify:\/\/products\/mens-hermosa-sneaker-classic-natural",
             "use_arrow_link": true,
             "button_style_secondary": false
           }
@@ -391,7 +391,7 @@
         "template--14799812722762__464e13c7-e860-4214-bc36-dffd9d1f2980-167407704569493c0b-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Originals_Monterey_White.jpg",
+        "image": "shopify:\/\/shop_images\/M_Originals_Hermosa_2.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "full_width": false,

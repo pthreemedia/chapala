@@ -280,8 +280,110 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "56d0e97a-6ead-4699-9f04-763e0440b203": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14499865755722__56d0e97a-6ead-4699-9f04-763e0440b203-16744993958f138e3a-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HP__Tiles_800x800_0003_Rectangle_1_copy_3.jpg",
+            "title": "NEW ARRIVALS",
+            "font_style": "h4",
+            "text": "<p>Shop Womens  |  Shop Mens<\/p>",
+            "link_label": "",
+            "link": "",
+            "info_on_image": true
+          }
+        },
+        "template--14499865755722__56d0e97a-6ead-4699-9f04-763e0440b203-16744993958f138e3a-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HP__Tiles_800x800_0002_Rectangle_1_copy_2.jpg",
+            "title": "Originals",
+            "font_style": "h4",
+            "text": "<p>Shop Womens  |  Shop Mens<\/p>",
+            "link_label": "",
+            "link": "",
+            "info_on_image": true
+          }
+        },
+        "template--14499865755722__56d0e97a-6ead-4699-9f04-763e0440b203-16744993958f138e3a-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HP__Tiles_800x800_0004_Rectangle_1_copy_4.jpg",
+            "title": "SeaChange",
+            "font_style": "h4",
+            "text": "<p>Shop Womens  |  Shop Mens<\/p>",
+            "link_label": "",
+            "link": "",
+            "info_on_image": true
+          }
+        },
+        "5f9c842d-3ada-4052-b8fb-071cadbcce30": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HP__Tiles_800x800_0008_Rectangle_1_copy_8.jpg",
+            "title": "Heritage Sport",
+            "font_style": "h4",
+            "text": "<p>Shop Now<\/p>",
+            "link_label": "",
+            "link": "",
+            "info_on_image": true
+          }
+        },
+        "6f242f1f-49c8-4f0d-a853-c0ead86cfd16": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HP__Tiles_800x800_0005_Rectangle_1_copy_5.jpg",
+            "title": "Adventure",
+            "font_style": "h4",
+            "text": "<p>Shop Now<\/p>",
+            "link_label": "",
+            "link": "",
+            "info_on_image": true
+          }
+        },
+        "e859e1a8-de03-40f4-9a94-97151d49edfc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HP__Tiles_800x800_0000_Rectangle_1.jpg",
+            "title": "Elevate",
+            "font_style": "h4",
+            "text": "<p>Shop Womens  |  Shop Mens<\/p>",
+            "link_label": "",
+            "link": "",
+            "info_on_image": true
+          }
+        }
+      },
+      "block_order": [
+        "template--14499865755722__56d0e97a-6ead-4699-9f04-763e0440b203-16744993958f138e3a-0",
+        "template--14499865755722__56d0e97a-6ead-4699-9f04-763e0440b203-16744993958f138e3a-1",
+        "template--14499865755722__56d0e97a-6ead-4699-9f04-763e0440b203-16744993958f138e3a-2",
+        "5f9c842d-3ada-4052-b8fb-071cadbcce30",
+        "6f242f1f-49c8-4f0d-a853-c0ead86cfd16",
+        "e859e1a8-de03-40f4-9a94-97151d49edfc"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 52,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "column2": {
           "type": "column",
@@ -477,7 +579,7 @@
         "padding_top": 92,
         "padding_bottom": 92,
         "margin_top": 32,
-        "margin_bottom": 32
+        "margin_bottom": 36
       }
     },
     "1649740012c626c04c": {
@@ -515,6 +617,54 @@
         "desktop_content_align": "left",
         "padding_top": 100,
         "padding_bottom": 100,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "32c11be2-aeba-49c1-9e9a-aa6d568ae4b2": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14499865755722__32c11be2-aeba-49c1-9e9a-aa6d568ae4b2-16751060059c2156e4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--14499865755722__32c11be2-aeba-49c1-9e9a-aa6d568ae4b2-16751060059c2156e4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--14499865755722__32c11be2-aeba-49c1-9e9a-aa6d568ae4b2-16751060059c2156e4-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "use_arrow_link": false,
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14499865755722__32c11be2-aeba-49c1-9e9a-aa6d568ae4b2-16751060059c2156e4-0",
+        "template--14499865755722__32c11be2-aeba-49c1-9e9a-aa6d568ae4b2-16751060059c2156e4-1",
+        "template--14499865755722__32c11be2-aeba-49c1-9e9a-aa6d568ae4b2-16751060059c2156e4-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "full_width": false,
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
         "margin_top": 0,
         "margin_bottom": 0
       }
@@ -669,6 +819,15 @@
         "padding_top": 36,
         "padding_bottom": 0
       }
+    },
+    "7be2f9d6-84b6-4b78-8ccd-9607539021b0": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script type=\"text\/javascript\">\nvar _learnq = _learnq || [];\nfunction addedToCart() {\n  fetch(`${window.location.origin}\/cart.js`)\n  .then(res => res.clone().json().then(data => {\n    var cart = {\n      total_price: data.total_price\/100,\n      $value: data.total_price\/100,\n      total_discount: data.total_discount,\n      original_total_price: data.original_total_price\/100,\n      items: data.items\n    }\n    if (item !== 'undefined') {\n      cart = Object.assign(cart, item)\n    }\n    _learnq.push(['track', 'Added to Cart', cart])\n  }))\n} \n(function (ns, fetch) {\n  ns.fetch = function() {\n    const response = fetch.apply(this, arguments);\n    response.then(res => {\n      if (`${window.location.origin}\/cart\/add.js`\n      \t.includes(res.url)) {\n        \taddedToCart()\n      }\n    });\n    return response\n  }\n}(window, window.fetch))\n$(document).ajaxComplete(function(event, request, settings){\n  if(settings.url == \"\/cart\/add.js\"){\n      addedToCart()\n  }\n})<\/script>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -677,14 +836,17 @@
     "1652135633ce7ce319",
     "16503151834eccf6ed",
     "1649806229c9386eb6",
+    "56d0e97a-6ead-4699-9f04-763e0440b203",
     "multicolumn",
     "16498083081f9f26ae",
     "164755189301d4a216",
     "1649798573ce850ed1",
     "1649740012c626c04c",
+    "32c11be2-aeba-49c1-9e9a-aa6d568ae4b2",
     "16497990090566f2cc",
     "16470178216c89dbf8",
     "16503939747598204d",
-    "164981923618e4f011"
+    "164981923618e4f011",
+    "7be2f9d6-84b6-4b78-8ccd-9607539021b0"
   ]
 }

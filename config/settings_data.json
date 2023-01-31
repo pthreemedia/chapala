@@ -534,102 +534,72 @@
             "type": "grid_content",
             "disabled": true,
             "settings": {
-              "grid_content_id": "spliced-test-1",
+              "grid_content_id": "mens-new-arrivals",
               "grid_position": "1",
-              "grid_width_in_3_column_grid": "1-3",
-              "heading": "test1headline",
-              "subheading": "test1headline",
+              "grid_width_in_3_column_grid": "none",
+              "heading": "mens-new-arrivals",
+              "subheading": "mens-new-arrivals",
               "headline_vertical_position": "middle",
               "headline_horizontal_position": "middle",
               "mobile_image": "shopify:\/\/shop_images\/DSC04565.jpg",
               "desktop_image": "shopify:\/\/shop_images\/DSC04565.jpg",
               "link_url": "shopify:\/\/collections\/apparel",
-              "link_text": "testlink"
+              "link_text": "mens-new-arrivals",
+              "button_toggle": "hide"
             }
           },
           "e0789ffc-fa50-430e-a6c2-665ca3d37f4f": {
             "type": "grid_content",
             "disabled": true,
             "settings": {
-              "grid_content_id": "spliced-test-1",
+              "grid_content_id": "mens-best-sellers",
               "grid_position": "2",
               "grid_width_in_3_column_grid": "none",
-              "heading": "test2headline",
-              "subheading": "test2subheadline",
+              "heading": "mens-best-sellers",
+              "subheading": "mens-best-sellers",
               "headline_vertical_position": "top",
               "headline_horizontal_position": "left",
               "mobile_image": "shopify:\/\/shop_images\/DSC04475.jpg",
               "desktop_image": "shopify:\/\/shop_images\/DSC04475.jpg",
               "link_url": "",
-              "link_text": "test2link"
+              "link_text": "mens-best-sellers",
+              "button_toggle": "hide"
             }
           },
           "56b35a7f-b412-4e71-97e6-9c07a99ae90f": {
             "type": "grid_content",
             "disabled": true,
             "settings": {
-              "grid_content_id": "spliced-test-1",
+              "grid_content_id": "mens-slip-ons",
               "grid_position": "3",
               "grid_width_in_3_column_grid": "none",
-              "heading": "test3headline",
-              "subheading": "test3subheadline",
+              "heading": "mens-slip-ons",
+              "subheading": "mens-slip-ons",
               "headline_vertical_position": "top",
               "headline_horizontal_position": "left",
               "mobile_image": "shopify:\/\/shop_images\/Daydreamer_Collective_SocialSocial_1080x1080_1_copy_20_f175dbcc-a8bb-4e0b-8147-ffc892819feb.jpg",
               "desktop_image": "shopify:\/\/shop_images\/Daydreamer_Collective_SocialSocial_1080x1080_1_copy_20_f175dbcc-a8bb-4e0b-8147-ffc892819feb.jpg",
               "link_url": "",
-              "link_text": "test3link"
+              "link_text": "mens-slip-ons",
+              "button_toggle": "hide"
             }
           },
           "fce34243-bac1-410b-a6df-aed79b63daa2": {
             "type": "grid_content",
             "disabled": true,
             "settings": {
-              "grid_content_id": "mens-slippers",
-              "grid_position": "3",
+              "grid_content_id": "mens-boots",
+              "grid_position": "4",
               "grid_width_in_3_column_grid": "none",
-              "heading": "",
-              "subheading": "",
+              "heading": "mens-boots",
+              "subheading": "mens-boots",
               "headline_vertical_position": "top",
               "headline_horizontal_position": "left",
               "mobile_image": "shopify:\/\/shop_images\/Sandals_and_Slippers-min_f5e983f1-9871-473d-ac24-56121126d755.jpg",
               "desktop_image": "shopify:\/\/shop_images\/Sandals_and_Slippers-min.jpg",
               "link_url": "shopify:\/\/products\/mens-seachange-slide-cocoa",
-              "link_text": ""
-            }
-          },
-          "3584b079-3303-478e-ac88-bdd55e986a0b": {
-            "type": "grid_content",
-            "disabled": true,
-            "settings": {
-              "grid_content_id": "mens-new-arrivals",
-              "grid_position": "3",
-              "grid_width_in_3_column_grid": "2-4",
-              "heading": "",
-              "subheading": "",
-              "headline_vertical_position": "top",
-              "headline_horizontal_position": "left",
-              "mobile_image": "shopify:\/\/shop_images\/New_Arrivals-min.jpg",
-              "desktop_image": "shopify:\/\/shop_images\/New_Arrivals-min_8ec3b23d-e816-4e09-9848-d151e25bf52d.jpg",
-              "link_url": "shopify:\/\/products\/mens-el-cap-camp-moc-cow-suede-tobacco",
-              "link_text": "El Cap Moc"
-            }
-          },
-          "28b689a2-6551-484a-803b-89476ba093f9": {
-            "type": "grid_content",
-            "disabled": true,
-            "settings": {
-              "grid_content_id": "mens-boots",
-              "grid_position": "1",
-              "grid_width_in_3_column_grid": "1-3",
-              "heading": "",
-              "subheading": "",
-              "headline_vertical_position": "top",
-              "headline_horizontal_position": "left",
-              "mobile_image": "shopify:\/\/shop_images\/Boots-min.jpg",
-              "desktop_image": "shopify:\/\/shop_images\/Boots-min_b7de42dd-251b-403f-9492-1c8a84111e80.jpg",
-              "link_url": "shopify:\/\/products\/mens-maslon-desert-boot-carr-bull-denim-twill-coffee",
-              "link_text": "Maslon Boot"
+              "link_text": "mens-boots",
+              "button_toggle": "hide"
             }
           }
         },
@@ -637,9 +607,7 @@
           "3d1ddb4b-8e69-4f60-9bf3-5284d0611e5f",
           "e0789ffc-fa50-430e-a6c2-665ca3d37f4f",
           "56b35a7f-b412-4e71-97e6-9c07a99ae90f",
-          "fce34243-bac1-410b-a6df-aed79b63daa2",
-          "3584b079-3303-478e-ac88-bdd55e986a0b",
-          "28b689a2-6551-484a-803b-89476ba093f9"
+          "fce34243-bac1-410b-a6df-aed79b63daa2"
         ],
         "settings": {
           "products_per_page": 60,

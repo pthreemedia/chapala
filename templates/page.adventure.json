@@ -39,9 +39,13 @@
           }
         }
       },
-      "block_order": ["165297913758c6d6d2-0", "165297913758c6d6d2-1", "165297913758c6d6d2-2"],
+      "block_order": [
+        "165297913758c6d6d2-0",
+        "165297913758c6d6d2-1",
+        "165297913758c6d6d2-2"
+      ],
       "settings": {
-        "image": "shopify://shop_images/Landing_Page_Hero-min_463c705b-d7b7-4a58-9bab-2f554e54a396.jpg",
+        "image": "shopify:\/\/shop_images\/Landing_Page_Hero-min_463c705b-d7b7-4a58-9bab-2f554e54a396.jpg",
         "image_overlay_opacity": 10,
         "image_height": "medium",
         "adapt_height_first_image": false,
@@ -71,13 +75,16 @@
         "1651769816c53397ad-1": {
           "type": "text",
           "settings": {
-            "text": "<p>The best boots in your closet were made by a sneaker brand. Every boot in this collection has timeless, classic design elements that will make them the most versatile style in your closet.</p><p>We're best known for our sneakers, but we put the same thoughtfulness into the construction of our boots. Made with responsible materials like natural and recycled rubber and Leather Working Group certified leather and suede, they'll hold up season after season.</p><p></p>",
+            "text": "<p>The best boots in your closet were made by a sneaker brand. Every boot in this collection has timeless, classic design elements that will make them the most versatile style in your closet.<\/p><p>We're best known for our sneakers, but we put the same thoughtfulness into the construction of our boots. Made with responsible materials like natural and recycled rubber and Leather Working Group certified leather and suede, they'll hold up season after season.<\/p><p><\/p>",
             "use_heading_font": false,
             "font_color": "#012e5c"
           }
         }
       },
-      "block_order": ["d845d1e9-4475-44d5-9f6e-5a776c159f6e", "1651769816c53397ad-1"],
+      "block_order": [
+        "d845d1e9-4475-44d5-9f6e-5a776c159f6e",
+        "1651769816c53397ad-1"
+      ],
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
@@ -97,7 +104,7 @@
         "1653339932d884285e-2": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/0000_M_Bolinas_Boot_OD_Green_Rubber_018_c700b19d-9bf1-414a-b79d-59b227e6dc04.jpg",
+            "image": "shopify:\/\/shop_images\/0000_M_Bolinas_Boot_OD_Green_Rubber_018_c700b19d-9bf1-414a-b79d-59b227e6dc04.jpg",
             "title": "BUILT FOR COMFORT",
             "font_style": "h4",
             "text": "",
@@ -109,7 +116,7 @@
         "190da888-f8be-4ffd-85c7-9ab4adb42d9b": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/0001_W_bolinasoffshoreboot_peacoatnavy-108-2_dcd2661b-4378-4daf-9422-c97e40b8a036.jpg",
+            "image": "shopify:\/\/shop_images\/0001_W_bolinasoffshoreboot_peacoatnavy-108-2_dcd2661b-4378-4daf-9422-c97e40b8a036.jpg",
             "title": "MADE TO LAST",
             "font_style": "h4",
             "text": "",
@@ -121,7 +128,7 @@
         "1653339932d884285e-0": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/0002_W_lagunachelseaboot_elmwood-57_copy_b96e4358-8fc8-4bf4-895d-f2ff99f7b5c2.jpg",
+            "image": "shopify:\/\/shop_images\/0002_W_lagunachelseaboot_elmwood-57_copy_b96e4358-8fc8-4bf4-895d-f2ff99f7b5c2.jpg",
             "title": "READY FOR ANYTHING",
             "font_style": "h4",
             "text": "",
@@ -196,29 +203,32 @@
         "165306966370d82fc8-2": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Instagram_post_-_70-min.jpg",
+            "image": "shopify:\/\/shop_images\/Instagram_post_-_70-min.jpg",
             "title": "Womens Adventure Collection",
             "font_style": "h3",
             "text": "",
             "link_label": "Shop Now",
-            "link": "shopify://collections/womens-adventure-collection",
+            "link": "shopify:\/\/collections\/womens-adventure-collection",
             "info_on_image": true
           }
         },
         "a63135c7-20d3-4c8d-a5d2-2639fa9606e5": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Instagram_post_-_75-min.jpg",
+            "image": "shopify:\/\/shop_images\/Instagram_post_-_75-min.jpg",
             "title": "Mens Adventure Collection",
             "font_style": "h3",
             "text": "",
             "link_label": "Shop Now",
-            "link": "shopify://collections/mens-adventure-collection",
+            "link": "shopify:\/\/collections\/mens-adventure-collection",
             "info_on_image": true
           }
         }
       },
-      "block_order": ["165306966370d82fc8-2", "a63135c7-20d3-4c8d-a5d2-2639fa9606e5"],
+      "block_order": [
+        "165306966370d82fc8-2",
+        "a63135c7-20d3-4c8d-a5d2-2639fa9606e5"
+      ],
       "settings": {
         "title": "",
         "heading_size": "h1",
