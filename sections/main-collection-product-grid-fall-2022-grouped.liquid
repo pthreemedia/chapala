@@ -157,7 +157,7 @@
                                   <h4>{{ block.settings.subheading }}</h4>
                                 {% endif %}
                               </div>
-                              {% if block.settings.link_text %}
+                              {% if block.settings.link_text and block.settings.button_toggle == 'show' %}
                                 <span class="cta-text">{{ block.settings.link_text }}</span>
                               {% endif %}
                             </div>
@@ -473,6 +473,22 @@
           "type": "text",
           "id": "link_text",
           "label": "Link Text"
+        },
+        {
+          "type": "radio",
+          "id": "button_toggle",
+          "label": "Button Toggle",
+          "options": [
+            {
+              "value": "show",
+              "label": "Show Button"
+            },
+            {
+              "value": "hide",
+              "label": "Hide Button"
+            }
+          ],
+          "default": "show"
         }
       ]
     }
