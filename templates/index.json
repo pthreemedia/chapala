@@ -57,55 +57,6 @@
         "desktop_text_alignment": "center"
       }
     },
-    "90a6b8cf-f580-49af-a352-48d5ab8dcb10": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "template--14499865755722__90a6b8cf-f580-49af-a352-48d5ab8dcb10-16673284741a252a5d-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "The Bolinas Boot",
-            "heading_size": "h0",
-            "font_color": ""
-          }
-        },
-        "template--14499865755722__90a6b8cf-f580-49af-a352-48d5ab8dcb10-16673284741a252a5d-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Dress it up or dress it down, our Bolinas Boot will be your new wet weather go-to.<\/p>",
-            "use_heading_font": false,
-            "font_color": ""
-          }
-        },
-        "template--14499865755722__90a6b8cf-f580-49af-a352-48d5ab8dcb10-16673284741a252a5d-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop The Bolinas Boot",
-            "button_link": "shopify:\/\/pages\/bolinas-boot",
-            "button_style_secondary": false,
-            "use_arrow_link": false,
-            "link_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--14499865755722__90a6b8cf-f580-49af-a352-48d5ab8dcb10-16673284741a252a5d-0",
-        "template--14499865755722__90a6b8cf-f580-49af-a352-48d5ab8dcb10-16673284741a252a5d-1",
-        "template--14499865755722__90a6b8cf-f580-49af-a352-48d5ab8dcb10-16673284741a252a5d-2"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "narrow": true,
-        "is_page_header": false,
-        "mobile_content_align": "center",
-        "desktop_content_align": "center",
-        "padding_top": 52,
-        "padding_bottom": 64,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
     "1652135633ce7ce319": {
       "type": "hero-banner",
       "disabled": true,
@@ -282,6 +233,7 @@
     },
     "56d0e97a-6ead-4699-9f04-763e0440b203": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "template--14499865755722__56d0e97a-6ead-4699-9f04-763e0440b203-16744993958f138e3a-0": {
           "type": "column",
@@ -383,7 +335,6 @@
     },
     "multicolumn": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "column2": {
           "type": "column",
@@ -623,27 +574,28 @@
     },
     "32c11be2-aeba-49c1-9e9a-aa6d568ae4b2": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "template--14499865755722__32c11be2-aeba-49c1-9e9a-aa6d568ae4b2-16751060059c2156e4-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
+            "heading": "Daydreamer Series",
+            "heading_size": "h2"
           }
         },
         "template--14499865755722__32c11be2-aeba-49c1-9e9a-aa6d568ae4b2-16751060059c2156e4-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>In pursuit of careers in science and professional mountain biking, Dillon Osleger found a dream job that combined his skills instead.<\/p>",
             "text_style": "body"
           }
         },
         "template--14499865755722__32c11be2-aeba-49c1-9e9a-aa6d568ae4b2-16751060059c2156e4-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "use_arrow_link": false,
+            "button_label": "Read More",
+            "button_link": "https:\/\/www.seavees.com\/blogs\/journal\/daydreamer-series-finding-a-dream-through-process-of-elimination",
+            "use_arrow_link": true,
             "button_style_secondary": false
           }
         }
@@ -654,11 +606,12 @@
         "template--14499865755722__32c11be2-aeba-49c1-9e9a-aa6d568ae4b2-16751060059c2156e4-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/HP_Daydreamer_Series.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "full_width": false,
         "layout": "image_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
@@ -666,7 +619,7 @@
         "padding_top": 36,
         "padding_bottom": 36,
         "margin_top": 0,
-        "margin_bottom": 0
+        "margin_bottom": 28
       }
     },
     "16497990090566f2cc": {
@@ -832,7 +785,6 @@
   },
   "order": [
     "164867367120e1947e",
-    "90a6b8cf-f580-49af-a352-48d5ab8dcb10",
     "1652135633ce7ce319",
     "16503151834eccf6ed",
     "1649806229c9386eb6",

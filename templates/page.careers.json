@@ -123,6 +123,17 @@
             "info_on_image": false
           }
         },
+        "b02fee69-262c-4c38-b2c1-e0a1b7592a5e": {
+          "type": "column",
+          "settings": {
+            "title": "Social Media Intern - Santa Barbara, CA",
+            "font_style": "h3",
+            "text": "<p>We’re looking for a Social Media Intern with a true passion for all things social and knack for creating fun and<br\/>out-of-the-box content to help grow the brand message through engaging tactics online. <\/p>",
+            "link_label": "View Details",
+            "link": "shopify:\/\/pages\/careers-social-media-intern",
+            "info_on_image": false
+          }
+        },
         "16488307761b149624-1": {
           "type": "column",
           "disabled": true,
@@ -153,6 +164,7 @@
         "c6ae60f4-21ff-4c88-8bd9-80bebf7f42b1",
         "d32262e6-10d1-4e75-882a-8ac07dea52be",
         "16488307761b149624-0",
+        "b02fee69-262c-4c38-b2c1-e0a1b7592a5e",
         "16488307761b149624-1",
         "9d2288f3-ce8c-4967-82ff-696fbceb0690"
       ],

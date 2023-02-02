@@ -245,7 +245,7 @@
         "template--14705436262474__14ea7b6c-cd17-4279-9212-d7784aff8756-166561151018124aad-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Elevate_Collection_Column_3.jpg",
+            "image": "shopify:\/\/shop_images\/Elevate_Collection_Column_4.jpg",
             "title": "Espadrilles",
             "font_style": "h4",
             "text": "<p>Shop Now<\/p>",
@@ -257,7 +257,7 @@
         "9071fb00-9d29-45d1-9b7e-ee8a0591dd0f": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Elevate_Collection_Column_1.jpg",
+            "image": "shopify:\/\/shop_images\/Elevate_Collection_Column_6.jpg",
             "title": "Mules",
             "font_style": "h4",
             "text": "<p>Shop Now<\/p>",
@@ -274,7 +274,7 @@
         "9071fb00-9d29-45d1-9b7e-ee8a0591dd0f"
       ],
       "settings": {
-        "title": "Womens",
+        "title": "",
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -292,6 +292,7 @@
     },
     "662a4419-a6ea-49ac-a920-178276e30b42": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "af87a644-6297-4435-8d2b-b3cccd406060": {
           "type": "column",
@@ -398,10 +399,10 @@
         "6d0cb912-29cf-4c63-a75e-9d815445cb33": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Elevate_Collection_Column_1.jpg",
-            "title": "",
+            "image": "shopify:\/\/shop_images\/PM-Callouts-1.jpg",
+            "title": "Premium Materials",
             "font_style": "h3",
-            "text": "",
+            "text": "<p>Made with the highest quality materials like Leather Working Group certified leather and suede, vegan corn leather, hemp and organic cotton.​<\/p>",
             "link_label": "",
             "link": "",
             "info_on_image": false
@@ -410,10 +411,10 @@
         "2c18ca36-ea09-4bf5-95d3-cbf95949c732": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Elevate_Collection_Column_2.jpg",
-            "title": "",
+            "image": "shopify:\/\/shop_images\/PM-Callouts-2.jpg",
+            "title": "Elevated Design",
             "font_style": "h3",
-            "text": "",
+            "text": "<p>Built to make a statement, yet have a timeless, classic look you can feel confident wearing for years to come.<\/p>",
             "link_label": "",
             "link": "",
             "info_on_image": false
@@ -422,10 +423,10 @@
         "036f0f1d-944c-477b-83ac-219d01319386": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Elevate_Collection_Column_3.jpg",
-            "title": "",
+            "image": "shopify:\/\/shop_images\/PM-Callouts-3.jpg",
+            "title": "Supreme Comfort",
             "font_style": "h3",
-            "text": "",
+            "text": "<p>Our patented foam footbed with perforated airflow channels gives you cool-wearing comfort all day long.<\/p>",
             "link_label": "",
             "link": "",
             "info_on_image": false
@@ -515,21 +516,21 @@
         "template--14799812722762__be378c25-a127-4a41-bb69-34e6a503adbf-167407704569493c0b-0": {
           "type": "heading",
           "settings": {
-            "heading": "The One  That Started It All",
+            "heading": "Make A Statement",
             "heading_size": "h1"
           }
         },
         "template--14799812722762__be378c25-a127-4a41-bb69-34e6a503adbf-167407704569493c0b-1": {
           "type": "text",
           "settings": {
-            "text": "<p>It's called the legend for a reason. The style that started it all in 1964 continues its legacy as a SeaVees best seller.<\/p>",
+            "text": "<p>We took your classic lace-up sneaker to new heights. Embracing the bold style and maximalist energy of the Y2K era, these bright white platforms,featuring a colorful pull tab and an ultra-grooved lug outsole, are timeless and easy to wear yet make a statement wherever they go.​<\/p>",
             "text_style": "body"
           }
         },
         "template--14799812722762__be378c25-a127-4a41-bb69-34e6a503adbf-167407704569493c0b-2": {
           "type": "button",
           "settings": {
-            "button_label": "Shop The Legend",
+            "button_label": "Shop The Melrose Lug Platform",
             "button_link": "shopify:\/\/products\/womens-legend-sneaker-classic-true-navy",
             "use_arrow_link": true,
             "button_style_secondary": false
@@ -542,7 +543,7 @@
         "template--14799812722762__be378c25-a127-4a41-bb69-34e6a503adbf-167407704569493c0b-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Originals_Legend_3.jpg",
+        "image": "shopify:\/\/shop_images\/Melrose-Lug-Feature.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "full_width": false,
@@ -633,7 +634,7 @@
         "template--14799812722762__7c0a84db-778c-4c0c-82cf-aaa1e53006ef-167407704569493c0b-2": {
           "type": "button",
           "settings": {
-            "button_label": "Shop The Baja",
+            "button_label": "Shop The Baja Platform",
             "button_link": "",
             "use_arrow_link": true,
             "button_style_secondary": false
@@ -646,7 +647,7 @@
         "template--14799812722762__7c0a84db-778c-4c0c-82cf-aaa1e53006ef-167407704569493c0b-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/W_Orginals_Baja_Natural.jpg",
+        "image": "shopify:\/\/shop_images\/Baja-Platform-Feature.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "full_width": false,

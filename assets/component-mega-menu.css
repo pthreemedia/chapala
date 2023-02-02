@@ -187,6 +187,15 @@
   li:nth-child(1)
   ul[role="list"]
   li:last-of-type
+  a.mega-menu__link,
+#shopify-section-header
+  nav.header__inline-menu
+  li:nth-child(3)
+  .mega-menu__content
+  ul.mega-menu__list
+  li:nth-child(2)
+  ul[role="list"]
+  li:last-of-type
   a.mega-menu__link {
   color: red;
 }
