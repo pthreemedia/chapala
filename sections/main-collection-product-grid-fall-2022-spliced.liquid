@@ -211,7 +211,7 @@
                   {% unless section.settings.hide_sale_products == true
                     and product.metafields.seavees.is_on_sale == true
                   %}
-                    {%- if product_for_loop_index != 1 and product_for_loop_index == content_grid_position -%}
+                  {%- if product_for_loop_index != 1 and product_for_loop_index == content_grid_position and grid_content_id == collection_handle -%}
                       {% render 'custom-collection-card', block: custom_block %}
                     {%- else -%}
                       <li class="{{ product_for_loop_index }}">
