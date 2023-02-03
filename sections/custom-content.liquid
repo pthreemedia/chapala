@@ -1,0 +1,115 @@
+{{ 'custom-content.css' | asset_url | stylesheet_tag }}
+
+{% style %}
+  .custom-content-grid {
+    gap: {{ section.settings.grid_gap }}rem;
+  }
+{% endstyle %}
+
+<div class="page-width custom-content-wrapper">
+  <div class="custom-content-tabs">
+    <div id="custom-content-womens" class="custom-content-tab active"><h4>WOMENS</h4></div>
+    <div id="custom-content-mens" class="custom-content-tab"><h4>MENS</h4></div>
+  </div>
+
+  <div id="custom-content-womens-grid" class="custom-content-grid">
+    {%- for block in section.blocks -%}
+      {%- if block.settings.grid_content_id == 'womens' -%}
+        <a href="{{ block.settings.link_url }}">
+          <img class="custom-content-image" src="{{ block.settings.grid_content_image | image_url }}" loading="lazy">
+          <h4>{{ block.settings.grid_content_text }}</h4>
+        </a>
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+
+  <div id="custom-content-mens-grid" class="custom-content-grid custom-content-grid-hide">
+    {%- for block in section.blocks -%}
+      {%- if block.settings.grid_content_id == 'mens' -%}
+        <a href="{{ block.settings.link_url }}">
+          <img class="custom-content-image" src="{{ block.settings.grid_content_image | image_url }}" loading="lazy">
+          <h4>{{ block.settings.grid_content_text }}</h4>
+        </a>
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+</div>
+
+<script>
+  window.addEventListener('DOMContentLoaded', function () {
+    const tabs = [...document.querySelectorAll('.custom-content-tab')];
+    const womensTab = document.querySelector('#custom-content-womens');
+    const mensTab = document.querySelector('#custom-content-mens');
+
+    const grids = [...document.querySelectorAll('.custom-content-grid')];
+    const womensGrid = document.querySelector('#custom-content-womens-grid');
+    const mensGrid = document.querySelector('#custom-content-mens-grid');
+
+    tabs.forEach((tab) =>
+      tab.addEventListener('click', () => {
+        tabs.forEach((tab) => tab.classList.remove('active'));
+        grids.forEach((grid) => {
+          grid.classList.add('custom-content-grid-hide');
+          if (grid.getAttribute('id').includes(tab.getAttribute('id'))) {
+            grid.classList.remove('custom-content-grid-hide');
+          }
+        });
+        tab.classList.add('active');
+      })
+    );
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Custom Content",
+  "tag": "section",
+  "class": "section custom-content-wrapper",
+  "settings": [
+    {
+      "type": "range",
+      "id": "grid_gap",
+      "min": 1,
+      "max": 5,
+      "step": 1,
+      "unit": "rem",
+      "label": "Grid gap",
+      "default": 1
+    }
+  ],
+  "blocks": [
+    {
+      "type": "grid_content",
+      "name": "Grid Content",
+      "settings": [
+        {
+          "type": "text",
+          "id": "grid_content_id",
+          "label": "Content ID",
+          "info": "'grid_content_id' should be either 'womens' or 'mens'. (without quotations and case-sensitive)"
+        },
+        {
+          "type": "text",
+          "id": "grid_content_text",
+          "label": "Grid Content Text"
+        },
+        {
+          "type": "image_picker",
+          "id": "grid_content_image",
+          "label": "Grid Content Image"
+        },
+        {
+          "type": "url",
+          "id": "link_url",
+          "label": "Link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Content"
+    }
+  ]
+}
+{% endschema %}
